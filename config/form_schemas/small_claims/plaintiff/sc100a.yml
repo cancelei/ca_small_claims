@@ -1,0 +1,385 @@
+# SC-100A: Other Plaintiffs or Defendants (Small Claims)
+# California Judicial Council Form
+
+form:
+  code: SC-100A
+  title: "Other Plaintiffs or Defendants (Small Claims)"
+  description: "Use this form to list additional plaintiffs or defendants when there are more than can fit on form SC-100."
+  category: plaintiff
+  pdf_filename: sc100a.pdf
+  instructions: |
+    Use this form if you have more than two plaintiffs or defendants.
+
+    Attach this form to your Plaintiff's Claim (SC-100) or Defendant's Claim (SC-120).
+
+sections:
+  case_info:
+    title: "Case Information"
+    description: "Enter the case number"
+    fields:
+      - name: case_number
+        pdf_field_name: "topmostSubform[0].Page1[0].P1Header2_gp[0].CaseNumber_ft[0]"
+        type: text
+        label: "Case Number"
+        required: true
+        shared_key: case_number
+        width: half
+
+  attachment_info:
+    title: "Attachment Information"
+    description: "Check which form this is attached to"
+    fields:
+      - name: attached_to_sc100
+        pdf_field_name: "topmostSubform[0].Page1[0].CheckBox6[1]"
+        type: checkbox
+        label: "This form is attached to form SC-100, item 1 or 2"
+        required: false
+        width: full
+
+  other_plaintiffs:
+    title: "1. Other Plaintiffs"
+    description: "List additional plaintiffs"
+    fields:
+      - name: more_plaintiffs_attached
+        pdf_field_name: "topmostSubform[0].Page1[0].CheckBox6[0]"
+        type: checkbox
+        label: "Check here if more than 4 plaintiffs and fill out and attach another form SC-100A"
+        required: false
+        width: full
+
+      - name: plaintiff3_name
+        pdf_field_name: "topmostSubform[0].Page1[0].FillText42[0]"
+        type: text
+        label: "Other plaintiff's name"
+        required: false
+        width: full
+
+      - name: plaintiff3_street
+        pdf_field_name: "topmostSubform[0].Page1[0].FillText41[0]"
+        type: text
+        label: "Street address"
+        required: false
+        width: full
+
+      - name: plaintiff3_city
+        pdf_field_name: "topmostSubform[0].Page1[0].FillText40[0]"
+        type: text
+        label: "City"
+        required: false
+        width: third
+
+      - name: plaintiff3_state
+        pdf_field_name: "topmostSubform[0].Page1[0].T100[0]"
+        type: text
+        label: "State"
+        required: false
+        default: "CA"
+        width: third
+
+      - name: plaintiff3_zip
+        pdf_field_name: "topmostSubform[0].Page1[0].T96[0]"
+        type: text
+        label: "ZIP"
+        required: false
+        width: third
+
+      - name: plaintiff3_mailing
+        pdf_field_name: "topmostSubform[0].Page1[0].T86[0]"
+        type: text
+        label: "Mailing address (if different)"
+        required: false
+        width: full
+
+      - name: plaintiff3_over_2500_yes
+        pdf_field_name: "topmostSubform[0].Page1[0].CheckBox8[0]"
+        type: radio
+        label: "Does this person's claim involve more than $2,500?"
+        required: false
+        options:
+          - value: "1"
+            label: "Yes"
+        width: half
+
+      - name: plaintiff3_over_2500_no
+        pdf_field_name: "topmostSubform[0].Page1[0].CheckBox8[1]"
+        type: radio
+        label: ""
+        required: false
+        options:
+          - value: "2"
+            label: "No"
+        width: half
+
+      - name: plaintiff4_name
+        pdf_field_name: "topmostSubform[0].Page1[0].FillText42[3]"
+        type: text
+        label: "Other plaintiff's name"
+        required: false
+        width: full
+
+      - name: plaintiff4_street
+        pdf_field_name: "topmostSubform[0].Page1[0].FillText41[1]"
+        type: text
+        label: "Street address"
+        required: false
+        width: full
+
+      - name: plaintiff4_city
+        pdf_field_name: "topmostSubform[0].Page1[0].FillText40[1]"
+        type: text
+        label: "City"
+        required: false
+        width: third
+
+      - name: plaintiff4_state
+        pdf_field_name: "topmostSubform[0].Page1[0].T100[1]"
+        type: text
+        label: "State"
+        required: false
+        default: "CA"
+        width: third
+
+      - name: plaintiff4_zip
+        pdf_field_name: "topmostSubform[0].Page1[0].T96[1]"
+        type: text
+        label: "ZIP"
+        required: false
+        width: third
+
+      - name: plaintiff4_mailing
+        pdf_field_name: "topmostSubform[0].Page1[0].T86[1]"
+        type: text
+        label: "Mailing address (if different)"
+        required: false
+        width: full
+
+      - name: plaintiff4_over_2500_yes
+        pdf_field_name: "topmostSubform[0].Page1[0].More2500_cb[1]"
+        type: radio
+        label: "Does this person's claim involve more than $2,500?"
+        required: false
+        options:
+          - value: "1"
+            label: "Yes"
+        width: half
+
+      - name: plaintiff4_over_2500_no
+        pdf_field_name: "topmostSubform[0].Page1[0].More2500_cb[0]"
+        type: radio
+        label: ""
+        required: false
+        options:
+          - value: "2"
+            label: "No"
+        width: half
+
+  other_defendants:
+    title: "2. Other Defendants"
+    description: "List additional defendants"
+    fields:
+      - name: more_defendants_attached
+        pdf_field_name: "topmostSubform[0].Page1[0].CheckBox1[0]"
+        type: checkbox
+        label: "Check here if your case is against more than two defendants, and fill out and attach another form SC-100A"
+        required: false
+        width: full
+
+      - name: defendant3_name
+        pdf_field_name: "topmostSubform[0].Page1[0].FillText42[1]"
+        type: text
+        label: "Other defendant's name"
+        required: false
+        width: full
+
+      - name: defendant3_street
+        pdf_field_name: "topmostSubform[0].Page1[0].FillText41[2]"
+        type: text
+        label: "Street address"
+        required: false
+        width: full
+
+      - name: defendant3_city
+        pdf_field_name: "topmostSubform[0].Page1[0].FillText40[2]"
+        type: text
+        label: "City"
+        required: false
+        width: third
+
+      - name: defendant3_state
+        pdf_field_name: "topmostSubform[0].Page1[0].T100[2]"
+        type: text
+        label: "State"
+        required: false
+        default: "CA"
+        width: third
+
+      - name: defendant3_zip
+        pdf_field_name: "topmostSubform[0].Page1[0].T96[2]"
+        type: text
+        label: "ZIP"
+        required: false
+        width: third
+
+      - name: defendant3_mailing
+        pdf_field_name: "topmostSubform[0].Page1[0].T86[2]"
+        type: text
+        label: "Mailing address (if different)"
+        required: false
+        width: full
+
+      - name: defendant3_phone
+        pdf_field_name: "topmostSubform[0].Page1[0].FillText104[0]"
+        type: tel
+        label: "Phone"
+        required: false
+        width: half
+
+      - name: defendant3_doing_business_yes
+        pdf_field_name: "topmostSubform[0].Page1[0].CheckBox2[0]"
+        type: radio
+        label: "Is this person doing business under a different name?"
+        required: false
+        options:
+          - value: "1"
+            label: "Yes"
+        width: half
+
+      - name: defendant3_doing_business_no
+        pdf_field_name: "topmostSubform[0].Page1[0].CheckBox2[1]"
+        type: radio
+        label: ""
+        required: false
+        options:
+          - value: "2"
+            label: "No"
+        width: half
+
+      - name: defendant4_name
+        pdf_field_name: "topmostSubform[0].Page1[0].FillText42[2]"
+        type: text
+        label: "Name"
+        required: false
+        width: full
+
+      - name: defendant4_job_title
+        pdf_field_name: "topmostSubform[0].Page1[0].FillText42[4]"
+        type: text
+        label: "Job title, if known"
+        required: false
+        width: half
+
+      - name: defendant4_street
+        pdf_field_name: "topmostSubform[0].Page1[0].FillText41[3]"
+        type: text
+        label: "Address"
+        required: false
+        width: full
+
+      - name: defendant4_city
+        pdf_field_name: "topmostSubform[0].Page1[0].FillText40[3]"
+        type: text
+        label: "City"
+        required: false
+        width: third
+
+      - name: defendant4_state
+        pdf_field_name: "topmostSubform[0].Page1[0].T100[3]"
+        type: text
+        label: "State"
+        required: false
+        default: "CA"
+        width: third
+
+      - name: defendant4_zip
+        pdf_field_name: "topmostSubform[0].Page1[0].T103[1]"
+        type: text
+        label: "ZIP"
+        required: false
+        width: third
+
+      - name: defendant4_phone
+        pdf_field_name: "topmostSubform[0].Page1[0].FillText104[1]"
+        type: tel
+        label: "Phone"
+        required: false
+        width: half
+
+  agent_for_service:
+    title: "3. Agent for Service of Process"
+    description: "If defendant is a business, list the agent for service of process"
+    fields:
+      - name: agent_name
+        pdf_field_name: "topmostSubform[0].Page1[0].FillText40[4]"
+        type: text
+        label: "Agent's Name"
+        required: false
+        width: full
+
+      - name: agent_street
+        pdf_field_name: "topmostSubform[0].Page1[0].FillText40[5]"
+        type: text
+        label: "Street Address"
+        required: false
+        width: full
+
+      - name: agent_city
+        pdf_field_name: "topmostSubform[0].Page1[0].FillText40[6]"
+        type: text
+        label: "City"
+        required: false
+        width: third
+
+      - name: agent_state
+        pdf_field_name: "topmostSubform[0].Page1[0].T100[4]"
+        type: text
+        label: "State"
+        required: false
+        default: "CA"
+        width: third
+
+      - name: agent_zip
+        pdf_field_name: "topmostSubform[0].Page1[0].T103[2]"
+        type: text
+        label: "ZIP"
+        required: false
+        width: third
+
+      - name: agent_phone
+        pdf_field_name: "topmostSubform[0].Page1[0].FillText104[2]"
+        type: tel
+        label: "Phone"
+        required: false
+        width: half
+
+  signature:
+    title: "Signature"
+    description: "Sign and date this form"
+    fields:
+      - name: signature1_date
+        pdf_field_name: "topmostSubform[0].Page1[0].FillText5[0]"
+        type: date
+        label: "Date"
+        required: true
+        default: today
+        width: half
+
+      - name: signature1_name
+        pdf_field_name: "topmostSubform[0].Page1[0].FillText105[0]"
+        type: text
+        label: "Type or print your name"
+        required: true
+        width: half
+
+      - name: signature2_date
+        pdf_field_name: "topmostSubform[0].Page1[0].FillText106[0]"
+        type: date
+        label: "Date (second plaintiff)"
+        required: false
+        width: half
+
+      - name: signature2_name
+        pdf_field_name: "topmostSubform[0].Page1[0].FillText107[0]"
+        type: text
+        label: "Type or print your name (second plaintiff)"
+        required: false
+        width: half

@@ -1,0 +1,366 @@
+# SC-223: Response to Request to Make Payments (Small Claims)
+# California Judicial Council Form
+
+form:
+  code: SC-223
+  title: "Response to Request to Make Payments (Small Claims)"
+  description: "Use this form to respond to a Request to Make Payments filed by the judgment debtor."
+  category: judgment
+  pdf_filename: sc223.pdf
+  instructions: |
+    Use this form if you are the judgment creditor (the person who won money)
+    and the judgment debtor has filed a Request to Make Payments.
+
+    You can use this form to:
+    - Accept the proposed payment plan
+    - Propose a different payment plan
+    - Object to the payment plan
+
+    File this form with the court and serve a copy on the judgment debtor.
+
+sections:
+  case_info:
+    title: "Case Information"
+    description: "Court and case information"
+    fields:
+      - name: court_name
+        pdf_field_name: "SC-223[0].Page1[0].rightCaption[0].CRT[0].CourtInfo[0]"
+        type: text
+        label: "Superior Court of California, County of"
+        placeholder: "Los Angeles"
+        required: true
+        shared_key: court_county
+        width: full
+
+      - name: case_name
+        pdf_field_name: "SC-223[0].Page1[0].rightCaption[0].CSN[0].CaseName[0]"
+        type: text
+        label: "Case Name"
+        placeholder: "Plaintiff Name vs. Defendant Name"
+        required: true
+        width: full
+
+      - name: case_number
+        pdf_field_name: "SC-223[0].Page1[0].rightCaption[0].CSN[0].CaseNumber[0]"
+        type: text
+        label: "Case Number"
+        required: true
+        shared_key: case_number
+        width: half
+
+  creditor_info:
+    title: "1. My Information (Judgment Creditor)"
+    description: "Your contact information"
+    fields:
+      - name: creditor_name
+        pdf_field_name: "SC-223[0].Page1[0].List1[0].item1[0].FillText01[0]"
+        type: text
+        label: "My name is"
+        required: true
+        width: full
+
+      - name: creditor_address
+        pdf_field_name: "SC-223[0].Page1[0].List1[0].item1[0].FillText02[0]"
+        type: textarea
+        label: "Mailing address"
+        required: true
+        rows: 2
+        width: full
+
+      - name: creditor_phone
+        pdf_field_name: "SC-223[0].Page1[0].List1[0].item1[0].FillText04[0]"
+        type: tel
+        label: "Phone"
+        required: true
+        width: half
+
+      - name: creditor_email
+        pdf_field_name: "SC-223[0].Page1[0].List1[0].item1[0].FillText05[0]"
+        type: text
+        label: "Email (optional)"
+        required: false
+        width: half
+
+  debtor_info:
+    title: "2. Judgment Debtor Information"
+    description: "Information about the person who owes money"
+    fields:
+      - name: debtor_name
+        pdf_field_name: "SC-223[0].Page1[0].List2[0].item2[0].FillText03[0]"
+        type: text
+        label: "Name"
+        required: true
+        width: full
+
+      - name: debtor_address
+        pdf_field_name: "SC-223[0].Page1[0].List2[0].item2[0].FillText04[0]"
+        type: textarea
+        label: "Mailing address"
+        required: true
+        rows: 2
+        width: full
+
+      - name: debtor_phone
+        pdf_field_name: "SC-223[0].Page1[0].List2[0].item2[0].FillText05[0]"
+        type: tel
+        label: "Phone"
+        required: false
+        width: half
+
+      - name: debtor_email
+        pdf_field_name: "SC-223[0].Page1[0].List2[0].item2[0].FillText13[0]"
+        type: text
+        label: "Email (optional)"
+        required: false
+        width: half
+
+  judgment_info:
+    title: "3. Judgment Information"
+    description: "Information about the judgment"
+    fields:
+      - name: judgment_date
+        pdf_field_name: "SC-223[0].Page1[0].List3[0].item3[0].Date1[0]"
+        type: date
+        label: "On (date)"
+        required: true
+        width: half
+
+      - name: judgment_amount
+        pdf_field_name: "SC-223[0].Page1[0].List3[0].item3[0].FillText13[0]"
+        type: currency
+        label: "Judgment amount"
+        required: true
+        width: half
+
+  proposed_payments:
+    title: "4. Payment Schedule I Propose"
+    description: "Your proposed payment terms"
+    fields:
+      - name: regular_payments
+        pdf_field_name: "SC-223[0].Page1[0].List4[0].Lia[0].Ch1[0]"
+        type: checkbox
+        label: "a. Payments of"
+        required: false
+        width: full
+
+      - name: payment_amount
+        pdf_field_name: "SC-223[0].Page1[0].List4[0].Lia[0].FillText2[0]"
+        type: currency
+        label: "Dollar amount"
+        required: false
+        conditions:
+          show_when:
+            field: regular_payments
+            value: true
+        width: quarter
+
+      - name: payment_day
+        pdf_field_name: "SC-223[0].Page1[0].List4[0].Lia[0].FillText3[0]"
+        type: text
+        label: "On the (day)"
+        required: false
+        conditions:
+          show_when:
+            field: regular_payments
+            value: true
+        width: quarter
+
+      - name: payment_period
+        pdf_field_name: "SC-223[0].Page1[0].List4[0].Lia[0].FillText4[0]"
+        type: text
+        label: "Of each (month, week, other)"
+        required: false
+        conditions:
+          show_when:
+            field: regular_payments
+            value: true
+        width: quarter
+
+      - name: start_date
+        pdf_field_name: "SC-223[0].Page1[0].List4[0].Lia[0].Date3[0]"
+        type: date
+        label: "Starting (date)"
+        required: false
+        conditions:
+          show_when:
+            field: regular_payments
+            value: true
+        width: quarter
+
+      - name: final_date
+        pdf_field_name: "SC-223[0].Page1[0].List4[0].Lia[0].DateField1[0]"
+        type: date
+        label: "Until (date of final payment)"
+        required: false
+        conditions:
+          show_when:
+            field: regular_payments
+            value: true
+        width: quarter
+
+      - name: final_amount
+        pdf_field_name: "SC-223[0].Page1[0].List4[0].Lia[0].FillText5[0]"
+        type: currency
+        label: "Amount of final payment"
+        required: false
+        conditions:
+          show_when:
+            field: regular_payments
+            value: true
+        width: quarter
+
+      - name: other_schedule
+        pdf_field_name: "SC-223[0].Page1[0].List4[0].Lib[0].Ch2[0]"
+        type: checkbox
+        label: "b. Other payment schedule"
+        required: false
+        width: full
+
+      - name: other_schedule_specify
+        pdf_field_name: "SC-223[0].Page1[0].List4[0].Lib[0].FillText11[0]"
+        type: textarea
+        label: "Specify other payment schedule"
+        required: false
+        rows: 2
+        conditions:
+          show_when:
+            field: other_schedule
+            value: true
+        width: full
+
+      - name: first_payment_date
+        pdf_field_name: "SC-223[0].Page1[0].List4[0].Date2[0]"
+        type: date
+        label: "First payment due on (date)"
+        required: false
+        width: half
+
+  payments_made:
+    title: "5. Payments Already Made"
+    description: "List payments already received"
+    fields:
+      - name: need_more_space
+        pdf_field_name: "SC-223[0].Page1[0].List5[0].Ch4[0]"
+        type: checkbox
+        label: "Check here if not enough space. List on separate page labeled 'SC-223, Item 5'"
+        required: false
+        width: full
+
+      - name: payment1_date
+        pdf_field_name: "SC-223[0].Page1[0].List5[0].Table[0].Date1\\.0\\.1[0]"
+        type: date
+        label: "Payment 1 Date"
+        required: false
+        width: quarter
+
+      - name: payment1_amount
+        pdf_field_name: "SC-223[0].Page1[0].List5[0].Table[0].Amount1[0]"
+        type: currency
+        label: "Amount"
+        required: false
+        width: quarter
+
+      - name: payment2_date
+        pdf_field_name: "SC-223[0].Page1[0].List5[0].Table[0].Date1\\.0\\.2[0]"
+        type: date
+        label: "Payment 2 Date"
+        required: false
+        width: quarter
+
+      - name: payment2_amount
+        pdf_field_name: "SC-223[0].Page1[0].List5[0].Table[0].Amount2[0]"
+        type: currency
+        label: "Amount"
+        required: false
+        width: quarter
+
+      - name: payment3_date
+        pdf_field_name: "SC-223[0].Page1[0].List5[0].Table[0].Date1\\.0\\.3[0]"
+        type: date
+        label: "Payment 3 Date"
+        required: false
+        width: quarter
+
+      - name: payment3_amount
+        pdf_field_name: "SC-223[0].Page1[0].List5[0].Table[0].Amount3[0]"
+        type: currency
+        label: "Amount"
+        required: false
+        width: quarter
+
+      - name: payment4_date
+        pdf_field_name: "SC-223[0].Page1[0].List5[0].Table[0].Date1\\.0\\.4[0]"
+        type: date
+        label: "Payment 4 Date"
+        required: false
+        width: quarter
+
+      - name: payment4_amount
+        pdf_field_name: "SC-223[0].Page1[0].List5[0].Table[0].Amount4[0]"
+        type: currency
+        label: "Amount"
+        required: false
+        width: quarter
+
+  balance_owed:
+    title: "6. Balance Owed"
+    description: "Current balance on the judgment"
+    fields:
+      - name: total_payments
+        pdf_field_name: "SC-223[0].Page1[0].List6[0].item6[0].FillText16[0]"
+        type: currency
+        label: "Total payments received"
+        required: false
+        width: half
+
+      - name: balance_owed
+        pdf_field_name: "SC-223[0].Page1[0].List6[0].item6[0].FillText17[0]"
+        type: currency
+        label: "Balance owed"
+        required: false
+        width: half
+
+  interest:
+    title: "7. Interest Owed"
+    description: "Interest calculation"
+    fields:
+      - name: interest_amount
+        pdf_field_name: "SC-223[0].Page1[0].List7[0].item7[0].FillText17[0]"
+        type: currency
+        label: "Interest owed"
+        required: false
+        width: half
+
+      - name: need_more_space_interest
+        pdf_field_name: "SC-223[0].Page1[0].List7[0].item7[0].Ch9[0]"
+        type: checkbox
+        label: "Check if more space needed. Explain on separate page labeled 'SC-223, Item 7'"
+        required: false
+        width: full
+
+      - name: interest_calculation
+        pdf_field_name: "SC-223[0].Page1[0].List7[0].item7[0].FillText30[0]"
+        type: textarea
+        label: "Explain how you calculated interest"
+        required: false
+        rows: 3
+        width: full
+
+  signature:
+    title: "Signature"
+    description: "Sign and date the response"
+    fields:
+      - name: signature_date
+        pdf_field_name: "SC-223[0].Page1[0].Declaration[0].SigDate[0]"
+        type: date
+        label: "Date"
+        required: true
+        default: today
+        width: half
+
+      - name: signature_name
+        pdf_field_name: "SC-223[0].Page1[0].Declaration[0].PrintName[0]"
+        type: text
+        label: "Type or print your name"
+        required: true
+        width: half

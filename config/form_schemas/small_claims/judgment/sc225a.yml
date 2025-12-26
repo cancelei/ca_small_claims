@@ -1,0 +1,275 @@
+# SC-225A: Attachment to Order on Request to Terminate or Modify Payment Order (Small Claims)
+# California Judicial Council Form
+
+form:
+  code: SC-225A
+  title: "Attachment to Order on Request to Terminate or Modify Payment Order (Small Claims)"
+  description: "This is an attachment form for additional payment schedule details on form SC-225."
+  category: judgment
+  pdf_filename: sc225a.pdf
+  instructions: |
+    This form is an attachment to SC-225 when additional space is needed for:
+    - Detailed payment schedules
+    - Modified payment terms
+    - Other court orders
+
+sections:
+  case_info:
+    title: "Case Information"
+    description: "Enter the case number"
+    fields:
+      - name: case_number
+        pdf_field_name: "CaseNumber"
+        type: text
+        label: "Case Number"
+        required: true
+        shared_key: case_number
+        width: half
+
+  payment_schedule:
+    title: "1. Payment Schedule"
+    description: "Detailed payment schedule"
+    fields:
+      - name: has_payment_schedule
+        pdf_field_name: "CheckBox01"
+        type: checkbox
+        label: "Payment schedule"
+        required: false
+        width: full
+
+      - name: payment1_date
+        pdf_field_name: "FillText1.0"
+        type: date
+        label: "Payment 1 Date"
+        required: false
+        width: quarter
+
+      - name: payment1_amount
+        pdf_field_name: "FillText26.0"
+        type: currency
+        label: "Amount"
+        required: false
+        width: quarter
+
+      - name: payment2_date
+        pdf_field_name: "FillText1.1"
+        type: date
+        label: "Payment 2 Date"
+        required: false
+        width: quarter
+
+      - name: payment2_amount
+        pdf_field_name: "FillText26.1"
+        type: currency
+        label: "Amount"
+        required: false
+        width: quarter
+
+      - name: payment3_date
+        pdf_field_name: "FillText1.2"
+        type: date
+        label: "Payment 3 Date"
+        required: false
+        width: quarter
+
+      - name: payment3_amount
+        pdf_field_name: "FillText26.2"
+        type: currency
+        label: "Amount"
+        required: false
+        width: quarter
+
+      - name: payment4_date
+        pdf_field_name: "FillText1.3"
+        type: date
+        label: "Payment 4 Date"
+        required: false
+        width: quarter
+
+      - name: payment4_amount
+        pdf_field_name: "FillText26.3"
+        type: currency
+        label: "Amount"
+        required: false
+        width: quarter
+
+      - name: payment5_date
+        pdf_field_name: "FillText1.4"
+        type: date
+        label: "Payment 5 Date"
+        required: false
+        width: quarter
+
+      - name: payment5_amount
+        pdf_field_name: "FillText26.4"
+        type: currency
+        label: "Amount"
+        required: false
+        width: quarter
+
+      - name: payment6_amount
+        pdf_field_name: "FillText26.5"
+        type: currency
+        label: "Payment 6 Amount"
+        required: false
+        width: quarter
+
+      - name: payment7_amount
+        pdf_field_name: "FillText26.6"
+        type: currency
+        label: "Payment 7 Amount"
+        required: false
+        width: quarter
+
+      - name: payment8_amount
+        pdf_field_name: "FillText26.7"
+        type: currency
+        label: "Payment 8 Amount"
+        required: false
+        width: quarter
+
+      - name: payment9_amount
+        pdf_field_name: "FillText26.8"
+        type: currency
+        label: "Payment 9 Amount"
+        required: false
+        width: quarter
+
+      - name: payment10_amount
+        pdf_field_name: "FillText26.9"
+        type: currency
+        label: "Payment 10 Amount"
+        required: false
+        width: quarter
+
+      - name: payment11_amount
+        pdf_field_name: "FillText26.10"
+        type: currency
+        label: "Payment 11 Amount"
+        required: false
+        width: quarter
+
+      - name: payment12_amount
+        pdf_field_name: "FillText26.11"
+        type: currency
+        label: "Payment 12 Amount"
+        required: false
+        width: quarter
+
+      - name: other_schedule1
+        pdf_field_name: "OtherSched1"
+        type: textarea
+        label: "Other schedule (line 1)"
+        required: false
+        rows: 2
+        width: full
+
+      - name: other_schedule2
+        pdf_field_name: "OtherSched2"
+        type: textarea
+        label: "Other schedule (line 2)"
+        required: false
+        rows: 2
+        width: full
+
+      - name: need_more_space
+        pdf_field_name: "CBOverflow"
+        type: checkbox
+        label: "Continue on additional page"
+        required: false
+        width: full
+
+      - name: total_payments
+        pdf_field_name: "TotalPaymnt"
+        type: currency
+        label: "Total of payments"
+        required: false
+        width: half
+
+  modified_order:
+    title: "2. Modified Payment Order"
+    description: "If the payment order is being modified"
+    fields:
+      - name: has_modified_order
+        pdf_field_name: "CheckBox02"
+        type: checkbox
+        label: "Modified payment order"
+        required: false
+        width: full
+
+      - name: modification1
+        pdf_field_name: "Payment1"
+        type: checkbox
+        label: "Modification 1"
+        required: false
+        width: full
+
+      - name: modification2
+        pdf_field_name: "Payment2"
+        type: checkbox
+        label: "Modification 2"
+        required: false
+        width: full
+
+      - name: modification3
+        pdf_field_name: "Payment3"
+        type: checkbox
+        label: "Modification 3"
+        required: false
+        width: full
+
+      - name: modification4
+        pdf_field_name: "Payment4"
+        type: checkbox
+        label: "Modification 4"
+        required: false
+        width: full
+
+      - name: modification_details1
+        pdf_field_name: "FillText27"
+        type: textarea
+        label: "Modification details (line 1)"
+        required: false
+        rows: 2
+        width: full
+
+      - name: modification_details2
+        pdf_field_name: "FillText28"
+        type: textarea
+        label: "Modification details (line 2)"
+        required: false
+        rows: 2
+        width: full
+
+  other_orders:
+    title: "3. Other Orders"
+    description: "Additional court orders"
+    fields:
+      - name: other_orders
+        pdf_field_name: "FillText29"
+        type: textarea
+        label: "Other orders"
+        required: false
+        rows: 4
+        width: full
+
+      - name: order_amount1
+        pdf_field_name: "FillText15"
+        type: currency
+        label: "Amount 1"
+        required: false
+        width: half
+
+      - name: order_amount2
+        pdf_field_name: "FillText17"
+        type: currency
+        label: "Amount 2"
+        required: false
+        width: half
+
+      - name: order_amount3
+        pdf_field_name: "FillText18"
+        type: currency
+        label: "Amount 3"
+        required: false
+        width: half

@@ -1,0 +1,311 @@
+# SC-112A: Proof of Service by First-Class Mail (Small Claims)
+# California Judicial Council Form
+
+form:
+  code: SC-112A
+  title: "Proof of Service by First-Class Mail (Small Claims)"
+  description: "Use this form to prove you mailed a document to the other parties in a small claims case."
+  category: service
+  pdf_filename: sc112a.pdf
+  instructions: |
+    Use this form to prove you served a document by mail.
+
+    You can serve these documents by mail:
+    - SC-105 (Request for Court Order and Answer)
+    - SC-109 (Authorization to Appear)
+    - SC-114 (Request to Amend Claim Before Hearing)
+    - SC-133 (Judgment Debtor's Statement of Assets)
+    - SC-150 (Request to Postpone Trial)
+    - Other documents allowed to be served by mail
+
+    The person who mails the documents must fill out this form. You cannot serve your own documents.
+
+sections:
+  case_info:
+    title: "Case Information"
+    description: "Enter the case number"
+    fields:
+      - name: case_number
+        pdf_field_name: "SC-112A[0].Page1[0].Header[0].CaseNumber_ft[0]"
+        type: text
+        label: "Case Number"
+        required: true
+        shared_key: case_number
+        width: half
+
+  server_info:
+    title: "1. Server Information"
+    description: "Information about the person who mailed the documents"
+    fields:
+      - name: server_name
+        pdf_field_name: "SC-112A[0].Page1[0].List1[0].Item1[0].FillText01[0]"
+        type: text
+        label: "Name"
+        required: true
+        width: two_thirds
+
+      - name: server_phone
+        pdf_field_name: "SC-112A[0].Page1[0].List1[0].Item1[0].FillText02[0]"
+        type: tel
+        label: "Phone"
+        required: true
+        width: third
+
+      - name: server_address
+        pdf_field_name: "SC-112A[0].Page1[0].List1[0].Item1[0].FillText03[0]"
+        type: text
+        label: "Street or Mailing Address"
+        required: true
+        width: full
+
+      - name: server_city
+        pdf_field_name: "SC-112A[0].Page1[0].List1[0].Item1[0].FillText04[0]"
+        type: text
+        label: "City"
+        required: true
+        width: third
+
+      - name: server_state
+        pdf_field_name: "SC-112A[0].Page1[0].List1[0].Item1[0].FillText05[0]"
+        type: text
+        label: "State"
+        required: true
+        default: "CA"
+        width: third
+
+      - name: server_zip
+        pdf_field_name: "SC-112A[0].Page1[0].List1[0].Item1[0].FillText06[0]"
+        type: text
+        label: "ZIP Code"
+        required: true
+        width: third
+
+      - name: is_process_server
+        pdf_field_name: "SC-112A[0].Page1[0].List1[0].Item1[0].CheckBox1[0]"
+        type: checkbox
+        label: "Check here if you are a registered process server"
+        required: false
+        width: full
+
+      - name: process_server_county
+        pdf_field_name: "SC-112A[0].Page1[0].List1[0].Item1[0].FillText07[0]"
+        type: text
+        label: "County where registered"
+        required: false
+        conditions:
+          show_when:
+            field: is_process_server
+            value: true
+        width: half
+
+      - name: process_server_number
+        pdf_field_name: "SC-112A[0].Page1[0].List1[0].Item1[0].FillText08[0]"
+        type: text
+        label: "Registration Number"
+        required: false
+        conditions:
+          show_when:
+            field: is_process_server
+            value: true
+        width: half
+
+  documents_served:
+    title: "2. Documents Served"
+    description: "Select which documents you mailed"
+    fields:
+      - name: served_sc105
+        pdf_field_name: "SC-112A[0].Page1[0].List2[0].Lia[0].CheckBox2[0]"
+        type: checkbox
+        label: "a. Form SC-105, Request for Court Order and Answer"
+        required: false
+        width: full
+
+      - name: served_sc109
+        pdf_field_name: "SC-112A[0].Page1[0].List2[0].Lib[0].CheckBox3[0]"
+        type: checkbox
+        label: "b. Form SC-109, Authorization to Appear"
+        required: false
+        width: full
+
+      - name: served_sc114
+        pdf_field_name: "SC-112A[0].Page1[0].List2[0].Lic[0].CheckBox4[0]"
+        type: checkbox
+        label: "c. Form SC-114, Request to Amend Claim Before Hearing"
+        required: false
+        width: full
+
+      - name: served_sc133
+        pdf_field_name: "SC-112A[0].Page1[0].List2[0].Lid[0].CheckBox5[0]"
+        type: checkbox
+        label: "d. Form SC-133, Judgment Debtor's Statement of Assets"
+        required: false
+        width: full
+
+      - name: served_sc150
+        pdf_field_name: "SC-112A[0].Page1[0].List2[0].Lie[0].CheckBox6[0]"
+        type: checkbox
+        label: "e. Form SC-150, Request to Postpone Trial"
+        required: false
+        width: full
+
+      - name: served_sc221
+        pdf_field_name: "SC-112A[0].Page1[0].List2[0].Lif[0].CheckBox7[0]"
+        type: checkbox
+        label: "f. Form SC-221, Response to Request to Make Payments"
+        required: false
+        width: full
+
+      - name: served_other
+        pdf_field_name: "SC-112A[0].Page1[0].List2[0].Lig[0].CheckBox8[0]"
+        type: checkbox
+        label: "g. Other document allowed to be served by mail"
+        required: false
+        width: full
+
+      - name: other_document
+        pdf_field_name: "SC-112A[0].Page1[0].List2[0].Lig[0].TextField[0]"
+        type: text
+        label: "Specify other document"
+        required: false
+        conditions:
+          show_when:
+            field: served_other
+            value: true
+        width: full
+
+      - name: need_more_space_docs
+        pdf_field_name: "SC-112A[0].Page1[0].List2[0].Lig[0].CheckBox9[0]"
+        type: checkbox
+        label: "Check here if you need more space to list documents. Write 'SC-112A, Item 2' at the top of an additional page."
+        required: false
+        width: full
+
+      - name: other_docs_specify
+        pdf_field_name: "SC-112A[0].Page1[0].List2[0].Lig[0].FillText09[0]"
+        type: textarea
+        label: "Additional documents"
+        required: false
+        rows: 2
+        conditions:
+          show_when:
+            field: served_other
+            value: true
+        width: full
+
+  parties_served:
+    title: "3. Parties Served"
+    description: "List the names and addresses of all parties you mailed the documents to"
+    fields:
+      - name: need_more_space_parties
+        pdf_field_name: "SC-112A[0].Page1[0].List3[0].Lib[0].CheckBox10[0]"
+        type: checkbox
+        label: "Check here if you need more space to list parties. Write 'SC-112A, Item 3' at the top of an additional page."
+        required: false
+        width: full
+
+      - name: party1_name
+        pdf_field_name: "SC-112A[0].Page1[0].List3[0].Lib[0].Table[0].FillText10\\.11[0]"
+        type: text
+        label: "Party 1 - Name"
+        required: true
+        width: half
+
+      - name: party1_address
+        pdf_field_name: "SC-112A[0].Page1[0].List3[0].Lib[0].Table[0].FillText11\\.11[0]"
+        type: text
+        label: "Party 1 - Mailing Address"
+        required: true
+        width: half
+
+      - name: party2_name
+        pdf_field_name: "SC-112A[0].Page1[0].List3[0].Lib[0].Table[0].FillText10\\.12[0]"
+        type: text
+        label: "Party 2 - Name"
+        required: false
+        width: half
+
+      - name: party2_address
+        pdf_field_name: "SC-112A[0].Page1[0].List3[0].Lib[0].Table[0].FillText11\\.12[0]"
+        type: text
+        label: "Party 2 - Mailing Address"
+        required: false
+        width: half
+
+      - name: party3_name
+        pdf_field_name: "SC-112A[0].Page1[0].List3[0].Lib[0].Table[0].FillText10\\.13[0]"
+        type: text
+        label: "Party 3 - Name"
+        required: false
+        width: half
+
+      - name: party3_address
+        pdf_field_name: "SC-112A[0].Page1[0].List3[0].Lib[0].Table[0].FillText11\\.13[0]"
+        type: text
+        label: "Party 3 - Mailing Address"
+        required: false
+        width: half
+
+      - name: party4_name
+        pdf_field_name: "SC-112A[0].Page1[0].List3[0].Lib[0].Table[0].FillText10\\.14[0]"
+        type: text
+        label: "Party 4 - Name"
+        required: false
+        width: half
+
+      - name: party4_address
+        pdf_field_name: "SC-112A[0].Page1[0].List3[0].Lib[0].Table[0].FillText11\\.14[0]"
+        type: text
+        label: "Party 4 - Mailing Address"
+        required: false
+        width: half
+
+      - name: party5_name
+        pdf_field_name: "SC-112A[0].Page1[0].List3[0].Lib[0].Table[0].FillText10\\.1[0]"
+        type: text
+        label: "Party 5 - Name"
+        required: false
+        width: half
+
+      - name: party5_address
+        pdf_field_name: "SC-112A[0].Page1[0].List3[0].Lib[0].Table[0].FillText11\\.1[0]"
+        type: text
+        label: "Party 5 - Mailing Address"
+        required: false
+        width: half
+
+  mailing_info:
+    title: "Mailing Information"
+    description: "Date and location of mailing"
+    fields:
+      - name: mailing_date
+        pdf_field_name: "SC-112A[0].Page1[0].List3[0].Lic[0].FillText12[0]"
+        type: date
+        label: "Date of Mailing"
+        required: true
+        width: half
+
+      - name: mailing_city_state
+        pdf_field_name: "SC-112A[0].Page1[0].List3[0].Lic[0].FillText13[0]"
+        type: text
+        label: "City and State of Mailing"
+        required: true
+        width: half
+
+  signature:
+    title: "Signature"
+    description: "Sign and date the proof of service"
+    fields:
+      - name: signature_date
+        pdf_field_name: "SC-112A[0].Page1[0].Sign[0].FillText14[0]"
+        type: date
+        label: "Date"
+        required: true
+        default: today
+        width: half
+
+      - name: signature_name
+        pdf_field_name: "SC-112A[0].Page1[0].Sign[0].FillText16[0]"
+        type: text
+        label: "Type or print server's name"
+        required: true
+        width: half

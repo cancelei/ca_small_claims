@@ -1,0 +1,493 @@
+# EJ-001: Abstract of Judgment (Civil)
+# California Judicial Council Form
+
+form:
+  code: EJ-001
+  title: "Abstract of Judgment (Civil)"
+  description: "Use this form to create a lien on the judgment debtor's real property to help collect a money judgment."
+  category: enforcement
+  pdf_filename: ej001.pdf
+  instructions: |
+    Use this form to create a lien on the judgment debtor's real property.
+
+    When you record an abstract of judgment with the county recorder:
+    - It creates a lien on any real property the debtor owns in that county
+    - The lien lasts for 10 years
+    - You can renew the judgment and abstract
+
+    Important:
+    - Get the abstract certified by the court clerk
+    - Record it with the county recorder in each county where the debtor owns property
+
+sections:
+  filer_info:
+    title: "Filer Information"
+    description: "Your contact information"
+    fields:
+      - name: address_line1
+        pdf_field_name: "EJ-001[0].Page1[0].EJHeader[0].AttyPartyInfo[0].Add1_ft[0]"
+        type: text
+        label: "Name/Address Line 1"
+        required: true
+        width: full
+
+      - name: address_line2
+        pdf_field_name: "EJ-001[0].Page1[0].EJHeader[0].AttyPartyInfo[0].Add2[0]"
+        type: text
+        label: "Address Line 2"
+        required: false
+        width: full
+
+      - name: address_line3
+        pdf_field_name: "EJ-001[0].Page1[0].EJHeader[0].AttyPartyInfo[0].Add3[0]"
+        type: text
+        label: "Address Line 3"
+        required: false
+        width: full
+
+      - name: address_line4
+        pdf_field_name: "EJ-001[0].Page1[0].EJHeader[0].AttyPartyInfo[0].Add4[0]"
+        type: text
+        label: "Address Line 4"
+        required: false
+        width: full
+
+      - name: address_line5
+        pdf_field_name: "EJ-001[0].Page1[0].EJHeader[0].AttyPartyInfo[0].Add5[0]"
+        type: text
+        label: "Address Line 5"
+        required: false
+        width: full
+
+      - name: phone
+        pdf_field_name: "EJ-001[0].Page1[0].EJHeader[0].AttyPartyInfo[0].Tel_ft[0]"
+        type: tel
+        label: "Telephone"
+        required: true
+        maxlength: 15
+        width: third
+
+      - name: fax
+        pdf_field_name: "EJ-001[0].Page1[0].EJHeader[0].AttyPartyInfo[0].Fax_ft[0]"
+        type: tel
+        label: "Fax (optional)"
+        required: false
+        maxlength: 15
+        width: third
+
+      - name: email
+        pdf_field_name: "EJ-001[0].Page1[0].EJHeader[0].AttyPartyInfo[0].emailAdd[0]"
+        type: text
+        label: "Email (optional)"
+        required: false
+        width: third
+
+      - name: is_attorney
+        pdf_field_name: "EJ-001[0].Page1[0].EJHeader[0].AttyPartyInfo[0].AttyFor_cb[0]"
+        type: checkbox
+        label: "Attorney for"
+        required: false
+        width: third
+
+      - name: is_judgment_creditor
+        pdf_field_name: "EJ-001[0].Page1[0].EJHeader[0].AttyPartyInfo[0].JudgmentCred_cb[0]"
+        type: checkbox
+        label: "Judgment Creditor"
+        required: false
+        width: third
+
+      - name: is_assignee
+        pdf_field_name: "EJ-001[0].Page1[0].EJHeader[0].AttyPartyInfo[0].Assignee_cb[0]"
+        type: checkbox
+        label: "Assignee of Record"
+        required: false
+        width: third
+
+  court_info:
+    title: "Court Information"
+    description: "Court where judgment was entered"
+    fields:
+      - name: court_county
+        pdf_field_name: "EJ-001[0].Page1[0].EJHeader[0].CrtInfo[0].Crtname_ft[0]"
+        type: text
+        label: "Superior Court of California, County of"
+        required: true
+        shared_key: court_county
+        width: full
+
+      - name: court_street
+        pdf_field_name: "EJ-001[0].Page1[0].EJHeader[0].CrtInfo[0].CrtStreetAdd_ft[0]"
+        type: text
+        label: "Street Address"
+        required: true
+        width: full
+
+      - name: court_mailing
+        pdf_field_name: "EJ-001[0].Page1[0].EJHeader[0].CrtInfo[0].CrtMail_ft[0]"
+        type: text
+        label: "Mailing Address"
+        required: false
+        width: full
+
+      - name: court_city_zip
+        pdf_field_name: "EJ-001[0].Page1[0].EJHeader[0].CrtInfo[0].CrtCityZip_ft[0]"
+        type: text
+        label: "City and ZIP Code"
+        required: true
+        width: full
+
+      - name: court_branch
+        pdf_field_name: "EJ-001[0].Page1[0].EJHeader[0].CrtInfo[0].CrtBranch[0]"
+        type: text
+        label: "Branch Name"
+        required: false
+        width: full
+
+  party_info:
+    title: "Party Information"
+    description: "Names of parties in the case"
+    fields:
+      - name: plaintiff
+        pdf_field_name: "EJ-001[0].Page1[0].EJHeader[0].Party[0].Plaintiff_ft[0]"
+        type: text
+        label: "Plaintiff"
+        required: true
+        shared_key: plaintiff_name
+        width: full
+
+      - name: defendant
+        pdf_field_name: "EJ-001[0].Page1[0].EJHeader[0].Party[0].Defendant_ft[0]"
+        type: text
+        label: "Defendant"
+        required: true
+        width: full
+
+      - name: case_number
+        pdf_field_name: "EJ-001[0].Page1[0].EJHeader[0].CaseNumber[0].CaseNumber_ft[0]"
+        type: text
+        label: "Case Number"
+        required: true
+        shared_key: case_number
+        width: half
+
+      - name: is_amended
+        pdf_field_name: "EJ-001[0].Page1[0].EJHeader[0].frmTitle[0].Sale_cb[0]"
+        type: checkbox
+        label: "Amended"
+        required: false
+        width: half
+
+  judgment_debtor:
+    title: "1. Judgment Debtor"
+    description: "Information about the person who owes money"
+    fields:
+      - name: debtor_is_creditor
+        pdf_field_name: "EJ-001[0].Page1[0].List1[0].CheckBox49[0]"
+        type: checkbox
+        label: "Judgment creditor"
+        required: false
+        width: half
+
+      - name: debtor_is_assignee
+        pdf_field_name: "EJ-001[0].Page1[0].List1[0].CheckBox48[0]"
+        type: checkbox
+        label: "Assignee of record"
+        required: false
+        width: half
+
+      - name: debtor_name_address
+        pdf_field_name: "EJ-001[0].Page1[0].List1[0].lia[0].FillText90[0]"
+        type: textarea
+        label: "a. Name and last known address"
+        required: true
+        rows: 3
+        width: full
+
+      - name: debtor_drivers_license
+        pdf_field_name: "EJ-001[0].Page1[0].List1[0].lib[0].FillText71[0]"
+        type: text
+        label: "b. Driver's license (last 4 digits) and state"
+        required: false
+        width: half
+
+      - name: debtor_dl_unknown
+        pdf_field_name: "EJ-001[0].Page1[0].List1[0].lib[0].CheckBox45[0]"
+        type: checkbox
+        label: "Unknown"
+        required: false
+        width: half
+
+      - name: debtor_ssn
+        pdf_field_name: "EJ-001[0].Page1[0].List1[0].lic[0].FillText70[0]"
+        type: text
+        label: "c. Social security (last 4 digits)"
+        required: false
+        maxlength: 4
+        width: half
+
+      - name: debtor_ssn_unknown
+        pdf_field_name: "EJ-001[0].Page1[0].List1[0].lic[0].CheckBox46[0]"
+        type: checkbox
+        label: "Unknown"
+        required: false
+        width: half
+
+      - name: service_address
+        pdf_field_name: "EJ-001[0].Page1[0].List1[0].lid[0].FillText91[0]"
+        type: textarea
+        label: "d. Summons was served or mailed to"
+        required: false
+        rows: 2
+        width: full
+
+      - name: more_debtors
+        pdf_field_name: "EJ-001[0].Page1[0].leftSub[0].li2[0].CheckBox50[0]"
+        type: checkbox
+        label: "2. Additional judgment debtors on page 2"
+        required: false
+        width: full
+
+  judgment_creditor:
+    title: "3. Judgment Creditor"
+    description: "Information about the person owed money"
+    fields:
+      - name: creditor_name_address
+        pdf_field_name: "EJ-001[0].Page1[0].leftSub[0].li3[0].FillText94[0]"
+        type: textarea
+        label: "Name and address"
+        required: true
+        rows: 3
+        width: full
+
+      - name: more_creditors
+        pdf_field_name: "EJ-001[0].Page1[0].rightSub[0].List4[0].li1[0].CheckBox50[0]"
+        type: checkbox
+        label: "4. Additional judgment creditors on page 2"
+        required: false
+        width: full
+
+  prior_abstract:
+    title: "5. Prior Abstract"
+    description: "If this abstract was previously recorded"
+    fields:
+      - name: prior_abstract
+        pdf_field_name: "EJ-001[0].Page1[0].rightSub[0].List5[0].CheckBox38[0]"
+        type: checkbox
+        label: "Original abstract recorded in this county"
+        required: false
+        width: full
+
+      - name: prior_county
+        pdf_field_name: "EJ-001[0].Page1[0].rightSub[0].List5[0].orgCounty[0]"
+        type: text
+        label: "County where recorded"
+        required: false
+        conditions:
+          show_when:
+            field: prior_abstract
+            value: true
+        width: half
+
+      - name: prior_date
+        pdf_field_name: "EJ-001[0].Page1[0].rightSub[0].List5[0].lia[0].FillText93[0]"
+        type: date
+        label: "a. Date"
+        required: false
+        conditions:
+          show_when:
+            field: prior_abstract
+            value: true
+        width: half
+
+      - name: prior_instrument
+        pdf_field_name: "EJ-001[0].Page1[0].rightSub[0].List5[0].lib[0].FillText92[0]"
+        type: text
+        label: "b. Instrument No."
+        required: false
+        conditions:
+          show_when:
+            field: prior_abstract
+            value: true
+        width: half
+
+  judgment_amounts:
+    title: "Judgment Information"
+    description: "Details about the judgment"
+    fields:
+      - name: judgment_amount
+        pdf_field_name: "EJ-001[0].Page1[0].lSub[0].List6[0].li1[0].FillText97[0]"
+        type: currency
+        label: "6. Total amount of judgment"
+        required: true
+        width: half
+
+      - name: judgment_date
+        pdf_field_name: "EJ-001[0].Page1[0].lSub[0].List8[0].lia[0].FillText102[0]"
+        type: date
+        label: "8a. Judgment entered on"
+        required: true
+        maxlength: 20
+        width: half
+
+      - name: renewal_date
+        pdf_field_name: "EJ-001[0].Page1[0].lSub[0].List8[0].lib[0].FillText101[0]"
+        type: date
+        label: "8b. Renewal entered on"
+        required: false
+        maxlength: 20
+        width: half
+
+      - name: installment_judgment
+        pdf_field_name: "EJ-001[0].Page1[0].lSub[0].List9[0].li1[0].CheckBox35[0]"
+        type: checkbox
+        label: "9. This is an installment judgment"
+        required: false
+        width: full
+
+  liens:
+    title: "10. Lien Information"
+    description: "Any execution or attachment liens"
+    fields:
+      - name: has_lien
+        pdf_field_name: "EJ-001[0].Page1[0].rSub[0].List10[0].CheckBox61[0]"
+        type: checkbox
+        label: "A lien is endorsed on the judgment"
+        required: false
+        width: full
+
+      - name: execution_lien
+        pdf_field_name: "EJ-001[0].Page1[0].rSub[0].List10[0].CheckBox41[0]"
+        type: checkbox
+        label: "Execution lien"
+        required: false
+        conditions:
+          show_when:
+            field: has_lien
+            value: true
+        width: half
+
+      - name: attachment_lien
+        pdf_field_name: "EJ-001[0].Page1[0].rSub[0].List10[0].CheckBox41[1]"
+        type: checkbox
+        label: "Attachment lien"
+        required: false
+        conditions:
+          show_when:
+            field: has_lien
+            value: true
+        width: half
+
+      - name: lien_amount
+        pdf_field_name: "EJ-001[0].Page1[0].rSub[0].List10[0].lia[0].FillText100[0]"
+        type: currency
+        label: "a. Amount"
+        required: false
+        conditions:
+          show_when:
+            field: has_lien
+            value: true
+        width: half
+
+      - name: lien_favor_of
+        pdf_field_name: "EJ-001[0].Page1[0].rSub[0].List10[0].lib[0].FillText99[0]"
+        type: textarea
+        label: "b. In favor of"
+        required: false
+        rows: 2
+        conditions:
+          show_when:
+            field: has_lien
+            value: true
+        width: full
+
+  stay_of_enforcement:
+    title: "11. Stay of Enforcement"
+    description: "Whether enforcement has been stayed"
+    fields:
+      - name: no_stay
+        pdf_field_name: "EJ-001[0].Page1[0].rSub[0].List11[0].lia[0].CheckBox43[0]"
+        type: radio
+        label: "A stay of enforcement has"
+        required: true
+        options:
+          - value: "1"
+            label: "Not been ordered by the court"
+        width: full
+
+      - name: stay_ordered
+        pdf_field_name: "EJ-001[0].Page1[0].rSub[0].List11[0].lib[0].CheckBox44[0]"
+        type: radio
+        label: ""
+        required: false
+        options:
+          - value: "1"
+            label: "Been ordered effective until"
+        width: full
+
+      - name: stay_until_date
+        pdf_field_name: "EJ-001[0].Page1[0].rSub[0].List11[0].lib[0].FillText98[0]"
+        type: date
+        label: "(date)"
+        required: false
+        maxlength: 20
+        conditions:
+          show_when:
+            field: stay_ordered
+            value: "1"
+        width: half
+
+  certification:
+    title: "12. Certification"
+    description: "Certification of the abstract"
+    fields:
+      - name: certify_true
+        pdf_field_name: "EJ-001[0].Page1[0].rSub[0].List12[0].lia[0].CheckBox36[0]"
+        type: checkbox
+        label: "a. I certify this is a true and correct abstract"
+        required: false
+        width: full
+
+      - name: judgment_copy_attached
+        pdf_field_name: "EJ-001[0].Page1[0].rSub[0].List12[0].lib[0].CheckBox37[0]"
+        type: checkbox
+        label: "b. A certified copy of the judgment is attached"
+        required: false
+        width: full
+
+  signature:
+    title: "Signature"
+    description: "Sign and date the abstract"
+    fields:
+      - name: signature_date
+        pdf_field_name: "EJ-001[0].Page1[0].sigDate[0]"
+        type: date
+        label: "Date"
+        required: true
+        default: today
+        width: half
+
+      - name: signature_name
+        pdf_field_name: "EJ-001[0].Page1[0].sigName[0]"
+        type: text
+        label: "Type or print name"
+        required: true
+        width: half
+
+  clerk_section:
+    title: "Clerk's Section"
+    description: "For court clerk use"
+    fields:
+      - name: issue_date
+        pdf_field_name: "EJ-001[0].Page1[0].clrkSeal[0].FillText103[0]"
+        type: date
+        label: "Abstract issued on"
+        required: false
+        maxlength: 20
+        width: half
+
+      - name: clerk_name
+        pdf_field_name: "EJ-001[0].Page1[0].clrkSeal[0].T314[0]"
+        type: text
+        label: "Clerk, by"
+        required: false
+        width: half

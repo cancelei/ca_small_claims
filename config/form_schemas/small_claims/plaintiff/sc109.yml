@@ -1,0 +1,168 @@
+# SC-109: Authorization to Appear (Small Claims)
+# California Judicial Council Form
+
+form:
+  code: SC-109
+  title: "Authorization to Appear (Small Claims)"
+  description: "Use this form to authorize someone else to appear on your behalf in a small claims case."
+  category: plaintiff
+  pdf_filename: sc109.pdf
+  instructions: |
+    Use this form to authorize someone to appear on your behalf at a small claims hearing.
+
+    Who can appear for you:
+    - For individuals: Only a family member or agent can appear
+    - For corporations: An employee, officer, or director
+    - For sole proprietors: A regular employee if the claim does not exceed $2,500
+
+    Important:
+    - File this form with the clerk BEFORE the hearing
+    - Serve a copy on all other parties
+
+sections:
+  case_info:
+    title: "Case Information"
+    description: "Enter the case number"
+    fields:
+      - name: case_number
+        pdf_field_name: "FillText10"
+        type: text
+        label: "Case Number"
+        required: true
+        shared_key: case_number
+        width: half
+
+  party_info:
+    title: "Party Information"
+    description: "Names of the parties in the case"
+    fields:
+      - name: plaintiff_name
+        pdf_field_name: "FillText9"
+        type: text
+        label: "Plaintiff"
+        required: true
+        shared_key: plaintiff_name
+        width: full
+
+      - name: defendant_name
+        pdf_field_name: "FillText8"
+        type: text
+        label: "Defendant"
+        required: true
+        width: full
+
+  authorization:
+    title: "Authorization"
+    description: "Information about who is authorizing and who is appearing"
+    fields:
+      - name: authorizing_party_name
+        pdf_field_name: "FillText1"
+        type: text
+        label: "I (name)"
+        required: true
+        help_text: "Name of person giving authorization"
+        width: full
+
+      - name: authorizing_party_type
+        pdf_field_name: "CheckBox11"
+        type: radio
+        label: "I am"
+        required: true
+        options:
+          - value: "1"
+            label: "Plaintiff"
+          - value: "2"
+            label: "Defendant"
+          - value: "3"
+            label: "Officer of corporation plaintiff"
+          - value: "4"
+            label: "Officer of corporation defendant"
+          - value: "5"
+            label: "Owner of business plaintiff"
+          - value: "6"
+            label: "Owner of business defendant"
+          - value: "7"
+            label: "Other"
+          - value: "8"
+            label: "Other"
+          - value: "9"
+            label: "Other"
+          - value: "10"
+            label: "Other"
+          - value: "12"
+            label: "Other"
+        width: full
+
+      - name: other_specify
+        pdf_field_name: "FillText3"
+        type: text
+        label: "If other, specify"
+        required: false
+        width: full
+
+      - name: authorized_person_name
+        pdf_field_name: "FillText4"
+        type: text
+        label: "I authorize (name)"
+        required: true
+        help_text: "Name of person who will appear at hearing"
+        width: full
+
+      - name: authorized_person_address
+        pdf_field_name: "FillText5"
+        type: text
+        label: "Address"
+        required: true
+        width: full
+
+      - name: authorized_person_phone
+        pdf_field_name: "FillText6"
+        type: tel
+        label: "Phone"
+        required: true
+        width: half
+
+  appearance_type:
+    title: "Scope of Authorization"
+    description: "What the authorized person can do"
+    fields:
+      - name: appear_speak_decide
+        pdf_field_name: "CheckBox12"
+        type: checkbox
+        label: "To appear, speak on my behalf, and decide any or all questions related to this case"
+        required: false
+        width: full
+
+      - name: appear_speak_only
+        pdf_field_name: "CheckBox13"
+        type: checkbox
+        label: "To appear and speak, but NOT to decide, any or all questions related to this case"
+        required: false
+        width: full
+
+  signature:
+    title: "Signature"
+    description: "Sign and date the authorization"
+    fields:
+      - name: signature_date
+        pdf_field_name: "FillText7"
+        type: date
+        label: "Date"
+        required: true
+        default: today
+        width: half
+
+      - name: signature_name
+        pdf_field_name: "FillText11"
+        type: text
+        label: "Type or print name"
+        required: true
+        width: half
+
+      - name: title_if_applicable
+        pdf_field_name: "FillText12"
+        type: text
+        label: "Title (if applicable)"
+        required: false
+        help_text: "E.g., President, Owner, etc."
+        width: half

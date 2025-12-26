@@ -1,0 +1,379 @@
+# SC-225: Order on Request to Terminate or Modify Payment Order (Small Claims)
+# California Judicial Council Form
+
+form:
+  code: SC-225
+  title: "Order on Request to Terminate or Modify Payment Order (Small Claims)"
+  description: "This form is the court's order in response to a request to terminate or modify a payment order."
+  category: judgment
+  pdf_filename: sc225.pdf
+  instructions: |
+    This form is used by the court when a judgment creditor asks to:
+    - Terminate a payment order (so they can collect immediately)
+    - Modify a payment order (change payment terms)
+
+    The court issues this order after reviewing the request and any response.
+
+sections:
+  case_info:
+    title: "Case Information"
+    description: "Court and case information"
+    fields:
+      - name: court_name
+        pdf_field_name: "SC-225[0].Page1[0].Courtinfo[0].court[0].CourtInfo_ft[0]"
+        type: text
+        label: "Superior Court of California, County of"
+        placeholder: "Los Angeles"
+        required: true
+        shared_key: court_county
+        width: full
+
+      - name: case_name
+        pdf_field_name: "SC-225[0].Page1[0].Courtinfo[0].CSN[0].CaseName_ft[0]"
+        type: text
+        label: "Case Name"
+        placeholder: "Plaintiff Name vs. Defendant Name"
+        required: true
+        width: full
+
+      - name: case_number
+        pdf_field_name: "SC-225[0].Page1[0].Courtinfo[0].CSN[0].CaseNumber_ft[0]"
+        type: text
+        label: "Case Number"
+        required: true
+        shared_key: case_number
+        width: half
+
+  judgment_info:
+    title: "1. Judgment Information"
+    description: "Information about the original judgment"
+    fields:
+      - name: judgment_date
+        pdf_field_name: "SC-225[0].Page1[0].List1[0].item1[0].DateField1[0]"
+        type: date
+        label: "A judgment was entered in this case on (date)"
+        required: true
+        width: half
+
+      - name: debtor_name
+        pdf_field_name: "SC-225[0].Page1[0].List1[0].item1[0].T102[0]"
+        type: text
+        label: "Against (name of judgment debtor)"
+        required: true
+        width: full
+
+  payment_order:
+    title: "2. Payment Order"
+    description: "Details of the current payment order"
+    fields:
+      - name: order_date
+        pdf_field_name: "SC-225[0].Page1[0].List2[0].DateField2[0]"
+        type: date
+        label: "On (date), the court ordered that the judgment debtor pay:"
+        required: true
+        width: half
+
+      - name: regular_payments
+        pdf_field_name: "SC-225[0].Page1[0].List2[0].lia[0].CheckBoxRightCaption[0]"
+        type: checkbox
+        label: "a. Payments of"
+        required: false
+        width: full
+
+      - name: payment_amount
+        pdf_field_name: "SC-225[0].Page1[0].List2[0].lia[0].FillText2[0]"
+        type: currency
+        label: "Dollar amount"
+        required: false
+        conditions:
+          show_when:
+            field: regular_payments
+            value: true
+        width: quarter
+
+      - name: payment_day
+        pdf_field_name: "SC-225[0].Page1[0].List2[0].lia[0].FillText3[0]"
+        type: text
+        label: "On the (day)"
+        required: false
+        conditions:
+          show_when:
+            field: regular_payments
+            value: true
+        width: quarter
+
+      - name: payment_period
+        pdf_field_name: "SC-225[0].Page1[0].List2[0].lia[0].FillText4[0]"
+        type: text
+        label: "Of each (month, week, other)"
+        required: false
+        conditions:
+          show_when:
+            field: regular_payments
+            value: true
+        width: quarter
+
+      - name: start_date
+        pdf_field_name: "SC-225[0].Page1[0].List2[0].lia[0].startingdate[0]"
+        type: date
+        label: "Starting (date)"
+        required: false
+        conditions:
+          show_when:
+            field: regular_payments
+            value: true
+        width: quarter
+
+      - name: final_date
+        pdf_field_name: "SC-225[0].Page1[0].List2[0].lia[0].datefinal[0]"
+        type: date
+        label: "Until (date of final payment)"
+        required: false
+        conditions:
+          show_when:
+            field: regular_payments
+            value: true
+        width: quarter
+
+      - name: final_amount
+        pdf_field_name: "SC-225[0].Page1[0].List2[0].lia[0].finalpayment[0]"
+        type: currency
+        label: "Amount of final payment"
+        required: false
+        conditions:
+          show_when:
+            field: regular_payments
+            value: true
+        width: quarter
+
+      - name: see_sc225a
+        pdf_field_name: "SC-225[0].Page1[0].List2[0].Lib[0].FieldName_cb1[0]"
+        type: checkbox
+        label: "b. The payment schedule is stated on form SC-225A, item 1"
+        required: false
+        width: full
+
+  request_filed:
+    title: "3. Request Filed"
+    description: "Information about the creditor's request"
+    fields:
+      - name: request_date
+        pdf_field_name: "SC-225[0].Page1[0].List3[0].item3[0].DateField3[0]"
+        type: date
+        label: "On (date)"
+        required: true
+        width: half
+
+      - name: creditor_name
+        pdf_field_name: "SC-225[0].Page1[0].List3[0].item3[0].FillText06[0]"
+        type: text
+        label: "The judgment creditor (name) filed a request"
+        required: true
+        width: full
+
+  response_filed:
+    title: "4. Response Filed"
+    description: "Whether the debtor responded"
+    fields:
+      - name: response_filed
+        pdf_field_name: "SC-225[0].Page1[0].List4[0].item4[0].FieldName_cb4[0]"
+        type: checkbox
+        label: "The judgment debtor filed a response"
+        required: false
+        width: full
+
+      - name: response_date
+        pdf_field_name: "SC-225[0].Page1[0].List4[0].item4[0].DateField5[0]"
+        type: date
+        label: "On (date)"
+        required: false
+        conditions:
+          show_when:
+            field: response_filed
+            value: true
+        width: half
+
+  court_order:
+    title: "5. Court's Order"
+    description: "The court's decision"
+    fields:
+      - name: has_order
+        pdf_field_name: "SC-225[0].Page1[0].List5[0].FieldName_cb8[0]"
+        type: checkbox
+        label: "The payment order referred to in 2 (check one):"
+        required: false
+        width: full
+
+      - name: terminated
+        pdf_field_name: "SC-225[0].Page1[0].List5[0].Lia[0].Ch1[0]"
+        type: radio
+        label: "Payment order status"
+        required: false
+        options:
+          - value: "1"
+            label: "Is terminated and the balance of the judgment is collectible"
+        width: full
+
+      - name: remains_in_effect
+        pdf_field_name: "SC-225[0].Page1[0].List5[0].Lib[0].Ch1[0]"
+        type: radio
+        label: ""
+        required: false
+        options:
+          - value: "2"
+            label: "Remains in effect, without modification"
+        width: full
+
+      - name: modified
+        pdf_field_name: "SC-225[0].Page1[0].List5[0].Lic[0].Ch1[0]"
+        type: radio
+        label: ""
+        required: false
+        options:
+          - value: "3"
+            label: "Is modified as stated on form SC-225A, item 2"
+        width: full
+
+  amounts_owing:
+    title: "6. Amounts Owing"
+    description: "Current balance on the judgment"
+    fields:
+      - name: has_amounts
+        pdf_field_name: "SC-225[0].Page1[0].List6[0].FieldName_cb10[0]"
+        type: checkbox
+        label: "The following amounts are owing on the judgment as of"
+        required: false
+        width: full
+
+      - name: as_of_date
+        pdf_field_name: "SC-225[0].Page1[0].List6[0].DateField15[0]"
+        type: date
+        label: "(date)"
+        required: false
+        conditions:
+          show_when:
+            field: has_amounts
+            value: true
+        width: half
+
+      - name: principal_balance
+        pdf_field_name: "SC-225[0].Page1[0].List6[0].Lia[0].FieldName_cb11[0]"
+        type: checkbox
+        label: "a. Principal balance of judgment and costs"
+        required: false
+        conditions:
+          show_when:
+            field: has_amounts
+            value: true
+        width: full
+
+      - name: principal_amount
+        pdf_field_name: "SC-225[0].Page1[0].List6[0].Lia[0].T199[0]"
+        type: currency
+        label: "Amount"
+        required: false
+        conditions:
+          show_when:
+            field: principal_balance
+            value: true
+        width: half
+
+      - name: has_interest
+        pdf_field_name: "SC-225[0].Page1[0].List6[0].Lib[0].FieldName_cb12[0]"
+        type: checkbox
+        label: "b. Interest"
+        required: false
+        conditions:
+          show_when:
+            field: has_amounts
+            value: true
+        width: full
+
+      - name: interest_amount
+        pdf_field_name: "SC-225[0].Page1[0].List6[0].Lib[0].T18[0]"
+        type: currency
+        label: "Amount"
+        required: false
+        conditions:
+          show_when:
+            field: has_interest
+            value: true
+        width: half
+
+  other_orders:
+    title: "7. Other Orders"
+    description: "Additional orders"
+    fields:
+      - name: has_other_orders
+        pdf_field_name: "SC-225[0].Page1[0].List7[0].item7[0].FieldName_cb20[0]"
+        type: checkbox
+        label: "Other orders are stated on form SC-225A, item 3"
+        required: false
+        width: full
+
+  hearing:
+    title: "8. Hearing"
+    description: "If a hearing is required"
+    fields:
+      - name: hearing_required
+        pdf_field_name: "SC-225[0].Page1[0].List8[0].FieldName_cb[0]"
+        type: checkbox
+        label: "The court will make orders on the matter after a hearing"
+        required: false
+        width: full
+
+      - name: hearing_date
+        pdf_field_name: "SC-225[0].Page1[0].List8[0].hearingdate[0].DateField1[0]"
+        type: date
+        label: "Date"
+        required: false
+        conditions:
+          show_when:
+            field: hearing_required
+            value: true
+        width: quarter
+
+      - name: hearing_time
+        pdf_field_name: "SC-225[0].Page1[0].List8[0].hearingdate[0].FillText15[0]"
+        type: text
+        label: "Time"
+        required: false
+        conditions:
+          show_when:
+            field: hearing_required
+            value: true
+        width: quarter
+
+      - name: hearing_dept
+        pdf_field_name: "SC-225[0].Page1[0].List8[0].hearingdate[0].FillText16[0]"
+        type: text
+        label: "Department"
+        required: false
+        conditions:
+          show_when:
+            field: hearing_required
+            value: true
+        width: quarter
+
+      - name: hearing_court_address
+        pdf_field_name: "SC-225[0].Page1[0].List8[0].hearingdate[0].FillText17[0]"
+        type: textarea
+        label: "Name and address of court (if different from above)"
+        required: false
+        rows: 2
+        conditions:
+          show_when:
+            field: hearing_required
+            value: true
+        width: full
+
+  court_signature:
+    title: "Court Signature"
+    description: "Date signed by the judicial officer"
+    fields:
+      - name: court_signature_date
+        pdf_field_name: "SC-225[0].Page1[0].SigDate[0].DateField16[0]"
+        type: date
+        label: "Date"
+        required: true
+        width: half

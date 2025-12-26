@@ -1,0 +1,336 @@
+# SC-222: Order on Request to Make Payments (Small Claims)
+# California Judicial Council Form
+
+form:
+  code: SC-222
+  title: "Order on Request to Make Payments (Small Claims)"
+  description: "This form is the court's order in response to a Request to Make Payments filed by the judgment debtor."
+  category: judgment
+  pdf_filename: sc222.pdf
+  instructions: |
+    This form is used by the court to respond to a Request to Make Payments.
+
+    The court will either:
+    - Approve a payment plan
+    - Deny the request
+    - Schedule a hearing
+
+sections:
+  case_info:
+    title: "Case Information"
+    description: "Court and case information"
+    fields:
+      - name: court_name
+        pdf_field_name: "SC-222[0].Page1[0].RightCaption[0].Court_bx[0].CourtInfo[0]"
+        type: text
+        label: "Superior Court of California, County of"
+        placeholder: "Los Angeles"
+        required: true
+        shared_key: court_county
+        width: full
+
+      - name: case_name
+        pdf_field_name: "SC-222[0].Page1[0].RightCaption[0].CSN[0].CaseName[0]"
+        type: text
+        label: "Case Name"
+        placeholder: "Plaintiff Name vs. Defendant Name"
+        required: true
+        width: full
+
+      - name: case_number
+        pdf_field_name: "SC-222[0].Page1[0].RightCaption[0].CSN[0].CaseNumber[0]"
+        type: text
+        label: "Case Number"
+        required: true
+        shared_key: case_number
+        width: half
+
+  debtor_info:
+    title: "1. Request Information"
+    description: "Information about the request"
+    fields:
+      - name: debtor_name
+        pdf_field_name: "SC-222[0].Page1[0].List1[0].Item1[0].FillText1[0]"
+        type: text
+        label: "Judgment debtor name (person who owes money)"
+        required: true
+        width: full
+
+  court_order:
+    title: "Court's Order"
+    description: "The court's decision on the request"
+    fields:
+      - name: request_denied
+        pdf_field_name: "SC-222[0].Page1[0].List2[0].Item2[0].PaymentCB[0]"
+        type: checkbox
+        label: "2. The Request to Make Payments is denied. The person in 1 must pay the entire judgment immediately."
+        required: false
+        width: full
+
+      - name: request_approved
+        pdf_field_name: "SC-222[0].Page1[0].List3[0].PaymentCB[0]"
+        type: checkbox
+        label: "3. The Request to Make Payments is approved, and the court orders:"
+        required: false
+        width: full
+
+  payment_schedule:
+    title: "Payment Schedule"
+    description: "Payment terms if the request is approved"
+    fields:
+      - name: payments_of
+        pdf_field_name: "SC-222[0].Page1[0].List3[0].lia[0].CheckBoxRightCaption[0]"
+        type: checkbox
+        label: "a. Payments of"
+        required: false
+        conditions:
+          show_when:
+            field: request_approved
+            value: true
+        width: full
+
+      - name: payment_amount
+        pdf_field_name: "SC-222[0].Page1[0].List3[0].lia[0].FillText2[0]"
+        type: currency
+        label: "Dollar amount"
+        required: false
+        conditions:
+          show_when:
+            field: payments_of
+            value: true
+        width: quarter
+
+      - name: payment_day
+        pdf_field_name: "SC-222[0].Page1[0].List3[0].lia[0].FillText3[0]"
+        type: text
+        label: "On the (day)"
+        required: false
+        conditions:
+          show_when:
+            field: payments_of
+            value: true
+        width: quarter
+
+      - name: payment_period
+        pdf_field_name: "SC-222[0].Page1[0].List3[0].lia[0].FillText4[0]"
+        type: text
+        label: "Of each (month, week, other)"
+        required: false
+        conditions:
+          show_when:
+            field: payments_of
+            value: true
+        width: quarter
+
+      - name: start_date
+        pdf_field_name: "SC-222[0].Page1[0].List3[0].lia[0].startingdate[0]"
+        type: date
+        label: "Starting (date)"
+        required: false
+        conditions:
+          show_when:
+            field: payments_of
+            value: true
+        width: quarter
+
+      - name: final_date
+        pdf_field_name: "SC-222[0].Page1[0].List3[0].lia[0].datefinal[0]"
+        type: date
+        label: "Until (date of final payment)"
+        required: false
+        conditions:
+          show_when:
+            field: payments_of
+            value: true
+        width: quarter
+
+      - name: final_amount
+        pdf_field_name: "SC-222[0].Page1[0].List3[0].lia[0].finalpayment[0]"
+        type: currency
+        label: "Amount of final payment"
+        required: false
+        conditions:
+          show_when:
+            field: payments_of
+            value: true
+        width: quarter
+
+      - name: other_schedule
+        pdf_field_name: "SC-222[0].Page1[0].List3[0].lib[0].CheckBoxRightCaption[0]"
+        type: checkbox
+        label: "b. Other payment schedule"
+        required: false
+        conditions:
+          show_when:
+            field: request_approved
+            value: true
+        width: full
+
+      - name: other_schedule_specify
+        pdf_field_name: "SC-222[0].Page1[0].List3[0].lib[0].FillText5[0]"
+        type: textarea
+        label: "Specify other payment schedule"
+        required: false
+        rows: 2
+        conditions:
+          show_when:
+            field: other_schedule
+            value: true
+        width: full
+
+      - name: total_amount
+        pdf_field_name: "SC-222[0].Page1[0].List3[0].lic[0].CheckBoxRightCaption[0]"
+        type: checkbox
+        label: "c. The total amount of payments is"
+        required: false
+        conditions:
+          show_when:
+            field: request_approved
+            value: true
+        width: full
+
+      - name: total_payments
+        pdf_field_name: "SC-222[0].Page1[0].List3[0].lic[0].FillText06[0]"
+        type: currency
+        label: "Dollar amount"
+        required: false
+        conditions:
+          show_when:
+            field: total_amount
+            value: true
+        width: half
+
+      - name: same_as_judgment
+        pdf_field_name: "SC-222[0].Page1[0].List3[0].lid[0].Ch6[0]"
+        type: checkbox
+        label: "d. The total amount of payments is the same as the judgment"
+        required: false
+        conditions:
+          show_when:
+            field: request_approved
+            value: true
+        width: full
+
+      - name: other_terms
+        pdf_field_name: "SC-222[0].Page1[0].List3[0].lif[0].Ch7[0]"
+        type: checkbox
+        label: "f. Other (specify)"
+        required: false
+        conditions:
+          show_when:
+            field: request_approved
+            value: true
+        width: full
+
+      - name: other_terms_specify
+        pdf_field_name: "SC-222[0].Page1[0].List3[0].lif[0].FillText7[0]"
+        type: textarea
+        label: "Specify other terms"
+        required: false
+        rows: 2
+        conditions:
+          show_when:
+            field: other_terms
+            value: true
+        width: full
+
+  hearing_info:
+    title: "4. Hearing"
+    description: "If a hearing is required"
+    fields:
+      - name: hearing_required
+        pdf_field_name: "SC-222[0].Page1[0].List4[0].Ch8[0]"
+        type: checkbox
+        label: "The court will make orders on this Request after a hearing"
+        required: false
+        width: full
+
+      - name: hearing_date
+        pdf_field_name: "SC-222[0].Page1[0].List4[0].DateField2[0]"
+        type: date
+        label: "Date"
+        required: false
+        conditions:
+          show_when:
+            field: hearing_required
+            value: true
+        width: quarter
+
+      - name: hearing_time
+        pdf_field_name: "SC-222[0].Page1[0].List4[0].FillText8[0]"
+        type: text
+        label: "Time"
+        required: false
+        conditions:
+          show_when:
+            field: hearing_required
+            value: true
+        width: quarter
+
+      - name: hearing_dept
+        pdf_field_name: "SC-222[0].Page1[0].List4[0].FillText9[0]"
+        type: text
+        label: "Department"
+        required: false
+        conditions:
+          show_when:
+            field: hearing_required
+            value: true
+        width: quarter
+
+      - name: hearing_court_address
+        pdf_field_name: "SC-222[0].Page1[0].List4[0].FillText10[0]"
+        type: textarea
+        label: "Name and address of court (if different from above)"
+        required: false
+        rows: 2
+        conditions:
+          show_when:
+            field: hearing_required
+            value: true
+        width: full
+
+  other_orders:
+    title: "5. Other Orders"
+    description: "Any additional orders"
+    fields:
+      - name: has_other_orders
+        pdf_field_name: "SC-222[0].Page1[0].List5[0].Item5[0].Ch9[0]"
+        type: checkbox
+        label: "Other orders (specify)"
+        required: false
+        width: full
+
+      - name: other_orders_specify
+        pdf_field_name: "SC-222[0].Page1[0].List5[0].Item5[0].FillText11[0]"
+        type: textarea
+        label: "Specify other orders"
+        required: false
+        rows: 2
+        conditions:
+          show_when:
+            field: has_other_orders
+            value: true
+        width: full
+
+      - name: attachment_5
+        pdf_field_name: "SC-222[0].Page1[0].List5[0].Item5[0].Attach[0]"
+        type: checkbox
+        label: "Continued on Attachment 5"
+        required: false
+        conditions:
+          show_when:
+            field: has_other_orders
+            value: true
+        width: full
+
+  court_signature:
+    title: "Court Signature"
+    description: "Date signed by the judicial officer"
+    fields:
+      - name: order_date
+        pdf_field_name: "SC-222[0].Page1[0].sign[0].DateField2[0]"
+        type: date
+        label: "Date"
+        required: true
+        width: half

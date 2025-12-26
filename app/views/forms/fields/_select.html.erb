@@ -1,0 +1,22 @@
+<div class="form-control w-full mb-4">
+  <label class="label">
+    <span class="label-text font-medium"><%= field.label || field.name.titleize %></span>
+    <% if field.required %>
+      <span class="label-text-alt text-error">*</span>
+    <% end %>
+  </label>
+
+  <% options = field.options.map { |opt| [opt["label"] || opt[:label], opt["value"] || opt[:value]] } %>
+  <%= form.select field.name,
+    options_for_select(options, submission.field_value(field.name)),
+    { include_blank: "Select..." },
+    { required: field.required,
+      class: "select select-bordered w-full",
+      data: { action: "input->form#fieldChanged" } } %>
+
+  <% if field.help_text.present? %>
+    <label class="label">
+      <span class="label-text-alt text-base-content/70"><%= field.help_text %></span>
+    </label>
+  <% end %>
+</div>

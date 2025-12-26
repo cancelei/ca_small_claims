@@ -1,0 +1,313 @@
+# SC-150: Request for Postponement of Small Claims Hearing
+# California Judicial Council Form
+
+form:
+  code: SC-150
+  title: "Request for Postponement of Small Claims Hearing"
+  description: "Use this form to ask the court to reschedule (postpone) your small claims trial date."
+  category: pre-trial
+  pdf_filename: sc150.pdf
+  instructions: |
+    Use this form to ask the court to postpone your small claims hearing.
+
+    Important:
+    - File this request as soon as possible
+    - If your trial is within 10 days, explain why you couldn't ask sooner
+    - The other party must be notified of your request
+    - The court may deny your request
+
+sections:
+  court_info:
+    title: "Court Information"
+    description: "Enter the court and case information"
+    fields:
+      - name: court_name
+        pdf_field_name: "SC-150[0].Page1[0].Caption_sf[0].supcourt[0].CourtInfo[0]"
+        type: text
+        label: "Superior Court of California, County of"
+        placeholder: "Los Angeles"
+        required: true
+        shared_key: court_county
+        width: full
+
+      - name: case_number
+        pdf_field_name: "SC-150[0].Page1[0].Caption_sf[0].casenumbername[0].CaseNumber[0]"
+        type: text
+        label: "Case Number"
+        required: true
+        shared_key: case_number
+        width: half
+
+      - name: case_name
+        pdf_field_name: "SC-150[0].Page1[0].Caption_sf[0].casenumbername[0].CaseName[0]"
+        type: text
+        label: "Case Name"
+        placeholder: "Plaintiff Name vs. Defendant Name"
+        required: true
+        width: half
+
+  requester_info:
+    title: "1. Your Information"
+    description: "Enter your name and contact information"
+    fields:
+      - name: requester_name
+        pdf_field_name: "SC-150[0].Page1[0].List1[0].item1[0].FillText01[0]"
+        type: text
+        label: "Your Full Name"
+        required: true
+        width: full
+
+      - name: requester_address
+        pdf_field_name: "SC-150[0].Page1[0].List1[0].item1[0].FillText03[0]"
+        type: textarea
+        label: "Mailing Address"
+        required: true
+        rows: 2
+        width: full
+
+      - name: requester_phone
+        pdf_field_name: "SC-150[0].Page1[0].List1[0].item1[0].FillText04[0]"
+        type: tel
+        label: "Phone"
+        required: true
+        width: half
+
+      - name: requester_role
+        pdf_field_name: "SC-150[0].Page1[0].List1[0].item1[0].CheckBox01"
+        type: radio
+        label: "I am the"
+        required: true
+        options:
+          - { value: "1", label: "Plaintiff" }
+          - { value: "2", label: "Defendant" }
+        width: half
+
+  current_trial:
+    title: "2. Current Trial Date"
+    description: "Enter your currently scheduled trial date"
+    fields:
+      - name: current_trial_date
+        pdf_field_name: "SC-150[0].Page1[0].List2[0].item2[0].FillText05[0]"
+        type: date
+        label: "My trial is currently scheduled for"
+        required: true
+        width: full
+
+  requested_date:
+    title: "3. Requested Postponement Date"
+    description: "Enter the approximate date you would like the trial postponed to"
+    fields:
+      - name: requested_date
+        pdf_field_name: "SC-150[0].Page1[0].List3[0].item3[0].FillText06[0]"
+        type: date
+        label: "I ask the court to postpone my trial until (approximate date)"
+        required: true
+        help_text: "This is a request only - the court will set the actual new date"
+        width: full
+
+  reason_for_postponement:
+    title: "4. Reason for Postponement"
+    description: "Explain why you need to postpone the trial"
+    fields:
+      - name: postponement_reason
+        pdf_field_name: "SC-150[0].Page1[0].List4[0].item4[0].FillText08[0]"
+        type: textarea
+        label: "I am asking for this postponement because"
+        placeholder: "Explain your reason for needing to postpone (e.g., medical appointment, work conflict, need more time to gather evidence, etc.)"
+        required: true
+        rows: 4
+        width: full
+
+      - name: need_more_space_reason
+        pdf_field_name: "SC-150[0].Page1[0].List4[0].item4[0].CheckBox02[0]"
+        type: checkbox
+        label: "Check here if there is not enough space. Attach a sheet of paper and write 'SC-150, Item 4' at the top."
+        required: false
+        width: full
+
+  late_request:
+    title: "5. Late Request Explanation"
+    description: "If your trial is within 10 days, explain why you didn't ask sooner"
+    fields:
+      - name: late_request_explanation
+        pdf_field_name: "SC-150[0].Page1[0].List5[0].item5[0].FillText15[0]"
+        type: textarea
+        label: "If your trial is scheduled within the next 10 days, explain why you did not ask for a postponement sooner"
+        required: false
+        rows: 3
+        width: full
+
+      - name: need_more_space_late
+        pdf_field_name: "SC-150[0].Page1[0].List5[0].item5[0].CheckBox05[0]"
+        type: checkbox
+        label: "Check here if there is not enough space. Attach a sheet of paper and write 'SC-150, Item 5' at the top."
+        required: false
+        width: full
+
+  service_status:
+    title: "6. Service Status"
+    description: "Indicate whether all parties have been served"
+    fields:
+      - name: no_claim_filed
+        pdf_field_name: "SC-150[0].Page1[0].List6[0].Lia[0].CheckBox04[0]"
+        type: checkbox
+        label: "a. No. I am a defendant and have not filed a claim in this case."
+        required: false
+        width: full
+
+      - name: parties_served
+        pdf_field_name: "SC-150[0].Page1[0].List6[0].Lib[0].CheckBox04[0]"
+        type: checkbox
+        label: "b. Yes. The parties listed below have been served"
+        required: false
+        width: full
+
+      - name: served_party1_name
+        pdf_field_name: "SC-150[0].Page1[0].List6[0].Lib[0].sublistb[0].Li1[0].FillText1[0]"
+        type: text
+        label: "Party 1 - Name"
+        required: false
+        conditions:
+          show_when:
+            field: parties_served
+            value: true
+        width: third
+
+      - name: served_party1_county
+        pdf_field_name: "SC-150[0].Page1[0].List6[0].Lib[0].sublistb[0].Li1[0].FillText2[0]"
+        type: text
+        label: "County"
+        required: false
+        conditions:
+          show_when:
+            field: parties_served
+            value: true
+        width: third
+
+      - name: served_party1_date
+        pdf_field_name: "SC-150[0].Page1[0].List6[0].Lib[0].sublistb[0].Li1[0].FillText3[0]"
+        type: date
+        label: "Date Served"
+        required: false
+        conditions:
+          show_when:
+            field: parties_served
+            value: true
+        width: third
+
+      - name: served_party2_name
+        pdf_field_name: "SC-150[0].Page1[0].List6[0].Lib[0].sublistb[0].Li2[0].FillText16[0]"
+        type: text
+        label: "Party 2 - Name"
+        required: false
+        conditions:
+          show_when:
+            field: parties_served
+            value: true
+        width: third
+
+      - name: served_party2_county
+        pdf_field_name: "SC-150[0].Page1[0].List6[0].Lib[0].sublistb[0].Li2[0].FillText17[0]"
+        type: text
+        label: "County"
+        required: false
+        conditions:
+          show_when:
+            field: parties_served
+            value: true
+        width: third
+
+      - name: served_party2_date
+        pdf_field_name: "SC-150[0].Page1[0].List6[0].Lib[0].sublistb[0].Li2[0].FillText18[0]"
+        type: date
+        label: "Date Served"
+        required: false
+        conditions:
+          show_when:
+            field: parties_served
+            value: true
+        width: third
+
+      - name: parties_not_served
+        pdf_field_name: "SC-150[0].Page1[0].List6[0].Lic[0].CheckBox10[0]"
+        type: checkbox
+        label: "c. No. The parties listed below have not been served"
+        required: false
+        width: full
+
+      - name: not_served_names1
+        pdf_field_name: "SC-150[0].Page1[0].List6[0].Lic[0].FillText19[0]"
+        type: text
+        label: "Names of parties not served"
+        required: false
+        conditions:
+          show_when:
+            field: parties_not_served
+            value: true
+        width: full
+
+      - name: not_served_names2
+        pdf_field_name: "SC-150[0].Page1[0].List6[0].Lic[0].FillText20[0]"
+        type: text
+        label: "Additional names"
+        required: false
+        conditions:
+          show_when:
+            field: parties_not_served
+            value: true
+        width: full
+
+      - name: service_unknown
+        pdf_field_name: "SC-150[0].Page1[0].List6[0].Lid[0].CheckBox11[0]"
+        type: checkbox
+        label: "d. I do not know. The court clerk mailed my claim, and I do not know if the court received the signed receipt"
+        required: false
+        width: full
+
+      - name: unknown_names1
+        pdf_field_name: "SC-150[0].Page1[0].List6[0].Lid[0].FillText21[0]"
+        type: text
+        label: "Names of parties with unknown service status"
+        required: false
+        conditions:
+          show_when:
+            field: service_unknown
+            value: true
+        width: full
+
+      - name: unknown_names2
+        pdf_field_name: "SC-150[0].Page1[0].List6[0].Lid[0].FillText22[0]"
+        type: text
+        label: "Additional names"
+        required: false
+        conditions:
+          show_when:
+            field: service_unknown
+            value: true
+        width: full
+
+      - name: need_more_space_service
+        pdf_field_name: "SC-150[0].Page1[0].List6[0].CheckBox03[0]"
+        type: checkbox
+        label: "Check here if there is not enough space. Attach a sheet of paper and write 'SC-150, Item 6' at the top."
+        required: false
+        width: full
+
+  signature:
+    title: "Signature"
+    description: "Sign and date the request"
+    fields:
+      - name: signature_date
+        pdf_field_name: "SC-150[0].Page1[0].sign[0].Date1[0]"
+        type: date
+        label: "Date"
+        required: true
+        default: today
+        width: half
+
+      - name: signature_name
+        pdf_field_name: "SC-150[0].Page1[0].sign[0].printname[0]"
+        type: text
+        label: "Type or print your name"
+        required: true
+        width: half

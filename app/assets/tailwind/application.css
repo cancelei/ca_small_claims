@@ -1,0 +1,24 @@
+@import "tailwindcss";
+@plugin "daisyui" {
+  themes: claims, light, cupcake, emerald, corporate, garden, dark, night, dracula, business, forest;
+}
+
+@theme {
+  /* Custom theme for CA Small Claims (professional/legal) */
+  --color-claims-primary: #2563eb;
+  --color-claims-primary-content: #ffffff;
+  --color-claims-secondary: #7c3aed;
+  --color-claims-secondary-content: #ffffff;
+  --color-claims-accent: #f59e0b;
+  --color-claims-accent-content: #ffffff;
+  --color-claims-neutral: #374151;
+  --color-claims-neutral-content: #ffffff;
+  --color-claims-base-100: #ffffff;
+  --color-claims-base-200: #f9fafb;
+  --color-claims-base-300: #f3f4f6;
+  --color-claims-base-content: #1f2937;
+  --color-claims-info: #0ea5e9;
+  --color-claims-success: #10b981;
+  --color-claims-warning: #f59e0b;
+  --color-claims-error: #ef4444;
+}

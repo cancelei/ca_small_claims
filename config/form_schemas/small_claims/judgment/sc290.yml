@@ -1,0 +1,378 @@
+# SC-290: Acknowledgment of Satisfaction of Judgment (Small Claims)
+# California Judicial Council Form
+
+form:
+  code: SC-290
+  title: "Acknowledgment of Satisfaction of Judgment (Small Claims)"
+  description: "Use this form to acknowledge that a small claims judgment has been paid in full or partially satisfied."
+  category: judgment
+  pdf_filename: sc290.pdf
+  instructions: |
+    Use this form when:
+    - A small claims judgment has been paid in full, OR
+    - You have agreed to accept partial payment as full satisfaction for specific judgment debtors
+
+    The judgment creditor must file this form to clear the judgment from the debtor's credit record.
+    Filing this form is required by law once a judgment is satisfied.
+
+sections:
+  court_info:
+    title: "Court Information"
+    description: "Enter the court and case information"
+    fields:
+      - name: court_name
+        pdf_field_name: "SC-290[0].Page1[0].rightCaption[0].Court[0].CourtInfo[0]"
+        type: text
+        label: "Superior Court of California, County of"
+        placeholder: "Los Angeles"
+        required: true
+        shared_key: court_county
+        width: full
+
+      - name: case_number
+        pdf_field_name: "SC-290[0].Page1[0].rightCaption[0].CASEnumber[0].CaseNumber[0]"
+        type: text
+        label: "Case Number"
+        required: true
+        shared_key: case_number
+        width: half
+
+      - name: case_name
+        pdf_field_name: "SC-290[0].Page1[0].rightCaption[0].casename[0].CaseName[0]"
+        type: text
+        label: "Case Name"
+        placeholder: "Plaintiff Name vs. Defendant Name"
+        required: true
+        width: half
+
+  creditor_info:
+    title: "1. Your Information (Judgment Creditor)"
+    description: "Enter your name and contact information"
+    fields:
+      - name: creditor_name
+        pdf_field_name: "SC-290[0].Page1[0].List1[0].item1[0].FillText01[0]"
+        type: text
+        label: "Your Full Name"
+        required: true
+        width: full
+
+      - name: creditor_address
+        pdf_field_name: "SC-290[0].Page1[0].List1[0].item1[0].FillText05[0]"
+        type: text
+        label: "Mailing Address"
+        required: true
+        width: full
+
+      - name: creditor_address2
+        pdf_field_name: "SC-290[0].Page1[0].List1[0].item1[0].FillText03[0]"
+        type: text
+        label: "Address (continued)"
+        required: false
+        width: full
+
+      - name: creditor_phone
+        pdf_field_name: "SC-290[0].Page1[0].List1[0].item1[0].FillText04[0]"
+        type: tel
+        label: "Phone"
+        required: true
+        width: half
+
+  creditor_role:
+    title: "2. Your Role"
+    description: "Indicate your relationship to the judgment"
+    fields:
+      - name: is_judgment_creditor
+        pdf_field_name: "SC-290[0].Page1[0].List2[0].Lia[0].JudgmentAssignee[0]"
+        type: checkbox
+        label: "a. Judgment creditor"
+        required: false
+        width: half
+
+      - name: is_assignee
+        pdf_field_name: "SC-290[0].Page1[0].List2[0].Lib[0].JudgmentAssignee[0]"
+        type: checkbox
+        label: "b. Assignee of record"
+        required: false
+        width: half
+
+  satisfaction_details:
+    title: "3. Satisfaction Details"
+    description: "Details about the judgment satisfaction"
+    fields:
+      - name: judgment_creditor_name
+        pdf_field_name: "SC-290[0].Page1[0].List3[0].FillText061[0]"
+        type: text
+        label: "I acknowledge that the judgment owed to (name)"
+        required: true
+        width: full
+
+      - name: judgment_creditor_name2
+        pdf_field_name: "SC-290[0].Page1[0].List3[0].FillText071[0]"
+        type: text
+        label: "Name (continued)"
+        required: false
+        width: full
+
+      - name: satisfaction_date
+        pdf_field_name: "SC-290[0].Page1[0].List3[0].DateField1[0]"
+        type: date
+        label: "was paid or otherwise satisfied on (date)"
+        required: true
+        width: half
+
+      - name: full_satisfaction
+        pdf_field_name: "SC-290[0].Page1[0].List3[0].Lia[0].Ch10[0]"
+        type: checkbox
+        label: "a. The judgment has been fully paid or satisfied as to all judgment debtors"
+        required: false
+        width: full
+
+      - name: partial_satisfaction
+        pdf_field_name: "SC-290[0].Page1[0].List3[0].Lib[0].Ch10[0]"
+        type: checkbox
+        label: "b. The judgment has been fully paid or satisfied as to these judgment debtors only"
+        required: false
+        width: full
+
+  partial_debtors:
+    title: "Judgment Debtors Who Have Fully Paid"
+    description: "If partial satisfaction, list the judgment debtors who have paid"
+    fields:
+      - name: debtor1_name
+        pdf_field_name: "SC-290[0].Page1[0].List3[0].Lib[0].SubLib[0].Lii1[0].FillText22[0]"
+        type: text
+        label: "Debtor 1 - Name"
+        required: false
+        conditions:
+          show_when:
+            field: partial_satisfaction
+            value: true
+        width: full
+
+      - name: debtor1_street
+        pdf_field_name: "SC-290[0].Page1[0].List3[0].Lib[0].SubLib[0].Lii1[0].FillText38[0]"
+        type: text
+        label: "Street"
+        required: false
+        conditions:
+          show_when:
+            field: partial_satisfaction
+            value: true
+        width: full
+
+      - name: debtor1_city
+        pdf_field_name: "SC-290[0].Page1[0].List3[0].Lib[0].SubLib[0].Lii1[0].FillText39[0]"
+        type: text
+        label: "City"
+        required: false
+        conditions:
+          show_when:
+            field: partial_satisfaction
+            value: true
+        width: third
+
+      - name: debtor1_state
+        pdf_field_name: "SC-290[0].Page1[0].List3[0].Lib[0].SubLib[0].Lii1[0].FillText40[0]"
+        type: text
+        label: "State"
+        required: false
+        conditions:
+          show_when:
+            field: partial_satisfaction
+            value: true
+        width: third
+
+      - name: debtor1_zip
+        pdf_field_name: "SC-290[0].Page1[0].List3[0].Lib[0].SubLib[0].Lii1[0].FillText41[0]"
+        type: text
+        label: "ZIP"
+        required: false
+        conditions:
+          show_when:
+            field: partial_satisfaction
+            value: true
+        width: third
+
+      - name: debtor2_name
+        pdf_field_name: "SC-290[0].Page1[0].List3[0].Lib[0].SubLib[0].Lii2[0].FillText21[0]"
+        type: text
+        label: "Debtor 2 - Name"
+        required: false
+        conditions:
+          show_when:
+            field: partial_satisfaction
+            value: true
+        width: full
+
+      - name: debtor2_street
+        pdf_field_name: "SC-290[0].Page1[0].List3[0].Lib[0].SubLib[0].Lii2[0].FillText42[0]"
+        type: text
+        label: "Street"
+        required: false
+        conditions:
+          show_when:
+            field: partial_satisfaction
+            value: true
+        width: full
+
+      - name: debtor2_city
+        pdf_field_name: "SC-290[0].Page1[0].List3[0].Lib[0].SubLib[0].Lii2[0].FillText43[0]"
+        type: text
+        label: "City"
+        required: false
+        conditions:
+          show_when:
+            field: partial_satisfaction
+            value: true
+        width: third
+
+      - name: debtor2_state
+        pdf_field_name: "SC-290[0].Page1[0].List3[0].Lib[0].SubLib[0].Lii2[0].FillText44[0]"
+        type: text
+        label: "State"
+        required: false
+        conditions:
+          show_when:
+            field: partial_satisfaction
+            value: true
+        width: third
+
+      - name: debtor2_zip
+        pdf_field_name: "SC-290[0].Page1[0].List3[0].Lib[0].SubLib[0].Lii2[0].FillText45[0]"
+        type: text
+        label: "ZIP"
+        required: false
+        conditions:
+          show_when:
+            field: partial_satisfaction
+            value: true
+        width: third
+
+      - name: debtor3_name
+        pdf_field_name: "SC-290[0].Page1[0].List3[0].Lib[0].SubLib[0].Lii3[0].FillText20[0]"
+        type: text
+        label: "Debtor 3 - Name"
+        required: false
+        conditions:
+          show_when:
+            field: partial_satisfaction
+            value: true
+        width: full
+
+      - name: debtor3_street
+        pdf_field_name: "SC-290[0].Page1[0].List3[0].Lib[0].SubLib[0].Lii3[0].FillText46[0]"
+        type: text
+        label: "Street"
+        required: false
+        conditions:
+          show_when:
+            field: partial_satisfaction
+            value: true
+        width: full
+
+      - name: debtor3_city
+        pdf_field_name: "SC-290[0].Page1[0].List3[0].Lib[0].SubLib[0].Lii3[0].FillText47[0]"
+        type: text
+        label: "City"
+        required: false
+        conditions:
+          show_when:
+            field: partial_satisfaction
+            value: true
+        width: third
+
+      - name: debtor3_state
+        pdf_field_name: "SC-290[0].Page1[0].List3[0].Lib[0].SubLib[0].Lii3[0].FillText48[0]"
+        type: text
+        label: "State"
+        required: false
+        conditions:
+          show_when:
+            field: partial_satisfaction
+            value: true
+        width: third
+
+      - name: debtor3_zip
+        pdf_field_name: "SC-290[0].Page1[0].List3[0].Lib[0].SubLib[0].Lii3[0].FillText49[0]"
+        type: text
+        label: "ZIP"
+        required: false
+        conditions:
+          show_when:
+            field: partial_satisfaction
+            value: true
+        width: third
+
+      - name: debtor4_name
+        pdf_field_name: "SC-290[0].Page1[0].List3[0].Lib[0].SubLib[0].Lii4[0].FillText23[0]"
+        type: text
+        label: "Debtor 4 - Name"
+        required: false
+        conditions:
+          show_when:
+            field: partial_satisfaction
+            value: true
+        width: full
+
+      - name: debtor4_street
+        pdf_field_name: "SC-290[0].Page1[0].List3[0].Lib[0].SubLib[0].Lii4[0].FillText50[0]"
+        type: text
+        label: "Street"
+        required: false
+        conditions:
+          show_when:
+            field: partial_satisfaction
+            value: true
+        width: full
+
+      - name: debtor4_city
+        pdf_field_name: "SC-290[0].Page1[0].List3[0].Lib[0].SubLib[0].Lii4[0].FillText51[0]"
+        type: text
+        label: "City"
+        required: false
+        conditions:
+          show_when:
+            field: partial_satisfaction
+            value: true
+        width: third
+
+      - name: debtor4_state
+        pdf_field_name: "SC-290[0].Page1[0].List3[0].Lib[0].SubLib[0].Lii4[0].FillText52[0]"
+        type: text
+        label: "State"
+        required: false
+        conditions:
+          show_when:
+            field: partial_satisfaction
+            value: true
+        width: third
+
+      - name: debtor4_zip
+        pdf_field_name: "SC-290[0].Page1[0].List3[0].Lib[0].SubLib[0].Lii4[0].FillText53[0]"
+        type: text
+        label: "ZIP"
+        required: false
+        conditions:
+          show_when:
+            field: partial_satisfaction
+            value: true
+        width: third
+
+  signature:
+    title: "Signature"
+    description: "Sign and date the acknowledgment"
+    fields:
+      - name: signature_date
+        pdf_field_name: "SC-290[0].Page1[0].Sign[0].DateField2[0]"
+        type: date
+        label: "Date"
+        required: true
+        default: today
+        width: half
+
+      - name: signature_name
+        pdf_field_name: "SC-290[0].Page1[0].Sign[0].PrintName[0]"
+        type: text
+        label: "Type or print your name"
+        required: true
+        width: half

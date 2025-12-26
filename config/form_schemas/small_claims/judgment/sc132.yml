@@ -1,0 +1,242 @@
+# SC-132: Acknowledgment of Satisfaction of Judgment
+# California Judicial Council Form
+
+form:
+  code: SC-132
+  title: "Acknowledgment of Satisfaction of Judgment"
+  description: "Use this form to officially acknowledge that a judgment has been paid in full or partially satisfied."
+  category: judgment
+  pdf_filename: sc132.pdf
+  instructions: |
+    Use this form when:
+    - The judgment has been paid in full, OR
+    - You have agreed to accept partial payment as full satisfaction
+
+    The judgment creditor (person who won the case) must file this form to clear the judgment from the debtor's record.
+
+sections:
+  court_info:
+    title: "Court Information"
+    description: "Enter the court and case information"
+    fields:
+      - name: court_name
+        pdf_field_name: "FillText01"
+        type: text
+        label: "Superior Court of California, County of"
+        placeholder: "Los Angeles"
+        required: true
+        shared_key: court_county
+        width: full
+
+      - name: case_number
+        pdf_field_name: "FillText02"
+        type: text
+        label: "Case Number"
+        required: true
+        shared_key: case_number
+        width: half
+
+  party_info:
+    title: "Party Information"
+    description: "Names of the judgment creditor and debtor"
+    fields:
+      - name: judgment_creditor
+        pdf_field_name: "FillText03"
+        type: text
+        label: "Judgment Creditor (person owed money)"
+        required: true
+        width: full
+
+      - name: judgment_debtor
+        pdf_field_name: "FillText04"
+        type: text
+        label: "Judgment Debtor (person who owes money)"
+        required: true
+        width: full
+
+  satisfaction_details:
+    title: "Satisfaction Details"
+    description: "Indicate how the judgment was satisfied"
+    fields:
+      - name: full_satisfaction
+        pdf_field_name: "CheckBox01"
+        type: checkbox
+        label: "Full satisfaction - The judgment has been paid in full"
+        required: false
+        width: full
+
+      - name: partial_satisfaction
+        pdf_field_name: "CheckBox02"
+        type: checkbox
+        label: "Partial satisfaction"
+        required: false
+        width: full
+
+      - name: satisfaction_by_debtor
+        pdf_field_name: "CheckBox03"
+        type: checkbox
+        label: "Satisfaction was made by the judgment debtor"
+        required: false
+        width: full
+
+      - name: satisfaction_by_other
+        pdf_field_name: "CheckBox04"
+        type: checkbox
+        label: "Satisfaction was made by another person"
+        required: false
+        width: full
+
+      - name: partial_amount
+        pdf_field_name: "FillText05"
+        type: currency
+        label: "Amount of partial satisfaction ($)"
+        required: false
+        conditions:
+          show_when:
+            field: partial_satisfaction
+            value: true
+        width: half
+
+      - name: remaining_balance
+        pdf_field_name: "FillText06"
+        type: currency
+        label: "Remaining balance ($)"
+        required: false
+        conditions:
+          show_when:
+            field: partial_satisfaction
+            value: true
+        width: half
+
+  acknowledgment_type:
+    title: "Type of Acknowledgment"
+    description: "Select what is being acknowledged"
+    fields:
+      - name: ack_judgment
+        pdf_field_name: "CheckBox05"
+        type: checkbox
+        label: "Judgment"
+        required: false
+        width: half
+
+      - name: ack_costs
+        pdf_field_name: "CheckBox06"
+        type: checkbox
+        label: "Costs"
+        required: false
+        width: half
+
+      - name: ack_interest
+        pdf_field_name: "CheckBox07"
+        type: checkbox
+        label: "Interest"
+        required: false
+        width: half
+
+      - name: ack_all
+        pdf_field_name: "CheckBox08"
+        type: checkbox
+        label: "All of the above"
+        required: false
+        width: half
+
+  matured_installments:
+    title: "Matured Installments (if applicable)"
+    description: "For judgments payable in installments"
+    fields:
+      - name: matured_installments
+        pdf_field_name: "CheckBox09"
+        type: checkbox
+        label: "Matured installments only"
+        required: false
+        width: full
+
+      - name: all_installments
+        pdf_field_name: "CheckBox10"
+        type: checkbox
+        label: "All installments"
+        required: false
+        width: full
+
+  execution_status:
+    title: "Execution Status"
+    description: "Status of any writs of execution"
+    fields:
+      - name: no_writ_issued
+        pdf_field_name: "CheckBox11"
+        type: checkbox
+        label: "No writ of execution or abstract of judgment has been issued"
+        required: false
+        width: full
+
+      - name: writ_returned
+        pdf_field_name: "CheckBox12"
+        type: checkbox
+        label: "Writ of execution has been returned and filed"
+        required: false
+        width: full
+
+      - name: writ_lost
+        pdf_field_name: "CheckBox13"
+        type: checkbox
+        label: "Writ of execution has been lost or destroyed"
+        required: false
+        width: full
+
+      - name: abstract_recorded
+        pdf_field_name: "CheckBox14"
+        type: checkbox
+        label: "Abstract of judgment has been recorded"
+        required: false
+        width: full
+
+      - name: abstract_county
+        pdf_field_name: "CheckBox15"
+        type: checkbox
+        label: "Abstract recorded in county of"
+        required: false
+        width: half
+
+  filing_info:
+    title: "Filing Information"
+    description: "Information about where documents were filed"
+    fields:
+      - name: filed_with_secretary
+        pdf_field_name: "CheckBox16"
+        type: checkbox
+        label: "Filed with Secretary of State"
+        required: false
+        width: full
+
+      - name: filed_with_county
+        pdf_field_name: "CheckBox17"
+        type: checkbox
+        label: "Filed with county recorder"
+        required: false
+        width: full
+
+  signature:
+    title: "Signature"
+    description: "Judgment creditor must sign"
+    fields:
+      - name: signature_date
+        pdf_field_name: "FillText07"
+        type: date
+        label: "Date"
+        required: true
+        default: today
+        width: half
+
+      - name: request_file
+        pdf_field_name: "CheckBox18"
+        type: checkbox
+        label: "I request that this acknowledgment be filed"
+        required: false
+        width: full
+
+      - name: attached_matrix
+        pdf_field_name: "CheckBox19"
+        type: checkbox
+        label: "A completed Notice of Change of Address or Other Contact Information (form MC-040) is attached"
+        required: false
+        width: full

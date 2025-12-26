@@ -1,0 +1,342 @@
+# SC-105: Request for Court Order; Answer to Request for Court Order
+# California Judicial Council Form
+
+form:
+  code: SC-105
+  title: "Request for Court Order; Answer to Request for Court Order"
+  description: "Use this form to ask the court for an order before or after the hearing, or to respond to such a request."
+  category: plaintiff
+  pdf_filename: sc105.pdf
+  instructions: |
+    This form has two parts:
+    - Part 1 (Page 1): Request for Court Order - Use if you are asking the court for an order
+    - Part 2 (Page 2): Answer to Request - Use if you are responding to someone else's request
+
+    You must serve a copy on all other parties before filing with the court.
+
+sections:
+  court_info:
+    title: "Court Information"
+    description: "Enter the court and case information"
+    fields:
+      - name: court_name
+        pdf_field_name: "SC-105[0].Page1[0].RightCaption[0].CRT[0].CourtInfo[0]"
+        type: text
+        label: "Superior Court of California, County of"
+        placeholder: "Los Angeles"
+        required: true
+        shared_key: court_county
+        width: full
+
+      - name: case_number
+        pdf_field_name: "SC-105[0].Page1[0].RightCaption[0].CSENO[0].CaseNumber[0]"
+        type: text
+        label: "Case Number"
+        required: true
+        shared_key: case_number
+        width: half
+
+      - name: case_name
+        pdf_field_name: "SC-105[0].Page1[0].RightCaption[0].CSENO[0].CaseName[0]"
+        type: text
+        label: "Case Name"
+        placeholder: "Plaintiff Name vs. Defendant Name"
+        required: true
+        width: half
+
+  requester_info:
+    title: "1. Requester Information"
+    description: "Information about the person making this request"
+    fields:
+      - name: requester_name
+        pdf_field_name: "SC-105[0].Page1[0].List1[0].Item1[0].FullName2[0]"
+        type: text
+        label: "Your Full Name"
+        required: true
+        width: full
+
+      - name: requester_address
+        pdf_field_name: "SC-105[0].Page1[0].List1[0].Item1[0].Address[0]"
+        type: text
+        label: "Your Address"
+        required: true
+        width: full
+
+      - name: requester_role
+        pdf_field_name: "SC-105[0].Page1[0].List1[0].Item1[0].CB1"
+        type: radio
+        label: "I am"
+        required: true
+        options:
+          - { value: "1", label: "A defendant in this case" }
+          - { value: "2", label: "A plaintiff in this case" }
+          - { value: "3", label: "Other (explain below)" }
+        width: full
+
+      - name: requester_role_other
+        pdf_field_name: "SC-105[0].Page1[0].List1[0].Item1[0].Explain[0]"
+        type: text
+        label: "Explain your role (if Other)"
+        required: false
+        conditions:
+          show_when:
+            field: requester_role
+            value: "3"
+        width: full
+
+  parties_served:
+    title: "2. Other Parties"
+    description: "Names and addresses of all other parties who must receive a copy of this request"
+    fields:
+      - name: party_a_name
+        pdf_field_name: "SC-105[0].Page1[0].List2[0].Lia[0].Name1[0]"
+        type: text
+        label: "Party A - Name"
+        required: true
+        width: full
+
+      - name: party_a_address
+        pdf_field_name: "SC-105[0].Page1[0].List2[0].Lia[0].Address1[0]"
+        type: text
+        label: "Party A - Address"
+        required: true
+        width: full
+
+      - name: party_b_name
+        pdf_field_name: "SC-105[0].Page1[0].List2[0].Lib[0].Name2[0]"
+        type: text
+        label: "Party B - Name"
+        required: false
+        width: full
+
+      - name: party_b_address
+        pdf_field_name: "SC-105[0].Page1[0].List2[0].Lib[0].Address2[0]"
+        type: text
+        label: "Party B - Address"
+        required: false
+        width: full
+
+      - name: need_more_space_parties
+        pdf_field_name: "SC-105[0].Page1[0].List2[0].NoticeOF[0]"
+        type: checkbox
+        label: "Check here if you need more space. Use form MC-031 or a plain sheet of paper."
+        required: false
+        width: full
+
+      - name: service_method
+        pdf_field_name: "SC-105[0].Page1[0].List2[0].CB2"
+        type: radio
+        label: "A copy of this Request was"
+        required: true
+        options:
+          - { value: "1", label: "Mailed" }
+          - { value: "2", label: "Delivered in person" }
+        width: half
+
+      - name: service_date
+        pdf_field_name: "SC-105[0].Page1[0].List2[0].OnDate[0]"
+        type: date
+        label: "Date of service"
+        required: true
+        width: half
+
+  order_request:
+    title: "3. Order Requested"
+    description: "Describe the order you are asking the court to make"
+    fields:
+      - name: requested_order
+        pdf_field_name: "SC-105[0].Page1[0].List3[0].reqOrder[0]"
+        type: textarea
+        label: "I ask the court to make the following order"
+        placeholder: "Describe the specific order you want the court to make..."
+        required: true
+        rows: 4
+        width: full
+
+      - name: need_more_space_order
+        pdf_field_name: "SC-105[0].Page1[0].List3[0].OrderOF[0]"
+        type: checkbox
+        label: "Check here if you need more space. Use form MC-031."
+        required: false
+        width: full
+
+  order_reason:
+    title: "4. Reason for Order"
+    description: "Explain why you are asking for this order"
+    fields:
+      - name: order_reason
+        pdf_field_name: "SC-105[0].Page1[0].List4[0].orderReason[0]"
+        type: textarea
+        label: "I ask for this order because"
+        placeholder: "Explain the facts and reasons why the court should grant your request..."
+        required: true
+        rows: 6
+        help_text: "Be specific. Include dates, facts, and explain why you need this order."
+        width: full
+
+      - name: need_more_space_reason
+        pdf_field_name: "SC-105[0].Page1[0].List4[0].orderReasonOF[0]"
+        type: checkbox
+        label: "Check here if you need more space. Use form MC-031."
+        required: false
+        width: full
+
+  requester_signature:
+    title: "5. Requester Signature"
+    description: "Sign and date the request"
+    fields:
+      - name: requester_signature_date
+        pdf_field_name: "SC-105[0].Page1[0].Sign[0].reqSigDate[0]"
+        type: date
+        label: "Date"
+        required: true
+        default: today
+        width: half
+
+      - name: requester_signature_name
+        pdf_field_name: "SC-105[0].Page1[0].Sign[0].reqSigName[0]"
+        type: text
+        label: "Type or print your name"
+        required: true
+        width: half
+
+  # Page 2 - Answer Section
+  answerer_info:
+    title: "7. Answerer Information (Page 2)"
+    description: "If you are responding to a request, fill out this section"
+    fields:
+      - name: answerer_name
+        pdf_field_name: "SC-105[0].Page2[0].List7[0].Item7[0].answerName[0]"
+        type: text
+        label: "Your Full Name"
+        required: false
+        width: full
+
+      - name: answerer_address
+        pdf_field_name: "SC-105[0].Page2[0].List7[0].Item7[0].answerAdd[0]"
+        type: text
+        label: "Your Address"
+        required: false
+        width: full
+
+      - name: answerer_role
+        pdf_field_name: "SC-105[0].Page2[0].List7[0].Item7[0].Choice5"
+        type: radio
+        label: "I am"
+        required: false
+        options:
+          - { value: "1", label: "A defendant in this case" }
+          - { value: "2", label: "A plaintiff in this case" }
+        width: full
+
+  answer_response:
+    title: "8. Your Response"
+    description: "Indicate whether you agree or disagree with the request"
+    fields:
+      - name: agree_to_order
+        pdf_field_name: "SC-105[0].Page2[0].List8[0].Lia[0].answerToDo[0]"
+        type: checkbox
+        label: "I agree to the order requested in Item 3"
+        required: false
+        width: full
+
+      - name: disagree_to_order
+        pdf_field_name: "SC-105[0].Page2[0].List8[0].Lib[0].answerToDo[0]"
+        type: checkbox
+        label: "I do not agree to the order requested in Item 3"
+        required: false
+        width: full
+
+      - name: disagree_explanation
+        pdf_field_name: "SC-105[0].Page2[0].List8[0].Lib[0].noAgreeExplain[0]"
+        type: textarea
+        label: "Explain why you do not agree"
+        required: false
+        rows: 4
+        conditions:
+          show_when:
+            field: disagree_to_order
+            value: true
+        width: full
+
+      - name: need_more_space_disagree
+        pdf_field_name: "SC-105[0].Page2[0].List8[0].Lib[0].noAgreeOF[0]"
+        type: checkbox
+        label: "Check here if you need more space. Use form MC-031."
+        required: false
+        width: full
+
+      - name: request_hearing
+        pdf_field_name: "SC-105[0].Page2[0].List8[0].Lic[0].haveHearing[0]"
+        type: checkbox
+        label: "I ask the court to have a hearing to decide this matter"
+        required: false
+        width: full
+
+  answer_service:
+    title: "9. Certificate of Mailing"
+    description: "Confirm you mailed a copy to all parties"
+    fields:
+      - name: answer_mailing_date
+        pdf_field_name: "SC-105[0].Page2[0].List9[0].Item9[0].ServeDate[0]"
+        type: date
+        label: "I mailed a copy of this form to everyone listed in Items 1 and 2 on"
+        required: false
+        width: full
+
+  answerer_signature:
+    title: "10. Answerer Signature"
+    description: "Sign and date your answer"
+    fields:
+      - name: answerer_signature_date
+        pdf_field_name: "SC-105[0].Page2[0].List10[0].Sign[0].answerSigDate[0]"
+        type: date
+        label: "Date"
+        required: false
+        width: half
+
+      - name: answerer_signature_name
+        pdf_field_name: "SC-105[0].Page2[0].List10[0].Sign[0].answerSigName[0]"
+        type: text
+        label: "Type or print your name"
+        required: false
+        width: half
+
+  clerk_use:
+    title: "Clerk's Certificate of Mailing (Court Use Only)"
+    description: "This section is for court clerk use only"
+    fields:
+      - name: clerk_cert_attached
+        pdf_field_name: "SC-105[0].Page2[0].Clerk[0].ClerkMail[0]"
+        type: checkbox
+        label: "A Certificate of Mailing is attached"
+        required: false
+        width: full
+
+      - name: clerk_mailed
+        pdf_field_name: "SC-105[0].Page2[0].Clerk[0].ClerkMail[1]"
+        type: checkbox
+        label: "The Request for Court Order and Answer was mailed first class, postage paid, to all parties at the addresses listed in Item 2"
+        required: false
+        width: full
+
+      - name: clerk_date
+        pdf_field_name: "SC-105[0].Page2[0].Clerk[0].clerkDate[0]"
+        type: date
+        label: "Date mailed"
+        required: false
+        width: third
+
+      - name: clerk_from_city
+        pdf_field_name: "SC-105[0].Page2[0].Clerk[0].FromCity[0]"
+        type: text
+        label: "From city"
+        required: false
+        width: third
+
+      - name: clerk_by
+        pdf_field_name: "SC-105[0].Page2[0].Clerk[0].clerkBy[0]"
+        type: text
+        label: "Clerk, by"
+        required: false
+        width: third

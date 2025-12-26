@@ -1,0 +1,300 @@
+# SC-105A: Order on Request for Court Order (Small Claims)
+# California Judicial Council Form
+
+form:
+  code: SC-105A
+  title: "Order on Request for Court Order (Small Claims)"
+  description: "This form is the court's order in response to a Request for Court Order (SC-105)."
+  category: plaintiff
+  pdf_filename: sc105a.pdf
+  instructions: |
+    This form is used by the court to respond to a Request for Court Order (SC-105).
+
+    The court will either:
+    - Grant the request
+    - Deny the request
+    - Schedule a hearing for further argument
+
+sections:
+  court_info:
+    title: "Court Information"
+    description: "Court and case information"
+    fields:
+      - name: court_name
+        pdf_field_name: "SC-105A[0].Page1[0].RightCaption[0].CRT[0].CourtInfo_ft[0]"
+        type: text
+        label: "Superior Court of California, County of"
+        placeholder: "Los Angeles"
+        required: true
+        shared_key: court_county
+        width: full
+
+      - name: case_number
+        pdf_field_name: "SC-105A[0].Page1[0].RightCaption[0].CSN[0].CaseNumber_ft[0]"
+        type: text
+        label: "Case Number"
+        required: true
+        shared_key: case_number
+        width: half
+
+      - name: case_name
+        pdf_field_name: "SC-105A[0].Page1[0].RightCaption[0].CSN[0].CaseName_ft[0]"
+        type: text
+        label: "Case Name"
+        placeholder: "Plaintiff Name vs. Defendant Name"
+        required: true
+        width: half
+
+  related_documents:
+    title: "1. This Order Relates To"
+    description: "Select which document this order responds to"
+    fields:
+      - name: relates_to_sc105_request
+        pdf_field_name: "SC-105A[0].Page1[0].List1[0].Li1[0].CheckBox1[0]"
+        type: checkbox
+        label: "Request for Court Order and Answer, form SC-105 (page 1)"
+        required: false
+        width: full
+
+      - name: sc105_request_date
+        pdf_field_name: "SC-105A[0].Page1[0].List1[0].Li1[0].FillText1[0]"
+        type: date
+        label: "Filed on"
+        required: false
+        conditions:
+          show_when:
+            field: relates_to_sc105_request
+            value: true
+        width: half
+
+      - name: relates_to_sc105_answer
+        pdf_field_name: "SC-105A[0].Page1[0].List1[0].Li2[0].CheckBox2[0]"
+        type: checkbox
+        label: "Answer on Request for Court Order and Answer, form SC-105 (page 2)"
+        required: false
+        width: full
+
+      - name: sc105_answer_date
+        pdf_field_name: "SC-105A[0].Page1[0].List1[0].Li2[0].FillText2[0]"
+        type: date
+        label: "Filed on"
+        required: false
+        conditions:
+          show_when:
+            field: relates_to_sc105_answer
+            value: true
+        width: half
+
+      - name: relates_to_other
+        pdf_field_name: "SC-105A[0].Page1[0].List1[0].Li3[0].CheckBox3[0]"
+        type: checkbox
+        label: "Other"
+        required: false
+        width: full
+
+      - name: other_document
+        pdf_field_name: "SC-105A[0].Page1[0].List1[0].Li3[0].FillText3[0]"
+        type: text
+        label: "Specify other document"
+        required: false
+        conditions:
+          show_when:
+            field: relates_to_other
+            value: true
+        width: full
+
+      - name: other_document_continued
+        pdf_field_name: "SC-105A[0].Page1[0].List1[0].Li3[0].FillText11[0]"
+        type: text
+        label: "Specify (continued)"
+        required: false
+        conditions:
+          show_when:
+            field: relates_to_other
+            value: true
+        width: full
+
+  court_order:
+    title: "2. Court's Order"
+    description: "The court's decision on the request"
+    fields:
+      - name: request_granted
+        pdf_field_name: "SC-105A[0].Page1[0].List2[0].Lia[0].CheckBox4[0]"
+        type: checkbox
+        label: "a. The request is granted"
+        required: false
+        width: full
+
+      - name: request_denied
+        pdf_field_name: "SC-105A[0].Page1[0].List2[0].Lib[0].CheckBox5[0]"
+        type: checkbox
+        label: "b. The request is denied"
+        required: false
+        width: full
+
+      - name: must_go_to_court
+        pdf_field_name: "SC-105A[0].Page1[0].List2[0].Lic[0].CheckBox6[0]"
+        type: checkbox
+        label: "c. You must go to court if you want to be heard"
+        required: false
+        width: full
+
+      - name: hearing_date
+        pdf_field_name: "SC-105A[0].Page1[0].List2[0].Lic[0].HearingDate[0].FillText4[0]"
+        type: date
+        label: "Date"
+        required: false
+        conditions:
+          show_when:
+            field: must_go_to_court
+            value: true
+        width: quarter
+
+      - name: hearing_time
+        pdf_field_name: "SC-105A[0].Page1[0].List2[0].Lic[0].HearingDate[0].FillText5[0]"
+        type: text
+        label: "Time"
+        required: false
+        conditions:
+          show_when:
+            field: must_go_to_court
+            value: true
+        width: quarter
+
+      - name: hearing_dept
+        pdf_field_name: "SC-105A[0].Page1[0].List2[0].Lic[0].HearingDate[0].FillText6[0]"
+        type: text
+        label: "Department"
+        required: false
+        conditions:
+          show_when:
+            field: must_go_to_court
+            value: true
+        width: quarter
+
+      - name: hearing_court_address
+        pdf_field_name: "SC-105A[0].Page1[0].List2[0].Lic[0].HearingDate[0].FillText7[0]"
+        type: textarea
+        label: "Name and address of court (if different from above)"
+        required: false
+        rows: 2
+        conditions:
+          show_when:
+            field: must_go_to_court
+            value: true
+        width: full
+
+      - name: bring_evidence
+        pdf_field_name: "SC-105A[0].Page1[0].List2[0].Lid[0].CheckBox7[0]"
+        type: checkbox
+        label: "d. Bring evidence to the hearing to support your request"
+        required: false
+        width: full
+
+      - name: other_orders
+        pdf_field_name: "SC-105A[0].Page1[0].List2[0].Lie[0].CheckBox8[0]"
+        type: checkbox
+        label: "e. Other orders"
+        required: false
+        width: full
+
+      - name: other_orders_specify
+        pdf_field_name: "SC-105A[0].Page1[0].List2[0].Lie[0].FillText8[0]"
+        type: text
+        label: "Specify other orders"
+        required: false
+        conditions:
+          show_when:
+            field: other_orders
+            value: true
+        width: full
+
+      - name: other_orders_continued
+        pdf_field_name: "SC-105A[0].Page1[0].List2[0].Lie[0].FillText9[0]"
+        type: text
+        label: "Other orders (continued)"
+        required: false
+        conditions:
+          show_when:
+            field: other_orders
+            value: true
+        width: full
+
+      - name: has_explanation
+        pdf_field_name: "SC-105A[0].Page1[0].List2[0].Lif[0].CheckBox9[0]"
+        type: checkbox
+        label: "f. Explanation for decision"
+        required: false
+        width: full
+
+      - name: explanation
+        pdf_field_name: "SC-105A[0].Page1[0].List2[0].Lif[0].FillText10[0]"
+        type: text
+        label: "Explanation"
+        required: false
+        conditions:
+          show_when:
+            field: has_explanation
+            value: true
+        width: full
+
+      - name: explanation_continued
+        pdf_field_name: "SC-105A[0].Page1[0].List2[0].Lif[0].FillText12[0]"
+        type: text
+        label: "Explanation (continued)"
+        required: false
+        conditions:
+          show_when:
+            field: has_explanation
+            value: true
+        width: full
+
+  court_signature:
+    title: "Judicial Officer Signature"
+    description: "Date signed by the court"
+    fields:
+      - name: order_date
+        pdf_field_name: "SC-105A[0].Page1[0].Sign[0].FillText115[0]"
+        type: date
+        label: "Date"
+        required: true
+        width: half
+
+  clerk_certificate:
+    title: "Clerk's Certificate of Mailing (Court Use Only)"
+    description: "This section is for court clerk use only"
+    fields:
+      - name: cert_attached
+        pdf_field_name: "SC-105A[0].Page1[0].ClerkCertificate[0].MailingCB[0]"
+        type: checkbox
+        label: "A Certificate of Mailing is attached"
+        required: false
+        width: full
+
+      - name: order_mailed
+        pdf_field_name: "SC-105A[0].Page1[0].ClerkCertificate[0].MailingCB[1]"
+        type: checkbox
+        label: "This Order was mailed first class, postage paid, to all parties at the addresses listed in Items 1 and 2 on the Request for Court Order and Answer"
+        required: false
+        width: full
+
+      - name: mailed_date
+        pdf_field_name: "SC-105A[0].Page1[0].ClerkCertificate[0].Field20[0]"
+        type: date
+        label: "On (date)"
+        required: false
+        width: third
+
+      - name: mailed_from_city
+        pdf_field_name: "SC-105A[0].Page1[0].ClerkCertificate[0].Field21[0]"
+        type: text
+        label: "From (city)"
+        required: false
+        width: third
+
+      - name: clerk_by
+        pdf_field_name: "SC-105A[0].Page1[0].ClerkCertificate[0].Field3[0]"
+        type: text
+        label: "Clerk, by"
+        required: false
+        width: third

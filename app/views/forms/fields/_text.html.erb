@@ -1,0 +1,23 @@
+<div class="form-control w-full mb-4">
+  <label class="label">
+    <span class="label-text font-medium"><%= field.label || field.name.titleize %></span>
+    <% if field.required %>
+      <span class="label-text-alt text-error">*</span>
+    <% end %>
+  </label>
+
+  <%= form.text_field field.name,
+    value: submission.field_value(field.name),
+    placeholder: field.placeholder,
+    required: field.required,
+    maxlength: field.max_length,
+    pattern: field.validation_pattern,
+    class: "input input-bordered w-full",
+    data: { action: "input->form#fieldChanged" } %>
+
+  <% if field.help_text.present? %>
+    <label class="label">
+      <span class="label-text-alt text-base-content/70"><%= field.help_text %></span>
+    </label>
+  <% end %>
+</div>

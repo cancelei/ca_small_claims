@@ -1,0 +1,206 @@
+# SC-114: Request to Amend Claim Before Hearing (Small Claims)
+# California Judicial Council Form
+
+form:
+  code: SC-114
+  title: "Request to Amend Claim Before Hearing (Small Claims)"
+  description: "Use this form to change your claim amount or add/remove parties before the hearing."
+  category: pre-trial
+  pdf_filename: sc114.pdf
+  instructions: |
+    Use this form to:
+    - Increase or decrease the amount of your claim
+    - Add or remove plaintiffs
+    - Add or remove defendants
+
+    Important:
+    - You must file and serve this form before the hearing
+    - If you increase the claim amount, you may need to pay additional filing fees
+    - Serve a copy on all parties
+
+sections:
+  case_info:
+    title: "Case Information"
+    description: "Court and case information"
+    fields:
+      - name: court_name
+        pdf_field_name: "TEXT.0.1.0.0"
+        type: text
+        label: "Superior Court of California, County of"
+        placeholder: "Los Angeles"
+        required: true
+        shared_key: court_county
+        width: full
+
+      - name: court_address
+        pdf_field_name: "TEXT.0.1.0.1"
+        type: text
+        label: "Court Address"
+        required: true
+        width: full
+
+      - name: case_number
+        pdf_field_name: "TEXT.0.1.0.1c"
+        type: text
+        label: "Case Number"
+        required: true
+        shared_key: case_number
+        width: half
+
+  requester_info:
+    title: "1. Requester Information"
+    description: "Information about the person making this request"
+    fields:
+      - name: requester_name
+        pdf_field_name: "TEXT.0.1.1.0.0"
+        type: text
+        label: "My name is"
+        required: true
+        width: full
+
+      - name: is_plaintiff
+        pdf_field_name: "a1.8.1"
+        type: checkbox
+        label: "I am a plaintiff"
+        required: false
+        width: half
+
+      - name: is_defendant
+        pdf_field_name: "a1.8.4"
+        type: checkbox
+        label: "I am a defendant"
+        required: false
+        width: half
+
+  amendment_type:
+    title: "2. Type of Amendment"
+    description: "What do you want to change?"
+    fields:
+      - name: change_claim_amount
+        pdf_field_name: "a1.8.y4"
+        type: checkbox
+        label: "a. Change the claim amount"
+        required: false
+        width: full
+
+      - name: add_remove_plaintiff
+        pdf_field_name: "a1.8.7"
+        type: checkbox
+        label: "b. Add or remove a plaintiff"
+        required: false
+        width: full
+
+      - name: add_remove_defendant
+        pdf_field_name: "a1.8.7fg"
+        type: checkbox
+        label: "c. Add or remove a defendant"
+        required: false
+        width: full
+
+  claim_amount_change:
+    title: "3. Change Claim Amount"
+    description: "If changing the claim amount, provide details"
+    fields:
+      - name: original_amount
+        pdf_field_name: "TEXT.0.1.1.0.1.0"
+        type: currency
+        label: "Original claim amount"
+        required: false
+        width: half
+
+      - name: new_amount
+        pdf_field_name: "TEXT.0.1.1.0.1.1.1.1"
+        type: currency
+        label: "New claim amount"
+        required: false
+        width: half
+
+      - name: reason_for_change
+        pdf_field_name: "TEXT.0.1.1.0.1.1.1.2"
+        type: textarea
+        label: "Reason for the change"
+        required: false
+        rows: 3
+        width: full
+
+  party_changes:
+    title: "4. Party Changes"
+    description: "If adding or removing parties, provide details"
+    fields:
+      - name: party_change_details
+        pdf_field_name: "TEXT.0.1.1.0.1.1.1.3"
+        type: textarea
+        label: "Describe the party changes"
+        required: false
+        rows: 3
+        help_text: "Include name and address of any party being added"
+        width: full
+
+  service_info:
+    title: "5. Service Information"
+    description: "Date and location of mailing"
+    fields:
+      - name: mailing_date
+        pdf_field_name: "TEXT.0.1.1.0.1.1.1.4.0"
+        type: date
+        label: "Date of Mailing"
+        required: true
+        width: half
+
+      - name: mailing_city
+        pdf_field_name: "TEXT.0.1.1.0.1.1.1.4.1"
+        type: text
+        label: "City of Mailing"
+        required: true
+        width: half
+
+  parties_served:
+    title: "6. Parties Served"
+    description: "List the parties you mailed this request to"
+    fields:
+      - name: party1_name
+        pdf_field_name: "TEXT.0.1.1.0.1.1.1.4.2.0.0"
+        type: text
+        label: "Party 1 - Name"
+        required: true
+        width: half
+
+      - name: party1_address
+        pdf_field_name: "TEXT.0.1.1.0.1.1.1.4.2.0.2"
+        type: text
+        label: "Party 1 - Address"
+        required: true
+        width: half
+
+      - name: party2_name
+        pdf_field_name: "TEXT.0.1.1.0.1.1.1.4.2.0.3"
+        type: text
+        label: "Party 2 - Name"
+        required: false
+        width: half
+
+      - name: party2_address
+        pdf_field_name: "TEXT.0.1.1.0.1.1.1.4.2.0.48"
+        type: text
+        label: "Party 2 - Address"
+        required: false
+        width: half
+
+  signature:
+    title: "Signature"
+    description: "Sign and date this request"
+    fields:
+      - name: signature_date
+        pdf_field_name: "TEXT.0.1.1.1"
+        type: date
+        label: "Date"
+        required: true
+        default: today
+        width: half
+
+      - name: signature_name
+        pdf_field_name: "TEXT.0.1.1.1ter"
+        type: text
+        label: "Type or print name"
+        required: true
+        width: half

@@ -1,0 +1,80 @@
+# Plaintiff Small Claims Workflow
+# Guides users through filing a small claims case as a plaintiff
+
+workflow:
+  name: "File a Small Claims Case"
+  slug: plaintiff_claim
+  category: plaintiff
+  description: "Complete all the forms needed to file a small claims case and sue someone for up to $12,500."
+  estimated_time: "30-45 minutes"
+
+steps:
+  - position: 1
+    form_code: SC-100
+    title: "Plaintiff's Claim"
+    instructions: |
+      This is the main form to start your small claims case.
+      Fill in your information, the defendant's information, and describe your claim.
+    required: true
+    data_mappings:
+      plaintiff_name: plaintiff_name
+      plaintiff_street: plaintiff_street
+      plaintiff_city: plaintiff_city
+      plaintiff_state: plaintiff_state
+      plaintiff_zip: plaintiff_zip
+      plaintiff_phone: plaintiff_phone
+      plaintiff_email: plaintiff_email
+
+  - position: 2
+    form_code: SC-104
+    title: "Proof of Service"
+    instructions: |
+      After the defendant is served, fill out this form to prove they received the papers.
+      This form must be filled out by the person who served the papers (not you).
+    required: true
+    data_mappings:
+      # Carry forward plaintiff info
+      plaintiff_name: plaintiff_name
+      # Carry forward defendant info from SC-100
+      defendant_name: defendant_name
+      defendant_street: defendant_street
+      defendant_city: defendant_city
+      defendant_state: defendant_state
+      defendant_zip: defendant_zip
+
+  - position: 3
+    form_code: SC-103
+    title: "Application for Fee Waiver"
+    instructions: |
+      If you cannot afford the filing fee, complete this form to request a fee waiver.
+      You must provide information about your income and expenses.
+    required: false
+    conditions:
+      show_when:
+        question: "Do you need a fee waiver?"
+        options:
+          - "Yes, I cannot afford the filing fee"
+          - "No, I will pay the filing fee"
+        show_if: "Yes, I cannot afford the filing fee"
+    data_mappings:
+      plaintiff_name: plaintiff_name
+      plaintiff_street: plaintiff_street
+      plaintiff_city: plaintiff_city
+      plaintiff_state: plaintiff_state
+      plaintiff_zip: plaintiff_zip
+
+completion:
+  title: "Your Forms Are Ready!"
+  instructions: |
+    Congratulations! You have completed all the forms needed to file your small claims case.
+
+    ## Next Steps:
+
+    1. **Print all forms** - Make at least 3 copies of each form
+    2. **File with the court** - Take the original forms to the court clerk and pay the filing fee
+    3. **Get a hearing date** - The clerk will give you a hearing date
+    4. **Serve the defendant** - Have someone else (not you) deliver the papers to the defendant
+    5. **Complete the Proof of Service** - Have the server fill out and sign SC-104
+    6. **File the Proof of Service** - Return the completed SC-104 to the court
+
+    Good luck with your case!

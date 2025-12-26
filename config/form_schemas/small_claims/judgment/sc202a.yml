@@ -1,0 +1,333 @@
+# SC-202A: Order on Motion for Judgment of Dismissal or to Vacate Judgment (Small Claims)
+# California Judicial Council Form
+
+form:
+  code: SC-202A
+  title: "Order on Motion for Judgment of Dismissal or to Vacate Judgment (Small Claims)"
+  description: "This form is the court's order in response to a motion to dismiss or vacate a judgment."
+  category: judgment
+  pdf_filename: sc202a.pdf
+  instructions: |
+    This form is used by the court to respond to:
+    - A motion for judgment of dismissal when a party fails to appear
+    - A motion to vacate (cancel) a judgment
+
+    The court will issue this order after reviewing the motion and any response.
+
+sections:
+  case_info:
+    title: "Case Information"
+    description: "Court and case information"
+    fields:
+      - name: court_name
+        pdf_field_name: "FillText01"
+        type: text
+        label: "Superior Court of California, County of"
+        placeholder: "Los Angeles"
+        required: true
+        shared_key: court_county
+        width: full
+
+      - name: court_address
+        pdf_field_name: "FillText02"
+        type: text
+        label: "Court Address"
+        required: true
+        width: full
+
+      - name: court_city_zip
+        pdf_field_name: "FillText03"
+        type: text
+        label: "City and ZIP"
+        required: true
+        width: full
+
+      - name: court_branch
+        pdf_field_name: "FillText04"
+        type: text
+        label: "Branch Name"
+        required: false
+        width: full
+
+      - name: plaintiff_name
+        pdf_field_name: "FillText05"
+        type: text
+        label: "Plaintiff"
+        required: true
+        shared_key: plaintiff_name
+        width: full
+
+      - name: defendant_name
+        pdf_field_name: "FillText06"
+        type: text
+        label: "Defendant"
+        required: true
+        width: full
+
+      - name: case_number
+        pdf_field_name: "FillText07"
+        type: text
+        label: "Case Number"
+        required: true
+        shared_key: case_number
+        width: half
+
+  motion_type:
+    title: "1. Type of Motion"
+    description: "Select which motion this order responds to"
+    fields:
+      - name: motion_type
+        pdf_field_name: "CheckBox01"
+        type: radio
+        label: "This order is on the motion"
+        required: true
+        options:
+          - value: "1"
+            label: "For Judgment of Dismissal"
+          - value: "2"
+            label: "To Vacate Judgment"
+        width: full
+
+  moving_party:
+    title: "2. Moving Party"
+    description: "Who filed the motion"
+    fields:
+      - name: moving_party_name
+        pdf_field_name: "FillText08"
+        type: text
+        label: "Filed by (name)"
+        required: true
+        width: full
+
+      - name: moving_party_type
+        pdf_field_name: "CheckBox04"
+        type: radio
+        label: "Moving party is"
+        required: true
+        options:
+          - value: "1"
+            label: "Plaintiff"
+          - value: "2"
+            label: "Defendant"
+        width: half
+
+  related_documents:
+    title: "3. Related Documents"
+    description: "Documents considered by the court"
+    fields:
+      - name: motion_filed
+        pdf_field_name: "CheckBox05"
+        type: checkbox
+        label: "Motion filed"
+        required: false
+        width: full
+
+      - name: response_filed
+        pdf_field_name: "CheckBox06"
+        type: checkbox
+        label: "Response filed"
+        required: false
+        width: full
+
+      - name: reply_filed
+        pdf_field_name: "CheckBox07"
+        type: checkbox
+        label: "Reply filed"
+        required: false
+        width: full
+
+      - name: hearing_held
+        pdf_field_name: "CheckBox08"
+        type: checkbox
+        label: "Hearing held"
+        required: false
+        width: full
+
+      - name: other_documents
+        pdf_field_name: "FillText09"
+        type: text
+        label: "Other documents considered"
+        required: false
+        width: full
+
+  court_order:
+    title: "4. Court's Order"
+    description: "The court's decision"
+    fields:
+      - name: motion_granted
+        pdf_field_name: "CheckBox09"
+        type: radio
+        label: "The motion is"
+        required: true
+        options:
+          - value: "1"
+            label: "Granted"
+          - value: "2"
+            label: "Denied"
+        width: half
+
+      - name: dismissal_with_prejudice
+        pdf_field_name: "CheckBox10"
+        type: checkbox
+        label: "The case is dismissed with prejudice"
+        required: false
+        width: full
+
+      - name: dismissal_without_prejudice
+        pdf_field_name: "CheckBox11"
+        type: checkbox
+        label: "The case is dismissed without prejudice"
+        required: false
+        width: full
+
+      - name: judgment_vacated
+        pdf_field_name: "CheckBox12"
+        type: checkbox
+        label: "The judgment is vacated"
+        required: false
+        width: full
+
+      - name: new_hearing_ordered
+        pdf_field_name: "CheckBox13"
+        type: checkbox
+        label: "A new hearing is scheduled"
+        required: false
+        width: full
+
+      - name: new_hearing_date
+        pdf_field_name: "FillText11"
+        type: date
+        label: "New Hearing Date"
+        required: false
+        conditions:
+          show_when:
+            field: new_hearing_ordered
+            value: true
+        width: quarter
+
+      - name: new_hearing_time
+        pdf_field_name: "FillText12"
+        type: text
+        label: "Time"
+        required: false
+        conditions:
+          show_when:
+            field: new_hearing_ordered
+            value: true
+        width: quarter
+
+      - name: new_hearing_dept
+        pdf_field_name: "FillText13"
+        type: text
+        label: "Department"
+        required: false
+        conditions:
+          show_when:
+            field: new_hearing_ordered
+            value: true
+        width: quarter
+
+      - name: other_orders
+        pdf_field_name: "CheckBox14"
+        type: checkbox
+        label: "Other orders"
+        required: false
+        width: full
+
+      - name: other_orders_specify
+        pdf_field_name: "FillText14"
+        type: textarea
+        label: "Specify other orders"
+        required: false
+        rows: 3
+        conditions:
+          show_when:
+            field: other_orders
+            value: true
+        width: full
+
+  reasons:
+    title: "5. Reasons for Order"
+    description: "Court's explanation"
+    fields:
+      - name: failure_to_appear
+        pdf_field_name: "CheckBox15"
+        type: checkbox
+        label: "The opposing party failed to appear at the hearing"
+        required: false
+        width: full
+
+      - name: good_cause_shown
+        pdf_field_name: "CheckBox16"
+        type: checkbox
+        label: "Good cause was shown to vacate the judgment"
+        required: false
+        width: full
+
+      - name: no_good_cause
+        pdf_field_name: "CheckBox17"
+        type: checkbox
+        label: "Good cause was not shown"
+        required: false
+        width: full
+
+      - name: motion_untimely
+        pdf_field_name: "CheckBox18"
+        type: radio
+        label: "The motion was filed"
+        required: false
+        options:
+          - value: "1"
+            label: "Timely"
+          - value: "2"
+            label: "Untimely"
+        width: half
+
+      - name: other_reasons
+        pdf_field_name: "CheckBox19"
+        type: checkbox
+        label: "Other reasons"
+        required: false
+        width: full
+
+      - name: explanation
+        pdf_field_name: "FillText15"
+        type: textarea
+        label: "Explanation"
+        required: false
+        rows: 3
+        width: full
+
+  notification:
+    title: "6. Notification"
+    description: "Who will be notified"
+    fields:
+      - name: notify_moving_party
+        pdf_field_name: "CheckBox20"
+        type: radio
+        label: "Notify"
+        required: false
+        options:
+          - value: "1"
+            label: "Moving party only"
+          - value: "2"
+            label: "All parties"
+        width: full
+
+      - name: notice_by_mail
+        pdf_field_name: "CheckBox21"
+        type: checkbox
+        label: "Notice to be sent by mail"
+        required: false
+        width: full
+
+  court_signature:
+    title: "Court Signature"
+    description: "Date signed by the judicial officer"
+    fields:
+      - name: order_date
+        pdf_field_name: "FillText02"
+        type: date
+        label: "Date"
+        required: true
+        width: half

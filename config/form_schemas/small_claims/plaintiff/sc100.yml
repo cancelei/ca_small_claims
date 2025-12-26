@@ -1,0 +1,288 @@
+# SC-100: Plaintiff's Claim and ORDER to Go to Small Claims Court
+# California Judicial Council Form
+
+form:
+  code: SC-100
+  title: "Plaintiff's Claim and ORDER to Go to Small Claims Court"
+  description: "Use this form to start a small claims case. You are the plaintiff (the person suing)."
+  category: plaintiff
+  pdf_filename: sc100.pdf
+  instructions: |
+    This form is used to file a small claims case. You must:
+    1. Fill out this form completely
+    2. Make copies for each defendant plus one for yourself
+    3. File the original with the court clerk
+    4. Have each defendant served with a copy
+
+sections:
+  court_info:
+    title: "Court Information"
+    description: "Enter the court where you are filing"
+    fields:
+      - name: court_name
+        pdf_field_name: "CourtName"
+        type: text
+        label: "Court Name"
+        placeholder: "Superior Court of California, County of..."
+        required: true
+        help_text: "Enter the full name of the court"
+        width: full
+
+      - name: court_address
+        pdf_field_name: "CourtAddress"
+        type: textarea
+        label: "Court Address"
+        required: true
+        width: full
+
+      - name: court_branch
+        pdf_field_name: "BranchName"
+        type: text
+        label: "Branch Name"
+        required: false
+        width: half
+
+  plaintiff_info:
+    title: "Plaintiff Information (Your Information)"
+    description: "Enter your name and contact information"
+    fields:
+      - name: plaintiff_name
+        pdf_field_name: "PlaintiffName"
+        type: text
+        label: "Your Full Legal Name"
+        placeholder: "First Middle Last"
+        required: true
+        shared_key: plaintiff_name
+        width: full
+
+      - name: plaintiff_street
+        pdf_field_name: "PlaintiffStreet"
+        type: text
+        label: "Street Address"
+        required: true
+        shared_key: plaintiff_street
+        width: full
+
+      - name: plaintiff_city
+        pdf_field_name: "PlaintiffCity"
+        type: text
+        label: "City"
+        required: true
+        shared_key: plaintiff_city
+        width: third
+
+      - name: plaintiff_state
+        pdf_field_name: "PlaintiffState"
+        type: select
+        label: "State"
+        required: true
+        default: "CA"
+        options:
+          - { value: "CA", label: "California" }
+          - { value: "AZ", label: "Arizona" }
+          - { value: "NV", label: "Nevada" }
+          - { value: "OR", label: "Oregon" }
+        shared_key: plaintiff_state
+        width: third
+
+      - name: plaintiff_zip
+        pdf_field_name: "PlaintiffZip"
+        type: text
+        label: "ZIP Code"
+        required: true
+        pattern: "^\\d{5}(-\\d{4})?$"
+        shared_key: plaintiff_zip
+        width: third
+
+      - name: plaintiff_phone
+        pdf_field_name: "PlaintiffPhone"
+        type: tel
+        label: "Phone Number"
+        placeholder: "(555) 555-5555"
+        required: true
+        shared_key: plaintiff_phone
+        width: half
+
+      - name: plaintiff_email
+        pdf_field_name: "PlaintiffEmail"
+        type: email
+        label: "Email Address"
+        required: false
+        shared_key: plaintiff_email
+        width: half
+
+  defendant_info:
+    title: "Defendant Information (Person/Business You Are Suing)"
+    description: "Enter the name and address of who you are suing"
+    repeatable: true
+    max_items: 4
+    fields:
+      - name: defendant_name
+        pdf_field_name: "DefendantName"
+        type: text
+        label: "Defendant's Full Name"
+        placeholder: "First Middle Last OR Business Name"
+        required: true
+        width: full
+
+      - name: defendant_street
+        pdf_field_name: "DefendantStreet"
+        type: text
+        label: "Street Address"
+        required: true
+        width: full
+
+      - name: defendant_city
+        pdf_field_name: "DefendantCity"
+        type: text
+        label: "City"
+        required: true
+        width: third
+
+      - name: defendant_state
+        pdf_field_name: "DefendantState"
+        type: select
+        label: "State"
+        required: true
+        default: "CA"
+        options:
+          - { value: "CA", label: "California" }
+          - { value: "AZ", label: "Arizona" }
+          - { value: "NV", label: "Nevada" }
+          - { value: "OR", label: "Oregon" }
+        width: third
+
+      - name: defendant_zip
+        pdf_field_name: "DefendantZip"
+        type: text
+        label: "ZIP Code"
+        required: true
+        pattern: "^\\d{5}(-\\d{4})?$"
+        width: third
+
+      - name: defendant_phone
+        pdf_field_name: "DefendantPhone"
+        type: tel
+        label: "Phone Number (if known)"
+        required: false
+        width: half
+
+  claim_details:
+    title: "Claim Details"
+    description: "Describe what happened and how much you are claiming"
+    fields:
+      - name: claim_amount
+        pdf_field_name: "ClaimAmount"
+        type: currency
+        label: "Amount You Are Claiming"
+        required: true
+        min: 0.01
+        max: 12500
+        help_text: "Small claims limit is $12,500 (or $6,250 for guarantors)"
+        width: half
+
+      - name: filing_fee
+        pdf_field_name: "FilingFee"
+        type: currency
+        label: "Filing Fee"
+        required: false
+        help_text: "The clerk will tell you the filing fee amount"
+        width: half
+
+      - name: claim_basis
+        pdf_field_name: "ClaimBasis"
+        type: select
+        label: "Reason for Claim"
+        required: true
+        options:
+          - { value: "contract", label: "Breach of Contract" }
+          - { value: "property_damage", label: "Property Damage" }
+          - { value: "personal_injury", label: "Personal Injury" }
+          - { value: "unpaid_rent", label: "Unpaid Rent" }
+          - { value: "security_deposit", label: "Security Deposit" }
+          - { value: "auto_accident", label: "Auto Accident" }
+          - { value: "unpaid_wages", label: "Unpaid Wages" }
+          - { value: "faulty_merchandise", label: "Faulty Merchandise/Services" }
+          - { value: "loan", label: "Unpaid Loan" }
+          - { value: "other", label: "Other" }
+        width: full
+
+      - name: claim_description
+        pdf_field_name: "ClaimDescription"
+        type: textarea
+        label: "Describe Your Claim"
+        placeholder: "Explain what happened, when it happened, and why you believe the defendant owes you money..."
+        required: true
+        rows: 6
+        help_text: "Be specific. Include dates, amounts, and what the defendant did or failed to do."
+        width: full
+
+      - name: claim_date
+        pdf_field_name: "ClaimDate"
+        type: date
+        label: "Date the Problem Occurred"
+        required: true
+        help_text: "Enter the date the incident happened or when the contract was broken"
+        width: half
+
+      - name: venue_reason
+        pdf_field_name: "VenueReason"
+        type: select
+        label: "Why are you filing in this court?"
+        required: true
+        options:
+          - { value: "defendant_residence", label: "Defendant lives in this county" }
+          - { value: "defendant_business", label: "Defendant's business is in this county" }
+          - { value: "incident_location", label: "The incident occurred in this county" }
+          - { value: "contract_location", label: "Contract was signed in this county" }
+          - { value: "contract_performance", label: "Contract was to be performed in this county" }
+        help_text: "You must file in the correct court location"
+        width: full
+
+  additional_info:
+    title: "Additional Information"
+    fields:
+      - name: previous_claims
+        pdf_field_name: "PreviousClaims"
+        type: checkbox
+        label: "I have NOT filed more than 2 small claims cases in California in the past 12 months that asked for more than $2,500"
+        required: true
+        width: full
+
+      - name: demand_made
+        pdf_field_name: "DemandMade"
+        type: checkbox
+        label: "I asked the defendant to pay before filing this claim"
+        required: false
+        width: full
+
+      - name: demand_date
+        pdf_field_name: "DemandDate"
+        type: date
+        label: "Date You Asked for Payment"
+        required: false
+        conditions:
+          show_when:
+            field: demand_made
+            value: true
+        width: half
+
+  signature:
+    title: "Signature"
+    description: "Sign and date the form"
+    fields:
+      - name: plaintiff_signature
+        pdf_field_name: "PlaintiffSignature"
+        type: signature
+        label: "Your Signature"
+        required: true
+        help_text: "By signing, you declare under penalty of perjury that the information above is true and correct."
+        width: full
+
+      - name: signature_date
+        pdf_field_name: "SignatureDate"
+        type: date
+        label: "Date"
+        required: true
+        default: today
+        width: half

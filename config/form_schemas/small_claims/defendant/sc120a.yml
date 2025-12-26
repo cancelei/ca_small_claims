@@ -1,0 +1,433 @@
+# SC-120A: Other Plaintiffs or Defendants on Defendant's Claim (Small Claims)
+# California Judicial Council Form
+
+form:
+  code: SC-120A
+  title: "Other Plaintiffs or Defendants on Defendant's Claim (Small Claims)"
+  description: "Use this form to list additional plaintiffs or defendants when there are more than can fit on form SC-120."
+  category: defendant
+  pdf_filename: sc120a.pdf
+  instructions: |
+    Use this form if you have more than two plaintiffs or defendants on your Defendant's Claim.
+
+    Attach this form to your Defendant's Claim (SC-120).
+
+sections:
+  header:
+    title: "Form Header"
+    description: "Page and case information"
+    fields:
+      - name: page_number
+        pdf_field_name: "FillText112"
+        type: text
+        label: "Page"
+        required: false
+        width: quarter
+
+      - name: total_pages
+        pdf_field_name: "FillText111"
+        type: text
+        label: "of"
+        required: false
+        width: quarter
+
+      - name: case_number
+        pdf_field_name: "FillText110"
+        type: text
+        label: "Case Number"
+        required: true
+        shared_key: case_number
+        width: half
+
+  attachment_info:
+    title: "Attachment Information"
+    description: "Check that this form is attached to SC-120"
+    fields:
+      - name: attached_to_sc120
+        pdf_field_name: "CheckBox6"
+        type: checkbox
+        label: "This form is attached to form SC-120"
+        required: false
+        width: full
+
+  other_plaintiffs:
+    title: "Other Plaintiffs"
+    description: "List additional plaintiffs on your cross-claim"
+    fields:
+      - name: more_plaintiffs_attached
+        pdf_field_name: "CheckBox55"
+        type: checkbox
+        label: "Check here if more plaintiffs and attach another form SC-120A"
+        required: false
+        width: full
+
+      - name: plaintiff3_name
+        pdf_field_name: "FillText34"
+        type: text
+        label: "Plaintiff 3 - Name"
+        required: false
+        width: full
+
+      - name: plaintiff3_street
+        pdf_field_name: "FillText36"
+        type: text
+        label: "Street Address"
+        required: false
+        width: full
+
+      - name: plaintiff3_city
+        pdf_field_name: "FillText37"
+        type: text
+        label: "City"
+        required: false
+        width: third
+
+      - name: plaintiff3_state
+        pdf_field_name: "FillText35"
+        type: text
+        label: "State"
+        required: false
+        default: "CA"
+        width: third
+
+      - name: plaintiff3_zip
+        pdf_field_name: "FillText38"
+        type: text
+        label: "ZIP"
+        required: false
+        width: third
+
+      - name: plaintiff3_zip_ext
+        pdf_field_name: "FillText43"
+        type: text
+        label: "ZIP+4"
+        required: false
+        maxlength: 3
+        width: quarter
+
+      - name: plaintiff3_mailing
+        pdf_field_name: "FillText40"
+        type: text
+        label: "Mailing Address (if different)"
+        required: false
+        width: full
+
+      - name: plaintiff3_phone
+        pdf_field_name: "FillText41"
+        type: tel
+        label: "Phone"
+        required: false
+        width: half
+
+      - name: plaintiff3_email
+        pdf_field_name: "FillText42"
+        type: text
+        label: "Email"
+        required: false
+        width: half
+
+      - name: plaintiff3_business_type
+        pdf_field_name: "FillText39"
+        type: text
+        label: "Type of Business (if applicable)"
+        required: false
+        width: half
+
+      - name: plaintiff3_amount
+        pdf_field_name: "FillText44"
+        type: currency
+        label: "Amount of Claim"
+        required: false
+        width: half
+
+      - name: plaintiff4_name
+        pdf_field_name: "FillText61"
+        type: text
+        label: "Plaintiff 4 - Name"
+        required: false
+        width: full
+
+      - name: plaintiff4_street
+        pdf_field_name: "FillText63"
+        type: text
+        label: "Street Address"
+        required: false
+        width: full
+
+      - name: plaintiff4_city
+        pdf_field_name: "FillText66"
+        type: text
+        label: "City"
+        required: false
+        width: third
+
+      - name: plaintiff4_state
+        pdf_field_name: "FillText64"
+        type: text
+        label: "State"
+        required: false
+        default: "CA"
+        width: third
+
+      - name: plaintiff4_zip
+        pdf_field_name: "FillText65"
+        type: text
+        label: "ZIP"
+        required: false
+        width: third
+
+      - name: plaintiff4_zip_ext
+        pdf_field_name: "FillText70"
+        type: text
+        label: "ZIP+4"
+        required: false
+        maxlength: 3
+        width: quarter
+
+      - name: plaintiff4_mailing
+        pdf_field_name: "FillText67"
+        type: text
+        label: "Mailing Address (if different)"
+        required: false
+        width: full
+
+      - name: plaintiff4_phone
+        pdf_field_name: "FillText68"
+        type: tel
+        label: "Phone"
+        required: false
+        width: half
+
+      - name: plaintiff4_email
+        pdf_field_name: "FillText69"
+        type: text
+        label: "Email"
+        required: false
+        width: half
+
+      - name: plaintiff4_business_type
+        pdf_field_name: "FillText62"
+        type: text
+        label: "Type of Business (if applicable)"
+        required: false
+        width: half
+
+      - name: plaintiff4_amount
+        pdf_field_name: "FillText71"
+        type: currency
+        label: "Amount of Claim"
+        required: false
+        width: half
+
+  other_defendants:
+    title: "Other Defendants"
+    description: "List additional defendants"
+    fields:
+      - name: more_defendants_attached
+        pdf_field_name: "CheckBox53"
+        type: checkbox
+        label: "Check here if more defendants and attach another form SC-120A"
+        required: false
+        width: full
+
+      - name: defendant3_name
+        pdf_field_name: "FillText72"
+        type: text
+        label: "Defendant 3 - Name"
+        required: false
+        width: full
+
+      - name: defendant3_street
+        pdf_field_name: "FillText74"
+        type: text
+        label: "Street Address"
+        required: false
+        width: full
+
+      - name: defendant3_city
+        pdf_field_name: "FillText77"
+        type: text
+        label: "City"
+        required: false
+        width: third
+
+      - name: defendant3_state
+        pdf_field_name: "FillText75"
+        type: text
+        label: "State"
+        required: false
+        default: "CA"
+        width: third
+
+      - name: defendant3_zip
+        pdf_field_name: "FillText76"
+        type: text
+        label: "ZIP"
+        required: false
+        width: third
+
+      - name: defendant3_zip_ext
+        pdf_field_name: "FillText81"
+        type: text
+        label: "ZIP+4"
+        required: false
+        maxlength: 3
+        width: quarter
+
+      - name: defendant3_mailing
+        pdf_field_name: "FillText78"
+        type: text
+        label: "Mailing Address (if different)"
+        required: false
+        width: full
+
+      - name: defendant3_phone
+        pdf_field_name: "FillText79"
+        type: tel
+        label: "Phone"
+        required: false
+        width: half
+
+      - name: defendant3_email
+        pdf_field_name: "FillText80"
+        type: text
+        label: "Email"
+        required: false
+        width: half
+
+      - name: defendant3_business_type
+        pdf_field_name: "FillText73"
+        type: text
+        label: "Type of Business (if applicable)"
+        required: false
+        width: half
+
+      - name: defendant3_amount
+        pdf_field_name: "FillText82"
+        type: currency
+        label: "Amount of Claim"
+        required: false
+        width: half
+
+      - name: defendant4_name
+        pdf_field_name: "FillText94"
+        type: text
+        label: "Defendant 4 - Name"
+        required: false
+        width: full
+
+      - name: defendant4_street
+        pdf_field_name: "FillText96"
+        type: text
+        label: "Street Address"
+        required: false
+        width: full
+
+      - name: defendant4_city
+        pdf_field_name: "FillText99"
+        type: text
+        label: "City"
+        required: false
+        width: third
+
+      - name: defendant4_state
+        pdf_field_name: "FillText97"
+        type: text
+        label: "State"
+        required: false
+        default: "CA"
+        width: third
+
+      - name: defendant4_zip
+        pdf_field_name: "FillText98"
+        type: text
+        label: "ZIP"
+        required: false
+        width: third
+
+      - name: defendant4_zip_ext
+        pdf_field_name: "FillText103"
+        type: text
+        label: "ZIP+4"
+        required: false
+        maxlength: 3
+        width: quarter
+
+      - name: defendant4_mailing
+        pdf_field_name: "FillText100"
+        type: text
+        label: "Mailing Address (if different)"
+        required: false
+        width: full
+
+      - name: defendant4_phone
+        pdf_field_name: "FillText101"
+        type: tel
+        label: "Phone"
+        required: false
+        width: half
+
+      - name: defendant4_email
+        pdf_field_name: "FillText102"
+        type: text
+        label: "Email"
+        required: false
+        width: half
+
+      - name: defendant4_business_type
+        pdf_field_name: "FillText95"
+        type: text
+        label: "Type of Business (if applicable)"
+        required: false
+        width: half
+
+      - name: defendant4_amount
+        pdf_field_name: "FillText104"
+        type: currency
+        label: "Amount of Claim"
+        required: false
+        width: half
+
+  more_attached:
+    title: "Additional Pages"
+    description: "Check if additional pages are attached"
+    fields:
+      - name: additional_pages
+        pdf_field_name: "CheckBox1"
+        type: checkbox
+        label: "Additional pages are attached"
+        required: false
+        width: full
+
+  signature:
+    title: "Signature"
+    description: "Sign and date this form"
+    fields:
+      - name: signature1_date
+        pdf_field_name: "FillText5"
+        type: date
+        label: "Date"
+        required: true
+        default: today
+        width: half
+
+      - name: signature1_name
+        pdf_field_name: "FillText105"
+        type: text
+        label: "Type or print your name"
+        required: true
+        width: half
+
+      - name: signature2_date
+        pdf_field_name: "FillText106"
+        type: date
+        label: "Date (second defendant)"
+        required: false
+        width: half
+
+      - name: signature2_name
+        pdf_field_name: "FillText107"
+        type: text
+        label: "Type or print your name (second defendant)"
+        required: false
+        width: half

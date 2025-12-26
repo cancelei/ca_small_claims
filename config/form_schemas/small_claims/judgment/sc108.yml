@@ -1,0 +1,409 @@
+# SC-108: Request to Correct or Cancel Judgment; Answer
+# California Judicial Council Form
+
+form:
+  code: SC-108
+  title: "Request to Correct or Cancel Judgment; Answer"
+  description: "Use this form to ask the court to correct a clerical error in a judgment or to cancel a judgment because the court applied the wrong law."
+  category: judgment
+  pdf_filename: sc108.pdf
+  instructions: |
+    Use this form if:
+    - There is a clerical error in the judgment that needs to be corrected, OR
+    - You believe the court applied the wrong law to your case
+
+    You must serve a copy of this form on all other parties before filing with the court.
+    The other party can use Page 2 to respond to your request.
+
+sections:
+  court_info:
+    title: "Court Information"
+    description: "Enter the court and case information"
+    fields:
+      - name: court_name
+        pdf_field_name: "SC-108[0].Page1[0].RightCaption[0].CTY[0].CourtInfo_ft[0]"
+        type: text
+        label: "Superior Court of California, County of"
+        placeholder: "Los Angeles"
+        required: true
+        shared_key: court_county
+        width: full
+
+      - name: case_number
+        pdf_field_name: "SC-108[0].Page1[0].RightCaption[0].CN[0].CaseNumber_ft[0]"
+        type: text
+        label: "Case Number"
+        required: true
+        shared_key: case_number
+        width: half
+
+      - name: case_name
+        pdf_field_name: "SC-108[0].Page1[0].RightCaption[0].CN[0].CaseName_ft[0]"
+        type: text
+        label: "Case Name"
+        placeholder: "Plaintiff Name vs. Defendant Name"
+        required: true
+        width: half
+
+  requester_info:
+    title: "1. Requester Information"
+    description: "Information about the person making this request"
+    fields:
+      - name: requester_name
+        pdf_field_name: "SC-108[0].Page1[0].List1[0].item1[0].FillText1[0]"
+        type: text
+        label: "Your Full Name"
+        required: true
+        width: full
+
+      - name: requester_address
+        pdf_field_name: "SC-108[0].Page1[0].List1[0].item1[0].FillText2[0]"
+        type: text
+        label: "Your Address"
+        required: true
+        width: full
+
+      - name: requester_role
+        pdf_field_name: "SC-108[0].Page1[0].List1[0].item1[0].partyDef"
+        type: radio
+        label: "I am"
+        required: true
+        options:
+          - { value: "1", label: "A defendant in this case" }
+          - { value: "2", label: "A plaintiff in this case" }
+        width: full
+
+  other_parties:
+    title: "2. Other Parties"
+    description: "Names and addresses of all other parties who must receive a copy of this request"
+    fields:
+      - name: party_a_name
+        pdf_field_name: "SC-108[0].Page1[0].List2[0].Lia[0].FillText3[0]"
+        type: text
+        label: "Party A - Name"
+        required: true
+        width: full
+
+      - name: party_a_address
+        pdf_field_name: "SC-108[0].Page1[0].List2[0].Lia[0].FillText4[0]"
+        type: text
+        label: "Party A - Address"
+        required: true
+        width: full
+
+      - name: party_b_name
+        pdf_field_name: "SC-108[0].Page1[0].List2[0].Lib[0].FillText5[0]"
+        type: text
+        label: "Party B - Name"
+        required: false
+        width: full
+
+      - name: party_b_address
+        pdf_field_name: "SC-108[0].Page1[0].List2[0].Lib[0].FillText6[0]"
+        type: text
+        label: "Party B - Address"
+        required: false
+        width: full
+
+      - name: party_c_name
+        pdf_field_name: "SC-108[0].Page1[0].List2[0].Lic[0].FillText7[0]"
+        type: text
+        label: "Party C - Name"
+        required: false
+        width: full
+
+      - name: party_c_address
+        pdf_field_name: "SC-108[0].Page1[0].List2[0].Lic[0].FillText8[0]"
+        type: text
+        label: "Party C - Address"
+        required: false
+        width: full
+
+      - name: party_d_name
+        pdf_field_name: "SC-108[0].Page1[0].List2[0].Lid[0].FillText10[0]"
+        type: text
+        label: "Party D - Name"
+        required: false
+        width: full
+
+      - name: party_d_address
+        pdf_field_name: "SC-108[0].Page1[0].List2[0].Lid[0].FillText9[0]"
+        type: text
+        label: "Party D - Address"
+        required: false
+        width: full
+
+      - name: need_more_space_parties
+        pdf_field_name: "SC-108[0].Page1[0].List2[0].CheckBox5[0]"
+        type: checkbox
+        label: "Check here if you need more space. Use form MC-031 and write 'SC-108, Item 2' on top."
+        required: false
+        width: full
+
+  request_details:
+    title: "3. Request to Correct or Cancel"
+    description: "Select the type of request and provide details"
+    fields:
+      - name: request_correct
+        pdf_field_name: "SC-108[0].Page1[0].List3[0].Lia[0].askCourt[0]"
+        type: checkbox
+        label: "a. Correct the following clerical error in the judgment"
+        required: false
+        width: full
+
+      - name: clerical_error
+        pdf_field_name: "SC-108[0].Page1[0].List3[0].Lia[0].clerError[0]"
+        type: text
+        label: "List the error"
+        required: false
+        conditions:
+          show_when:
+            field: request_correct
+            value: true
+        width: full
+
+      - name: change_to
+        pdf_field_name: "SC-108[0].Page1[0].List3[0].Lia[0].changeTo[0]"
+        type: text
+        label: "Change to"
+        required: false
+        conditions:
+          show_when:
+            field: request_correct
+            value: true
+        width: full
+
+      - name: explain_correction
+        pdf_field_name: "SC-108[0].Page1[0].List3[0].Lia[0].Explain1[0]"
+        type: text
+        label: "Explain why this correction is needed"
+        required: false
+        conditions:
+          show_when:
+            field: request_correct
+            value: true
+        width: full
+
+      - name: explain_correction_continued
+        pdf_field_name: "SC-108[0].Page1[0].List3[0].Lia[0].FillText100[0]"
+        type: textarea
+        label: "Explanation (continued)"
+        required: false
+        rows: 3
+        conditions:
+          show_when:
+            field: request_correct
+            value: true
+        width: full
+
+      - name: request_cancel
+        pdf_field_name: "SC-108[0].Page1[0].List3[0].Lib[0].askCourt[0]"
+        type: checkbox
+        label: "b. Cancel the judgment because the court applied the wrong law to this case"
+        required: false
+        width: full
+
+      - name: explain_cancel
+        pdf_field_name: "SC-108[0].Page1[0].List3[0].Lib[0].cancelExplain[0]"
+        type: textarea
+        label: "Explain why the court applied the wrong law"
+        required: false
+        rows: 4
+        conditions:
+          show_when:
+            field: request_cancel
+            value: true
+        width: full
+
+      - name: need_more_space_request
+        pdf_field_name: "SC-108[0].Page1[0].List3[0].askCourtOF[0]"
+        type: checkbox
+        label: "Check here if you need more space. Use form MC-031 and write 'SC-108, Item 3' on top."
+        required: false
+        width: full
+
+  requester_signature:
+    title: "5. Requester Signature"
+    description: "Sign and date the request"
+    fields:
+      - name: requester_signature_date
+        pdf_field_name: "SC-108[0].Page1[0].List5[0].item5[0].popDate[0]"
+        type: date
+        label: "Date"
+        required: true
+        default: today
+        width: half
+
+      - name: requester_signature_name
+        pdf_field_name: "SC-108[0].Page1[0].List5[0].item5[0].sigName[0]"
+        type: text
+        label: "Type or print your name"
+        required: true
+        width: half
+
+  # Page 2 - Answer Section
+  answerer_info:
+    title: "6. Answerer Information (Page 2)"
+    description: "If you are responding to a request, fill out this section"
+    fields:
+      - name: answerer_name
+        pdf_field_name: "SC-108[0].Page2[0].List6[0].item6[0].FillText12[0]"
+        type: text
+        label: "Your Full Name"
+        required: false
+        width: full
+
+      - name: answerer_address
+        pdf_field_name: "SC-108[0].Page2[0].List6[0].item6[0].FillText13[0]"
+        type: text
+        label: "Your Address"
+        required: false
+        width: full
+
+      - name: answerer_role
+        pdf_field_name: "SC-108[0].Page2[0].List6[0].item6[0].Plaintiff"
+        type: radio
+        label: "I am"
+        required: false
+        options:
+          - { value: "1", label: "A defendant in this case" }
+          - { value: "2", label: "A plaintiff in this case" }
+        width: full
+
+  answer_response:
+    title: "7. Your Response"
+    description: "Indicate whether you agree or disagree with the request"
+    fields:
+      - name: agree_correction
+        pdf_field_name: "SC-108[0].Page2[0].List7[0].Lia[0].CheckBox14[0]"
+        type: checkbox
+        label: "a. I agree to the correction requested in 3a"
+        required: false
+        width: full
+
+      - name: agree_cancellation
+        pdf_field_name: 'SC-108[0].Page2[0].List7[0].Lib[0].CheckBox\.07\.b[0]'
+        type: checkbox
+        label: "b. I agree to the cancellation of judgment requested in 3b"
+        required: false
+        width: full
+
+      - name: disagree_correction
+        pdf_field_name: 'SC-108[0].Page2[0].List7[0].Lic[0].CheckBox\.07\.c[0]'
+        type: checkbox
+        label: "c. I do not agree with the request in 3a"
+        required: false
+        width: full
+
+      - name: disagree_correction_explain
+        pdf_field_name: "SC-108[0].Page2[0].List7[0].Lic[0].FillText7c[0]"
+        type: textarea
+        label: "Explain why you disagree with the correction"
+        required: false
+        rows: 3
+        conditions:
+          show_when:
+            field: disagree_correction
+            value: true
+        width: full
+
+      - name: disagree_cancellation
+        pdf_field_name: 'SC-108[0].Page2[0].List7[0].Lid[0].CheckBox\.07\.d[0]'
+        type: checkbox
+        label: "d. I do not agree with the request in 3b"
+        required: false
+        width: full
+
+      - name: disagree_cancellation_explain
+        pdf_field_name: "SC-108[0].Page2[0].List7[0].Lid[0].FillText7d[0]"
+        type: textarea
+        label: "Explain why you disagree with the cancellation"
+        required: false
+        rows: 3
+        conditions:
+          show_when:
+            field: disagree_cancellation
+            value: true
+        width: full
+
+      - name: request_hearing
+        pdf_field_name: 'SC-108[0].Page2[0].List7[0].Lie[0].CheckBox\.07\.e[0]'
+        type: checkbox
+        label: "e. I ask the court to have a hearing to decide this matter"
+        required: false
+        width: full
+
+      - name: need_more_space_answer
+        pdf_field_name: "SC-108[0].Page2[0].List7[0].CBI7[0]"
+        type: checkbox
+        label: "Check here if you need more space. Use form MC-031 and write 'SC-108, Item 7' on top."
+        required: false
+        width: full
+
+  answer_service:
+    title: "8. Certificate of Mailing"
+    description: "Confirm you mailed a copy to all parties"
+    fields:
+      - name: answer_mailing_date
+        pdf_field_name: "SC-108[0].Page2[0].List8[0].item8[0].FillText21[0]"
+        type: date
+        label: "I mailed a copy of this form to everyone listed in Items 1 and 2 on"
+        required: false
+        width: full
+
+  answerer_signature:
+    title: "9. Answerer Signature"
+    description: "Sign and date your answer"
+    fields:
+      - name: answerer_signature_date
+        pdf_field_name: "SC-108[0].Page2[0].List9[0].item9[0].FillText26[0]"
+        type: date
+        label: "Date"
+        required: false
+        width: half
+
+      - name: answerer_signature_name
+        pdf_field_name: "SC-108[0].Page2[0].List9[0].item9[0].FillText27[0]"
+        type: text
+        label: "Type or print your name"
+        required: false
+        width: half
+
+  clerk_use:
+    title: "Clerk's Certificate of Mailing (Court Use Only)"
+    description: "This section is for court clerk use only"
+    fields:
+      - name: clerk_cert_attached
+        pdf_field_name: "SC-108[0].Page2[0].Clerk[0].Mailed[0]"
+        type: checkbox
+        label: "A Certificate of Mailing is attached"
+        required: false
+        width: full
+
+      - name: clerk_mailed
+        pdf_field_name: "SC-108[0].Page2[0].Clerk[0].Mailed[1]"
+        type: checkbox
+        label: "The Request to Correct or Cancel Judgment and Answer was mailed first class, postage paid, to all parties at the addresses listed in Item 2"
+        required: false
+        width: full
+
+      - name: clerk_date
+        pdf_field_name: "SC-108[0].Page2[0].Clerk[0].T183[0]"
+        type: date
+        label: "Date mailed"
+        required: false
+        width: third
+
+      - name: clerk_from_city
+        pdf_field_name: "SC-108[0].Page2[0].Clerk[0].T18[0]"
+        type: text
+        label: "From city"
+        required: false
+        width: third
+
+      - name: clerk_by
+        pdf_field_name: "SC-108[0].Page2[0].Clerk[0].T185[0]"
+        type: text
+        label: "Clerk, by"
+        required: false
+        width: third

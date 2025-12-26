@@ -1,0 +1,77 @@
+# Category hierarchy for California Court Forms
+# Structure: Parent categories contain child categories
+# Forms are assigned to child categories (2-level max)
+
+categories:
+  # Small Claims Court forms
+  - name: "Small Claims"
+    slug: "small-claims"
+    description: "Forms for Small Claims Court cases in California"
+    icon: "scale"
+    position: 1
+    children:
+      - name: "Plaintiff Forms"
+        slug: "plaintiff"
+        description: "Forms for filing and pursuing a small claims case"
+        position: 1
+      - name: "Defendant Forms"
+        slug: "defendant"
+        description: "Forms for responding to a small claims case"
+        position: 2
+      - name: "Service of Process"
+        slug: "service"
+        description: "Forms for serving legal documents"
+        position: 3
+      - name: "Pre-Trial"
+        slug: "pre-trial"
+        description: "Forms for pre-trial matters like postponements"
+        position: 4
+      - name: "Judgment"
+        slug: "judgment"
+        description: "Forms related to court judgments"
+        position: 5
+      - name: "Judgment Collection"
+        slug: "enforcement"
+        description: "Forms for collecting on a judgment"
+        position: 6
+      - name: "Appeals"
+        slug: "appeal"
+        description: "Forms for appealing a small claims decision"
+        position: 7
+      - name: "Fee Waivers"
+        slug: "fee-waiver"
+        description: "Forms for requesting court fee waivers"
+        position: 8
+      - name: "Collections"
+        slug: "collections"
+        description: "Forms specific to collection cases"
+        position: 9
+      - name: "Informational"
+        slug: "informational"
+        description: "Information sheets and guides"
+        position: 10
+
+  # Placeholder for future case types
+  - name: "Unlawful Detainer (Eviction)"
+    slug: "eviction"
+    description: "Forms for eviction cases"
+    icon: "home"
+    position: 2
+    active: false
+    children: []
+
+  - name: "Civil Harassment"
+    slug: "civil-harassment"
+    description: "Forms for civil harassment restraining orders"
+    icon: "shield"
+    position: 3
+    active: false
+    children: []
+
+  - name: "Family Court"
+    slug: "family"
+    description: "Forms for family law matters"
+    icon: "users"
+    position: 4
+    active: false
+    children: []

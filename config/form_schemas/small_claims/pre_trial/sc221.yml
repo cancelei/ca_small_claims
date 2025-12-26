@@ -1,0 +1,285 @@
+# SC-221: Subpoena for Personal Appearance (Small Claims)
+# California Judicial Council Form
+
+form:
+  code: SC-221
+  title: "Subpoena for Personal Appearance (Small Claims)"
+  description: "Use this form to require a witness to appear and testify at a small claims hearing."
+  category: pre-trial
+  pdf_filename: sc221.pdf
+  instructions: |
+    Use this form to require a person to appear and testify at your small claims hearing.
+
+    Important:
+    - The subpoena must be served in person on the witness
+    - You must pay the witness's fee (currently $35) and mileage at the time of service
+    - Service must be done at least 10 days before the hearing
+    - The witness can only be required to appear at one location
+
+sections:
+  court_info:
+    title: "Court Information"
+    description: "Enter the court and case information"
+    fields:
+      - name: court_name
+        pdf_field_name: "FillText08"
+        type: text
+        label: "Superior Court of California, County of"
+        placeholder: "Los Angeles"
+        required: true
+        shared_key: court_county
+        width: full
+
+      - name: court_address
+        pdf_field_name: "FillText09"
+        type: text
+        label: "Court Address"
+        required: true
+        width: full
+
+      - name: case_number
+        pdf_field_name: "FillText10"
+        type: text
+        label: "Case Number"
+        required: true
+        shared_key: case_number
+        width: half
+
+  party_info:
+    title: "Party Information"
+    description: "Names of the parties in the case"
+    fields:
+      - name: plaintiff_name
+        pdf_field_name: "FillText01"
+        type: text
+        label: "Plaintiff Name"
+        required: true
+        shared_key: plaintiff_name
+        width: full
+
+      - name: defendant_name
+        pdf_field_name: "FillText02"
+        type: text
+        label: "Defendant Name"
+        required: true
+        width: full
+
+  witness_info:
+    title: "Witness Information"
+    description: "Information about the witness being subpoenaed"
+    fields:
+      - name: witness_name
+        pdf_field_name: "FillText03"
+        type: text
+        label: "Name of Person to Appear (Witness)"
+        required: true
+        width: full
+
+      - name: witness_address
+        pdf_field_name: "FillText04"
+        type: text
+        label: "Witness Address"
+        required: true
+        width: full
+
+  hearing_info:
+    title: "Hearing Information"
+    description: "Details about when and where the witness must appear"
+    fields:
+      - name: hearing_date
+        pdf_field_name: "FillText05"
+        type: date
+        label: "Date to Appear"
+        required: true
+        width: third
+
+      - name: hearing_time
+        pdf_field_name: "FillText06"
+        type: text
+        label: "Time to Appear"
+        required: true
+        width: third
+
+      - name: hearing_dept
+        pdf_field_name: "FillText07"
+        type: text
+        label: "Department"
+        required: true
+        width: third
+
+  subpoena_type:
+    title: "Type of Subpoena"
+    description: "Select what the witness is being asked to do"
+    fields:
+      - name: appear_testify
+        pdf_field_name: "CheckBox01"
+        type: checkbox
+        label: "Appear and testify"
+        required: false
+        width: full
+
+      - name: bring_documents
+        pdf_field_name: "CheckBox02"
+        type: checkbox
+        label: "Bring documents or records"
+        required: false
+        width: full
+
+  document_request:
+    title: "Documents to Bring"
+    description: "If documents are requested, describe them here"
+    fields:
+      - name: documents_description
+        pdf_field_name: "FillText14"
+        type: textarea
+        label: "Describe the documents or records the witness must bring"
+        required: false
+        rows: 4
+        conditions:
+          show_when:
+            field: bring_documents
+            value: true
+        width: full
+
+  witness_fees:
+    title: "Witness Fees"
+    description: "Information about witness fees and mileage"
+    fields:
+      - name: witness_fee
+        pdf_field_name: "FillText11"
+        type: currency
+        label: "Witness Fee Paid ($)"
+        required: false
+        help_text: "The current witness fee is $35 per day"
+        width: third
+
+      - name: mileage_amount
+        pdf_field_name: "FillText12"
+        type: currency
+        label: "Mileage Paid ($)"
+        required: false
+        width: third
+
+      - name: mileage_miles
+        pdf_field_name: "FillText13"
+        type: text
+        label: "Miles (round trip)"
+        required: false
+        width: third
+
+  service_info:
+    title: "Service Information"
+    description: "How the subpoena will be served"
+    fields:
+      - name: service_personal
+        pdf_field_name: "CheckBox03"
+        type: checkbox
+        label: "Personal service"
+        required: false
+        width: half
+
+      - name: service_mail
+        pdf_field_name: "CheckBox04"
+        type: checkbox
+        label: "Service by mail (with notice of acknowledgment)"
+        required: false
+        width: half
+
+      - name: service_substituted
+        pdf_field_name: "CheckBox05"
+        type: checkbox
+        label: "Substituted service"
+        required: false
+        width: half
+
+      - name: service_posting
+        pdf_field_name: "CheckBox06"
+        type: checkbox
+        label: "Posting and mailing"
+        required: false
+        width: half
+
+  issuer_info:
+    title: "Issuing Information"
+    description: "Information about who is issuing the subpoena"
+    fields:
+      - name: issuer_name
+        pdf_field_name: "FillText15"
+        type: text
+        label: "Name of Person Issuing Subpoena"
+        required: true
+        width: full
+
+      - name: issuer_address
+        pdf_field_name: "FillText16"
+        type: text
+        label: "Address"
+        required: true
+        width: full
+
+      - name: issuer_city
+        pdf_field_name: "FillText17"
+        type: text
+        label: "City"
+        required: true
+        width: third
+
+      - name: issuer_state
+        pdf_field_name: "FillText18"
+        type: text
+        label: "State"
+        required: true
+        default: "CA"
+        width: third
+
+      - name: issuer_zip
+        pdf_field_name: "FillText19"
+        type: text
+        label: "ZIP"
+        required: true
+        width: third
+
+  signature:
+    title: "Signature"
+    description: "Sign and date the subpoena"
+    fields:
+      - name: issue_date
+        pdf_field_name: "FillText21"
+        type: date
+        label: "Date Issued"
+        required: true
+        default: today
+        width: half
+
+      - name: signature_name
+        pdf_field_name: "FillText22"
+        type: text
+        label: "Type or print your name"
+        required: true
+        width: half
+
+  proof_of_service:
+    title: "Proof of Service"
+    description: "This section is completed by the person who serves the subpoena"
+    fields:
+      - name: service_complete
+        pdf_field_name: "CheckBox07"
+        type: checkbox
+        label: "Service was completed"
+        required: false
+        width: half
+
+      - name: service_not_complete
+        pdf_field_name: "CheckBox08"
+        type: checkbox
+        label: "Service could not be completed"
+        required: false
+        width: half
+
+      - name: server_declaration
+        pdf_field_name: "FillText20"
+        type: textarea
+        label: "Server's Declaration"
+        required: false
+        rows: 4
+        width: full

@@ -1,0 +1,565 @@
+# SC-300: Petition for Writ (Small Claims)
+# California Judicial Council Form
+
+form:
+  code: SC-300
+  title: "Petition for Writ (Small Claims)"
+  description: "Use this form to file a petition for writ with the appellate division when you believe the small claims court made an error."
+  category: appeal
+  pdf_filename: sc300.pdf
+  instructions: |
+    Use this form if you believe the small claims court:
+    - Did something it cannot legally do
+    - Refused to do something it must legally do
+    - Exceeded its powers
+
+    A writ is different from an appeal. Writs are rarely granted.
+    You should consult with a lawyer before filing this petition.
+
+    Important:
+    - File in the appellate division of the superior court
+    - Pay the filing fee
+    - Attach supporting documents from the small claims case
+
+sections:
+  page1_header:
+    title: "Page 1 Header"
+    description: "Initial case information"
+    fields:
+      - name: stay_requested
+        pdf_field_name: "topmostSubform[0].Page1[0].T111[0]"
+        type: checkbox
+        label: "Stay requested"
+        required: false
+        width: full
+
+      - name: petitioner
+        pdf_field_name: "topmostSubform[0].Page1[0].T88[0]"
+        type: text
+        label: "Petitioner"
+        required: true
+        width: full
+
+      - name: court_county
+        pdf_field_name: "topmostSubform[0].Page1[0].T91[0]"
+        type: text
+        label: "Superior Court of California, County of"
+        required: true
+        shared_key: court_county
+        width: full
+
+      - name: respondent
+        pdf_field_name: "topmostSubform[0].Page1[0].T88[1]"
+        type: text
+        label: "Respondent"
+        required: true
+        width: full
+
+      - name: real_party
+        pdf_field_name: "topmostSubform[0].Page1[0].T88[2]"
+        type: text
+        label: "Real Party in Interest"
+        required: false
+        width: full
+
+      - name: appellate_case_number
+        pdf_field_name: "topmostSubform[0].Page1[0].RightHeader[0].CaseNumber_ft[0]"
+        type: text
+        label: "Appellate Division Case Number"
+        required: false
+        help_text: "Leave blank - court will assign"
+        width: half
+
+  small_claims_info:
+    title: "Small Claims Case Information"
+    description: "Information about the small claims case"
+    fields:
+      - name: small_claims_case_name
+        pdf_field_name: "topmostSubform[0].Page2[0].T10[0]"
+        type: text
+        label: "Case name"
+        required: true
+        width: full
+
+      - name: small_claims_case_number
+        pdf_field_name: "topmostSubform[0].Page2[0].T15[0]"
+        type: text
+        label: "Case number"
+        required: true
+        shared_key: case_number
+        width: half
+
+      - name: action_date
+        pdf_field_name: "topmostSubform[0].Page2[0].T35[0]"
+        type: date
+        label: "Date of action or ruling"
+        required: true
+        width: half
+
+  petitioner_contact:
+    title: "Petitioner Contact Information"
+    description: "Your contact information"
+    fields:
+      - name: petitioner_name
+        pdf_field_name: "topmostSubform[0].Page2[0].T159[0]"
+        type: text
+        label: "Petitioner Name"
+        required: true
+        width: full
+
+      - name: petitioner_street
+        pdf_field_name: "topmostSubform[0].Page2[0].FillText38[1]"
+        type: text
+        label: "Street Address"
+        required: true
+        width: full
+
+      - name: petitioner_city
+        pdf_field_name: "topmostSubform[0].Page2[0].FillText38[0]"
+        type: text
+        label: "City"
+        required: true
+        width: third
+
+      - name: petitioner_state
+        pdf_field_name: "topmostSubform[0].Page2[0].FillText37[0]"
+        type: text
+        label: "State"
+        required: true
+        default: "CA"
+        width: third
+
+      - name: petitioner_zip
+        pdf_field_name: "topmostSubform[0].Page2[0].FillText37[1]"
+        type: text
+        label: "ZIP"
+        required: true
+        width: third
+
+      - name: petitioner_phone
+        pdf_field_name: "topmostSubform[0].Page2[0].T140[0]"
+        type: tel
+        label: "Phone"
+        required: true
+        width: half
+
+      - name: petitioner_email
+        pdf_field_name: "topmostSubform[0].Page2[0].T141[0]"
+        type: text
+        label: "Email (if available)"
+        required: false
+        width: half
+
+  attorney_info:
+    title: "Attorney Information"
+    description: "If represented by an attorney"
+    fields:
+      - name: attorney_name
+        pdf_field_name: "topmostSubform[0].Page2[0].T186[0]"
+        type: text
+        label: "Attorney Name"
+        required: false
+        width: full
+
+      - name: attorney_bar_number
+        pdf_field_name: "topmostSubform[0].Page2[0].T158[0]"
+        type: text
+        label: "State Bar Number"
+        required: false
+        width: half
+
+  other_parties:
+    title: "Other Parties"
+    description: "Names of other parties in the case"
+    fields:
+      - name: other_parties
+        pdf_field_name: "topmostSubform[0].Page3[0].#area[0].T0[0]"
+        type: textarea
+        label: "Other party or parties in the case"
+        required: true
+        rows: 3
+        width: full
+
+  petitioner_status:
+    title: "Petitioner's Status in Case"
+    description: "Whether you were a party in the small claims case"
+    fields:
+      - name: was_party
+        pdf_field_name: "topmostSubform[0].Page3[0].PartyInCase_cb[1]"
+        type: radio
+        label: "I was a party in the small claims case"
+        required: true
+        options:
+          - value: "1"
+            label: "Was a party in the case"
+        width: full
+
+      - name: was_not_party
+        pdf_field_name: "topmostSubform[0].Page3[0].#area[2].PartyInCase_cb[0]"
+        type: radio
+        label: ""
+        required: false
+        options:
+          - value: "2"
+            label: "Was not a party but will be negatively affected"
+        width: full
+
+      - name: how_affected
+        pdf_field_name: "topmostSubform[0].Page3[0].#area[2].#area[4].T19[0]"
+        type: textarea
+        label: "How you will be affected"
+        required: false
+        rows: 3
+        conditions:
+          show_when:
+            field: was_not_party
+            value: "2"
+        width: full
+
+  prior_proceedings:
+    title: "Prior Proceedings"
+    description: "Information about prior appeals or petitions"
+    fields:
+      - name: appeal_filed_no
+        pdf_field_name: "topmostSubform[0].Page3[0].AppealFiled_cb[0]"
+        type: radio
+        label: "Has an appeal or motion for new trial been filed?"
+        required: true
+        options:
+          - value: "1"
+            label: "No"
+        width: half
+
+      - name: appeal_filed_yes
+        pdf_field_name: "topmostSubform[0].Page3[0].AppealFiled_cb[1]"
+        type: radio
+        label: ""
+        required: false
+        options:
+          - value: "2"
+            label: "Yes"
+        width: half
+
+      - name: appeal_hearing_date
+        pdf_field_name: "topmostSubform[0].Page3[0].T69[0]"
+        type: date
+        label: "Hearing date for appeal/new trial"
+        required: false
+        conditions:
+          show_when:
+            field: appeal_filed_yes
+            value: "2"
+        width: half
+
+      - name: prior_writ_no
+        pdf_field_name: "topmostSubform[0].Page3[0].PetForWritFiled_cb[0]"
+        type: radio
+        label: "Has a prior petition for writ been filed?"
+        required: true
+        options:
+          - value: "1"
+            label: "No"
+        width: half
+
+      - name: prior_writ_yes
+        pdf_field_name: "topmostSubform[0].Page3[0].PetForWritFiled_cb[1]"
+        type: radio
+        label: ""
+        required: false
+        options:
+          - value: "2"
+            label: "Yes"
+        width: half
+
+      - name: prior_writ_title
+        pdf_field_name: "topmostSubform[0].Page3[0].T107[0]"
+        type: text
+        label: "Prior petition title"
+        required: false
+        conditions:
+          show_when:
+            field: prior_writ_yes
+            value: "2"
+        width: full
+
+      - name: prior_writ_date
+        pdf_field_name: "topmostSubform[0].Page3[0].T110[0]"
+        type: date
+        label: "Prior petition filing date"
+        required: false
+        conditions:
+          show_when:
+            field: prior_writ_yes
+            value: "2"
+        width: half
+
+      - name: prior_writ_case_number
+        pdf_field_name: "topmostSubform[0].Page3[0].T113[0]"
+        type: text
+        label: "Prior petition case number"
+        required: false
+        conditions:
+          show_when:
+            field: prior_writ_yes
+            value: "2"
+        width: half
+
+  grounds_for_petition:
+    title: "10. Grounds for Petition"
+    description: "Reasons for filing this petition"
+    fields:
+      - name: court_refused
+        pdf_field_name: "topmostSubform[0].Page3[0].T132[0]"
+        type: checkbox
+        label: "a. The small claims court has not done or refused to do something the law requires"
+        required: false
+        width: full
+
+      - name: refused_explanation
+        pdf_field_name: "topmostSubform[0].Page3[0].#area[13].T19[1]"
+        type: textarea
+        label: "Explain what the court refused to do"
+        required: false
+        rows: 3
+        conditions:
+          show_when:
+            field: court_refused
+            value: true
+        width: full
+
+      - name: court_exceeded
+        pdf_field_name: "topmostSubform[0].Page4[0].#area[0].T3[0]"
+        type: checkbox
+        label: "b. The small claims court has done something the law says it cannot or must not do"
+        required: false
+        width: full
+
+      - name: exceeded_explanation
+        pdf_field_name: "topmostSubform[0].Page4[0].#area[1].#area[2].T19[0]"
+        type: textarea
+        label: "Explain what the court did wrong"
+        required: false
+        rows: 3
+        conditions:
+          show_when:
+            field: court_exceeded
+            value: true
+        width: full
+
+      - name: court_no_power
+        pdf_field_name: "topmostSubform[0].Page5[0].T47[0]"
+        type: checkbox
+        label: "c. The small claims court performed a function it does not have power to do"
+        required: false
+        width: full
+
+      - name: no_power_explanation
+        pdf_field_name: "topmostSubform[0].Page5[0].#area[5].#area[6].T19[2]"
+        type: textarea
+        label: "Explain why the court lacks power"
+        required: false
+        rows: 3
+        conditions:
+          show_when:
+            field: court_no_power
+            value: true
+        width: full
+
+  stay_request:
+    title: "11. Request for Stay"
+    description: "If you are requesting a stay"
+    fields:
+      - name: asked_court_for_stay
+        pdf_field_name: "topmostSubform[0].Page6[0].Stay[0]"
+        type: radio
+        label: "Regarding stay of proceedings"
+        required: false
+        options:
+          - value: "1"
+            label: "Asked the small claims court to stay proceedings (denied)"
+        width: full
+
+      - name: did_not_ask_stay
+        pdf_field_name: "topmostSubform[0].Page6[0].Stay[1]"
+        type: radio
+        label: ""
+        required: false
+        options:
+          - value: "2"
+            label: "Did not ask for stay (explain why)"
+        width: full
+
+      - name: stay_explanation
+        pdf_field_name: "topmostSubform[0].Page6[0].#area[0].T19[0]"
+        type: textarea
+        label: "Explain why stay was not requested"
+        required: false
+        rows: 3
+        conditions:
+          show_when:
+            field: did_not_ask_stay
+            value: "2"
+        width: full
+
+  relief_requested:
+    title: "12. Relief Requested"
+    description: "What you want the court to do"
+    fields:
+      - name: order_court_to_do
+        pdf_field_name: "topmostSubform[0].Page6[0].#area[5].T53[0]"
+        type: checkbox
+        label: "Order the small claims court to do something"
+        required: false
+        width: full
+
+      - name: what_to_do
+        pdf_field_name: "topmostSubform[0].Page6[0].#area[5].#area[6].T19[4]"
+        type: textarea
+        label: "Describe what you want the court ordered to do"
+        required: false
+        rows: 3
+        conditions:
+          show_when:
+            field: order_court_to_do
+            value: true
+        width: full
+
+      - name: order_court_not_to_do
+        pdf_field_name: "topmostSubform[0].Page6[0].#area[4].T3[0]"
+        type: checkbox
+        label: "Order the small claims court NOT to do something"
+        required: false
+        width: full
+
+      - name: what_not_to_do
+        pdf_field_name: "topmostSubform[0].Page6[0].#area[4].T19[3]"
+        type: textarea
+        label: "Describe what you want the court ordered NOT to do"
+        required: false
+        rows: 3
+        conditions:
+          show_when:
+            field: order_court_not_to_do
+            value: true
+        width: full
+
+      - name: issue_stay
+        pdf_field_name: "topmostSubform[0].Page6[0].T109[0]"
+        type: checkbox
+        label: "Issue a stay ordering the small claims court not to take further action"
+        required: false
+        width: full
+
+      - name: stay_urgency
+        pdf_field_name: "topmostSubform[0].Page6[0].#area[1].T19[1]"
+        type: textarea
+        label: "Explain why a stay is urgent"
+        required: false
+        rows: 3
+        conditions:
+          show_when:
+            field: issue_stay
+            value: true
+        width: full
+
+      - name: other_action
+        pdf_field_name: "topmostSubform[0].Page6[0].T76[0]"
+        type: checkbox
+        label: "Take other action"
+        required: false
+        width: full
+
+      - name: other_action_describe
+        pdf_field_name: "topmostSubform[0].Page6[0].#area[2].T19[2]"
+        type: textarea
+        label: "Describe other action requested"
+        required: false
+        rows: 3
+        conditions:
+          show_when:
+            field: other_action
+            value: true
+        width: full
+
+      - name: additional_relief
+        pdf_field_name: "topmostSubform[0].Page6[0].T98[0]"
+        type: checkbox
+        label: "Grant any additional relief that is fair and appropriate"
+        required: false
+        width: full
+
+  supporting_documents:
+    title: "13. Supporting Documents"
+    description: "Documents from the small claims case"
+    fields:
+      - name: docs_attached_yes
+        pdf_field_name: "topmostSubform[0].Page7[0].DocsAttached[0]"
+        type: radio
+        label: "Supporting documents"
+        required: true
+        options:
+          - value: "1"
+            label: "Documents are attached"
+        width: full
+
+      - name: docs_attached_no
+        pdf_field_name: "topmostSubform[0].Page7[0].DocsAttached[1]"
+        type: radio
+        label: ""
+        required: false
+        options:
+          - value: "2"
+            label: "Documents are not attached (explain why)"
+        width: full
+
+      - name: docs_explanation
+        pdf_field_name: "topmostSubform[0].Page7[0].#area[2].T19[0]"
+        type: textarea
+        label: "Explain why documents are not attached"
+        required: false
+        rows: 3
+        conditions:
+          show_when:
+            field: docs_attached_no
+            value: "2"
+        width: full
+
+      - name: pages_attached
+        pdf_field_name: "topmostSubform[0].Page7[0].PagesAttached_no[0]"
+        type: text
+        label: "Number of pages attached"
+        required: false
+        width: quarter
+
+  signature:
+    title: "Signature"
+    description: "Sign and date the petition"
+    fields:
+      - name: petitioner_sig_date
+        pdf_field_name: "topmostSubform[0].Page7[0].PartySignature_dt[0]"
+        type: date
+        label: "Date"
+        required: true
+        default: today
+        width: half
+
+      - name: petitioner_sig_name
+        pdf_field_name: "topmostSubform[0].Page7[0].PartyName_ft[0]"
+        type: text
+        label: "Type or print petitioner's name"
+        required: true
+        width: half
+
+      - name: lawyer_sig_date
+        pdf_field_name: "topmostSubform[0].Page7[0].LawyerSignature_dt[0]"
+        type: date
+        label: "Lawyer signature date"
+        required: false
+        width: half
+
+      - name: lawyer_sig_name
+        pdf_field_name: "topmostSubform[0].Page7[0].LawyerName_ft[0]"
+        type: text
+        label: "Lawyer's name"
+        required: false
+        width: half

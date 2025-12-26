@@ -1,0 +1,241 @@
+# SC-152: Order on Request to Postpone Small Claims Trial
+# California Judicial Council Form
+
+form:
+  code: SC-152
+  title: "Order on Request to Postpone Small Claims Trial"
+  description: "This form is the court's order in response to a request to postpone a small claims trial (SC-150)."
+  category: pre-trial
+  pdf_filename: sc152.pdf
+  instructions: |
+    This form is used by the court to respond to a Request to Postpone (SC-150).
+
+    The court will either:
+    - Approve the request and set a new trial date
+    - Deny the request and explain why
+
+sections:
+  court_info:
+    title: "Court Information"
+    description: "Court and case information"
+    fields:
+      - name: court_name
+        pdf_field_name: "SC-152[0].Page1[0].rightCaption[0].CourtInfo_ft[0]"
+        type: text
+        label: "Superior Court of California, County of"
+        placeholder: "Los Angeles"
+        required: true
+        shared_key: court_county
+        width: full
+
+      - name: case_number
+        pdf_field_name: "SC-152[0].Page1[0].rightCaption[0].CaseNumber_ft[0]"
+        type: text
+        label: "Case Number"
+        required: true
+        shared_key: case_number
+        width: half
+
+      - name: case_name
+        pdf_field_name: "SC-152[0].Page1[0].rightCaption[0].CaseName_ft[0]"
+        type: text
+        label: "Case Name"
+        placeholder: "Plaintiff Name vs. Defendant Name"
+        required: true
+        width: half
+
+  request_info:
+    title: "Request Information"
+    description: "Details about the postponement request"
+    fields:
+      - name: request_date
+        pdf_field_name: "SC-152[0].Page1[0].Info[0].FillText01[0]"
+        type: date
+        label: "On (date)"
+        required: true
+        width: half
+
+      - name: requester_name
+        pdf_field_name: "SC-152[0].Page1[0].Info[0].FillText02[0]"
+        type: text
+        label: "Name of person who requested postponement"
+        required: true
+        width: half
+
+  court_order:
+    title: "Court's Order"
+    description: "The court's decision on the request"
+    fields:
+      - name: request_approved
+        pdf_field_name: "SC-152[0].Page1[0].List1[0].item1[0].ReqforTrialCB[0]"
+        type: checkbox
+        label: "1. The Request to Postpone Trial is approved, and the court orders the trial is postponed as indicated in Item 3"
+        required: false
+        width: full
+
+      - name: request_denied
+        pdf_field_name: "SC-152[0].Page1[0].List2[0].ReqforTrialCB[0]"
+        type: checkbox
+        label: "2. The Request to Postpone Trial is denied"
+        required: false
+        width: full
+
+  denial_reasons:
+    title: "Reasons for Denial"
+    description: "If the request is denied, check the applicable reasons"
+    fields:
+      - name: denial_no_good_reason
+        pdf_field_name: "SC-152[0].Page1[0].List2[0].Lia[0].CheckBox02[0]"
+        type: checkbox
+        label: "a. The Request did not include a good reason for the postponement"
+        required: false
+        conditions:
+          show_when:
+            field: request_denied
+            value: true
+        width: full
+
+      - name: denial_late_request
+        pdf_field_name: "SC-152[0].Page1[0].List2[0].Lib[0].CheckBox03[0]"
+        type: checkbox
+        label: "b. The Request was not filed at least 10 days before the hearing and did not include a good reason for the late request"
+        required: false
+        conditions:
+          show_when:
+            field: request_denied
+            value: true
+        width: full
+
+      - name: denial_no_fee
+        pdf_field_name: "SC-152[0].Page1[0].List2[0].Lic[0].CheckBox04[0]"
+        type: checkbox
+        label: "c. The required $10 filing fee was not paid"
+        required: false
+        conditions:
+          show_when:
+            field: request_denied
+            value: true
+        width: full
+
+      - name: denial_other
+        pdf_field_name: "SC-152[0].Page1[0].List2[0].Lid[0].CheckBox05[0]"
+        type: checkbox
+        label: "d. Other reason"
+        required: false
+        conditions:
+          show_when:
+            field: request_denied
+            value: true
+        width: full
+
+      - name: denial_other_reason
+        pdf_field_name: "SC-152[0].Page1[0].List2[0].Lid[0].FillText11[0]"
+        type: text
+        label: "Explain other reason"
+        required: false
+        conditions:
+          show_when:
+            field: denial_other
+            value: true
+        width: full
+
+      - name: denial_other_reason_continued
+        pdf_field_name: "SC-152[0].Page1[0].List2[0].Lid[0].FillText12[0]"
+        type: textarea
+        label: "Explanation (continued)"
+        required: false
+        rows: 2
+        conditions:
+          show_when:
+            field: denial_other
+            value: true
+        width: full
+
+      - name: denial_attachment
+        pdf_field_name: "SC-152[0].Page1[0].List2[0].Lid[0].CheckBox06[0]"
+        type: checkbox
+        label: "Continued on Attachment SC-152, Item 2(d)"
+        required: false
+        conditions:
+          show_when:
+            field: denial_other
+            value: true
+        width: full
+
+  new_trial_info:
+    title: "3. New Trial Information"
+    description: "If approved, the new trial date and location"
+    fields:
+      - name: new_trial_date
+        pdf_field_name: "SC-152[0].Page1[0].List3[0].item3[0].HearingDate_dt[0]"
+        type: date
+        label: "New Trial Date"
+        required: false
+        conditions:
+          show_when:
+            field: request_approved
+            value: true
+        width: quarter
+
+      - name: new_trial_time
+        pdf_field_name: "SC-152[0].Page1[0].List3[0].item3[0].HearingTime_dt[0]"
+        type: text
+        label: "Time"
+        required: false
+        conditions:
+          show_when:
+            field: request_approved
+            value: true
+        width: quarter
+
+      - name: new_trial_dept
+        pdf_field_name: "SC-152[0].Page1[0].List3[0].item3[0].HearingDept_ft[0]"
+        type: text
+        label: "Department"
+        required: false
+        conditions:
+          show_when:
+            field: request_approved
+            value: true
+        width: quarter
+
+      - name: new_court_address
+        pdf_field_name: "SC-152[0].Page1[0].List3[0].item3[0].HearingCourt_ft[0]"
+        type: textarea
+        label: "Name and address of court (if different from above)"
+        required: false
+        rows: 2
+        conditions:
+          show_when:
+            field: request_approved
+            value: true
+        width: full
+
+  notification:
+    title: "4. Notification"
+    description: "Who will be notified of this order"
+    fields:
+      - name: notify_requester
+        pdf_field_name: "SC-152[0].Page1[0].List4[0].Lia[0].CheckBox16[0]"
+        type: checkbox
+        label: "a. The person who asked for the postponement"
+        required: false
+        width: full
+
+      - name: notify_all_parties
+        pdf_field_name: "SC-152[0].Page1[0].List4[0].Lib[0].CheckBox17[0]"
+        type: checkbox
+        label: "b. All plaintiffs and defendants at the addresses listed in the court's records"
+        required: false
+        width: full
+
+  court_signature:
+    title: "Court Signature"
+    description: "Date signed by the court"
+    fields:
+      - name: order_date
+        pdf_field_name: "SC-152[0].Page1[0].SigDate[0].T129[0]"
+        type: date
+        label: "Date"
+        required: true
+        width: half

@@ -1,0 +1,583 @@
+# SC-120: Defendant's Claim and ORDER to Go to Small Claims Court
+# California Judicial Council Form
+
+form:
+  code: SC-120
+  title: "Defendant's Claim and ORDER to Go to Small Claims Court"
+  description: "Use this form if you are a defendant in a small claims case and want to file your own claim against the plaintiff."
+  category: defendant
+  pdf_filename: sc120.pdf
+  instructions: |
+    Use this form to file a counterclaim (called a "Defendant's Claim") if:
+    - Someone has filed a small claims case against you AND
+    - You believe that person owes YOU money
+
+    You must file this form and serve the plaintiff before the hearing date.
+    The court will hear both claims at the same hearing.
+
+sections:
+  court_info:
+    title: "Court Information"
+    description: "Enter the court and case information"
+    fields:
+      - name: court_name
+        pdf_field_name: "SC-120[0].Page1[0].rightcaption[0].CRT[0].CourtInfo[0]"
+        type: text
+        label: "Superior Court of California, County of"
+        placeholder: "Los Angeles"
+        required: true
+        shared_key: court_county
+        width: full
+
+      - name: case_number
+        pdf_field_name: "SC-120[0].Page1[0].rightcaption[0].CSN[0].CaseNumber[0]"
+        type: text
+        label: "Case Number"
+        required: true
+        shared_key: case_number
+        help_text: "Use the case number from the Plaintiff's Claim (SC-100) you received"
+        width: half
+
+      - name: case_name
+        pdf_field_name: "SC-120[0].Page1[0].rightcaption[0].CSN[0].CaseName[0]"
+        type: text
+        label: "Case Name"
+        placeholder: "Original Plaintiff Name vs. Your Name"
+        required: true
+        width: half
+
+  hearing_info:
+    title: "Hearing Information (Court Use Only)"
+    description: "The court clerk will fill in the hearing date, time, and location"
+    fields:
+      - name: hearing1_date
+        pdf_field_name: "SC-120[0].Page1[0].CrtOrder[0].HrngDate[0].TBLHearing[0].list1[0].FillText02[0]"
+        type: date
+        label: "Hearing Date 1"
+        required: false
+        width: quarter
+
+      - name: hearing1_time
+        pdf_field_name: "SC-120[0].Page1[0].CrtOrder[0].HrngDate[0].TBLHearing[0].list1[0].FillText03[0]"
+        type: text
+        label: "Time 1"
+        required: false
+        width: quarter
+
+      - name: hearing1_dept
+        pdf_field_name: "SC-120[0].Page1[0].CrtOrder[0].HrngDate[0].TBLHearing[0].list1[0].FillText04[0]"
+        type: text
+        label: "Department 1"
+        required: false
+        width: quarter
+
+      - name: hearing1_court_address
+        pdf_field_name: "SC-120[0].Page1[0].CrtOrder[0].HrngDate[0].TBLHearing[0].list1[0].FillText05[0]"
+        type: text
+        label: "Court Address (if different)"
+        required: false
+        width: quarter
+
+      - name: hearing2_date
+        pdf_field_name: "SC-120[0].Page1[0].CrtOrder[0].HrngDate[0].TBLHearing[0].list2[0].FillText06[0]"
+        type: date
+        label: "Hearing Date 2"
+        required: false
+        width: quarter
+
+      - name: hearing2_time
+        pdf_field_name: "SC-120[0].Page1[0].CrtOrder[0].HrngDate[0].TBLHearing[0].list2[0].FillText07[0]"
+        type: text
+        label: "Time 2"
+        required: false
+        width: quarter
+
+      - name: hearing2_dept
+        pdf_field_name: "SC-120[0].Page1[0].CrtOrder[0].HrngDate[0].TBLHearing[0].list2[0].FillText08[0]"
+        type: text
+        label: "Department 2"
+        required: false
+        width: quarter
+
+      - name: hearing2_court_address
+        pdf_field_name: "SC-120[0].Page1[0].CrtOrder[0].HrngDate[0].TBLHearing[0].list2[0].FillText09[0]"
+        type: text
+        label: "Court Address (if different)"
+        required: false
+        width: quarter
+
+      - name: clerk_date
+        pdf_field_name: "SC-120[0].Page1[0].CrtOrder[0].SigDate[0].FillText16[0]"
+        type: date
+        label: "Date Filed"
+        required: false
+        width: half
+
+      - name: clerk_by
+        pdf_field_name: "SC-120[0].Page1[0].CrtOrder[0].SigDate[0].TextField1[0]"
+        type: text
+        label: "Clerk, by"
+        required: false
+        width: half
+
+  page2_header:
+    title: "Page 2 Header"
+    fields:
+      - name: defendants_list
+        pdf_field_name: "SC-120[0].Page2[0].Header[0].Defendants_ft[0]"
+        type: text
+        label: "Defendant Names"
+        placeholder: "List all defendant names"
+        required: true
+        width: full
+
+  plaintiff_info:
+    title: "1. Plaintiff Information (Person You Are Claiming Against)"
+    description: "Enter the name and address of each plaintiff (the person who sued you)"
+    fields:
+      - name: plaintiff1_name
+        pdf_field_name: "SC-120[0].Page2[0].List1[0].plaintiffInfo[0].FillText19[0]"
+        type: text
+        label: "Plaintiff 1 - Full Name"
+        required: true
+        width: two_thirds
+
+      - name: plaintiff1_phone
+        pdf_field_name: "SC-120[0].Page2[0].List1[0].plaintiffInfo[0].FillText7[0]"
+        type: tel
+        label: "Phone"
+        required: false
+        width: third
+
+      - name: plaintiff1_street
+        pdf_field_name: "SC-120[0].Page2[0].List1[0].plaintiffInfo[0].PlaintiffAdress[0]"
+        type: text
+        label: "Street Address"
+        required: true
+        width: full
+
+      - name: plaintiff1_city
+        pdf_field_name: "SC-120[0].Page2[0].List1[0].plaintiffInfo[0].PlaintiffCity[0]"
+        type: text
+        label: "City"
+        required: true
+        width: third
+
+      - name: plaintiff1_state
+        pdf_field_name: "SC-120[0].Page2[0].List1[0].plaintiffInfo[0].PlaintiffState[0]"
+        type: text
+        label: "State"
+        required: true
+        default: "CA"
+        width: third
+
+      - name: plaintiff1_zip
+        pdf_field_name: "SC-120[0].Page2[0].List1[0].plaintiffInfo[0].PlaintiffZip[0]"
+        type: text
+        label: "ZIP"
+        required: true
+        width: third
+
+      - name: plaintiff1_mail_street
+        pdf_field_name: "SC-120[0].Page2[0].List1[0].plaintiffInfo[0].PlaintiffMailAdress[0]"
+        type: text
+        label: "Mailing Address (if different) - Street"
+        required: false
+        width: full
+
+      - name: plaintiff1_mail_city
+        pdf_field_name: "SC-120[0].Page2[0].List1[0].plaintiffInfo[0].PlaintiffMailCity[0]"
+        type: text
+        label: "City"
+        required: false
+        width: third
+
+      - name: plaintiff1_mail_state
+        pdf_field_name: "SC-120[0].Page2[0].List1[0].plaintiffInfo[0].PlaintiffMailState[0]"
+        type: text
+        label: "State"
+        required: false
+        width: third
+
+      - name: plaintiff1_mail_zip
+        pdf_field_name: "SC-120[0].Page2[0].List1[0].plaintiffInfo[0].PlaintiffMailZip[0]"
+        type: text
+        label: "ZIP"
+        required: false
+        width: third
+
+      - name: plaintiff2_name
+        pdf_field_name: "SC-120[0].Page2[0].List1[0].NextPlaintiff[0].Plaintiff2Name[0]"
+        type: text
+        label: "Plaintiff 2 - Full Name (if any)"
+        required: false
+        width: two_thirds
+
+      - name: plaintiff2_phone
+        pdf_field_name: "SC-120[0].Page2[0].List1[0].NextPlaintiff[0].Plaintiff2Phone[0]"
+        type: tel
+        label: "Phone"
+        required: false
+        width: third
+
+      - name: plaintiff2_street
+        pdf_field_name: "SC-120[0].Page2[0].List1[0].NextPlaintiff[0].Plaintiff2Adress[0]"
+        type: text
+        label: "Street Address"
+        required: false
+        width: full
+
+      - name: plaintiff2_city
+        pdf_field_name: "SC-120[0].Page2[0].List1[0].NextPlaintiff[0].Plaintiff2City[0]"
+        type: text
+        label: "City"
+        required: false
+        width: third
+
+      - name: plaintiff2_state
+        pdf_field_name: "SC-120[0].Page2[0].List1[0].NextPlaintiff[0].Plaintiff2State[0]"
+        type: text
+        label: "State"
+        required: false
+        width: third
+
+      - name: plaintiff2_zip
+        pdf_field_name: "SC-120[0].Page2[0].List1[0].NextPlaintiff[0].Plaintiff2Zip[0]"
+        type: text
+        label: "ZIP"
+        required: false
+        width: third
+
+      - name: more_plaintiffs
+        pdf_field_name: "SC-120[0].Page2[0].List1[0].NextPlaintiff[0].CheckBox01[0]"
+        type: checkbox
+        label: "Check here if more than 2 plaintiffs and attach form SC-120A"
+        required: false
+        width: full
+
+      - name: plaintiff_military
+        pdf_field_name: "SC-120[0].Page2[0].List1[0].NextPlaintiff[0].CheckBox02[0]"
+        type: checkbox
+        label: "Check here if any plaintiff is on active military duty"
+        required: false
+        width: full
+
+      - name: plaintiff_military_name
+        pdf_field_name: "SC-120[0].Page2[0].List1[0].NextPlaintiff[0].PlaintiffMilName[0]"
+        type: text
+        label: "Name of plaintiff on active military duty"
+        required: false
+        conditions:
+          show_when:
+            field: plaintiff_military
+            value: true
+        width: full
+
+  defendant_info:
+    title: "2. Defendant Information (Your Information)"
+    description: "Enter your name and address as the defendant filing this claim"
+    fields:
+      - name: defendant1_name
+        pdf_field_name: "SC-120[0].Page2[0].List2[0].defInfo[0].DefName[0]"
+        type: text
+        label: "Your Full Name"
+        required: true
+        shared_key: defendant_name
+        width: two_thirds
+
+      - name: defendant1_phone
+        pdf_field_name: "SC-120[0].Page2[0].List2[0].defInfo[0].DefPhone[0]"
+        type: tel
+        label: "Phone"
+        required: true
+        shared_key: defendant_phone
+        width: third
+
+      - name: defendant1_street
+        pdf_field_name: "SC-120[0].Page2[0].List2[0].defInfo[0].DefAddress[0]"
+        type: text
+        label: "Street Address"
+        required: true
+        shared_key: defendant_street
+        width: full
+
+      - name: defendant1_city
+        pdf_field_name: "SC-120[0].Page2[0].List2[0].defInfo[0].DefCity[0]"
+        type: text
+        label: "City"
+        required: true
+        shared_key: defendant_city
+        width: third
+
+      - name: defendant1_state
+        pdf_field_name: "SC-120[0].Page2[0].List2[0].defInfo[0].DefState[0]"
+        type: text
+        label: "State"
+        required: true
+        default: "CA"
+        shared_key: defendant_state
+        width: third
+
+      - name: defendant1_zip
+        pdf_field_name: "SC-120[0].Page2[0].List2[0].defInfo[0].DefZip[0]"
+        type: text
+        label: "ZIP"
+        required: true
+        shared_key: defendant_zip
+        width: third
+
+      - name: defendant1_mail_street
+        pdf_field_name: "SC-120[0].Page2[0].List2[0].defInfo[0].DefMailAdress[0]"
+        type: text
+        label: "Mailing Address (if different) - Street"
+        required: false
+        width: full
+
+      - name: defendant1_mail_city
+        pdf_field_name: "SC-120[0].Page2[0].List2[0].defInfo[0].DefMailCity[0]"
+        type: text
+        label: "City"
+        required: false
+        width: third
+
+      - name: defendant1_mail_state
+        pdf_field_name: "SC-120[0].Page2[0].List2[0].defInfo[0].DefMailState[0]"
+        type: text
+        label: "State"
+        required: false
+        width: third
+
+      - name: defendant1_mail_zip
+        pdf_field_name: "SC-120[0].Page2[0].List2[0].defInfo[0].DefMailZip[0]"
+        type: text
+        label: "ZIP"
+        required: false
+        width: third
+
+      - name: defendant2_name
+        pdf_field_name: "SC-120[0].Page2[0].List2[0].NextDef[0].Def2Name[0]"
+        type: text
+        label: "Defendant 2 - Full Name (if any)"
+        required: false
+        width: two_thirds
+
+      - name: defendant2_phone
+        pdf_field_name: "SC-120[0].Page2[0].List2[0].NextDef[0].Def2Phone[0]"
+        type: tel
+        label: "Phone"
+        required: false
+        width: third
+
+      - name: defendant2_street
+        pdf_field_name: "SC-120[0].Page2[0].List2[0].NextDef[0].Def2Address[0]"
+        type: text
+        label: "Street Address"
+        required: false
+        width: full
+
+      - name: defendant2_city
+        pdf_field_name: "SC-120[0].Page2[0].List2[0].NextDef[0].Def2City[0]"
+        type: text
+        label: "City"
+        required: false
+        width: third
+
+      - name: defendant2_state
+        pdf_field_name: "SC-120[0].Page2[0].List2[0].NextDef[0].Def2State[0]"
+        type: text
+        label: "State"
+        required: false
+        width: third
+
+      - name: defendant2_zip
+        pdf_field_name: "SC-120[0].Page2[0].List2[0].NextDef[0].Def2Zip[0]"
+        type: text
+        label: "ZIP"
+        required: false
+        width: third
+
+      - name: more_defendants
+        pdf_field_name: "SC-120[0].Page2[0].List2[0].NextDef[0].CheckBox03[0]"
+        type: checkbox
+        label: "Check here if more than 2 defendants and attach form SC-120A"
+        required: false
+        width: full
+
+      - name: defendant_fictitious
+        pdf_field_name: "SC-120[0].Page2[0].List2[0].NextDef[0].CheckBox04[0]"
+        type: checkbox
+        label: "Check here if any defendant is doing business under a fictitious name (attach form SC-103)"
+        required: false
+        width: full
+
+  claim_details:
+    title: "3. Claim Details"
+    description: "Describe your claim against the plaintiff"
+    fields:
+      - name: claim_amount
+        pdf_field_name: "SC-120[0].Page2[0].List3[0].FillText63[0]"
+        type: currency
+        label: "Amount You Are Claiming ($)"
+        required: true
+        min: 0.01
+        max: 12500
+        help_text: "Small claims limit is $12,500"
+        width: half
+
+      - name: claim_reason
+        pdf_field_name: "SC-120[0].Page2[0].List3[0].Lia[0].FillText64[0]"
+        type: textarea
+        label: "Why does the plaintiff owe you money?"
+        placeholder: "Explain what happened and why you believe the plaintiff owes you money..."
+        required: true
+        rows: 4
+        width: full
+
+      - name: claim_date
+        pdf_field_name: "SC-120[0].Page2[0].List3[0].Lib[0].FillText66[0]"
+        type: date
+        label: "When did this happen? (Date)"
+        required: false
+        help_text: "If it happened over a period of time, enter the start date below instead"
+        width: third
+
+      - name: claim_date_start
+        pdf_field_name: "SC-120[0].Page2[0].List3[0].Lib[0].FillText67[0]"
+        type: date
+        label: "Date Started"
+        required: false
+        width: third
+
+      - name: claim_date_through
+        pdf_field_name: "SC-120[0].Page2[0].List3[0].Lib[0].FillText68[0]"
+        type: date
+        label: "Through"
+        required: false
+        width: third
+
+      - name: claim_calculation
+        pdf_field_name: "SC-120[0].Page2[0].List3[0].Lic[0].FillText70[0]"
+        type: textarea
+        label: "How did you calculate the money owed to you?"
+        placeholder: "Do not include court costs or fees for service..."
+        required: true
+        rows: 3
+        width: full
+
+      - name: need_more_space_claim
+        pdf_field_name: "SC-120[0].Page2[0].List3[0].CheckBox05[0]"
+        type: checkbox
+        label: "Check here if you need more space. Attach form MC-031 and write 'SC-120, Item 3' at the top."
+        required: false
+        width: full
+
+  additional_questions:
+    title: "Additional Questions"
+    description: "Answer these questions about your claim"
+    fields:
+      - name: asked_to_pay
+        pdf_field_name: "SC-120[0].Page3[0].List4[0].item4[0].Ch1"
+        type: radio
+        label: "4. Did you ask the plaintiff to pay you before filing this claim?"
+        required: true
+        options:
+          - { value: "1", label: "Yes" }
+          - { value: "2", label: "No" }
+        width: full
+
+      - name: dispute_resolution
+        pdf_field_name: "SC-120[0].Page3[0].List5[0].item5[0].Ch2"
+        type: radio
+        label: "5. Is there an agreement between you and the plaintiff about how to resolve disputes (like mediation or arbitration)?"
+        required: true
+        options:
+          - { value: "1", label: "Yes" }
+          - { value: "2", label: "No" }
+        width: full
+
+      - name: had_arbitration
+        pdf_field_name: "SC-120[0].Page3[0].List5[0].item5[0].CheckBox09[0]"
+        type: checkbox
+        label: "If yes, and if you have had arbitration, check here and attach form SC-101"
+        required: false
+        conditions:
+          show_when:
+            field: dispute_resolution
+            value: "1"
+        width: full
+
+      - name: other_lawsuit
+        pdf_field_name: "SC-120[0].Page3[0].List6[0].item6[0].Ch3"
+        type: radio
+        label: "6. Is there another lawsuit between you and the plaintiff about this claim?"
+        required: true
+        options:
+          - { value: "1", label: "Yes" }
+          - { value: "2", label: "No" }
+        width: full
+
+      - name: other_lawsuit_filed
+        pdf_field_name: "SC-120[0].Page3[0].List6[0].item6[0].CheckBox11[0]"
+        type: checkbox
+        label: "A claim was filed"
+        required: false
+        conditions:
+          show_when:
+            field: other_lawsuit
+            value: "1"
+        width: half
+
+      - name: other_lawsuit_date
+        pdf_field_name: "SC-120[0].Page3[0].List6[0].item6[0].FillText71[0]"
+        type: date
+        label: "Date filed"
+        required: false
+        conditions:
+          show_when:
+            field: other_lawsuit_filed
+            value: true
+        width: half
+
+      - name: previous_claims
+        pdf_field_name: "SC-120[0].Page3[0].List7[0].item7[0].Ch4"
+        type: radio
+        label: "7. Have you filed more than 12 small claims within the last 12 months in California?"
+        required: true
+        options:
+          - { value: "1", label: "Yes" }
+          - { value: "2", label: "No" }
+        help_text: "There is a limit on how many small claims you can file per year"
+        width: full
+
+  defendant_signatures:
+    title: "10. Defendant Signatures"
+    description: "Sign and date your claim"
+    fields:
+      - name: defendant1_signature_date
+        pdf_field_name: "SC-120[0].Page3[0].List10[0].Date1[0]"
+        type: date
+        label: "Date"
+        required: true
+        default: today
+        width: half
+
+      - name: defendant1_signature_name
+        pdf_field_name: "SC-120[0].Page3[0].List10[0].Field1[0]"
+        type: text
+        label: "Type or print your name"
+        required: true
+        width: half
+
+      - name: defendant2_signature_date
+        pdf_field_name: "SC-120[0].Page3[0].List10[0].Date2[0]"
+        type: date
+        label: "Defendant 2 - Date"
+        required: false
+        width: half
+
+      - name: defendant2_signature_name
+        pdf_field_name: "SC-120[0].Page3[0].List10[0].Field2[0]"
+        type: text
+        label: "Defendant 2 - Type or print name"
+        required: false
+        width: half
