@@ -48,6 +48,7 @@ gem "pdf-forms", "~> 1.5"          # Fill PDF forms with pdftk
 gem "combine_pdf", "~> 1.0"        # Merge/manipulate PDFs
 gem "hexapdf", "~> 1.0"            # PDF parsing (for XFA forms)
 gem "grover", "~> 1.1"             # HTML to PDF via Chrome/Puppeteer (for non-fillable forms)
+gem "aws-sdk-s3", "~> 1.143"       # S3 storage for PDF templates
 
 # Authentication
 gem "devise", "~> 4.9"

@@ -11,8 +11,10 @@
 # Ignore bundler config.
 /.bundle
 
-# Ignore all environment files.
-/.env*
+# Ignore all environment files (except .env.example).
+/.env
+/.env.*
+!/.env.example
 
 # Ignore all logfiles and tempfiles.
 /log/*
@@ -41,3 +43,9 @@
 /app/assets/builds/*
 !/app/assets/builds/.keep
 test_output/
+
+# PDF Templates (stored in S3, symlinks to external directory)
+/lib/pdf_templates/
+
+# Cached S3 templates (downloaded on-demand)
+/tmp/cached_templates/

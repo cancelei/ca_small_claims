@@ -25,11 +25,19 @@ class FormDefinition < ApplicationRecord
   LEGACY_CATEGORIES = %w[filing service pre_trial judgment post_judgment special info plaintiff defendant enforcement appeal collections informational fee_waiver].freeze
 
   def pdf_path
-    Rails.root.join("lib", "pdf_templates", pdf_filename)
+    if use_s3_storage?
+      S3::TemplateService.new.download_template(pdf_filename)
+    else
+      Rails.root.join("lib", "pdf_templates", pdf_filename)
+    end
   end
 
   def pdf_exists?
-    File.exist?(pdf_path)
+    if use_s3_storage?
+      S3::TemplateService.new.template_exists?(pdf_filename)
+    else
+      File.exist?(Rails.root.join("lib", "pdf_templates", pdf_filename))
+    end
   end
 
   def sections
@@ -92,5 +100,11 @@ class FormDefinition < ApplicationRecord
   # Returns true if this form has pending feedback that needs attention
   def needs_attention?
     form_feedbacks.pending.exists? || form_feedbacks.low_rated.unresolved.exists?
+  end
+
+  private
+
+  def use_s3_storage?
+    ENV.fetch("USE_S3_STORAGE", "false") == "true"
   end
 end

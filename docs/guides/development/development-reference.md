@@ -97,6 +97,25 @@ bin/rails db:reset
 bin/rails db:seed
 ```
 
+### S3 Template Management
+
+```bash
+# Upload all PDF templates to S3
+bin/rails s3:upload_templates
+
+# Verify all templates exist in S3
+bin/rails s3:verify_templates
+
+# Clear local template cache
+bin/rails s3:clear_cache
+
+# Download single template for testing
+bin/rails s3:download_template[sc100.pdf]
+
+# Show S3 configuration
+bin/rails s3:show_config
+```
+
 ---
 
 ## Code Quality Tools
