@@ -1,6 +1,8 @@
 # frozen_string_literal: true
 
 class Submission < ApplicationRecord
+  include FormDataAccessor
+
   belongs_to :user, optional: true
   belongs_to :form_definition
   belongs_to :workflow, optional: true
@@ -18,20 +20,6 @@ class Submission < ApplicationRecord
 
   def anonymous?
     user_id.nil?
-  end
-
-  def field_value(field_name)
-    form_data[field_name.to_s]
-  end
-
-  def update_field(field_name, value)
-    self.form_data = form_data.merge(field_name.to_s => value)
-    save
-  end
-
-  def update_fields(new_data)
-    self.form_data = form_data.merge(new_data.stringify_keys)
-    save
   end
 
   def complete!

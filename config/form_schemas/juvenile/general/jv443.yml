@@ -1,0 +1,664 @@
+---
+form:
+  code: JV-443
+  title: JV 443 Form
+  description: ''
+  category: juvenile/general
+  pdf_filename: jv443.pdf
+  fillable: true
+  instructions: ''
+sections:
+  header:
+    title: Header
+    fields:
+    - name: party1_ft
+      pdf_field_name: JV-443[0].Page1[0].Header[0].Party1_ft[0]
+      type: text
+      label: Party1 Ft
+      required: false
+      width: full
+    - name: case_number_ft
+      pdf_field_name: JV-443[0].Page1[0].Header[0].CaseNumber_ft[0]
+      type: text
+      label: Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+  item:
+    title: Item
+    fields:
+    - name: placement37
+      pdf_field_name: JV-443[0].Page1[0].item3[0].placement37[0]
+      type: text
+      label: Placement
+      required: false
+      width: full
+    - name: cb4_courtconsidered
+      pdf_field_name: JV-443[0].Page1[0].item4[0].Cb4_courtconsidered[0]
+      type: text
+      label: Cb4 Courtconsidered
+      required: false
+      width: full
+    - name: item5_cb
+      pdf_field_name: JV-443[0].Page1[0].item8[0].item5_cb[0]
+      type: text
+      label: Item5 Cb
+      required: false
+      width: full
+    - name: item6af_cb
+      pdf_field_name: JV-443[0].Page1[0].item8[0].item6af_cb[0]
+      type: text
+      label: Item6af Cb
+      required: false
+      width: full
+    - name: item6af_cb_2
+      pdf_field_name: JV-443[0].Page1[0].item8[0].item6af_cb[1]
+      type: text
+      label: Item6af Cb
+      required: false
+      width: full
+    - name: item6af_cb_2
+      pdf_field_name: JV-443[0].Page1[0].item8[0].item6af_cb[2]
+      type: text
+      label: Item6af Cb
+      required: false
+      width: full
+    - name: item6af_cb_2
+      pdf_field_name: JV-443[0].Page1[0].item8[0].item6af_cb[3]
+      type: text
+      label: Item6af Cb
+      required: false
+      width: full
+    - name: item6af_cb_2
+      pdf_field_name: JV-443[0].Page1[0].item8[0].item6af_cb[4]
+      type: text
+      label: Item6af Cb
+      required: false
+      width: full
+    - name: item6af_cb_2
+      pdf_field_name: JV-443[0].Page1[0].item8[0].item6af_cb[5]
+      type: text
+      label: Item6af Cb
+      required: false
+      width: full
+    - name: item6_cb
+      pdf_field_name: JV-443[0].Page1[0].item9[0].item6_cb[0]
+      type: text
+      label: Item6 Cb
+      required: false
+      width: full
+    - name: outofstatepalcement9
+      pdf_field_name: JV-443[0].Page1[0].item9[0].outofstatepalcement9[0]
+      type: address
+      label: Outofstatepalcement
+      required: false
+      width: full
+    - name: outofstatepalcement9_2
+      pdf_field_name: JV-443[0].Page1[0].item9[0].outofstatepalcement9[1]
+      type: address
+      label: Outofstatepalcement
+      required: false
+      width: full
+    - name: writtenoral
+      pdf_field_name: JV-443[0].Page1[0].item9[0].writtenoral[0]
+      type: text
+      label: Writtenoral
+      required: false
+      width: full
+    - name: writtenoral_2
+      pdf_field_name: JV-443[0].Page1[0].item9[0].writtenoral[1]
+      type: text
+      label: Writtenoral
+      required: false
+      width: full
+    - name: item6b1_cb
+      pdf_field_name: JV-443[0].Page1[0].item9[0].item6b1_cb[0]
+      type: text
+      label: Item6b1 Cb
+      required: false
+      width: full
+    - name: item6b2_cb
+      pdf_field_name: JV-443[0].Page1[0].item9[0].item6b2_cb[0]
+      type: text
+      label: Item6b2 Cb
+      required: false
+      width: full
+    - name: item6b3_cb
+      pdf_field_name: JV-443[0].Page1[0].item9[0].item6b3_cb[0]
+      type: text
+      label: Item6b3 Cb
+      required: false
+      width: full
+    - name: other_specify_tf
+      pdf_field_name: JV-443[0].Page1[0].item9[0].OtherSpecify_tf[0]
+      type: text
+      label: Other Specify Tf
+      required: false
+      width: full
+    - name: mother_cb_2
+      pdf_field_name: JV-443[0].Page2[0].item11[0].mother_cb[0]
+      type: text
+      label: Mother Cb
+      required: false
+      width: full
+    - name: biologicalfather_cb_2
+      pdf_field_name: JV-443[0].Page2[0].item11[0].biologicalfather_cb[0]
+      type: text
+      label: Biologicalfather Cb
+      required: false
+      width: full
+    - name: otherspecify_cb_11
+      pdf_field_name: JV-443[0].Page2[0].item11[0].otherspecify_cb_11[0]
+      type: text
+      label: Otherspecify Cb
+      required: false
+      width: full
+    - name: presumedfather_cb_2
+      pdf_field_name: JV-443[0].Page2[0].item11[0].presumedfather_cb[0]
+      type: text
+      label: Presumedfather Cb
+      required: false
+      width: full
+    - name: legalguardian_cb_2
+      pdf_field_name: JV-443[0].Page2[0].item11[0].legalguardian_cb[0]
+      type: text
+      label: Legalguardian Cb
+      required: false
+      width: full
+    - name: otherspecify_cb11
+      pdf_field_name: JV-443[0].Page2[0].item11[0].otherspecify_cb11[0]
+      type: text
+      label: Otherspecify Cb
+      required: false
+      width: full
+    - name: otherspecify_tf11
+      pdf_field_name: JV-443[0].Page2[0].item11[0].otherspecify_tf11[0]
+      type: text
+      label: Otherspecify Tf
+      required: false
+      width: full
+    - name: otherspecify_cb_2
+      pdf_field_name: JV-443[0].Page2[0].item11[0].otherspecify_cb[0]
+      type: text
+      label: Otherspecify Cb
+      required: false
+      width: full
+    - name: otherspecify_tf_2
+      pdf_field_name: JV-443[0].Page2[0].item11[0].otherspecify_tf[0]
+      type: text
+      label: Otherspecify Tf
+      required: false
+      width: full
+    - name: cb11ab
+      pdf_field_name: JV-443[0].Page2[0].item11[0].cb11ab[0]
+      type: text
+      label: Cb11ab
+      required: false
+      width: full
+    - name: cb11ab_2
+      pdf_field_name: JV-443[0].Page2[0].item11[0].cb11ab[1]
+      type: text
+      label: Cb11ab
+      required: false
+      width: full
+    - name: item8b1_cb
+      pdf_field_name: JV-443[0].Page2[0].item11[0].item8b1_cb[0]
+      type: text
+      label: Item8b1 Cb
+      required: false
+      width: full
+    - name: item8b2_cb
+      pdf_field_name: JV-443[0].Page2[0].item11[0].item8b2_cb[0]
+      type: text
+      label: Item8b2 Cb
+      required: false
+      width: full
+    - name: item9_cb
+      pdf_field_name: JV-443[0].Page2[0].item12[0].item9_cb[0]
+      type: text
+      label: Item9 Cb
+      required: false
+      width: full
+    - name: fi10c_date_2
+      pdf_field_name: JV-443[0].Page2[0].item12[0].Fi10c_date[0]
+      type: date
+      label: Fi10c Date
+      required: false
+      width: half
+    - name: item10_cb
+      pdf_field_name: JV-443[0].Page2[0].item13[0].item10_cb[0]
+      type: text
+      label: Item10 Cb
+      required: false
+      width: full
+    - name: efforts13ab
+      pdf_field_name: JV-443[0].Page2[0].item13[0].efforts13ab[0]
+      type: text
+      label: Efforts13ab
+      required: false
+      width: full
+    - name: efforts13ab_2
+      pdf_field_name: JV-443[0].Page2[0].item13[0].efforts13ab[1]
+      type: text
+      label: Efforts13ab
+      required: false
+      width: full
+    - name: item10c_cb
+      pdf_field_name: JV-443[0].page3[0].item13[0].item10c_cb[0]
+      type: text
+      label: Item10c Cb
+      required: false
+      width: full
+    - name: item10c1_cb
+      pdf_field_name: JV-443[0].page3[0].item13[0].item10c1_cb[0]
+      type: text
+      label: Item10c1 Cb
+      required: false
+      width: full
+    - name: item10c2_cb
+      pdf_field_name: JV-443[0].page3[0].item13[0].item10c2_cb[0]
+      type: text
+      label: Item10c2 Cb
+      required: false
+      width: full
+    - name: other_specify_tf_2
+      pdf_field_name: JV-443[0].page3[0].item13[0].OtherSpecify_tf[0]
+      type: text
+      label: Other Specify Tf
+      required: false
+      width: full
+    - name: item11_cb
+      pdf_field_name: JV-443[0].page3[0].item14[0].item11_cb[0]
+      type: text
+      label: Item11 Cb
+      required: false
+      width: full
+    - name: mother_cb_2
+      pdf_field_name: JV-443[0].page3[0].item14[0].mother_cb[0]
+      type: text
+      label: Mother Cb
+      required: false
+      width: full
+    - name: biologicalfather_cb_2
+      pdf_field_name: JV-443[0].page3[0].item14[0].biologicalfather_cb[0]
+      type: text
+      label: Biologicalfather Cb
+      required: false
+      width: full
+    - name: indiancustodian_cb
+      pdf_field_name: JV-443[0].page3[0].item14[0].indiancustodian_cb[0]
+      type: text
+      label: Indiancustodian Cb
+      required: false
+      width: full
+    - name: presumedfather_cb_2
+      pdf_field_name: JV-443[0].page3[0].item14[0].presumedfather_cb[0]
+      type: text
+      label: Presumedfather Cb
+      required: false
+      width: full
+    - name: legalguardian_cb_2
+      pdf_field_name: JV-443[0].page3[0].item14[0].legalguardian_cb[0]
+      type: text
+      label: Legalguardian Cb
+      required: false
+      width: full
+    - name: otherspecify_cb14
+      pdf_field_name: JV-443[0].page3[0].item14[0].otherspecify_cb14[0]
+      type: text
+      label: Otherspecify Cb
+      required: false
+      width: full
+    - name: otherspecify_tf14
+      pdf_field_name: JV-443[0].page3[0].item14[0].otherspecify_tf14[0]
+      type: text
+      label: Otherspecify Tf
+      required: false
+      width: full
+    - name: otherspecify_tf_2
+      pdf_field_name: JV-443[0].page3[0].item14[0].otherspecify_tf[0]
+      type: text
+      label: Otherspecify Tf
+      required: false
+      width: full
+    - name: unable14
+      pdf_field_name: JV-443[0].page3[0].item14[0].unable14[0]
+      type: text
+      label: Unable
+      required: false
+      width: full
+    - name: unwilling14
+      pdf_field_name: JV-443[0].page3[0].item14[0].unwilling14[0]
+      type: text
+      label: Unwilling
+      required: false
+      width: full
+    - name: unavailable14
+      pdf_field_name: JV-443[0].page3[0].item14[0].unavailable14[0]
+      type: text
+      label: Unavailable
+      required: false
+      width: full
+    - name: otherspecify_cb_2
+      pdf_field_name: JV-443[0].page3[0].item14[0].otherspecify_cb[0]
+      type: text
+      label: Otherspecify Cb
+      required: false
+      width: full
+    - name: on_date_ff
+      pdf_field_name: JV-443[0].page3[0].item15[0].on_date_ff[0]
+      type: date
+      label: On Date Ff
+      required: false
+      width: half
+  'no':
+    title: 'No'
+    fields:
+    - name: cb5_childlefttheirplacement
+      pdf_field_name: JV-443[0].Page1[0].No5[0].Cb5_childlefttheirplacement[0]
+      type: text
+      label: Cb5 Childlefttheirplacement
+      required: false
+      width: full
+    - name: hasnot_cb
+      pdf_field_name: JV-443[0].Page1[0].No5[0].cb5waswasnot[0].hasnot_cb[0]
+      type: text
+      label: Hasnot Cb
+      required: false
+      width: full
+    - name: hasnot_cb_2
+      pdf_field_name: JV-443[0].Page1[0].No5[0].cb5waswasnot[0].hasnot_cb[1]
+      type: text
+      label: Hasnot Cb
+      required: false
+      width: full
+    - name: hashasnot
+      pdf_field_name: JV-443[0].Page1[0].No5[0].cbhashasnot[0].hashasnot[0]
+      type: text
+      label: Hashasnot
+      required: false
+      width: full
+    - name: hashasnot_2
+      pdf_field_name: JV-443[0].Page1[0].No5[0].cbhashasnot[0].hashasnot[1]
+      type: text
+      label: Hashasnot
+      required: false
+      width: full
+    - name: text6_childcurrentlydetained
+      pdf_field_name: JV-443[0].Page1[0].No6[0].Text6_childcurrentlydetained[0]
+      type: currency
+      label: Text6 Childcurrentlydetained
+      required: false
+      width: third
+    - name: waswasnot2
+      pdf_field_name: JV-443[0].Page1[0].No6[0].#area[0].waswasnot2[0]
+      type: text
+      label: Waswasnot
+      required: false
+      width: full
+    - name: waswasnot2_2
+      pdf_field_name: JV-443[0].Page1[0].No6[0].#area[1].waswasnot2[1]
+      type: text
+      label: Waswasnot
+      required: false
+      width: full
+    - name: placement37_2
+      pdf_field_name: JV-443[0].Page1[0].No7[0].placement37[0]
+      type: text
+      label: Placement
+      required: false
+      width: full
+    - name: cb7a_continuedform_jv440
+      pdf_field_name: JV-443[0].Page1[0].No7[0].cb7a_continuedformJV440[0]
+      type: text
+      label: Cb7a Continuedform Jv
+      required: false
+      width: full
+    - name: writtenoral7
+      pdf_field_name: JV-443[0].Page1[0].No7[0].writtenoral7[0]
+      type: text
+      label: Writtenoral
+      required: false
+      width: full
+    - name: writtenoral7_2
+      pdf_field_name: JV-443[0].Page1[0].No7[0].writtenoral7[1]
+      type: text
+      label: Writtenoral
+      required: false
+      width: full
+    - name: cb7b_other
+      pdf_field_name: JV-443[0].Page1[0].No7[0].Cb7b_other[0]
+      type: text
+      label: Cb7b Other
+      required: false
+      width: full
+    - name: fi7b_specify
+      pdf_field_name: JV-443[0].Page1[0].No7[0].Fi7b_specify[0]
+      type: text
+      label: Fi7b Specify
+      required: false
+      width: full
+  footer:
+    title: Footer
+    fields:
+    - name: footer_court_link
+      pdf_field_name: JV-443[0].Page1[0].Footer[0].Footer_CourtLink[0]
+      type: checkbox
+      label: Footer Court Link
+      required: false
+      width: full
+  childsname:
+    title: Childsname
+    fields:
+    - name: party1_ft_2
+      pdf_field_name: JV-443[0].Page2[0].childsname[0].Party1_ft[0]
+      type: text
+      label: Party1 Ft
+      required: false
+      width: full
+    - name: party1_ft_2
+      pdf_field_name: JV-443[0].page3[0].childsname[0].Party1_ft[0]
+      type: text
+      label: Party1 Ft
+      required: false
+      width: full
+  casenum:
+    title: Casenum
+    fields:
+    - name: case_number_ft_2
+      pdf_field_name: JV-443[0].Page2[0].casenum[0].CaseNumber_ft[0]
+      type: text
+      label: Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+    - name: case_number_ft_2
+      pdf_field_name: JV-443[0].page3[0].casenum[0].CaseNumber_ft[0]
+      type: text
+      label: Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+  item_10a:
+    title: Item 10a
+    fields:
+    - name: mother_cb
+      pdf_field_name: JV-443[0].Page2[0].item_10a[0].mother_cb[0]
+      type: text
+      label: Mother Cb
+      required: false
+      width: full
+    - name: biologicalfather_cb
+      pdf_field_name: JV-443[0].Page2[0].item_10a[0].biologicalfather_cb[0]
+      type: text
+      label: Biologicalfather Cb
+      required: false
+      width: full
+    - name: otherspecify_cb_a
+      pdf_field_name: JV-443[0].Page2[0].item_10a[0].otherspecify_cb_a[0]
+      type: text
+      label: Otherspecify Cb A
+      required: false
+      width: full
+    - name: presumedfather_cb
+      pdf_field_name: JV-443[0].Page2[0].item_10a[0].presumedfather_cb[0]
+      type: text
+      label: Presumedfather Cb
+      required: false
+      width: full
+    - name: legalguardian_cb
+      pdf_field_name: JV-443[0].Page2[0].item_10a[0].legalguardian_cb[0]
+      type: text
+      label: Legalguardian Cb
+      required: false
+      width: full
+    - name: otherspecify_cb1
+      pdf_field_name: JV-443[0].Page2[0].item_10a[0].otherspecify_cb1[0]
+      type: text
+      label: Otherspecify Cb
+      required: false
+      width: full
+    - name: otherspecify_tf_1
+      pdf_field_name: JV-443[0].Page2[0].item_10a[0].otherspecify_tf_1[0]
+      type: text
+      label: Otherspecify Tf
+      required: false
+      width: full
+    - name: otherspecify_tf
+      pdf_field_name: JV-443[0].Page2[0].item_10a[0].otherspecify_tf[0]
+      type: text
+      label: Otherspecify Tf
+      required: false
+      width: full
+    - name: item7a1_cb
+      pdf_field_name: JV-443[0].Page2[0].item_10a[0].item7a1_cb[0]
+      type: text
+      label: Item7a1 Cb
+      required: false
+      width: full
+    - name: item7a2_cb
+      pdf_field_name: JV-443[0].Page2[0].item_10a[0].item7a2_cb[0]
+      type: text
+      label: Item7a2 Cb
+      required: false
+      width: full
+    - name: item7a3_cb
+      pdf_field_name: JV-443[0].Page2[0].item_10a[0].item7a3_cb[0]
+      type: text
+      label: Item7a3 Cb
+      required: false
+      width: full
+    - name: otherspecify_cb
+      pdf_field_name: JV-443[0].Page2[0].item_10a[0].otherspecify_cb[0]
+      type: text
+      label: Otherspecify Cb
+      required: false
+      width: full
+  item10b_c:
+    title: Item10b C
+    fields:
+    - name: mother_cb_2
+      pdf_field_name: JV-443[0].Page2[0].item10b_c[0].mother_cb[0]
+      type: text
+      label: Mother Cb
+      required: false
+      width: full
+    - name: biologicalfather_cb_2
+      pdf_field_name: JV-443[0].Page2[0].item10b_c[0].biologicalfather_cb[0]
+      type: text
+      label: Biologicalfather Cb
+      required: false
+      width: full
+    - name: otherspecify_cb_b
+      pdf_field_name: JV-443[0].Page2[0].item10b_c[0].otherspecify_cb_b[0]
+      type: text
+      label: Otherspecify Cb B
+      required: false
+      width: full
+    - name: presumedfather_cb_2
+      pdf_field_name: JV-443[0].Page2[0].item10b_c[0].presumedfather_cb[0]
+      type: text
+      label: Presumedfather Cb
+      required: false
+      width: full
+    - name: legalguardian_cb_2
+      pdf_field_name: JV-443[0].Page2[0].item10b_c[0].legalguardian_cb[0]
+      type: text
+      label: Legalguardian Cb
+      required: false
+      width: full
+    - name: otherspecify_cb_3
+      pdf_field_name: JV-443[0].Page2[0].item10b_c[0].otherspecify_cb_3[0]
+      type: text
+      label: Otherspecify Cb
+      required: false
+      width: full
+    - name: otherspecify_tf_3
+      pdf_field_name: JV-443[0].Page2[0].item10b_c[0].otherspecify_tf_3[0]
+      type: text
+      label: Otherspecify Tf
+      required: false
+      width: full
+    - name: otherspecify_cb_2
+      pdf_field_name: JV-443[0].Page2[0].item10b_c[0].otherspecify_cb[0]
+      type: text
+      label: Otherspecify Cb
+      required: false
+      width: full
+    - name: otherspecify_tf_2
+      pdf_field_name: JV-443[0].Page2[0].item10b_c[0].otherspecify_tf[0]
+      type: text
+      label: Otherspecify Tf
+      required: false
+      width: full
+    - name: item7b3a_cb
+      pdf_field_name: JV-443[0].Page2[0].item10b_c[0].item7b3a_cb[0]
+      type: text
+      label: Item7b3a Cb
+      required: false
+      width: full
+    - name: item7b3b_cb
+      pdf_field_name: JV-443[0].Page2[0].item10b_c[0].item7b3b_cb[0]
+      type: text
+      label: Item7b3b Cb
+      required: false
+      width: full
+    - name: petitioner_cb
+      pdf_field_name: JV-443[0].Page2[0].item10b_c[0].petitioner_cb[0]
+      type: text
+      label: Petitioner Cb
+      required: false
+      width: full
+    - name: fi10c_date
+      pdf_field_name: JV-443[0].Page2[0].item10b_c[0].Fi10c_date[0]
+      type: date
+      label: Fi10c Date
+      required: false
+      width: half
+  footerpage:
+    title: Footerpage
+    fields:
+    - name: print
+      pdf_field_name: JV-443[0].page3[0].footerpage3[0].FooterButtons[0].Print[0]
+      type: checkbox
+      label: Print
+      required: false
+      width: full
+    - name: save
+      pdf_field_name: JV-443[0].page3[0].footerpage3[0].FooterButtons[0].Save[0]
+      type: checkbox
+      label: Save
+      required: false
+      width: full
+    - name: reset
+      pdf_field_name: JV-443[0].page3[0].footerpage3[0].FooterButtons[0].Reset[0]
+      type: checkbox
+      label: Reset
+      required: false
+      width: full
+    - name: warning
+      pdf_field_name: JV-443[0].page3[0].footerpage3[0].FooterButtons[0].Warning[0]
+      type: checkbox
+      label: Warning
+      required: false
+      width: full

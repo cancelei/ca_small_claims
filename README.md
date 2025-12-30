@@ -42,7 +42,53 @@ brew install pdftk-java
 **Windows:**
 Download from https://www.pdflabs.com/tools/pdftk-the-pdf-toolkit/
 
-## Getting Started
+## Getting Started (Docker - Recommended)
+
+Docker provides the easiest setup with all dependencies pre-configured (PostgreSQL, pdftk, Chromium for PDF generation).
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/yourusername/ca-small-claims.git
+   cd ca-small-claims
+   ```
+
+2. **Build and start services:**
+   ```bash
+   docker compose build
+   docker compose up -d
+   ```
+
+3. **Set up the database:**
+   ```bash
+   docker compose exec web bin/rails db:setup
+   ```
+
+4. **Visit http://localhost:3001**
+
+### Common Docker Commands
+
+```bash
+docker compose up              # Start all services (foreground)
+docker compose up -d           # Start in background
+docker compose down            # Stop all services
+docker compose logs -f web     # Follow web logs
+docker compose exec web bash   # Shell into web container
+docker compose exec web bin/rails console  # Rails console
+docker compose restart web     # Restart web service
+```
+
+### Docker Ports
+
+| Service | Internal Port | External Port |
+|---------|---------------|---------------|
+| Web     | 3000          | 3001          |
+| PostgreSQL | 5432       | 5434          |
+
+---
+
+## Getting Started (Local - Alternative)
+
+For local development without Docker, you'll need to install dependencies manually.
 
 1. **Clone the repository:**
    ```bash
@@ -53,6 +99,7 @@ Download from https://www.pdflabs.com/tools/pdftk-the-pdf-toolkit/
 2. **Install dependencies:**
    ```bash
    bundle install
+   npm install
    ```
 
 3. **Set up the database:**
@@ -176,11 +223,18 @@ lib/
 
 ## Environment Variables
 
+Copy `.env.example` to `.env` and configure as needed:
+
 | Variable | Description | Default |
 |----------|-------------|---------|
+| `DATABASE_HOST` | Database hostname | `localhost` (local) / `db` (Docker) |
+| `DATABASE_USERNAME` | Database username | `postgres` |
+| `DATABASE_PASSWORD` | Database password | `postgres` |
 | `PDFTK_PATH` | Path to pdftk binary | Auto-detected |
-| `DATABASE_URL` | PostgreSQL URL (production) | - |
-| `SECRET_KEY_BASE` | Rails secret key | - |
+| `SECRET_KEY_BASE` | Rails secret key (production) | - |
+| `USE_S3_STORAGE` | Use S3 for PDF templates | `false` |
+
+For Docker development, most environment variables are pre-configured in `docker-compose.yml`.
 
 ## Testing
 

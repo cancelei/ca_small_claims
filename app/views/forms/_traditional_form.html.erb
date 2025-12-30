@@ -1,0 +1,42 @@
+<%# Traditional Form View - All fields displayed at once %>
+<%# locals: sections, form, submission %>
+
+<div class="bg-base-100 rounded-lg shadow">
+  <div class="p-6 border-b border-base-200">
+    <div class="flex items-center justify-between">
+      <h2 class="text-lg font-semibold text-base-content">Form Fields</h2>
+      <div id="autosave-status-traditional" class="text-sm text-base-content/70" data-form-target="status">
+        <%= render partial: "shared/autosave_status", locals: { saved_at: submission.updated_at } %>
+      </div>
+    </div>
+  </div>
+
+  <div class="p-6 space-y-8">
+    <% sections.each do |section_name, fields| %>
+      <div class="border-b border-base-200 pb-6 last:border-b-0 last:pb-0">
+        <h3 class="text-lg font-semibold text-base-content mb-4 capitalize">
+          <%= section_name.to_s.titleize %>
+        </h3>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <% fields.each do |field| %>
+            <div class="<%= field.width_class %>">
+              <%= render partial: "forms/fields/#{field.field_type}",
+                         locals: { field: field, form: form, submission: submission } %>
+            </div>
+          <% end %>
+        </div>
+      </div>
+    <% end %>
+
+    <% if sections.empty? %>
+      <div class="text-center py-8 text-base-content/70">
+        <svg class="w-12 h-12 mx-auto mb-4 text-base-content/30" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+        </svg>
+        <p>No fields configured for this form yet.</p>
+      </div>
+    <% end %>
+  </div>
+</div>

@@ -1,0 +1,479 @@
+---
+form:
+  code: FL-640
+  title: FL 640 Form
+  description: ''
+  category: family_law/general
+  pdf_filename: fl640.pdf
+  fillable: true
+  instructions: ''
+sections:
+  general:
+    title: General
+    fields:
+    - name: info1
+      pdf_field_name: Atty.Info1
+      type: text
+      label: Info
+      required: false
+      width: full
+    - name: info2
+      pdf_field_name: Atty.Info2
+      type: text
+      label: Info
+      required: false
+      width: full
+    - name: info3
+      pdf_field_name: Atty.Info3
+      type: text
+      label: Info
+      required: false
+      width: full
+    - name: tel
+      pdf_field_name: Tel
+      type: tel
+      label: Tel
+      required: false
+      width: half
+    - name: fax
+      pdf_field_name: Fax
+      type: tel
+      label: Fax
+      required: false
+      width: half
+    - name: for
+      pdf_field_name: Attorney.for
+      type: text
+      label: For
+      required: false
+      width: full
+    - name: county
+      pdf_field_name: Court.County
+      type: number
+      label: County
+      required: false
+      width: third
+    - name: street
+      pdf_field_name: Court.street
+      type: address
+      label: Street
+      required: false
+      width: full
+    - name: mailing
+      pdf_field_name: Court.mailing
+      type: address
+      label: Mailing
+      required: false
+      width: full
+    - name: branch
+      pdf_field_name: Court.branch
+      type: text
+      label: Branch
+      required: false
+      width: full
+    - name: plaintiff
+      pdf_field_name: Petitioner.plaintiff
+      type: text
+      label: Plaintiff
+      required: false
+      width: full
+    - name: petitioner
+      pdf_field_name: Petitioner
+      type: text
+      label: Petitioner
+      required: false
+      width: full
+    - name: defendant
+      pdf_field_name: Respondent.Defendant
+      type: text
+      label: Defendant
+      required: false
+      width: full
+    - name: respondent
+      pdf_field_name: Respondent
+      type: text
+      label: Respondent
+      required: false
+      width: full
+    - name: party
+      pdf_field_name: Other.party
+      type: text
+      label: Party
+      required: false
+      width: full
+    - name: other
+      pdf_field_name: Other
+      type: text
+      label: Other
+      required: false
+      width: full
+    - name: email
+      pdf_field_name: email
+      type: email
+      label: Email
+      required: false
+      width: half
+    - name: check_box9
+      pdf_field_name: CheckBox9
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box9a
+      pdf_field_name: CheckBox9a
+      type: checkbox
+      label: Check Box9a
+      required: false
+      width: full
+    - name: check_box9b
+      pdf_field_name: CheckBox9b
+      type: checkbox
+      label: Check Box9b
+      required: false
+      width: full
+    - name: check_box9c
+      pdf_field_name: CheckBox9c
+      type: checkbox
+      label: Check Box9c
+      required: false
+      width: full
+    - name: fill_text60
+      pdf_field_name: FillText60
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text65
+      pdf_field_name: FillText65
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text64
+      pdf_field_name: FillText64
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: check_box6
+      pdf_field_name: CheckBox6
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: fill_text63
+      pdf_field_name: FillText63
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: check_box8
+      pdf_field_name: CheckBox8
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: fill_text62
+      pdf_field_name: FillText62
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: check_box7
+      pdf_field_name: CheckBox7
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: fill_text61
+      pdf_field_name: FillText61
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: check_box4
+      pdf_field_name: CheckBox4
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: fill_text58
+      pdf_field_name: FillText58
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text57
+      pdf_field_name: FillText57
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text56
+      pdf_field_name: FillText56
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text54
+      pdf_field_name: FillText54
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text55
+      pdf_field_name: FillText55
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text01
+      pdf_field_name: FillText01
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text84
+      pdf_field_name: FillText84
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: case_number
+      pdf_field_name: CaseNumber
+      type: text
+      label: Case Number
+      required: false
+      width: full
+      shared_key: case:number
+    - name: fill_text126
+      pdf_field_name: FillText126
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: check_box21
+      pdf_field_name: CheckBox21
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: fill_text124
+      pdf_field_name: FillText124
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text125
+      pdf_field_name: FillText125
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text121
+      pdf_field_name: FillText121
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text120
+      pdf_field_name: FillText120
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: check_box20
+      pdf_field_name: CheckBox20
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: fill_text123
+      pdf_field_name: FillText123
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text122
+      pdf_field_name: FillText122
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text118
+      pdf_field_name: FillText118
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text119
+      pdf_field_name: FillText119
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: check_box22
+      pdf_field_name: CheckBox22
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box18
+      pdf_field_name: CheckBox18
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box17
+      pdf_field_name: CheckBox17
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box16
+      pdf_field_name: CheckBox16
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: fill_text117
+      pdf_field_name: FillText117
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text115
+      pdf_field_name: FillText115
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text113
+      pdf_field_name: FillText113
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text111
+      pdf_field_name: FillText111
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: check_box15
+      pdf_field_name: CheckBox15
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: fill_text116
+      pdf_field_name: FillText116
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text114
+      pdf_field_name: FillText114
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text112
+      pdf_field_name: FillText112
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text110
+      pdf_field_name: FillText110
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: check_box14
+      pdf_field_name: CheckBox14
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: fill_text109
+      pdf_field_name: FillText109
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text108
+      pdf_field_name: FillText108
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: name
+      pdf_field_name: Name
+      type: text
+      label: Name
+      required: false
+      width: full
+    - name: date
+      pdf_field_name: Date
+      type: date
+      label: Date
+      required: false
+      width: half
+    - name: check_box13
+      pdf_field_name: CheckBox13
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box02
+      pdf_field_name: CheckBox02
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box03
+      pdf_field_name: CheckBox03
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box01
+      pdf_field_name: CheckBox01
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box04
+      pdf_field_name: CheckBox04
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box1
+      pdf_field_name: CheckBox1
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box2
+      pdf_field_name: CheckBox2
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box3
+      pdf_field_name: CheckBox3
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+  city:
+    title: City
+    fields:
+    - name: zip
+      pdf_field_name: Court.City.zip
+      type: address
+      label: Zip
+      required: false
+      width: full

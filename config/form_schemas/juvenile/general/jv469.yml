@@ -1,0 +1,242 @@
+---
+form:
+  code: JV-469
+  title: JV 469 Form
+  description: ''
+  category: juvenile/general
+  pdf_filename: jv469.pdf
+  fillable: true
+  instructions: ''
+sections:
+  footer_buttons:
+    title: Footer Buttons
+    fields:
+    - name: print
+      pdf_field_name: JV-469[0].#pageSet[0].Page1[0].FooterButtons[0].Print[0]
+      type: checkbox
+      label: Print
+      required: false
+      width: full
+    - name: save
+      pdf_field_name: JV-469[0].#pageSet[0].Page1[0].FooterButtons[0].Save[0]
+      type: checkbox
+      label: Save
+      required: false
+      width: full
+    - name: reset
+      pdf_field_name: JV-469[0].#pageSet[0].Page1[0].FooterButtons[0].Reset[0]
+      type: checkbox
+      label: Reset
+      required: false
+      width: full
+    - name: warning
+      pdf_field_name: JV-469[0].#pageSet[0].Page1[0].FooterButtons[0].Warning[0]
+      type: checkbox
+      label: Warning
+      required: false
+      width: full
+  footer_sub:
+    title: Footer Sub
+    fields:
+    - name: court_link
+      pdf_field_name: JV-469[0].#pageSet[0].Page1[0].FooterSub[0].P1Footer[0].CourtLink[0]
+      type: checkbox
+      label: Court Link
+      required: false
+      width: full
+  header:
+    title: Header
+    fields:
+    - name: atty_bar_no
+      pdf_field_name: JV-469[0].Page1[0].Header[0].AttySub[0].AttyPartyInfo[0].AttyBarNo[0]
+      type: text
+      label: Atty Bar No
+      required: false
+      width: full
+    - name: name
+      pdf_field_name: JV-469[0].Page1[0].Header[0].AttySub[0].AttyPartyInfo[0].Name[0]
+      type: text
+      label: Name
+      required: false
+      width: full
+    - name: atty_firm
+      pdf_field_name: JV-469[0].Page1[0].Header[0].AttySub[0].AttyPartyInfo[0].AttyFirm[0]
+      type: text
+      label: Atty Firm
+      required: false
+      width: full
+    - name: street
+      pdf_field_name: JV-469[0].Page1[0].Header[0].AttySub[0].AttyPartyInfo[0].Street[0]
+      type: address
+      label: Street
+      required: false
+      width: full
+    - name: city
+      pdf_field_name: JV-469[0].Page1[0].Header[0].AttySub[0].AttyPartyInfo[0].City[0]
+      type: address
+      label: City
+      required: false
+      width: full
+    - name: state
+      pdf_field_name: JV-469[0].Page1[0].Header[0].AttySub[0].AttyPartyInfo[0].State[0]
+      type: address
+      label: State
+      required: false
+      width: full
+    - name: zip
+      pdf_field_name: JV-469[0].Page1[0].Header[0].AttySub[0].AttyPartyInfo[0].Zip[0]
+      type: address
+      label: Zip
+      required: false
+      width: full
+    - name: phone
+      pdf_field_name: JV-469[0].Page1[0].Header[0].AttySub[0].AttyPartyInfo[0].Phone[0]
+      type: tel
+      label: Phone
+      required: false
+      width: half
+    - name: fax
+      pdf_field_name: JV-469[0].Page1[0].Header[0].AttySub[0].AttyPartyInfo[0].Fax[0]
+      type: tel
+      label: Fax
+      required: false
+      width: half
+    - name: email
+      pdf_field_name: JV-469[0].Page1[0].Header[0].AttySub[0].AttyPartyInfo[0].Email[0]
+      type: email
+      label: Email
+      required: false
+      width: half
+    - name: atty_for
+      pdf_field_name: JV-469[0].Page1[0].Header[0].AttySub[0].AttyPartyInfo[0].AttyFor[0]
+      type: text
+      label: Atty For
+      required: false
+      width: full
+    - name: crt_county
+      pdf_field_name: JV-469[0].Page1[0].Header[0].CourtSub[0].CourtInfo[0].CrtCounty[0]
+      type: number
+      label: Crt County
+      required: false
+      width: third
+    - name: crt_street
+      pdf_field_name: JV-469[0].Page1[0].Header[0].CourtSub[0].CourtInfo[0].CrtStreet[0]
+      type: address
+      label: Crt Street
+      required: false
+      width: full
+    - name: crt_mailing_add
+      pdf_field_name: JV-469[0].Page1[0].Header[0].CourtSub[0].CourtInfo[0].CrtMailingAdd[0]
+      type: address
+      label: Crt Mailing Add
+      required: false
+      width: full
+    - name: crt_city_zip
+      pdf_field_name: JV-469[0].Page1[0].Header[0].CourtSub[0].CourtInfo[0].CrtCityZip[0]
+      type: address
+      label: Crt City Zip
+      required: false
+      width: full
+    - name: crt_branch
+      pdf_field_name: JV-469[0].Page1[0].Header[0].CourtSub[0].CourtInfo[0].CrtBranch[0]
+      type: text
+      label: Crt Branch
+      required: false
+      width: full
+    - name: party1
+      pdf_field_name: JV-469[0].Page1[0].Header[0].PartySub[0].TitlePartyName[0].Party1[0]
+      type: text
+      label: Party
+      required: false
+      width: full
+    - name: case_number
+      pdf_field_name: JV-469[0].Page1[0].Header[0].CaseSub[0].CaseNo[0].CaseNumber[0]
+      type: text
+      label: Case Number
+      required: false
+      width: full
+      shared_key: case:number
+  list:
+    title: List
+    fields:
+    - name: t73
+      pdf_field_name: JV-469[0].Page1[0].List1[0].Li1[0].T73[0]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: choice2
+      pdf_field_name: JV-469[0].Page1[0].List1[0].Li1[0].Choice2[0]
+      type: text
+      label: Choice
+      required: false
+      width: full
+    - name: choice2_2
+      pdf_field_name: JV-469[0].Page1[0].List1[0].Li3[0].Choice2[0]
+      type: text
+      label: Choice
+      required: false
+      width: full
+    - name: choice2_2
+      pdf_field_name: JV-469[0].Page1[0].List1[0].Li2[0].Choice2[0]
+      type: text
+      label: Choice
+      required: false
+      width: full
+    - name: hearing_date
+      pdf_field_name: JV-469[0].Page1[0].List2[0].Li1[0].HearingDate[0]
+      type: date
+      label: Hearing Date
+      required: false
+      width: half
+    - name: text_field6
+      pdf_field_name: JV-469[0].Page1[0].List2[0].Li1[0].TextField6[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: check_box61
+      pdf_field_name: JV-469[0].Page1[0].List4[0].Li1[0].#area[0].CheckBox61[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: hearing_date_2
+      pdf_field_name: JV-469[0].Page1[0].List4[0].Li1[0].HearingDate[0]
+      type: date
+      label: Hearing Date
+      required: false
+      width: half
+    - name: text_field
+      pdf_field_name: JV-469[0].Page1[0].List4[0].Li1[0].TextField[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field2
+      pdf_field_name: JV-469[0].Page1[0].List4[0].Li1[0].TextField2[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+  sign_sub:
+    title: Sign Sub
+    fields:
+    - name: fill_text11
+      pdf_field_name: JV-469[0].Page1[0].SignSub1[0].FillText11[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text56
+      pdf_field_name: JV-469[0].Page1[0].SignSub1[0].FillText56[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: hearing_date_2
+      pdf_field_name: JV-469[0].Page1[0].SignSub2[0].HearingDate[0]
+      type: date
+      label: Hearing Date
+      required: false
+      width: half

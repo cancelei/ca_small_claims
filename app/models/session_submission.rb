@@ -1,6 +1,8 @@
 # frozen_string_literal: true
 
 class SessionSubmission < ApplicationRecord
+  include FormDataAccessor
+
   belongs_to :form_definition
 
   validates :session_id, presence: true
@@ -22,16 +24,6 @@ class SessionSubmission < ApplicationRecord
     update!(expires_at: EXPIRATION_HOURS.hours.from_now)
   end
 
-  def field_value(field_name)
-    form_data[field_name.to_s]
-  end
-
-  def update_fields(new_data)
-    self.form_data = form_data.merge(new_data.stringify_keys)
-    extend_expiration! if changed?
-    save
-  end
-
   class << self
     def cleanup_expired!
       expired.delete_all
@@ -49,5 +41,10 @@ class SessionSubmission < ApplicationRecord
 
   def set_expiration
     self.expires_at ||= EXPIRATION_HOURS.hours.from_now
+  end
+
+  # Called by FormDataAccessor after form_data is updated
+  def after_form_data_update
+    extend_expiration! if changed?
   end
 end

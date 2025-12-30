@@ -1,0 +1,1419 @@
+---
+form:
+  code: CR-101
+  title: CR 101 Form
+  description: ''
+  category: criminal/general
+  pdf_filename: cr101.pdf
+  fillable: true
+  instructions: ''
+sections:
+  crp1_header_sf:
+    title: Crp1 Header Sf
+    fields:
+    - name: case_number_ft
+      pdf_field_name: CR-101[0].Page1[0].CRP1Header_sf[0].HeaderSub[0].CaseNumber[0].CaseNumber_ft[0]
+      type: text
+      label: Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+    - name: atty_bar_no
+      pdf_field_name: CR-101[0].Page1[0].CRP1Header_sf[0].AttyPartyInfo[0].AttyBarNo[0]
+      type: text
+      label: Atty Bar No
+      required: false
+      width: full
+    - name: name
+      pdf_field_name: CR-101[0].Page1[0].CRP1Header_sf[0].AttyPartyInfo[0].Name[0]
+      type: text
+      label: Name
+      required: false
+      width: full
+    - name: atty_firm
+      pdf_field_name: CR-101[0].Page1[0].CRP1Header_sf[0].AttyPartyInfo[0].AttyFirm[0]
+      type: text
+      label: Atty Firm
+      required: false
+      width: full
+    - name: street
+      pdf_field_name: CR-101[0].Page1[0].CRP1Header_sf[0].AttyPartyInfo[0].Street[0]
+      type: address
+      label: Street
+      required: false
+      width: full
+    - name: city
+      pdf_field_name: CR-101[0].Page1[0].CRP1Header_sf[0].AttyPartyInfo[0].City[0]
+      type: address
+      label: City
+      required: false
+      width: full
+    - name: state
+      pdf_field_name: CR-101[0].Page1[0].CRP1Header_sf[0].AttyPartyInfo[0].State[0]
+      type: address
+      label: State
+      required: false
+      width: full
+    - name: zip
+      pdf_field_name: CR-101[0].Page1[0].CRP1Header_sf[0].AttyPartyInfo[0].Zip[0]
+      type: address
+      label: Zip
+      required: false
+      width: full
+    - name: phone
+      pdf_field_name: CR-101[0].Page1[0].CRP1Header_sf[0].AttyPartyInfo[0].Phone[0]
+      type: tel
+      label: Phone
+      required: false
+      width: half
+    - name: fax
+      pdf_field_name: CR-101[0].Page1[0].CRP1Header_sf[0].AttyPartyInfo[0].Fax[0]
+      type: tel
+      label: Fax
+      required: false
+      width: half
+    - name: email
+      pdf_field_name: CR-101[0].Page1[0].CRP1Header_sf[0].AttyPartyInfo[0].Email[0]
+      type: email
+      label: Email
+      required: false
+      width: half
+    - name: atty_for
+      pdf_field_name: CR-101[0].Page1[0].CRP1Header_sf[0].AttyPartyInfo[0].AttyFor[0]
+      type: text
+      label: Atty For
+      required: false
+      width: full
+    - name: crt_county_ft
+      pdf_field_name: CR-101[0].Page1[0].CRP1Header_sf[0].CourtInfo[0].CrtCounty_ft[0]
+      type: number
+      label: Crt County Ft
+      required: false
+      width: third
+    - name: street_ft
+      pdf_field_name: CR-101[0].Page1[0].CRP1Header_sf[0].CourtInfo[0].Street_ft[0]
+      type: address
+      label: Street Ft
+      required: false
+      width: full
+    - name: mailing_add_ft
+      pdf_field_name: CR-101[0].Page1[0].CRP1Header_sf[0].CourtInfo[0].MailingAdd_ft[0]
+      type: address
+      label: Mailing Add Ft
+      required: false
+      width: full
+    - name: city_zip_ft
+      pdf_field_name: CR-101[0].Page1[0].CRP1Header_sf[0].CourtInfo[0].CityZip_ft[0]
+      type: address
+      label: City Zip Ft
+      required: false
+      width: full
+    - name: branch_ft
+      pdf_field_name: CR-101[0].Page1[0].CRP1Header_sf[0].CourtInfo[0].Branch_ft[0]
+      type: text
+      label: Branch Ft
+      required: false
+      width: full
+    - name: party_ft
+      pdf_field_name: CR-101[0].Page1[0].CRP1Header_sf[0].TitlePartyName[0].Party_ft[0]
+      type: text
+      label: Party Ft
+      required: false
+      width: full
+  list:
+    title: List
+    fields:
+    - name: b
+      pdf_field_name: CR-101[0].Page1[0].List1[0].init\.2\.B[0]
+      type: text
+      label: B
+      required: false
+      width: full
+    - name: count1
+      pdf_field_name: CR-101[0].Page1[0].List1[0].Table1[0].Row1[0].Count1[0]
+      type: number
+      label: Count
+      required: false
+      width: third
+    - name: charges1
+      pdf_field_name: CR-101[0].Page1[0].List1[0].Table1[0].Row1[0].Charges1[0]
+      type: text
+      label: Charges
+      required: false
+      width: full
+    - name: c_min_yrs1
+      pdf_field_name: CR-101[0].Page1[0].List1[0].Table1[0].Row1[0].CMinYrs1[0]
+      type: text
+      label: C Min Yrs
+      required: false
+      width: full
+    - name: c_max_yrs1
+      pdf_field_name: CR-101[0].Page1[0].List1[0].Table1[0].Row1[0].CMaxYrs1[0]
+      type: text
+      label: C Max Yrs
+      required: false
+      width: full
+    - name: priors1
+      pdf_field_name: CR-101[0].Page1[0].List1[0].Table1[0].Row1[0].Priors1[0]
+      type: text
+      label: Priors
+      required: false
+      width: full
+    - name: p_min_yrs1
+      pdf_field_name: CR-101[0].Page1[0].List1[0].Table1[0].Row1[0].PMinYrs1[0]
+      type: text
+      label: P Min Yrs
+      required: false
+      width: full
+    - name: p_max_yrs1
+      pdf_field_name: CR-101[0].Page1[0].List1[0].Table1[0].Row1[0].PMaxYrs1[0]
+      type: text
+      label: P Max Yrs
+      required: false
+      width: full
+    - name: total1
+      pdf_field_name: CR-101[0].Page1[0].List1[0].Table1[0].Row1[0].Total1[0]
+      type: text
+      label: Total
+      required: false
+      width: full
+    - name: count2
+      pdf_field_name: CR-101[0].Page1[0].List1[0].Table1[0].Row2[0].Count2[0]
+      type: number
+      label: Count
+      required: false
+      width: third
+    - name: charges2
+      pdf_field_name: CR-101[0].Page1[0].List1[0].Table1[0].Row2[0].Charges2[0]
+      type: text
+      label: Charges
+      required: false
+      width: full
+    - name: c_min_yrs2
+      pdf_field_name: CR-101[0].Page1[0].List1[0].Table1[0].Row2[0].CMinYrs2[0]
+      type: text
+      label: C Min Yrs
+      required: false
+      width: full
+    - name: c_max_yrs2
+      pdf_field_name: CR-101[0].Page1[0].List1[0].Table1[0].Row2[0].CMaxYrs2[0]
+      type: text
+      label: C Max Yrs
+      required: false
+      width: full
+    - name: priors2
+      pdf_field_name: CR-101[0].Page1[0].List1[0].Table1[0].Row2[0].Priors2[0]
+      type: text
+      label: Priors
+      required: false
+      width: full
+    - name: p_min_yrs2
+      pdf_field_name: CR-101[0].Page1[0].List1[0].Table1[0].Row2[0].PMinYrs2[0]
+      type: text
+      label: P Min Yrs
+      required: false
+      width: full
+    - name: p_max_yrs2
+      pdf_field_name: CR-101[0].Page1[0].List1[0].Table1[0].Row2[0].PMaxYrs2[0]
+      type: text
+      label: P Max Yrs
+      required: false
+      width: full
+    - name: total2
+      pdf_field_name: CR-101[0].Page1[0].List1[0].Table1[0].Row2[0].Total2[0]
+      type: text
+      label: Total
+      required: false
+      width: full
+    - name: count3
+      pdf_field_name: CR-101[0].Page1[0].List1[0].Table1[0].Row3[0].Count3[0]
+      type: number
+      label: Count
+      required: false
+      width: third
+    - name: charges3
+      pdf_field_name: CR-101[0].Page1[0].List1[0].Table1[0].Row3[0].Charges3[0]
+      type: text
+      label: Charges
+      required: false
+      width: full
+    - name: c_min_yrs3
+      pdf_field_name: CR-101[0].Page1[0].List1[0].Table1[0].Row3[0].CMinYrs3[0]
+      type: text
+      label: C Min Yrs
+      required: false
+      width: full
+    - name: c_max_yrs3
+      pdf_field_name: CR-101[0].Page1[0].List1[0].Table1[0].Row3[0].CMaxYrs3[0]
+      type: text
+      label: C Max Yrs
+      required: false
+      width: full
+    - name: priors3
+      pdf_field_name: CR-101[0].Page1[0].List1[0].Table1[0].Row3[0].Priors3[0]
+      type: text
+      label: Priors
+      required: false
+      width: full
+    - name: p_min_yrs3
+      pdf_field_name: CR-101[0].Page1[0].List1[0].Table1[0].Row3[0].PMinYrs3[0]
+      type: text
+      label: P Min Yrs
+      required: false
+      width: full
+    - name: p_max_yrs3
+      pdf_field_name: CR-101[0].Page1[0].List1[0].Table1[0].Row3[0].PMaxYrs3[0]
+      type: text
+      label: P Max Yrs
+      required: false
+      width: full
+    - name: total3
+      pdf_field_name: CR-101[0].Page1[0].List1[0].Table1[0].Row3[0].Total3[0]
+      type: text
+      label: Total
+      required: false
+      width: full
+    - name: count4
+      pdf_field_name: CR-101[0].Page1[0].List1[0].Table1[0].Row4[0].Count4[0]
+      type: number
+      label: Count
+      required: false
+      width: third
+    - name: charges4
+      pdf_field_name: CR-101[0].Page1[0].List1[0].Table1[0].Row4[0].Charges4[0]
+      type: text
+      label: Charges
+      required: false
+      width: full
+    - name: c_min_yrs4
+      pdf_field_name: CR-101[0].Page1[0].List1[0].Table1[0].Row4[0].CMinYrs4[0]
+      type: text
+      label: C Min Yrs
+      required: false
+      width: full
+    - name: c_max_yrs4
+      pdf_field_name: CR-101[0].Page1[0].List1[0].Table1[0].Row4[0].CMaxYrs4[0]
+      type: text
+      label: C Max Yrs
+      required: false
+      width: full
+    - name: priors4
+      pdf_field_name: CR-101[0].Page1[0].List1[0].Table1[0].Row4[0].Priors4[0]
+      type: text
+      label: Priors
+      required: false
+      width: full
+    - name: p_min_yrs4
+      pdf_field_name: CR-101[0].Page1[0].List1[0].Table1[0].Row4[0].PMinYrs4[0]
+      type: text
+      label: P Min Yrs
+      required: false
+      width: full
+    - name: p_max_yrs4
+      pdf_field_name: CR-101[0].Page1[0].List1[0].Table1[0].Row4[0].PMaxYrs4[0]
+      type: text
+      label: P Max Yrs
+      required: false
+      width: full
+    - name: total4
+      pdf_field_name: CR-101[0].Page1[0].List1[0].Table1[0].Row4[0].Total4[0]
+      type: text
+      label: Total
+      required: false
+      width: full
+    - name: count5
+      pdf_field_name: CR-101[0].Page1[0].List1[0].Table1[0].Row5[0].Count5[0]
+      type: number
+      label: Count
+      required: false
+      width: third
+    - name: charges5
+      pdf_field_name: CR-101[0].Page1[0].List1[0].Table1[0].Row5[0].Charges5[0]
+      type: text
+      label: Charges
+      required: false
+      width: full
+    - name: c_min_yrs5
+      pdf_field_name: CR-101[0].Page1[0].List1[0].Table1[0].Row5[0].CMinYrs5[0]
+      type: text
+      label: C Min Yrs
+      required: false
+      width: full
+    - name: c_max_yrs5
+      pdf_field_name: CR-101[0].Page1[0].List1[0].Table1[0].Row5[0].CMaxYrs5[0]
+      type: text
+      label: C Max Yrs
+      required: false
+      width: full
+    - name: priors5
+      pdf_field_name: CR-101[0].Page1[0].List1[0].Table1[0].Row5[0].Priors5[0]
+      type: text
+      label: Priors
+      required: false
+      width: full
+    - name: p_min_yrs5
+      pdf_field_name: CR-101[0].Page1[0].List1[0].Table1[0].Row5[0].PMinYrs5[0]
+      type: text
+      label: P Min Yrs
+      required: false
+      width: full
+    - name: p_max_yrs5
+      pdf_field_name: CR-101[0].Page1[0].List1[0].Table1[0].Row5[0].PMaxYrs5[0]
+      type: text
+      label: P Max Yrs
+      required: false
+      width: full
+    - name: total5
+      pdf_field_name: CR-101[0].Page1[0].List1[0].Table1[0].Row5[0].Total5[0]
+      type: text
+      label: Total
+      required: false
+      width: full
+    - name: count6
+      pdf_field_name: CR-101[0].Page1[0].List1[0].Table1[0].Row6[0].Count6[0]
+      type: number
+      label: Count
+      required: false
+      width: third
+    - name: charges6
+      pdf_field_name: CR-101[0].Page1[0].List1[0].Table1[0].Row6[0].Charges6[0]
+      type: text
+      label: Charges
+      required: false
+      width: full
+    - name: c_min_yrs6
+      pdf_field_name: CR-101[0].Page1[0].List1[0].Table1[0].Row6[0].CMinYrs6[0]
+      type: text
+      label: C Min Yrs
+      required: false
+      width: full
+    - name: c_max_yrs6
+      pdf_field_name: CR-101[0].Page1[0].List1[0].Table1[0].Row6[0].CMaxYrs6[0]
+      type: text
+      label: C Max Yrs
+      required: false
+      width: full
+    - name: priors6
+      pdf_field_name: CR-101[0].Page1[0].List1[0].Table1[0].Row6[0].Priors6[0]
+      type: text
+      label: Priors
+      required: false
+      width: full
+    - name: p_min_yrs6
+      pdf_field_name: CR-101[0].Page1[0].List1[0].Table1[0].Row6[0].PMinYrs6[0]
+      type: text
+      label: P Min Yrs
+      required: false
+      width: full
+    - name: p_max_yrs6
+      pdf_field_name: CR-101[0].Page1[0].List1[0].Table1[0].Row6[0].PMaxYrs6[0]
+      type: text
+      label: P Max Yrs
+      required: false
+      width: full
+    - name: total6
+      pdf_field_name: CR-101[0].Page1[0].List1[0].Table1[0].Row6[0].Total6[0]
+      type: text
+      label: Total
+      required: false
+      width: full
+    - name: agg_max_t_ime
+      pdf_field_name: CR-101[0].Page1[0].List1[0].Table1[0].LastRow[0].AggMaxTIme[0]
+      type: text
+      label: Agg Max T Ime
+      required: false
+      width: full
+    - name: ch1
+      pdf_field_name: CR-101[0].Page1[0].List2[0].Lia[0].Ch1[0]
+      type: text
+      label: Ch
+      required: false
+      width: full
+    - name: ch1_2
+      pdf_field_name: CR-101[0].Page1[0].List2[0].Lia[0].Ch1[1]
+      type: text
+      label: Ch
+      required: false
+      width: full
+    - name: ch2
+      pdf_field_name: CR-101[0].Page1[0].List2[0].Lia[0].Item1[0].Li1[0].Ch2[0]
+      type: text
+      label: Ch
+      required: false
+      width: full
+    - name: text_field1
+      pdf_field_name: CR-101[0].Page1[0].List2[0].Lia[0].Item1[0].Li1[0].TextField1[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field3
+      pdf_field_name: CR-101[0].Page1[0].List2[0].Lia[0].Item1[0].Li1[0].TextField3[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: ch2_2
+      pdf_field_name: CR-101[0].Page1[0].List2[0].Lia[0].Item1[0].Li2[0].Ch2[0]
+      type: text
+      label: Ch
+      required: false
+      width: full
+    - name: numeric_field4
+      pdf_field_name: CR-101[0].Page1[0].List2[0].Lia[0].Item1[0].Li2[0].NumericField4[0]
+      type: text
+      label: Numeric Field
+      required: false
+      width: full
+    - name: numeric_field3
+      pdf_field_name: CR-101[0].Page1[0].List2[0].Lia[0].Item1[0].Li2[0].NumericField3[0]
+      type: text
+      label: Numeric Field
+      required: false
+      width: full
+    - name: numeric_field1
+      pdf_field_name: CR-101[0].Page1[0].List2[0].Lia[0].Item1[0].Li2[0].NumericField1[0]
+      type: text
+      label: Numeric Field
+      required: false
+      width: full
+    - name: numeric_field2
+      pdf_field_name: CR-101[0].Page1[0].List2[0].Lia[0].Item1[0].Li2[0].NumericField2[0]
+      type: text
+      label: Numeric Field
+      required: false
+      width: full
+    - name: ch2_2
+      pdf_field_name: CR-101[0].Page1[0].List2[0].Lia[0].Item1[0].Li3[0].Ch2[0]
+      type: text
+      label: Ch
+      required: false
+      width: full
+    - name: text_field2
+      pdf_field_name: CR-101[0].Page1[0].List2[0].Lia[0].Item1[0].Li3[0].TextField2[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: b_2
+      pdf_field_name: CR-101[0].Page1[0].List2[0].Lia[0].init\.2\.B[0]
+      type: text
+      label: B
+      required: false
+      width: full
+    - name: fill_text4
+      pdf_field_name: CR-101[0].Page1[0].List2[0].Lib[0].FillText4[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: ch4
+      pdf_field_name: CR-101[0].Page1[0].List2[0].Lib[0].Ch4[0]
+      type: text
+      label: Ch
+      required: false
+      width: full
+    - name: fill_text6
+      pdf_field_name: CR-101[0].Page1[0].List2[0].Lib[0].FillText6[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: prob2
+      pdf_field_name: CR-101[0].Page1[0].List2[0].Lib[0].Prob2[0]
+      type: text
+      label: Prob
+      required: false
+      width: full
+    - name: fill_text5
+      pdf_field_name: CR-101[0].Page1[0].List2[0].Lib[0].FillText5[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: init
+      pdf_field_name: CR-101[0].Page1[0].List2[0].init[0]
+      type: text
+      label: Init
+      required: false
+      width: full
+    - name: init8
+      pdf_field_name: CR-101[0].Page2[0].List3[0].Init8[0]
+      type: text
+      label: Init
+      required: false
+      width: full
+    - name: fill_text1
+      pdf_field_name: CR-101[0].Page3[0].List3[0].Lib[0].Item3b[0].Li2[0].FillText1[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: init9
+      pdf_field_name: CR-101[0].Page3[0].List3[0].init9[0]
+      type: text
+      label: Init
+      required: false
+      width: full
+    - name: init10
+      pdf_field_name: CR-101[0].Page3[0].List3[0].Init10[0]
+      type: text
+      label: Init
+      required: false
+      width: full
+    - name: checkbox6_2
+      pdf_field_name: CR-101[0].Page3[0].List3[0].itemd[0].Li1[0].Checkbox6[0]
+      type: checkbox
+      label: Checkbox
+      required: false
+      width: full
+    - name: checkbox7_2
+      pdf_field_name: CR-101[0].Page3[0].List3[0].itemd[0].Li2[0].Checkbox7[0]
+      type: checkbox
+      label: Checkbox
+      required: false
+      width: full
+    - name: checkbox8_2
+      pdf_field_name: CR-101[0].Page3[0].List3[0].itemd[0].Li3[0].Checkbox8[0]
+      type: checkbox
+      label: Checkbox
+      required: false
+      width: full
+    - name: specify_2
+      pdf_field_name: CR-101[0].Page3[0].List3[0].itemd[0].Li4[0].specify[0]
+      type: text
+      label: Specify
+      required: false
+      width: full
+    - name: checkbox9_2
+      pdf_field_name: CR-101[0].Page3[0].List3[0].itemd[0].Li4[0].Checkbox9[0]
+      type: checkbox
+      label: Checkbox
+      required: false
+      width: full
+    - name: init11
+      pdf_field_name: CR-101[0].Page3[0].List3[0].Init11[0]
+      type: text
+      label: Init
+      required: false
+      width: full
+    - name: init12
+      pdf_field_name: CR-101[0].Page3[0].List3[0].Init12[0]
+      type: text
+      label: Init
+      required: false
+      width: full
+    - name: checkbox10
+      pdf_field_name: CR-101[0].Page3[0].List3[0].Lif[0].SubLif[0].SubLi1[0].Checkbox10[0]
+      type: checkbox
+      label: Checkbox
+      required: false
+      width: full
+    - name: checkbox11
+      pdf_field_name: CR-101[0].Page3[0].List3[0].Lif[0].SubLif[0].SubLi2[0].Checkbox11[0]
+      type: checkbox
+      label: Checkbox
+      required: false
+      width: full
+    - name: checkbox12
+      pdf_field_name: CR-101[0].Page3[0].List3[0].Lif[0].SubLif[0].SubLi3[0].Checkbox12[0]
+      type: checkbox
+      label: Checkbox
+      required: false
+      width: full
+    - name: checkbox13
+      pdf_field_name: CR-101[0].Page3[0].List3[0].Lif[0].SubLif[0].SubLi4[0].Checkbox13[0]
+      type: checkbox
+      label: Checkbox
+      required: false
+      width: full
+    - name: fill_text11
+      pdf_field_name: CR-101[0].Page3[0].List3[0].Lif[0].SubLif[0].SubLi4[0].FillText11[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: init13
+      pdf_field_name: CR-101[0].Page3[0].List3[0].Init13[0]
+      type: text
+      label: Init
+      required: false
+      width: full
+    - name: init14
+      pdf_field_name: CR-101[0].Page3[0].List3[0].Init14[0]
+      type: text
+      label: Init
+      required: false
+      width: full
+    - name: init15
+      pdf_field_name: CR-101[0].Page3[0].List3[0].init15[0]
+      type: text
+      label: Init
+      required: false
+      width: full
+    - name: init21
+      pdf_field_name: CR-101[0].Page4[0].List4[0].Init21[0]
+      type: text
+      label: Init
+      required: false
+      width: full
+    - name: init22
+      pdf_field_name: CR-101[0].Page4[0].List4[0].Init22[0]
+      type: text
+      label: Init
+      required: false
+      width: full
+    - name: init23
+      pdf_field_name: CR-101[0].Page4[0].List5[0].Init23[0]
+      type: text
+      label: Init
+      required: false
+      width: full
+    - name: init24
+      pdf_field_name: CR-101[0].Page4[0].List5[0].Init24[0]
+      type: text
+      label: Init
+      required: false
+      width: full
+    - name: init25
+      pdf_field_name: CR-101[0].Page4[0].List5[0].Init25[0]
+      type: text
+      label: Init
+      required: false
+      width: full
+    - name: init26
+      pdf_field_name: CR-101[0].Page4[0].List5[0].Init26[0]
+      type: text
+      label: Init
+      required: false
+      width: full
+    - name: init27
+      pdf_field_name: CR-101[0].Page4[0].List5[0].Init27[0]
+      type: text
+      label: Init
+      required: false
+      width: full
+    - name: init28
+      pdf_field_name: CR-101[0].Page5[0].List6[0].init28[0]
+      type: text
+      label: Init
+      required: false
+      width: full
+    - name: init29
+      pdf_field_name: CR-101[0].Page5[0].List6[0].init29[0]
+      type: text
+      label: Init
+      required: false
+      width: full
+    - name: init30
+      pdf_field_name: CR-101[0].Page5[0].List6[0].init30[0]
+      type: text
+      label: Init
+      required: false
+      width: full
+    - name: medications
+      pdf_field_name: CR-101[0].Page5[0].List6[0].Lid[0].Medications[0]
+      type: text
+      label: Medications
+      required: false
+      width: full
+    - name: init31
+      pdf_field_name: CR-101[0].Page5[0].List6[0].init31[0]
+      type: text
+      label: Init
+      required: false
+      width: full
+    - name: init32
+      pdf_field_name: CR-101[0].Page5[0].List6[0].init32[0]
+      type: text
+      label: Init
+      required: false
+      width: full
+    - name: init33
+      pdf_field_name: CR-101[0].Page5[0].List7[0].init33[0]
+      type: text
+      label: Init
+      required: false
+      width: full
+    - name: init34
+      pdf_field_name: CR-101[0].Page5[0].List8[0].init34[0]
+      type: text
+      label: Init
+      required: false
+      width: full
+    - name: check_box20
+      pdf_field_name: CR-101[0].Page5[0].List9[0].CheckBox20[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box20_2
+      pdf_field_name: CR-101[0].Page5[0].List9[0].CheckBox20[1]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: init35
+      pdf_field_name: CR-101[0].Page5[0].List9[0].init35[0]
+      type: text
+      label: Init
+      required: false
+      width: full
+    - name: init36
+      pdf_field_name: CR-101[0].Page5[0].List9[0].init36[0]
+      type: text
+      label: Init
+      required: false
+      width: full
+    - name: init39
+      pdf_field_name: CR-101[0].Page6[0].List10[0].init39[0]
+      type: text
+      label: Init
+      required: false
+      width: full
+    - name: init40
+      pdf_field_name: CR-101[0].Page6[0].List10[0].init40[0]
+      type: text
+      label: Init
+      required: false
+      width: full
+    - name: init41
+      pdf_field_name: CR-101[0].Page6[0].List10[0].init41[0]
+      type: text
+      label: Init
+      required: false
+      width: full
+    - name: init42
+      pdf_field_name: CR-101[0].Page6[0].List10[0].init42[0]
+      type: text
+      label: Init
+      required: false
+      width: full
+    - name: init43
+      pdf_field_name: CR-101[0].Page6[0].List11[0].init43[0]
+      type: text
+      label: Init
+      required: false
+      width: full
+    - name: init44
+      pdf_field_name: CR-101[0].Page6[0].List11[0].init44[0]
+      type: text
+      label: Init
+      required: false
+      width: full
+  p_x_caption_sf:
+    title: P X Caption Sf
+    fields:
+    - name: party_ft_2
+      pdf_field_name: CR-101[0].Page2[0].pXCaption_sf[0].TitlePartyName[0].Party_ft[0]
+      type: text
+      label: Party Ft
+      required: false
+      width: full
+    - name: case_number_ft_2
+      pdf_field_name: CR-101[0].Page2[0].pXCaption_sf[0].CaseNumber[0].CaseNumber_ft[0]
+      type: text
+      label: Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+    - name: party_ft_2
+      pdf_field_name: CR-101[0].Page3[0].pXCaption_sf[0].TitlePartyName[0].Party_ft[0]
+      type: text
+      label: Party Ft
+      required: false
+      width: full
+    - name: case_number_ft_2
+      pdf_field_name: CR-101[0].Page3[0].pXCaption_sf[0].CaseNumber[0].CaseNumber_ft[0]
+      type: text
+      label: Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+    - name: party_ft_2
+      pdf_field_name: CR-101[0].Page4[0].pXCaption_sf[0].TitlePartyName[0].Party_ft[0]
+      type: text
+      label: Party Ft
+      required: false
+      width: full
+    - name: case_number_ft_2
+      pdf_field_name: CR-101[0].Page4[0].pXCaption_sf[0].CaseNumber[0].CaseNumber_ft[0]
+      type: text
+      label: Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+    - name: party_ft_2
+      pdf_field_name: CR-101[0].Page5[0].pXCaption_sf[0].TitlePartyName[0].Party_ft[0]
+      type: text
+      label: Party Ft
+      required: false
+      width: full
+    - name: case_number_ft_2
+      pdf_field_name: CR-101[0].Page5[0].pXCaption_sf[0].CaseNumber[0].CaseNumber_ft[0]
+      type: text
+      label: Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+    - name: party_ft_2
+      pdf_field_name: CR-101[0].page7[0].pXCaption_sf[0].TitlePartyName[0].Party_ft[0]
+      type: text
+      label: Party Ft
+      required: false
+      width: full
+    - name: case_number_ft_2
+      pdf_field_name: CR-101[0].page7[0].pXCaption_sf[0].CaseNumber[0].CaseNumber_ft[0]
+      type: text
+      label: Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+    - name: party_ft_2
+      pdf_field_name: CR-101[0].Page8[0].pXCaption_sf[0].TitlePartyName[0].Party_ft[0]
+      type: text
+      label: Party Ft
+      required: false
+      width: full
+    - name: case_number_ft_2
+      pdf_field_name: CR-101[0].Page8[0].pXCaption_sf[0].CaseNumber[0].CaseNumber_ft[0]
+      type: text
+      label: Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+  list2_cont:
+    title: List2 Cont
+    fields:
+    - name: text_field1_2
+      pdf_field_name: CR-101[0].Page2[0].List2Cont[0].Itemc[0].TextField1[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field5
+      pdf_field_name: CR-101[0].Page2[0].List2Cont[0].Itemc[0].TextField5[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field4
+      pdf_field_name: CR-101[0].Page2[0].List2Cont[0].Itemc[0].TextField4[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field3_2
+      pdf_field_name: CR-101[0].Page2[0].List2Cont[0].Itemc[0].TextField3[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: init1
+      pdf_field_name: CR-101[0].Page2[0].List2Cont[0].Init1[0]
+      type: text
+      label: Init
+      required: false
+      width: full
+    - name: ch6
+      pdf_field_name: CR-101[0].Page2[0].List2Cont[0].Lid[0].Itemd[0].Li1[0].Ch6[0]
+      type: text
+      label: Ch
+      required: false
+      width: full
+    - name: ch7
+      pdf_field_name: CR-101[0].Page2[0].List2Cont[0].Lid[0].Itemd[0].Li2[0].Ch7[0]
+      type: text
+      label: Ch
+      required: false
+      width: full
+    - name: ch8
+      pdf_field_name: CR-101[0].Page2[0].List2Cont[0].Lid[0].Itemd[0].Li3[0].Ch8[0]
+      type: text
+      label: Ch
+      required: false
+      width: full
+    - name: init2
+      pdf_field_name: CR-101[0].Page2[0].List2Cont[0].Init2[0]
+      type: text
+      label: Init
+      required: false
+      width: full
+    - name: checkbox1
+      pdf_field_name: CR-101[0].Page2[0].List2Cont[0].Lie[0].Iteme[0].Li1[0].Checkbox1[0]
+      type: checkbox
+      label: Checkbox
+      required: false
+      width: full
+    - name: victim_rest
+      pdf_field_name: CR-101[0].Page2[0].List2Cont[0].Lie[0].Iteme[0].Li1[0].VictimRest[0]
+      type: text
+      label: Victim Rest
+      required: false
+      width: full
+    - name: checkbox2
+      pdf_field_name: CR-101[0].Page2[0].List2Cont[0].Lie[0].Iteme[0].Li2[0].Checkbox2[0]
+      type: checkbox
+      label: Checkbox
+      required: false
+      width: full
+    - name: rest_actual_vic
+      pdf_field_name: CR-101[0].Page2[0].List2Cont[0].Lie[0].Iteme[0].Li2[0].RestActualVic[0]
+      type: text
+      label: Rest Actual Vic
+      required: false
+      width: full
+    - name: checkbox3
+      pdf_field_name: CR-101[0].Page2[0].List2Cont[0].Lie[0].Iteme[0].Li3[0].Checkbox3[0]
+      type: checkbox
+      label: Checkbox
+      required: false
+      width: full
+    - name: rest_st_ca
+      pdf_field_name: CR-101[0].Page2[0].List2Cont[0].Lie[0].Iteme[0].Li3[0].RestStCA[0]
+      type: text
+      label: Rest St Ca
+      required: false
+      width: full
+    - name: checkbox4
+      pdf_field_name: CR-101[0].Page2[0].List2Cont[0].Lie[0].Iteme[0].Li4[0].Checkbox4[0]
+      type: checkbox
+      label: Checkbox
+      required: false
+      width: full
+    - name: ctoperaassessm
+      pdf_field_name: CR-101[0].Page2[0].List2Cont[0].Lie[0].Iteme[0].Li4[0].Ctoperaassessm[0]
+      type: text
+      label: Ctoperaassessm
+      required: false
+      width: full
+    - name: checkbox5
+      pdf_field_name: CR-101[0].Page2[0].List2Cont[0].Lie[0].Iteme[0].Li5[0].Checkbox5[0]
+      type: checkbox
+      label: Checkbox
+      required: false
+      width: full
+    - name: ctfacilitiesassessm
+      pdf_field_name: CR-101[0].Page2[0].List2Cont[0].Lie[0].Iteme[0].Li5[0].ctfacilitiesassessm[0]
+      type: text
+      label: Ctfacilitiesassessm
+      required: false
+      width: full
+    - name: checkbox6
+      pdf_field_name: CR-101[0].Page2[0].List2Cont[0].Lie[0].Iteme[0].Li6[0].Checkbox6[0]
+      type: checkbox
+      label: Checkbox
+      required: false
+      width: full
+    - name: basefinepen
+      pdf_field_name: CR-101[0].Page2[0].List2Cont[0].Lie[0].Iteme[0].Li6[0].basefinepen[0]
+      type: text
+      label: Basefinepen
+      required: false
+      width: full
+    - name: checkbox7
+      pdf_field_name: CR-101[0].Page2[0].List2Cont[0].Lie[0].Iteme[0].Li7[0].Checkbox7[0]
+      type: checkbox
+      label: Checkbox
+      required: false
+      width: full
+    - name: decimal_field2
+      pdf_field_name: CR-101[0].Page2[0].List2Cont[0].Lie[0].Iteme[0].Li7[0].DecimalField2[0]
+      type: text
+      label: Decimal Field
+      required: false
+      width: full
+    - name: specify
+      pdf_field_name: CR-101[0].Page2[0].List2Cont[0].Lie[0].Iteme[0].Li7[0].specify[0]
+      type: text
+      label: Specify
+      required: false
+      width: full
+    - name: checkbox8
+      pdf_field_name: CR-101[0].Page2[0].List2Cont[0].Lie[0].Iteme[0].Li8[0].Checkbox8[0]
+      type: checkbox
+      label: Checkbox
+      required: false
+      width: full
+    - name: decimal_field1
+      pdf_field_name: CR-101[0].Page2[0].List2Cont[0].Lie[0].Iteme[0].Li8[0].DecimalField1[0]
+      type: text
+      label: Decimal Field
+      required: false
+      width: full
+    - name: text_field5_2
+      pdf_field_name: CR-101[0].Page2[0].List2Cont[0].Lie[0].Iteme[0].Li8[0].TextField5[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: checkbox9
+      pdf_field_name: CR-101[0].Page2[0].List2Cont[0].Lie[0].Iteme[0].Li9[0].Checkbox9[0]
+      type: checkbox
+      label: Checkbox
+      required: false
+      width: full
+    - name: init3
+      pdf_field_name: CR-101[0].Page2[0].List2Cont[0].Init3[0]
+      type: text
+      label: Init
+      required: false
+      width: full
+    - name: fill_text5_2
+      pdf_field_name: CR-101[0].Page2[0].List2Cont[0].Lig[0].FillText5[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: init5
+      pdf_field_name: CR-101[0].Page2[0].List2Cont[0].Init5[0]
+      type: text
+      label: Init
+      required: false
+      width: full
+    - name: init6
+      pdf_field_name: CR-101[0].Page2[0].List2Cont[0].Init6[0]
+      type: text
+      label: Init
+      required: false
+      width: full
+    - name: init7
+      pdf_field_name: CR-101[0].Page2[0].List2Cont[0].Init7[0]
+      type: text
+      label: Init
+      required: false
+      width: full
+    - name: other
+      pdf_field_name: CR-101[0].Page2[0].List2Cont[0].Lih[0].other[0]
+      type: text
+      label: Other
+      required: false
+      width: full
+    - name: init4
+      pdf_field_name: CR-101[0].Page2[0].List2Cont[0].Init4[0]
+      type: text
+      label: Init
+      required: false
+      width: full
+  list3_cont:
+    title: List3 Cont
+    fields:
+    - name: init16
+      pdf_field_name: CR-101[0].Page4[0].List3Cont[0].Init16[0]
+      type: text
+      label: Init
+      required: false
+      width: full
+    - name: init17
+      pdf_field_name: CR-101[0].Page4[0].List3Cont[0].Init17[0]
+      type: text
+      label: Init
+      required: false
+      width: full
+    - name: init18
+      pdf_field_name: CR-101[0].Page4[0].List3Cont[0].Init18[0]
+      type: text
+      label: Init
+      required: false
+      width: full
+    - name: init19
+      pdf_field_name: CR-101[0].Page4[0].List3Cont[0].Init19[0]
+      type: text
+      label: Init
+      required: false
+      width: full
+    - name: other_2
+      pdf_field_name: CR-101[0].Page4[0].List3Cont[0].Lim[0].other[0]
+      type: text
+      label: Other
+      required: false
+      width: full
+    - name: init20
+      pdf_field_name: CR-101[0].Page4[0].List3Cont[0].Init20[0]
+      type: text
+      label: Init
+      required: false
+      width: full
+  px_caption:
+    title: Px Caption
+    fields:
+    - name: party_ft_2
+      pdf_field_name: CR-101[0].Page6[0].PxCaption[0].TitlePartyName[0].Party_ft[0]
+      type: text
+      label: Party Ft
+      required: false
+      width: full
+    - name: case_number_ft_2
+      pdf_field_name: CR-101[0].Page6[0].PxCaption[0].CaseNumber[0].CaseNumber_ft[0]
+      type: text
+      label: Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+  list9_cont:
+    title: List9 Cont
+    fields:
+    - name: check_box19
+      pdf_field_name: CR-101[0].Page6[0].List9Cont[0].Li9b[0].SubList[0].SubLi1[0].CheckBox19[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: text_field6
+      pdf_field_name: CR-101[0].Page6[0].List9Cont[0].Li9b[0].SubList[0].SubLi1[0].TextField6[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: check_box19_2
+      pdf_field_name: CR-101[0].Page6[0].List9Cont[0].Li9b[0].SubList[0].SubLi2[0].CheckBox19[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: CR-101[0].Page6[0].List9Cont[0].Li9b[0].SubList[0].SubLi2[0].TextField6[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: checkbox3_2
+      pdf_field_name: CR-101[0].Page6[0].List9Cont[0].Li9b[0].SubList[0].SubLi2[0].Li2[0].Lia[0].Checkbox3[0]
+      type: checkbox
+      label: Checkbox
+      required: false
+      width: full
+    - name: checkbox4_2
+      pdf_field_name: CR-101[0].Page6[0].List9Cont[0].Li9b[0].SubList[0].SubLi2[0].Li2[0].Lib[0].Checkbox4[0]
+      type: checkbox
+      label: Checkbox
+      required: false
+      width: full
+    - name: checkbox5_2
+      pdf_field_name: CR-101[0].Page6[0].List9Cont[0].Li9b[0].SubList[0].SubLi2[0].Li2[0].Lic[0].Checkbox5[0]
+      type: checkbox
+      label: Checkbox
+      required: false
+      width: full
+    - name: checkbox6_2
+      pdf_field_name: CR-101[0].Page6[0].List9Cont[0].Li9b[0].SubList[0].SubLi2[0].Li2[0].Lid[0].Checkbox6[0]
+      type: checkbox
+      label: Checkbox
+      required: false
+      width: full
+    - name: checkbox7_2
+      pdf_field_name: CR-101[0].Page6[0].List9Cont[0].Li9b[0].SubList[0].SubLi2[0].Li2[0].Lie[0].Checkbox7[0]
+      type: checkbox
+      label: Checkbox
+      required: false
+      width: full
+    - name: check_box61
+      pdf_field_name: CR-101[0].Page6[0].List9Cont[0].Li9b[0].SubList[0].SubLi2[0].Li2[0].Lif[0].CheckBox61[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: text_field2_2
+      pdf_field_name: CR-101[0].Page6[0].List9Cont[0].Li9b[0].SubList[0].SubLi2[0].Li2[0].Lif[0].TextField2[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: check_box62
+      pdf_field_name: CR-101[0].Page6[0].List9Cont[0].Li9b[0].SubList[0].SubLi2[0].Li2[0].Lig[0].CheckBox62[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: CR-101[0].Page6[0].List9Cont[0].Li9b[0].SubList[0].SubLi2[0].Li2[0].Lig[0].TextField6[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: init37
+      pdf_field_name: CR-101[0].Page6[0].List9Cont[0].init37[0]
+      type: text
+      label: Init
+      required: false
+      width: full
+    - name: init38
+      pdf_field_name: CR-101[0].Page6[0].List9Cont[0].init38[0]
+      type: text
+      label: Init
+      required: false
+      width: full
+  def_stmt:
+    title: Def Stmt
+    fields:
+    - name: date
+      pdf_field_name: CR-101[0].page7[0].DEFStmt[0].DefSig[0].Date[0]
+      type: signature
+      label: Date
+      required: false
+      width: full
+    - name: print_name
+      pdf_field_name: CR-101[0].page7[0].DEFStmt[0].DefSig[0].PrintName[0]
+      type: signature
+      label: Print Name
+      required: false
+      width: full
+  atty_stmt:
+    title: Atty Stmt
+    fields:
+    - name: checkbox20
+      pdf_field_name: CR-101[0].page7[0].ATTYStmt[0].Checkbox20[0]
+      type: checkbox
+      label: Checkbox
+      required: false
+      width: full
+    - name: checkbox21
+      pdf_field_name: CR-101[0].page7[0].ATTYStmt[0].Checkbox21[0]
+      type: checkbox
+      label: Checkbox
+      required: false
+      width: full
+    - name: checkbox23
+      pdf_field_name: CR-101[0].page7[0].ATTYStmt[0].Checkbox23[0]
+      type: checkbox
+      label: Checkbox
+      required: false
+      width: full
+    - name: checkbox24
+      pdf_field_name: CR-101[0].page7[0].ATTYStmt[0].Checkbox24[0]
+      type: checkbox
+      label: Checkbox
+      required: false
+      width: full
+    - name: specify_2
+      pdf_field_name: CR-101[0].page7[0].ATTYStmt[0].specify[0]
+      type: text
+      label: Specify
+      required: false
+      width: full
+  atty_sig:
+    title: Atty Sig
+    fields:
+    - name: date_2
+      pdf_field_name: CR-101[0].page7[0].AttySig[0].Date[0]
+      type: signature
+      label: Date
+      required: false
+      width: full
+    - name: print_name_2
+      pdf_field_name: CR-101[0].page7[0].AttySig[0].PrintName[0]
+      type: signature
+      label: Print Name
+      required: false
+      width: full
+  int_stmt:
+    title: Int Stmt
+    fields:
+    - name: checkbox26
+      pdf_field_name: CR-101[0].page7[0].INTStmt[0].Checkbox26[0]
+      type: checkbox
+      label: Checkbox
+      required: false
+      width: full
+    - name: checkbox27
+      pdf_field_name: CR-101[0].page7[0].INTStmt[0].Checkbox27[0]
+      type: checkbox
+      label: Checkbox
+      required: false
+      width: full
+    - name: specify3
+      pdf_field_name: CR-101[0].page7[0].INTStmt[0].specify3[0]
+      type: text
+      label: Specify
+      required: false
+      width: full
+    - name: print_name_2
+      pdf_field_name: CR-101[0].page7[0].INTStmt[0].IntSig[0].PrintName[0]
+      type: signature
+      label: Print Name
+      required: false
+      width: full
+    - name: date_2
+      pdf_field_name: CR-101[0].page7[0].INTStmt[0].IntSig[0].Date[0]
+      type: signature
+      label: Date
+      required: false
+      width: full
+    - name: int_sig_date
+      pdf_field_name: CR-101[0].page7[0].INTStmt[0].IntSig[0].IntSigDate[0]
+      type: signature
+      label: Int Sig Date
+      required: false
+      width: full
+  da_stmt:
+    title: Da Stmt
+    fields:
+    - name: checkbox30
+      pdf_field_name: CR-101[0].page7[0].DAStmt[0].Checkbox30[0]
+      type: checkbox
+      label: Checkbox
+      required: false
+      width: full
+    - name: checkbox30_2
+      pdf_field_name: CR-101[0].page7[0].DAStmt[0].Checkbox30[1]
+      type: checkbox
+      label: Checkbox
+      required: false
+      width: full
+    - name: date_2
+      pdf_field_name: CR-101[0].page7[0].DAStmt[0].DASig[0].Date[0]
+      type: signature
+      label: Date
+      required: false
+      width: full
+    - name: print_name_2
+      pdf_field_name: CR-101[0].page7[0].DAStmt[0].DASig[0].PrintName[0]
+      type: signature
+      label: Print Name
+      required: false
+      width: full
+  mp_last:
+    title: Mp Last
+    fields:
+    - name: print
+      pdf_field_name: CR-101[0].#pageSet[0].MPLast[0].FooterButtons[0].Print[0]
+      type: checkbox
+      label: Print
+      required: false
+      width: full
+    - name: save
+      pdf_field_name: CR-101[0].#pageSet[0].MPLast[0].FooterButtons[0].Save[0]
+      type: checkbox
+      label: Save
+      required: false
+      width: full
+    - name: reset
+      pdf_field_name: CR-101[0].#pageSet[0].MPLast[0].FooterButtons[0].Reset[0]
+      type: checkbox
+      label: Reset
+      required: false
+      width: full
+    - name: warning
+      pdf_field_name: CR-101[0].#pageSet[0].MPLast[0].FooterButtons[0].Warning[0]
+      type: checkbox
+      label: Warning
+      required: false
+      width: full
+  courtsfinding:
+    title: Courtsfinding
+    fields:
+    - name: checkbox26_2
+      pdf_field_name: CR-101[0].Page8[0].Courtsfinding[0].Li6[0].Checkbox26[0]
+      type: checkbox
+      label: Checkbox
+      required: false
+      width: full
+  court_sig:
+    title: Court Sig
+    fields:
+    - name: date_2
+      pdf_field_name: CR-101[0].Page8[0].CourtSig[0].Date[0]
+      type: signature
+      label: Date
+      required: false
+      width: full

@@ -1,0 +1,708 @@
+---
+form:
+  code: CR-601
+  title: CR 601 Form
+  description: ''
+  category: criminal/general
+  pdf_filename: cr601.pdf
+  fillable: true
+  instructions: ''
+sections:
+  p1_caption:
+    title: P1 Caption
+    fields:
+    - name: crt_county
+      pdf_field_name: CR-601[0].Page1[0].p1Caption[0].CourtInfo[0].CrtCounty[0]
+      type: number
+      label: Crt County
+      required: false
+      width: third
+    - name: crt_street
+      pdf_field_name: CR-601[0].Page1[0].p1Caption[0].CourtInfo[0].CrtStreet[0]
+      type: address
+      label: Crt Street
+      required: false
+      width: full
+    - name: crt_mailing_add
+      pdf_field_name: CR-601[0].Page1[0].p1Caption[0].CourtInfo[0].CrtMailingAdd[0]
+      type: address
+      label: Crt Mailing Add
+      required: false
+      width: full
+    - name: crt_city_zip
+      pdf_field_name: CR-601[0].Page1[0].p1Caption[0].CourtInfo[0].CrtCityZip[0]
+      type: address
+      label: Crt City Zip
+      required: false
+      width: full
+    - name: crt_branch
+      pdf_field_name: CR-601[0].Page1[0].p1Caption[0].CourtInfo[0].CrtBranch[0]
+      type: text
+      label: Crt Branch
+      required: false
+      width: full
+    - name: party_ft
+      pdf_field_name: CR-601[0].Page1[0].p1Caption[0].TitlePartyName[0].Party_ft[0]
+      type: text
+      label: Party Ft
+      required: false
+      width: full
+    - name: radio_button_list
+      pdf_field_name: CR-601[0].Page1[0].p1Caption[0].FormTitle[0].RadioButtonList[0]
+      type: text
+      label: Radio Button List
+      required: false
+      width: full
+    - name: radio_button_list_2
+      pdf_field_name: CR-601[0].Page1[0].p1Caption[0].FormTitle[0].RadioButtonList[1]
+      type: text
+      label: Radio Button List
+      required: false
+      width: full
+    - name: form_title
+      pdf_field_name: CR-601[0].Page1[0].p1Caption[0].FormTitle[0]
+      type: text
+      label: Form Title
+      required: false
+      width: full
+    - name: case_number_ft
+      pdf_field_name: CR-601[0].Page1[0].p1Caption[0].CaseNumber[0].CaseNumber_ft[0]
+      type: text
+      label: Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+  date_field:
+    title: Date Field
+    fields:
+    - name: date_field1
+      pdf_field_name: CR-601[0].Page1[0].DateField1[0]
+      type: date
+      label: Date Field
+      required: false
+      width: half
+    - name: date_field12
+      pdf_field_name: CR-601[0].Page1[0].DateField12[0]
+      type: date
+      label: Date Field
+      required: false
+      width: half
+    - name: date_field11
+      pdf_field_name: CR-601[0].Page1[0].DateField11[0]
+      type: date
+      label: Date Field
+      required: false
+      width: half
+    - name: date_field10
+      pdf_field_name: CR-601[0].Page1[0].DateField10[0]
+      type: date
+      label: Date Field
+      required: false
+      width: half
+    - name: date_field9
+      pdf_field_name: CR-601[0].Page1[0].DateField9[0]
+      type: date
+      label: Date Field
+      required: false
+      width: half
+    - name: date_field8
+      pdf_field_name: CR-601[0].Page1[0].DateField8[0]
+      type: date
+      label: Date Field
+      required: false
+      width: half
+    - name: date_field7
+      pdf_field_name: CR-601[0].Page1[0].DateField7[0]
+      type: date
+      label: Date Field
+      required: false
+      width: half
+    - name: date_field6
+      pdf_field_name: CR-601[0].Page1[0].DateField6[0]
+      type: date
+      label: Date Field
+      required: false
+      width: half
+    - name: date_field5
+      pdf_field_name: CR-601[0].Page1[0].DateField5[0]
+      type: date
+      label: Date Field
+      required: false
+      width: half
+    - name: date_field4
+      pdf_field_name: CR-601[0].Page1[0].DateField4[0]
+      type: date
+      label: Date Field
+      required: false
+      width: half
+    - name: date_field3
+      pdf_field_name: CR-601[0].Page1[0].DateField3[0]
+      type: date
+      label: Date Field
+      required: false
+      width: half
+    - name: date_field2
+      pdf_field_name: CR-601[0].Page1[0].DateField2[0]
+      type: date
+      label: Date Field
+      required: false
+      width: half
+    - name: date_field13
+      pdf_field_name: CR-601[0].Page2[0].DateField13[0]
+      type: date
+      label: Date Field
+      required: false
+      width: half
+    - name: date_field24
+      pdf_field_name: CR-601[0].Page2[0].DateField24[0]
+      type: date
+      label: Date Field
+      required: false
+      width: half
+    - name: date_field23
+      pdf_field_name: CR-601[0].Page2[0].DateField23[0]
+      type: date
+      label: Date Field
+      required: false
+      width: half
+    - name: date_field22
+      pdf_field_name: CR-601[0].Page2[0].DateField22[0]
+      type: date
+      label: Date Field
+      required: false
+      width: half
+    - name: date_field21
+      pdf_field_name: CR-601[0].Page2[0].DateField21[0]
+      type: date
+      label: Date Field
+      required: false
+      width: half
+    - name: date_field20
+      pdf_field_name: CR-601[0].Page2[0].DateField20[0]
+      type: date
+      label: Date Field
+      required: false
+      width: half
+    - name: date_field19
+      pdf_field_name: CR-601[0].Page2[0].DateField19[0]
+      type: date
+      label: Date Field
+      required: false
+      width: half
+    - name: date_field18
+      pdf_field_name: CR-601[0].Page2[0].DateField18[0]
+      type: date
+      label: Date Field
+      required: false
+      width: half
+    - name: date_field17
+      pdf_field_name: CR-601[0].Page2[0].DateField17[0]
+      type: date
+      label: Date Field
+      required: false
+      width: half
+    - name: date_field16
+      pdf_field_name: CR-601[0].Page2[0].DateField16[0]
+      type: date
+      label: Date Field
+      required: false
+      width: half
+    - name: date_field15
+      pdf_field_name: CR-601[0].Page2[0].DateField15[0]
+      type: date
+      label: Date Field
+      required: false
+      width: half
+    - name: date_field14
+      pdf_field_name: CR-601[0].Page2[0].DateField14[0]
+      type: date
+      label: Date Field
+      required: false
+      width: half
+  text_field:
+    title: Text Field
+    fields:
+    - name: text_field6
+      pdf_field_name: CR-601[0].Page1[0].TextField6[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: CR-601[0].Page1[0].TextField6[1]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: CR-601[0].Page1[0].TextField6[2]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: CR-601[0].Page1[0].TextField6[3]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: CR-601[0].Page1[0].TextField6[4]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: CR-601[0].Page1[0].TextField6[5]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: CR-601[0].Page1[0].TextField6[6]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: CR-601[0].Page1[0].TextField6[7]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: CR-601[0].Page1[0].TextField6[8]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: CR-601[0].Page1[0].TextField6[9]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: CR-601[0].Page1[0].TextField6[10]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: CR-601[0].Page1[0].TextField6[11]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: CR-601[0].Page1[0].TextField6[12]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: CR-601[0].Page1[0].TextField6[13]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: CR-601[0].Page1[0].TextField6[14]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: CR-601[0].Page1[0].TextField6[15]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: CR-601[0].Page1[0].TextField6[16]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: CR-601[0].Page1[0].TextField6[17]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: CR-601[0].Page1[0].TextField6[18]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: CR-601[0].Page1[0].TextField6[19]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: CR-601[0].Page1[0].TextField6[20]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: CR-601[0].Page1[0].TextField6[21]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: CR-601[0].Page1[0].TextField6[22]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: CR-601[0].Page1[0].TextField6[23]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: CR-601[0].Page1[0].TextField6[24]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: CR-601[0].Page1[0].TextField6[25]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: CR-601[0].Page1[0].TextField6[26]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: CR-601[0].Page1[0].TextField6[27]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: CR-601[0].Page1[0].TextField6[28]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: CR-601[0].Page1[0].TextField6[29]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: CR-601[0].Page1[0].TextField6[30]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: CR-601[0].Page1[0].TextField6[31]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: CR-601[0].Page1[0].TextField6[32]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: CR-601[0].Page1[0].TextField6[33]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: CR-601[0].Page1[0].TextField6[34]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: CR-601[0].Page1[0].TextField6[35]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: CR-601[0].Page2[0].TextField6[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: CR-601[0].Page2[0].TextField6[1]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: CR-601[0].Page2[0].TextField6[2]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: CR-601[0].Page2[0].TextField6[3]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: CR-601[0].Page2[0].TextField6[4]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: CR-601[0].Page2[0].TextField6[5]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: CR-601[0].Page2[0].TextField6[6]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: CR-601[0].Page2[0].TextField6[7]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: CR-601[0].Page2[0].TextField6[8]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: CR-601[0].Page2[0].TextField6[9]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: CR-601[0].Page2[0].TextField6[10]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: CR-601[0].Page2[0].TextField6[11]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: CR-601[0].Page2[0].TextField6[12]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: CR-601[0].Page2[0].TextField6[13]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: CR-601[0].Page2[0].TextField6[14]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: CR-601[0].Page2[0].TextField6[15]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: CR-601[0].Page2[0].TextField6[16]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: CR-601[0].Page2[0].TextField6[17]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: CR-601[0].Page2[0].TextField6[18]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: CR-601[0].Page2[0].TextField6[19]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: CR-601[0].Page2[0].TextField6[20]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: CR-601[0].Page2[0].TextField6[21]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: CR-601[0].Page2[0].TextField6[22]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: CR-601[0].Page2[0].TextField6[23]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: CR-601[0].Page2[0].TextField6[24]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: CR-601[0].Page2[0].TextField6[25]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: CR-601[0].Page2[0].TextField6[26]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: CR-601[0].Page2[0].TextField6[27]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: CR-601[0].Page2[0].TextField6[28]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: CR-601[0].Page2[0].TextField6[29]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: CR-601[0].Page2[0].TextField6[30]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: CR-601[0].Page2[0].TextField6[31]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: CR-601[0].Page2[0].TextField6[32]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: CR-601[0].Page2[0].TextField6[33]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: CR-601[0].Page2[0].TextField6[34]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: CR-601[0].Page2[0].TextField6[35]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+  p_x_caption_sf:
+    title: P X Caption Sf
+    fields:
+    - name: party_ft_2
+      pdf_field_name: CR-601[0].Page2[0].pXCaption_sf[0].TitlePartyName[0].Party_ft[0]
+      type: text
+      label: Party Ft
+      required: false
+      width: full
+    - name: case_number_ft_2
+      pdf_field_name: CR-601[0].Page2[0].pXCaption_sf[0].CaseNumber_ft[0]
+      type: text
+      label: Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+  sig_date:
+    title: Sig Date
+    fields:
+    - name: sig_date
+      pdf_field_name: CR-601[0].Page2[0].SigDate[0]
+      type: date
+      label: Sig Date
+      required: false
+      width: half
+  t:
+    title: T
+    fields:
+    - name: t14
+      pdf_field_name: CR-601[0].Page2[0].T14[0]
+      type: text
+      label: T
+      required: false
+      width: full
+  check_box:
+    title: Check Box
+    fields:
+    - name: check_box61
+      pdf_field_name: CR-601[0].Page2[0].CheckBox61[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+  sig_party:
+    title: Sig Party
+    fields:
+    - name: sig_party
+      pdf_field_name: CR-601[0].Page2[0].SigParty[0]
+      type: text
+      label: Sig Party
+      required: false
+      width: full

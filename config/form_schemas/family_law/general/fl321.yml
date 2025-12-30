@@ -1,0 +1,245 @@
+---
+form:
+  code: FL-321
+  title: FL 321 Form
+  description: ''
+  category: family_law/general
+  pdf_filename: fl321.pdf
+  fillable: true
+  instructions: ''
+sections:
+  city:
+    title: City
+    fields:
+    - name: zip
+      pdf_field_name: Court.city.zip
+      type: address
+      label: Zip
+      required: false
+      width: full
+  general:
+    title: General
+    fields:
+    - name: street
+      pdf_field_name: Court.street
+      type: address
+      label: Street
+      required: false
+      width: full
+    - name: mailing
+      pdf_field_name: Court.mailing
+      type: address
+      label: Mailing
+      required: false
+      width: full
+    - name: branch
+      pdf_field_name: Court.branch
+      type: text
+      label: Branch
+      required: false
+      width: full
+    - name: telephone
+      pdf_field_name: Telephone
+      type: tel
+      label: Telephone
+      required: false
+      width: half
+    - name: fax
+      pdf_field_name: Fax
+      type: tel
+      label: Fax
+      required: false
+      width: half
+    - name: email
+      pdf_field_name: email
+      type: email
+      label: Email
+      required: false
+      width: half
+    - name: for
+      pdf_field_name: attorney.for
+      type: text
+      label: For
+      required: false
+      width: full
+    - name: court_county
+      pdf_field_name: CourtCounty
+      type: number
+      label: Court County
+      required: false
+      width: third
+    - name: party
+      pdf_field_name: other.party
+      type: text
+      label: Party
+      required: false
+      width: full
+    - name: fl320
+      pdf_field_name: 00.fl320
+      type: text
+      label: Fl
+      required: false
+      width: full
+    - name: other
+      pdf_field_name: 00.other
+      type: text
+      label: Other
+      required: false
+      width: full
+    - name: fl300
+      pdf_field_name: 00.fl300
+      type: text
+      label: Fl
+      required: false
+      width: full
+    - name: choice1
+      pdf_field_name: 00.choice1
+      type: text
+      label: Choice
+      required: false
+      width: full
+    - name: choice2
+      pdf_field_name: 00.choice2
+      type: text
+      label: Choice
+      required: false
+      width: full
+    - name: specify
+      pdf_field_name: 00.specify
+      type: text
+      label: Specify
+      required: false
+      width: full
+    - name: date
+      pdf_field_name: 00.date
+      type: date
+      label: Date
+      required: false
+      width: half
+    - name: name
+      pdf_field_name: name.0
+      type: text
+      label: Name
+      required: false
+      width: full
+    - name: name_2
+      pdf_field_name: name.1
+      type: text
+      label: Name
+      required: false
+      width: full
+    - name: name_2
+      pdf_field_name: name.2
+      type: text
+      label: Name
+      required: false
+      width: full
+    - name: name_2
+      pdf_field_name: name.3
+      type: text
+      label: Name
+      required: false
+      width: full
+    - name: name_2
+      pdf_field_name: name.4
+      type: text
+      label: Name
+      required: false
+      width: full
+    - name: name_2
+      pdf_field_name: name.5
+      type: text
+      label: Name
+      required: false
+      width: full
+    - name: privacy_notice_header
+      pdf_field_name: Privacy Notice header
+      type: text
+      label: Privacy Notice Header
+      required: false
+      width: full
+    - name: petitioner
+      pdf_field_name: petitioner
+      type: text
+      label: Petitioner
+      required: false
+      width: full
+    - name: respondent
+      pdf_field_name: respondent
+      type: text
+      label: Respondent
+      required: false
+      width: full
+    - name: casenumber
+      pdf_field_name: Casenumber
+      type: text
+      label: Casenumber
+      required: false
+      width: full
+      shared_key: case:number
+  info:
+    title: Info
+    fields:
+    - name: info
+      pdf_field_name: Atty.info.00
+      type: text
+      label: Info
+      required: false
+      width: full
+    - name: info_2
+      pdf_field_name: Atty.info.01
+      type: text
+      label: Info
+      required: false
+      width: full
+    - name: info_2
+      pdf_field_name: Atty.info.02
+      type: text
+      label: Info
+      required: false
+      width: full
+    - name: info_2
+      pdf_field_name: Atty.info.03
+      type: text
+      label: Info
+      required: false
+      width: full
+  description:
+    title: Description
+    fields:
+    - name: description
+      pdf_field_name: subject.description.0
+      type: text
+      label: Description
+      required: false
+      width: full
+    - name: description_2
+      pdf_field_name: subject.description.1
+      type: text
+      label: Description
+      required: false
+      width: full
+    - name: description_2
+      pdf_field_name: subject.description.2
+      type: text
+      label: Description
+      required: false
+      width: full
+    - name: description_2
+      pdf_field_name: subject.description.3
+      type: text
+      label: Description
+      required: false
+      width: full
+    - name: description_2
+      pdf_field_name: subject.description.4
+      type: text
+      label: Description
+      required: false
+      width: full
+    - name: description_2
+      pdf_field_name: subject.description.5
+      type: text
+      label: Description
+      required: false
+      width: full

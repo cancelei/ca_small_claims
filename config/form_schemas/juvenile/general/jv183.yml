@@ -1,0 +1,246 @@
+---
+form:
+  code: JV-183
+  title: JV 183 Form
+  description: ''
+  category: juvenile/general
+  pdf_filename: jv183.pdf
+  fillable: true
+  instructions: ''
+sections:
+  text_field:
+    title: Text Field
+    fields:
+    - name: text_field2
+      pdf_field_name: topmostSubform[0].Page1[0].TextField2[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field2_2
+      pdf_field_name: topmostSubform[0].Page1[0].TextField2[1]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field2_2
+      pdf_field_name: topmostSubform[0].#subform[1].TextField2[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field2_2
+      pdf_field_name: topmostSubform[0].#subform[1].TextField2[1]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field2_2
+      pdf_field_name: topmostSubform[0].#subform[1].TextField2[2]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field2_2
+      pdf_field_name: topmostSubform[0].#subform[1].TextField2[3]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field2_2
+      pdf_field_name: topmostSubform[0].#subform[1].TextField2[4]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+  general:
+    title: General
+    fields:
+    - name: field
+      pdf_field_name: topmostSubform[0].Page1[0].#field[2]
+      type: text
+      label: "#Field"
+      required: false
+      width: full
+    - name: field_2
+      pdf_field_name: topmostSubform[0].Page1[0].#field[3]
+      type: text
+      label: "#Field"
+      required: false
+      width: full
+    - name: field_2
+      pdf_field_name: topmostSubform[0].Page1[0].#field[4]
+      type: text
+      label: "#Field"
+      required: false
+      width: full
+    - name: field_2
+      pdf_field_name: topmostSubform[0].Page1[0].#field[5]
+      type: text
+      label: "#Field"
+      required: false
+      width: full
+  t:
+    title: T
+    fields:
+    - name: t158
+      pdf_field_name: topmostSubform[0].Page1[0].T158[0]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t162
+      pdf_field_name: topmostSubform[0].Page1[0].T162[0]
+      type: text
+      label: T
+      required: false
+      width: full
+  header_right:
+    title: Header Right
+    fields:
+    - name: court_info_ft
+      pdf_field_name: topmostSubform[0].Page1[0].HeaderRight[0].CourtInfo_ft[0]
+      type: text
+      label: Court Info Ft
+      required: false
+      width: full
+    - name: case_number_ft
+      pdf_field_name: topmostSubform[0].Page1[0].HeaderRight[0].CaseNumber_ft[0]
+      type: text
+      label: Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+    - name: name_child_youth_ft
+      pdf_field_name: topmostSubform[0].Page1[0].HeaderRight[0].NameChildYouth_ft[0]
+      type: text
+      label: Name Child Youth Ft
+      required: false
+      width: full
+  chg_order_rb:
+    title: Chg Order Rb
+    fields:
+    - name: chg_order_rb
+      pdf_field_name: topmostSubform[0].Page1[0].ChgOrder_rb[0]
+      type: text
+      label: Chg Order Rb
+      required: false
+      width: full
+    - name: chg_order_rb_2
+      pdf_field_name: topmostSubform[0].Page1[0].ChgOrder_rb[1]
+      type: text
+      label: Chg Order Rb
+      required: false
+      width: full
+    - name: chg_order_rb_2
+      pdf_field_name: topmostSubform[0].Page1[0].ChgOrder_rb[2]
+      type: text
+      label: Chg Order Rb
+      required: false
+      width: full
+  multi_line_field:
+    title: Multi Line Field
+    fields:
+    - name: text_field2_2
+      pdf_field_name: topmostSubform[0].Page1[0].MultiLine_Field[0].TextField2[2]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+  item:
+    title: Item
+    fields:
+    - name: item2
+      pdf_field_name: topmostSubform[0].Page1[0].item2[0]
+      type: text
+      label: Item
+      required: false
+      width: full
+  cty_birth_parents_cb:
+    title: Cty Birth Parents Cb
+    fields:
+    - name: cty_birth_parents_cb
+      pdf_field_name: topmostSubform[0].Page1[0].CtyBirthParents_cb[0]
+      type: currency
+      label: Cty Birth Parents Cb
+      required: false
+      width: third
+    - name: cty_birth_parents_cb_2
+      pdf_field_name: topmostSubform[0].Page1[0].CtyBirthParents_cb[1]
+      type: currency
+      label: Cty Birth Parents Cb
+      required: false
+      width: third
+    - name: cty_birth_parents_cb_2
+      pdf_field_name: topmostSubform[0].Page1[0].CtyBirthParents_cb[2]
+      type: currency
+      label: Cty Birth Parents Cb
+      required: false
+      width: third
+    - name: cty_birth_parents_cb_2
+      pdf_field_name: topmostSubform[0].Page1[0].CtyBirthParents_cb[3]
+      type: currency
+      label: Cty Birth Parents Cb
+      required: false
+      width: third
+    - name: cty_birth_parents_cb_2
+      pdf_field_name: topmostSubform[0].Page1[0].CtyBirthParents_cb[4]
+      type: currency
+      label: Cty Birth Parents Cb
+      required: false
+      width: third
+  req_date_cb:
+    title: Req Date Cb
+    fields:
+    - name: req_date_cb
+      pdf_field_name: topmostSubform[0].Page1[0].ReqDate_cb[0]
+      type: date
+      label: Req Date Cb
+      required: false
+      width: half
+  pe_p2_header_gp:
+    title: Pe P2 Header Gp
+    fields:
+    - name: name_child_youth_ft_2
+      pdf_field_name: topmostSubform[0].#subform[1].PE_P2Header_gp[0].NameChildYouth_ft[0]
+      type: text
+      label: Name Child Youth Ft
+      required: false
+      width: full
+    - name: case_number_ft_2
+      pdf_field_name: topmostSubform[0].#subform[1].PE_P2Header_gp[0].CaseNumber_ft[0]
+      type: text
+      label: Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+  atty_date:
+    title: Atty Date
+    fields:
+    - name: atty_date
+      pdf_field_name: topmostSubform[0].#subform[1].AttyDate[0]
+      type: date
+      label: Atty Date
+      required: false
+      width: half
+  btn_footer_gp:
+    title: Btn Footer Gp
+    fields:
+    - name: print_bt
+      pdf_field_name: topmostSubform[0].#subform[1].BtnFooter_gp[0].Print_bt[0]
+      type: checkbox
+      label: Print Bt
+      required: false
+      width: full
+    - name: save_bt
+      pdf_field_name: topmostSubform[0].#subform[1].BtnFooter_gp[0].Save_bt[0]
+      type: checkbox
+      label: Save Bt
+      required: false
+      width: full
+    - name: reset_bt
+      pdf_field_name: topmostSubform[0].#subform[1].BtnFooter_gp[0].Reset_bt[0]
+      type: checkbox
+      label: Reset Bt
+      required: false
+      width: full

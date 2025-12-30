@@ -1,0 +1,236 @@
+---
+form:
+  code: DV-200
+  title: DV 200 Form
+  description: ''
+  category: family_law/domestic_violence
+  pdf_filename: dv200.pdf
+  fillable: true
+  instructions: ''
+sections:
+  page_area:
+    title: Page Area
+    fields:
+    - name: print_bt
+      pdf_field_name: DV-200[0].#pageSet[0].PageArea1[0].FooterSub[0].#area[0].Print_bt[0]
+      type: checkbox
+      label: Print Bt
+      required: false
+      width: full
+    - name: save_bt
+      pdf_field_name: DV-200[0].#pageSet[0].PageArea1[0].FooterSub[0].#area[0].Save_bt[0]
+      type: checkbox
+      label: Save Bt
+      required: false
+      width: full
+    - name: reset_bt
+      pdf_field_name: DV-200[0].#pageSet[0].PageArea1[0].FooterSub[0].#area[0].Reset_bt[0]
+      type: checkbox
+      label: Reset Bt
+      required: false
+      width: full
+    - name: t23
+      pdf_field_name: DV-200[0].#pageSet[0].PageArea1[0].FooterSub[0].#area[0].T23[1]
+      type: checkbox
+      label: T
+      required: false
+      width: full
+  stamp_court_case:
+    title: Stamp Court Case
+    fields:
+    - name: court_info_ft
+      pdf_field_name: DV-200[0].Page1[0].Stamp_court_case[0].CourtInfo_ft[0]
+      type: text
+      label: Court Info Ft
+      required: false
+      width: full
+    - name: case_number_ft
+      pdf_field_name: DV-200[0].Page1[0].Stamp_court_case[0].CaseNumber_ft[0]
+      type: text
+      label: Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+  list:
+    title: List
+    fields:
+    - name: text_field2
+      pdf_field_name: DV-200[0].Page1[0].List1[0].Li1[0].TextField2[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field2_2
+      pdf_field_name: DV-200[0].Page1[0].List2[0].Li1[0].TextField2[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: item4a_cb
+      pdf_field_name: DV-200[0].Page1[0].List4[0].Li1[0].item4a_cb[0]
+      type: text
+      label: Item4a Cb
+      required: false
+      width: full
+    - name: item4b_cb
+      pdf_field_name: DV-200[0].Page1[0].List4[0].Li2[0].item4b_cb[0]
+      type: text
+      label: Item4b Cb
+      required: false
+      width: full
+    - name: item4c_cb
+      pdf_field_name: DV-200[0].Page1[0].List4[0].Li3[0].item4c_cb[0]
+      type: text
+      label: Item4c Cb
+      required: false
+      width: full
+    - name: item4d_cb
+      pdf_field_name: DV-200[0].Page1[0].List4[0].Li4[0].item4d_cb[0]
+      type: text
+      label: Item4d Cb
+      required: false
+      width: full
+    - name: item4e_cb
+      pdf_field_name: DV-200[0].Page1[0].List4[0].Li5[0].item4e_cb[0]
+      type: text
+      label: Item4e Cb
+      required: false
+      width: full
+    - name: item4f_cb
+      pdf_field_name: DV-200[0].Page1[0].List4[0].Li6[0].item4f_cb[0]
+      type: text
+      label: Item4f Cb
+      required: false
+      width: full
+    - name: item4g_cb
+      pdf_field_name: DV-200[0].Page1[0].List4[0].Li7[0].item4g_cb[0]
+      type: text
+      label: Item4g Cb
+      required: false
+      width: full
+    - name: item4h_cb
+      pdf_field_name: DV-200[0].Page1[0].List4[0].Li8[0].item4h_cb[0]
+      type: text
+      label: Item4h Cb
+      required: false
+      width: full
+    - name: item4h_cb_2
+      pdf_field_name: DV-200[0].Page1[0].List4[0].Li9[0].item4h_cb[0]
+      type: text
+      label: Item4h Cb
+      required: false
+      width: full
+    - name: other_specify_tf
+      pdf_field_name: DV-200[0].Page1[0].List4[0].Li9[0].OtherSpecify_tf[0]
+      type: text
+      label: Other Specify Tf
+      required: false
+      width: full
+    - name: date
+      pdf_field_name: DV-200[0].Page1[0].List5[0].Li1[0].date[0]
+      type: date
+      label: Date
+      required: false
+      width: half
+    - name: time
+      pdf_field_name: DV-200[0].Page1[0].List5[0].Li1[0].time[0]
+      type: text
+      label: Time
+      required: false
+      width: full
+    - name: teim_def_cb
+      pdf_field_name: DV-200[0].Page1[0].List5[0].Li1[0].TeimDef_cb[0]
+      type: text
+      label: Teim Def Cb
+      required: false
+      width: full
+    - name: teim_def_cb_2
+      pdf_field_name: DV-200[0].Page1[0].List5[0].Li1[0].TeimDef_cb[1]
+      type: text
+      label: Teim Def Cb
+      required: false
+      width: full
+    - name: t1611
+      pdf_field_name: DV-200[0].Page1[0].List5[0].Li2[0].T1611[0]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t1981
+      pdf_field_name: DV-200[0].Page1[0].List5[0].Li2[0].T1981[0]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t1982
+      pdf_field_name: DV-200[0].Page1[0].List5[0].Li2[0].T1982[0]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t1983
+      pdf_field_name: DV-200[0].Page1[0].List5[0].Li2[0].T1983[0]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t198
+      pdf_field_name: DV-200[0].Page1[0].List6[0].Li1[0].T198[0]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t199
+      pdf_field_name: DV-200[0].Page1[0].List6[0].Li1[0].T199[0]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t200
+      pdf_field_name: DV-200[0].Page1[0].List6[0].Li1[0].T200[0]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t1981_2
+      pdf_field_name: DV-200[0].Page1[0].List6[0].Li1[0].T1981[0]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t1982_2
+      pdf_field_name: DV-200[0].Page1[0].List6[0].Li1[0].T1982[0]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: tel_tf
+      pdf_field_name: DV-200[0].Page1[0].List6[0].Li1[0].Tel_tf[0]
+      type: tel
+      label: Tel Tf
+      required: false
+      width: half
+    - name: t2981
+      pdf_field_name: DV-200[0].Page1[0].List6[0].Li1[0].T2981[0]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t12298
+      pdf_field_name: DV-200[0].Page1[0].List6[0].Li1[0].T12298[0]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t161
+      pdf_field_name: DV-200[0].Page1[0].List7[0].Li1[0].T161[0]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t214
+      pdf_field_name: DV-200[0].Page1[0].List7[0].Li1[0].T214[0]
+      type: text
+      label: T
+      required: false
+      width: full

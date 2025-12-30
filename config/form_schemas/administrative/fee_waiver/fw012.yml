@@ -1,0 +1,551 @@
+---
+form:
+  code: FW-012
+  title: FW 012 Form
+  description: ''
+  category: administrative/fee_waiver
+  pdf_filename: fw012.pdf
+  fillable: true
+  instructions: ''
+sections:
+  fill_text:
+    title: Fill Text
+    fields:
+    - name: fill_text39
+      pdf_field_name: FW-012[0].Page1[0].FillText39[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text62
+      pdf_field_name: FW-012[0].Page1[0].FillText62[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text61
+      pdf_field_name: FW-012[0].Page1[0].FillText61[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text60
+      pdf_field_name: FW-012[0].Page1[0].FillText60[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text59
+      pdf_field_name: FW-012[0].Page1[0].FillText59[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text57
+      pdf_field_name: FW-012[0].Page1[0].FillText57[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text56
+      pdf_field_name: FW-012[0].Page1[0].FillText56[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text55
+      pdf_field_name: FW-012[0].Page1[0].FillText55[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text54
+      pdf_field_name: FW-012[0].Page1[0].FillText54[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text52
+      pdf_field_name: FW-012[0].Page1[0].FillText52[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text51
+      pdf_field_name: FW-012[0].Page1[0].FillText51[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text50
+      pdf_field_name: FW-012[0].Page1[0].FillText50[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text49
+      pdf_field_name: FW-012[0].Page1[0].FillText49[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text38
+      pdf_field_name: FW-012[0].Page2[0].FillText38[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text48
+      pdf_field_name: FW-012[0].Page2[0].FillText48[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text47
+      pdf_field_name: FW-012[0].Page2[0].FillText47[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text46
+      pdf_field_name: FW-012[0].Page2[0].FillText46[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text91
+      pdf_field_name: FW-012[0].Page2[0].FillText91[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text82
+      pdf_field_name: FW-012[0].Page2[0].FillText82[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text80
+      pdf_field_name: FW-012[0].Page2[0].FillText80[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text90
+      pdf_field_name: FW-012[0].Page2[0].FillText90[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+  person_ft:
+    title: Person Ft
+    fields:
+    - name: person_ft
+      pdf_field_name: FW-012[0].Page1[0].Person_ft[0]
+      type: text
+      label: Person Ft
+      required: false
+      width: full
+  order_dt:
+    title: Order Dt
+    fields:
+    - name: order_dt
+      pdf_field_name: FW-012[0].Page1[0].Order_dt[0]
+      type: text
+      label: Order Dt
+      required: false
+      width: full
+    - name: order_dt_2
+      pdf_field_name: FW-012[0].Page1[0].Order_dt[1]
+      type: text
+      label: Order Dt
+      required: false
+      width: full
+  check_box:
+    title: Check Box
+    fields:
+    - name: check_box12
+      pdf_field_name: FW-012[0].Page1[0].CheckBox12[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box7
+      pdf_field_name: FW-012[0].Page1[0].CheckBox7[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box11
+      pdf_field_name: FW-012[0].Page1[0].CheckBox11[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box7_2
+      pdf_field_name: FW-012[0].Page1[0].CheckBox7[1]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box3
+      pdf_field_name: FW-012[0].Page1[0].CheckBox3[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box3_2
+      pdf_field_name: FW-012[0].Page1[0].CheckBox3[1]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box3_2
+      pdf_field_name: FW-012[0].Page2[0].CheckBox3[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box30
+      pdf_field_name: FW-012[0].Page2[0].CheckBox30[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box29
+      pdf_field_name: FW-012[0].Page2[0].CheckBox29[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box31
+      pdf_field_name: FW-012[0].Page2[0].CheckBox31[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box28
+      pdf_field_name: FW-012[0].Page2[0].CheckBox28[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box27
+      pdf_field_name: FW-012[0].Page2[0].CheckBox27[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box25
+      pdf_field_name: FW-012[0].Page2[0].CheckBox25[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box24
+      pdf_field_name: FW-012[0].Page2[0].CheckBox24[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box22
+      pdf_field_name: FW-012[0].Page2[0].CheckBox22[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box21
+      pdf_field_name: FW-012[0].Page2[0].CheckBox21[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box20
+      pdf_field_name: FW-012[0].Page2[0].CheckBox20[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box19
+      pdf_field_name: FW-012[0].Page2[0].CheckBox19[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box18
+      pdf_field_name: FW-012[0].Page2[0].CheckBox18[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box17
+      pdf_field_name: FW-012[0].Page2[0].CheckBox17[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+  orders_cb:
+    title: Orders Cb
+    fields:
+    - name: orders_cb
+      pdf_field_name: FW-012[0].Page1[0].Orders_cb[0]
+      type: text
+      label: Orders Cb
+      required: false
+      width: full
+    - name: orders_cb_2
+      pdf_field_name: FW-012[0].Page1[0].Orders_cb[1]
+      type: text
+      label: Orders Cb
+      required: false
+      width: full
+    - name: orders_cb_2
+      pdf_field_name: FW-012[0].Page2[0].Orders_cb[0]
+      type: text
+      label: Orders Cb
+      required: false
+      width: full
+    - name: orders_cb_2
+      pdf_field_name: FW-012[0].Page2[0].Orders_cb[1]
+      type: text
+      label: Orders Cb
+      required: false
+      width: full
+  below_rb:
+    title: Below Rb
+    fields:
+    - name: below_rb
+      pdf_field_name: FW-012[0].Page1[0].Below_rb[0]
+      type: text
+      label: Below Rb
+      required: false
+      width: full
+    - name: below_rb_2
+      pdf_field_name: FW-012[0].Page2[0].Below_rb[0]
+      type: text
+      label: Below Rb
+      required: false
+      width: full
+  attachment_rb:
+    title: Attachment Rb
+    fields:
+    - name: attachment_rb
+      pdf_field_name: FW-012[0].Page1[0].Attachment_rb[0]
+      type: text
+      label: Attachment Rb
+      required: false
+      width: full
+    - name: attachment_rb_2
+      pdf_field_name: FW-012[0].Page2[0].Attachment_rb[0]
+      type: text
+      label: Attachment Rb
+      required: false
+      width: full
+  stamp_court_case:
+    title: Stamp Court Case
+    fields:
+    - name: court_info_ft
+      pdf_field_name: FW-012[0].Page1[0].Stamp_court_case[0].CourtInfo_ft[0]
+      type: text
+      label: Court Info Ft
+      required: false
+      width: full
+    - name: case_number_ft
+      pdf_field_name: FW-012[0].Page1[0].Stamp_court_case[0].CaseNumber_ft[0]
+      type: text
+      label: Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+    - name: case_name_ft
+      pdf_field_name: FW-012[0].Page1[0].Stamp_court_case[0].CaseName_ft[0]
+      type: text
+      label: Case Name Ft
+      required: false
+      width: full
+      shared_key: court:name
+  t:
+    title: T
+    fields:
+    - name: t276
+      pdf_field_name: FW-012[0].Page1[0].#area[11].T276[0]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t328
+      pdf_field_name: FW-012[0].#subform[2].T328[0]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t329
+      pdf_field_name: FW-012[0].#subform[2].T329[0]
+      type: text
+      label: T
+      required: false
+      width: full
+  ended_rblist:
+    title: Ended Rblist
+    fields:
+    - name: ended_rblist
+      pdf_field_name: FW-012[0].Page1[0].Ended_rblist[0]
+      type: text
+      label: Ended Rblist
+      required: false
+      width: full
+  text_field:
+    title: Text Field
+    fields:
+    - name: text_field2
+      pdf_field_name: FW-012[0].Page1[0].TextField2[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+  header:
+    title: Header
+    fields:
+    - name: person_ft_2
+      pdf_field_name: FW-012[0].Page2[0].Header[0].Person_ft[0]
+      type: text
+      label: Person Ft
+      required: false
+      width: full
+    - name: case_number_ft_2
+      pdf_field_name: FW-012[0].Page2[0].Header[0].CaseNumber_ft[0]
+      type: text
+      label: Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+    - name: person_ft_2
+      pdf_field_name: FW-012[0].#subform[2].Header[0].Person_ft[0]
+      type: text
+      label: Person Ft
+      required: false
+      width: full
+    - name: case_number_ft_2
+      pdf_field_name: FW-012[0].#subform[2].Header[0].CaseNumber_ft[0]
+      type: text
+      label: Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+  all_rb:
+    title: All Rb
+    fields:
+    - name: all_rb
+      pdf_field_name: FW-012[0].Page2[0].All_rb[0]
+      type: text
+      label: All Rb
+      required: false
+      width: full
+  some_rb:
+    title: Some Rb
+    fields:
+    - name: some_rb
+      pdf_field_name: FW-012[0].Page2[0].Some_rb[0]
+      type: text
+      label: Some Rb
+      required: false
+      width: full
+  never_rblist:
+    title: Never Rblist
+    fields:
+    - name: never_rblist
+      pdf_field_name: FW-012[0].Page2[0].Never_rblist[0]
+      type: text
+      label: Never Rblist
+      required: false
+      width: full
+  modifications_rblist:
+    title: Modifications Rblist
+    fields:
+    - name: modifications_rblist
+      pdf_field_name: FW-012[0].Page2[0].Modifications_rblist[0]
+      type: text
+      label: Modifications Rblist
+      required: false
+      width: full
+  other_cb:
+    title: Other Cb
+    fields:
+    - name: other_cb
+      pdf_field_name: FW-012[0].Page2[0].Other_cb[0]
+      type: text
+      label: Other Cb
+      required: false
+      width: full
+  other_rblist:
+    title: Other Rblist
+    fields:
+    - name: other_rblist
+      pdf_field_name: FW-012[0].Page2[0].Other_rblist[0]
+      type: text
+      label: Other Rblist
+      required: false
+      width: full
+  clerk_certificate:
+    title: Clerk Certificate
+    fields:
+    - name: clerk_certificate
+      pdf_field_name: FW-012[0].#subform[2].ClerkCertificate[0]
+      type: text
+      label: Clerk Certificate
+      required: false
+      width: full
+  service_rblist:
+    title: Service Rblist
+    fields:
+    - name: service_rblist
+      pdf_field_name: FW-012[0].#subform[2].Service_rblist[0]
+      type: text
+      label: Service Rblist
+      required: false
+      width: full
+  clerk_name_ft:
+    title: Clerk Name Ft
+    fields:
+    - name: clerk_name_ft
+      pdf_field_name: FW-012[0].#subform[2].ClerkName_ft[0]
+      type: text
+      label: Clerk Name Ft
+      required: false
+      width: full
+  print:
+    title: Print
+    fields:
+    - name: print
+      pdf_field_name: FW-012[0].#subform[2].#area[6].Print[0]
+      type: checkbox
+      label: Print
+      required: false
+      width: full
+  save:
+    title: Save
+    fields:
+    - name: save
+      pdf_field_name: FW-012[0].#subform[2].#area[6].Save[0]
+      type: checkbox
+      label: Save
+      required: false
+      width: full
+  reset:
+    title: Reset
+    fields:
+    - name: reset
+      pdf_field_name: FW-012[0].#subform[2].#area[6].Reset[0]
+      type: checkbox
+      label: Reset
+      required: false
+      width: full
+  warning:
+    title: Warning
+    fields:
+    - name: warning
+      pdf_field_name: FW-012[0].#subform[2].#area[6].Warning[0]
+      type: checkbox
+      label: Warning
+      required: false
+      width: full

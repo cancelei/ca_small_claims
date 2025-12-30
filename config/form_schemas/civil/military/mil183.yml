@@ -1,0 +1,500 @@
+---
+form:
+  code: MIL-183
+  title: MIL 183 Form
+  description: ''
+  category: civil/military
+  pdf_filename: mil183.pdf
+  fillable: true
+  instructions: ''
+sections:
+  caption_sf:
+    title: Caption Sf
+    fields:
+    - name: defendant_ft
+      pdf_field_name: topmostSubform[0].Page1[0].Caption_sf[0].CaseName[0].Defendant_ft[0]
+      type: text
+      label: Defendant Ft
+      required: false
+      width: full
+      shared_key: defendant:name
+    - name: defendant_dob_dt
+      pdf_field_name: topmostSubform[0].Page1[0].Caption_sf[0].CaseName[0].DefendantDOB_dt[0]
+      type: text
+      label: Defendant Dob Dt
+      required: false
+      width: full
+      shared_key: defendant:name
+    - name: case_number_ft
+      pdf_field_name: topmostSubform[0].Page1[0].Caption_sf[0].CaseNumber[0].CaseNumber_ft[0]
+      type: text
+      label: Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+    - name: atty_state_ft
+      pdf_field_name: topmostSubform[0].Page1[0].Caption_sf[0].AttyInfo[0].AttyState_ft[0]
+      type: address
+      label: Atty State Ft
+      required: false
+      width: full
+    - name: atty_zip_ft
+      pdf_field_name: topmostSubform[0].Page1[0].Caption_sf[0].AttyInfo[0].AttyZip_ft[0]
+      type: address
+      label: Atty Zip Ft
+      required: false
+      width: full
+    - name: atty_city_ft
+      pdf_field_name: topmostSubform[0].Page1[0].Caption_sf[0].AttyInfo[0].AttyCity_ft[0]
+      type: address
+      label: Atty City Ft
+      required: false
+      width: full
+    - name: atty_street_ft
+      pdf_field_name: topmostSubform[0].Page1[0].Caption_sf[0].AttyInfo[0].AttyStreet_ft[0]
+      type: address
+      label: Atty Street Ft
+      required: false
+      width: full
+    - name: atty_firm_ft
+      pdf_field_name: topmostSubform[0].Page1[0].Caption_sf[0].AttyInfo[0].AttyFirm_ft[0]
+      type: text
+      label: Atty Firm Ft
+      required: false
+      width: full
+    - name: atty_name_ft
+      pdf_field_name: topmostSubform[0].Page1[0].Caption_sf[0].AttyInfo[0].AttyName_ft[0]
+      type: text
+      label: Atty Name Ft
+      required: false
+      width: full
+    - name: atty_bar_no_dc
+      pdf_field_name: topmostSubform[0].Page1[0].Caption_sf[0].AttyInfo[0].AttyBarNo_dc[0]
+      type: text
+      label: Atty Bar No Dc
+      required: false
+      width: full
+    - name: phone_ft
+      pdf_field_name: topmostSubform[0].Page1[0].Caption_sf[0].AttyInfo[0].Phone_ft[0]
+      type: tel
+      label: Phone Ft
+      required: false
+      width: half
+    - name: fax_ft
+      pdf_field_name: topmostSubform[0].Page1[0].Caption_sf[0].AttyInfo[0].Fax_ft[0]
+      type: tel
+      label: Fax Ft
+      required: false
+      width: half
+    - name: email_ft
+      pdf_field_name: topmostSubform[0].Page1[0].Caption_sf[0].AttyInfo[0].Email_ft[0]
+      type: email
+      label: Email Ft
+      required: false
+      width: half
+    - name: atty_for_ft
+      pdf_field_name: topmostSubform[0].Page1[0].Caption_sf[0].AttyInfo[0].AttyFor_ft[0]
+      type: text
+      label: Atty For Ft
+      required: false
+      width: full
+  conviction_date_dt:
+    title: Conviction Date Dt
+    fields:
+    - name: conviction_date_dt
+      pdf_field_name: topmostSubform[0].Page1[0].ConvictionDate_dt[0]
+      type: date
+      label: Conviction Date Dt
+      required: false
+      width: half
+  code1_ft:
+    title: Code1 Ft
+    fields:
+    - name: code1_ft
+      pdf_field_name: topmostSubform[0].Page1[0].Code1_ft[0]
+      type: text
+      label: Code1 Ft
+      required: false
+      width: full
+  section1_ft:
+    title: Section1 Ft
+    fields:
+    - name: section1_ft
+      pdf_field_name: topmostSubform[0].Page1[0].Section1_ft[0]
+      type: text
+      label: Section1 Ft
+      required: false
+      width: full
+  type_off1_ft:
+    title: Type Off1 Ft
+    fields:
+    - name: type_off1_ft
+      pdf_field_name: topmostSubform[0].Page1[0].TypeOff1_ft[0]
+      type: text
+      label: Type Off1 Ft
+      required: false
+      width: full
+  reduce1_ft:
+    title: Reduce1 Ft
+    fields:
+    - name: reduce1_ft
+      pdf_field_name: topmostSubform[0].Page1[0].Reduce1_ft[0]
+      type: text
+      label: Reduce1 Ft
+      required: false
+      width: full
+  code2_ft:
+    title: Code2 Ft
+    fields:
+    - name: code2_ft
+      pdf_field_name: topmostSubform[0].Page1[0].Code2_ft[0]
+      type: text
+      label: Code2 Ft
+      required: false
+      width: full
+  section2_ft:
+    title: Section2 Ft
+    fields:
+    - name: section2_ft
+      pdf_field_name: topmostSubform[0].Page1[0].Section2_ft[0]
+      type: text
+      label: Section2 Ft
+      required: false
+      width: full
+  type_off2_ft:
+    title: Type Off2 Ft
+    fields:
+    - name: type_off2_ft
+      pdf_field_name: topmostSubform[0].Page1[0].TypeOff2_ft[0]
+      type: text
+      label: Type Off2 Ft
+      required: false
+      width: full
+  reduce2_ft:
+    title: Reduce2 Ft
+    fields:
+    - name: reduce2_ft
+      pdf_field_name: topmostSubform[0].Page1[0].Reduce2_ft[0]
+      type: text
+      label: Reduce2 Ft
+      required: false
+      width: full
+  code3_ft:
+    title: Code3 Ft
+    fields:
+    - name: code3_ft
+      pdf_field_name: topmostSubform[0].Page1[0].Code3_ft[0]
+      type: text
+      label: Code3 Ft
+      required: false
+      width: full
+  section3_ft:
+    title: Section3 Ft
+    fields:
+    - name: section3_ft
+      pdf_field_name: topmostSubform[0].Page1[0].Section3_ft[0]
+      type: text
+      label: Section3 Ft
+      required: false
+      width: full
+  type_off3_ft:
+    title: Type Off3 Ft
+    fields:
+    - name: type_off3_ft
+      pdf_field_name: topmostSubform[0].Page1[0].TypeOff3_ft[0]
+      type: text
+      label: Type Off3 Ft
+      required: false
+      width: full
+  reduce3_ft:
+    title: Reduce3 Ft
+    fields:
+    - name: reduce3_ft
+      pdf_field_name: topmostSubform[0].Page1[0].Reduce3_ft[0]
+      type: text
+      label: Reduce3 Ft
+      required: false
+      width: full
+  code4_ft:
+    title: Code4 Ft
+    fields:
+    - name: code4_ft
+      pdf_field_name: topmostSubform[0].Page1[0].Code4_ft[0]
+      type: text
+      label: Code4 Ft
+      required: false
+      width: full
+  section4_ft:
+    title: Section4 Ft
+    fields:
+    - name: section4_ft
+      pdf_field_name: topmostSubform[0].Page1[0].Section4_ft[0]
+      type: text
+      label: Section4 Ft
+      required: false
+      width: full
+  type_off4_ft:
+    title: Type Off4 Ft
+    fields:
+    - name: type_off4_ft
+      pdf_field_name: topmostSubform[0].Page1[0].TypeOff4_ft[0]
+      type: text
+      label: Type Off4 Ft
+      required: false
+      width: full
+  reduce4_ft:
+    title: Reduce4 Ft
+    fields:
+    - name: reduce4_ft
+      pdf_field_name: topmostSubform[0].Page1[0].Reduce4_ft[0]
+      type: text
+      label: Reduce4 Ft
+      required: false
+      width: full
+  code5_ft:
+    title: Code5 Ft
+    fields:
+    - name: code5_ft
+      pdf_field_name: topmostSubform[0].Page1[0].Code5_ft[0]
+      type: text
+      label: Code5 Ft
+      required: false
+      width: full
+  section5_ft:
+    title: Section5 Ft
+    fields:
+    - name: section5_ft
+      pdf_field_name: topmostSubform[0].Page1[0].Section5_ft[0]
+      type: text
+      label: Section5 Ft
+      required: false
+      width: full
+  type_off5_ft:
+    title: Type Off5 Ft
+    fields:
+    - name: type_off5_ft
+      pdf_field_name: topmostSubform[0].Page1[0].TypeOff5_ft[0]
+      type: text
+      label: Type Off5 Ft
+      required: false
+      width: full
+  reduce5_ft:
+    title: Reduce5 Ft
+    fields:
+    - name: reduce5_ft
+      pdf_field_name: topmostSubform[0].Page1[0].Reduce5_ft[0]
+      type: text
+      label: Reduce5 Ft
+      required: false
+      width: full
+  date_ft:
+    title: Date Ft
+    fields:
+    - name: date_ft
+      pdf_field_name: topmostSubform[0].Page1[0].Date_ft[0]
+      type: date
+      label: Date Ft
+      required: false
+      width: half
+  time_ft:
+    title: Time Ft
+    fields:
+    - name: time_ft
+      pdf_field_name: topmostSubform[0].Page1[0].Time_ft[0]
+      type: text
+      label: Time Ft
+      required: false
+      width: full
+  department_ft:
+    title: Department Ft
+    fields:
+    - name: department_ft
+      pdf_field_name: topmostSubform[0].Page1[0].Department_ft[0]
+      type: text
+      label: Department Ft
+      required: false
+      width: full
+  location_ft:
+    title: Location Ft
+    fields:
+    - name: location_ft
+      pdf_field_name: topmostSubform[0].Page1[0].Location_ft[0]
+      type: address
+      label: Location Ft
+      required: false
+      width: full
+  interpreter_ft:
+    title: Interpreter Ft
+    fields:
+    - name: interpreter_ft
+      pdf_field_name: topmostSubform[0].Page1[0].Interpreter_ft[0]
+      type: text
+      label: Interpreter Ft
+      required: false
+      width: full
+  pet_req3_cb:
+    title: Pet Req3 Cb
+    fields:
+    - name: pet_req3_cb
+      pdf_field_name: topmostSubform[0].Page2[0].PetReq3-cb[0]
+      type: text
+      label: Pet Req3 Cb
+      required: false
+      width: full
+    - name: pet_req3_cb_2
+      pdf_field_name: topmostSubform[0].Page2[0].PetReq3-cb[1]
+      type: text
+      label: Pet Req3 Cb
+      required: false
+      width: full
+  pet_req1_cb:
+    title: Pet Req1 Cb
+    fields:
+    - name: pet_req1_cb
+      pdf_field_name: topmostSubform[0].Page2[0].PetReq1_cb[0]
+      type: text
+      label: Pet Req1 Cb
+      required: false
+      width: full
+  pet_req2_cb:
+    title: Pet Req2 Cb
+    fields:
+    - name: pet_req2_cb
+      pdf_field_name: topmostSubform[0].Page2[0].PetReq2-cb[0]
+      type: text
+      label: Pet Req2 Cb
+      required: false
+      width: full
+  executed_date_dt:
+    title: Executed Date Dt
+    fields:
+    - name: executed_date_dt
+      pdf_field_name: topmostSubform[0].Page2[0].ExecutedDate_dt[0]
+      type: date
+      label: Executed Date Dt
+      required: false
+      width: half
+  t:
+    title: T
+    fields:
+    - name: t215
+      pdf_field_name: topmostSubform[0].Page2[0].T215[0]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t217
+      pdf_field_name: topmostSubform[0].Page2[0].T217[0]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t218
+      pdf_field_name: topmostSubform[0].Page2[0].T218[0]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t219
+      pdf_field_name: topmostSubform[0].Page2[0].T219[0]
+      type: text
+      label: T
+      required: false
+      width: full
+  p2_header_sf:
+    title: P2 Header Sf
+    fields:
+    - name: case_number_ft_2
+      pdf_field_name: topmostSubform[0].Page2[0].P2Header_sf[0].CaseNumber_ft[0]
+      type: text
+      label: Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+    - name: party_ft
+      pdf_field_name: topmostSubform[0].Page2[0].P2Header_sf[0].Party_ft[0]
+      type: text
+      label: Party Ft
+      required: false
+      width: full
+  pet_has1_cb:
+    title: Pet Has1 Cb
+    fields:
+    - name: pet_has1_cb
+      pdf_field_name: topmostSubform[0].Page2[0].PetHas1_cb[0]
+      type: text
+      label: Pet Has1 Cb
+      required: false
+      width: full
+  pet_has2_cb:
+    title: Pet Has2 Cb
+    fields:
+    - name: pet_has2_cb
+      pdf_field_name: topmostSubform[0].Page2[0].PetHas2-cb[0]
+      type: text
+      label: Pet Has2 Cb
+      required: false
+      width: full
+  pet_has3_cb:
+    title: Pet Has3 Cb
+    fields:
+    - name: pet_has3_cb
+      pdf_field_name: topmostSubform[0].Page2[0].PetHas3-cb[0]
+      type: text
+      label: Pet Has3 Cb
+      required: false
+      width: full
+  pet_has4_cb:
+    title: Pet Has4 Cb
+    fields:
+    - name: pet_has4_cb
+      pdf_field_name: topmostSubform[0].Page2[0].PetHas4-cb[0]
+      type: text
+      label: Pet Has4 Cb
+      required: false
+      width: full
+  pet_has5_cb:
+    title: Pet Has5 Cb
+    fields:
+    - name: pet_has5_cb
+      pdf_field_name: topmostSubform[0].Page2[0].PetHas5-cb[0]
+      type: text
+      label: Pet Has5 Cb
+      required: false
+      width: full
+  pet_has6_cb:
+    title: Pet Has6 Cb
+    fields:
+    - name: pet_has6_cb
+      pdf_field_name: topmostSubform[0].Page2[0].PetHas6-cb[0]
+      type: text
+      label: Pet Has6 Cb
+      required: false
+      width: full
+  print_bt:
+    title: Print Bt
+    fields:
+    - name: print_bt
+      pdf_field_name: topmostSubform[0].Page2[0].Print_bt[0]
+      type: checkbox
+      label: Print Bt
+      required: false
+      width: full
+  save_bt:
+    title: Save Bt
+    fields:
+    - name: save_bt
+      pdf_field_name: topmostSubform[0].Page2[0].Save_bt[0]
+      type: checkbox
+      label: Save Bt
+      required: false
+      width: full
+  reset_bt:
+    title: Reset Bt
+    fields:
+    - name: reset_bt
+      pdf_field_name: topmostSubform[0].Page2[0].Reset_bt[0]
+      type: checkbox
+      label: Reset Bt
+      required: false
+      width: full

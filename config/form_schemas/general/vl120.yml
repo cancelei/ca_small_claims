@@ -1,0 +1,320 @@
+---
+form:
+  code: VL-120
+  title: VL 120 Form
+  description: ''
+  category: general
+  pdf_filename: vl120.pdf
+  fillable: true
+  instructions: ''
+sections:
+  p1_caption_sf:
+    title: P1 Caption Sf
+    fields:
+    - name: crt_county
+      pdf_field_name: VL-110[0].Page1[0].P1Caption_sf[0].CourtInfo[0].CrtCounty[0]
+      type: number
+      label: Crt County
+      required: false
+      width: third
+    - name: crt_branch
+      pdf_field_name: VL-110[0].Page1[0].P1Caption_sf[0].CourtInfo[0].CrtBranch[0]
+      type: text
+      label: Crt Branch
+      required: false
+      width: full
+    - name: crt_city_zip
+      pdf_field_name: VL-110[0].Page1[0].P1Caption_sf[0].CourtInfo[0].CrtCityZip[0]
+      type: address
+      label: Crt City Zip
+      required: false
+      width: full
+    - name: crt_street
+      pdf_field_name: VL-110[0].Page1[0].P1Caption_sf[0].CourtInfo[0].CrtStreet[0]
+      type: address
+      label: Crt Street
+      required: false
+      width: full
+    - name: crt_mailing_add
+      pdf_field_name: VL-110[0].Page1[0].P1Caption_sf[0].CourtInfo[0].CrtMailingAdd[0]
+      type: address
+      label: Crt Mailing Add
+      required: false
+      width: full
+    - name: crt_app_div
+      pdf_field_name: VL-110[0].Page1[0].P1Caption_sf[0].CourtInfo[0].CrtAppDiv[0]
+      type: text
+      label: Crt App Div
+      required: false
+      width: full
+    - name: crt_app_dist
+      pdf_field_name: VL-110[0].Page1[0].P1Caption_sf[0].CourtInfo[0].CrtAppDist[0]
+      type: text
+      label: Crt App Dist
+      required: false
+      width: full
+    - name: crt_app
+      pdf_field_name: VL-110[0].Page1[0].P1Caption_sf[0].CourtInfo[0].CrtApp[0]
+      type: text
+      label: Crt App
+      required: false
+      width: full
+    - name: crt_sup
+      pdf_field_name: VL-110[0].Page1[0].P1Caption_sf[0].CourtInfo[0].CrtSup[0]
+      type: text
+      label: Crt Sup
+      required: false
+      width: full
+    - name: party1
+      pdf_field_name: VL-110[0].Page1[0].P1Caption_sf[0].TitlePartyName[0].Party1[0]
+      type: text
+      label: Party
+      required: false
+      width: full
+    - name: case_number
+      pdf_field_name: VL-110[0].Page1[0].P1Caption_sf[0].CaseNumber[0].CaseNumber[0]
+      type: text
+      label: Case Number
+      required: false
+      width: full
+      shared_key: case:number
+    - name: state
+      pdf_field_name: VL-110[0].Page1[0].P1Caption_sf[0].AttyInfo[0].State[0]
+      type: address
+      label: State
+      required: false
+      width: full
+    - name: zip
+      pdf_field_name: VL-110[0].Page1[0].P1Caption_sf[0].AttyInfo[0].Zip[0]
+      type: address
+      label: Zip
+      required: false
+      width: full
+    - name: city
+      pdf_field_name: VL-110[0].Page1[0].P1Caption_sf[0].AttyInfo[0].City[0]
+      type: address
+      label: City
+      required: false
+      width: full
+    - name: street
+      pdf_field_name: VL-110[0].Page1[0].P1Caption_sf[0].AttyInfo[0].Street[0]
+      type: address
+      label: Street
+      required: false
+      width: full
+    - name: atty_firm
+      pdf_field_name: VL-110[0].Page1[0].P1Caption_sf[0].AttyInfo[0].AttyFirm[0]
+      type: text
+      label: Atty Firm
+      required: false
+      width: full
+    - name: name
+      pdf_field_name: VL-110[0].Page1[0].P1Caption_sf[0].AttyInfo[0].Name[0]
+      type: text
+      label: Name
+      required: false
+      width: full
+    - name: phone
+      pdf_field_name: VL-110[0].Page1[0].P1Caption_sf[0].AttyInfo[0].Phone[0]
+      type: tel
+      label: Phone
+      required: false
+      width: half
+    - name: fax
+      pdf_field_name: VL-110[0].Page1[0].P1Caption_sf[0].AttyInfo[0].Fax[0]
+      type: tel
+      label: Fax
+      required: false
+      width: half
+    - name: email
+      pdf_field_name: VL-110[0].Page1[0].P1Caption_sf[0].AttyInfo[0].Email[0]
+      type: email
+      label: Email
+      required: false
+      width: half
+    - name: atty_for
+      pdf_field_name: VL-110[0].Page1[0].P1Caption_sf[0].AttyInfo[0].AttyFor[0]
+      type: text
+      label: Atty For
+      required: false
+      width: full
+    - name: atty_bar_no
+      pdf_field_name: VL-110[0].Page1[0].P1Caption_sf[0].AttyInfo[0].AttyBarNo[0]
+      type: text
+      label: Atty Bar No
+      required: false
+      width: full
+  vacate_order_descr_ft:
+    title: Vacate Order Descr Ft
+    fields:
+    - name: vacate_order_descr_ft
+      pdf_field_name: VL-110[0].Page1[0].VacateOrderDescr_ft[0]
+      type: text
+      label: Vacate Order Descr Ft
+      required: false
+      width: full
+  prefiling_order_date1_ft:
+    title: Prefiling Order Date1 Ft
+    fields:
+    - name: prefiling_order_date1_ft
+      pdf_field_name: VL-110[0].Page1[0].PrefilingOrderDate1_ft[0]
+      type: date
+      label: Prefiling Order Date1 Ft
+      required: false
+      width: half
+      shared_key: filing:date
+  prefiling_order_case_no1_ft:
+    title: Prefiling Order Case No1 Ft
+    fields:
+    - name: prefiling_order_case_no1_ft
+      pdf_field_name: VL-110[0].Page1[0].PrefilingOrderCaseNo1_ft[0]
+      type: text
+      label: Prefiling Order Case No1 Ft
+      required: false
+      width: full
+  prefiling_order_crt1_ft:
+    title: Prefiling Order Crt1 Ft
+    fields:
+    - name: prefiling_order_crt1_ft
+      pdf_field_name: VL-110[0].Page1[0].PrefilingOrderCrt1_ft[0]
+      type: text
+      label: Prefiling Order Crt1 Ft
+      required: false
+      width: full
+  prefiling_order_casename1_ft:
+    title: Prefiling Order Casename1 Ft
+    fields:
+    - name: prefiling_order_casename1_ft
+      pdf_field_name: VL-110[0].Page1[0].PrefilingOrderCasename1_ft[0]
+      type: text
+      label: Prefiling Order Casename1 Ft
+      required: false
+      width: full
+  prefiling_order_crt2_ft:
+    title: Prefiling Order Crt2 Ft
+    fields:
+    - name: prefiling_order_crt2_ft
+      pdf_field_name: VL-110[0].Page1[0].PrefilingOrderCrt2_ft[0]
+      type: text
+      label: Prefiling Order Crt2 Ft
+      required: false
+      width: full
+  prefiling_order_casename2_ft:
+    title: Prefiling Order Casename2 Ft
+    fields:
+    - name: prefiling_order_casename2_ft
+      pdf_field_name: VL-110[0].Page1[0].PrefilingOrderCasename2_ft[0]
+      type: text
+      label: Prefiling Order Casename2 Ft
+      required: false
+      width: full
+  prefiling_order_date2_ft:
+    title: Prefiling Order Date2 Ft
+    fields:
+    - name: prefiling_order_date2_ft
+      pdf_field_name: VL-110[0].Page1[0].PrefilingOrderDate2_ft[0]
+      type: date
+      label: Prefiling Order Date2 Ft
+      required: false
+      width: half
+      shared_key: filing:date
+  prefiling_order_case_no2_ft:
+    title: Prefiling Order Case No2 Ft
+    fields:
+    - name: prefiling_order_case_no2_ft
+      pdf_field_name: VL-110[0].Page1[0].PrefilingOrderCaseNo2_ft[0]
+      type: text
+      label: Prefiling Order Case No2 Ft
+      required: false
+      width: full
+  petitioner_cb:
+    title: Petitioner Cb
+    fields:
+    - name: petitioner_cb
+      pdf_field_name: VL-110[0].Page1[0].petitioner_cb[0]
+      type: text
+      label: Petitioner Cb
+      required: false
+      width: full
+    - name: petitioner_cb_2
+      pdf_field_name: VL-110[0].Page1[0].#area[0].petitioner_cb[1]
+      type: text
+      label: Petitioner Cb
+      required: false
+      width: full
+    - name: petitioner_cb_2
+      pdf_field_name: VL-110[0].Page2[0].petitioner_cb[0]
+      type: text
+      label: Petitioner Cb
+      required: false
+      width: full
+  print_name_ft:
+    title: Print Name Ft
+    fields:
+    - name: print_name_ft
+      pdf_field_name: VL-110[0].Page2[0].PrintName_ft[0]
+      type: text
+      label: Print Name Ft
+      required: false
+      width: full
+  signature_date_ft:
+    title: Signature Date Ft
+    fields:
+    - name: signature_date_ft
+      pdf_field_name: VL-110[0].Page2[0].SignatureDate_ft[0]
+      type: signature
+      label: Signature Date Ft
+      required: false
+      width: full
+  p2_header_gp:
+    title: P2 Header Gp
+    fields:
+    - name: case_number_ft
+      pdf_field_name: VL-110[0].Page2[0].P2Header_gp[0].CaseNumber_ft[0]
+      type: text
+      label: Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+    - name: party_ft
+      pdf_field_name: VL-110[0].Page2[0].P2Header_gp[0].Party_ft[0]
+      type: text
+      label: Party Ft
+      required: false
+      width: full
+  print_bt:
+    title: Print Bt
+    fields:
+    - name: print_bt
+      pdf_field_name: VL-110[0].Page2[0].Print_bt[0]
+      type: checkbox
+      label: Print Bt
+      required: false
+      width: full
+  save_bt:
+    title: Save Bt
+    fields:
+    - name: save_bt
+      pdf_field_name: VL-110[0].Page2[0].Save_bt[0]
+      type: checkbox
+      label: Save Bt
+      required: false
+      width: full
+  reset_bt:
+    title: Reset Bt
+    fields:
+    - name: reset_bt
+      pdf_field_name: VL-110[0].Page2[0].Reset_bt[0]
+      type: checkbox
+      label: Reset Bt
+      required: false
+      width: full
+  t:
+    title: T
+    fields:
+    - name: t23
+      pdf_field_name: VL-110[0].Page2[0].T23[0]
+      type: checkbox
+      label: T
+      required: false
+      width: full

@@ -1,6 +1,8 @@
 # frozen_string_literal: true
 
 class WorkflowStep < ApplicationRecord
+  include ConditionalSupport
+
   belongs_to :workflow
   belongs_to :form_definition
 
@@ -14,10 +16,8 @@ class WorkflowStep < ApplicationRecord
     name.presence || form_definition.title
   end
 
-  def conditional?
-    conditions.present? && conditions.any?
-  end
-
+  # Override ConditionalSupport's should_show? with legacy implementation
+  # to maintain backward compatibility with existing operator format
   def should_show?(submission_data)
     return true unless conditional?
 

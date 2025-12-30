@@ -1,0 +1,278 @@
+---
+form:
+  code: MC-500
+  title: MC 500 Form
+  description: ''
+  category: civil/miscellaneous
+  pdf_filename: mc500.pdf
+  fillable: true
+  instructions: ''
+sections:
+  atty_party_info:
+    title: Atty Party Info
+    fields:
+    - name: name
+      pdf_field_name: MC-500[0].Page1[0].AttyPartyInfo[0].Name[0]
+      type: text
+      label: Name
+      required: false
+      width: full
+    - name: atty_firm
+      pdf_field_name: MC-500[0].Page1[0].AttyPartyInfo[0].AttyFirm[0]
+      type: text
+      label: Atty Firm
+      required: false
+      width: full
+    - name: street
+      pdf_field_name: MC-500[0].Page1[0].AttyPartyInfo[0].Street[0]
+      type: address
+      label: Street
+      required: false
+      width: full
+    - name: phone
+      pdf_field_name: MC-500[0].Page1[0].AttyPartyInfo[0].Phone[0]
+      type: tel
+      label: Phone
+      required: false
+      width: half
+    - name: crt_street
+      pdf_field_name: MC-500[0].Page1[0].AttyPartyInfo[0].CrtStreet[0]
+      type: address
+      label: Crt Street
+      required: false
+      width: full
+  court_info:
+    title: Court Info
+    fields:
+    - name: crt_street_2
+      pdf_field_name: MC-500[0].Page1[0].CourtInfo[0].CrtStreet[0]
+      type: address
+      label: Crt Street
+      required: false
+      width: full
+    - name: crt_street_2
+      pdf_field_name: MC-500[0].Page1[0].CourtInfo[1].CrtStreet[0]
+      type: address
+      label: Crt Street
+      required: false
+      width: full
+  title_party_name:
+    title: Title Party Name
+    fields:
+    - name: party2
+      pdf_field_name: MC-500[0].Page1[0].TitlePartyName[0].Party2[0]
+      type: text
+      label: Party
+      required: false
+      width: full
+  case_number:
+    title: Case Number
+    fields:
+    - name: case_number
+      pdf_field_name: MC-500[0].Page1[0].CaseNumber[0].CaseNumber[0]
+      type: text
+      label: Case Number
+      required: false
+      width: full
+      shared_key: case:number
+  text_field:
+    title: Text Field
+    fields:
+    - name: text_field2
+      pdf_field_name: MC-500[0].Page1[0].TextField2[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field2_2
+      pdf_field_name: MC-500[0].Page1[0].TextField2[1]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+  check_box:
+    title: Check Box
+    fields:
+    - name: check_box19
+      pdf_field_name: MC-500[0].Page1[0].CheckBox19[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box1
+      pdf_field_name: MC-500[0].Page1[0].CheckBox1[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+  sig_date:
+    title: Sig Date
+    fields:
+    - name: sig_date
+      pdf_field_name: MC-500[0].Page1[0].SigDate[0]
+      type: date
+      label: Sig Date
+      required: false
+      width: half
+    - name: sig_date_2
+      pdf_field_name: MC-500[0].Page1[0].SigDate[1]
+      type: date
+      label: Sig Date
+      required: false
+      width: half
+  sig_name:
+    title: Sig Name
+    fields:
+    - name: sig_name
+      pdf_field_name: MC-500[0].Page1[0].SigName[0]
+      type: text
+      label: Sig Name
+      required: false
+      width: full
+    - name: sig_name_2
+      pdf_field_name: MC-500[0].Page1[0].SigName[1]
+      type: text
+      label: Sig Name
+      required: false
+      width: full
+  fill_text:
+    title: Fill Text
+    fields:
+    - name: fill_text1
+      pdf_field_name: MC-500[0].Page1[0].FillText1[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text1_2
+      pdf_field_name: MC-500[0].Page1[0].FillText1[1]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+  choice:
+    title: Choice
+    fields:
+    - name: choice1
+      pdf_field_name: MC-500[0].Page1[0].Choice1[0]
+      type: text
+      label: Choice
+      required: false
+      width: full
+    - name: choice2
+      pdf_field_name: MC-500[0].Page1[0].Choice2[0]
+      type: text
+      label: Choice
+      required: false
+      width: full
+    - name: choice1_2
+      pdf_field_name: MC-500[0].Page1[0].Choice1[1]
+      type: text
+      label: Choice
+      required: false
+      width: full
+    - name: choice2_2
+      pdf_field_name: MC-500[0].Page1[0].Choice2[1]
+      type: text
+      label: Choice
+      required: false
+      width: full
+    - name: choice1_2
+      pdf_field_name: MC-500[0].Page1[0].Choice1[2]
+      type: text
+      label: Choice
+      required: false
+      width: full
+    - name: choice1_2
+      pdf_field_name: MC-500[0].Page1[0].Choice1[3]
+      type: text
+      label: Choice
+      required: false
+      width: full
+  party:
+    title: Party
+    fields:
+    - name: party2_2
+      pdf_field_name: MC-500[0].Page1[0].Party2[0]
+      type: text
+      label: Party
+      required: false
+      width: full
+  numeric_field:
+    title: Numeric Field
+    fields:
+    - name: numeric_field1
+      pdf_field_name: MC-500[0].Page1[0].NumericField1[0]
+      type: text
+      label: Numeric Field
+      required: false
+      width: full
+  hearingssub:
+    title: Hearingssub
+    fields:
+    - name: hearing_date
+      pdf_field_name: MC-500[0].Page1[0].hearingssub[0].HearingDate[0]
+      type: date
+      label: Hearing Date
+      required: false
+      width: half
+    - name: hearing_time
+      pdf_field_name: MC-500[0].Page1[0].hearingssub[0].HearingTime[0]
+      type: text
+      label: Hearing Time
+      required: false
+      width: full
+    - name: hearing_dept
+      pdf_field_name: MC-500[0].Page1[0].hearingssub[0].HearingDept[0]
+      type: text
+      label: Hearing Dept
+      required: false
+      width: full
+    - name: hearing_rm
+      pdf_field_name: MC-500[0].Page1[0].hearingssub[0].HearingRm[0]
+      type: text
+      label: Hearing Rm
+      required: false
+      width: full
+    - name: text_field2_2
+      pdf_field_name: MC-500[0].Page1[0].hearingssub[0].TextField2[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+  print:
+    title: Print
+    fields:
+    - name: print
+      pdf_field_name: MC-500[0].Page1[0].#area[0].Print[0]
+      type: checkbox
+      label: Print
+      required: false
+      width: full
+  save:
+    title: Save
+    fields:
+    - name: save
+      pdf_field_name: MC-500[0].Page1[0].#area[0].Save[0]
+      type: checkbox
+      label: Save
+      required: false
+      width: full
+  reset:
+    title: Reset
+    fields:
+    - name: reset
+      pdf_field_name: MC-500[0].Page1[0].#area[0].Reset[0]
+      type: checkbox
+      label: Reset
+      required: false
+      width: full
+  warning:
+    title: Warning
+    fields:
+    - name: warning
+      pdf_field_name: MC-500[0].Page1[0].#area[0].Warning[0]
+      type: checkbox
+      label: Warning
+      required: false
+      width: full

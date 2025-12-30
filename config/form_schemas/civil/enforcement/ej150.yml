@@ -1,0 +1,372 @@
+---
+form:
+  code: EJ-150
+  title: EJ 150 Form
+  description: ''
+  category: civil/enforcement
+  pdf_filename: ej150.pdf
+  fillable: true
+  instructions: ''
+sections:
+  p1_caption:
+    title: P1 Caption
+    fields:
+    - name: levy_ofcr_i_info1_ft
+      pdf_field_name: EJ-150[0].Page1[0].p1Caption[0].captionSub[0].LevyOfcrInfo_sf[0].LevyOfcrIInfo1_ft[0]
+      type: text
+      label: Levy Ofcr I Info1 Ft
+      required: false
+      width: full
+    - name: levy_ofcr_file_no_ft
+      pdf_field_name: EJ-150[0].Page1[0].p1Caption[0].captionSub[0].LevyOfcrFileNo[0].LevyOfcrFileNo_ft[0]
+      type: text
+      label: Levy Ofcr File No Ft
+      required: false
+      width: full
+    - name: case_number_ft
+      pdf_field_name: EJ-150[0].Page1[0].p1Caption[0].captionSub[0].caseNumber[0].CaseNumber_ft[0]
+      type: text
+      label: Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+    - name: add1_ft
+      pdf_field_name: EJ-150[0].Page1[0].p1Caption[0].AttyPartyInfo_sf[0].Add1_ft[0]
+      type: text
+      label: Add1 Ft
+      required: false
+      width: full
+    - name: tel_ft
+      pdf_field_name: EJ-150[0].Page1[0].p1Caption[0].AttyPartyInfo_sf[0].Tel_ft[0]
+      type: tel
+      label: Tel Ft
+      required: false
+      width: half
+    - name: fax_ft
+      pdf_field_name: EJ-150[0].Page1[0].p1Caption[0].AttyPartyInfo_sf[0].Fax_ft[0]
+      type: tel
+      label: Fax Ft
+      required: false
+      width: half
+    - name: email_add
+      pdf_field_name: EJ-150[0].Page1[0].p1Caption[0].AttyPartyInfo_sf[0].emailAdd[0]
+      type: email
+      label: Email Add
+      required: false
+      width: half
+    - name: cb_1
+      pdf_field_name: EJ-150[0].Page1[0].p1Caption[0].AttyPartyInfo_sf[0].CB_1[0]
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: cb_1_2
+      pdf_field_name: EJ-150[0].Page1[0].p1Caption[0].AttyPartyInfo_sf[0].CB_1[1]
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: cb_1_2
+      pdf_field_name: EJ-150[0].Page1[0].p1Caption[0].AttyPartyInfo_sf[0].CB_1[2]
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: crtname_ft
+      pdf_field_name: EJ-150[0].Page1[0].p1Caption[0].CrtInfo_sf[0].Crtname_ft[0]
+      type: text
+      label: Crtname Ft
+      required: false
+      width: full
+    - name: crt_street_add_ft
+      pdf_field_name: EJ-150[0].Page1[0].p1Caption[0].CrtInfo_sf[0].CrtStreetAdd_ft[0]
+      type: address
+      label: Crt Street Add Ft
+      required: false
+      width: full
+    - name: crt_mail_ft
+      pdf_field_name: EJ-150[0].Page1[0].p1Caption[0].CrtInfo_sf[0].CrtMail_ft[0]
+      type: text
+      label: Crt Mail Ft
+      required: false
+      width: full
+    - name: crt_city_zip_ft
+      pdf_field_name: EJ-150[0].Page1[0].p1Caption[0].CrtInfo_sf[0].CrtCityZip_ft[0]
+      type: address
+      label: Crt City Zip Ft
+      required: false
+      width: full
+    - name: crt_branch
+      pdf_field_name: EJ-150[0].Page1[0].p1Caption[0].CrtInfo_sf[0].CrtBranch[0]
+      type: text
+      label: Crt Branch
+      required: false
+      width: full
+    - name: party1_ft
+      pdf_field_name: EJ-150[0].Page1[0].p1Caption[0].Party_sf[0].Party1_ft[0]
+      type: text
+      label: Party1 Ft
+      required: false
+      width: full
+    - name: party2_ft
+      pdf_field_name: EJ-150[0].Page1[0].p1Caption[0].Party_sf[0].Party2_ft[0]
+      type: text
+      label: Party2 Ft
+      required: false
+      width: full
+    - name: cb_notice_of_levy
+      pdf_field_name: EJ-150[0].Page1[0].p1Caption[0].Title_sf[0].CB_NoticeOfLevy[0]
+      type: text
+      label: Cb Notice Of Levy
+      required: false
+      width: full
+    - name: cb_notice_of_levy_2
+      pdf_field_name: EJ-150[0].Page1[0].p1Caption[0].Title_sf[0].CB_NoticeOfLevy[1]
+      type: text
+      label: Cb Notice Of Levy
+      required: false
+      width: full
+  person_notified_ft:
+    title: Person Notified Ft
+    fields:
+    - name: person_notified_ft
+      pdf_field_name: EJ-150[0].Page1[0].PersonNotified_ft[0]
+      type: text
+      label: Person Notified Ft
+      required: false
+      width: full
+  list:
+    title: List
+    fields:
+    - name: judgment_debtor_name
+      pdf_field_name: EJ-150[0].Page1[0].List1[0].lia[0].JudgmentDebtorName[0]
+      type: currency
+      label: Judgment Debtor Name
+      required: false
+      width: third
+    - name: cb_property_described
+      pdf_field_name: EJ-150[0].Page1[0].List1[0].lib[0].CB_PropertyDescribed[0]
+      type: text
+      label: Cb Property Described
+      required: false
+      width: full
+    - name: cb_property_described_2
+      pdf_field_name: EJ-150[0].Page1[0].List1[0].lib[0].CB_PropertyDescribed[1]
+      type: text
+      label: Cb Property Described
+      required: false
+      width: full
+    - name: description_property_ft
+      pdf_field_name: EJ-150[0].Page1[0].List1[0].lib[0].DescriptionProperty_ft[0]
+      type: text
+      label: Description Property Ft
+      required: false
+      width: full
+    - name: for
+      pdf_field_name: EJ-150[0].Page1[0].List2[0].li2[0].CB_Judgmt\.is\.for[0]
+      type: text
+      label: For
+      required: false
+      width: full
+    - name: for_2
+      pdf_field_name: EJ-150[0].Page1[0].List2[0].li2[0].CB_Judgmt\.is\.for[1]
+      type: text
+      label: For
+      required: false
+      width: full
+    - name: for_2
+      pdf_field_name: EJ-150[0].Page1[0].List2[0].li2[0].CB_Judgmt\.is\.for[2]
+      type: text
+      label: For
+      required: false
+      width: full
+    - name: fill_text85
+      pdf_field_name: EJ-150[0].Page1[0].List2[0].li2[0].FillText85[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: total_due_ft
+      pdf_field_name: EJ-150[0].Page1[0].List3[0].lia[0].TotalDue_ft[0]
+      type: currency
+      label: Total Due Ft
+      required: false
+      width: third
+    - name: levy_fee_ft
+      pdf_field_name: EJ-150[0].Page1[0].List3[0].lib[0].LevyFee_ft[0]
+      type: currency
+      label: Levy Fee Ft
+      required: false
+      width: third
+    - name: sheriff_disbursement_fee_ft
+      pdf_field_name: EJ-150[0].Page1[0].List3[0].lic[0].SheriffDisbursementFee_ft[0]
+      type: currency
+      label: Sheriff Disbursement Fee Ft
+      required: false
+      width: third
+    - name: recoverable_cost_ft
+      pdf_field_name: EJ-150[0].Page1[0].List3[0].lid[0].RecoverableCost_ft[0]
+      type: currency
+      label: Recoverable Cost Ft
+      required: false
+      width: third
+    - name: total_ato_d_ft
+      pdf_field_name: EJ-150[0].Page1[0].List3[0].lie[0].TotalAtoD_ft[0]
+      type: text
+      label: Total Ato D Ft
+      required: false
+      width: full
+    - name: daily_i_nterest_ft
+      pdf_field_name: EJ-150[0].Page1[0].List3[0].lif[0].DailyINterest_ft[0]
+      type: text
+      label: Daily I Nterest Ft
+      required: false
+      width: full
+    - name: as
+      pdf_field_name: EJ-150[0].Page1[0].List4[0].lia[0].CB_Notified\.As[0]
+      type: text
+      label: As
+      required: false
+      width: full
+    - name: as_2
+      pdf_field_name: EJ-150[0].Page1[0].List4[0].lib[0].CB_Notified\.As[0]
+      type: text
+      label: As
+      required: false
+      width: full
+    - name: notified_as_capacity_ft
+      pdf_field_name: EJ-150[0].Page1[0].List4[0].lib[0].NotifiedAsCapacity_ft[0]
+      type: address
+      label: Notified As Capacity Ft
+      required: false
+      width: full
+  notice_of_levy:
+    title: Notice Of Levy
+    fields:
+    - name: notice_of_levy_was
+      pdf_field_name: EJ-150[0].Page1[0].noticeOfLevy[0].CB\.NoticeOfLevyWas[0]
+      type: text
+      label: Notice Of Levy Was
+      required: false
+      width: full
+    - name: notice_of_levy_was_2
+      pdf_field_name: EJ-150[0].Page1[0].noticeOfLevy[0].CB\.NoticeOfLevyWas[1]
+      type: text
+      label: Notice Of Levy Was
+      required: false
+      width: full
+    - name: notice_of_levy_was_2
+      pdf_field_name: EJ-150[0].Page1[0].noticeOfLevy[0].CB\.NoticeOfLevyWas[2]
+      type: text
+      label: Notice Of Levy Was
+      required: false
+      width: full
+    - name: notice_of_levy_was_2
+      pdf_field_name: EJ-150[0].Page1[0].noticeOfLevy[0].CB\.NoticeOfLevyWas[3]
+      type: text
+      label: Notice Of Levy Was
+      required: false
+      width: full
+    - name: levy_mail_date_ft
+      pdf_field_name: EJ-150[0].Page1[0].noticeOfLevy[0].LevyMailDate_ft[0]
+      type: date
+      label: Levy Mail Date Ft
+      required: false
+      width: half
+    - name: levy_posted_date_ft
+      pdf_field_name: EJ-150[0].Page1[0].noticeOfLevy[0].LevyPostedDate_ft[0]
+      type: date
+      label: Levy Posted Date Ft
+      required: false
+      width: half
+    - name: cb_notice_of_levy_was
+      pdf_field_name: EJ-150[0].Page1[0].noticeOfLevy[0].CBNoticeOfLevyWas[0]
+      type: text
+      label: Cb Notice Of Levy Was
+      required: false
+      width: full
+    - name: levy_delivered_date_ft
+      pdf_field_name: EJ-150[0].Page1[0].noticeOfLevy[0].LevyDeliveredDate_ft[0]
+      type: date
+      label: Levy Delivered Date Ft
+      required: false
+      width: half
+    - name: levy_filed_date_ft
+      pdf_field_name: EJ-150[0].Page1[0].noticeOfLevy[0].LevyFiledDate_ft[0]
+      type: date
+      label: Levy Filed Date Ft
+      required: false
+      width: half
+    - name: levy_recorded_date_ft
+      pdf_field_name: EJ-150[0].Page1[0].noticeOfLevy[0].LevyRecordedDate_ft[0]
+      type: date
+      label: Levy Recorded Date Ft
+      required: false
+      width: half
+    - name: sig_date_ft
+      pdf_field_name: EJ-150[0].Page1[0].noticeOfLevy[0].SigDate_ft[0]
+      type: date
+      label: Sig Date Ft
+      required: false
+      width: half
+    - name: print_name_ft
+      pdf_field_name: EJ-150[0].Page1[0].noticeOfLevy[0].PrintName_ft[0]
+      type: text
+      label: Print Name Ft
+      required: false
+      width: full
+    - name: cb_signature
+      pdf_field_name: EJ-150[0].Page1[0].noticeOfLevy[0].CB_Signature[0]
+      type: signature
+      label: Cb Signature
+      required: false
+      width: full
+    - name: cb_signature_2
+      pdf_field_name: EJ-150[0].Page1[0].noticeOfLevy[0].CB_Signature[1]
+      type: signature
+      label: Cb Signature
+      required: false
+      width: full
+  mp_last:
+    title: Mp Last
+    fields:
+    - name: print
+      pdf_field_name: EJ-150[0].#pageSet[0].MPLast[0].Print[0]
+      type: checkbox
+      label: Print
+      required: false
+      width: full
+    - name: save
+      pdf_field_name: EJ-150[0].#pageSet[0].MPLast[0].Save[0]
+      type: checkbox
+      label: Save
+      required: false
+      width: full
+    - name: reset
+      pdf_field_name: EJ-150[0].#pageSet[0].MPLast[0].Reset[0]
+      type: checkbox
+      label: Reset
+      required: false
+      width: full
+  px_caption:
+    title: Px Caption
+    fields:
+    - name: short_title_ft
+      pdf_field_name: EJ-150[0].Page2[0].pxCaption[0].ShortTitle_ft[0]
+      type: text
+      label: Short Title Ft
+      required: false
+      width: full
+    - name: levy_ofcr_file_no_ft_2
+      pdf_field_name: EJ-150[0].Page2[0].pxCaption[0].LevyOfcrFileNo_ft[0]
+      type: text
+      label: Levy Ofcr File No Ft
+      required: false
+      width: full
+    - name: case_number_ft_2
+      pdf_field_name: EJ-150[0].Page2[0].pxCaption[0].CaseNumber_ft[0]
+      type: text
+      label: Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number

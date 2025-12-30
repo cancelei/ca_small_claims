@@ -1,0 +1,109 @@
+---
+form:
+  code: WG-024
+  title: WG 024 Form
+  description: ''
+  category: civil/wage_garnishment
+  pdf_filename: wg024.pdf
+  fillable: true
+  instructions: ''
+sections:
+  general:
+    title: General
+    fields:
+    - name: fill_text16
+      pdf_field_name: FillText16
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text18
+      pdf_field_name: FillText18
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text19
+      pdf_field_name: FillText19
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text20
+      pdf_field_name: FillText20
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text21
+      pdf_field_name: FillText21
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text22
+      pdf_field_name: FillText22
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text221
+      pdf_field_name: FillText221
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text23
+      pdf_field_name: FillText23
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text25
+      pdf_field_name: FillText25
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text24
+      pdf_field_name: FillText24
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text4
+      pdf_field_name: FillText4
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text9
+      pdf_field_name: FillText9
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text14
+      pdf_field_name: FillText14
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text15
+      pdf_field_name: FillText15
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text3
+      pdf_field_name: FillText3
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text2
+      pdf_field_name: FillText2
+      type: text
+      label: Fill Text
+      required: false
+      width: full

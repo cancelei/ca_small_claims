@@ -1,0 +1,233 @@
+---
+form:
+  code: MIL-015
+  title: MIL 015 Form
+  description: ''
+  category: civil/military
+  pdf_filename: mil015.pdf
+  fillable: true
+  instructions: ''
+sections:
+  general:
+    title: General
+    fields:
+    - name: info0
+      pdf_field_name: Atty.Info0
+      type: text
+      label: Info
+      required: false
+      width: full
+    - name: info1
+      pdf_field_name: Atty.Info1
+      type: text
+      label: Info
+      required: false
+      width: full
+    - name: info2
+      pdf_field_name: Atty.Info2
+      type: text
+      label: Info
+      required: false
+      width: full
+    - name: info3
+      pdf_field_name: Atty.Info3
+      type: text
+      label: Info
+      required: false
+      width: full
+    - name: info4
+      pdf_field_name: Atty.Info4
+      type: text
+      label: Info
+      required: false
+      width: full
+    - name: tel
+      pdf_field_name: Tel
+      type: tel
+      label: Tel
+      required: false
+      width: half
+    - name: fax
+      pdf_field_name: Fax
+      type: tel
+      label: Fax
+      required: false
+      width: half
+    - name: email
+      pdf_field_name: email
+      type: email
+      label: Email
+      required: false
+      width: half
+    - name: for
+      pdf_field_name: Attorney.for
+      type: text
+      label: For
+      required: false
+      width: full
+    - name: county
+      pdf_field_name: Court.County
+      type: number
+      label: County
+      required: false
+      width: third
+    - name: street
+      pdf_field_name: Court.street
+      type: address
+      label: Street
+      required: false
+      width: full
+    - name: mailing
+      pdf_field_name: Court.mailing
+      type: address
+      label: Mailing
+      required: false
+      width: full
+    - name: branch
+      pdf_field_name: Court.branch
+      type: text
+      label: Branch
+      required: false
+      width: full
+    - name: case_number
+      pdf_field_name: CaseNumber
+      type: text
+      label: Case Number
+      required: false
+      width: full
+      shared_key: case:number
+    - name: petitioner
+      pdf_field_name: Petitioner
+      type: text
+      label: Petitioner
+      required: false
+      width: full
+    - name: respondent
+      pdf_field_name: Respondent
+      type: text
+      label: Respondent
+      required: false
+      width: full
+    - name: name
+      pdf_field_name: text00.name
+      type: text
+      label: Name
+      required: false
+      width: full
+    - name: check_box01
+      pdf_field_name: CheckBox01.2
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box01_2
+      pdf_field_name: CheckBox01.3
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box01_2
+      pdf_field_name: CheckBox01.1
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: date
+      pdf_field_name: text02.date
+      type: date
+      label: Date
+      required: false
+      width: half
+    - name: choice
+      pdf_field_name: CheckBox04.choice
+      type: checkbox
+      label: Choice
+      required: false
+      width: full
+    - name: check_box04
+      pdf_field_name: CheckBox04
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: text03
+      pdf_field_name: text03
+      type: text
+      label: Text
+      required: false
+      width: full
+    - name: text05
+      pdf_field_name: text05
+      type: text
+      label: Text
+      required: false
+      width: full
+    - name: text06
+      pdf_field_name: text06
+      type: text
+      label: Text
+      required: false
+      width: full
+    - name: text04
+      pdf_field_name: text04
+      type: text
+      label: Text
+      required: false
+      width: full
+    - name: check_box05
+      pdf_field_name: CheckBox05
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box07
+      pdf_field_name: CheckBox07
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box08
+      pdf_field_name: CheckBox08
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: text07
+      pdf_field_name: text07
+      type: text
+      label: Text
+      required: false
+      width: full
+    - name: text08
+      pdf_field_name: text08
+      type: text
+      label: Text
+      required: false
+      width: full
+    - name: pages
+      pdf_field_name: text09.pages
+      type: text
+      label: Pages
+      required: false
+      width: full
+    - name: date_2
+      pdf_field_name: Date
+      type: date
+      label: Date
+      required: false
+      width: half
+    - name: name_2
+      pdf_field_name: Name
+      type: text
+      label: Name
+      required: false
+      width: full
+  city:
+    title: City
+    fields:
+    - name: zip
+      pdf_field_name: Court.City.zip
+      type: address
+      label: Zip
+      required: false
+      width: full

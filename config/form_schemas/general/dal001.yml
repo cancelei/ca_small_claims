@@ -1,0 +1,31 @@
+---
+form:
+  code: DAL-001
+  title: DAL 001 Form
+  description: ''
+  category: general
+  pdf_filename: dal001.pdf
+  fillable: true
+  instructions: ''
+sections:
+  mp_last:
+    title: Mp Last
+    fields:
+    - name: print
+      pdf_field_name: DAL-001[0].#pageSet[0].MPLast[0].Print[0]
+      type: checkbox
+      label: Print
+      required: false
+      width: full
+    - name: save
+      pdf_field_name: DAL-001[0].#pageSet[0].MPLast[0].Save[0]
+      type: checkbox
+      label: Save
+      required: false
+      width: full
+    - name: reset
+      pdf_field_name: DAL-001[0].#pageSet[0].MPLast[0].Reset[0]
+      type: checkbox
+      label: Reset
+      required: false
+      width: full

@@ -1,0 +1,260 @@
+---
+form:
+  code: CR-170
+  title: CR 170 Form
+  description: ''
+  category: criminal/general
+  pdf_filename: cr170.pdf
+  fillable: true
+  instructions: ''
+sections:
+  text:
+    title: Text\
+    fields:
+    - name: '1'
+      pdf_field_name: CR-170[0].Page1[0].TEXT\.1\.5\.0\.1\.1\.1\.1\.1\.0\.1\.1\.0[0]
+      type: text
+      label: 1\
+      required: false
+      width: full
+  checkbox:
+    title: Checkbox
+    fields:
+    - name: checkbox
+      pdf_field_name: CR-170[0].Page1[0].Checkbox[0]
+      type: checkbox
+      label: Checkbox
+      required: false
+      width: full
+    - name: checkbox_2
+      pdf_field_name: CR-170[0].Page1[0].Checkbox[1]
+      type: checkbox
+      label: Checkbox
+      required: false
+      width: full
+  txt:
+    title: Txt\
+    fields:
+    - name: date
+      pdf_field_name: CR-170[0].Page1[0].txt\.atty\.statement\.date[0]
+      type: date
+      label: Date
+      required: false
+      width: half
+    - name: date_2
+      pdf_field_name: CR-170[0].Page1[0].txt\.atty\.statement\.date[1]
+      type: date
+      label: Date
+      required: false
+      width: half
+    - name: sig
+      pdf_field_name: CR-170[0].Page1[0].txt\.statement\.def\.sig[1]
+      type: signature
+      label: Sig
+      required: false
+      width: full
+    - name: sig_2
+      pdf_field_name: CR-170[0].Page1[0].txt\.statement\.def\.sig[2]
+      type: signature
+      label: Sig
+      required: false
+      width: full
+  atty_info:
+    title: Atty Info
+    fields:
+    - name: atty_state_ft
+      pdf_field_name: CR-170[0].Page1[0].AttyInfo[0].AttyState_ft[0]
+      type: address
+      label: Atty State Ft
+      required: false
+      width: full
+    - name: atty_zip_ft
+      pdf_field_name: CR-170[0].Page1[0].AttyInfo[0].AttyZip_ft[0]
+      type: address
+      label: Atty Zip Ft
+      required: false
+      width: full
+    - name: atty_city_ft
+      pdf_field_name: CR-170[0].Page1[0].AttyInfo[0].AttyCity_ft[0]
+      type: address
+      label: Atty City Ft
+      required: false
+      width: full
+    - name: atty_street_ft
+      pdf_field_name: CR-170[0].Page1[0].AttyInfo[0].AttyStreet_ft[0]
+      type: address
+      label: Atty Street Ft
+      required: false
+      width: full
+    - name: atty_name_ft
+      pdf_field_name: CR-170[0].Page1[0].AttyInfo[0].AttyName_ft[0]
+      type: text
+      label: Atty Name Ft
+      required: false
+      width: full
+    - name: phone_ft
+      pdf_field_name: CR-170[0].Page1[0].AttyInfo[0].Phone_ft[0]
+      type: tel
+      label: Phone Ft
+      required: false
+      width: half
+    - name: fax_ft
+      pdf_field_name: CR-170[0].Page1[0].AttyInfo[0].Fax_ft[0]
+      type: tel
+      label: Fax Ft
+      required: false
+      width: half
+    - name: email_ft
+      pdf_field_name: CR-170[0].Page1[0].AttyInfo[0].Email_ft[0]
+      type: email
+      label: Email Ft
+      required: false
+      width: half
+    - name: atty_city_ft_2
+      pdf_field_name: CR-170[0].Page1[0].AttyInfo[0].AttyCity_ft[1]
+      type: address
+      label: Atty City Ft
+      required: false
+      width: full
+    - name: email_ft_2
+      pdf_field_name: CR-170[0].Page1[0].AttyInfo[0].Email_ft[1]
+      type: email
+      label: Email Ft
+      required: false
+      width: half
+    - name: atty_name_ft_2
+      pdf_field_name: CR-170[0].Page1[0].AttyInfo[0].AttyName_ft[1]
+      type: text
+      label: Atty Name Ft
+      required: false
+      width: full
+  print:
+    title: Print
+    fields:
+    - name: print
+      pdf_field_name: CR-170[0].Page1[0].#area[0].Print[0]
+      type: checkbox
+      label: Print
+      required: false
+      width: full
+  save:
+    title: Save
+    fields:
+    - name: save
+      pdf_field_name: CR-170[0].Page1[0].#area[0].Save[0]
+      type: checkbox
+      label: Save
+      required: false
+      width: full
+  reset:
+    title: Reset
+    fields:
+    - name: reset
+      pdf_field_name: CR-170[0].Page1[0].#area[0].Reset[0]
+      type: checkbox
+      label: Reset
+      required: false
+      width: full
+  warning:
+    title: Warning
+    fields:
+    - name: warning
+      pdf_field_name: CR-170[0].Page1[0].#area[0].Warning[0]
+      type: checkbox
+      label: Warning
+      required: false
+      width: full
+  text_field:
+    title: Text Field
+    fields:
+    - name: text_field
+      pdf_field_name: CR-170[0].Page1[0].TextField[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field_2
+      pdf_field_name: CR-170[0].Page1[0].TextField[1]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field_2
+      pdf_field_name: CR-170[0].Page1[0].TextField[2]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field_2
+      pdf_field_name: CR-170[0].Page1[0].TextField[3]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field_2
+      pdf_field_name: CR-170[0].Page1[0].TextField[4]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field2
+      pdf_field_name: CR-170[0].Page1[0].TextField2[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+  petitioner_cb:
+    title: Petitioner Cb
+    fields:
+    - name: petitioner_cb
+      pdf_field_name: CR-170[0].Page1[0].petitioner_cb[0]
+      type: text
+      label: Petitioner Cb
+      required: false
+      width: full
+    - name: petitioner_cb_2
+      pdf_field_name: CR-170[0].Page1[0].petitioner_cb[1]
+      type: text
+      label: Petitioner Cb
+      required: false
+      width: full
+  hearing_date:
+    title: Hearing Date
+    fields:
+    - name: hearing_date
+      pdf_field_name: CR-170[0].Page1[0].HearingDate[0]
+      type: date
+      label: Hearing Date
+      required: false
+      width: half
+    - name: hearing_date_2
+      pdf_field_name: CR-170[0].Page1[0].HearingDate[1]
+      type: date
+      label: Hearing Date
+      required: false
+      width: half
+  defendant:
+    title: Defendant
+    fields:
+    - name: defendant
+      pdf_field_name: CR-170[0].Page1[0].defendant[0]
+      type: text
+      label: Defendant
+      required: false
+      width: full
+    - name: defendant_2
+      pdf_field_name: CR-170[0].Page1[0].defendant[1]
+      type: text
+      label: Defendant
+      required: false
+      width: full
+  case_number_ft:
+    title: Case Number Ft
+    fields:
+    - name: case_number_ft
+      pdf_field_name: CR-170[0].Page1[0].CaseNumber_ft[0]
+      type: text
+      label: Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number

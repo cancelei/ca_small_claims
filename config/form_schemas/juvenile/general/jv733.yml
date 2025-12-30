@@ -1,0 +1,687 @@
+---
+form:
+  code: JV-733
+  title: JV 733 Form
+  description: ''
+  category: juvenile/general
+  pdf_filename: jv733.pdf
+  fillable: true
+  instructions: ''
+sections:
+  p1_caption:
+    title: P1 Caption
+    fields:
+    - name: atty_bar_no
+      pdf_field_name: JV-733[0].Page1[0].P1Caption[0].AttSub[0].AttyPartyInfo[0].AttyBarNo[0]
+      type: text
+      label: Atty Bar No
+      required: false
+      width: full
+    - name: name
+      pdf_field_name: JV-733[0].Page1[0].P1Caption[0].AttSub[0].AttyPartyInfo[0].Name[0]
+      type: text
+      label: Name
+      required: false
+      width: full
+    - name: atty_firm
+      pdf_field_name: JV-733[0].Page1[0].P1Caption[0].AttSub[0].AttyPartyInfo[0].AttyFirm[0]
+      type: text
+      label: Atty Firm
+      required: false
+      width: full
+    - name: street
+      pdf_field_name: JV-733[0].Page1[0].P1Caption[0].AttSub[0].AttyPartyInfo[0].Street[0]
+      type: address
+      label: Street
+      required: false
+      width: full
+    - name: city
+      pdf_field_name: JV-733[0].Page1[0].P1Caption[0].AttSub[0].AttyPartyInfo[0].City[0]
+      type: address
+      label: City
+      required: false
+      width: full
+    - name: state
+      pdf_field_name: JV-733[0].Page1[0].P1Caption[0].AttSub[0].AttyPartyInfo[0].State[0]
+      type: address
+      label: State
+      required: false
+      width: full
+    - name: zip
+      pdf_field_name: JV-733[0].Page1[0].P1Caption[0].AttSub[0].AttyPartyInfo[0].Zip[0]
+      type: address
+      label: Zip
+      required: false
+      width: full
+    - name: phone
+      pdf_field_name: JV-733[0].Page1[0].P1Caption[0].AttSub[0].AttyPartyInfo[0].Phone[0]
+      type: tel
+      label: Phone
+      required: false
+      width: half
+    - name: fax
+      pdf_field_name: JV-733[0].Page1[0].P1Caption[0].AttSub[0].AttyPartyInfo[0].Fax[0]
+      type: tel
+      label: Fax
+      required: false
+      width: half
+    - name: email
+      pdf_field_name: JV-733[0].Page1[0].P1Caption[0].AttSub[0].AttyPartyInfo[0].Email[0]
+      type: email
+      label: Email
+      required: false
+      width: half
+    - name: atty_for
+      pdf_field_name: JV-733[0].Page1[0].P1Caption[0].AttSub[0].AttyPartyInfo[0].AttyFor[0]
+      type: text
+      label: Atty For
+      required: false
+      width: full
+    - name: crt_county
+      pdf_field_name: JV-733[0].Page1[0].P1Caption[0].AttSub[0].CourtInfo[0].CrtCounty[0]
+      type: number
+      label: Crt County
+      required: false
+      width: third
+    - name: crt_street
+      pdf_field_name: JV-733[0].Page1[0].P1Caption[0].AttSub[0].CourtInfo[0].CrtStreet[0]
+      type: address
+      label: Crt Street
+      required: false
+      width: full
+    - name: crt_mailing_add
+      pdf_field_name: JV-733[0].Page1[0].P1Caption[0].AttSub[0].CourtInfo[0].CrtMailingAdd[0]
+      type: address
+      label: Crt Mailing Add
+      required: false
+      width: full
+    - name: crt_city_zip
+      pdf_field_name: JV-733[0].Page1[0].P1Caption[0].AttSub[0].CourtInfo[0].CrtCityZip[0]
+      type: address
+      label: Crt City Zip
+      required: false
+      width: full
+    - name: crt_branch
+      pdf_field_name: JV-733[0].Page1[0].P1Caption[0].AttSub[0].CourtInfo[0].CrtBranch[0]
+      type: text
+      label: Crt Branch
+      required: false
+      width: full
+    - name: party1
+      pdf_field_name: JV-733[0].Page1[0].P1Caption[0].AttSub[0].TitlePartyName[0].Party1[0]
+      type: text
+      label: Party
+      required: false
+      width: full
+    - name: case_number
+      pdf_field_name: JV-733[0].Page1[0].P1Caption[0].StampSub[0].CaseSub[0].CaseNumber[0].CaseNumber[0]
+      type: text
+      label: Case Number
+      required: false
+      width: full
+      shared_key: case:number
+  list:
+    title: List
+    fields:
+    - name: youthsname
+      pdf_field_name: JV-733[0].Page1[0].List1[0].Li1[0].Youthsname[0]
+      type: text
+      label: Youthsname
+      required: false
+      width: full
+    - name: youth_dob
+      pdf_field_name: JV-733[0].Page1[0].List1[0].Li2[0].YouthDOB[0]
+      type: text
+      label: Youth Dob
+      required: false
+      width: full
+    - name: parentsorguardianname_1c
+      pdf_field_name: JV-733[0].Page1[0].List1[0].Li3[0].Parentsorguardianname_1c[0]
+      type: currency
+      label: Parentsorguardianname 1c
+      required: false
+      width: third
+    - name: add1c
+      pdf_field_name: JV-733[0].Page1[0].List1[0].Li3[0].Add1c[0]
+      type: text
+      label: Add1c
+      required: false
+      width: full
+    - name: phone1c
+      pdf_field_name: JV-733[0].Page1[0].List1[0].Li3[0].Phone1c[0]
+      type: tel
+      label: Phone1c
+      required: false
+      width: half
+    - name: eduright1d
+      pdf_field_name: JV-733[0].Page1[0].List1[0].Li4[0].Eduright1d[0]
+      type: text
+      label: Eduright1d
+      required: false
+      width: full
+    - name: doh2a
+      pdf_field_name: JV-733[0].Page1[0].List2[0].Li1[0].Doh2a[0]
+      type: text
+      label: Doh2a
+      required: false
+      width: full
+    - name: dept2a
+      pdf_field_name: JV-733[0].Page1[0].List2[0].Li1[0].Dept2a[0]
+      type: text
+      label: Dept2a
+      required: false
+      width: full
+    - name: room2a
+      pdf_field_name: JV-733[0].Page1[0].List2[0].Li1[0].Room2a[0]
+      type: text
+      label: Room2a
+      required: false
+      width: full
+    - name: j_oname2b
+      pdf_field_name: JV-733[0].Page1[0].List2[0].Li2[0].JOname2b[0]
+      type: text
+      label: J Oname2b
+      required: false
+      width: full
+    - name: cb_choice1
+      pdf_field_name: JV-733[0].Page1[0].List2[0].Li3[0].CBChoice1[0]
+      type: text
+      label: Cb Choice
+      required: false
+      width: full
+    - name: cb_choice2
+      pdf_field_name: JV-733[0].Page1[0].List2[0].Li3[0].CBChoice2[0]
+      type: text
+      label: Cb Choice
+      required: false
+      width: full
+    - name: cb_choice3
+      pdf_field_name: JV-733[0].Page1[0].List2[0].Li3[0].CBChoice3[0]
+      type: text
+      label: Cb Choice
+      required: false
+      width: full
+    - name: cb_choice4
+      pdf_field_name: JV-733[0].Page1[0].List2[0].Li3[0].CBChoice4[0]
+      type: text
+      label: Cb Choice
+      required: false
+      width: full
+    - name: cb_choice5
+      pdf_field_name: JV-733[0].Page1[0].List2[0].Li3[0].CBChoice5[0]
+      type: text
+      label: Cb Choice
+      required: false
+      width: full
+    - name: cb_choice6
+      pdf_field_name: JV-733[0].Page1[0].List2[0].Li3[0].CBChoice6[0]
+      type: text
+      label: Cb Choice
+      required: false
+      width: full
+    - name: cb_choice7
+      pdf_field_name: JV-733[0].Page1[0].List2[0].Li3[0].CBChoice7[0]
+      type: text
+      label: Cb Choice
+      required: false
+      width: full
+    - name: cb_choice1_2
+      pdf_field_name: JV-733[0].Page1[0].List3[0].Li1[0].CBChoice1[0]
+      type: text
+      label: Cb Choice
+      required: false
+      width: full
+    - name: cb_choice1_2
+      pdf_field_name: JV-733[0].Page1[0].List4[0].Li1[0].CBChoice1[0]
+      type: text
+      label: Cb Choice
+      required: false
+      width: full
+    - name: cb_choice1_2
+      pdf_field_name: JV-733[0].Page1[0].List5[0].Li1[0].CBChoice1[0]
+      type: text
+      label: Cb Choice
+      required: false
+      width: full
+    - name: cb_choice1_2
+      pdf_field_name: JV-733[0].Page1[0].List6[0].Li1[0].CBChoice1[0]
+      type: text
+      label: Cb Choice
+      required: false
+      width: full
+    - name: no6a_comoff
+      pdf_field_name: JV-733[0].Page1[0].List6[0].Li1[0].no6a_comoff[0]
+      type: text
+      label: No6a Comoff
+      required: false
+      width: full
+    - name: no6a_caterg
+      pdf_field_name: JV-733[0].Page1[0].List6[0].Li1[0].no6a_caterg[0]
+      type: text
+      label: No6a Caterg
+      required: false
+      width: full
+    - name: no6a_blineterm
+      pdf_field_name: JV-733[0].Page1[0].List6[0].Li1[0].No6a_Blineterm[0]
+      type: text
+      label: No6a Blineterm
+      required: false
+      width: full
+    - name: p_felony
+      pdf_field_name: JV-733[0].Page1[0].List6[0].Li2[0].PFelony[0]
+      type: text
+      label: P Felony
+      required: false
+      width: full
+    - name: midtermof
+      pdf_field_name: JV-733[0].Page1[0].List6[0].Li2[0].Midtermof[0]
+      type: text
+      label: Midtermof
+      required: false
+      width: full
+    - name: codesecfill
+      pdf_field_name: JV-733[0].Page1[0].List6[0].Li2[0].codesecfill[0]
+      type: text
+      label: Codesecfill
+      required: false
+      width: full
+    - name: text_field1
+      pdf_field_name: JV-733[0].Page1[0].List6[0].Li2[0].TextField1[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: fill_text1
+      pdf_field_name: JV-733[0].Page1[0].List6[0].Li2[0].FillText1[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: cb_choice1_2
+      pdf_field_name: JV-733[0].Page1[0].List6[0].Li2[0].CBChoice1[0]
+      type: text
+      label: Cb Choice
+      required: false
+      width: full
+    - name: text_field2
+      pdf_field_name: JV-733[0].Page1[0].List6[0].Li2[0].TextField2[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field3
+      pdf_field_name: JV-733[0].Page1[0].List6[0].Li2[0].TextField3[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field4
+      pdf_field_name: JV-733[0].Page1[0].List6[0].Li2[0].TextField4[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field5
+      pdf_field_name: JV-733[0].Page1[0].List6[0].Li2[0].TextField5[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: cb_choice2_2
+      pdf_field_name: JV-733[0].Page1[0].List6[0].Li2[0].CBChoice2[0]
+      type: text
+      label: Cb Choice
+      required: false
+      width: full
+    - name: text_field6
+      pdf_field_name: JV-733[0].Page1[0].List6[0].Li2[0].TextField6[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field7
+      pdf_field_name: JV-733[0].Page1[0].List6[0].Li2[0].TextField7[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field8
+      pdf_field_name: JV-733[0].Page1[0].List6[0].Li2[0].TextField8[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field9
+      pdf_field_name: JV-733[0].Page1[0].List6[0].Li2[0].TextField9[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: cb_choice3_2
+      pdf_field_name: JV-733[0].Page1[0].List6[0].Li2[0].CBChoice3[0]
+      type: text
+      label: Cb Choice
+      required: false
+      width: full
+    - name: text_field10
+      pdf_field_name: JV-733[0].Page1[0].List6[0].Li2[0].TextField10[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field11
+      pdf_field_name: JV-733[0].Page1[0].List6[0].Li2[0].TextField11[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field12
+      pdf_field_name: JV-733[0].Page1[0].List6[0].Li2[0].TextField12[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field13
+      pdf_field_name: JV-733[0].Page1[0].List6[0].Li2[0].TextField13[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: cb_choice4_2
+      pdf_field_name: JV-733[0].Page1[0].List6[0].Li2[0].CBChoice4[0]
+      type: text
+      label: Cb Choice
+      required: false
+      width: full
+    - name: text_field14
+      pdf_field_name: JV-733[0].Page1[0].List6[0].Li2[0].TextField14[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field15
+      pdf_field_name: JV-733[0].Page1[0].List6[0].Li2[0].TextField15[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field16
+      pdf_field_name: JV-733[0].Page1[0].List6[0].Li2[0].TextField16[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field17
+      pdf_field_name: JV-733[0].Page1[0].List6[0].Li2[0].TextField17[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: cb_choice5_2
+      pdf_field_name: JV-733[0].Page1[0].List6[0].Li2[0].CBChoice5[0]
+      type: text
+      label: Cb Choice
+      required: false
+      width: full
+    - name: text_field18
+      pdf_field_name: JV-733[0].Page1[0].List6[0].Li2[0].TextField18[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field19
+      pdf_field_name: JV-733[0].Page1[0].List6[0].Li2[0].TextField19[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field20
+      pdf_field_name: JV-733[0].Page1[0].List6[0].Li2[0].TextField20[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: cb_choice6_2
+      pdf_field_name: JV-733[0].Page1[0].List6[0].Li2[0].CBChoice6[0]
+      type: text
+      label: Cb Choice
+      required: false
+      width: full
+    - name: t200
+      pdf_field_name: JV-733[0].Page1[0].List6[0].Li2[0].t200[0]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: tf
+      pdf_field_name: JV-733[0].Page2[0].List7[0].Li1[0].tf[0]
+      type: text
+      label: Tf
+      required: false
+      width: full
+    - name: cb_choice1_2
+      pdf_field_name: JV-733[0].Page2[0].List8[0].Li1[0].CBChoice1[0]
+      type: text
+      label: Cb Choice
+      required: false
+      width: full
+    - name: fill_text1_2
+      pdf_field_name: JV-733[0].Page2[0].List8[0].Li1[0].FillText1[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: cb_choice1_2
+      pdf_field_name: JV-733[0].Page2[0].List9[0].Li1[0].CBChoice1[0]
+      type: text
+      label: Cb Choice
+      required: false
+      width: full
+    - name: fill_text1_2
+      pdf_field_name: JV-733[0].Page2[0].List9[0].Li1[0].FillText1[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: cb_choice1_2
+      pdf_field_name: JV-733[0].Page2[0].List10[0].Li1[0].CBChoice1[0]
+      type: text
+      label: Cb Choice
+      required: false
+      width: full
+    - name: item11abc
+      pdf_field_name: JV-733[0].Page2[0].List11[0].Li1[0].item11abc[0]
+      type: text
+      label: Item11abc
+      required: false
+      width: full
+    - name: cb_choice1_2
+      pdf_field_name: JV-733[0].Page2[0].List11[0].Li1[0].List[0].Li1[0].CBChoice1[0]
+      type: text
+      label: Cb Choice
+      required: false
+      width: full
+    - name: cb_choice1_2
+      pdf_field_name: JV-733[0].Page2[0].List11[0].Li1[0].List[0].Li2[0].CBChoice1[0]
+      type: text
+      label: Cb Choice
+      required: false
+      width: full
+    - name: item11abc_2
+      pdf_field_name: JV-733[0].Page2[0].List11[0].Li2[0].item11abc[0]
+      type: text
+      label: Item11abc
+      required: false
+      width: full
+    - name: item11abc_2
+      pdf_field_name: JV-733[0].Page2[0].List11[0].LI3[0].item11abc[0]
+      type: text
+      label: Item11abc
+      required: false
+      width: full
+    - name: date
+      pdf_field_name: JV-733[0].Page2[0].List12[0].Li1[0].Date[0]
+      type: date
+      label: Date
+      required: false
+      width: half
+    - name: cb_choice1_2
+      pdf_field_name: JV-733[0].Page2[0].List12[0].Li1[0].CBChoice1[0]
+      type: text
+      label: Cb Choice
+      required: false
+      width: full
+    - name: d1
+      pdf_field_name: JV-733[0].Page2[0].List12[0].Li1[0].D1[0]
+      type: text
+      label: D
+      required: false
+      width: full
+    - name: fill_text1_2
+      pdf_field_name: JV-733[0].Page2[0].List12[0].Li1[0].FillText1[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text2
+      pdf_field_name: JV-733[0].Page2[0].List12[0].Li1[0].FillText2[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: item13cb
+      pdf_field_name: JV-733[0].Page2[0].List13[0].Li1[0].item13cb[0]
+      type: text
+      label: Item13cb
+      required: false
+      width: full
+    - name: item13cb_2
+      pdf_field_name: JV-733[0].Page2[0].List13[0].Li1[0].item13cb[1]
+      type: text
+      label: Item13cb
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: JV-733[0].Page2[0].List13[0].Li1[0].TextField6[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: cb_choice1_2
+      pdf_field_name: JV-733[0].Page2[0].List13[0].Li1[0].CBChoice1[0]
+      type: text
+      label: Cb Choice
+      required: false
+      width: full
+    - name: cb_choice1_2
+      pdf_field_name: JV-733[0].Page2[0].List14[0].Li1[0].CBChoice1[0]
+      type: text
+      label: Cb Choice
+      required: false
+      width: full
+    - name: cb_choice1_2
+      pdf_field_name: JV-733[0].Page2[0].List15[0].Li1[0].CBChoice1[0]
+      type: text
+      label: Cb Choice
+      required: false
+      width: full
+    - name: cb_choice1_2
+      pdf_field_name: JV-733[0].Page2[0].List16[0].Li1[0].CBChoice1[0]
+      type: text
+      label: Cb Choice
+      required: false
+      width: full
+    - name: cb_choice2_2
+      pdf_field_name: JV-733[0].Page2[0].List16[0].Li1[0].CBChoice2[0]
+      type: text
+      label: Cb Choice
+      required: false
+      width: full
+    - name: cb_choice1_2
+      pdf_field_name: JV-733[0].Page2[0].List16[0].Li2[0].CBChoice1[0]
+      type: text
+      label: Cb Choice
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: JV-733[0].Page2[0].List16[0].Li2[0].TextField6[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: cb_choice1_2
+      pdf_field_name: JV-733[0].Page2[0].List17[0].Li1[0].CBChoice1[0]
+      type: text
+      label: Cb Choice
+      required: false
+      width: full
+    - name: fill_text1_2
+      pdf_field_name: JV-733[0].Page2[0].List17[0].Li1[0].FillText1[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text2_2
+      pdf_field_name: JV-733[0].Page2[0].List17[0].Li1[0].FillText2[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text3
+      pdf_field_name: JV-733[0].Page2[0].List17[0].Li1[0].FillText3[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+  last_page:
+    title: Last Page
+    fields:
+    - name: print
+      pdf_field_name: JV-733[0].#pageSet[0].LastPage[0].FooterButtons[0].Print[0]
+      type: checkbox
+      label: Print
+      required: false
+      width: full
+    - name: save
+      pdf_field_name: JV-733[0].#pageSet[0].LastPage[0].FooterButtons[0].Save[0]
+      type: checkbox
+      label: Save
+      required: false
+      width: full
+    - name: reset
+      pdf_field_name: JV-733[0].#pageSet[0].LastPage[0].FooterButtons[0].Reset[0]
+      type: checkbox
+      label: Reset
+      required: false
+      width: full
+    - name: warning
+      pdf_field_name: JV-733[0].#pageSet[0].LastPage[0].FooterButtons[0].Warning[0]
+      type: checkbox
+      label: Warning
+      required: false
+      width: full
+  px_caption:
+    title: Px Caption
+    fields:
+    - name: party1_2
+      pdf_field_name: JV-733[0].Page2[0].PxCaption[0].PartySub[0].TitlePartyName[0].Party1[0]
+      type: text
+      label: Party
+      required: false
+      width: full
+    - name: case_number_2
+      pdf_field_name: JV-733[0].Page2[0].PxCaption[0].CN[0].CaseNumber[0].CaseNumber[0]
+      type: text
+      label: Case Number
+      required: false
+      width: full
+      shared_key: case:number
+  sign_sub:
+    title: Sign Sub
+    fields:
+    - name: sig_date
+      pdf_field_name: JV-733[0].Page2[0].SignSub[0].SigDate[0]
+      type: date
+      label: Sig Date
+      required: false
+      width: half

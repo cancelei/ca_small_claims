@@ -1,0 +1,288 @@
+---
+form:
+  code: CR-302
+  title: CR 302 Form
+  description: ''
+  category: criminal/general
+  pdf_filename: cr302.pdf
+  fillable: true
+  instructions: ''
+sections:
+  signature_dt:
+    title: Signature Dt
+    fields:
+    - name: signature_dt
+      pdf_field_name: topmostSubform[0].Page1[0].Signature_dt[0]
+      type: signature
+      label: Signature Dt
+      required: false
+      width: full
+    - name: signature_dt_2
+      pdf_field_name: topmostSubform[0].Page1[0].Signature_dt[1]
+      type: signature
+      label: Signature Dt
+      required: false
+      width: full
+    - name: signature_dt_2
+      pdf_field_name: topmostSubform[0].Page1[0].Signature_dt[2]
+      type: signature
+      label: Signature Dt
+      required: false
+      width: full
+    - name: signature_dt_2
+      pdf_field_name: topmostSubform[0].Page1[0].Signature_dt[3]
+      type: signature
+      label: Signature Dt
+      required: false
+      width: full
+  probation_granted_reason:
+    title: Probation Granted Reason
+    fields:
+    - name: probation_granted_reason
+      pdf_field_name: topmostSubform[0].Page1[0].ProbationGrantedReason[0]
+      type: text
+      label: Probation Granted Reason
+      required: false
+      width: full
+    - name: probation_granted_reason_2
+      pdf_field_name: topmostSubform[0].Page1[0].ProbationGrantedReason[1]
+      type: text
+      label: Probation Granted Reason
+      required: false
+      width: full
+    - name: probation_granted_reason_2
+      pdf_field_name: topmostSubform[0].Page1[0].ProbationGrantedReason[2]
+      type: text
+      label: Probation Granted Reason
+      required: false
+      width: full
+    - name: probation_granted_reason_2
+      pdf_field_name: topmostSubform[0].Page1[0].ProbationGrantedReason[3]
+      type: text
+      label: Probation Granted Reason
+      required: false
+      width: full
+    - name: probation_granted_reason_2
+      pdf_field_name: topmostSubform[0].Page1[0].ProbationGrantedReason[4]
+      type: text
+      label: Probation Granted Reason
+      required: false
+      width: full
+    - name: probation_granted_reason_2
+      pdf_field_name: topmostSubform[0].Page1[0].ProbationGrantedReason[5]
+      type: text
+      label: Probation Granted Reason
+      required: false
+      width: full
+    - name: probation_granted_reason_2
+      pdf_field_name: topmostSubform[0].Page1[0].ProbationGrantedReason[6]
+      type: text
+      label: Probation Granted Reason
+      required: false
+      width: full
+    - name: probation_granted_reason_2
+      pdf_field_name: topmostSubform[0].Page1[0].ProbationGrantedReason[7]
+      type: text
+      label: Probation Granted Reason
+      required: false
+      width: full
+  radio_button_list:
+    title: Radio Button List
+    fields:
+    - name: radio_button_list
+      pdf_field_name: topmostSubform[0].Page1[0].RadioButtonList[0]
+      type: text
+      label: Radio Button List
+      required: false
+      width: full
+  text_field:
+    title: Text Field
+    fields:
+    - name: text_field5
+      pdf_field_name: topmostSubform[0].Page1[0].TextField5[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field11
+      pdf_field_name: topmostSubform[0].Page1[0].TextField11[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6
+      pdf_field_name: topmostSubform[0].Page1[0].TextField6[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field5_2
+      pdf_field_name: topmostSubform[0].Page1[0].TextField5[1]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field5_2
+      pdf_field_name: topmostSubform[0].Page1[0].TextField5[2]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field5_2
+      pdf_field_name: topmostSubform[0].Page1[0].TextField5[3]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field5_2
+      pdf_field_name: topmostSubform[0].Page1[0].TextField5[4]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field5_2
+      pdf_field_name: topmostSubform[0].Page1[0].TextField5[5]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field5_2
+      pdf_field_name: topmostSubform[0].Page1[0].TextField5[6]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field12
+      pdf_field_name: topmostSubform[0].Page1[0].TextField12[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field5_2
+      pdf_field_name: topmostSubform[0].Page1[0].TextField5[7]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field5_2
+      pdf_field_name: topmostSubform[0].Page1[0].TextField5[8]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+  caption_to_fix:
+    title: Caption To Fix
+    fields:
+    - name: text_field1
+      pdf_field_name: topmostSubform[0].Page1[0].caption-toFix[0].AddInfo[0].TextField1[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field9
+      pdf_field_name: topmostSubform[0].Page1[0].caption-toFix[0].AddInfo[0].TextField9[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field1_2
+      pdf_field_name: topmostSubform[0].Page1[0].caption-toFix[0].AddInfo[0].TextField1[1]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field1_2
+      pdf_field_name: topmostSubform[0].Page1[0].caption-toFix[0].AddInfo[0].TextField1[2]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field1_2
+      pdf_field_name: topmostSubform[0].Page1[0].caption-toFix[0].AddInfo[0].TextField1[3]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: defendant_ft
+      pdf_field_name: topmostSubform[0].Page1[0].caption-toFix[0].CaseName[0].Defendant_ft[0]
+      type: text
+      label: Defendant Ft
+      required: false
+      width: full
+      shared_key: defendant:name
+    - name: check_box4
+      pdf_field_name: topmostSubform[0].Page1[0].caption-toFix[0].FormTitle[0].CheckBox4[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box4_2
+      pdf_field_name: topmostSubform[0].Page1[0].caption-toFix[0].FormTitle[0].CheckBox4[1]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: case_number_ft
+      pdf_field_name: topmostSubform[0].Page1[0].caption-toFix[0].CaseNumber[0].CaseNumber_ft[0]
+      type: text
+      label: Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+    - name: case_number_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].caption-toFix[0].CaseNumber_ft[0]
+      type: text
+      label: Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+    - name: case_number_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].caption-toFix[0].CaseNumber_ft[1]
+      type: text
+      label: Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+    - name: case_number_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].caption-toFix[0].CaseNumber_ft[2]
+      type: text
+      label: Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+  print_bt:
+    title: Print Bt
+    fields:
+    - name: print_bt
+      pdf_field_name: topmostSubform[0].Page1[0].Print_bt[0]
+      type: checkbox
+      label: Print Bt
+      required: false
+      width: full
+  save_bt:
+    title: Save Bt
+    fields:
+    - name: save_bt
+      pdf_field_name: topmostSubform[0].Page1[0].Save_bt[0]
+      type: checkbox
+      label: Save Bt
+      required: false
+      width: full
+  reset_bt:
+    title: Reset Bt
+    fields:
+    - name: reset_bt
+      pdf_field_name: topmostSubform[0].Page1[0].Reset_bt[0]
+      type: checkbox
+      label: Reset Bt
+      required: false
+      width: full
+  t:
+    title: T
+    fields:
+    - name: t23
+      pdf_field_name: topmostSubform[0].Page1[0].T23[0]
+      type: checkbox
+      label: T
+      required: false
+      width: full

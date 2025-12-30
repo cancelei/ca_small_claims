@@ -1,0 +1,358 @@
+---
+form:
+  code: CR-132
+  title: CR 132 Form
+  description: ''
+  category: criminal/general
+  pdf_filename: cr132.pdf
+  fillable: true
+  instructions: ''
+sections:
+  caption_right_p1_sf:
+    title: Caption Right P1 Sf
+    fields:
+    - name: court_info_ft
+      pdf_field_name: CR-132[0].Page1[0].CaptionRightP1_sf[0].CourtInfo_ft[0]
+      type: text
+      label: Court Info Ft
+      required: false
+      width: full
+    - name: case_number_ft
+      pdf_field_name: CR-132[0].Page1[0].CaptionRightP1_sf[0].CaseNumber_ft[0]
+      type: text
+      label: Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+    - name: app_case_number
+      pdf_field_name: CR-132[0].Page1[0].CaptionRightP1_sf[0].AppCaseNumber[0]
+      type: text
+      label: App Case Number
+      required: false
+      width: full
+      shared_key: case:number
+    - name: case_name
+      pdf_field_name: CR-132[0].Page1[0].CaptionRightP1_sf[0].CaseName[0]
+      type: text
+      label: Case Name
+      required: false
+      width: full
+  t:
+    title: T
+    fields:
+    - name: t140
+      pdf_field_name: CR-132[0].Page1[0].T140[0]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t141
+      pdf_field_name: CR-132[0].Page1[0].T141[0]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t158
+      pdf_field_name: CR-132[0].Page1[0].T158[0]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t159
+      pdf_field_name: CR-132[0].Page1[0].T159[0]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t186
+      pdf_field_name: CR-132[0].Page1[0].T186[0]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t140_2
+      pdf_field_name: CR-132[0].Page1[0].T140[1]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t140_2
+      pdf_field_name: CR-132[0].Page1[0].T140[2]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t141_2
+      pdf_field_name: CR-132[0].Page1[0].T141[1]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t59
+      pdf_field_name: CR-132[0].Page1[0].T59[0]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t59_2
+      pdf_field_name: CR-132[0].Page1[0].T59[1]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t3
+      pdf_field_name: CR-132[0].Page2[0].T3[0]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t11
+      pdf_field_name: CR-132[0].Page2[0].T11[0]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t58
+      pdf_field_name: CR-132[0].Page2[0].T58[0]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t58_2
+      pdf_field_name: CR-132[0].Page2[0].T58[1]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t58_2
+      pdf_field_name: CR-132[0].Page2[0].T58[2]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t58_2
+      pdf_field_name: CR-132[0].Page2[0].T58[3]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t56
+      pdf_field_name: CR-132[0].Page2[0].T56[0]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t56_2
+      pdf_field_name: CR-132[0].Page2[0].T56[1]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t56_2
+      pdf_field_name: CR-132[0].Page2[0].T56[2]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t51
+      pdf_field_name: CR-132[0].Page2[0].#area[1].T51[0]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t51_2
+      pdf_field_name: CR-132[0].Page2[0].#area[1].T51[1]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t23
+      pdf_field_name: CR-132[0].Page2[0].T23[0]
+      type: checkbox
+      label: T
+      required: false
+      width: full
+  fill_text:
+    title: Fill Text
+    fields:
+    - name: fill_text38
+      pdf_field_name: CR-132[0].Page1[0].FillText38[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text37
+      pdf_field_name: CR-132[0].Page1[0].FillText37[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text38_2
+      pdf_field_name: CR-132[0].Page1[0].FillText38[1]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text37_2
+      pdf_field_name: CR-132[0].Page1[0].FillText37[1]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text38_2
+      pdf_field_name: CR-132[0].Page1[0].FillText38[2]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text38_2
+      pdf_field_name: CR-132[0].Page1[0].FillText38[3]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text37_2
+      pdf_field_name: CR-132[0].Page1[0].FillText37[2]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text37_2
+      pdf_field_name: CR-132[0].Page1[0].FillText37[3]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text38_2
+      pdf_field_name: CR-132[0].Page1[0].FillText38[4]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text37_2
+      pdf_field_name: CR-132[0].Page1[0].FillText37[4]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text38_2
+      pdf_field_name: CR-132[0].Page1[0].FillText38[5]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text37_2
+      pdf_field_name: CR-132[0].Page1[0].FillText37[5]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text38_2
+      pdf_field_name: CR-132[0].Page1[0].FillText38[6]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text38_2
+      pdf_field_name: CR-132[0].Page1[0].FillText38[7]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text37_2
+      pdf_field_name: CR-132[0].Page1[0].FillText37[6]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text37_2
+      pdf_field_name: CR-132[0].Page1[0].FillText37[7]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text51
+      pdf_field_name: CR-132[0].Page2[0].#area[0].FillText51[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text51_2
+      pdf_field_name: CR-132[0].Page2[0].FillText51[1]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+  client_represented_gp:
+    title: Client Represented Gp
+    fields:
+    - name: client_represented_gp
+      pdf_field_name: CR-132[0].Page2[0].ClientRepresented_gp[0]
+      type: text
+      label: Client Represented Gp
+      required: false
+      width: full
+    - name: client_represented_gp_2
+      pdf_field_name: CR-132[0].Page2[0].ClientRepresented_gp[1]
+      type: text
+      label: Client Represented Gp
+      required: false
+      width: full
+  record_rb:
+    title: Record Rb
+    fields:
+    - name: record_rb
+      pdf_field_name: CR-132[0].Page2[0].Record_rb[0]
+      type: text
+      label: Record Rb
+      required: false
+      width: full
+    - name: record_rb_2
+      pdf_field_name: CR-132[0].Page2[0].Record_rb[1]
+      type: text
+      label: Record Rb
+      required: false
+      width: full
+  header:
+    title: Header
+    fields:
+    - name: case_name_2
+      pdf_field_name: CR-132[0].Page2[0].Header[0].CaseName[0]
+      type: text
+      label: Case Name
+      required: false
+      width: full
+    - name: case_number
+      pdf_field_name: CR-132[0].Page2[0].Header[0].CaseNumber[0]
+      type: text
+      label: Case Number
+      required: false
+      width: full
+      shared_key: case:number
+  print_bt:
+    title: Print Bt
+    fields:
+    - name: print_bt
+      pdf_field_name: CR-132[0].Page2[0].Print_bt[0]
+      type: checkbox
+      label: Print Bt
+      required: false
+      width: full
+  save_bt:
+    title: Save Bt
+    fields:
+    - name: save_bt
+      pdf_field_name: CR-132[0].Page2[0].Save_bt[0]
+      type: checkbox
+      label: Save Bt
+      required: false
+      width: full
+  reset_bt:
+    title: Reset Bt
+    fields:
+    - name: reset_bt
+      pdf_field_name: CR-132[0].Page2[0].Reset_bt[0]
+      type: checkbox
+      label: Reset Bt
+      required: false
+      width: full

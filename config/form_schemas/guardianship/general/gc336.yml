@@ -1,0 +1,109 @@
+---
+form:
+  code: GC-336
+  title: GC 336 Form
+  description: ''
+  category: guardianship/general
+  pdf_filename: gc336.pdf
+  fillable: true
+  instructions: ''
+sections:
+  general:
+    title: General
+    fields:
+    - name: fill_text41
+      pdf_field_name: FillText41
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text4
+      pdf_field_name: FillText4
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: check_box1
+      pdf_field_name: CheckBox1
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box2
+      pdf_field_name: CheckBox2
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: fill_text13
+      pdf_field_name: FillText13
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text19
+      pdf_field_name: FillText19
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: check_box5
+      pdf_field_name: CheckBox5
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: fill_text6
+      pdf_field_name: FillText6
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text1
+      pdf_field_name: FillText1
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text2
+      pdf_field_name: FillText2
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text3
+      pdf_field_name: FillText3
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text18
+      pdf_field_name: FillText18
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text21
+      pdf_field_name: FillText21
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text20
+      pdf_field_name: FillText20
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text31
+      pdf_field_name: FillText31
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text5
+      pdf_field_name: FillText5
+      type: text
+      label: Fill Text
+      required: false
+      width: full

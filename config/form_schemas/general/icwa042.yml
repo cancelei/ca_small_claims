@@ -1,0 +1,330 @@
+---
+form:
+  code: ICWA-042
+  title: ICWA 042 Form
+  description: ''
+  category: general
+  pdf_filename: icwa042.pdf
+  fillable: true
+  instructions: ''
+sections:
+  footer_buttons:
+    title: Footer Buttons
+    fields:
+    - name: print
+      pdf_field_name: ICWA-042[0].#pageSet[0].Page1[0].FooterButtons[0].Print[0]
+      type: checkbox
+      label: Print
+      required: false
+      width: full
+    - name: save
+      pdf_field_name: ICWA-042[0].#pageSet[0].Page1[0].FooterButtons[0].Save[0]
+      type: checkbox
+      label: Save
+      required: false
+      width: full
+    - name: reset
+      pdf_field_name: ICWA-042[0].#pageSet[0].Page1[0].FooterButtons[0].Reset[0]
+      type: checkbox
+      label: Reset
+      required: false
+      width: full
+    - name: warning
+      pdf_field_name: ICWA-042[0].#pageSet[0].Page1[0].FooterButtons[0].Warning[0]
+      type: checkbox
+      label: Warning
+      required: false
+      width: full
+  p1_caption:
+    title: P1 Caption
+    fields:
+    - name: crt_county
+      pdf_field_name: ICWA-042[0].Page1[0].P1Caption[0].CourtInfo[0].CrtCounty[0]
+      type: number
+      label: Crt County
+      required: false
+      width: third
+    - name: crt_street
+      pdf_field_name: ICWA-042[0].Page1[0].P1Caption[0].CourtInfo[0].CrtStreet[0]
+      type: address
+      label: Crt Street
+      required: false
+      width: full
+    - name: crt_mailing_add
+      pdf_field_name: ICWA-042[0].Page1[0].P1Caption[0].CourtInfo[0].CrtMailingAdd[0]
+      type: address
+      label: Crt Mailing Add
+      required: false
+      width: full
+    - name: crt_city_zip
+      pdf_field_name: ICWA-042[0].Page1[0].P1Caption[0].CourtInfo[0].CrtCityZip[0]
+      type: address
+      label: Crt City Zip
+      required: false
+      width: full
+    - name: crt_branch
+      pdf_field_name: ICWA-042[0].Page1[0].P1Caption[0].CourtInfo[0].CrtBranch[0]
+      type: text
+      label: Crt Branch
+      required: false
+      width: full
+    - name: party1
+      pdf_field_name: ICWA-042[0].Page1[0].P1Caption[0].TitlePartyName[0].Party1[0]
+      type: text
+      label: Party
+      required: false
+      width: full
+    - name: case_number
+      pdf_field_name: ICWA-042[0].Page1[0].P1Caption[0].CaseNumber[0].CaseNumber[0]
+      type: text
+      label: Case Number
+      required: false
+      width: full
+      shared_key: case:number
+    - name: related_cases
+      pdf_field_name: ICWA-042[0].Page1[0].P1Caption[0].CaseNumber[0].RelatedCases[0]
+      type: text
+      label: Related Cases
+      required: false
+      width: full
+      shared_key: case:number
+    - name: atty_bar_no
+      pdf_field_name: ICWA-042[0].Page1[0].P1Caption[0].AttyPartyInfo[0].AttyBarNo[0]
+      type: text
+      label: Atty Bar No
+      required: false
+      width: full
+    - name: name
+      pdf_field_name: ICWA-042[0].Page1[0].P1Caption[0].AttyPartyInfo[0].Name[0]
+      type: text
+      label: Name
+      required: false
+      width: full
+    - name: atty_firm
+      pdf_field_name: ICWA-042[0].Page1[0].P1Caption[0].AttyPartyInfo[0].AttyFirm[0]
+      type: text
+      label: Atty Firm
+      required: false
+      width: full
+    - name: street
+      pdf_field_name: ICWA-042[0].Page1[0].P1Caption[0].AttyPartyInfo[0].Street[0]
+      type: address
+      label: Street
+      required: false
+      width: full
+    - name: city
+      pdf_field_name: ICWA-042[0].Page1[0].P1Caption[0].AttyPartyInfo[0].City[0]
+      type: address
+      label: City
+      required: false
+      width: full
+    - name: state
+      pdf_field_name: ICWA-042[0].Page1[0].P1Caption[0].AttyPartyInfo[0].State[0]
+      type: address
+      label: State
+      required: false
+      width: full
+    - name: zip
+      pdf_field_name: ICWA-042[0].Page1[0].P1Caption[0].AttyPartyInfo[0].Zip[0]
+      type: address
+      label: Zip
+      required: false
+      width: full
+    - name: phone
+      pdf_field_name: ICWA-042[0].Page1[0].P1Caption[0].AttyPartyInfo[0].Phone[0]
+      type: tel
+      label: Phone
+      required: false
+      width: half
+    - name: fax
+      pdf_field_name: ICWA-042[0].Page1[0].P1Caption[0].AttyPartyInfo[0].Fax[0]
+      type: tel
+      label: Fax
+      required: false
+      width: half
+    - name: email
+      pdf_field_name: ICWA-042[0].Page1[0].P1Caption[0].AttyPartyInfo[0].Email[0]
+      type: email
+      label: Email
+      required: false
+      width: half
+    - name: atty_for
+      pdf_field_name: ICWA-042[0].Page1[0].P1Caption[0].AttyPartyInfo[0].AttyFor[0]
+      type: text
+      label: Atty For
+      required: false
+      width: full
+  fill_text:
+    title: Fill Text
+    fields:
+    - name: fill_text1
+      pdf_field_name: ICWA-042[0].Page1[0].FillText1[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+  check_box_right_caption:
+    title: Check Box Right Caption
+    fields:
+    - name: check_box_right_caption
+      pdf_field_name: ICWA-042[0].Page1[0].CheckBoxRightCaption[0]
+      type: checkbox
+      label: Check Box Right Caption
+      required: false
+      width: full
+    - name: check_box_right_caption1
+      pdf_field_name: ICWA-042[0].Page1[0].CheckBoxRightCaption1[0]
+      type: checkbox
+      label: Check Box Right Caption
+      required: false
+      width: full
+  childis:
+    title: Childis
+    fields:
+    - name: childis2
+      pdf_field_name: ICWA-042[0].Page1[0].childis2[0]
+      type: text
+      label: Childis
+      required: false
+      width: full
+    - name: childis2_2
+      pdf_field_name: ICWA-042[0].Page1[0].childis2[1]
+      type: text
+      label: Childis
+      required: false
+      width: full
+    - name: childis2_2
+      pdf_field_name: ICWA-042[0].Page1[0].childis2[2]
+      type: text
+      label: Childis
+      required: false
+      width: full
+  tribeis:
+    title: Tribeis
+    fields:
+    - name: tribeis3
+      pdf_field_name: ICWA-042[0].Page1[0].tribeis3[0]
+      type: text
+      label: Tribeis
+      required: false
+      width: full
+    - name: tribeis3_2
+      pdf_field_name: ICWA-042[0].Page1[0].tribeis3[1]
+      type: text
+      label: Tribeis
+      required: false
+      width: full
+    - name: tribeis3_2
+      pdf_field_name: ICWA-042[0].Page1[0].tribeis3[2]
+      type: text
+      label: Tribeis
+      required: false
+      width: full
+  name:
+    title: Name
+    fields:
+    - name: name_2
+      pdf_field_name: ICWA-042[0].Page1[0].Name[0]
+      type: text
+      label: Name
+      required: false
+      width: full
+  title:
+    title: Title
+    fields:
+    - name: title
+      pdf_field_name: ICWA-042[0].Page1[0].Title[0]
+      type: text
+      label: Title
+      required: false
+      width: full
+  address:
+    title: Address
+    fields:
+    - name: address
+      pdf_field_name: ICWA-042[0].Page1[0].Address[0]
+      type: address
+      label: Address
+      required: false
+      width: full
+  city:
+    title: City
+    fields:
+    - name: city_2
+      pdf_field_name: ICWA-042[0].Page1[0].City[0]
+      type: address
+      label: City
+      required: false
+      width: full
+  state:
+    title: State
+    fields:
+    - name: state_2
+      pdf_field_name: ICWA-042[0].Page1[0].State[0]
+      type: address
+      label: State
+      required: false
+      width: full
+  zip_code:
+    title: Zip Code
+    fields:
+    - name: zip_code
+      pdf_field_name: ICWA-042[0].Page1[0].ZipCode[0]
+      type: address
+      label: Zip Code
+      required: false
+      width: full
+  telephone:
+    title: Telephone
+    fields:
+    - name: telephone
+      pdf_field_name: ICWA-042[0].Page1[0].Telephone[0]
+      type: tel
+      label: Telephone
+      required: false
+      width: half
+  fax:
+    title: Fax
+    fields:
+    - name: fax_2
+      pdf_field_name: ICWA-042[0].Page1[0].Fax[0]
+      type: tel
+      label: Fax
+      required: false
+      width: half
+  email:
+    title: Email
+    fields:
+    - name: email_2
+      pdf_field_name: ICWA-042[0].Page1[0].Email[0]
+      type: email
+      label: Email
+      required: false
+      width: half
+  checkbox:
+    title: Checkbox
+    fields:
+    - name: checkbox
+      pdf_field_name: ICWA-042[0].Page1[0].Checkbox[0]
+      type: checkbox
+      label: Checkbox
+      required: false
+      width: full
+  sig_date:
+    title: Sig Date
+    fields:
+    - name: sig_date
+      pdf_field_name: ICWA-042[0].Page1[0].SigDate[0]
+      type: date
+      label: Sig Date
+      required: false
+      width: half
+  sig_name:
+    title: Sig Name
+    fields:
+    - name: sig_name
+      pdf_field_name: ICWA-042[0].Page1[0].SigName[0]
+      type: text
+      label: Sig Name
+      required: false
+      width: full

@@ -1,0 +1,269 @@
+---
+form:
+  code: FL-982
+  title: FL 982 Form
+  description: ''
+  category: family_law/general
+  pdf_filename: fl982.pdf
+  fillable: true
+  instructions: ''
+sections:
+  general:
+    title: General
+    fields:
+    - name: atty1
+      pdf_field_name: Atty1
+      type: text
+      label: Atty
+      required: false
+      width: full
+    - name: atty2
+      pdf_field_name: Atty2
+      type: text
+      label: Atty
+      required: false
+      width: full
+    - name: atty3
+      pdf_field_name: Atty3
+      type: text
+      label: Atty
+      required: false
+      width: full
+    - name: atty4
+      pdf_field_name: Atty4
+      type: text
+      label: Atty
+      required: false
+      width: full
+    - name: tel
+      pdf_field_name: Tel
+      type: tel
+      label: Tel
+      required: false
+      width: half
+    - name: fax
+      pdf_field_name: Fax
+      type: tel
+      label: Fax
+      required: false
+      width: half
+    - name: email
+      pdf_field_name: email
+      type: email
+      label: Email
+      required: false
+      width: half
+    - name: for
+      pdf_field_name: Attorney.for
+      type: text
+      label: For
+      required: false
+      width: full
+    - name: county
+      pdf_field_name: Court.County
+      type: number
+      label: County
+      required: false
+      width: third
+    - name: street
+      pdf_field_name: Court.street
+      type: address
+      label: Street
+      required: false
+      width: full
+    - name: mailing
+      pdf_field_name: Court.mailing
+      type: address
+      label: Mailing
+      required: false
+      width: full
+    - name: branch
+      pdf_field_name: Court.branch
+      type: text
+      label: Branch
+      required: false
+      width: full
+    - name: choice
+      pdf_field_name: type.choice
+      type: text
+      label: Choice
+      required: false
+      width: full
+    - name: type
+      pdf_field_name: type
+      type: text
+      label: Type
+      required: false
+      width: full
+    - name: cb01
+      pdf_field_name: CB01
+      type: checkbox
+      label: Cb
+      required: false
+      width: full
+    - name: tf01
+      pdf_field_name: TF01
+      type: text
+      label: Tf
+      required: false
+      width: full
+    - name: tf02location
+      pdf_field_name: TF02Location
+      type: address
+      label: Tf02 Location
+      required: false
+      width: full
+    - name: cb02
+      pdf_field_name: CB02
+      type: checkbox
+      label: Cb
+      required: false
+      width: full
+    - name: cb03a
+      pdf_field_name: CB03a
+      type: checkbox
+      label: Cb03a
+      required: false
+      width: full
+    - name: cb03b
+      pdf_field_name: CB03b
+      type: checkbox
+      label: Cb03b
+      required: false
+      width: full
+    - name: tf02address
+      pdf_field_name: TF02Address
+      type: address
+      label: Tf02 Address
+      required: false
+      width: full
+    - name: cb03
+      pdf_field_name: CB03
+      type: checkbox
+      label: Cb
+      required: false
+      width: full
+    - name: cb04a
+      pdf_field_name: CB04a
+      type: checkbox
+      label: Cb04a
+      required: false
+      width: full
+    - name: cb04b
+      pdf_field_name: CB04b
+      type: checkbox
+      label: Cb04b
+      required: false
+      width: full
+    - name: cb04c
+      pdf_field_name: CB04c
+      type: checkbox
+      label: Cb04c
+      required: false
+      width: full
+    - name: tf03b
+      pdf_field_name: TF03b
+      type: text
+      label: Tf03b
+      required: false
+      width: full
+    - name: cb04
+      pdf_field_name: CB04
+      type: checkbox
+      label: Cb
+      required: false
+      width: full
+    - name: tf05time
+      pdf_field_name: TF05Time
+      type: text
+      label: Tf05 Time
+      required: false
+      width: full
+    - name: tf05dpt
+      pdf_field_name: TF05Dpt
+      type: text
+      label: Tf05 Dpt
+      required: false
+      width: full
+    - name: cb05
+      pdf_field_name: CB05
+      type: checkbox
+      label: Cb
+      required: false
+      width: full
+    - name: cb06a
+      pdf_field_name: CB06a
+      type: checkbox
+      label: Cb06a
+      required: false
+      width: full
+    - name: cb06b
+      pdf_field_name: CB06b
+      type: checkbox
+      label: Cb06b
+      required: false
+      width: full
+    - name: cb06c
+      pdf_field_name: CB06c
+      type: checkbox
+      label: Cb06c
+      required: false
+      width: full
+    - name: tf04c
+      pdf_field_name: TF04c
+      type: text
+      label: Tf04c
+      required: false
+      width: full
+    - name: tf06c
+      pdf_field_name: TF06c
+      type: text
+      label: Tf06c
+      required: false
+      width: full
+    - name: tf05date
+      pdf_field_name: TF05Date
+      type: date
+      label: Tf05 Date
+      required: false
+      width: half
+    - name: order_date
+      pdf_field_name: OrderDate
+      type: date
+      label: Order Date
+      required: false
+      width: half
+    - name: other
+      pdf_field_name: Other
+      type: text
+      label: Other
+      required: false
+      width: full
+    - name: respondent
+      pdf_field_name: Respondent
+      type: text
+      label: Respondent
+      required: false
+      width: full
+    - name: petitioner
+      pdf_field_name: Petitioner
+      type: text
+      label: Petitioner
+      required: false
+      width: full
+    - name: case_number
+      pdf_field_name: CaseNumber
+      type: text
+      label: Case Number
+      required: false
+      width: full
+      shared_key: case:number
+  city:
+    title: City
+    fields:
+    - name: zip
+      pdf_field_name: Court.City.zip
+      type: address
+      label: Zip
+      required: false
+      width: full

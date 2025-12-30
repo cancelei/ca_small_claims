@@ -1,127 +1,231 @@
 <% content_for :title, "#{@form_definition.code} - #{@form_definition.title}" %>
 
-<div class="mb-6">
-  <%= link_to "← Back to Forms", forms_path, class: "text-blue-600 hover:text-blue-800" %>
+<%# Wrap entire page content in view-toggle controller for proper target scope %>
+<div data-controller="view-toggle">
+
+<%# Back Link %>
+<div class="mb-4">
+  <%= link_to forms_path, class: "inline-flex items-center gap-1 text-primary hover:text-primary-focus transition-colors" do %>
+    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path>
+    </svg>
+    Back to Forms
+  <% end %>
 </div>
 
-<div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
-  <!-- Form -->
-  <div class="lg:col-span-2">
-    <div class="bg-white rounded-lg shadow">
-      <div class="p-6 border-b">
-        <div class="flex items-center justify-between">
-          <div>
-            <h1 class="text-2xl font-bold text-gray-900"><%= @form_definition.code %></h1>
-            <p class="text-gray-600"><%= @form_definition.title %></p>
-          </div>
-          <div id="autosave-status" class="text-sm text-gray-500">
-            <%= render partial: "shared/autosave_status", locals: { saved_at: @submission.updated_at } %>
-          </div>
-        </div>
-      </div>
+<%# Header with Title and Controls %>
+<div class="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-4 mb-6">
+  <%# Form Title %>
+  <div>
+    <h1 class="text-2xl font-bold text-base-content"><%= @form_definition.code %></h1>
+    <p class="text-base-content/70"><%= @form_definition.title %></p>
+  </div>
 
-      <%= form_with model: @submission, url: form_path(@form_definition.code), method: :patch, local: false, data: { controller: "form", form_auto_save_url_value: form_path(@form_definition.code) } do |f| %>
-        <div class="p-6 space-y-8">
-          <% @sections.each do |section_name, fields| %>
-            <div class="border-b pb-6 last:border-b-0 last:pb-0">
-              <h2 class="text-lg font-semibold text-gray-900 mb-4 capitalize"><%= section_name.to_s.titleize %></h2>
+  <%# Controls Row %>
+  <div class="flex flex-wrap items-center gap-4">
+    <%# Wizard/Traditional Toggle %>
+    <label class="flex items-center gap-2 cursor-pointer">
+      <span class="text-sm text-base-content/70">Traditional</span>
+      <input type="checkbox"
+             class="toggle toggle-primary"
+             data-view-toggle-target="toggle"
+             data-action="change->view-toggle#toggle"
+             <%= "checked" if @wizard_mode %>>
+      <span class="text-sm text-base-content/70">Wizard</span>
+    </label>
 
-              <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-                <% fields.each do |field| %>
-                  <div class="<%= field.width_class %>">
-                    <%= render partial: "forms/fields/#{field.field_type}", locals: { field: field, form: f, submission: @submission } rescue render partial: "forms/fields/text", locals: { field: field, form: f, submission: @submission } %>
-                  </div>
+    <%# Skip Filled Toggle (authenticated users in wizard mode only) %>
+    <% if user_signed_in? %>
+      <label class="flex items-center gap-2 cursor-pointer <%= 'opacity-50' unless @wizard_mode %>"
+             id="skip-filled-label"
+             data-view-toggle-target="skipFilledLabel">
+        <input type="checkbox"
+               class="checkbox checkbox-primary checkbox-sm"
+               data-action="change->view-toggle#toggleSkipFilled"
+               data-view-toggle-target="skipFilledCheckbox"
+               <%= "checked" if @skip_filled %>
+               <%= "disabled" unless @wizard_mode %>>
+        <span class="text-sm text-base-content/70">Skip filled</span>
+      </label>
+    <% end %>
+  </div>
+</div>
+
+<%# Main Content - Split Screen Layout %>
+<div class="flex flex-col lg:flex-row gap-6">
+  <%# Form Section (Left on Desktop) %>
+  <div class="w-full lg:w-1/2 xl:w-3/5">
+    <%= form_with model: @submission,
+                  url: form_path(@form_definition.code),
+                  method: :patch,
+                  local: false,
+                  id: "main-form",
+                  data: {
+                    controller: "form",
+                    form_save_url_value: form_path(@form_definition.code)
+                  } do |f| %>
+
+      <%# Wizard Mode Container %>
+      <div id="wizard-container"
+           class="<%= 'hidden' unless @wizard_mode %>"
+           data-view-toggle-target="wizardContainer"
+           data-controller="wizard"
+           data-wizard-total-fields-value="<%= @wizard_fields&.count || 0 %>"
+           data-wizard-skip-filled-value="<%= @skip_filled %>">
+
+        <% if @wizard_fields.present? && @wizard_fields.any? %>
+          <%# Progress Bar %>
+          <%= render "forms/wizard/progress_bar" %>
+
+          <%# Wizard Cards Container with 3D Perspective %>
+          <div class="wizard-cards-container perspective-1000 min-h-[350px]">
+            <% @wizard_fields.each_with_index do |field, index| %>
+              <%= render "forms/wizard/card",
+                         field: field,
+                         form: f,
+                         submission: @submission,
+                         index: index %>
+            <% end %>
+          </div>
+
+          <%# Navigation %>
+          <%= render "forms/wizard/navigation" %>
+        <% else %>
+          <%# Empty State %>
+          <div class="card bg-base-100 shadow-xl">
+            <div class="card-body text-center py-12">
+              <svg class="w-16 h-16 mx-auto text-success mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+              </svg>
+              <h3 class="text-xl font-semibold text-base-content mb-2">All Fields Complete!</h3>
+              <p class="text-base-content/70 mb-4">
+                <% if @skip_filled %>
+                  All required fields have been filled. You can download your form.
+                <% else %>
+                  This form has no fillable fields configured yet.
+                <% end %>
+              </p>
+              <div class="flex justify-center gap-3">
+                <%= link_to preview_form_path(@form_definition.code),
+                            target: "_blank",
+                            class: "btn btn-outline btn-primary" do %>
+                  Preview PDF
+                <% end %>
+                <%= link_to download_form_path(@form_definition.code),
+                            class: "btn btn-success" do %>
+                  Download PDF
                 <% end %>
               </div>
             </div>
-          <% end %>
-
-          <% if @field_definitions.empty? %>
-            <div class="text-center py-8 text-gray-500">
-              <p>This form's fields haven't been configured yet.</p>
-              <p class="text-sm mt-2">Check back soon or download the blank PDF below.</p>
-            </div>
-          <% end %>
-        </div>
-
-        <div class="p-6 bg-gray-50 border-t flex items-center justify-between">
-          <div class="flex space-x-4">
-            <%= f.submit "Save", class: "px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 font-medium cursor-pointer" %>
-          </div>
-
-          <div class="flex space-x-4">
-            <%= link_to preview_form_path(@form_definition.code), target: "_blank", class: "inline-flex items-center px-4 py-2 border border-gray-300 rounded-md text-gray-700 bg-white hover:bg-gray-50" do %>
-              <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path>
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"></path>
-              </svg>
-              Preview PDF
-            <% end %>
-
-            <%= link_to download_form_path(@form_definition.code), class: "inline-flex items-center px-4 py-2 bg-green-600 text-white rounded-md hover:bg-green-700" do %>
-              <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path>
-              </svg>
-              Download PDF
-            <% end %>
-          </div>
-        </div>
-      <% end %>
-    </div>
-  </div>
-
-  <!-- Sidebar -->
-  <div class="space-y-6">
-    <!-- Form Info -->
-    <div class="bg-white rounded-lg shadow p-6">
-      <h3 class="font-semibold text-gray-900 mb-4">About This Form</h3>
-      <% if @form_definition.description.present? %>
-        <p class="text-sm text-gray-600 mb-4"><%= @form_definition.description %></p>
-      <% end %>
-
-      <dl class="space-y-2 text-sm">
-        <div class="flex justify-between">
-          <dt class="text-gray-500">Form Code</dt>
-          <dd class="font-medium text-gray-900"><%= @form_definition.code %></dd>
-        </div>
-        <% if @form_definition.page_count %>
-          <div class="flex justify-between">
-            <dt class="text-gray-500">Pages</dt>
-            <dd class="font-medium text-gray-900"><%= @form_definition.page_count %></dd>
           </div>
         <% end %>
-        <div class="flex justify-between">
-          <dt class="text-gray-500">Progress</dt>
-          <dd class="font-medium text-gray-900"><%= @submission.completion_percentage %>%</dd>
+      </div>
+
+      <%# Traditional Mode Container %>
+      <div id="traditional-container"
+           class="<%= 'hidden' if @wizard_mode %>"
+           data-view-toggle-target="traditionalContainer">
+        <%= render "forms/traditional_form",
+                   sections: @sections,
+                   form: f,
+                   submission: @submission %>
+
+        <%# Action Bar for Traditional Mode %>
+        <div class="mt-6 p-4 bg-base-200 rounded-lg flex flex-col sm:flex-row items-center justify-between gap-4">
+          <div class="flex items-center gap-3">
+            <%= f.submit "Save",
+                         class: "btn btn-primary" %>
+            <span class="text-sm text-base-content/70">
+              <%= @submission.completion_percentage %>% complete
+            </span>
+          </div>
+
+          <div class="flex gap-3">
+            <%= link_to preview_form_path(@form_definition.code),
+                        target: "_blank",
+                        class: "btn btn-outline btn-sm gap-1" do %>
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                      d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path>
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                      d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"></path>
+              </svg>
+              Preview
+            <% end %>
+
+            <%= link_to download_form_path(@form_definition.code),
+                        class: "btn btn-success btn-sm gap-1" do %>
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                      d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path>
+              </svg>
+              Download
+            <% end %>
+          </div>
         </div>
-      </dl>
-    </div>
+      </div>
+    <% end %>
+  </div>
 
-    <!-- Help -->
-    <div class="bg-blue-50 rounded-lg p-6">
-      <h3 class="font-semibold text-blue-900 mb-2">Need Help?</h3>
-      <p class="text-sm text-blue-700 mb-4">
-        Visit the California Courts Self-Help Center for guidance on this form.
-      </p>
-      <a href="https://selfhelp.courts.ca.gov/small-claims" target="_blank" class="text-sm font-medium text-blue-600 hover:text-blue-800">
-        Go to Self-Help Center →
-      </a>
-    </div>
-
-    <!-- Download Original -->
-    <div class="bg-white rounded-lg shadow p-6">
-      <h3 class="font-semibold text-gray-900 mb-2">Official Form</h3>
-      <p class="text-sm text-gray-600 mb-4">
-        Download the blank official form from the California Courts.
-      </p>
-      <% if @form_definition.pdf_exists? %>
-        <a href="https://www.courts.ca.gov/documents/<%= @form_definition.pdf_filename %>" target="_blank" class="text-sm font-medium text-blue-600 hover:text-blue-800">
-          Download Original PDF →
-        </a>
-      <% end %>
-    </div>
+  <%# PDF Preview Section (Right on Desktop, Hidden on Mobile) %>
+  <div class="hidden lg:block w-full lg:w-1/2 xl:w-2/5">
+    <%= render "forms/pdf_preview_panel", form_definition: @form_definition %>
   </div>
 </div>
 
+<%# Mobile: Floating Preview Button %>
+<div class="lg:hidden fixed bottom-6 right-6 z-50">
+  <%= link_to preview_form_path(@form_definition.code),
+              target: "_blank",
+              class: "btn btn-primary btn-circle btn-lg shadow-xl hover:shadow-2xl transition-shadow",
+              title: "Preview PDF" do %>
+    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+            d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path>
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+            d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"></path>
+    </svg>
+  <% end %>
+</div>
+
+<%# Form Info Sidebar - Collapsed on smaller screens %>
+<details class="lg:hidden mt-6 collapse collapse-arrow bg-base-100 shadow rounded-lg">
+  <summary class="collapse-title text-lg font-medium">
+    About This Form
+  </summary>
+  <div class="collapse-content">
+    <% if @form_definition.description.present? %>
+      <p class="text-sm text-base-content/70 mb-4"><%= @form_definition.description %></p>
+    <% end %>
+
+    <dl class="space-y-2 text-sm">
+      <div class="flex justify-between">
+        <dt class="text-base-content/70">Form Code</dt>
+        <dd class="font-medium"><%= @form_definition.code %></dd>
+      </div>
+      <% if @form_definition.page_count %>
+        <div class="flex justify-between">
+          <dt class="text-base-content/70">Pages</dt>
+          <dd class="font-medium"><%= @form_definition.page_count %></dd>
+        </div>
+      <% end %>
+      <div class="flex justify-between">
+        <dt class="text-base-content/70">Progress</dt>
+        <dd class="font-medium"><%= @submission.completion_percentage %>%</dd>
+      </div>
+    </dl>
+
+    <div class="mt-4 pt-4 border-t border-base-200">
+      <a href="https://selfhelp.courts.ca.gov/small-claims"
+         target="_blank"
+         class="link link-primary text-sm">
+        Need help? Visit the Self-Help Center
+      </a>
+    </div>
+  </div>
+</details>
+
 <%# Floating Feedback Button %>
 <%= render "shared/feedback_button", form_definition: @form_definition %>
+
+</div><%# Close view-toggle controller wrapper %>

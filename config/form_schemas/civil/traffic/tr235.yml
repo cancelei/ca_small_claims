@@ -1,0 +1,510 @@
+---
+form:
+  code: TR-235
+  title: TR 235 Form
+  description: ''
+  category: civil/traffic
+  pdf_filename: tr235.pdf
+  fillable: true
+  instructions: ''
+sections:
+  p1_footer:
+    title: P1 Footer
+    fields:
+    - name: court_link
+      pdf_field_name: TR-235[0].#pageSet[0].Page1[0].P1Footer[0].CourtLink[0]
+      type: checkbox
+      label: Court Link
+      required: false
+      width: full
+  last_page:
+    title: Last Page
+    fields:
+    - name: print
+      pdf_field_name: TR-235[0].#pageSet[0].LastPage[0].PXFooter[0].FooterButtons[0].Print[0]
+      type: checkbox
+      label: Print
+      required: false
+      width: full
+    - name: save
+      pdf_field_name: TR-235[0].#pageSet[0].LastPage[0].PXFooter[0].FooterButtons[0].Save[0]
+      type: checkbox
+      label: Save
+      required: false
+      width: full
+    - name: reset
+      pdf_field_name: TR-235[0].#pageSet[0].LastPage[0].PXFooter[0].FooterButtons[0].Reset[0]
+      type: checkbox
+      label: Reset
+      required: false
+      width: full
+    - name: warning
+      pdf_field_name: TR-235[0].#pageSet[0].LastPage[0].PXFooter[0].FooterButtons[0].Warning[0]
+      type: checkbox
+      label: Warning
+      required: false
+      width: full
+  p1_caption:
+    title: P1 Caption
+    fields:
+    - name: case_number
+      pdf_field_name: TR-235[0].Page1[0].P1Caption[0].CaseNumber[0].CaseNumber[0]
+      type: text
+      label: Case Number
+      required: false
+      width: full
+      shared_key: case:number
+    - name: name
+      pdf_field_name: TR-235[0].Page1[0].P1Caption[0].AttyPartyInfo[0].Name[0]
+      type: text
+      label: Name
+      required: false
+      width: full
+    - name: crt_street
+      pdf_field_name: TR-235[0].Page1[0].P1Caption[0].AttyPartyInfo[0].CrtStreet[0]
+      type: address
+      label: Crt Street
+      required: false
+      width: full
+    - name: crt_mailing_add
+      pdf_field_name: TR-235[0].Page1[0].P1Caption[0].AttyPartyInfo[0].CrtMailingAdd[0]
+      type: address
+      label: Crt Mailing Add
+      required: false
+      width: full
+    - name: city_zip_ft
+      pdf_field_name: TR-235[0].Page1[0].P1Caption[0].AttyPartyInfo[0].CityZip_ft[0]
+      type: address
+      label: City Zip Ft
+      required: false
+      width: full
+    - name: crt_branch
+      pdf_field_name: TR-235[0].Page1[0].P1Caption[0].AttyPartyInfo[0].CrtBranch[0]
+      type: text
+      label: Crt Branch
+      required: false
+      width: full
+    - name: phone
+      pdf_field_name: TR-235[0].Page1[0].P1Caption[0].AttyPartyInfo[0].Phone[0]
+      type: tel
+      label: Phone
+      required: false
+      width: half
+    - name: party1
+      pdf_field_name: TR-235[0].Page1[0].P1Caption[0].CourtInfo[0].Party1[0]
+      type: text
+      label: Party
+      required: false
+      width: full
+    - name: return_date
+      pdf_field_name: TR-235[0].Page1[0].P1Caption[0].ReturnDate[0].ReturnDate[0]
+      type: date
+      label: Return Date
+      required: false
+      width: half
+    - name: arresting
+      pdf_field_name: TR-235[0].Page1[0].P1Caption[0].ArrestingOfficer[0].Arresting[0]
+      type: text
+      label: Arresting
+      required: false
+      width: full
+    - name: citation_number
+      pdf_field_name: TR-235[0].Page1[0].P1Caption[0].CitationNumber[0].CitationNumber[0]
+      type: text
+      label: Citation Number
+      required: false
+      width: full
+    - name: an
+      pdf_field_name: TR-235[0].Page1[0].P1Caption[0].AgencyName[0].AN[0]
+      type: text
+      label: An
+      required: false
+      width: full
+    - name: office
+      pdf_field_name: TR-235[0].Page1[0].P1Caption[0].Office[0].Office[0]
+      type: text
+      label: Office
+      required: false
+      width: full
+  list:
+    title: List
+    fields:
+    - name: specify_county
+      pdf_field_name: TR-235[0].Page1[0].List1[0].SpecifyCounty[0]
+      type: number
+      label: Specify County
+      required: false
+      width: third
+    - name: cb1
+      pdf_field_name: TR-235[0].Page1[0].List1[0].Lia[0].CB1[0]
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: cb2
+      pdf_field_name: TR-235[0].Page1[0].List1[0].Lia[0].CB2[0]
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: cb3
+      pdf_field_name: TR-235[0].Page1[0].List1[0].Lia[0].CB3[0]
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: waswearing
+      pdf_field_name: TR-235[0].Page1[0].List1[0].Lia[0].waswearing[0]
+      type: text
+      label: Waswearing
+      required: false
+      width: full
+    - name: waswearing_2
+      pdf_field_name: TR-235[0].Page1[0].List1[0].Lia[0].waswearing[1]
+      type: text
+      label: Waswearing
+      required: false
+      width: full
+    - name: cb6
+      pdf_field_name: TR-235[0].Page1[0].List1[0].Lib[0].CB6[0]
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: cb7
+      pdf_field_name: TR-235[0].Page1[0].List1[0].Lic[0].CB7[0]
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: verbatim
+      pdf_field_name: TR-235[0].Page1[0].List1[0].Lic[0].verbatim[0]
+      type: text
+      label: Verbatim
+      required: false
+      width: full
+    - name: verbatim_2
+      pdf_field_name: TR-235[0].Page1[0].List1[0].Lic[0].verbatim[1]
+      type: text
+      label: Verbatim
+      required: false
+      width: full
+    - name: cb10
+      pdf_field_name: TR-235[0].Page1[0].List1[0].Lid[0].CB10[0]
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: cb11
+      pdf_field_name: TR-235[0].Page1[0].List1[0].Lie[0].CB11[0]
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: cb12
+      pdf_field_name: TR-235[0].Page1[0].List1[0].Lif[0].CB12[0]
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: cb13
+      pdf_field_name: TR-235[0].Page1[0].List1[0].Lig[0].CB13[0]
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: cb14
+      pdf_field_name: TR-235[0].Page1[0].List1[0].Lih[0].CB14[0]
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: on_date_ft1
+      pdf_field_name: TR-235[0].Page1[0].List1[0].Lih[0].on_date_ft1[0]
+      type: date
+      label: On Date Ft
+      required: false
+      width: half
+    - name: specify_result
+      pdf_field_name: TR-235[0].Page1[0].List1[0].Lih[0].SpecifyResult[0]
+      type: text
+      label: Specify Result
+      required: false
+      width: full
+    - name: cb16
+      pdf_field_name: TR-235[0].Page1[0].List1[0].Lii[0].CB16[0]
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: cb15
+      pdf_field_name: TR-235[0].Page1[0].List1[0].Lii[0].CB15[0]
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: text_field8
+      pdf_field_name: TR-235[0].Page1[0].List1[0].Lii[0].TextField8[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: cb166
+      pdf_field_name: TR-235[0].Page1[0].List2[0].Lia[0].CB166[0]
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: cb17
+      pdf_field_name: TR-235[0].Page1[0].List2[0].Lib[0].CB17[0]
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: cb18
+      pdf_field_name: TR-235[0].Page1[0].List2[0].Lic[0].CB18[0]
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: cb19
+      pdf_field_name: TR-235[0].Page1[0].List2[0].Lid[0].CB19[0]
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: cb20
+      pdf_field_name: TR-235[0].Page1[0].List2[0].Lie[0].CB20[0]
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: cb21
+      pdf_field_name: TR-235[0].Page1[0].List2[0].Lif[0].CB21[0]
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: cb22
+      pdf_field_name: TR-235[0].Page1[0].List2[0].Lig[0].CB22[0]
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: specify_method
+      pdf_field_name: TR-235[0].Page1[0].List2[0].Lig[0].SpecifyMethod[0]
+      type: text
+      label: Specify Method
+      required: false
+      width: full
+    - name: specify_method1
+      pdf_field_name: TR-235[0].Page1[0].List2[0].Lig[0].SpecifyMethod1[0]
+      type: text
+      label: Specify Method
+      required: false
+      width: full
+    - name: cb23
+      pdf_field_name: TR-235[0].Page1[0].List3[0].item3[0].CB23[0]
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: cb24
+      pdf_field_name: TR-235[0].Page1[0].List4[0].CB24[0]
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: cb25
+      pdf_field_name: TR-235[0].Page1[0].List4[0].Lia[0].CB25[0]
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: cb26
+      pdf_field_name: TR-235[0].Page1[0].List4[0].Lib[0].CB26[0]
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: cb29
+      pdf_field_name: TR-235[0].Page2[0].List5[0].Lib[0].CB29[0]
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: cb30
+      pdf_field_name: TR-235[0].Page2[0].List5[0].Lic[0].CB30[0]
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: cb31
+      pdf_field_name: TR-235[0].Page2[0].List5[0].Lid[0].CB31[0]
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: cb32
+      pdf_field_name: TR-235[0].Page2[0].List5[0].Lie[0].CB32[0]
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: serial_no
+      pdf_field_name: TR-235[0].Page2[0].List5[0].Lie[0].SerialNo[0]
+      type: text
+      label: Serial No
+      required: false
+      width: full
+    - name: calibration_date
+      pdf_field_name: TR-235[0].Page2[0].List5[0].Lie[0].CalibrationDate[0]
+      type: date
+      label: Calibration Date
+      required: false
+      width: half
+    - name: cb33
+      pdf_field_name: TR-235[0].Page2[0].List5[0].Lif[0].CB33[0]
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: checkconducteddate
+      pdf_field_name: TR-235[0].Page2[0].List5[0].Lif[0].checkconducteddate[0]
+      type: date
+      label: Checkconducteddate
+      required: false
+      width: half
+    - name: checktime
+      pdf_field_name: TR-235[0].Page2[0].List5[0].Lif[0].checktime[0]
+      type: text
+      label: Checktime
+      required: false
+      width: full
+    - name: conductedagaindate
+      pdf_field_name: TR-235[0].Page2[0].List5[0].Lif[0].conductedagaindate[0]
+      type: date
+      label: Conductedagaindate
+      required: false
+      width: half
+    - name: timeagain
+      pdf_field_name: TR-235[0].Page2[0].List5[0].Lif[0].timeagain[0]
+      type: text
+      label: Timeagain
+      required: false
+      width: full
+    - name: cb27
+      pdf_field_name: TR-235[0].Page2[0].List5[0].CB27[0]
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: cb28
+      pdf_field_name: TR-235[0].Page2[0].List5[0].CB28[0]
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: cb34
+      pdf_field_name: TR-235[0].Page2[0].List6[0].CB34[0]
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: cb35
+      pdf_field_name: TR-235[0].Page2[0].List6[0].Lia[0].CB35[0]
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: cb36
+      pdf_field_name: TR-235[0].Page2[0].List6[0].Lib[0].CB36[0]
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: text_field3
+      pdf_field_name: TR-235[0].Page2[0].List7[0].item7[0].TextField3[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: cb37
+      pdf_field_name: TR-235[0].Page2[0].List7[0].item7[0].CB37[0]
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: otherevidence
+      pdf_field_name: TR-235[0].Page2[0].List8[0].item8[0].otherevidence[0]
+      type: text
+      label: Otherevidence
+      required: false
+      width: full
+    - name: cb38
+      pdf_field_name: TR-235[0].Page2[0].List8[0].item8[0].CB38[0]
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: diagrams
+      pdf_field_name: TR-235[0].Page2[0].List9[0].item9[0].Diagrams[0]
+      type: text
+      label: Diagrams
+      required: false
+      width: full
+    - name: cb39
+      pdf_field_name: TR-235[0].Page2[0].List9[0].item9[0].CB39[0]
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: nopagesattached
+      pdf_field_name: TR-235[0].Page2[0].List10[0].item10[0].Nopagesattached[0]
+      type: text
+      label: Nopagesattached
+      required: false
+      width: full
+  px_caption:
+    title: Px Caption
+    fields:
+    - name: party1_2
+      pdf_field_name: TR-235[0].Page2[0].PxCaption[0].TitlePartyName[0].Party1[0]
+      type: text
+      label: Party
+      required: false
+      width: full
+    - name: case_number_2
+      pdf_field_name: TR-235[0].Page2[0].PxCaption[0].CaseNumber[0].CaseNumber[0]
+      type: text
+      label: Case Number
+      required: false
+      width: full
+      shared_key: case:number
+  sign:
+    title: Sign
+    fields:
+    - name: sig_date
+      pdf_field_name: TR-235[0].Page2[0].Sign[0].SigDate[0]
+      type: signature
+      label: Sig Date
+      required: false
+      width: full
+    - name: sig_name
+      pdf_field_name: TR-235[0].Page2[0].Sign[0].SigName[0]
+      type: signature
+      label: Sig Name
+      required: false
+      width: full
+    - name: id_no
+      pdf_field_name: TR-235[0].Page2[0].Sign[0].IDNo[0]
+      type: signature
+      label: Id No
+      required: false
+      width: full
+    - name: agency_ncic_no
+      pdf_field_name: TR-235[0].Page2[0].Sign[0].AgencyNCICNo[0]
+      type: signature
+      label: Agency Ncic No
+      required: false
+      width: full

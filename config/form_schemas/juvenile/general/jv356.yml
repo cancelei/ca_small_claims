@@ -1,0 +1,594 @@
+---
+form:
+  code: JV-356
+  title: JV 356 Form
+  description: ''
+  category: juvenile/general
+  pdf_filename: jv356.pdf
+  fillable: true
+  instructions: ''
+sections:
+  p1_footer:
+    title: P1 Footer
+    fields:
+    - name: court_link
+      pdf_field_name: JV-356[0].#pageSet[0].Page1[0].P1Footer[0].CourtLink[0]
+      type: checkbox
+      label: Court Link
+      required: false
+      width: full
+  last_page:
+    title: Last Page
+    fields:
+    - name: print
+      pdf_field_name: JV-356[0].#pageSet[0].LastPage[0].FooterButtons[0].Print[0]
+      type: checkbox
+      label: Print
+      required: false
+      width: full
+    - name: save
+      pdf_field_name: JV-356[0].#pageSet[0].LastPage[0].FooterButtons[0].Save[0]
+      type: checkbox
+      label: Save
+      required: false
+      width: full
+    - name: reset
+      pdf_field_name: JV-356[0].#pageSet[0].LastPage[0].FooterButtons[0].Reset[0]
+      type: checkbox
+      label: Reset
+      required: false
+      width: full
+    - name: warning
+      pdf_field_name: JV-356[0].#pageSet[0].LastPage[0].FooterButtons[0].Warning[0]
+      type: checkbox
+      label: Warning
+      required: false
+      width: full
+  p1_caption:
+    title: P1 Caption
+    fields:
+    - name: child_name
+      pdf_field_name: JV-356[0].Page1[0].P1Caption[0].CaseName[0].ChildName[0]
+      type: text
+      label: Child Name
+      required: false
+      width: full
+    - name: case_number
+      pdf_field_name: JV-356[0].Page1[0].P1Caption[0].CaseNumber[0].CaseNumber[0]
+      type: text
+      label: Case Number
+      required: false
+      width: full
+      shared_key: case:number
+    - name: crt_county
+      pdf_field_name: JV-356[0].Page1[0].P1Caption[0].CourtInfo[0].CrtCounty[0]
+      type: number
+      label: Crt County
+      required: false
+      width: third
+    - name: branch_ft
+      pdf_field_name: JV-356[0].Page1[0].P1Caption[0].CourtInfo[0].Branch_ft[0]
+      type: text
+      label: Branch Ft
+      required: false
+      width: full
+    - name: city_zip_ft
+      pdf_field_name: JV-356[0].Page1[0].P1Caption[0].CourtInfo[0].CityZip_ft[0]
+      type: address
+      label: City Zip Ft
+      required: false
+      width: full
+    - name: street_ft
+      pdf_field_name: JV-356[0].Page1[0].P1Caption[0].CourtInfo[0].Street_ft[0]
+      type: address
+      label: Street Ft
+      required: false
+      width: full
+    - name: mailing_add_ft
+      pdf_field_name: JV-356[0].Page1[0].P1Caption[0].CourtInfo[0].MailingAdd_ft[0]
+      type: address
+      label: Mailing Add Ft
+      required: false
+      width: full
+    - name: atty_state_ft
+      pdf_field_name: JV-356[0].Page1[0].P1Caption[0].AttyInfo[0].AttyState_ft[0]
+      type: address
+      label: Atty State Ft
+      required: false
+      width: full
+    - name: atty_zip_ft
+      pdf_field_name: JV-356[0].Page1[0].P1Caption[0].AttyInfo[0].AttyZip_ft[0]
+      type: address
+      label: Atty Zip Ft
+      required: false
+      width: full
+    - name: atty_city_ft
+      pdf_field_name: JV-356[0].Page1[0].P1Caption[0].AttyInfo[0].AttyCity_ft[0]
+      type: address
+      label: Atty City Ft
+      required: false
+      width: full
+    - name: atty_street_ft
+      pdf_field_name: JV-356[0].Page1[0].P1Caption[0].AttyInfo[0].AttyStreet_ft[0]
+      type: address
+      label: Atty Street Ft
+      required: false
+      width: full
+    - name: atty_firm_ft
+      pdf_field_name: JV-356[0].Page1[0].P1Caption[0].AttyInfo[0].AttyFirm_ft[0]
+      type: text
+      label: Atty Firm Ft
+      required: false
+      width: full
+    - name: atty_name_ft
+      pdf_field_name: JV-356[0].Page1[0].P1Caption[0].AttyInfo[0].AttyName_ft[0]
+      type: text
+      label: Atty Name Ft
+      required: false
+      width: full
+    - name: atty_bar_no_dc
+      pdf_field_name: JV-356[0].Page1[0].P1Caption[0].AttyInfo[0].AttyBarNo_dc[0]
+      type: text
+      label: Atty Bar No Dc
+      required: false
+      width: full
+    - name: phone_ft
+      pdf_field_name: JV-356[0].Page1[0].P1Caption[0].AttyInfo[0].Phone_ft[0]
+      type: tel
+      label: Phone Ft
+      required: false
+      width: half
+    - name: fax_ft
+      pdf_field_name: JV-356[0].Page1[0].P1Caption[0].AttyInfo[0].Fax_ft[0]
+      type: tel
+      label: Fax Ft
+      required: false
+      width: half
+    - name: email_ft
+      pdf_field_name: JV-356[0].Page1[0].P1Caption[0].AttyInfo[0].Email_ft[0]
+      type: email
+      label: Email Ft
+      required: false
+      width: half
+    - name: atty_for_ft
+      pdf_field_name: JV-356[0].Page1[0].P1Caption[0].AttyInfo[0].AttyFor_ft[0]
+      type: text
+      label: Atty For Ft
+      required: false
+      width: full
+  list:
+    title: List
+    fields:
+    - name: child_name_2
+      pdf_field_name: JV-356[0].Page1[0].List1[0].Item1[0].ChildName[0]
+      type: text
+      label: Child Name
+      required: false
+      width: full
+    - name: dob
+      pdf_field_name: JV-356[0].Page1[0].List1[0].Item1[0].DOB[0]
+      type: date
+      label: Dob
+      required: false
+      width: half
+    - name: national_of
+      pdf_field_name: JV-356[0].Page1[0].List1[0].Item1[0].NationalOf[0]
+      type: text
+      label: National Of
+      required: false
+      width: full
+    - name: parent_field1
+      pdf_field_name: JV-356[0].Page1[0].List2[0].Item2[0].Parent1[0].ParentField1[0]
+      type: currency
+      label: Parent Field
+      required: false
+      width: third
+    - name: mfo1
+      pdf_field_name: JV-356[0].Page1[0].List2[0].Item2[0].Parent1[0].Sub2a[0].Mother[0].MFO1[0]
+      type: currency
+      label: Mfo
+      required: false
+      width: third
+    - name: mfo1_2
+      pdf_field_name: JV-356[0].Page1[0].List2[0].Item2[0].Parent1[0].Sub2a[0].Father[0].MFO1[0]
+      type: currency
+      label: Mfo
+      required: false
+      width: third
+    - name: mfo1_2
+      pdf_field_name: JV-356[0].Page1[0].List2[0].Item2[0].Parent1[0].Sub2a[0].Other[0].MFO1[0]
+      type: currency
+      label: Mfo
+      required: false
+      width: third
+    - name: parent_field2
+      pdf_field_name: JV-356[0].Page1[0].List2[0].Item2[0].Parent2[0].ParentField2[0]
+      type: currency
+      label: Parent Field
+      required: false
+      width: third
+    - name: mfo2
+      pdf_field_name: JV-356[0].Page1[0].List2[0].Item2[0].Parent2[0].Sub2b[0].Mother[0].MFO2[0]
+      type: currency
+      label: Mfo
+      required: false
+      width: third
+    - name: mfo2_2
+      pdf_field_name: JV-356[0].Page1[0].List2[0].Item2[0].Parent2[0].Sub2b[0].Father[0].MFO2[0]
+      type: currency
+      label: Mfo
+      required: false
+      width: third
+    - name: mfo2_2
+      pdf_field_name: JV-356[0].Page1[0].List2[0].Item2[0].Parent2[0].Sub2b[0].Other[0].MFO2[0]
+      type: currency
+      label: Mfo
+      required: false
+      width: third
+    - name: parent_field3
+      pdf_field_name: JV-356[0].Page1[0].List2[0].Item2[0].Parent3[0].ParentField3[0]
+      type: currency
+      label: Parent Field
+      required: false
+      width: third
+    - name: mfo3
+      pdf_field_name: JV-356[0].Page1[0].List2[0].Item2[0].Parent3[0].Sub2c[0].Mother[0].MFO3[0]
+      type: currency
+      label: Mfo
+      required: false
+      width: third
+    - name: mfo3_2
+      pdf_field_name: JV-356[0].Page1[0].List2[0].Item2[0].Parent3[0].Sub2c[0].Father[0].MFO3[0]
+      type: currency
+      label: Mfo
+      required: false
+      width: third
+    - name: mfo3_2
+      pdf_field_name: JV-356[0].Page1[0].List2[0].Item2[0].Parent3[0].Sub2c[0].Other[0].MFO3[0]
+      type: currency
+      label: Mfo
+      required: false
+      width: third
+    - name: check_box300
+      pdf_field_name: JV-356[0].Page1[0].List3[0].Item3[0].Section300[0].CheckBox300[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box602
+      pdf_field_name: JV-356[0].Page1[0].List3[0].Item3[0].Section602[0].CheckBox602[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box_other
+      pdf_field_name: JV-356[0].Page1[0].List3[0].Item3[0].OtherSection[0].CheckBoxOther[0]
+      type: checkbox
+      label: Check Box Other
+      required: false
+      width: full
+    - name: field_other
+      pdf_field_name: JV-356[0].Page1[0].List3[0].Item3[0].OtherSection[0].FieldOther[0]
+      type: text
+      label: Field Other
+      required: false
+      width: full
+    - name: date1
+      pdf_field_name: JV-356[0].Page1[0].List3[0].Item3[0].Date1[0]
+      type: date
+      label: Date
+      required: false
+      width: half
+    - name: dependent
+      pdf_field_name: JV-356[0].Page1[0].List4[0].Item4[0].DependentSF[0].Dependent[0]
+      type: text
+      label: Dependent
+      required: false
+      width: full
+    - name: date2
+      pdf_field_name: JV-356[0].Page1[0].List4[0].Item4[0].DependentSF[0].Date2[0]
+      type: date
+      label: Date
+      required: false
+      width: half
+    - name: commit
+      pdf_field_name: JV-356[0].Page1[0].List4[0].Item4[0].CommitSF[0].Commit[0]
+      type: text
+      label: Commit
+      required: false
+      width: full
+    - name: commit_name
+      pdf_field_name: JV-356[0].Page1[0].List4[0].Item4[0].CommitSF[0].CommitName[0]
+      type: text
+      label: Commit Name
+      required: false
+      width: full
+    - name: date3
+      pdf_field_name: JV-356[0].Page1[0].List4[0].Item4[0].CommitSF[0].Date3[0]
+      type: date
+      label: Date
+      required: false
+      width: half
+    - name: months
+      pdf_field_name: JV-356[0].Page1[0].List4[0].Item4[0].CommitSF[0].Months[0]
+      type: text
+      label: Months
+      required: false
+      width: full
+    - name: custody
+      pdf_field_name: JV-356[0].Page1[0].List4[0].Item4[0].CustodySF[0].Custody[0]
+      type: text
+      label: Custody
+      required: false
+      width: full
+    - name: cust_name
+      pdf_field_name: JV-356[0].Page1[0].List4[0].Item4[0].CustodySF[0].CustName[0]
+      type: text
+      label: Cust Name
+      required: false
+      width: full
+    - name: date4
+      pdf_field_name: JV-356[0].Page1[0].List4[0].Item4[0].CustodySF[0].Date4[0]
+      type: date
+      label: Date
+      required: false
+      width: half
+    - name: removal_cb
+      pdf_field_name: JV-356[0].Page1[0].List5[0].Item5[0].Removal[0].RemovalCB[0]
+      type: text
+      label: Removal Cb
+      required: false
+      width: full
+    - name: name_field4
+      pdf_field_name: JV-356[0].Page1[0].List5[0].Item5[0].Removal[0].NameField4[0]
+      type: text
+      label: Name Field
+      required: false
+      width: full
+    - name: date5
+      pdf_field_name: JV-356[0].Page1[0].List5[0].Item5[0].Removal[0].Date5[0]
+      type: date
+      label: Date
+      required: false
+      width: half
+    - name: no_custody_cb
+      pdf_field_name: JV-356[0].Page1[0].List5[0].Item5[0].NoPlacement[0].NoCustodyCB[0]
+      type: text
+      label: No Custody Cb
+      required: false
+      width: full
+    - name: name_field5
+      pdf_field_name: JV-356[0].Page1[0].List5[0].Item5[0].NoPlacement[0].NameField5[0]
+      type: text
+      label: Name Field
+      required: false
+      width: full
+    - name: date6
+      pdf_field_name: JV-356[0].Page1[0].List5[0].Item5[0].NoPlacement[0].Date6[0]
+      type: date
+      label: Date
+      required: false
+      width: half
+    - name: denied_services_cb
+      pdf_field_name: JV-356[0].Page1[0].List5[0].Item5[0].NoServices[0].DeniedServicesCB[0]
+      type: text
+      label: Denied Services Cb
+      required: false
+      width: full
+    - name: name_field6
+      pdf_field_name: JV-356[0].Page1[0].List5[0].Item5[0].NoServices[0].NameField6[0]
+      type: text
+      label: Name Field
+      required: false
+      width: full
+    - name: date7
+      pdf_field_name: JV-356[0].Page1[0].List5[0].Item5[0].NoServices[0].Date7[0]
+      type: date
+      label: Date
+      required: false
+      width: half
+    - name: terminated_services
+      pdf_field_name: JV-356[0].Page1[0].List5[0].Item5[0].TerminatedServices[0].TerminatedServices[0]
+      type: text
+      label: Terminated Services
+      required: false
+      width: full
+    - name: name_field7
+      pdf_field_name: JV-356[0].Page1[0].List5[0].Item5[0].TerminatedServices[0].NameField7[0]
+      type: text
+      label: Name Field
+      required: false
+      width: full
+    - name: date8
+      pdf_field_name: JV-356[0].Page1[0].List5[0].Item5[0].TerminatedServices[0].Date8[0]
+      type: date
+      label: Date
+      required: false
+      width: half
+    - name: guardian_cb
+      pdf_field_name: JV-356[0].Page1[0].List5[0].Item5[0].Guardian[0].GuardianCB[0]
+      type: text
+      label: Guardian Cb
+      required: false
+      width: full
+    - name: name_field8
+      pdf_field_name: JV-356[0].Page1[0].List5[0].Item5[0].Guardian[0].NameField8[0]
+      type: text
+      label: Name Field
+      required: false
+      width: full
+    - name: date9
+      pdf_field_name: JV-356[0].Page1[0].List5[0].Item5[0].Guardian[0].Date9[0]
+      type: date
+      label: Date
+      required: false
+      width: half
+    - name: tprcb
+      pdf_field_name: JV-356[0].Page1[0].List5[0].Item5[0].TermPR[0].TPRCB[0]
+      type: text
+      label: Tprcb
+      required: false
+      width: full
+    - name: name_field9
+      pdf_field_name: JV-356[0].Page1[0].List5[0].Item5[0].TermPR[0].NameField9[0]
+      type: text
+      label: Name Field
+      required: false
+      width: full
+    - name: date10
+      pdf_field_name: JV-356[0].Page1[0].List5[0].Item5[0].TermPR[0].Date10[0]
+      type: date
+      label: Date
+      required: false
+      width: half
+    - name: dependent_2
+      pdf_field_name: JV-356[0].Page2[0].List6[0].Item6[0].Dependent6a[0].Dependent[0]
+      type: text
+      label: Dependent
+      required: false
+      width: full
+    - name: commit_2
+      pdf_field_name: JV-356[0].Page2[0].List6[0].Item6[0].Committed6b[0].Commit[0]
+      type: text
+      label: Commit
+      required: false
+      width: full
+    - name: commit_name_2
+      pdf_field_name: JV-356[0].Page2[0].List6[0].Item6[0].Committed6b[0].CommitName[0]
+      type: text
+      label: Commit Name
+      required: false
+      width: full
+    - name: custody_2
+      pdf_field_name: JV-356[0].Page2[0].List6[0].Item6[0].Custody6c[0].Custody[0]
+      type: text
+      label: Custody
+      required: false
+      width: full
+    - name: cust_name_2
+      pdf_field_name: JV-356[0].Page2[0].List6[0].Item6[0].Custody6c[0].CustName[0]
+      type: text
+      label: Cust Name
+      required: false
+      width: full
+    - name: reun_field7
+      pdf_field_name: JV-356[0].Page2[0].List7[0].Item7[0].ReunField7[0]
+      type: text
+      label: Reun Field
+      required: false
+      width: full
+    - name: mother
+      pdf_field_name: JV-356[0].Page2[0].List7[0].Item7[0].Mother[0].Mother[0]
+      type: text
+      label: Mother
+      required: false
+      width: full
+    - name: father
+      pdf_field_name: JV-356[0].Page2[0].List7[0].Item7[0].Father[0].Father[0]
+      type: text
+      label: Father
+      required: false
+      width: full
+    - name: other
+      pdf_field_name: JV-356[0].Page2[0].List7[0].Item7[0].Other[0].Other[0]
+      type: text
+      label: Other
+      required: false
+      width: full
+    - name: abuse
+      pdf_field_name: JV-356[0].Page2[0].List7[0].Item7[0].Abuse[0].Abuse[0]
+      type: text
+      label: Abuse
+      required: false
+      width: full
+    - name: neglect
+      pdf_field_name: JV-356[0].Page2[0].List7[0].Item7[0].Neglect[0].Neglect[0]
+      type: text
+      label: Neglect
+      required: false
+      width: full
+    - name: abandon
+      pdf_field_name: JV-356[0].Page2[0].List7[0].Item7[0].Abandonment[0].Abandon[0]
+      type: text
+      label: Abandon
+      required: false
+      width: full
+    - name: other_basis
+      pdf_field_name: JV-356[0].Page2[0].List7[0].Item7[0].OtherBasis[0].OtherBasis[0]
+      type: text
+      label: Other Basis
+      required: false
+      width: full
+    - name: other_field7
+      pdf_field_name: JV-356[0].Page2[0].List7[0].Item7[0].OtherField7[0]
+      type: text
+      label: Other Field
+      required: false
+      width: full
+    - name: support_field7
+      pdf_field_name: JV-356[0].Page2[0].List7[0].Item7[0].SupportField7[0]
+      type: text
+      label: Support Field
+      required: false
+      width: full
+    - name: att7
+      pdf_field_name: JV-356[0].Page2[0].List7[0].Item7[0].ContAtt7[0].Att7[0]
+      type: text
+      label: Att
+      required: false
+      width: full
+    - name: country_field
+      pdf_field_name: JV-356[0].Page2[0].List8[0].Item8[0].CountryField[0]
+      type: number
+      label: Country Field
+      required: false
+      width: third
+    - name: support_field8
+      pdf_field_name: JV-356[0].Page2[0].List8[0].Item8[0].SupportField8[0]
+      type: text
+      label: Support Field
+      required: false
+      width: full
+    - name: att8
+      pdf_field_name: JV-356[0].Page2[0].List8[0].Item8[0].ContAtt8[0].Att8[0]
+      type: text
+      label: Att
+      required: false
+      width: full
+    - name: cb9
+      pdf_field_name: JV-356[0].Page2[0].List9[0].Item9[0].CB9[0]
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: field9
+      pdf_field_name: JV-356[0].Page2[0].List9[0].Item9[0].Field9[0]
+      type: text
+      label: Field
+      required: false
+      width: full
+  px_caption:
+    title: Px Caption
+    fields:
+    - name: child_name_2
+      pdf_field_name: JV-356[0].Page2[0].PxCaption[0].CaseName[0].ChildName[0]
+      type: text
+      label: Child Name
+      required: false
+      width: full
+    - name: case_number_2
+      pdf_field_name: JV-356[0].Page2[0].PxCaption[0].CaseNumber[0].CaseNumber[0]
+      type: text
+      label: Case Number
+      required: false
+      width: full
+      shared_key: case:number
+  po_p_dec:
+    title: Po P Dec
+    fields:
+    - name: sig_date
+      pdf_field_name: JV-356[0].Page2[0].PoPDec[0].SigDate[0]
+      type: date
+      label: Sig Date
+      required: false
+      width: half

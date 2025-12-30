@@ -1,0 +1,674 @@
+---
+form:
+  code: FL-174
+  title: FL 174 Form
+  description: ''
+  category: family_law/general
+  pdf_filename: fl174.pdf
+  fillable: true
+  instructions: ''
+sections:
+  general:
+    title: General
+    fields:
+    - name: street
+      pdf_field_name: Court.street
+      type: address
+      label: Street
+      required: false
+      width: full
+    - name: mailing
+      pdf_field_name: Court.mailing
+      type: address
+      label: Mailing
+      required: false
+      width: full
+    - name: branch
+      pdf_field_name: Court.branch
+      type: text
+      label: Branch
+      required: false
+      width: full
+    - name: county
+      pdf_field_name: Court.County
+      type: number
+      label: County
+      required: false
+      width: third
+    - name: info1
+      pdf_field_name: Atty.Info1
+      type: text
+      label: Info
+      required: false
+      width: full
+    - name: info2
+      pdf_field_name: Atty.Info2
+      type: text
+      label: Info
+      required: false
+      width: full
+    - name: info3
+      pdf_field_name: Atty.Info3
+      type: text
+      label: Info
+      required: false
+      width: full
+    - name: info4
+      pdf_field_name: Atty.Info4
+      type: text
+      label: Info
+      required: false
+      width: full
+    - name: tel
+      pdf_field_name: Tel
+      type: tel
+      label: Tel
+      required: false
+      width: half
+    - name: fax
+      pdf_field_name: Fax
+      type: tel
+      label: Fax
+      required: false
+      width: half
+    - name: email
+      pdf_field_name: email
+      type: email
+      label: Email
+      required: false
+      width: half
+    - name: for
+      pdf_field_name: Attorney.for
+      type: text
+      label: For
+      required: false
+      width: full
+    - name: plaintiff
+      pdf_field_name: Petitioner.plaintiff
+      type: text
+      label: Plaintiff
+      required: false
+      width: full
+    - name: petitioner
+      pdf_field_name: Petitioner
+      type: text
+      label: Petitioner
+      required: false
+      width: full
+    - name: defendant
+      pdf_field_name: Respondent.Defendant
+      type: text
+      label: Defendant
+      required: false
+      width: full
+    - name: respondent
+      pdf_field_name: Respondent
+      type: text
+      label: Respondent
+      required: false
+      width: full
+    - name: party
+      pdf_field_name: Other.party
+      type: text
+      label: Party
+      required: false
+      width: full
+    - name: other
+      pdf_field_name: Other
+      type: text
+      label: Other
+      required: false
+      width: full
+    - name: case_number
+      pdf_field_name: CaseNumber
+      type: text
+      label: Case Number
+      required: false
+      width: full
+      shared_key: case:number
+    - name: date
+      pdf_field_name: FillText01.date
+      type: date
+      label: Date
+      required: false
+      width: half
+    - name: department
+      pdf_field_name: Department
+      type: text
+      label: Department
+      required: false
+      width: full
+    - name: b
+      pdf_field_name: CheckBox02.b
+      type: checkbox
+      label: B
+      required: false
+      width: full
+    - name: c
+      pdf_field_name: CheckBox02.c
+      type: checkbox
+      label: C
+      required: false
+      width: full
+    - name: a
+      pdf_field_name: CheckBox02.a
+      type: checkbox
+      label: A
+      required: false
+      width: full
+    - name: c_2
+      pdf_field_name: FillText02.c
+      type: text
+      label: C
+      required: false
+      width: full
+    - name: b_2
+      pdf_field_name: CheckBox03.b
+      type: checkbox
+      label: B
+      required: false
+      width: full
+    - name: c_2
+      pdf_field_name: CheckBox03.c
+      type: checkbox
+      label: C
+      required: false
+      width: full
+    - name: a_2
+      pdf_field_name: CheckBox03.a
+      type: checkbox
+      label: A
+      required: false
+      width: full
+    - name: b_2
+      pdf_field_name: FillText03.b
+      type: text
+      label: B
+      required: false
+      width: full
+    - name: c_2
+      pdf_field_name: CheckBox04.c
+      type: checkbox
+      label: C
+      required: false
+      width: full
+    - name: a_2
+      pdf_field_name: CheckBox04.a
+      type: checkbox
+      label: A
+      required: false
+      width: full
+    - name: b_2
+      pdf_field_name: CheckBox04.b
+      type: checkbox
+      label: B
+      required: false
+      width: full
+    - name: b_2
+      pdf_field_name: FillText04.b
+      type: text
+      label: B
+      required: false
+      width: full
+    - name: a_2
+      pdf_field_name: FillText04.a
+      type: text
+      label: A
+      required: false
+      width: full
+    - name: c_2
+      pdf_field_name: FillText04.c
+      type: text
+      label: C
+      required: false
+      width: full
+    - name: a_2
+      pdf_field_name: CheckBox05.a
+      type: checkbox
+      label: A
+      required: false
+      width: full
+    - name: b_2
+      pdf_field_name: CheckBox05.b
+      type: checkbox
+      label: B
+      required: false
+      width: full
+    - name: b_2
+      pdf_field_name: FillText05.b
+      type: text
+      label: B
+      required: false
+      width: full
+    - name: a_2
+      pdf_field_name: FillText05.a
+      type: text
+      label: A
+      required: false
+      width: full
+    - name: b_2
+      pdf_field_name: CheckBox06.b
+      type: checkbox
+      label: B
+      required: false
+      width: full
+    - name: c_2
+      pdf_field_name: CheckBox06.c
+      type: checkbox
+      label: C
+      required: false
+      width: full
+    - name: a_2
+      pdf_field_name: CheckBox06.a
+      type: checkbox
+      label: A
+      required: false
+      width: full
+    - name: a_2
+      pdf_field_name: CheckBox08.a
+      type: checkbox
+      label: A
+      required: false
+      width: full
+    - name: b_2
+      pdf_field_name: CheckBox08.b
+      type: checkbox
+      label: B
+      required: false
+      width: full
+    - name: c_2
+      pdf_field_name: CheckBox08.c
+      type: checkbox
+      label: C
+      required: false
+      width: full
+    - name: d
+      pdf_field_name: CheckBox08.d
+      type: checkbox
+      label: D
+      required: false
+      width: full
+    - name: e
+      pdf_field_name: CheckBox08.e
+      type: checkbox
+      label: E
+      required: false
+      width: full
+    - name: f
+      pdf_field_name: CheckBox08.f
+      type: checkbox
+      label: F
+      required: false
+      width: full
+    - name: fill_text09
+      pdf_field_name: FillText09
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: pages
+      pdf_field_name: FillText10.pages
+      type: text
+      label: Pages
+      required: false
+      width: full
+    - name: date_2
+      pdf_field_name: Date
+      type: date
+      label: Date
+      required: false
+      width: half
+  city:
+    title: City
+    fields:
+    - name: zip
+      pdf_field_name: Court.City.zip
+      type: address
+      label: Zip
+      required: false
+      width: full
+  judicial:
+    title: Judicial
+    fields:
+    - name: officer
+      pdf_field_name: FillText01.judicial.officer
+      type: text
+      label: Officer
+      required: false
+      width: full
+  a:
+    title: A
+    fields:
+    - name: attorney
+      pdf_field_name: FillText01.a.attorney
+      type: text
+      label: Attorney
+      required: false
+      width: full
+    - name: petitioner_2
+      pdf_field_name: CheckBox01.a.petitioner
+      type: checkbox
+      label: Petitioner
+      required: false
+      width: full
+    - name: attorney_2
+      pdf_field_name: CheckBox01.a.attorney
+      type: checkbox
+      label: Attorney
+      required: false
+      width: full
+    - name: time
+      pdf_field_name: FillText02.a.time
+      type: text
+      label: Time
+      required: false
+      width: full
+    - name: department_2
+      pdf_field_name: FillText02.a.department
+      type: text
+      label: Department
+      required: false
+      width: full
+    - name: date_2
+      pdf_field_name: FillText02.a.date
+      type: date
+      label: Date
+      required: false
+      width: half
+    - name: name
+      pdf_field_name: FillText07.a.name.1.1
+      type: text
+      label: Name
+      required: false
+      width: full
+    - name: name_2
+      pdf_field_name: FillText07.a.name.1.2
+      type: text
+      label: Name
+      required: false
+      width: full
+    - name: name_2
+      pdf_field_name: FillText07.a.name.1.3
+      type: text
+      label: Name
+      required: false
+      width: full
+    - name: name_2
+      pdf_field_name: FillText07.a.name.1.4
+      type: text
+      label: Name
+      required: false
+      width: full
+    - name: name_2
+      pdf_field_name: FillText07.a.name.1.5
+      type: text
+      label: Name
+      required: false
+      width: full
+    - name: name_2
+      pdf_field_name: FillText07.a.name.1.0
+      type: text
+      label: Name
+      required: false
+      width: full
+    - name: issue
+      pdf_field_name: FillText07.a.issue.1.0
+      type: text
+      label: Issue
+      required: false
+      width: full
+    - name: issue_2
+      pdf_field_name: FillText07.a.issue.1.1
+      type: text
+      label: Issue
+      required: false
+      width: full
+    - name: issue_2
+      pdf_field_name: FillText07.a.issue.1.2
+      type: text
+      label: Issue
+      required: false
+      width: full
+    - name: issue_2
+      pdf_field_name: FillText07.a.issue.1.3
+      type: text
+      label: Issue
+      required: false
+      width: full
+    - name: issue_2
+      pdf_field_name: FillText07.a.issue.1.4
+      type: text
+      label: Issue
+      required: false
+      width: full
+    - name: issue_2
+      pdf_field_name: FillText07.a.issue.1.5
+      type: text
+      label: Issue
+      required: false
+      width: full
+    - name: date_2
+      pdf_field_name: FillText08.a.date
+      type: date
+      label: Date
+      required: false
+      width: half
+    - name: time_2
+      pdf_field_name: FillText08.a.time
+      type: text
+      label: Time
+      required: false
+      width: full
+    - name: department_2
+      pdf_field_name: FillText08.a.department
+      type: text
+      label: Department
+      required: false
+      width: full
+  b:
+    title: B
+    fields:
+    - name: attorney_2
+      pdf_field_name: FillText01.b.attorney
+      type: text
+      label: Attorney
+      required: false
+      width: full
+    - name: petitioner_2
+      pdf_field_name: CheckBox01.b.petitioner
+      type: checkbox
+      label: Petitioner
+      required: false
+      width: full
+    - name: attorney_2
+      pdf_field_name: CheckBox01.b.attorney
+      type: checkbox
+      label: Attorney
+      required: false
+      width: full
+    - name: payment
+      pdf_field_name: FillText07.b.expert.payment
+      type: currency
+      label: Payment
+      required: false
+      width: third
+    - name: department_2
+      pdf_field_name: FillText08.b.department
+      type: text
+      label: Department
+      required: false
+      width: full
+    - name: date_2
+      pdf_field_name: FillText08.b.date
+      type: date
+      label: Date
+      required: false
+      width: half
+    - name: time_2
+      pdf_field_name: FillText08.b.time
+      type: text
+      label: Time
+      required: false
+      width: full
+  c:
+    title: C
+    fields:
+    - name: attorney_2
+      pdf_field_name: FillText01.c.attorney
+      type: text
+      label: Attorney
+      required: false
+      width: full
+    - name: petitioner_2
+      pdf_field_name: CheckBox01.c.petitioner
+      type: checkbox
+      label: Petitioner
+      required: false
+      width: full
+    - name: attorney_2
+      pdf_field_name: CheckBox01.c.attorney
+      type: checkbox
+      label: Attorney
+      required: false
+      width: full
+    - name: party_2
+      pdf_field_name: FillText06.c.Party.1.1
+      type: text
+      label: Party
+      required: false
+      width: full
+    - name: party_2
+      pdf_field_name: FillText06.c.Party.1.2
+      type: text
+      label: Party
+      required: false
+      width: full
+    - name: party_2
+      pdf_field_name: FillText06.c.Party.1.3
+      type: text
+      label: Party
+      required: false
+      width: full
+    - name: party_2
+      pdf_field_name: FillText06.c.Party.1.4
+      type: text
+      label: Party
+      required: false
+      width: full
+    - name: party_2
+      pdf_field_name: FillText06.c.Party.1.5
+      type: text
+      label: Party
+      required: false
+      width: full
+    - name: party_2
+      pdf_field_name: FillText06.c.Party.1.0
+      type: text
+      label: Party
+      required: false
+      width: full
+    - name: description
+      pdf_field_name: FillText06.c.description.1.1
+      type: text
+      label: Description
+      required: false
+      width: full
+    - name: description_2
+      pdf_field_name: FillText06.c.description.1.2
+      type: text
+      label: Description
+      required: false
+      width: full
+    - name: description_2
+      pdf_field_name: FillText06.c.description.1.3
+      type: text
+      label: Description
+      required: false
+      width: full
+    - name: description_2
+      pdf_field_name: FillText06.c.description.1.4
+      type: text
+      label: Description
+      required: false
+      width: full
+    - name: description_2
+      pdf_field_name: FillText06.c.description.1.5
+      type: text
+      label: Description
+      required: false
+      width: full
+    - name: description_2
+      pdf_field_name: FillText06.c.description.1.0
+      type: text
+      label: Description
+      required: false
+      width: full
+    - name: date_2
+      pdf_field_name: FillText06.c.date.1.0
+      type: date
+      label: Date
+      required: false
+      width: half
+    - name: date_2
+      pdf_field_name: FillText06.c.date.1.1
+      type: date
+      label: Date
+      required: false
+      width: half
+    - name: date_2
+      pdf_field_name: FillText06.c.date.1.2
+      type: date
+      label: Date
+      required: false
+      width: half
+    - name: date_2
+      pdf_field_name: FillText06.c.date.1.3
+      type: date
+      label: Date
+      required: false
+      width: half
+    - name: date_2
+      pdf_field_name: FillText06.c.date.1.4
+      type: date
+      label: Date
+      required: false
+      width: half
+    - name: date_2
+      pdf_field_name: FillText06.c.date.1.5
+      type: date
+      label: Date
+      required: false
+      width: half
+    - name: date_2
+      pdf_field_name: FillText08.c.date
+      type: date
+      label: Date
+      required: false
+      width: half
+  d:
+    title: D
+    fields:
+    - name: time_2
+      pdf_field_name: FillText08.d.time
+      type: text
+      label: Time
+      required: false
+      width: full
+  e:
+    title: E
+    fields:
+    - name: issues
+      pdf_field_name: FillText08.e.issues
+      type: text
+      label: Issues
+      required: false
+      width: full
+  f:
+    title: F
+    fields:
+    - name: orders
+      pdf_field_name: FillText08.f.other.orders
+      type: text
+      label: Orders
+      required: false
+      width: full

@@ -1,0 +1,115 @@
+---
+form:
+  code: EFS-050D
+  title: EFS 050D Form
+  description: ''
+  category: general
+  pdf_filename: efs050d.pdf
+  fillable: true
+  instructions: ''
+sections:
+  general:
+    title: General
+    fields:
+    - name: fill_text1
+      pdf_field_name: FillText1
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text3
+      pdf_field_name: FillText3.0
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text3_2
+      pdf_field_name: FillText3.1
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text3_2
+      pdf_field_name: FillText3.2
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text3_2
+      pdf_field_name: FillText3.3
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text3_2
+      pdf_field_name: FillText3.4
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text3_2
+      pdf_field_name: FillText3.5
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text3_2
+      pdf_field_name: FillText3.6
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text3_2
+      pdf_field_name: FillText3.7
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text3_2
+      pdf_field_name: FillText3.8
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text3_2
+      pdf_field_name: FillText3.9
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text3_2
+      pdf_field_name: FillText3.10
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text3_2
+      pdf_field_name: FillText3.11
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text3_2
+      pdf_field_name: FillText3.12
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text2
+      pdf_field_name: FillText2
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text4
+      pdf_field_name: FillText4
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text5
+      pdf_field_name: FillText5
+      type: text
+      label: Fill Text
+      required: false
+      width: full

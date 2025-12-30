@@ -1,0 +1,50 @@
+---
+form:
+  code: DV-112
+  title: DV 112 Form
+  description: ''
+  category: family_law/domestic_violence
+  pdf_filename: dv112.pdf
+  fillable: true
+  instructions: ''
+sections:
+  general:
+    title: General
+    fields:
+    - name: fill_text_court
+      pdf_field_name: FillTextCourt
+      type: text
+      label: Fill Text Court
+      required: false
+      width: full
+    - name: fill_text_case_number
+      pdf_field_name: FillTextCaseNumber
+      type: text
+      label: Fill Text Case Number
+      required: false
+      width: full
+      shared_key: case:number
+    - name: fill_text01
+      pdf_field_name: FillText01
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text02
+      pdf_field_name: FillText02
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: date
+      pdf_field_name: Date
+      type: date
+      label: Date
+      required: false
+      width: half
+    - name: your_name
+      pdf_field_name: YourName
+      type: text
+      label: Your Name
+      required: false
+      width: full

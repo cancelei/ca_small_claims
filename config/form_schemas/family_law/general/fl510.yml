@@ -1,0 +1,86 @@
+---
+form:
+  code: FL-510
+  title: FL 510 Form
+  description: ''
+  category: family_law/general
+  pdf_filename: fl510.pdf
+  fillable: true
+  instructions: ''
+sections:
+  case_number:
+    title: Case Number
+    fields:
+    - name: case_number
+      pdf_field_name: form1[0].Page1[0].CaseNumber[0]
+      type: text
+      label: Case Number
+      required: false
+      width: full
+      shared_key: case:number
+  fill_text:
+    title: Fill Text
+    fields:
+    - name: fill_text
+      pdf_field_name: form1[0].Page1[0].FillText[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+  resp_add:
+    title: Resp Add
+    fields:
+    - name: resp_add
+      pdf_field_name: form1[0].Page1[0].RespAdd[0]
+      type: text
+      label: Resp Add
+      required: false
+      width: full
+  t:
+    title: T
+    fields:
+    - name: t69
+      pdf_field_name: form1[0].Page1[0].T69[0]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t103
+      pdf_field_name: form1[0].Page1[0].T103[0]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t23
+      pdf_field_name: form1[0].Page1[0].T23[0]
+      type: checkbox
+      label: T
+      required: false
+      width: full
+  print_bt:
+    title: Print Bt
+    fields:
+    - name: print_bt
+      pdf_field_name: form1[0].Page1[0].Print_bt[0]
+      type: checkbox
+      label: Print Bt
+      required: false
+      width: full
+  save_bt:
+    title: Save Bt
+    fields:
+    - name: save_bt
+      pdf_field_name: form1[0].Page1[0].Save_bt[0]
+      type: checkbox
+      label: Save Bt
+      required: false
+      width: full
+  reset_bt:
+    title: Reset Bt
+    fields:
+    - name: reset_bt
+      pdf_field_name: form1[0].Page1[0].Reset_bt[0]
+      type: checkbox
+      label: Reset Bt
+      required: false
+      width: full

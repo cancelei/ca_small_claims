@@ -1,0 +1,43 @@
+---
+form:
+  code: JV-125
+  title: JV 125 Form
+  description: ''
+  category: juvenile/general
+  pdf_filename: jv125.pdf
+  fillable: true
+  instructions: ''
+sections:
+  general:
+    title: General
+    fields:
+    - name: fill_text3
+      pdf_field_name: FillText3
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text4
+      pdf_field_name: FillText4
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text5
+      pdf_field_name: FillText5
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text2
+      pdf_field_name: FillText2
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text1
+      pdf_field_name: FillText1
+      type: text
+      label: Fill Text
+      required: false
+      width: full

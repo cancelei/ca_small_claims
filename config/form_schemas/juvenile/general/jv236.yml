@@ -1,0 +1,228 @@
+---
+form:
+  code: JV-236
+  title: JV 236 Form
+  description: ''
+  category: juvenile/general
+  pdf_filename: jv236.pdf
+  fillable: true
+  instructions: ''
+sections:
+  page_area:
+    title: Page Area
+    fields:
+    - name: court_link
+      pdf_field_name: JV-236[0].#pageSet[0].PageArea1[0].CourtLink[0]
+      type: checkbox
+      label: Court Link
+      required: false
+      width: full
+  page1content:
+    title: Page1content
+    fields:
+    - name: court_info
+      pdf_field_name: JV-236[0].Page1content[0].RightCaption[0].CourtInfo[0]
+      type: text
+      label: Court Info
+      required: false
+      width: full
+    - name: childs_name
+      pdf_field_name: JV-236[0].Page1content[0].RightCaption[0].ChildsName[0]
+      type: text
+      label: Childs Name
+      required: false
+      width: full
+    - name: childs_dob
+      pdf_field_name: JV-236[0].Page1content[0].RightCaption[0].ChildsDOB[0]
+      type: text
+      label: Childs Dob
+      required: false
+      width: full
+    - name: case_number
+      pdf_field_name: JV-236[0].Page1content[0].RightCaption[0].CaseNumber[0]
+      type: text
+      label: Case Number
+      required: false
+      width: full
+      shared_key: case:number
+    - name: namea
+      pdf_field_name: JV-236[0].Page1content[0].list1mycontact[0].list1ae[0].namea[0]
+      type: text
+      label: Namea
+      required: false
+      width: full
+    - name: addressb_tf
+      pdf_field_name: JV-236[0].Page1content[0].list1mycontact[0].list1ae[0].listbaddress[0].addressb_tf[0]
+      type: address
+      label: Addressb Tf
+      required: false
+      width: full
+    - name: city_state_zip_tf
+      pdf_field_name: JV-236[0].Page1content[0].list1mycontact[0].list1ae[0].listccitystatezip[0].CityStateZip_tf[0]
+      type: address
+      label: City State Zip Tf
+      required: false
+      width: full
+    - name: phoned_tf
+      pdf_field_name: JV-236[0].Page1content[0].list1mycontact[0].list1ae[0].listphone1[0].phoned_tf[0]
+      type: tel
+      label: Phoned Tf
+      required: false
+      width: half
+    - name: emaile_tf
+      pdf_field_name: JV-236[0].Page1content[0].list1mycontact[0].list1ae[0].listemail1[0].emaile_tf[0]
+      type: email
+      label: Emaile Tf
+      required: false
+      width: half
+    - name: relationship
+      pdf_field_name: JV-236[0].Page1content[0].item2[0].list2iam[0].relationship[0]
+      type: text
+      label: Relationship
+      required: false
+      width: full
+    - name: relationship_2
+      pdf_field_name: JV-236[0].Page1content[0].item2[0].listbparent[0].relationship[0]
+      type: currency
+      label: Relationship
+      required: false
+      width: third
+    - name: relationship_2
+      pdf_field_name: JV-236[0].Page1content[0].item2[0].list3ifyouknow[0].relationship[0]
+      type: text
+      label: Relationship
+      required: false
+      width: full
+    - name: relationship_2
+      pdf_field_name: JV-236[0].Page1content[0].item2[0].listdlawyerforparent[0].relationship[0]
+      type: currency
+      label: Relationship
+      required: false
+      width: third
+    - name: relationship_2
+      pdf_field_name: JV-236[0].Page1content[0].item2[0].listlawyerforchild[0].relationship[0]
+      type: text
+      label: Relationship
+      required: false
+      width: full
+    - name: relationship_2
+      pdf_field_name: JV-236[0].Page1content[0].item2[0].listfrep[0].relationship[0]
+      type: text
+      label: Relationship
+      required: false
+      width: full
+    - name: relationship_2
+      pdf_field_name: JV-236[0].Page1content[0].item2[0].listfrep[0].relationship[1]
+      type: text
+      label: Relationship
+      required: false
+      width: full
+    - name: relationship_2
+      pdf_field_name: JV-236[0].Page1content[0].item2[0].listhother[0].relationship[0]
+      type: text
+      label: Relationship
+      required: false
+      width: full
+    - name: othergiverelationship
+      pdf_field_name: JV-236[0].Page1content[0].item2[0].listhother[0].othergiverelationship[0]
+      type: text
+      label: Othergiverelationship
+      required: false
+      width: full
+    - name: date_field1
+      pdf_field_name: JV-236[0].Page1content[0].List3ifyouknowwhen[0].list3[0].DateField1[0]
+      type: date
+      label: Date Field
+      required: false
+      width: half
+    - name: cb4_yes
+      pdf_field_name: JV-236[0].Page1content[0].item4[0].list4didyouknow[0].Cb4_Yes[0]
+      type: text
+      label: Cb4 Yes
+      required: false
+      width: full
+    - name: yesdate
+      pdf_field_name: JV-236[0].Page1content[0].item4[0].list4didyouknow[0].yesdate[0]
+      type: date
+      label: Yesdate
+      required: false
+      width: half
+    - name: cb4_yes_2
+      pdf_field_name: JV-236[0].Page1content[0].item4[0].list4didyouknow[0].Cb4_Yes[1]
+      type: text
+      label: Cb4 Yes
+      required: false
+      width: full
+    - name: why_cb_not
+      pdf_field_name: JV-236[0].Page1content[0].item5[0].list5[0].why_cb_not[0]
+      type: text
+      label: Why Cb Not
+      required: false
+      width: full
+    - name: why_cb_not_2
+      pdf_field_name: JV-236[0].Page1content[0].item5[0].list5[0].why_cb_not[1]
+      type: text
+      label: Why Cb Not
+      required: false
+      width: full
+  page2area:
+    title: Page2area
+    fields:
+    - name: print
+      pdf_field_name: JV-236[0].Page2[0].page2area[0].FooterButtons[0].Print[0]
+      type: checkbox
+      label: Print
+      required: false
+      width: full
+    - name: save
+      pdf_field_name: JV-236[0].Page2[0].page2area[0].FooterButtons[0].Save[0]
+      type: checkbox
+      label: Save
+      required: false
+      width: full
+    - name: reset
+      pdf_field_name: JV-236[0].Page2[0].page2area[0].FooterButtons[0].Reset[0]
+      type: checkbox
+      label: Reset
+      required: false
+      width: full
+    - name: warning
+      pdf_field_name: JV-236[0].Page2[0].page2area[0].FooterButtons[0].Warning[0]
+      type: checkbox
+      label: Warning
+      required: false
+      width: full
+  header:
+    title: Header
+    fields:
+    - name: case_number_2
+      pdf_field_name: JV-236[0].Page2[0].Header2[0].CaseNumber[0]
+      type: text
+      label: Case Number
+      required: false
+      width: full
+      shared_key: case:number
+  item:
+    title: Item
+    fields:
+    - name: explainwhy
+      pdf_field_name: JV-236[0].Page2[0].Item6[0].lgBubble6[0].explainwhy[0]
+      type: text
+      label: Explainwhy
+      required: false
+      width: full
+  signaturedate:
+    title: Signaturedate
+    fields:
+    - name: sig_date
+      pdf_field_name: JV-236[0].Page2[0].signaturedate[0].SigDate[0]
+      type: signature
+      label: Sig Date
+      required: false
+      width: full
+    - name: typeorprintname
+      pdf_field_name: JV-236[0].Page2[0].signaturedate[0].typeorprintname[0]
+      type: signature
+      label: Typeorprintname
+      required: false
+      width: full

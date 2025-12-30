@@ -1,0 +1,197 @@
+---
+form:
+  code: JV-131
+  title: JV 131 Form
+  description: ''
+  category: juvenile/general
+  pdf_filename: jv131.pdf
+  fillable: true
+  instructions: ''
+sections:
+  general:
+    title: General
+    fields:
+    - name: atty1
+      pdf_field_name: Atty1
+      type: text
+      label: Atty
+      required: false
+      width: full
+    - name: atty2
+      pdf_field_name: Atty2
+      type: text
+      label: Atty
+      required: false
+      width: full
+    - name: atty3
+      pdf_field_name: Atty3
+      type: text
+      label: Atty
+      required: false
+      width: full
+    - name: atty4
+      pdf_field_name: Atty4
+      type: text
+      label: Atty
+      required: false
+      width: full
+    - name: tel
+      pdf_field_name: Tel
+      type: tel
+      label: Tel
+      required: false
+      width: half
+    - name: fax
+      pdf_field_name: Fax
+      type: tel
+      label: Fax
+      required: false
+      width: half
+    - name: email
+      pdf_field_name: email
+      type: email
+      label: Email
+      required: false
+      width: half
+    - name: for
+      pdf_field_name: Attorney.for
+      type: text
+      label: For
+      required: false
+      width: full
+    - name: county
+      pdf_field_name: Court.County
+      type: number
+      label: County
+      required: false
+      width: third
+    - name: street
+      pdf_field_name: Court.street
+      type: address
+      label: Street
+      required: false
+      width: full
+    - name: mailing
+      pdf_field_name: Court.mailing
+      type: address
+      label: Mailing
+      required: false
+      width: full
+    - name: branch
+      pdf_field_name: Court.branch
+      type: text
+      label: Branch
+      required: false
+      width: full
+    - name: case_number
+      pdf_field_name: CaseNumber
+      type: text
+      label: Case Number
+      required: false
+      width: full
+      shared_key: case:number
+    - name: childrens_names
+      pdf_field_name: ChildrensNames
+      type: text
+      label: Childrens Names
+      required: false
+      width: full
+    - name: tf1name
+      pdf_field_name: TF1Name
+      type: text
+      label: Tf1 Name
+      required: false
+      width: full
+    - name: tf1address
+      pdf_field_name: TF1Address
+      type: address
+      label: Tf1 Address
+      required: false
+      width: full
+    - name: tf1a_time2
+      pdf_field_name: TF1aTime2
+      type: text
+      label: Tf1a Time
+      required: false
+      width: full
+    - name: tf1a_tel
+      pdf_field_name: TF1aTel
+      type: tel
+      label: Tf1a Tel
+      required: false
+      width: half
+    - name: tf1a_time1
+      pdf_field_name: TF1aTime1
+      type: text
+      label: Tf1a Time
+      required: false
+      width: full
+    - name: tf1a_date
+      pdf_field_name: TF1aDate
+      type: date
+      label: Tf1a Date
+      required: false
+      width: half
+    - name: tf1b_date
+      pdf_field_name: TF1bDate
+      type: date
+      label: Tf1b Date
+      required: false
+      width: half
+    - name: cb1a_appt
+      pdf_field_name: CB1aAppt
+      type: checkbox
+      label: Cb1a Appt
+      required: false
+      width: full
+    - name: cb1b
+      pdf_field_name: CB1b
+      type: checkbox
+      label: Cb1b
+      required: false
+      width: full
+    - name: cb1a
+      pdf_field_name: CB1a
+      type: checkbox
+      label: Cb1a
+      required: false
+      width: full
+    - name: cb2b
+      pdf_field_name: CB2b
+      type: checkbox
+      label: Cb2b
+      required: false
+      width: full
+    - name: cb2a
+      pdf_field_name: CB2a
+      type: checkbox
+      label: Cb2a
+      required: false
+      width: full
+    - name: cb2c
+      pdf_field_name: CB2c
+      type: checkbox
+      label: Cb2c
+      required: false
+      width: full
+    - name: tf1b_time1
+      pdf_field_name: TF1bTime1
+      type: text
+      label: Tf1b Time
+      required: false
+      width: full
+    - name: date
+      pdf_field_name: Date
+      type: date
+      label: Date
+      required: false
+      width: half
+  city:
+    title: City
+    fields:
+    - name: zip
+      pdf_field_name: Court.City.zip
+      type: address
+      label: Zip
+      required: false
+      width: full

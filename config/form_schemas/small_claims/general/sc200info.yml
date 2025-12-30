@@ -1,0 +1,46 @@
+---
+form:
+  code: SC-200INFO
+  title: SC 200INFO Form
+  description: ''
+  category: small_claims/general
+  pdf_filename: sc200info.pdf
+  fillable: true
+  instructions: ''
+sections:
+  mp_last:
+    title: Mp Last
+    fields:
+    - name: warning
+      pdf_field_name: SC-200-INFO[0].#pageSet[0].MPLast[0].Warning[0]
+      type: checkbox
+      label: Warning
+      required: false
+      width: full
+    - name: print
+      pdf_field_name: SC-200-INFO[0].#pageSet[0].MPLast[0].Print[0]
+      type: checkbox
+      label: Print
+      required: false
+      width: full
+    - name: save
+      pdf_field_name: SC-200-INFO[0].#pageSet[0].MPLast[0].Save[0]
+      type: checkbox
+      label: Save
+      required: false
+      width: full
+    - name: reset
+      pdf_field_name: SC-200-INFO[0].#pageSet[0].MPLast[0].Reset[0]
+      type: checkbox
+      label: Reset
+      required: false
+      width: full
+  self_help:
+    title: Self Help
+    fields:
+    - name: t0
+      pdf_field_name: SC-200-INFO[0].Page2[0].SelfHelp[0].T0[0]
+      type: text
+      label: T
+      required: false
+      width: full

@@ -1,0 +1,145 @@
+---
+form:
+  code: CR-252
+  title: CR 252 Form
+  description: ''
+  category: criminal/general
+  pdf_filename: cr252.pdf
+  fillable: true
+  instructions: ''
+sections:
+  text_field:
+    title: Text Field
+    fields:
+    - name: text_field2
+      pdf_field_name: TopmostSubform[0].Page1[0].TextField2[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field1
+      pdf_field_name: TopmostSubform[0].Page1[0].#area[0].TextField1[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field2_2
+      pdf_field_name: TopmostSubform[0].Page1[0].#area[0].TextField2[1]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field3
+      pdf_field_name: TopmostSubform[0].Page1[0].#area[0].TextField3[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field4
+      pdf_field_name: TopmostSubform[0].Page1[0].#area[0].TextField4[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field5
+      pdf_field_name: TopmostSubform[0].Page1[0].#area[0].TextField5[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6
+      pdf_field_name: TopmostSubform[0].Page1[0].#area[0].TextField6[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field7
+      pdf_field_name: TopmostSubform[0].Page1[0].#area[0].TextField7[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field8
+      pdf_field_name: TopmostSubform[0].Page1[0].#area[0].TextField8[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field15
+      pdf_field_name: TopmostSubform[0].Page1[0].TextField15[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field14
+      pdf_field_name: TopmostSubform[0].Page1[0].TextField14[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field10
+      pdf_field_name: TopmostSubform[0].Page1[0].TextField10[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field11
+      pdf_field_name: TopmostSubform[0].Page1[0].TextField11[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field12
+      pdf_field_name: TopmostSubform[0].Page1[0].TextField12[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field13
+      pdf_field_name: TopmostSubform[0].Page1[0].TextField13[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field9
+      pdf_field_name: TopmostSubform[0].Page1[0].TextField9[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+  yn_option_rb:
+    title: Yn Option Rb
+    fields:
+    - name: yn_option_rb
+      pdf_field_name: TopmostSubform[0].Page1[0].YNOption_rb[0]
+      type: text
+      label: Yn Option Rb
+      required: false
+      width: full
+  save_bt:
+    title: Save Bt
+    fields:
+    - name: save_bt
+      pdf_field_name: TopmostSubform[0].Page1[0].Save_bt[0]
+      type: checkbox
+      label: Save Bt
+      required: false
+      width: full
+  print_bt:
+    title: Print Bt
+    fields:
+    - name: print_bt
+      pdf_field_name: TopmostSubform[0].Page1[0].Print_bt[0]
+      type: checkbox
+      label: Print Bt
+      required: false
+      width: full
+  reset_bt:
+    title: Reset Bt
+    fields:
+    - name: reset_bt
+      pdf_field_name: TopmostSubform[0].Page1[0].Reset_bt[0]
+      type: checkbox
+      label: Reset Bt
+      required: false
+      width: full

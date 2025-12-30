@@ -1,0 +1,444 @@
+---
+form:
+  code: GV-630
+  title: GV 630 Form
+  description: ''
+  category: restraining_orders/gun_violence
+  pdf_filename: gv630.pdf
+  fillable: true
+  instructions: ''
+sections:
+  restrained_street_ft:
+    title: Restrained Street Ft
+    fields:
+    - name: restrained_street_ft
+      pdf_field_name: GV-630[0].Page1[0].RestrainedStreet_ft[0]
+      type: address
+      label: Restrained Street Ft
+      required: false
+      width: full
+    - name: restrained_street_ft_2
+      pdf_field_name: GV-630[0].Page1[0].RestrainedStreet_ft[1]
+      type: address
+      label: Restrained Street Ft
+      required: false
+      width: full
+  restrained_city_ft:
+    title: Restrained City Ft
+    fields:
+    - name: restrained_city_ft
+      pdf_field_name: GV-630[0].Page1[0].RestrainedCity_ft[0]
+      type: address
+      label: Restrained City Ft
+      required: false
+      width: full
+    - name: restrained_city_ft_2
+      pdf_field_name: GV-630[0].Page1[0].RestrainedCity_ft[1]
+      type: address
+      label: Restrained City Ft
+      required: false
+      width: full
+  restrained_state_ft:
+    title: Restrained State Ft
+    fields:
+    - name: restrained_state_ft
+      pdf_field_name: GV-630[0].Page1[0].RestrainedState_ft[0]
+      type: address
+      label: Restrained State Ft
+      required: false
+      width: full
+    - name: restrained_state_ft_2
+      pdf_field_name: GV-630[0].Page1[0].RestrainedState_ft[1]
+      type: address
+      label: Restrained State Ft
+      required: false
+      width: full
+  restrained_zip_ft:
+    title: Restrained Zip Ft
+    fields:
+    - name: restrained_zip_ft
+      pdf_field_name: GV-630[0].Page1[0].RestrainedZip_ft[0]
+      type: address
+      label: Restrained Zip Ft
+      required: false
+      width: full
+    - name: restrained_zip_ft_2
+      pdf_field_name: GV-630[0].Page1[0].RestrainedZip_ft[1]
+      type: address
+      label: Restrained Zip Ft
+      required: false
+      width: full
+  hearing_date_dt:
+    title: Hearing Date Dt
+    fields:
+    - name: hearing_date_dt
+      pdf_field_name: GV-630[0].Page1[0].HearingDate_dt[0]
+      type: date
+      label: Hearing Date Dt
+      required: false
+      width: half
+  hearing_time_dt:
+    title: Hearing Time Dt
+    fields:
+    - name: hearing_time_dt
+      pdf_field_name: GV-630[0].Page1[0].HearingTime_dt[0]
+      type: text
+      label: Hearing Time Dt
+      required: false
+      width: full
+  hearing_dept_ft:
+    title: Hearing Dept Ft
+    fields:
+    - name: hearing_dept_ft
+      pdf_field_name: GV-630[0].Page1[0].HearingDept_ft[0]
+      type: text
+      label: Hearing Dept Ft
+      required: false
+      width: full
+  hearing_room_ft:
+    title: Hearing Room Ft
+    fields:
+    - name: hearing_room_ft
+      pdf_field_name: GV-630[0].Page1[0].HearingRoom_ft[0]
+      type: text
+      label: Hearing Room Ft
+      required: false
+      width: full
+  hearing_judge_ft:
+    title: Hearing Judge Ft
+    fields:
+    - name: hearing_judge_ft
+      pdf_field_name: GV-630[0].Page1[0].HearingJudge_ft[0]
+      type: text
+      label: Hearing Judge Ft
+      required: false
+      width: full
+  protected_lawyer_name_ft:
+    title: Protected Lawyer Name Ft
+    fields:
+    - name: protected_lawyer_name_ft
+      pdf_field_name: GV-630[0].Page1[0].ProtectedLawyerName_ft[0]
+      type: text
+      label: Protected Lawyer Name Ft
+      required: false
+      width: full
+  am:
+    title: Am
+    fields:
+    - name: am
+      pdf_field_name: GV-630[0].Page1[0].am[0]
+      type: text
+      label: Am
+      required: false
+      width: full
+    - name: am_2
+      pdf_field_name: GV-630[0].Page1[0].am[1]
+      type: text
+      label: Am
+      required: false
+      width: full
+  hearing_protected_cb:
+    title: Hearing Protected Cb
+    fields:
+    - name: hearing_protected_cb
+      pdf_field_name: GV-630[0].Page1[0].HearingProtected_cb[0]
+      type: text
+      label: Hearing Protected Cb
+      required: false
+      width: full
+  hearing_restrained_cb:
+    title: Hearing Restrained Cb
+    fields:
+    - name: hearing_restrained_cb
+      pdf_field_name: GV-630[0].Page1[0].HearingRestrained_cb[0]
+      type: text
+      label: Hearing Restrained Cb
+      required: false
+      width: full
+  hearing_protected_lawyer_cb:
+    title: Hearing Protected Lawyer Cb
+    fields:
+    - name: hearing_protected_lawyer_cb
+      pdf_field_name: GV-630[0].Page1[0].HearingProtectedLawyer_cb[0]
+      type: text
+      label: Hearing Protected Lawyer Cb
+      required: false
+      width: full
+  restrained_lawyer_name_ft:
+    title: Restrained Lawyer Name Ft
+    fields:
+    - name: restrained_lawyer_name_ft
+      pdf_field_name: GV-630[0].Page1[0].RestrainedLawyerName_ft[0]
+      type: text
+      label: Restrained Lawyer Name Ft
+      required: false
+      width: full
+    - name: restrained_lawyer_name_ft_2
+      pdf_field_name: GV-630[0].Page1[0].RestrainedLawyerName_ft[1]
+      type: text
+      label: Restrained Lawyer Name Ft
+      required: false
+      width: full
+  hearing_restrained_lawyer_cb:
+    title: Hearing Restrained Lawyer Cb
+    fields:
+    - name: hearing_restrained_lawyer_cb
+      pdf_field_name: GV-630[0].Page1[0].HearingRestrainedLawyer_cb[0]
+      type: text
+      label: Hearing Restrained Lawyer Cb
+      required: false
+      width: full
+  stamp_court_case:
+    title: Stamp Court Case
+    fields:
+    - name: court_info_ft
+      pdf_field_name: GV-630[0].Page1[0].Stamp_court_case[0].CourtInfo_ft[0]
+      type: text
+      label: Court Info Ft
+      required: false
+      width: full
+    - name: case_number
+      pdf_field_name: GV-630[0].Page1[0].Stamp_court_case[0].CaseNumber[0]
+      type: text
+      label: Case Number
+      required: false
+      width: full
+      shared_key: case:number
+  requester_name_ft:
+    title: Requester Name Ft
+    fields:
+    - name: requester_name_ft
+      pdf_field_name: GV-630[0].Page1[0].Requester_name_ft[0]
+      type: text
+      label: Requester Name Ft
+      required: false
+      width: full
+  restrained_lawyer_bar_no:
+    title: Restrained Lawyer Bar No
+    fields:
+    - name: restrained_lawyer_bar_no
+      pdf_field_name: GV-630[0].Page1[0].RestrainedLawyerBar_no[0]
+      type: text
+      label: Restrained Lawyer Bar No
+      required: false
+      width: full
+  restrained_lawyer_firm_ft:
+    title: Restrained Lawyer Firm Ft
+    fields:
+    - name: restrained_lawyer_firm_ft
+      pdf_field_name: GV-630[0].Page1[0].RestrainedLawyerFirm_ft[0]
+      type: text
+      label: Restrained Lawyer Firm Ft
+      required: false
+      width: full
+  restrained_phone_ft:
+    title: Restrained Phone Ft
+    fields:
+    - name: restrained_phone_ft
+      pdf_field_name: GV-630[0].Page1[0].RestrainedPhone_ft[0]
+      type: tel
+      label: Restrained Phone Ft
+      required: false
+      width: half
+  restrained_fax_ft:
+    title: Restrained Fax Ft
+    fields:
+    - name: restrained_fax_ft
+      pdf_field_name: GV-630[0].Page1[0].RestrainedFax_ft[0]
+      type: tel
+      label: Restrained Fax Ft
+      required: false
+      width: half
+  restrained_e_mail_ft:
+    title: Restrained E Mail Ft
+    fields:
+    - name: restrained_e_mail_ft
+      pdf_field_name: GV-630[0].Page1[0].RestrainedE-Mail_ft[0]
+      type: email
+      label: Restrained E Mail Ft
+      required: false
+      width: half
+  other_party_name_ft:
+    title: Other Party Name Ft
+    fields:
+    - name: other_party_name_ft
+      pdf_field_name: GV-630[0].Page1[0].Other_party_name_ft[0]
+      type: text
+      label: Other Party Name Ft
+      required: false
+      width: full
+  multiline_check_box:
+    title: Multiline Check Box
+    fields:
+    - name: multiline_check_box
+      pdf_field_name: GV-630[0].Page1[0].MultilineCheckBox[0]
+      type: checkbox
+      label: Multiline Check Box
+      required: false
+      width: full
+  terminate:
+    title: Terminate
+    fields:
+    - name: terminate
+      pdf_field_name: GV-630[0].Page1[0].Terminate[0]
+      type: text
+      label: Terminate
+      required: false
+      width: full
+  ch730_signature_date_dt:
+    title: Ch730 Signature Date Dt
+    fields:
+    - name: ch730signature_date_dt
+      pdf_field_name: GV-630[0].Page2[0].CH730SignatureDate_dt[0]
+      type: signature
+      label: Ch730 Signature Date Dt
+      required: false
+      width: full
+    - name: ch730signature_date_dt_2
+      pdf_field_name: GV-630[0].Page2[0].CH730SignatureDate_dt[1]
+      type: signature
+      label: Ch730 Signature Date Dt
+      required: false
+      width: full
+  granted_cb:
+    title: Granted Cb
+    fields:
+    - name: granted_cb
+      pdf_field_name: GV-630[0].Page2[0].Granted_cb[0]
+      type: text
+      label: Granted Cb
+      required: false
+      width: full
+    - name: granted_cb_2
+      pdf_field_name: GV-630[0].Page2[0].Granted_cb[1]
+      type: text
+      label: Granted Cb
+      required: false
+      width: full
+  order_date_dt:
+    title: Order Date Dt
+    fields:
+    - name: order_date_dt
+      pdf_field_name: GV-630[0].Page2[0].OrderDate_dt[0]
+      type: date
+      label: Order Date Dt
+      required: false
+      width: half
+  field_name_cb:
+    title: Field Name Cb
+    fields:
+    - name: field_name_cb
+      pdf_field_name: GV-630[0].Page2[0].FieldName_cb[0]
+      type: text
+      label: Field Name Cb
+      required: false
+      width: full
+  renewal_date_dt:
+    title: Renewal Date Dt
+    fields:
+    - name: renewal_date_dt
+      pdf_field_name: GV-630[0].Page2[0].RenewalDate_dt[0]
+      type: date
+      label: Renewal Date Dt
+      required: false
+      width: half
+  case_number:
+    title: Case Number
+    fields:
+    - name: case_number_2
+      pdf_field_name: GV-630[0].Page2[0].CaseNumber[0]
+      type: text
+      label: Case Number
+      required: false
+      width: full
+      shared_key: case:number
+  no_appearance:
+    title: No Appearance\
+    fields:
+    - name: rb
+      pdf_field_name: GV-630[0].Page2[0].NoAppearance\.rb[0]
+      type: text
+      label: Rb
+      required: false
+      width: full
+    - name: rb_2
+      pdf_field_name: GV-630[0].Page2[0].NoAppearance\.rb[1]
+      type: text
+      label: Rb
+      required: false
+      width: full
+    - name: rb_2
+      pdf_field_name: GV-630[0].Page2[0].NoAppearance\.rb[2]
+      type: text
+      label: Rb
+      required: false
+      width: full
+  family:
+    title: Family
+    fields:
+    - name: family
+      pdf_field_name: GV-630[0].Page2[0].Family[0]
+      type: text
+      label: Family
+      required: false
+      width: full
+    - name: family_2
+      pdf_field_name: GV-630[0].Page2[0].Family[1]
+      type: text
+      label: Family
+      required: false
+      width: full
+  request_service_days:
+    title: Request Service Days
+    fields:
+    - name: request_service_days
+      pdf_field_name: GV-630[0].Page2[0].Request_service_days[0]
+      type: text
+      label: Request Service Days
+      required: false
+      width: full
+  clerk_signature_da:
+    title: Clerk Signature Da
+    fields:
+    - name: clerk_signature_da
+      pdf_field_name: GV-630[0].Page2[0].ClerkSignature_da[0]
+      type: signature
+      label: Clerk Signature Da
+      required: false
+      width: full
+  print_bt:
+    title: Print Bt
+    fields:
+    - name: print_bt
+      pdf_field_name: GV-630[0].Page2[0].Print_bt[0]
+      type: checkbox
+      label: Print Bt
+      required: false
+      width: full
+  save_bt:
+    title: Save Bt
+    fields:
+    - name: save_bt
+      pdf_field_name: GV-630[0].Page2[0].Save_bt[0]
+      type: checkbox
+      label: Save Bt
+      required: false
+      width: full
+  reset_bt:
+    title: Reset Bt
+    fields:
+    - name: reset_bt
+      pdf_field_name: GV-630[0].Page2[0].Reset_bt[0]
+      type: checkbox
+      label: Reset Bt
+      required: false
+      width: full
+  t:
+    title: T
+    fields:
+    - name: t23
+      pdf_field_name: GV-630[0].Page2[0].T23[0]
+      type: checkbox
+      label: T
+      required: false
+      width: full

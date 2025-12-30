@@ -1,0 +1,711 @@
+---
+form:
+  code: GC-380
+  title: GC 380 Form
+  description: ''
+  category: guardianship/general
+  pdf_filename: gc380.pdf
+  fillable: true
+  instructions: ''
+sections:
+  std_p1_header:
+    title: Std P1 Header
+    fields:
+    - name: crt_county
+      pdf_field_name: GC-380[0].Page1[0].StdP1Header[0].CourtInfo[0].CrtCounty[0]
+      type: number
+      label: Crt County
+      required: false
+      width: third
+    - name: crt_branch
+      pdf_field_name: GC-380[0].Page1[0].StdP1Header[0].CourtInfo[0].CrtBranch[0]
+      type: text
+      label: Crt Branch
+      required: false
+      width: full
+    - name: crt_city_zip
+      pdf_field_name: GC-380[0].Page1[0].StdP1Header[0].CourtInfo[0].CrtCityZip[0]
+      type: address
+      label: Crt City Zip
+      required: false
+      width: full
+    - name: crt_street
+      pdf_field_name: GC-380[0].Page1[0].StdP1Header[0].CourtInfo[0].CrtStreet[0]
+      type: address
+      label: Crt Street
+      required: false
+      width: full
+    - name: crt_mailing_add
+      pdf_field_name: GC-380[0].Page1[0].StdP1Header[0].CourtInfo[0].CrtMailingAdd[0]
+      type: address
+      label: Crt Mailing Add
+      required: false
+      width: full
+    - name: case_number
+      pdf_field_name: GC-380[0].Page1[0].StdP1Header[0].CaseNumber[0].CaseNumber[0]
+      type: text
+      label: Case Number
+      required: false
+      width: full
+      shared_key: case:number
+    - name: state
+      pdf_field_name: GC-380[0].Page1[0].StdP1Header[0].AttyInfo[0].State[0]
+      type: address
+      label: State
+      required: false
+      width: full
+    - name: zip
+      pdf_field_name: GC-380[0].Page1[0].StdP1Header[0].AttyInfo[0].Zip[0]
+      type: address
+      label: Zip
+      required: false
+      width: full
+    - name: city
+      pdf_field_name: GC-380[0].Page1[0].StdP1Header[0].AttyInfo[0].City[0]
+      type: address
+      label: City
+      required: false
+      width: full
+    - name: street
+      pdf_field_name: GC-380[0].Page1[0].StdP1Header[0].AttyInfo[0].Street[0]
+      type: address
+      label: Street
+      required: false
+      width: full
+    - name: firm
+      pdf_field_name: GC-380[0].Page1[0].StdP1Header[0].AttyInfo[0].Firm[0]
+      type: text
+      label: Firm
+      required: false
+      width: full
+    - name: name
+      pdf_field_name: GC-380[0].Page1[0].StdP1Header[0].AttyInfo[0].Name[0]
+      type: text
+      label: Name
+      required: false
+      width: full
+    - name: phone
+      pdf_field_name: GC-380[0].Page1[0].StdP1Header[0].AttyInfo[0].Phone[0]
+      type: tel
+      label: Phone
+      required: false
+      width: half
+    - name: fax
+      pdf_field_name: GC-380[0].Page1[0].StdP1Header[0].AttyInfo[0].Fax[0]
+      type: tel
+      label: Fax
+      required: false
+      width: half
+    - name: email
+      pdf_field_name: GC-380[0].Page1[0].StdP1Header[0].AttyInfo[0].Email[0]
+      type: email
+      label: Email
+      required: false
+      width: half
+    - name: atty_for
+      pdf_field_name: GC-380[0].Page1[0].StdP1Header[0].AttyInfo[0].AttyFor[0]
+      type: text
+      label: Atty For
+      required: false
+      width: full
+    - name: bar_no
+      pdf_field_name: GC-380[0].Page1[0].StdP1Header[0].AttyInfo[0].BarNo[0]
+      type: text
+      label: Bar No
+      required: false
+      width: full
+    - name: cb_choice1_cb
+      pdf_field_name: GC-380[0].Page1[0].StdP1Header[0].CBChoice1_cb[0]
+      type: text
+      label: Cb Choice1 Cb
+      required: false
+      width: full
+    - name: cb_choice1_cb_2
+      pdf_field_name: GC-380[0].Page1[0].StdP1Header[0].CBChoice1_cb[1]
+      type: text
+      label: Cb Choice1 Cb
+      required: false
+      width: full
+    - name: party1
+      pdf_field_name: GC-380[0].Page1[0].StdP1Header[0].Party1[0]
+      type: text
+      label: Party
+      required: false
+      width: full
+  text_field:
+    title: Text Field
+    fields:
+    - name: text_field6
+      pdf_field_name: GC-380[0].Page1[0].TextField6[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: GC-380[0].Page1[0].TextField6[1]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: GC-380[0].Page1[0].TextField6[2]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: GC-380[0].Page2[0].TextField6[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: GC-380[0].Page2[0].TextField6[1]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: GC-380[0].Page2[0].TextField6[2]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: GC-380[0].Page2[0].TextField6[3]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: GC-380[0].Page2[0].TextField6[4]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: GC-380[0].Page2[0].TextField6[5]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: GC-380[0].Page2[0].TextField6[6]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: GC-380[0].Page2[0].TextField6[7]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: GC-380[0].Page2[0].TextField6[8]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: GC-380[0].Page2[0].TextField6[9]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: GC-380[0].Page2[0].TextField6[10]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: GC-380[0].Page2[0].TextField6[11]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: GC-380[0].Page2[0].TextField6[12]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: GC-380[0].Page2[0].TextField6[13]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: GC-380[0].Page2[0].TextField6[14]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: GC-380[0].Page2[0].TextField6[15]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: GC-380[0].Page2[0].TextField6[16]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: GC-380[0].Page2[0].TextField6[17]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: GC-380[0].Page2[0].TextField6[18]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: GC-380[0].Page2[0].TextField6[19]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: GC-380[0].Page2[0].TextField6[20]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: GC-380[0].Page2[0].TextField6[21]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: GC-380[0].Page2[0].TextField6[22]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: GC-380[0].Page2[0].TextField6[23]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: GC-380[0].Page2[0].TextField6[24]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: GC-380[0].Page2[0].TextField6[25]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: GC-380[0].Page2[0].TextField6[26]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: GC-380[0].Page2[0].TextField6[27]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: GC-380[0].Page2[0].TextField6[28]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: GC-380[0].Page2[0].TextField6[29]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: GC-380[0].Page2[0].TextField6[30]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: GC-380[0].Page2[0].TextField6[31]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: GC-380[0].Page2[0].TextField6[32]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: GC-380[0].Page2[0].TextField6[33]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: GC-380[0].Page2[0].TextField6[34]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: GC-380[0].Page2[0].TextField6[35]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: GC-380[0].Page2[0].TextField6[36]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: GC-380[0].Page2[0].TextField6[37]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: GC-380[0].Page2[0].TextField6[38]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: GC-380[0].Page2[0].TextField6[39]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: GC-380[0].Page2[0].TextField6[40]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: GC-380[0].Page2[0].TextField6[41]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: GC-380[0].Page2[0].TextField6[42]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: GC-380[0].Page2[0].TextField6[43]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: GC-380[0].Page2[0].TextField6[44]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: GC-380[0].Page2[0].TextField6[45]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: GC-380[0].Page2[0].TextField6[46]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+  perf_cb:
+    title: Perf Cb
+    fields:
+    - name: perf_cb
+      pdf_field_name: GC-380[0].Page1[0].#area[0].perf_cb[0]
+      type: text
+      label: Perf Cb
+      required: false
+      width: full
+    - name: perf_cb_2
+      pdf_field_name: GC-380[0].Page1[0].#area[1].perf_cb[1]
+      type: text
+      label: Perf Cb
+      required: false
+      width: full
+    - name: perf_cb_2
+      pdf_field_name: GC-380[0].Page1[0].#area[2].perf_cb[2]
+      type: text
+      label: Perf Cb
+      required: false
+      width: full
+  checkbox_cb:
+    title: Checkbox Cb
+    fields:
+    - name: checkbox_cb
+      pdf_field_name: GC-380[0].Page1[0].#area[3].checkbox_cb[0]
+      type: checkbox
+      label: Checkbox Cb
+      required: false
+      width: full
+    - name: checkbox_cb_2
+      pdf_field_name: GC-380[0].Page1[0].#area[4].checkbox_cb[1]
+      type: checkbox
+      label: Checkbox Cb
+      required: false
+      width: full
+    - name: checkbox_cb_2
+      pdf_field_name: GC-380[0].Page1[0].#area[5].checkbox_cb[2]
+      type: checkbox
+      label: Checkbox Cb
+      required: false
+      width: full
+    - name: checkbox_cb_2
+      pdf_field_name: GC-380[0].Page1[0].#area[6].checkbox_cb[3]
+      type: checkbox
+      label: Checkbox Cb
+      required: false
+      width: full
+    - name: checkbox_cb_2
+      pdf_field_name: GC-380[0].Page1[0].#area[7].checkbox_cb[4]
+      type: checkbox
+      label: Checkbox Cb
+      required: false
+      width: full
+    - name: checkbox_cb_2
+      pdf_field_name: GC-380[0].Page1[0].#area[8].checkbox_cb[5]
+      type: checkbox
+      label: Checkbox Cb
+      required: false
+      width: full
+    - name: checkbox_cb_2
+      pdf_field_name: GC-380[0].Page1[0].#area[9].checkbox_cb[6]
+      type: checkbox
+      label: Checkbox Cb
+      required: false
+      width: full
+    - name: checkbox_cb_2
+      pdf_field_name: GC-380[0].Page1[0].#area[10].checkbox_cb[7]
+      type: checkbox
+      label: Checkbox Cb
+      required: false
+      width: full
+  date_field:
+    title: Date Field
+    fields:
+    - name: date_field1
+      pdf_field_name: GC-380[0].Page1[0].#area[7].DateField1[0]
+      type: date
+      label: Date Field
+      required: false
+      width: half
+  is_cb:
+    title: Is Cb
+    fields:
+    - name: is_cb
+      pdf_field_name: GC-380[0].Page1[0].#area[11].is_cb[0]
+      type: text
+      label: Is Cb
+      required: false
+      width: full
+    - name: is_cb_2
+      pdf_field_name: GC-380[0].Page1[0].#area[12].is_cb[1]
+      type: text
+      label: Is Cb
+      required: false
+      width: full
+  px_caption_sf:
+    title: Px Caption Sf
+    fields:
+    - name: case_number_2
+      pdf_field_name: GC-380[0].Page2[0].PxCaption_sf[0].CaseNumber[0].CaseNumber[0]
+      type: text
+      label: Case Number
+      required: false
+      width: full
+      shared_key: case:number
+    - name: party1_2
+      pdf_field_name: GC-380[0].Page2[0].PxCaption_sf[0].TitlePartyName[0].Party1[0]
+      type: text
+      label: Party
+      required: false
+      width: full
+  sig_date:
+    title: Sig Date
+    fields:
+    - name: sig_date
+      pdf_field_name: GC-380[0].Page2[0].SigDate[0]
+      type: date
+      label: Sig Date
+      required: false
+      width: half
+    - name: sig_date_2
+      pdf_field_name: GC-380[0].Page2[0].SigDate[1]
+      type: date
+      label: Sig Date
+      required: false
+      width: half
+    - name: sig_date_2
+      pdf_field_name: GC-380[0].Page2[0].SigDate[2]
+      type: date
+      label: Sig Date
+      required: false
+      width: half
+  t:
+    title: T
+    fields:
+    - name: t14
+      pdf_field_name: GC-380[0].Page2[0].T14[0]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t14_2
+      pdf_field_name: GC-380[0].Page2[0].T14[1]
+      type: text
+      label: T
+      required: false
+      width: full
+  checkbox:
+    title: Checkbox
+    fields:
+    - name: checkbox
+      pdf_field_name: GC-380[0].Page2[0].#area[0].checkbox[0]
+      type: checkbox
+      label: Checkbox
+      required: false
+      width: full
+    - name: checkbox_2
+      pdf_field_name: GC-380[0].Page2[0].#area[1].checkbox[1]
+      type: checkbox
+      label: Checkbox
+      required: false
+      width: full
+    - name: checkbox_2
+      pdf_field_name: GC-380[0].Page2[0].#area[2].checkbox[2]
+      type: checkbox
+      label: Checkbox
+      required: false
+      width: full
+    - name: checkbox_2
+      pdf_field_name: GC-380[0].Page2[0].#area[3].checkbox[3]
+      type: checkbox
+      label: Checkbox
+      required: false
+      width: full
+    - name: checkbox_2
+      pdf_field_name: GC-380[0].Page2[0].#area[4].checkbox[4]
+      type: checkbox
+      label: Checkbox
+      required: false
+      width: full
+    - name: checkbox_2
+      pdf_field_name: GC-380[0].Page2[0].#area[5].checkbox[5]
+      type: checkbox
+      label: Checkbox
+      required: false
+      width: full
+    - name: checkbox_2
+      pdf_field_name: GC-380[0].Page2[0].#area[8].checkbox[6]
+      type: checkbox
+      label: Checkbox
+      required: false
+      width: full
+    - name: checkbox_2
+      pdf_field_name: GC-380[0].Page2[0].#area[9].checkbox[7]
+      type: checkbox
+      label: Checkbox
+      required: false
+      width: full
+    - name: checkbox_2
+      pdf_field_name: GC-380[0].Page2[0].#area[10].checkbox[8]
+      type: checkbox
+      label: Checkbox
+      required: false
+      width: full
+  has:
+    title: Has
+    fields:
+    - name: has
+      pdf_field_name: GC-380[0].Page2[0].#area[6].has[0]
+      type: text
+      label: Has
+      required: false
+      width: full
+    - name: has_2
+      pdf_field_name: GC-380[0].Page2[0].#area[7].has[1]
+      type: text
+      label: Has
+      required: false
+      width: full
+  fill_text:
+    title: Fill Text
+    fields:
+    - name: fill_text
+      pdf_field_name: GC-380[0].Page2[0].FillText[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+  pages_att:
+    title: Pages Att
+    fields:
+    - name: pages_att
+      pdf_field_name: GC-380[0].Page2[0].PagesAtt[0]
+      type: text
+      label: Pages Att
+      required: false
+      width: full
+  print:
+    title: Print
+    fields:
+    - name: print
+      pdf_field_name: GC-380[0].#area[0].Print[0]
+      type: checkbox
+      label: Print
+      required: false
+      width: full
+  save:
+    title: Save
+    fields:
+    - name: save
+      pdf_field_name: GC-380[0].#area[0].Save[0]
+      type: checkbox
+      label: Save
+      required: false
+      width: full
+  reset:
+    title: Reset
+    fields:
+    - name: reset
+      pdf_field_name: GC-380[0].#area[0].Reset[0]
+      type: checkbox
+      label: Reset
+      required: false
+      width: full
+  warning:
+    title: Warning
+    fields:
+    - name: warning
+      pdf_field_name: GC-380[0].#area[0].Warning[0]
+      type: checkbox
+      label: Warning
+      required: false
+      width: full

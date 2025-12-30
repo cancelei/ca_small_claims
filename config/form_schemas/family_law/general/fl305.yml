@@ -1,0 +1,984 @@
+---
+form:
+  code: FL-305
+  title: FL 305 Form
+  description: ''
+  category: family_law/general
+  pdf_filename: fl305.pdf
+  fillable: true
+  instructions: ''
+sections:
+  p1_caption_sf:
+    title: P1 Caption Sf
+    fields:
+    - name: child_custody_cb
+      pdf_field_name: form1[0].Page1[0].P1Caption_sf[0].FormTitle_sf[0].ChildCustody_cb[0]
+      type: text
+      label: Child Custody Cb
+      required: false
+      width: full
+    - name: other_cb
+      pdf_field_name: form1[0].Page1[0].P1Caption_sf[0].FormTitle_sf[0].Other_cb[0]
+      type: text
+      label: Other Cb
+      required: false
+      width: full
+    - name: property_restraint_cb
+      pdf_field_name: form1[0].Page1[0].P1Caption_sf[0].FormTitle_sf[0].PropertyRestraint_cb[0]
+      type: text
+      label: Property Restraint Cb
+      required: false
+      width: full
+    - name: child_custody_cb_2
+      pdf_field_name: form1[0].Page1[0].P1Caption_sf[0].FormTitle_sf[0].ChildCustody_cb[1]
+      type: text
+      label: Child Custody Cb
+      required: false
+      width: full
+    - name: specify_other_request_ft
+      pdf_field_name: form1[0].Page1[0].P1Caption_sf[0].FormTitle_sf[0].SpecifyOtherRequest_ft[0]
+      type: text
+      label: Specify Other Request Ft
+      required: false
+      width: full
+    - name: petitioner_ft
+      pdf_field_name: form1[0].Page1[0].P1Caption_sf[0].TitlePartyName[0].Petitioner_ft[0]
+      type: text
+      label: Petitioner Ft
+      required: false
+      width: full
+      shared_key: petitioner:name
+    - name: respondent_ft
+      pdf_field_name: form1[0].Page1[0].P1Caption_sf[0].TitlePartyName[0].Respondent_ft[0]
+      type: text
+      label: Respondent Ft
+      required: false
+      width: full
+      shared_key: respondent:name
+    - name: other_parent_party_ft
+      pdf_field_name: form1[0].Page1[0].P1Caption_sf[0].TitlePartyName[0].OtherParentParty_ft[0]
+      type: currency
+      label: Other Parent Party Ft
+      required: false
+      width: third
+    - name: case_number_ft
+      pdf_field_name: form1[0].Page1[0].P1Caption_sf[0].CaseNumber[0].CaseNumber_ft[0]
+      type: text
+      label: Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+    - name: atty_state_ft
+      pdf_field_name: form1[0].Page1[0].P1Caption_sf[0].AttyInfo[0].AttyState_ft[0]
+      type: address
+      label: Atty State Ft
+      required: false
+      width: full
+    - name: atty_zip_ft
+      pdf_field_name: form1[0].Page1[0].P1Caption_sf[0].AttyInfo[0].AttyZip_ft[0]
+      type: address
+      label: Atty Zip Ft
+      required: false
+      width: full
+    - name: atty_city_ft
+      pdf_field_name: form1[0].Page1[0].P1Caption_sf[0].AttyInfo[0].AttyCity_ft[0]
+      type: address
+      label: Atty City Ft
+      required: false
+      width: full
+    - name: atty_street_ft
+      pdf_field_name: form1[0].Page1[0].P1Caption_sf[0].AttyInfo[0].AttyStreet_ft[0]
+      type: address
+      label: Atty Street Ft
+      required: false
+      width: full
+    - name: atty_firm_ft
+      pdf_field_name: form1[0].Page1[0].P1Caption_sf[0].AttyInfo[0].AttyFirm_ft[0]
+      type: text
+      label: Atty Firm Ft
+      required: false
+      width: full
+    - name: atty_name_ft
+      pdf_field_name: form1[0].Page1[0].P1Caption_sf[0].AttyInfo[0].AttyName_ft[0]
+      type: text
+      label: Atty Name Ft
+      required: false
+      width: full
+    - name: phone_ft
+      pdf_field_name: form1[0].Page1[0].P1Caption_sf[0].AttyInfo[0].Phone_ft[0]
+      type: tel
+      label: Phone Ft
+      required: false
+      width: half
+    - name: fax_ft
+      pdf_field_name: form1[0].Page1[0].P1Caption_sf[0].AttyInfo[0].Fax_ft[0]
+      type: tel
+      label: Fax Ft
+      required: false
+      width: half
+    - name: email_ft
+      pdf_field_name: form1[0].Page1[0].P1Caption_sf[0].AttyInfo[0].Email_ft[0]
+      type: email
+      label: Email Ft
+      required: false
+      width: half
+    - name: atty_for_ft
+      pdf_field_name: form1[0].Page1[0].P1Caption_sf[0].AttyInfo[0].AttyFor_ft[0]
+      type: text
+      label: Atty For Ft
+      required: false
+      width: full
+    - name: bar_no_ft
+      pdf_field_name: form1[0].Page1[0].P1Caption_sf[0].AttyInfo[0].BarNo_ft[0]
+      type: text
+      label: Bar No Ft
+      required: false
+      width: full
+    - name: crt_county_ft
+      pdf_field_name: form1[0].Page1[0].P1Caption_sf[0].CourtInfo[0].CrtCounty_ft[0]
+      type: number
+      label: Crt County Ft
+      required: false
+      width: third
+    - name: branch_ft
+      pdf_field_name: form1[0].Page1[0].P1Caption_sf[0].CourtInfo[0].Branch_ft[0]
+      type: text
+      label: Branch Ft
+      required: false
+      width: full
+    - name: city_zip_ft
+      pdf_field_name: form1[0].Page1[0].P1Caption_sf[0].CourtInfo[0].CityZip_ft[0]
+      type: address
+      label: City Zip Ft
+      required: false
+      width: full
+    - name: street_ft
+      pdf_field_name: form1[0].Page1[0].P1Caption_sf[0].CourtInfo[0].Street_ft[0]
+      type: address
+      label: Street Ft
+      required: false
+      width: full
+    - name: mailing_add_ft
+      pdf_field_name: form1[0].Page1[0].P1Caption_sf[0].CourtInfo[0].MailingAdd_ft[0]
+      type: address
+      label: Mailing Add Ft
+      required: false
+      width: full
+  child_custody_visitation_cb:
+    title: Child Custody Visitation Cb
+    fields:
+    - name: child_custody_visitation_cb
+      pdf_field_name: form1[0].Page1[0].ChildCustodyVisitation_cb[0]
+      type: text
+      label: Child Custody Visitation Cb
+      required: false
+      width: full
+    - name: child_custody_visitation_cb_2
+      pdf_field_name: form1[0].Page2[0].ChildCustodyVisitation_cb[0]
+      type: text
+      label: Child Custody Visitation Cb
+      required: false
+      width: full
+  timeof_hearing_ft:
+    title: Timeof Hearing Ft
+    fields:
+    - name: timeof_hearing_ft
+      pdf_field_name: form1[0].Page1[0].TimeofHearing_ft[0]
+      type: text
+      label: Timeof Hearing Ft
+      required: false
+      width: full
+  dateof_hearing_dt:
+    title: Dateof Hearing Dt
+    fields:
+    - name: dateof_hearing_dt
+      pdf_field_name: form1[0].Page1[0].DateofHearing_dt[0]
+      type: date
+      label: Dateof Hearing Dt
+      required: false
+      width: half
+  otherspecify_ft:
+    title: Otherspecify Ft
+    fields:
+    - name: otherspecify_ft
+      pdf_field_name: form1[0].Page1[0].Otherspecify_ft[0]
+      type: text
+      label: Otherspecify Ft
+      required: false
+      width: full
+  court_address_same_as_above_cb:
+    title: Court Address Same As Above Cb
+    fields:
+    - name: court_address_same_as_above_cb
+      pdf_field_name: form1[0].Page1[0].#area[0].CourtAddressSameAsAbove_cb[0]
+      type: address
+      label: Court Address Same As Above Cb
+      required: false
+      width: full
+      shared_key: court:address
+  check_box:
+    title: Check Box
+    fields:
+    - name: check_box61
+      pdf_field_name: form1[0].Page1[0].#area[1].CheckBox61[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box61_2
+      pdf_field_name: form1[0].Page1[0].CheckBox61[1]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box61_2
+      pdf_field_name: form1[0].Page2[0].CheckBox61[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box61_2
+      pdf_field_name: form1[0].Page2[0].CheckBox61[1]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+  department_no_ft:
+    title: Department No Ft
+    fields:
+    - name: department_no_ft
+      pdf_field_name: form1[0].Page1[0].DepartmentNo_ft[0]
+      type: text
+      label: Department No Ft
+      required: false
+      width: full
+  room_cb:
+    title: Room Cb
+    fields:
+    - name: room_cb
+      pdf_field_name: form1[0].Page1[0].#area[2].Room_cb[0]
+      type: text
+      label: Room Cb
+      required: false
+      width: full
+  courtroom_ft:
+    title: Courtroom Ft
+    fields:
+    - name: courtroom_ft
+      pdf_field_name: form1[0].Page1[0].Courtroom_ft[0]
+      type: text
+      label: Courtroom Ft
+      required: false
+      width: full
+  other_hearing_info_cb:
+    title: Other Hearing Info Cb
+    fields:
+    - name: other_hearing_info_cb
+      pdf_field_name: form1[0].Page1[0].#area[3].OtherHearingInfo_cb[0]
+      type: text
+      label: Other Hearing Info Cb
+      required: false
+      width: full
+  child1_name_ft:
+    title: Child1 Name Ft
+    fields:
+    - name: child1name_ft
+      pdf_field_name: form1[0].Page1[0].Child1Name_ft[0]
+      type: text
+      label: Child1 Name Ft
+      required: false
+      width: full
+  to_other_parent_party_cb:
+    title: To Other Parent Party Cb
+    fields:
+    - name: to_other_parent_party_cb
+      pdf_field_name: form1[0].Page1[0].ToOtherParentParty_cb[0]
+      type: currency
+      label: To Other Parent Party Cb
+      required: false
+      width: third
+  to_respondent_cb:
+    title: To Respondent Cb
+    fields:
+    - name: to_respondent_cb
+      pdf_field_name: form1[0].Page1[0].ToRespondent_cb[0]
+      type: text
+      label: To Respondent Cb
+      required: false
+      width: full
+    - name: to_respondent_cb_2
+      pdf_field_name: form1[0].Page1[0].ToRespondent_cb[1]
+      type: text
+      label: To Respondent Cb
+      required: false
+      width: full
+    - name: to_respondent_cb_2
+      pdf_field_name: form1[0].Page1[0].ToRespondent_cb[2]
+      type: text
+      label: To Respondent Cb
+      required: false
+      width: full
+    - name: to_respondent_cb_2
+      pdf_field_name: form1[0].Page1[0].ToRespondent_cb[3]
+      type: text
+      label: To Respondent Cb
+      required: false
+      width: full
+  child1_temp_custodyto_petitioner_cb:
+    title: Child1 Temp Custodyto Petitioner Cb
+    fields:
+    - name: child1temp_custodyto_petitioner_cb
+      pdf_field_name: form1[0].Page1[0].Child1TempCustodytoPetitioner_cb[0]
+      type: text
+      label: Child1 Temp Custodyto Petitioner Cb
+      required: false
+      width: full
+  multi_line_field:
+    title: Multi Line Field
+    fields:
+    - name: text_field2
+      pdf_field_name: form1[0].Page1[0].MultiLine_Field[0].TextField2[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+  visitation_cb:
+    title: Visitation Cb
+    fields:
+    - name: visitation_cb
+      pdf_field_name: form1[0].Page1[0].Visitation_cb[0]
+      type: text
+      label: Visitation Cb
+      required: false
+      width: full
+  child2_name_ft:
+    title: Child2 Name Ft
+    fields:
+    - name: child2name_ft
+      pdf_field_name: form1[0].Page1[0].Child2Name_ft[0]
+      type: text
+      label: Child2 Name Ft
+      required: false
+      width: full
+  to_other_cb:
+    title: To Other Cb
+    fields:
+    - name: to_other_cb
+      pdf_field_name: form1[0].Page1[0].ToOther_cb[0]
+      type: text
+      label: To Other Cb
+      required: false
+      width: full
+    - name: to_other_cb_2
+      pdf_field_name: form1[0].Page1[0].ToOther_cb[1]
+      type: text
+      label: To Other Cb
+      required: false
+      width: full
+    - name: to_other_cb_2
+      pdf_field_name: form1[0].Page1[0].ToOther_cb[2]
+      type: text
+      label: To Other Cb
+      required: false
+      width: full
+  to_petitioner_cb:
+    title: To Petitioner Cb
+    fields:
+    - name: to_petitioner_cb
+      pdf_field_name: form1[0].Page1[0].ToPetitioner_cb[0]
+      type: text
+      label: To Petitioner Cb
+      required: false
+      width: full
+  child3_name_ft:
+    title: Child3 Name Ft
+    fields:
+    - name: child3name_ft
+      pdf_field_name: form1[0].Page1[0].Child3Name_ft[0]
+      type: text
+      label: Child3 Name Ft
+      required: false
+      width: full
+  child3_temp_custodyto_petitioner_cb:
+    title: Child3 Temp Custodyto Petitioner Cb
+    fields:
+    - name: child3temp_custodyto_petitioner_cb
+      pdf_field_name: form1[0].Page1[0].Child3TempCustodytoPetitioner_cb[0]
+      type: text
+      label: Child3 Temp Custodyto Petitioner Cb
+      required: false
+      width: full
+  child5_name_ft:
+    title: Child5 Name Ft
+    fields:
+    - name: child5name_ft
+      pdf_field_name: form1[0].Page1[0].Child5Name_ft[0]
+      type: text
+      label: Child5 Name Ft
+      required: false
+      width: full
+  child5_temp_custody_to_other_cb:
+    title: Child5 Temp Custody To Other Cb
+    fields:
+    - name: child5temp_custody_to_other_cb
+      pdf_field_name: form1[0].Page1[0].Child5TempCustodyToOther_cb[0]
+      type: text
+      label: Child5 Temp Custody To Other Cb
+      required: false
+      width: full
+  child5_temp_custody_to_respondent_cb:
+    title: Child5 Temp Custody To Respondent Cb
+    fields:
+    - name: child5temp_custody_to_respondent_cb
+      pdf_field_name: form1[0].Page1[0].Child5TempCustodyToRespondent_cb[0]
+      type: text
+      label: Child5 Temp Custody To Respondent Cb
+      required: false
+      width: full
+  child5_temp_custodyto_petitioner_cb:
+    title: Child5 Temp Custodyto Petitioner Cb
+    fields:
+    - name: child5temp_custodyto_petitioner_cb
+      pdf_field_name: form1[0].Page1[0].Child5TempCustodytoPetitioner_cb[0]
+      type: text
+      label: Child5 Temp Custodyto Petitioner Cb
+      required: false
+      width: full
+  child4_name_ft:
+    title: Child4 Name Ft
+    fields:
+    - name: child4name_ft
+      pdf_field_name: form1[0].Page1[0].Child4Name_ft[0]
+      type: text
+      label: Child4 Name Ft
+      required: false
+      width: full
+  child4_temp_custodyto_petitioner_cb:
+    title: Child4 Temp Custodyto Petitioner Cb
+    fields:
+    - name: child4temp_custodyto_petitioner_cb
+      pdf_field_name: form1[0].Page1[0].Child4TempCustodytoPetitioner_cb[0]
+      type: text
+      label: Child4 Temp Custodyto Petitioner Cb
+      required: false
+      width: full
+  children_continued_cb:
+    title: Children Continued Cb
+    fields:
+    - name: children_continued_cb
+      pdf_field_name: form1[0].Page1[0].Children_continued_cb[0]
+      type: text
+      label: Children Continued Cb
+      required: false
+      width: full
+  child5_dob_dt:
+    title: Child5 Dob Dt
+    fields:
+    - name: child5dob_dt
+      pdf_field_name: form1[0].Page1[0].Child5DOB_dt[0]
+      type: text
+      label: Child5 Dob Dt
+      required: false
+      width: full
+  child4_dob_dt:
+    title: Child4 Dob Dt
+    fields:
+    - name: child4dob_dt
+      pdf_field_name: form1[0].Page1[0].Child4DOB_dt[0]
+      type: text
+      label: Child4 Dob Dt
+      required: false
+      width: full
+  child_dob_dt:
+    title: Child Dob Dt
+    fields:
+    - name: child_dob_dt
+      pdf_field_name: form1[0].Page1[0].ChildDOB_dt[0]
+      type: text
+      label: Child Dob Dt
+      required: false
+      width: full
+  child2_dob_dt:
+    title: Child2 Dob Dt
+    fields:
+    - name: child2dob_dt
+      pdf_field_name: form1[0].Page1[0].Child2DOB_dt[0]
+      type: text
+      label: Child2 Dob Dt
+      required: false
+      width: full
+  child1_dob_dt:
+    title: Child1 Dob Dt
+    fields:
+    - name: child1dob_dt
+      pdf_field_name: form1[0].Page1[0].Child1DOB_dt[0]
+      type: text
+      label: Child1 Dob Dt
+      required: false
+      width: full
+  attachment2e_cb:
+    title: Attachment2e Cb
+    fields:
+    - name: attachment2e_cb
+      pdf_field_name: form1[0].Page1[0].Attachment2e_cb[0]
+      type: text
+      label: Attachment2e Cb
+      required: false
+      width: full
+    - name: attachment2e_cb_2
+      pdf_field_name: form1[0].Page2[0].Attachment2e_cb[0]
+      type: text
+      label: Attachment2e Cb
+      required: false
+      width: full
+  respondent_cb:
+    title: Respondent Cb
+    fields:
+    - name: respondent_cb
+      pdf_field_name: form1[0].Page1[0].Respondent_cb[0]
+      type: text
+      label: Respondent Cb
+      required: false
+      width: full
+    - name: respondent_cb_2
+      pdf_field_name: form1[0].Page2[0].Respondent_cb[0]
+      type: text
+      label: Respondent Cb
+      required: false
+      width: full
+    - name: respondent_cb_2
+      pdf_field_name: form1[0].Page2[0].Respondent_cb[1]
+      type: text
+      label: Respondent Cb
+      required: false
+      width: full
+  petitioner_cb:
+    title: Petitioner Cb
+    fields:
+    - name: petitioner_cb
+      pdf_field_name: form1[0].Page1[0].Petitioner_cb[0]
+      type: text
+      label: Petitioner Cb
+      required: false
+      width: full
+    - name: petitioner_cb_2
+      pdf_field_name: form1[0].Page2[0].Petitioner_cb[0]
+      type: text
+      label: Petitioner Cb
+      required: false
+      width: full
+    - name: petitioner_cb_2
+      pdf_field_name: form1[0].Page2[0].Petitioner_cb[1]
+      type: text
+      label: Petitioner Cb
+      required: false
+      width: full
+  name_of_party_ft:
+    title: Name Of Party Ft
+    fields:
+    - name: name_of_party_ft
+      pdf_field_name: form1[0].Page1[0].NameOfParty_ft[0]
+      type: text
+      label: Name Of Party Ft
+      required: false
+      width: full
+  other_parent_party_cb:
+    title: Other Parent Party Cb
+    fields:
+    - name: other_parent_party_cb
+      pdf_field_name: form1[0].Page1[0].OtherParentParty_cb[0]
+      type: currency
+      label: Other Parent Party Cb
+      required: false
+      width: third
+    - name: other_parent_party_cb_2
+      pdf_field_name: form1[0].Page2[0].OtherParentParty_cb[0]
+      type: currency
+      label: Other Parent Party Cb
+      required: false
+      width: third
+    - name: other_parent_party_cb_2
+      pdf_field_name: form1[0].Page2[0].OtherParentParty_cb[1]
+      type: currency
+      label: Other Parent Party Cb
+      required: false
+      width: third
+  other_cb:
+    title: Other Cb
+    fields:
+    - name: other_cb_2
+      pdf_field_name: form1[0].Page1[0].Other_cb[0]
+      type: text
+      label: Other Cb
+      required: false
+      width: full
+  px_caption_sf:
+    title: Px Caption Sf
+    fields:
+    - name: case_number_ft_2
+      pdf_field_name: form1[0].Page2[0].PxCaption_sf[0].CaseNumber[0].CaseNumber_ft[0]
+      type: text
+      label: Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+    - name: petitioner_ft_2
+      pdf_field_name: form1[0].Page2[0].PxCaption_sf[0].Parties[0].Petitioner_ft[0]
+      type: text
+      label: Petitioner Ft
+      required: false
+      width: full
+    - name: respondent_ft_2
+      pdf_field_name: form1[0].Page2[0].PxCaption_sf[0].Parties[0].Respondent_ft[0]
+      type: text
+      label: Respondent Ft
+      required: false
+      width: full
+    - name: other_parent_party_ft_2
+      pdf_field_name: form1[0].Page2[0].PxCaption_sf[0].Parties[0].OtherParentParty_ft[0]
+      type: currency
+      label: Other Parent Party Ft
+      required: false
+      width: third
+  habitual_residenceis_usa_cb:
+    title: Habitual Residenceis Usa Cb
+    fields:
+    - name: habitual_residenceis_usa_cb
+      pdf_field_name: form1[0].Page2[0].HabitualResidenceisUSA_cb[0]
+      type: address
+      label: Habitual Residenceis Usa Cb
+      required: false
+      width: full
+  other_habitual_residence_cb:
+    title: Other Habitual Residence Cb
+    fields:
+    - name: other_habitual_residence_cb
+      pdf_field_name: form1[0].Page2[0].OtherHabitualResidence_cb[0]
+      type: address
+      label: Other Habitual Residence Cb
+      required: false
+      width: full
+  specify_other_habitual_residence_ft:
+    title: Specify Other Habitual Residence Ft
+    fields:
+    - name: specify_other_habitual_residence_ft
+      pdf_field_name: form1[0].Page2[0].SpecifyOtherHabitualResidence_ft[0]
+      type: address
+      label: Specify Other Habitual Residence Ft
+      required: false
+      width: full
+  child_abduction_prevention_cb:
+    title: Child Abduction Prevention Cb
+    fields:
+    - name: child_abduction_prevention_cb
+      pdf_field_name: form1[0].Page2[0].ChildAbductionPrevention_cb[0]
+      type: text
+      label: Child Abduction Prevention Cb
+      required: false
+      width: full
+  property_control_cb:
+    title: Property Control Cb
+    fields:
+    - name: property_control_cb
+      pdf_field_name: form1[0].Page2[0].PropertyControl_cb[0]
+      type: text
+      label: Property Control Cb
+      required: false
+      width: full
+  petitioner_exclusive_user_cb:
+    title: Petitioner Exclusive User Cb
+    fields:
+    - name: petitioner_exclusive_user_cb
+      pdf_field_name: form1[0].Page2[0].PetitionerExclusiveUser_cb[0]
+      type: text
+      label: Petitioner Exclusive User Cb
+      required: false
+      width: full
+  respondent_exclusive_user_cb:
+    title: Respondent Exclusive User Cb
+    fields:
+    - name: respondent_exclusive_user_cb
+      pdf_field_name: form1[0].Page2[0].RespondentExclusiveUser_cb[0]
+      type: text
+      label: Respondent Exclusive User Cb
+      required: false
+      width: full
+  other_parent_party_exclusive_user_cb:
+    title: Other Parent Party Exclusive User Cb
+    fields:
+    - name: other_parent_party_exclusive_user_cb
+      pdf_field_name: form1[0].Page2[0].OtherParentPartyExclusiveUser_cb[0]
+      type: currency
+      label: Other Parent Party Exclusive User Cb
+      required: false
+      width: third
+  specify_property_control_ft:
+    title: Specify Property Control Ft
+    fields:
+    - name: specify_property_control_ft
+      pdf_field_name: form1[0].Page2[0].SpecifyPropertyControl_ft[0]
+      type: text
+      label: Specify Property Control Ft
+      required: false
+      width: full
+  debt1_pay_to_ft:
+    title: Debt1 Pay To Ft
+    fields:
+    - name: debt1_pay_to_ft
+      pdf_field_name: form1[0].Page2[0].Debt1_PayTo_ft[0]
+      type: currency
+      label: Debt1 Pay To Ft
+      required: false
+      width: third
+  debt1_for_ft:
+    title: Debt1 For Ft
+    fields:
+    - name: debt1_for_ft
+      pdf_field_name: form1[0].Page2[0].Debt1_For_ft[0]
+      type: currency
+      label: Debt1 For Ft
+      required: false
+      width: third
+  debt1_amount_nu:
+    title: Debt1 Amount Nu
+    fields:
+    - name: debt1_amount_nu
+      pdf_field_name: form1[0].Page2[0].Debt1_Amount_nu[0]
+      type: currency
+      label: Debt1 Amount Nu
+      required: false
+      width: third
+  debt1_due_date_dt:
+    title: Debt1 Due Date Dt
+    fields:
+    - name: debt1_due_date_dt
+      pdf_field_name: form1[0].Page2[0].Debt1_DueDate_dt[0]
+      type: date
+      label: Debt1 Due Date Dt
+      required: false
+      width: half
+  debt3_payto_ft:
+    title: Debt3 Payto Ft
+    fields:
+    - name: debt3_payto_ft
+      pdf_field_name: form1[0].Page2[0].Debt3_Payto_ft[0]
+      type: currency
+      label: Debt3 Payto Ft
+      required: false
+      width: third
+  debt3_for_ft:
+    title: Debt3 For Ft
+    fields:
+    - name: debt3_for_ft
+      pdf_field_name: form1[0].Page2[0].Debt3_For_ft[0]
+      type: currency
+      label: Debt3 For Ft
+      required: false
+      width: third
+  debt3_amount_nu:
+    title: Debt3 Amount Nu
+    fields:
+    - name: debt3_amount_nu
+      pdf_field_name: form1[0].Page2[0].Debt3_Amount_nu[0]
+      type: currency
+      label: Debt3 Amount Nu
+      required: false
+      width: third
+  debt3_due_date_dt:
+    title: Debt3 Due Date Dt
+    fields:
+    - name: debt3_due_date_dt
+      pdf_field_name: form1[0].Page2[0].Debt3_DueDate_dt[0]
+      type: date
+      label: Debt3 Due Date Dt
+      required: false
+      width: half
+  debt2_pay_to_ft:
+    title: Debt2 Pay To Ft
+    fields:
+    - name: debt2_pay_to_ft
+      pdf_field_name: form1[0].Page2[0].Debt2_PayTo_ft[0]
+      type: currency
+      label: Debt2 Pay To Ft
+      required: false
+      width: third
+  debt2_for_ft:
+    title: Debt2 For Ft
+    fields:
+    - name: debt2_for_ft
+      pdf_field_name: form1[0].Page2[0].Debt2_For_ft[0]
+      type: currency
+      label: Debt2 For Ft
+      required: false
+      width: third
+  debt2_amount_nu:
+    title: Debt2 Amount Nu
+    fields:
+    - name: debt2_amount_nu
+      pdf_field_name: form1[0].Page2[0].Debt2_Amount_nu[0]
+      type: currency
+      label: Debt2 Amount Nu
+      required: false
+      width: third
+  debt2_date_due_dt:
+    title: Debt2 Date Due Dt
+    fields:
+    - name: debt2_date_due_dt
+      pdf_field_name: form1[0].Page2[0].Debt2_DateDue_dt[0]
+      type: date
+      label: Debt2 Date Due Dt
+      required: false
+      width: half
+  debt4_payto_ft:
+    title: Debt4 Payto Ft
+    fields:
+    - name: debt4_payto_ft
+      pdf_field_name: form1[0].Page2[0].Debt4_Payto_ft[0]
+      type: currency
+      label: Debt4 Payto Ft
+      required: false
+      width: third
+  debt4_for_ft:
+    title: Debt4 For Ft
+    fields:
+    - name: debt4_for_ft
+      pdf_field_name: form1[0].Page2[0].Debt4_For_ft[0]
+      type: currency
+      label: Debt4 For Ft
+      required: false
+      width: third
+  debt4_amount_nu:
+    title: Debt4 Amount Nu
+    fields:
+    - name: debt4_amount_nu
+      pdf_field_name: form1[0].Page2[0].Debt4_Amount_nu[0]
+      type: currency
+      label: Debt4 Amount Nu
+      required: false
+      width: third
+  debt4_due_date_dt:
+    title: Debt4 Due Date Dt
+    fields:
+    - name: debt4_due_date_dt
+      pdf_field_name: form1[0].Page2[0].Debt4_DueDate_dt[0]
+      type: date
+      label: Debt4 Due Date Dt
+      required: false
+      width: half
+  specify_other_orders_cb:
+    title: Specify Other Orders Cb
+    fields:
+    - name: specify_other_orders_cb
+      pdf_field_name: form1[0].Page2[0].SpecifyOtherOrders_cb[0]
+      type: text
+      label: Specify Other Orders Cb
+      required: false
+      width: full
+  other_orders_ft:
+    title: Other Orders Ft
+    fields:
+    - name: other_orders_ft
+      pdf_field_name: form1[0].Page2[0].OtherOrders_ft[0]
+      type: text
+      label: Other Orders Ft
+      required: false
+      width: full
+  date_order_signed_by_court_dt:
+    title: Date Order Signed By Court Dt
+    fields:
+    - name: date_order_signed_by_court_dt
+      pdf_field_name: form1[0].Page2[0].DateOrderSignedByCourt_dt[0]
+      type: date
+      label: Date Order Signed By Court Dt
+      required: false
+      width: half
+  existing_orders_remain_in_effect_cb:
+    title: Existing Orders Remain In Effect Cb
+    fields:
+    - name: existing_orders_remain_in_effect_cb
+      pdf_field_name: form1[0].Page2[0].ExistingOrdersRemainInEffect_cb[0]
+      type: text
+      label: Existing Orders Remain In Effect Cb
+      required: false
+      width: full
+  other_travel_restrictions_ft:
+    title: Other Travel Restrictions Ft
+    fields:
+    - name: other_travel_restrictions_ft
+      pdf_field_name: form1[0].Page2[0].OtherTravelRestrictions_ft[0]
+      type: text
+      label: Other Travel Restrictions Ft
+      required: false
+      width: full
+  from_california_cb:
+    title: From California Cb
+    fields:
+    - name: from_california_cb
+      pdf_field_name: form1[0].Page2[0].FromCalifornia_cb[0]
+      type: text
+      label: From California Cb
+      required: false
+      width: full
+  from_following_counties_cb:
+    title: From Following Counties Cb
+    fields:
+    - name: from_following_counties_cb
+      pdf_field_name: form1[0].Page2[0].FromFollowingCounties_cb[0]
+      type: number
+      label: From Following Counties Cb
+      required: false
+      width: third
+  list_counties_ft:
+    title: List Counties Ft
+    fields:
+    - name: list_counties_ft
+      pdf_field_name: form1[0].Page2[0].ListCounties_ft[0]
+      type: number
+      label: List Counties Ft
+      required: false
+      width: third
+  from_other_places_cb:
+    title: From Other Places Cb
+    fields:
+    - name: from_other_places_cb
+      pdf_field_name: form1[0].Page2[0].FromOtherPlaces_cb[0]
+      type: text
+      label: From Other Places Cb
+      required: false
+      width: full
+  print_bt:
+    title: Print Bt
+    fields:
+    - name: print_bt
+      pdf_field_name: form1[0].Page2[0].Print_bt[0]
+      type: checkbox
+      label: Print Bt
+      required: false
+      width: full
+  save_bt:
+    title: Save Bt
+    fields:
+    - name: save_bt
+      pdf_field_name: form1[0].Page2[0].Save_bt[0]
+      type: checkbox
+      label: Save Bt
+      required: false
+      width: full
+  reset_bt:
+    title: Reset Bt
+    fields:
+    - name: reset_bt
+      pdf_field_name: form1[0].Page2[0].Reset_bt[0]
+      type: checkbox
+      label: Reset Bt
+      required: false
+      width: full
+  t:
+    title: T
+    fields:
+    - name: t23
+      pdf_field_name: form1[0].Page2[0].T23[0]
+      type: checkbox
+      label: T
+      required: false
+      width: full

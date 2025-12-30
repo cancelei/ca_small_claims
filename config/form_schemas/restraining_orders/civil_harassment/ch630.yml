@@ -1,0 +1,733 @@
+---
+form:
+  code: CH-630
+  title: CH 630 Form
+  description: ''
+  category: restraining_orders/civil_harassment
+  pdf_filename: ch630.pdf
+  fillable: true
+  instructions: ''
+sections:
+  hearing_date_dt:
+    title: Hearing Date Dt
+    fields:
+    - name: hearing_date_dt
+      pdf_field_name: topmostSubform[0].Page1[0].HearingDate_dt[0]
+      type: date
+      label: Hearing Date Dt
+      required: false
+      width: half
+  hearing_time_dt:
+    title: Hearing Time Dt
+    fields:
+    - name: hearing_time_dt
+      pdf_field_name: topmostSubform[0].Page1[0].HearingTime_dt[0]
+      type: text
+      label: Hearing Time Dt
+      required: false
+      width: full
+  hearing_dept_ft:
+    title: Hearing Dept Ft
+    fields:
+    - name: hearing_dept_ft
+      pdf_field_name: topmostSubform[0].Page1[0].HearingDept_ft[0]
+      type: text
+      label: Hearing Dept Ft
+      required: false
+      width: full
+  hearing_room_ft:
+    title: Hearing Room Ft
+    fields:
+    - name: hearing_room_ft
+      pdf_field_name: topmostSubform[0].Page1[0].HearingRoom_ft[0]
+      type: text
+      label: Hearing Room Ft
+      required: false
+      width: full
+  hearing_judge_ft:
+    title: Hearing Judge Ft
+    fields:
+    - name: hearing_judge_ft
+      pdf_field_name: topmostSubform[0].Page1[0].HearingJudge_ft[0]
+      type: text
+      label: Hearing Judge Ft
+      required: false
+      width: full
+  protected_lawyer_name_ft:
+    title: Protected Lawyer Name Ft
+    fields:
+    - name: protected_lawyer_name_ft
+      pdf_field_name: topmostSubform[0].Page1[0].ProtectedLawyerName_ft[0]
+      type: text
+      label: Protected Lawyer Name Ft
+      required: false
+      width: full
+  hearing_time_def_cb:
+    title: Hearing Time Def Cb
+    fields:
+    - name: hearing_time_def_cb
+      pdf_field_name: topmostSubform[0].Page1[0].HearingTimeDef_cb[0]
+      type: text
+      label: Hearing Time Def Cb
+      required: false
+      width: full
+    - name: hearing_time_def_cb_2
+      pdf_field_name: topmostSubform[0].Page1[0].HearingTimeDef_cb[1]
+      type: text
+      label: Hearing Time Def Cb
+      required: false
+      width: full
+  hearing_protected_cb:
+    title: Hearing Protected Cb
+    fields:
+    - name: hearing_protected_cb
+      pdf_field_name: topmostSubform[0].Page1[0].HearingProtected_cb[0]
+      type: text
+      label: Hearing Protected Cb
+      required: false
+      width: full
+  hearing_restrained_cb:
+    title: Hearing Restrained Cb
+    fields:
+    - name: hearing_restrained_cb
+      pdf_field_name: topmostSubform[0].Page1[0].HearingRestrained_cb[0]
+      type: text
+      label: Hearing Restrained Cb
+      required: false
+      width: full
+  hearing_protected_lawyer_cb:
+    title: Hearing Protected Lawyer Cb
+    fields:
+    - name: hearing_protected_lawyer_cb
+      pdf_field_name: topmostSubform[0].Page1[0].HearingProtectedLawyer_cb[0]
+      type: text
+      label: Hearing Protected Lawyer Cb
+      required: false
+      width: full
+  restrained_lawyer_name_ft:
+    title: Restrained Lawyer Name Ft
+    fields:
+    - name: restrained_lawyer_name_ft
+      pdf_field_name: topmostSubform[0].Page1[0].RestrainedLawyerName_ft[0]
+      type: text
+      label: Restrained Lawyer Name Ft
+      required: false
+      width: full
+    - name: restrained_lawyer_name_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].RestrainedLawyerName_ft[1]
+      type: text
+      label: Restrained Lawyer Name Ft
+      required: false
+      width: full
+  hearing_restrained_lawyer_cb:
+    title: Hearing Restrained Lawyer Cb
+    fields:
+    - name: hearing_restrained_lawyer_cb
+      pdf_field_name: topmostSubform[0].Page1[0].HearingRestrainedLawyer_cb[0]
+      type: text
+      label: Hearing Restrained Lawyer Cb
+      required: false
+      width: full
+  title_sf:
+    title: Title Sf
+    fields:
+    - name: request_to_cb
+      pdf_field_name: topmostSubform[0].Page1[0].Title_sf[0].RequestTo_cb[0]
+      type: text
+      label: Request To Cb
+      required: false
+      width: full
+    - name: request_to_cb_2
+      pdf_field_name: topmostSubform[0].Page1[0].Title_sf[0].RequestTo_cb[1]
+      type: text
+      label: Request To Cb
+      required: false
+      width: full
+  caption_sf:
+    title: Caption Sf
+    fields:
+    - name: court_info_ft
+      pdf_field_name: topmostSubform[0].Page1[0].Caption_sf[0].CourtInfo_ft[0]
+      type: text
+      label: Court Info Ft
+      required: false
+      width: full
+    - name: case_number_ft
+      pdf_field_name: topmostSubform[0].Page1[0].Caption_sf[0].CaseNumber_ft[0]
+      type: text
+      label: Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+  terminate:
+    title: Terminate
+    fields:
+    - name: terminate
+      pdf_field_name: topmostSubform[0].Page1[0].Terminate[0]
+      type: text
+      label: Terminate
+      required: false
+      width: full
+  request_to_cb:
+    title: Request To Cb
+    fields:
+    - name: request_to_cb_2
+      pdf_field_name: topmostSubform[0].Page1[0].RequestTo_cb[0]
+      type: text
+      label: Request To Cb
+      required: false
+      width: full
+    - name: request_to_cb_2
+      pdf_field_name: topmostSubform[0].Page1[0].RequestTo_cb[1]
+      type: text
+      label: Request To Cb
+      required: false
+      width: full
+    - name: request_to_cb_2
+      pdf_field_name: topmostSubform[0].Page1[0].RequestTo_cb[2]
+      type: text
+      label: Request To Cb
+      required: false
+      width: full
+    - name: request_to_cb_2
+      pdf_field_name: topmostSubform[0].Page1[0].RequestTo_cb[3]
+      type: text
+      label: Request To Cb
+      required: false
+      width: full
+    - name: request_to_cb_2
+      pdf_field_name: topmostSubform[0].Page1[0].RequestTo_cb[4]
+      type: text
+      label: Request To Cb
+      required: false
+      width: full
+    - name: request_to_cb_2
+      pdf_field_name: topmostSubform[0].Page1[0].RequestTo_cb[5]
+      type: text
+      label: Request To Cb
+      required: false
+      width: full
+    - name: request_to_cb_2
+      pdf_field_name: topmostSubform[0].Page1[0].RequestTo_cb[6]
+      type: text
+      label: Request To Cb
+      required: false
+      width: full
+    - name: request_to_cb_2
+      pdf_field_name: topmostSubform[0].Page1[0].RequestTo_cb[7]
+      type: text
+      label: Request To Cb
+      required: false
+      width: full
+    - name: request_to_cb_2
+      pdf_field_name: topmostSubform[0].Page1[0].RequestTo_cb[8]
+      type: text
+      label: Request To Cb
+      required: false
+      width: full
+    - name: request_to_cb_2
+      pdf_field_name: topmostSubform[0].Page1[0].RequestTo_cb[9]
+      type: text
+      label: Request To Cb
+      required: false
+      width: full
+    - name: request_to_cb_2
+      pdf_field_name: topmostSubform[0].Page2[0].RequestTo_cb[0]
+      type: text
+      label: Request To Cb
+      required: false
+      width: full
+    - name: request_to_cb_2
+      pdf_field_name: topmostSubform[0].Page2[0].RequestTo_cb[1]
+      type: text
+      label: Request To Cb
+      required: false
+      width: full
+  order_at_issue_cb:
+    title: Order At Issue Cb
+    fields:
+    - name: order_at_issue_cb
+      pdf_field_name: topmostSubform[0].Page1[0].OrderAtIssue_cb[0]
+      type: text
+      label: Order At Issue Cb
+      required: false
+      width: full
+    - name: order_at_issue_cb_2
+      pdf_field_name: topmostSubform[0].Page1[0].OrderAtIssue_cb[1]
+      type: text
+      label: Order At Issue Cb
+      required: false
+      width: full
+  order_date_dt:
+    title: Order Date Dt
+    fields:
+    - name: order_date_dt
+      pdf_field_name: topmostSubform[0].Page1[0].OrderDate_dt[0]
+      type: date
+      label: Order Date Dt
+      required: false
+      width: half
+  granted_denied_cb:
+    title: Granted Denied Cb
+    fields:
+    - name: granted_denied_cb
+      pdf_field_name: topmostSubform[0].Page1[0].GrantedDenied_cb[0]
+      type: text
+      label: Granted Denied Cb
+      required: false
+      width: full
+    - name: granted_denied_cb_2
+      pdf_field_name: topmostSubform[0].Page2[0].GrantedDenied_cb[0]
+      type: text
+      label: Granted Denied Cb
+      required: false
+      width: full
+    - name: granted_denied_cb_2
+      pdf_field_name: topmostSubform[0].Page2[0].GrantedDenied_cb[1]
+      type: text
+      label: Granted Denied Cb
+      required: false
+      width: full
+  restrained_full_name_ft:
+    title: Restrained Full Name Ft
+    fields:
+    - name: restrained_full_name_ft
+      pdf_field_name: topmostSubform[0].Page1[0].RestrainedFullName_ft[0]
+      type: text
+      label: Restrained Full Name Ft
+      required: false
+      width: full
+  restrained_lawyer_bar_no:
+    title: Restrained Lawyer Bar No
+    fields:
+    - name: restrained_lawyer_bar_no
+      pdf_field_name: topmostSubform[0].Page1[0].RestrainedLawyerBar_no[0]
+      type: text
+      label: Restrained Lawyer Bar No
+      required: false
+      width: full
+  restrained_lawyer_firm_ft:
+    title: Restrained Lawyer Firm Ft
+    fields:
+    - name: restrained_lawyer_firm_ft
+      pdf_field_name: topmostSubform[0].Page1[0].RestrainedLawyerFirm_ft[0]
+      type: text
+      label: Restrained Lawyer Firm Ft
+      required: false
+      width: full
+  restrained_street_ft:
+    title: Restrained Street Ft
+    fields:
+    - name: restrained_street_ft
+      pdf_field_name: topmostSubform[0].Page1[0].RestrainedStreet_ft[0]
+      type: address
+      label: Restrained Street Ft
+      required: false
+      width: full
+  restrained_city_ft:
+    title: Restrained City Ft
+    fields:
+    - name: restrained_city_ft
+      pdf_field_name: topmostSubform[0].Page1[0].RestrainedCity_ft[0]
+      type: address
+      label: Restrained City Ft
+      required: false
+      width: full
+  restrained_state_ft:
+    title: Restrained State Ft
+    fields:
+    - name: restrained_state_ft
+      pdf_field_name: topmostSubform[0].Page1[0].RestrainedState_ft[0]
+      type: address
+      label: Restrained State Ft
+      required: false
+      width: full
+  restrained_zip_ft:
+    title: Restrained Zip Ft
+    fields:
+    - name: restrained_zip_ft
+      pdf_field_name: topmostSubform[0].Page1[0].RestrainedZip_ft[0]
+      type: address
+      label: Restrained Zip Ft
+      required: false
+      width: full
+  restrained_phone_ft:
+    title: Restrained Phone Ft
+    fields:
+    - name: restrained_phone_ft
+      pdf_field_name: topmostSubform[0].Page1[0].RestrainedPhone_ft[0]
+      type: tel
+      label: Restrained Phone Ft
+      required: false
+      width: half
+  restrained_fax_ft:
+    title: Restrained Fax Ft
+    fields:
+    - name: restrained_fax_ft
+      pdf_field_name: topmostSubform[0].Page1[0].RestrainedFax_ft[0]
+      type: tel
+      label: Restrained Fax Ft
+      required: false
+      width: half
+  restrained_e_mail_ft:
+    title: Restrained E Mail Ft
+    fields:
+    - name: restrained_e_mail_ft
+      pdf_field_name: topmostSubform[0].Page1[0].RestrainedE-Mail_ft[0]
+      type: email
+      label: Restrained E Mail Ft
+      required: false
+      width: half
+  protected_full_name_ft:
+    title: Protected Full Name Ft
+    fields:
+    - name: protected_full_name_ft
+      pdf_field_name: topmostSubform[0].Page1[0].ProtectedFullName_ft[0]
+      type: text
+      label: Protected Full Name Ft
+      required: false
+      width: full
+  protected_street_ft:
+    title: Protected Street Ft
+    fields:
+    - name: protected_street_ft
+      pdf_field_name: topmostSubform[0].Page1[0].ProtectedStreet_ft[0]
+      type: address
+      label: Protected Street Ft
+      required: false
+      width: full
+  protected_city_ft:
+    title: Protected City Ft
+    fields:
+    - name: protected_city_ft
+      pdf_field_name: topmostSubform[0].Page1[0].ProtectedCity_ft[0]
+      type: address
+      label: Protected City Ft
+      required: false
+      width: full
+  protected_state_ft:
+    title: Protected State Ft
+    fields:
+    - name: protected_state_ft
+      pdf_field_name: topmostSubform[0].Page1[0].ProtectedState_ft[0]
+      type: address
+      label: Protected State Ft
+      required: false
+      width: full
+  protected_zip_ft:
+    title: Protected Zip Ft
+    fields:
+    - name: protected_zip_ft
+      pdf_field_name: topmostSubform[0].Page1[0].ProtectedZip_ft[0]
+      type: address
+      label: Protected Zip Ft
+      required: false
+      width: full
+  modifications:
+    title: Modifications
+    fields:
+    - name: modifications
+      pdf_field_name: topmostSubform[0].Page2[0].Modifications[0]
+      type: text
+      label: Modifications
+      required: false
+      width: full
+  option_cb:
+    title: Option Cb
+    fields:
+    - name: option_cb
+      pdf_field_name: topmostSubform[0].Page2[0].Option_cb[0]
+      type: text
+      label: Option Cb
+      required: false
+      width: full
+    - name: option_cb_2
+      pdf_field_name: topmostSubform[0].Page2[0].Option_cb[1]
+      type: text
+      label: Option Cb
+      required: false
+      width: full
+  expiration_date:
+    title: Expiration Date
+    fields:
+    - name: expiration_date
+      pdf_field_name: topmostSubform[0].Page2[0].Expiration_date[0]
+      type: date
+      label: Expiration Date
+      required: false
+      width: half
+  expiration_time:
+    title: Expiration Time
+    fields:
+    - name: expiration_time
+      pdf_field_name: topmostSubform[0].Page2[0].Expiration_time[0]
+      type: date
+      label: Expiration Time
+      required: false
+      width: half
+  px_caption_sf:
+    title: Px Caption Sf
+    fields:
+    - name: case_number_ft_2
+      pdf_field_name: topmostSubform[0].Page2[0].PxCaption_sf[0].CaseNumber_ft[0]
+      type: text
+      label: Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+    - name: case_number_ft_2
+      pdf_field_name: topmostSubform[0].Page3[0].PxCaption_sf[0].CaseNumber_ft[0]
+      type: text
+      label: Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+  fees_costs:
+    title: Fees Costs\
+    fields:
+    - name: cb
+      pdf_field_name: topmostSubform[0].Page2[0].FeesCosts\.cb[0]
+      type: currency
+      label: Cb
+      required: false
+      width: third
+  fees_sf:
+    title: Fees Sf
+    fields:
+    - name: fees_payor_no
+      pdf_field_name: topmostSubform[0].Page2[0].Fees_sf[0].FeesPayor_no[0]
+      type: currency
+      label: Fees Payor No
+      required: false
+      width: third
+    - name: fees_payee_no
+      pdf_field_name: topmostSubform[0].Page2[0].Fees_sf[0].FeesPayee_no[0]
+      type: currency
+      label: Fees Payee No
+      required: false
+      width: third
+    - name: fees_lawyer_cb
+      pdf_field_name: topmostSubform[0].Page2[0].Fees_sf[0].FeesLawyer_cb[0]
+      type: currency
+      label: Fees Lawyer Cb
+      required: false
+      width: third
+    - name: fees_costs_cb
+      pdf_field_name: topmostSubform[0].Page2[0].Fees_sf[0].FeesCosts_cb[0]
+      type: currency
+      label: Fees Costs Cb
+      required: false
+      width: third
+    - name: fees_item1_ft
+      pdf_field_name: topmostSubform[0].Page2[0].Fees_sf[0].FeesItem1_ft[0]
+      type: currency
+      label: Fees Item1 Ft
+      required: false
+      width: third
+    - name: fees_amount1_dc
+      pdf_field_name: topmostSubform[0].Page2[0].Fees_sf[0].FeesAmount1_dc[0]
+      type: currency
+      label: Fees Amount1 Dc
+      required: false
+      width: third
+    - name: fees_item3_ft
+      pdf_field_name: topmostSubform[0].Page2[0].Fees_sf[0].FeesItem3_ft[0]
+      type: currency
+      label: Fees Item3 Ft
+      required: false
+      width: third
+    - name: fees_amount3_dc
+      pdf_field_name: topmostSubform[0].Page2[0].Fees_sf[0].FeesAmount3_dc[0]
+      type: currency
+      label: Fees Amount3 Dc
+      required: false
+      width: third
+    - name: fees_item2_ft
+      pdf_field_name: topmostSubform[0].Page2[0].Fees_sf[0].FeesItem2_ft[0]
+      type: currency
+      label: Fees Item2 Ft
+      required: false
+      width: third
+    - name: fees_amount2_dc
+      pdf_field_name: topmostSubform[0].Page2[0].Fees_sf[0].FeesAmount2_dc[0]
+      type: currency
+      label: Fees Amount2 Dc
+      required: false
+      width: third
+    - name: fees_item4_ft
+      pdf_field_name: topmostSubform[0].Page2[0].Fees_sf[0].FeesItem4_ft[0]
+      type: currency
+      label: Fees Item4 Ft
+      required: false
+      width: third
+    - name: fees_amount4_dc
+      pdf_field_name: topmostSubform[0].Page2[0].Fees_sf[0].FeesAmount4_dc[0]
+      type: currency
+      label: Fees Amount4 Dc
+      required: false
+      width: third
+    - name: fees_of_cb
+      pdf_field_name: topmostSubform[0].Page2[0].Fees_sf[0].Fees_OF_cb[0]
+      type: currency
+      label: Fees Of Cb
+      required: false
+      width: third
+  carpos_who_rb:
+    title: Carpos Who Rb
+    fields:
+    - name: carpos_who_rb
+      pdf_field_name: topmostSubform[0].Page2[0].CARPOSWho_rb[0]
+      type: text
+      label: Carpos Who Rb
+      required: false
+      width: full
+    - name: carpos_who_rb_2
+      pdf_field_name: topmostSubform[0].Page2[0].CARPOSWho_rb[1]
+      type: text
+      label: Carpos Who Rb
+      required: false
+      width: full
+    - name: carpos_who_rb_2
+      pdf_field_name: topmostSubform[0].Page2[0].CARPOSWho_rb[2]
+      type: text
+      label: Carpos Who Rb
+      required: false
+      width: full
+  clets_agency_sf:
+    title: Clets Agency Sf
+    fields:
+    - name: clets_agency1_ft
+      pdf_field_name: topmostSubform[0].Page2[0].CLETSAgency_sf[0].CLETSAgency1_ft[0]
+      type: text
+      label: Clets Agency1 Ft
+      required: false
+      width: full
+    - name: clets_agency2_ft
+      pdf_field_name: topmostSubform[0].Page2[0].CLETSAgency_sf[0].CLETSAgency2_ft[0]
+      type: text
+      label: Clets Agency2 Ft
+      required: false
+      width: full
+    - name: clets_agency_address1_ft
+      pdf_field_name: topmostSubform[0].Page2[0].CLETSAgency_sf[0].CLETSAgencyAddress1_ft[0]
+      type: address
+      label: Clets Agency Address1 Ft
+      required: false
+      width: full
+    - name: clets_agency_address2_ft
+      pdf_field_name: topmostSubform[0].Page2[0].CLETSAgency_sf[0].CLETSAgencyAddress2_ft[0]
+      type: address
+      label: Clets Agency Address2 Ft
+      required: false
+      width: full
+    - name: clets_agency_of_cb
+      pdf_field_name: topmostSubform[0].Page2[0].CLETSAgency_sf[0].CLETSAgency_OF_cb[0]
+      type: text
+      label: Clets Agency Of Cb
+      required: false
+      width: full
+  service_cb:
+    title: Service Cb
+    fields:
+    - name: service_cb
+      pdf_field_name: topmostSubform[0].Page3[0].Service_cb[0]
+      type: text
+      label: Service Cb
+      required: false
+      width: full
+    - name: service_cb_2
+      pdf_field_name: topmostSubform[0].Page3[0].Service_cb[1]
+      type: text
+      label: Service Cb
+      required: false
+      width: full
+    - name: service_cb_2
+      pdf_field_name: topmostSubform[0].Page3[0].Service_cb[2]
+      type: text
+      label: Service Cb
+      required: false
+      width: full
+  clerk_signature_da:
+    title: Clerk Signature Da
+    fields:
+    - name: clerk_signature_da
+      pdf_field_name: topmostSubform[0].Page3[0].ClerkSignature_da[0]
+      type: signature
+      label: Clerk Signature Da
+      required: false
+      width: full
+  ch730_signature_date_dt:
+    title: Ch730 Signature Date Dt
+    fields:
+    - name: ch730signature_date_dt
+      pdf_field_name: topmostSubform[0].Page3[0].CH730SignatureDate_dt[0]
+      type: signature
+      label: Ch730 Signature Date Dt
+      required: false
+      width: full
+  request_service_days:
+    title: Request Service Days
+    fields:
+    - name: request_service_days
+      pdf_field_name: topmostSubform[0].Page3[0].Request_service_days[0]
+      type: text
+      label: Request Service Days
+      required: false
+      width: full
+  service_granted_cb:
+    title: Service Granted Cb
+    fields:
+    - name: service_granted_cb
+      pdf_field_name: topmostSubform[0].Page3[0].ServiceGranted_cb[0]
+      type: text
+      label: Service Granted Cb
+      required: false
+      width: full
+    - name: service_granted_cb_2
+      pdf_field_name: topmostSubform[0].Page3[0].ServiceGranted_cb[1]
+      type: text
+      label: Service Granted Cb
+      required: false
+      width: full
+  t:
+    title: T
+    fields:
+    - name: t16
+      pdf_field_name: topmostSubform[0].Page3[0].T16[0]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t23
+      pdf_field_name: topmostSubform[0].Page3[0].T23[0]
+      type: checkbox
+      label: T
+      required: false
+      width: full
+  print_bt:
+    title: Print Bt
+    fields:
+    - name: print_bt
+      pdf_field_name: topmostSubform[0].Page3[0].Print_bt[0]
+      type: checkbox
+      label: Print Bt
+      required: false
+      width: full
+  save_bt:
+    title: Save Bt
+    fields:
+    - name: save_bt
+      pdf_field_name: topmostSubform[0].Page3[0].Save_bt[0]
+      type: checkbox
+      label: Save Bt
+      required: false
+      width: full
+  reset_bt:
+    title: Reset Bt
+    fields:
+    - name: reset_bt
+      pdf_field_name: topmostSubform[0].Page3[0].Reset_bt[0]
+      type: checkbox
+      label: Reset Bt
+      required: false
+      width: full

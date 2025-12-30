@@ -1,0 +1,239 @@
+---
+form:
+  code: JV-755
+  title: JV 755 Form
+  description: ''
+  category: juvenile/general
+  pdf_filename: jv755.pdf
+  fillable: true
+  instructions: ''
+sections:
+  general:
+    title: General
+    fields:
+    - name: check_box6
+      pdf_field_name: CheckBox6
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box5
+      pdf_field_name: CheckBox5
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: fill_text34
+      pdf_field_name: FillText34
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text35
+      pdf_field_name: FillText35
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text37
+      pdf_field_name: FillText37
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: case_name
+      pdf_field_name: CaseName
+      type: text
+      label: Case Name
+      required: false
+      width: full
+    - name: case_number
+      pdf_field_name: CaseNumber
+      type: text
+      label: Case Number
+      required: false
+      width: full
+      shared_key: case:number
+    - name: info0
+      pdf_field_name: Atty.Info0
+      type: text
+      label: Info
+      required: false
+      width: full
+    - name: info1
+      pdf_field_name: Atty.Info1
+      type: text
+      label: Info
+      required: false
+      width: full
+    - name: info2
+      pdf_field_name: Atty.Info2
+      type: text
+      label: Info
+      required: false
+      width: full
+    - name: info3
+      pdf_field_name: Atty.Info3
+      type: text
+      label: Info
+      required: false
+      width: full
+    - name: info4
+      pdf_field_name: Atty.Info4
+      type: text
+      label: Info
+      required: false
+      width: full
+    - name: info5
+      pdf_field_name: Atty.Info5
+      type: text
+      label: Info
+      required: false
+      width: full
+    - name: tel
+      pdf_field_name: Tel
+      type: tel
+      label: Tel
+      required: false
+      width: half
+    - name: fax
+      pdf_field_name: Fax
+      type: tel
+      label: Fax
+      required: false
+      width: half
+    - name: email
+      pdf_field_name: email
+      type: email
+      label: Email
+      required: false
+      width: half
+    - name: for
+      pdf_field_name: Attorney.for
+      type: text
+      label: For
+      required: false
+      width: full
+    - name: street
+      pdf_field_name: Court.street
+      type: address
+      label: Street
+      required: false
+      width: full
+    - name: county
+      pdf_field_name: Court.County
+      type: number
+      label: County
+      required: false
+      width: third
+    - name: mailing
+      pdf_field_name: Court.mailing
+      type: address
+      label: Mailing
+      required: false
+      width: full
+    - name: branch
+      pdf_field_name: Court.branch
+      type: text
+      label: Branch
+      required: false
+      width: full
+    - name: other
+      pdf_field_name: CheckBox.06.other
+      type: checkbox
+      label: Other
+      required: false
+      width: full
+    - name: date
+      pdf_field_name: Date
+      type: date
+      label: Date
+      required: false
+      width: half
+    - name: check_box2
+      pdf_field_name: CheckBox2
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box3
+      pdf_field_name: CheckBox3
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box4
+      pdf_field_name: CheckBox4
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: fill_text23
+      pdf_field_name: FillText23
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text24
+      pdf_field_name: FillText24
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text25
+      pdf_field_name: FillText25
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text26
+      pdf_field_name: FillText26
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text27
+      pdf_field_name: FillText27
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text28
+      pdf_field_name: FillText28
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text29
+      pdf_field_name: FillText29
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text31
+      pdf_field_name: FillText31
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text32
+      pdf_field_name: FillText32
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text33
+      pdf_field_name: FillText33
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+  city:
+    title: City
+    fields:
+    - name: zip
+      pdf_field_name: Court.City.zip
+      type: address
+      label: Zip
+      required: false
+      width: full

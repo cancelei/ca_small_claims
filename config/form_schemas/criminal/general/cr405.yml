@@ -1,0 +1,299 @@
+---
+form:
+  code: CR-405
+  title: CR 405 Form
+  description: ''
+  category: criminal/general
+  pdf_filename: cr405.pdf
+  fillable: true
+  instructions: ''
+sections:
+  caption_sf:
+    title: Caption Sf
+    fields:
+    - name: party1
+      pdf_field_name: CR-405[0].Page1[0].Caption_sf[0].CaseName[0].Party1[0]
+      type: text
+      label: Party
+      required: false
+      width: full
+    - name: atty_state_ft
+      pdf_field_name: CR-405[0].Page1[0].Caption_sf[0].AttyInfo[0].AttyState_ft[0]
+      type: address
+      label: Atty State Ft
+      required: false
+      width: full
+    - name: atty_zip_ft
+      pdf_field_name: CR-405[0].Page1[0].Caption_sf[0].AttyInfo[0].AttyZip_ft[0]
+      type: address
+      label: Atty Zip Ft
+      required: false
+      width: full
+    - name: atty_city_ft
+      pdf_field_name: CR-405[0].Page1[0].Caption_sf[0].AttyInfo[0].AttyCity_ft[0]
+      type: address
+      label: Atty City Ft
+      required: false
+      width: full
+    - name: atty_street_ft
+      pdf_field_name: CR-405[0].Page1[0].Caption_sf[0].AttyInfo[0].AttyStreet_ft[0]
+      type: address
+      label: Atty Street Ft
+      required: false
+      width: full
+    - name: atty_firm_ft
+      pdf_field_name: CR-405[0].Page1[0].Caption_sf[0].AttyInfo[0].AttyFirm_ft[0]
+      type: text
+      label: Atty Firm Ft
+      required: false
+      width: full
+    - name: atty_name_ft
+      pdf_field_name: CR-405[0].Page1[0].Caption_sf[0].AttyInfo[0].AttyName_ft[0]
+      type: text
+      label: Atty Name Ft
+      required: false
+      width: full
+    - name: atty_bar_no_dc
+      pdf_field_name: CR-405[0].Page1[0].Caption_sf[0].AttyInfo[0].AttyBarNo_dc[0]
+      type: text
+      label: Atty Bar No Dc
+      required: false
+      width: full
+    - name: phone_ft
+      pdf_field_name: CR-405[0].Page1[0].Caption_sf[0].AttyInfo[0].Phone_ft[0]
+      type: tel
+      label: Phone Ft
+      required: false
+      width: half
+    - name: fax_ft
+      pdf_field_name: CR-405[0].Page1[0].Caption_sf[0].AttyInfo[0].Fax_ft[0]
+      type: tel
+      label: Fax Ft
+      required: false
+      width: half
+    - name: email_ft
+      pdf_field_name: CR-405[0].Page1[0].Caption_sf[0].AttyInfo[0].Email_ft[0]
+      type: email
+      label: Email Ft
+      required: false
+      width: half
+    - name: atty_for_ft
+      pdf_field_name: CR-405[0].Page1[0].Caption_sf[0].AttyInfo[0].AttyFor_ft[0]
+      type: text
+      label: Atty For Ft
+      required: false
+      width: full
+    - name: case_number
+      pdf_field_name: CR-405[0].Page1[0].Caption_sf[0].CaseNumber[0].CaseNumber[0]
+      type: text
+      label: Case Number
+      required: false
+      width: full
+      shared_key: case:number
+    - name: crt_date_ft
+      pdf_field_name: CR-405[0].Page1[0].Caption_sf[0].CrtDateTime_sf[0].CrtDate_ft[0]
+      type: date
+      label: Crt Date Ft
+      required: false
+      width: half
+    - name: crt_time_ft
+      pdf_field_name: CR-405[0].Page1[0].Caption_sf[0].CrtDateTime_sf[0].CrtTime_ft[0]
+      type: date
+      label: Crt Time Ft
+      required: false
+      width: half
+    - name: crt_dept_ft
+      pdf_field_name: CR-405[0].Page1[0].Caption_sf[0].CrtDateTime_sf[0].CrtDept_ft[0]
+      type: date
+      label: Crt Dept Ft
+      required: false
+      width: half
+  checkbox:
+    title: Checkbox
+    fields:
+    - name: checkbox
+      pdf_field_name: CR-405[0].Page1[0].Checkbox[0]
+      type: checkbox
+      label: Checkbox
+      required: false
+      width: full
+    - name: checkbox_2
+      pdf_field_name: CR-405[0].Page1[0].Checkbox[1]
+      type: checkbox
+      label: Checkbox
+      required: false
+      width: full
+    - name: checkbox_2
+      pdf_field_name: CR-405[0].Page1[0].Checkbox[2]
+      type: checkbox
+      label: Checkbox
+      required: false
+      width: full
+    - name: checkbox_2
+      pdf_field_name: CR-405[0].Page1[0].Checkbox[3]
+      type: checkbox
+      label: Checkbox
+      required: false
+      width: full
+    - name: checkbox_2
+      pdf_field_name: CR-405[0].Page1[0].Checkbox[4]
+      type: checkbox
+      label: Checkbox
+      required: false
+      width: full
+    - name: checkbox_2
+      pdf_field_name: CR-405[0].Page1[0].Checkbox[5]
+      type: checkbox
+      label: Checkbox
+      required: false
+      width: full
+    - name: checkbox_2
+      pdf_field_name: CR-405[0].Page1[0].Checkbox[6]
+      type: checkbox
+      label: Checkbox
+      required: false
+      width: full
+    - name: checkbox_2
+      pdf_field_name: CR-405[0].Page1[0].Checkbox[7]
+      type: checkbox
+      label: Checkbox
+      required: false
+      width: full
+    - name: checkbox_2
+      pdf_field_name: CR-405[0].Page1[0].Checkbox[8]
+      type: checkbox
+      label: Checkbox
+      required: false
+      width: full
+    - name: checkbox_2
+      pdf_field_name: CR-405[0].Page1[0].Checkbox[9]
+      type: checkbox
+      label: Checkbox
+      required: false
+      width: full
+    - name: checkbox_2
+      pdf_field_name: CR-405[0].Page1[0].Checkbox[10]
+      type: checkbox
+      label: Checkbox
+      required: false
+      width: full
+    - name: checkbox_2
+      pdf_field_name: CR-405[0].Page1[0].Checkbox[11]
+      type: checkbox
+      label: Checkbox
+      required: false
+      width: full
+  text_field:
+    title: Text Field
+    fields:
+    - name: text_field2
+      pdf_field_name: CR-405[0].Page1[0].TextField2[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field2_2
+      pdf_field_name: CR-405[0].Page1[0].TextField2[1]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field2_2
+      pdf_field_name: CR-405[0].Page1[0].TextField2[2]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6
+      pdf_field_name: CR-405[0].Page1[0].TextField6[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: CR-405[0].Page1[0].TextField6[1]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: CR-405[0].Page1[0].TextField6[2]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+  check_box:
+    title: Check Box
+    fields:
+    - name: check_box61
+      pdf_field_name: CR-405[0].Page1[0].CheckBox61[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box61_2
+      pdf_field_name: CR-405[0].Page1[0].CheckBox61[1]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+  executed_date_dt:
+    title: Executed Date Dt
+    fields:
+    - name: executed_date_dt
+      pdf_field_name: CR-405[0].Page1[0].ExecutedDate_dt[0]
+      type: date
+      label: Executed Date Dt
+      required: false
+      width: half
+    - name: executed_date_dt_2
+      pdf_field_name: CR-405[0].Page1[0].ExecutedDate_dt[1]
+      type: date
+      label: Executed Date Dt
+      required: false
+      width: half
+  atty_name_ft:
+    title: Atty Name Ft
+    fields:
+    - name: atty_name_ft_2
+      pdf_field_name: CR-405[0].Page1[0].AttyName_ft[0]
+      type: text
+      label: Atty Name Ft
+      required: false
+      width: full
+  print_bt:
+    title: Print Bt
+    fields:
+    - name: print_bt
+      pdf_field_name: CR-405[0].Page1[0].#area[0].Print_bt[0]
+      type: checkbox
+      label: Print Bt
+      required: false
+      width: full
+  save_bt:
+    title: Save Bt
+    fields:
+    - name: save_bt
+      pdf_field_name: CR-405[0].Page1[0].#area[0].Save_bt[0]
+      type: checkbox
+      label: Save Bt
+      required: false
+      width: full
+  reset_bt:
+    title: Reset Bt
+    fields:
+    - name: reset_bt
+      pdf_field_name: CR-405[0].Page1[0].#area[0].Reset_bt[0]
+      type: checkbox
+      label: Reset Bt
+      required: false
+      width: full
+  t:
+    title: T
+    fields:
+    - name: t23
+      pdf_field_name: CR-405[0].Page1[0].#area[0].T23[0]
+      type: checkbox
+      label: T
+      required: false
+      width: full

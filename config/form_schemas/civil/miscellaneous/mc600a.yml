@@ -1,0 +1,466 @@
+---
+form:
+  code: MC-600A
+  title: MC 600A Form
+  description: ''
+  category: civil/miscellaneous
+  pdf_filename: mc600a.pdf
+  fillable: true
+  instructions: ''
+sections:
+  footer_buttons:
+    title: Footer Buttons
+    fields:
+    - name: print
+      pdf_field_name: MC-600a[0].#pageSet[0].Page1[0].FooterButtons[0].Print[0]
+      type: checkbox
+      label: Print
+      required: false
+      width: full
+    - name: save
+      pdf_field_name: MC-600a[0].#pageSet[0].Page1[0].FooterButtons[0].Save[0]
+      type: checkbox
+      label: Save
+      required: false
+      width: full
+    - name: reset
+      pdf_field_name: MC-600a[0].#pageSet[0].Page1[0].FooterButtons[0].Reset[0]
+      type: checkbox
+      label: Reset
+      required: false
+      width: full
+  form_title:
+    title: Form Title
+    fields:
+    - name: crt_county
+      pdf_field_name: MC-600a[0].Page1[0].FormTitle[0].CrtCounty[0]
+      type: number
+      label: Crt County
+      required: false
+      width: third
+  rep_period_sf:
+    title: Rep Period Sf
+    fields:
+    - name: begin_date
+      pdf_field_name: MC-600a[0].Page1[0].RepPeriod_sf[0].BeginDate[0]
+      type: date
+      label: Begin Date
+      required: false
+      width: half
+    - name: end_date
+      pdf_field_name: MC-600a[0].Page1[0].RepPeriod_sf[0].EndDate[0]
+      type: date
+      label: End Date
+      required: false
+      width: half
+  item:
+    title: Item
+    fields:
+    - name: num1_tf
+      pdf_field_name: MC-600a[0].Page1[0].Item1[0].Num1_tf[0]
+      type: text
+      label: Num1 Tf
+      required: false
+      width: full
+    - name: name1
+      pdf_field_name: MC-600a[0].Page1[0].Item1[0].Item1a_sf[0].Name1[0]
+      type: text
+      label: Name
+      required: false
+      width: full
+    - name: aka1
+      pdf_field_name: MC-600a[0].Page1[0].Item1[0].Item1b_sf[0].Aka1[0]
+      type: text
+      label: Aka
+      required: false
+      width: full
+    - name: add1pt1
+      pdf_field_name: MC-600a[0].Page1[0].Item1[0].Item1c_sf[0].Add1pt1[0]
+      type: text
+      label: Add1pt
+      required: false
+      width: full
+    - name: add1pt2
+      pdf_field_name: MC-600a[0].Page1[0].Item1[0].Item1c_sf[0].Add1pt2[0]
+      type: text
+      label: Add1pt
+      required: false
+      width: full
+    - name: case_num1
+      pdf_field_name: MC-600a[0].Page1[0].Item1[0].Items1def_sf[0].CaseNum1[0]
+      type: text
+      label: Case Num
+      required: false
+      width: full
+    - name: order_date1
+      pdf_field_name: MC-600a[0].Page1[0].Item1[0].Items1def_sf[0].OrderDate1[0]
+      type: date
+      label: Order Date
+      required: false
+      width: half
+    - name: dob1_ft
+      pdf_field_name: MC-600a[0].Page1[0].Item1[0].Items1def_sf[0].DOB1_ft[0]
+      type: text
+      label: Dob1 Ft
+      required: false
+      width: full
+    - name: d_lor_id1
+      pdf_field_name: MC-600a[0].Page1[0].Item1[0].Items1gh_sf[0].DLorID1[0]
+      type: text
+      label: D Lor Id
+      required: false
+      width: full
+    - name: last4ssn1
+      pdf_field_name: MC-600a[0].Page1[0].Item1[0].Items1gh_sf[0].Last4SSN1[0]
+      type: text
+      label: Last4 Ssn
+      required: false
+      width: full
+    - name: disrest1_iandj1
+      pdf_field_name: MC-600a[0].Page1[0].Item1[0].Item1i_sf[0].Disrest1_iandj1[0]
+      type: text
+      label: Disrest1 Iandj
+      required: false
+      width: full
+    - name: disrest1_iandj1_2
+      pdf_field_name: MC-600a[0].Page1[0].Item1[0].Item1i_sf[0].Disrest1_iandj1[1]
+      type: text
+      label: Disrest1 Iandj
+      required: false
+      width: full
+    - name: electionscodeij1
+      pdf_field_name: MC-600a[0].Page1[0].Item1[0].Item1j_sf[0].Electionscodeij1[0]
+      type: text
+      label: Electionscodeij
+      required: false
+      width: full
+    - name: electionscodeij1_2
+      pdf_field_name: MC-600a[0].Page1[0].Item1[0].Item1j_sf[0].Electionscodeij1[1]
+      type: text
+      label: Electionscodeij
+      required: false
+      width: full
+    - name: electionscodeij1_2
+      pdf_field_name: MC-600a[0].Page1[0].Item1[0].Item1j_sf[0].Electionscodeij1[2]
+      type: text
+      label: Electionscodeij
+      required: false
+      width: full
+    - name: electionscodeij1_2
+      pdf_field_name: MC-600a[0].Page1[0].Item1[0].Item1j_sf[0].Electionscodeij1[3]
+      type: text
+      label: Electionscodeij
+      required: false
+      width: full
+    - name: cap_fdg1_cb
+      pdf_field_name: MC-600a[0].Page1[0].Item1[0].Item1k_sf[0].CapFdg1_cb[0]
+      type: text
+      label: Cap Fdg1 Cb
+      required: false
+      width: full
+    - name: num2_tf
+      pdf_field_name: MC-600a[0].Page1[0].Item2[0].Num2_tf[0]
+      type: text
+      label: Num2 Tf
+      required: false
+      width: full
+    - name: name2
+      pdf_field_name: MC-600a[0].Page1[0].Item2[0].Item2a_sf[0].Name2[0]
+      type: text
+      label: Name
+      required: false
+      width: full
+    - name: aka2
+      pdf_field_name: MC-600a[0].Page1[0].Item2[0].Item2b_sf[0].Aka2[0]
+      type: text
+      label: Aka
+      required: false
+      width: full
+    - name: add2pt1
+      pdf_field_name: MC-600a[0].Page1[0].Item2[0].Item2c_sf[0].Add2pt1[0]
+      type: text
+      label: Add2pt
+      required: false
+      width: full
+    - name: add2pt2
+      pdf_field_name: MC-600a[0].Page1[0].Item2[0].Item2c_sf[0].Add2pt2[0]
+      type: text
+      label: Add2pt
+      required: false
+      width: full
+    - name: case_num2
+      pdf_field_name: MC-600a[0].Page1[0].Item2[0].Items2def_sf[0].CaseNum2[0]
+      type: text
+      label: Case Num
+      required: false
+      width: full
+    - name: order_date2
+      pdf_field_name: MC-600a[0].Page1[0].Item2[0].Items2def_sf[0].OrderDate2[0]
+      type: date
+      label: Order Date
+      required: false
+      width: half
+    - name: dob2_ft
+      pdf_field_name: MC-600a[0].Page1[0].Item2[0].Items2def_sf[0].DOB2_ft[0]
+      type: text
+      label: Dob2 Ft
+      required: false
+      width: full
+    - name: d_lor_id2
+      pdf_field_name: MC-600a[0].Page1[0].Item2[0].Items2gh_sf[0].DLorID2[0]
+      type: text
+      label: D Lor Id
+      required: false
+      width: full
+    - name: last4ssn2
+      pdf_field_name: MC-600a[0].Page1[0].Item2[0].Items2gh_sf[0].Last4SSN2[0]
+      type: text
+      label: Last4 Ssn
+      required: false
+      width: full
+    - name: disrest1_iandj2
+      pdf_field_name: MC-600a[0].Page1[0].Item2[0].Item2i_sf[0].Disrest1_iandj2[0]
+      type: text
+      label: Disrest1 Iandj
+      required: false
+      width: full
+    - name: disrest1_iandj2_2
+      pdf_field_name: MC-600a[0].Page1[0].Item2[0].Item2i_sf[0].Disrest1_iandj2[1]
+      type: text
+      label: Disrest1 Iandj
+      required: false
+      width: full
+    - name: electionscodeij2
+      pdf_field_name: MC-600a[0].Page1[0].Item2[0].Item2j_sf[0].Electionscodeij2[0]
+      type: text
+      label: Electionscodeij
+      required: false
+      width: full
+    - name: electionscodeij2_2
+      pdf_field_name: MC-600a[0].Page1[0].Item2[0].Item2j_sf[0].Electionscodeij2[1]
+      type: text
+      label: Electionscodeij
+      required: false
+      width: full
+    - name: electionscodeij2_2
+      pdf_field_name: MC-600a[0].Page1[0].Item2[0].Item2j_sf[0].Electionscodeij2[2]
+      type: text
+      label: Electionscodeij
+      required: false
+      width: full
+    - name: electionscodeij2_2
+      pdf_field_name: MC-600a[0].Page1[0].Item2[0].Item2j_sf[0].Electionscodeij2[3]
+      type: text
+      label: Electionscodeij
+      required: false
+      width: full
+    - name: cap_fdg2
+      pdf_field_name: MC-600a[0].Page1[0].Item2[0].Item2k_sf[0].CapFdg2[0]
+      type: text
+      label: Cap Fdg
+      required: false
+      width: full
+    - name: num3_tf
+      pdf_field_name: MC-600a[0].Page1[0].Item3[0].Num3_tf[0]
+      type: text
+      label: Num3 Tf
+      required: false
+      width: full
+    - name: name3
+      pdf_field_name: MC-600a[0].Page1[0].Item3[0].Item3a_sf[0].Name3[0]
+      type: text
+      label: Name
+      required: false
+      width: full
+    - name: aka3
+      pdf_field_name: MC-600a[0].Page1[0].Item3[0].Item3b_sf[0].Aka3[0]
+      type: text
+      label: Aka
+      required: false
+      width: full
+    - name: add3pt1
+      pdf_field_name: MC-600a[0].Page1[0].Item3[0].Item3c_sf[0].Add3pt1[0]
+      type: text
+      label: Add3pt
+      required: false
+      width: full
+    - name: add3pt2
+      pdf_field_name: MC-600a[0].Page1[0].Item3[0].Item3c_sf[0].Add3pt2[0]
+      type: text
+      label: Add3pt
+      required: false
+      width: full
+    - name: case_num3
+      pdf_field_name: MC-600a[0].Page1[0].Item3[0].Items3def_sf[0].CaseNum3[0]
+      type: text
+      label: Case Num
+      required: false
+      width: full
+    - name: order_date3
+      pdf_field_name: MC-600a[0].Page1[0].Item3[0].Items3def_sf[0].OrderDate3[0]
+      type: date
+      label: Order Date
+      required: false
+      width: half
+    - name: dob3_ft
+      pdf_field_name: MC-600a[0].Page1[0].Item3[0].Items3def_sf[0].DOB3_ft[0]
+      type: text
+      label: Dob3 Ft
+      required: false
+      width: full
+    - name: d_lor_id3
+      pdf_field_name: MC-600a[0].Page1[0].Item3[0].Items3gh_sf[0].DLorID3[0]
+      type: text
+      label: D Lor Id
+      required: false
+      width: full
+    - name: last4ssn3
+      pdf_field_name: MC-600a[0].Page1[0].Item3[0].Items3gh_sf[0].Last4SSN3[0]
+      type: text
+      label: Last4 Ssn
+      required: false
+      width: full
+    - name: disrest1_iandj3
+      pdf_field_name: MC-600a[0].Page1[0].Item3[0].Item3i_sf[0].Disrest1_iandj3[0]
+      type: text
+      label: Disrest1 Iandj
+      required: false
+      width: full
+    - name: disrest1_iandj3_2
+      pdf_field_name: MC-600a[0].Page1[0].Item3[0].Item3i_sf[0].Disrest1_iandj3[1]
+      type: text
+      label: Disrest1 Iandj
+      required: false
+      width: full
+    - name: electionscodeij3
+      pdf_field_name: MC-600a[0].Page1[0].Item3[0].Item3j_sf[0].Electionscodeij3[0]
+      type: text
+      label: Electionscodeij
+      required: false
+      width: full
+    - name: electionscodeij3_2
+      pdf_field_name: MC-600a[0].Page1[0].Item3[0].Item3j_sf[0].Electionscodeij3[1]
+      type: text
+      label: Electionscodeij
+      required: false
+      width: full
+    - name: electionscodeij3_2
+      pdf_field_name: MC-600a[0].Page1[0].Item3[0].Item3j_sf[0].Electionscodeij3[2]
+      type: text
+      label: Electionscodeij
+      required: false
+      width: full
+    - name: electionscodeij3_2
+      pdf_field_name: MC-600a[0].Page1[0].Item3[0].Item3j_sf[0].Electionscodeij3[3]
+      type: text
+      label: Electionscodeij
+      required: false
+      width: full
+    - name: cap_fdg3
+      pdf_field_name: MC-600a[0].Page1[0].Item3[0].Item3k_sf[0].CapFdg3[0]
+      type: text
+      label: Cap Fdg
+      required: false
+      width: full
+    - name: num4_tf
+      pdf_field_name: MC-600a[0].Page1[0].Item4[0].Num4_tf[0]
+      type: text
+      label: Num4 Tf
+      required: false
+      width: full
+    - name: name4
+      pdf_field_name: MC-600a[0].Page1[0].Item4[0].Item4a_sf[0].Name4[0]
+      type: text
+      label: Name
+      required: false
+      width: full
+    - name: aka4
+      pdf_field_name: MC-600a[0].Page1[0].Item4[0].Item4b_sf[0].Aka4[0]
+      type: text
+      label: Aka
+      required: false
+      width: full
+    - name: add4pt1
+      pdf_field_name: MC-600a[0].Page1[0].Item4[0].Item4c_sf[0].Add4pt1[0]
+      type: text
+      label: Add4pt
+      required: false
+      width: full
+    - name: add4pt2
+      pdf_field_name: MC-600a[0].Page1[0].Item4[0].Item4c_sf[0].Add4pt2[0]
+      type: text
+      label: Add4pt
+      required: false
+      width: full
+    - name: case_num4
+      pdf_field_name: MC-600a[0].Page1[0].Item4[0].Items4def_sf[0].CaseNum4[0]
+      type: text
+      label: Case Num
+      required: false
+      width: full
+    - name: order_date
+      pdf_field_name: MC-600a[0].Page1[0].Item4[0].Items4def_sf[0].OrderDate[0]
+      type: date
+      label: Order Date
+      required: false
+      width: half
+    - name: dob4_ft
+      pdf_field_name: MC-600a[0].Page1[0].Item4[0].Items4def_sf[0].DOB4_ft[0]
+      type: text
+      label: Dob4 Ft
+      required: false
+      width: full
+    - name: d_lor_id4
+      pdf_field_name: MC-600a[0].Page1[0].Item4[0].Items4gh_sf[0].DLorID4[0]
+      type: text
+      label: D Lor Id
+      required: false
+      width: full
+    - name: last4ssn4
+      pdf_field_name: MC-600a[0].Page1[0].Item4[0].Items4gh_sf[0].Last4SSN4[0]
+      type: text
+      label: Last4 Ssn
+      required: false
+      width: full
+    - name: disrest1_iandj6
+      pdf_field_name: MC-600a[0].Page1[0].Item4[0].Item4i_sf[0].Disrest1_iandj6[0]
+      type: text
+      label: Disrest1 Iandj
+      required: false
+      width: full
+    - name: disrest1_iandj6_2
+      pdf_field_name: MC-600a[0].Page1[0].Item4[0].Item4i_sf[0].Disrest1_iandj6[1]
+      type: text
+      label: Disrest1 Iandj
+      required: false
+      width: full
+    - name: electionscodeij6
+      pdf_field_name: MC-600a[0].Page1[0].Item4[0].Item4j_sf[0].Electionscodeij6[0]
+      type: text
+      label: Electionscodeij
+      required: false
+      width: full
+    - name: electionscodeij6_2
+      pdf_field_name: MC-600a[0].Page1[0].Item4[0].Item4j_sf[0].Electionscodeij6[1]
+      type: text
+      label: Electionscodeij
+      required: false
+      width: full
+    - name: electionscodeij6_2
+      pdf_field_name: MC-600a[0].Page1[0].Item4[0].Item4j_sf[0].Electionscodeij6[2]
+      type: text
+      label: Electionscodeij
+      required: false
+      width: full
+    - name: electionscodeij6_2
+      pdf_field_name: MC-600a[0].Page1[0].Item4[0].Item4j_sf[0].Electionscodeij6[3]
+      type: text
+      label: Electionscodeij
+      required: false
+      width: full
+    - name: cap_fdg4
+      pdf_field_name: MC-600a[0].Page1[0].Item4[0].Item4k_sf[0].CapFdg4[0]
+      type: text
+      label: Cap Fdg
+      required: false
+      width: full

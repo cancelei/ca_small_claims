@@ -1,0 +1,73 @@
+---
+form:
+  code: JV-150
+  title: JV 150 Form
+  description: ''
+  category: juvenile/general
+  pdf_filename: jv150.pdf
+  fillable: true
+  instructions: ''
+sections:
+  general:
+    title: General
+    fields:
+    - name: fill_text10
+      pdf_field_name: FillText10
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text11
+      pdf_field_name: FillText11
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text12
+      pdf_field_name: FillText12
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: check_box10
+      pdf_field_name: CheckBox10
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: fill_text15
+      pdf_field_name: FillText15
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text14
+      pdf_field_name: FillText14
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: check_box6
+      pdf_field_name: CheckBox6
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: fill_text1
+      pdf_field_name: FillText1
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text121
+      pdf_field_name: FillText121
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text122
+      pdf_field_name: FillText122
+      type: text
+      label: Fill Text
+      required: false
+      width: full

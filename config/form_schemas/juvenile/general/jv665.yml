@@ -1,0 +1,924 @@
+---
+form:
+  code: JV-665
+  title: JV 665 Form
+  description: ''
+  category: juvenile/general
+  pdf_filename: jv665.pdf
+  fillable: true
+  instructions: ''
+sections:
+  caption_p1_sf:
+    title: Caption P1 Sf
+    fields:
+    - name: childs_name_ft
+      pdf_field_name: JV-665[0].Page1[0].CaptionP1_sf[0].ChildNameSub[0].ChildName[0].ChildsName_ft[0]
+      type: text
+      label: Childs Name Ft
+      required: false
+      width: full
+    - name: case_number_ft
+      pdf_field_name: JV-665[0].Page1[0].CaptionP1_sf[0].CanseNumberSub[0].CaseNumber[0].CaseNumber_ft[0]
+      type: text
+      label: Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+    - name: childs_name_ft_2
+      pdf_field_name: JV-665[0].Page2[0].CaptionP1_sf[0].ChildNameSub[0].ChildName[0].ChildsName_ft[0]
+      type: text
+      label: Childs Name Ft
+      required: false
+      width: full
+    - name: case_number_ft_2
+      pdf_field_name: JV-665[0].Page2[0].CaptionP1_sf[0].CaseNumberSub[0].CaseNumber[0].CaseNumber_ft[0]
+      type: text
+      label: Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+  disposition_sub:
+    title: Disposition Sub
+    fields:
+    - name: check_box1
+      pdf_field_name: JV-665[0].Page1[0].DispositionSub[0].#area[0].CheckBox1[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box2
+      pdf_field_name: JV-665[0].Page1[0].DispositionSub[0].#area[1].CheckBox2[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box3
+      pdf_field_name: JV-665[0].Page1[0].DispositionSub[0].#area[2].CheckBox3[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+  list:
+    title: List
+    fields:
+    - name: check_box61
+      pdf_field_name: JV-665[0].Page1[0].List1[0].Li1[0].#area[0].CheckBox61[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box61_2
+      pdf_field_name: JV-665[0].Page1[0].List2[0].Li1[0].#area[0].CheckBox61[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box1_2
+      pdf_field_name: JV-665[0].Page1[0].List3[0].Li1[0].#area[0].CheckBox1[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: text_field1
+      pdf_field_name: JV-665[0].Page1[0].List3[0].Li1[0].TextField1[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field2
+      pdf_field_name: JV-665[0].Page1[0].List3[0].Li1[0].TextField2[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: item3check_box_misd_fel1
+      pdf_field_name: JV-665[0].Page1[0].List3[0].Li1[0].#area[1].Item3CheckBoxMisdFel1[0]
+      type: checkbox
+      label: Item3 Check Box Misd Fel
+      required: false
+      width: full
+    - name: item3check_box_misd_fel1_2
+      pdf_field_name: JV-665[0].Page1[0].List3[0].Li1[0].#area[2].Item3CheckBoxMisdFel1[1]
+      type: checkbox
+      label: Item3 Check Box Misd Fel
+      required: false
+      width: full
+    - name: check_box4
+      pdf_field_name: JV-665[0].Page1[0].List3[0].Li1[0].#area[3].CheckBox4[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: text_field3
+      pdf_field_name: JV-665[0].Page1[0].List3[0].Li1[0].TextField3[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field4
+      pdf_field_name: JV-665[0].Page1[0].List3[0].Li1[0].TextField4[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field5
+      pdf_field_name: JV-665[0].Page1[0].List3[0].Li1[0].TextField5[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: item3check_box_misd_fel2
+      pdf_field_name: JV-665[0].Page1[0].List3[0].Li1[0].#area[4].Item3CheckBoxMisdFel2[0]
+      type: checkbox
+      label: Item3 Check Box Misd Fel
+      required: false
+      width: full
+    - name: item3check_box_misd_fel2_2
+      pdf_field_name: JV-665[0].Page1[0].List3[0].Li1[0].#area[5].Item3CheckBoxMisdFel2[1]
+      type: checkbox
+      label: Item3 Check Box Misd Fel
+      required: false
+      width: full
+    - name: check_box7
+      pdf_field_name: JV-665[0].Page1[0].List3[0].Li1[0].#area[6].CheckBox7[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: text_field6
+      pdf_field_name: JV-665[0].Page1[0].List3[0].Li1[0].TextField6[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field7
+      pdf_field_name: JV-665[0].Page1[0].List3[0].Li1[0].TextField7[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field8
+      pdf_field_name: JV-665[0].Page1[0].List3[0].Li1[0].TextField8[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: item3check_box_misd_fel3
+      pdf_field_name: JV-665[0].Page1[0].List3[0].Li1[0].#area[7].Item3CheckBoxMisdFel3[0]
+      type: checkbox
+      label: Item3 Check Box Misd Fel
+      required: false
+      width: full
+    - name: item3check_box_misd_fel3_2
+      pdf_field_name: JV-665[0].Page1[0].List3[0].Li1[0].#area[8].Item3CheckBoxMisdFel3[1]
+      type: checkbox
+      label: Item3 Check Box Misd Fel
+      required: false
+      width: full
+    - name: check_box10
+      pdf_field_name: JV-665[0].Page1[0].List3[0].Li1[0].#area[9].CheckBox10[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: text_field10
+      pdf_field_name: JV-665[0].Page1[0].List3[0].Li1[0].TextField10[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field11
+      pdf_field_name: JV-665[0].Page1[0].List3[0].Li1[0].TextField11[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field12
+      pdf_field_name: JV-665[0].Page1[0].List3[0].Li1[0].TextField12[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: item3check_box_misd_fel4
+      pdf_field_name: JV-665[0].Page1[0].List3[0].Li1[0].#area[10].Item3CheckBoxMisdFel4[0]
+      type: checkbox
+      label: Item3 Check Box Misd Fel
+      required: false
+      width: full
+    - name: item3check_box_misd_fel4_2
+      pdf_field_name: JV-665[0].Page1[0].List3[0].Li1[0].#area[11].Item3CheckBoxMisdFel4[1]
+      type: checkbox
+      label: Item3 Check Box Misd Fel
+      required: false
+      width: full
+    - name: check_box13
+      pdf_field_name: JV-665[0].Page1[0].List3[0].Li1[0].#area[12].CheckBox13[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: text_field13
+      pdf_field_name: JV-665[0].Page1[0].List3[0].Li1[0].TextField13[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field14
+      pdf_field_name: JV-665[0].Page1[0].List3[0].Li1[0].TextField14[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field15
+      pdf_field_name: JV-665[0].Page1[0].List3[0].Li1[0].TextField15[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: item3check_box_misd_fel5
+      pdf_field_name: JV-665[0].Page1[0].List3[0].Li1[0].#area[13].Item3CheckBoxMisdFel5[0]
+      type: checkbox
+      label: Item3 Check Box Misd Fel
+      required: false
+      width: full
+    - name: item3check_box_misd_fel5_2
+      pdf_field_name: JV-665[0].Page1[0].List3[0].Li1[0].#area[14].Item3CheckBoxMisdFel5[1]
+      type: checkbox
+      label: Item3 Check Box Misd Fel
+      required: false
+      width: full
+    - name: check_box16
+      pdf_field_name: JV-665[0].Page1[0].List3[0].Li1[0].#area[15].CheckBox16[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: text_field16
+      pdf_field_name: JV-665[0].Page1[0].List3[0].Li1[0].TextField16[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field17
+      pdf_field_name: JV-665[0].Page1[0].List3[0].Li1[0].TextField17[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field18
+      pdf_field_name: JV-665[0].Page1[0].List3[0].Li1[0].TextField18[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: item3check_box_misd_fel6
+      pdf_field_name: JV-665[0].Page1[0].List3[0].Li1[0].#area[16].Item3CheckBoxMisdFel6[0]
+      type: checkbox
+      label: Item3 Check Box Misd Fel
+      required: false
+      width: full
+    - name: item3check_box_misd_fel6_2
+      pdf_field_name: JV-665[0].Page1[0].List3[0].Li1[0].#area[17].Item3CheckBoxMisdFel6[1]
+      type: checkbox
+      label: Item3 Check Box Misd Fel
+      required: false
+      width: full
+    - name: check_box19
+      pdf_field_name: JV-665[0].Page1[0].List3[0].Li1[0].#area[18].CheckBox19[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: text_field19
+      pdf_field_name: JV-665[0].Page1[0].List3[0].Li1[0].TextField19[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: check_box61_2
+      pdf_field_name: JV-665[0].Page1[0].List4[0].Li1[0].#area[0].CheckBox61[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: t110
+      pdf_field_name: JV-665[0].Page1[0].List4[0].Li1[0].T110[0]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: check_box61_2
+      pdf_field_name: JV-665[0].Page1[0].List5[0].Li1[0].#area[0].CheckBox61[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: tx
+      pdf_field_name: JV-665[0].Page1[0].List5[0].Li1[0].tx[0]
+      type: text
+      label: Tx
+      required: false
+      width: full
+    - name: check_box1_2
+      pdf_field_name: JV-665[0].Page1[0].List6[0].Li1[0].#area[0].CheckBox1[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box2_2
+      pdf_field_name: JV-665[0].Page1[0].List6[0].Li1[0].#area[1].CheckBox2[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box61_2
+      pdf_field_name: JV-665[0].Page1[0].List6[0].Li1[0].#area[2].CheckBox61[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box61_2
+      pdf_field_name: JV-665[0].Page1[0].List7[0].Li1[0].#area[0].CheckBox61[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box61_2
+      pdf_field_name: JV-665[0].Page1[0].List8[0].Li1[0].#area[0].CheckBox61[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: item8
+      pdf_field_name: JV-665[0].Page1[0].List8[0].Li1[0].#area[1].item8[0]
+      type: text
+      label: Item
+      required: false
+      width: full
+    - name: item8_2
+      pdf_field_name: JV-665[0].Page1[0].List8[0].Li1[0].#area[2].item8[1]
+      type: text
+      label: Item
+      required: false
+      width: full
+    - name: check_box1_2
+      pdf_field_name: JV-665[0].Page1[0].List9[0].Li1[0].#area[0].CheckBox1[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: item9
+      pdf_field_name: JV-665[0].Page1[0].List9[0].Li1[0].#area[1].item9[0]
+      type: text
+      label: Item
+      required: false
+      width: full
+    - name: item9_2
+      pdf_field_name: JV-665[0].Page1[0].List9[0].Li1[0].#area[2].item9[1]
+      type: text
+      label: Item
+      required: false
+      width: full
+    - name: check_box61_2
+      pdf_field_name: JV-665[0].Page1[0].List10[0].Li1[0].#area[0].CheckBox61[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box61_2
+      pdf_field_name: JV-665[0].Page1[0].List10[0].Li1[0].#area[1].CheckBox61[1]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: field
+      pdf_field_name: JV-665[0].Page1[0].List10[0].Li1[0].#field[2]
+      type: text
+      label: "#Field"
+      required: false
+      width: full
+    - name: field_2
+      pdf_field_name: JV-665[0].Page1[0].List10[0].Li1[0].#field[3]
+      type: text
+      label: "#Field"
+      required: false
+      width: full
+    - name: check_box1_2
+      pdf_field_name: JV-665[0].Page1[0].List11[0].Li1[0].#area[0].CheckBox1[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box_item11a
+      pdf_field_name: JV-665[0].Page1[0].List11[0].Li1[0].#area[1].CheckBoxItem11a[0]
+      type: checkbox
+      label: Check Box Item11a
+      required: false
+      width: full
+    - name: check_box_item11a_2
+      pdf_field_name: JV-665[0].Page1[0].List11[0].Li1[0].#area[2].CheckBoxItem11a[1]
+      type: checkbox
+      label: Check Box Item11a
+      required: false
+      width: full
+    - name: check_box1_2
+      pdf_field_name: JV-665[0].Page1[0].List11[0].Li2[0].List[0].Li1[0].#area[0].CheckBox1[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: fill_text156
+      pdf_field_name: JV-665[0].Page1[0].List11[0].Li2[0].List[0].Li1[0].FillText156[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: check_boxitem11b1
+      pdf_field_name: JV-665[0].Page1[0].List11[0].Li2[0].List[0].Li1[0].#area[1].CheckBoxitem11b1[0]
+      type: checkbox
+      label: Check Boxitem11b
+      required: false
+      width: full
+    - name: check_boxitem11b1_2
+      pdf_field_name: JV-665[0].Page1[0].List11[0].Li2[0].List[0].Li1[0].#area[2].CheckBoxitem11b1[1]
+      type: checkbox
+      label: Check Boxitem11b
+      required: false
+      width: full
+    - name: check_box1_2
+      pdf_field_name: JV-665[0].Page1[0].List11[0].Li2[0].List[0].Li2[0].#area[0].CheckBox1[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: fill_text156_2
+      pdf_field_name: JV-665[0].Page1[0].List11[0].Li2[0].List[0].Li2[0].FillText156[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: check_boxitem11b2
+      pdf_field_name: JV-665[0].Page1[0].List11[0].Li2[0].List[0].Li2[0].#area[1].CheckBoxitem11b2[0]
+      type: checkbox
+      label: Check Boxitem11b
+      required: false
+      width: full
+    - name: check_boxitem11b2_2
+      pdf_field_name: JV-665[0].Page1[0].List11[0].Li2[0].List[0].Li2[0].#area[2].CheckBoxitem11b2[1]
+      type: checkbox
+      label: Check Boxitem11b
+      required: false
+      width: full
+    - name: check_box61_2
+      pdf_field_name: JV-665[0].Page1[0].List11[0].Li2[0].List[0].Li3[0].#area[0].CheckBox61[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: fill_text156_2
+      pdf_field_name: JV-665[0].Page1[0].List11[0].Li2[0].List[0].Li3[0].FillText156[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: check_box61_2
+      pdf_field_name: JV-665[0].Page1[0].List11[0].Li2[0].List[0].Li4[0].#area[0].CheckBox61[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box61_2
+      pdf_field_name: JV-665[0].Page1[0].List11[0].Li3[0].#area[0].CheckBox61[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box1_2
+      pdf_field_name: JV-665[0].Page1[0].List12[0].Li1[0].#area[0].CheckBox1[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box2_2
+      pdf_field_name: JV-665[0].Page1[0].List12[0].Li1[0].#area[1].CheckBox2[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: dollar
+      pdf_field_name: JV-665[0].Page1[0].List12[0].Li1[0].dollar[0]
+      type: currency
+      label: Dollar
+      required: false
+      width: third
+    - name: check_box61_2
+      pdf_field_name: JV-665[0].Page1[0].List12[0].Li1[0].#area[2].CheckBox61[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box1_2
+      pdf_field_name: JV-665[0].Page1[0].List13[0].#area[0].CheckBox1[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box2_2
+      pdf_field_name: JV-665[0].Page1[0].List13[0].#area[1].CheckBox2[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box3_2
+      pdf_field_name: JV-665[0].Page1[0].List13[0].#area[2].CheckBox3[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: fill_text161
+      pdf_field_name: JV-665[0].Page1[0].List13[0].Li1[0].FillText161[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text162
+      pdf_field_name: JV-665[0].Page1[0].List13[0].Li2[0].FillText162[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text169
+      pdf_field_name: JV-665[0].Page1[0].List13[0].FillText169[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text161_2
+      pdf_field_name: JV-665[0].Page1[0].List13[0].Li3[0].FillText161[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text162_2
+      pdf_field_name: JV-665[0].Page1[0].List13[0].Li4[0].FillText162[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: check_box4_2
+      pdf_field_name: JV-665[0].Page1[0].List13[0].#area[3].CheckBox4[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box5
+      pdf_field_name: JV-665[0].Page1[0].List13[0].#area[4].CheckBox5[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: petitioner_cb
+      pdf_field_name: JV-665[0].Page2[0].List14[0].Li1[0].#area[0].petitioner_cb[0]
+      type: text
+      label: Petitioner Cb
+      required: false
+      width: full
+    - name: fill_text1
+      pdf_field_name: JV-665[0].Page2[0].List14[0].Li1[0].FillText1[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text2
+      pdf_field_name: JV-665[0].Page2[0].List14[0].Li1[0].FillText2[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text172
+      pdf_field_name: JV-665[0].Page2[0].List14[0].Li1[0].FillText172[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: check_box1_2
+      pdf_field_name: JV-665[0].Page2[0].List15[0].Li1[0].#area[0].CheckBox1[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: text15a
+      pdf_field_name: JV-665[0].Page2[0].List15[0].Li1[0].text15a[0]
+      type: text
+      label: Text15a
+      required: false
+      width: full
+    - name: check_box61_2
+      pdf_field_name: JV-665[0].Page2[0].List15[0].Li1[0].#area[1].CheckBox61[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box61_2
+      pdf_field_name: JV-665[0].Page2[0].List15[0].Li2[0].#area[0].CheckBox61[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box61_2
+      pdf_field_name: JV-665[0].Page2[0].List15[0].Li3[0].#area[0].CheckBox61[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: item15c
+      pdf_field_name: JV-665[0].Page2[0].List15[0].Li3[0].#area[1].item15c[0]
+      type: text
+      label: Item15c
+      required: false
+      width: full
+    - name: item15c_2
+      pdf_field_name: JV-665[0].Page2[0].List15[0].Li3[0].#area[2].item15c[1]
+      type: text
+      label: Item15c
+      required: false
+      width: full
+    - name: check_box1_2
+      pdf_field_name: JV-665[0].Page2[0].List16[0].Li1[0].#area[0].CheckBox1[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box2_2
+      pdf_field_name: JV-665[0].Page2[0].List16[0].Li1[0].#area[1].CheckBox2[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box3_2
+      pdf_field_name: JV-665[0].Page2[0].List16[0].Li1[0].#area[2].CheckBox3[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box4_2
+      pdf_field_name: JV-665[0].Page2[0].List16[0].Li1[0].#area[3].CheckBox4[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: item16period
+      pdf_field_name: JV-665[0].Page2[0].List16[0].Li1[0].#area[4].Item16Period[0]
+      type: text
+      label: Item16 Period
+      required: false
+      width: full
+    - name: item16month
+      pdf_field_name: JV-665[0].Page2[0].List16[0].Li1[0].Item16Month[0]
+      type: text
+      label: Item16 Month
+      required: false
+      width: full
+    - name: item16year
+      pdf_field_name: JV-665[0].Page2[0].List16[0].Li1[0].Item16Year[0]
+      type: text
+      label: Item16 Year
+      required: false
+      width: full
+    - name: item16age18
+      pdf_field_name: JV-665[0].Page2[0].List16[0].Li1[0].#area[5].Item16Age18[0]
+      type: text
+      label: Item16 Age
+      required: false
+      width: full
+    - name: check_box61_2
+      pdf_field_name: JV-665[0].Page2[0].List17[0].Li1[0].#area[0].CheckBox61[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box61_2
+      pdf_field_name: JV-665[0].Page2[0].List18[0].Li1[0].#area[0].CheckBox61[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box61_2
+      pdf_field_name: JV-665[0].Page2[0].List19[0].Li1[0].#area[0].CheckBox61[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: other_specify_tf
+      pdf_field_name: JV-665[0].Page2[0].List19[0].Li1[0].OtherSpecify_tf[0]
+      type: text
+      label: Other Specify Tf
+      required: false
+      width: full
+    - name: check_box61_2
+      pdf_field_name: JV-665[0].Page2[0].List20[0].Li1[0].#area[0].CheckBox61[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: t204
+      pdf_field_name: JV-665[0].Page2[0].List20[0].Li1[0].T204[0]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t205
+      pdf_field_name: JV-665[0].Page2[0].List20[0].Li1[0].T205[0]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t206
+      pdf_field_name: JV-665[0].Page2[0].List20[0].Li1[0].T206[0]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t207
+      pdf_field_name: JV-665[0].Page2[0].List20[0].Li1[0].T207[0]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t208
+      pdf_field_name: JV-665[0].Page2[0].List20[0].Li1[0].T208[0]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t209
+      pdf_field_name: JV-665[0].Page2[0].List20[0].Li1[0].T209[0]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: check_box61_2
+      pdf_field_name: JV-665[0].Page2[0].List21[0].Li1[0].#area[0].CheckBox61[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box61_2
+      pdf_field_name: JV-665[0].Page2[0].List22[0].Li1[0].#area[0].CheckBox61[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box61_2
+      pdf_field_name: JV-665[0].Page2[0].List23[0].Li1[0].#area[0].CheckBox61[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box61_2
+      pdf_field_name: JV-665[0].Page2[0].List24[0].Li1[0].#area[0].CheckBox61[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+  footer_px_sf:
+    title: Footer Px Sf
+    fields:
+    - name: print
+      pdf_field_name: JV-665[0].#pageSet[0].Page2[0].FooterPx_sf[0].FooterButtons[0].Print[0]
+      type: checkbox
+      label: Print
+      required: false
+      width: full
+    - name: save
+      pdf_field_name: JV-665[0].#pageSet[0].Page2[0].FooterPx_sf[0].FooterButtons[0].Save[0]
+      type: checkbox
+      label: Save
+      required: false
+      width: full
+    - name: reset
+      pdf_field_name: JV-665[0].#pageSet[0].Page2[0].FooterPx_sf[0].FooterButtons[0].Reset[0]
+      type: checkbox
+      label: Reset
+      required: false
+      width: full
+    - name: warning
+      pdf_field_name: JV-665[0].#pageSet[0].Page2[0].FooterPx_sf[0].FooterButtons[0].Warning[0]
+      type: checkbox
+      label: Warning
+      required: false
+      width: full
+  sign_sub:
+    title: Sign Sub
+    fields:
+    - name: date_time_field1
+      pdf_field_name: JV-665[0].Page2[0].SignSub[0].DateTimeField1[0]
+      type: date
+      label: Date Time Field
+      required: false
+      width: half
+  attach_sub:
+    title: Attach Sub
+    fields:
+    - name: check_box1_2
+      pdf_field_name: JV-665[0].Page2[0].AttachSub[0].#area[0].CheckBox1[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box2_2
+      pdf_field_name: JV-665[0].Page2[0].AttachSub[0].#area[1].CheckBox2[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box3_2
+      pdf_field_name: JV-665[0].Page2[0].AttachSub[0].#area[2].CheckBox3[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box4_2
+      pdf_field_name: JV-665[0].Page2[0].AttachSub[0].#area[3].CheckBox4[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box5_2
+      pdf_field_name: JV-665[0].Page2[0].AttachSub[0].#area[4].CheckBox5[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box6
+      pdf_field_name: JV-665[0].Page2[0].AttachSub[0].#area[5].CheckBox6[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box7_2
+      pdf_field_name: JV-665[0].Page2[0].AttachSub[0].#area[6].CheckBox7[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box8
+      pdf_field_name: JV-665[0].Page2[0].AttachSub[0].#area[7].CheckBox8[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box9
+      pdf_field_name: JV-665[0].Page2[0].AttachSub[0].#area[8].CheckBox9[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box10_2
+      pdf_field_name: JV-665[0].Page2[0].AttachSub[0].#area[9].CheckBox10[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box11
+      pdf_field_name: JV-665[0].Page2[0].AttachSub[0].#area[10].CheckBox11[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box12
+      pdf_field_name: JV-665[0].Page2[0].AttachSub[0].#area[11].CheckBox12[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box13_2
+      pdf_field_name: JV-665[0].Page2[0].AttachSub[0].#area[12].CheckBox13[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: add_att
+      pdf_field_name: JV-665[0].Page2[0].AttachSub[0].#area[13].AddAtt[0]
+      type: text
+      label: Add Att
+      required: false
+      width: full
+    - name: add_att_2
+      pdf_field_name: JV-665[0].Page2[0].AttachSub[0].#area[14].AddAtt[1]
+      type: text
+      label: Add Att
+      required: false
+      width: full
+    - name: check_box61_2
+      pdf_field_name: JV-665[0].Page2[0].AttachSub[0].#area[15].CheckBox61[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: fill_text220
+      pdf_field_name: JV-665[0].Page2[0].AttachSub[0].FillText220[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full

@@ -1,0 +1,358 @@
+---
+form:
+  code: EJ-105
+  title: EJ 105 Form
+  description: ''
+  category: civil/enforcement
+  pdf_filename: ej105.pdf
+  fillable: true
+  instructions: ''
+sections:
+  p1_caption:
+    title: P1 Caption
+    fields:
+    - name: case_number
+      pdf_field_name: EJ-105[0].Page1[0].P1Caption[0].captionSub[0].CaseNumber[0].CaseNumber[0]
+      type: text
+      label: Case Number
+      required: false
+      width: full
+      shared_key: case:number
+    - name: text_field1
+      pdf_field_name: EJ-105[0].Page1[0].P1Caption[0].AttyPartyInfo[0].TextField1[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: phone
+      pdf_field_name: EJ-105[0].Page1[0].P1Caption[0].AttyPartyInfo[0].Phone[0]
+      type: tel
+      label: Phone
+      required: false
+      width: half
+    - name: attorney
+      pdf_field_name: EJ-105[0].Page1[0].P1Caption[0].AttyPartyInfo[0].Attorney[0]
+      type: text
+      label: Attorney
+      required: false
+      width: full
+    - name: crt_name
+      pdf_field_name: EJ-105[0].Page1[0].P1Caption[0].CourtInfo[0].CrtName[0]
+      type: text
+      label: Crt Name
+      required: false
+      width: full
+      shared_key: court:name
+    - name: crt_street
+      pdf_field_name: EJ-105[0].Page1[0].P1Caption[0].CourtInfo[0].CrtStreet[0]
+      type: address
+      label: Crt Street
+      required: false
+      width: full
+    - name: crt_mailing_add
+      pdf_field_name: EJ-105[0].Page1[0].P1Caption[0].CourtInfo[0].CrtMailingAdd[0]
+      type: address
+      label: Crt Mailing Add
+      required: false
+      width: full
+    - name: crt_city_zip
+      pdf_field_name: EJ-105[0].Page1[0].P1Caption[0].CourtInfo[0].CrtCityZip[0]
+      type: address
+      label: Crt City Zip
+      required: false
+      width: full
+    - name: crt_branch
+      pdf_field_name: EJ-105[0].Page1[0].P1Caption[0].CourtInfo[0].CrtBranch[0]
+      type: text
+      label: Crt Branch
+      required: false
+      width: full
+    - name: plantiff
+      pdf_field_name: EJ-105[0].Page1[0].P1Caption[0].TitlePartyName[0].Plantiff[0]
+      type: text
+      label: Plantiff
+      required: false
+      width: full
+    - name: def
+      pdf_field_name: EJ-105[0].Page1[0].P1Caption[0].TitlePartyName[0].Def[0]
+      type: text
+      label: Def
+      required: false
+      width: full
+    - name: cb1
+      pdf_field_name: EJ-105[0].Page1[0].P1Caption[0].FormTitle[0].cb1\.1[0]
+      type: text
+      label: Cb1\
+      required: false
+      width: full
+    - name: cb1_2
+      pdf_field_name: EJ-105[0].Page1[0].P1Caption[0].FormTitle[0].cb1\.2[0]
+      type: text
+      label: Cb1\
+      required: false
+      width: full
+  list:
+    title: List
+    fields:
+    - name: t1nameaddress
+      pdf_field_name: EJ-105[0].Page1[0].List1[0].item1[0].T1nameaddress[0]
+      type: address
+      label: T1nameaddress
+      required: false
+      width: full
+    - name: text_field2a
+      pdf_field_name: EJ-105[0].Page1[0].List2[0].T2a[0].TextField2a[0]
+      type: text
+      label: Text Field2a
+      required: false
+      width: full
+    - name: text_field2a_2
+      pdf_field_name: EJ-105[0].Page1[0].List2[0].T2a[0].TextField2a\.1[0]
+      type: text
+      label: Text Field2a\
+      required: false
+      width: full
+    - name: cb_bcd
+      pdf_field_name: EJ-105[0].Page1[0].List2[0].T2b[0].cb_bcd[0]
+      type: text
+      label: Cb Bcd
+      required: false
+      width: full
+    - name: text_field2b
+      pdf_field_name: EJ-105[0].Page1[0].List2[0].T2b[0].TextField2b[0]
+      type: text
+      label: Text Field2b
+      required: false
+      width: full
+    - name: text_field2b1
+      pdf_field_name: EJ-105[0].Page1[0].List2[0].T2b[0].TextField2b1[0]
+      type: text
+      label: Text Field2b
+      required: false
+      width: full
+    - name: cb_bcd_2
+      pdf_field_name: EJ-105[0].Page1[0].List2[0].T2c[0].cb_bcd[0]
+      type: text
+      label: Cb Bcd
+      required: false
+      width: full
+    - name: text_field2c
+      pdf_field_name: EJ-105[0].Page1[0].List2[0].T2c[0].TextField2c[0]
+      type: text
+      label: Text Field2c
+      required: false
+      width: full
+    - name: text_field2c1
+      pdf_field_name: EJ-105[0].Page1[0].List2[0].T2c[0].TextField2c1[0]
+      type: text
+      label: Text Field2c
+      required: false
+      width: full
+    - name: cb2c1
+      pdf_field_name: EJ-105[0].Page1[0].List2[0].T2c[0].T2c1[0].Cb2c1[0]
+      type: text
+      label: Cb2c
+      required: false
+      width: full
+    - name: cbqualified
+      pdf_field_name: EJ-105[0].Page1[0].List2[0].T2c[0].T2c1[0].Cbqualified[0]
+      type: text
+      label: Cbqualified
+      required: false
+      width: full
+    - name: cbqualified_2
+      pdf_field_name: EJ-105[0].Page1[0].List2[0].T2c[0].T2c1[0].Cbqualified[1]
+      type: text
+      label: Cbqualified
+      required: false
+      width: full
+    - name: cb_bcd_2
+      pdf_field_name: EJ-105[0].Page1[0].List2[0].T2d[0].cb_bcd[0]
+      type: text
+      label: Cb Bcd
+      required: false
+      width: full
+    - name: text_field2d
+      pdf_field_name: EJ-105[0].Page1[0].List2[0].T2d[0].TextField2d[0]
+      type: text
+      label: Text Field2d
+      required: false
+      width: full
+    - name: text_field2d1
+      pdf_field_name: EJ-105[0].Page1[0].List2[0].T2d[0].TextField2d1[0]
+      type: text
+      label: Text Field2d
+      required: false
+      width: full
+    - name: cb2d1
+      pdf_field_name: EJ-105[0].Page1[0].List2[0].T2d[0].T2d1[0].Cb2d1[0]
+      type: text
+      label: Cb2d
+      required: false
+      width: full
+    - name: cb2d1_2
+      pdf_field_name: EJ-105[0].Page1[0].List2[0].T2d[0].T2d1[0].Cb2d1\.1[0]
+      type: text
+      label: Cb2d1\
+      required: false
+      width: full
+    - name: cb2d1_2
+      pdf_field_name: EJ-105[0].Page1[0].List2[0].T2d[0].T2d1[0].Cb2d1\.1[1]
+      type: text
+      label: Cb2d1\
+      required: false
+      width: full
+    - name: text_field3a
+      pdf_field_name: EJ-105[0].Page1[0].List3[0].T3a[0].TextField3a[0]
+      type: text
+      label: Text Field3a
+      required: false
+      width: full
+    - name: text_field3a1
+      pdf_field_name: EJ-105[0].Page1[0].List3[0].T3a[0].TextField3a1[0]
+      type: text
+      label: Text Field3a
+      required: false
+      width: full
+    - name: text_field3b
+      pdf_field_name: EJ-105[0].Page1[0].List3[0].T3b[0].TextField3b[0]
+      type: text
+      label: Text Field3b
+      required: false
+      width: full
+    - name: text_field3b1
+      pdf_field_name: EJ-105[0].Page1[0].List3[0].T3b[0].TextField3b1[0]
+      type: text
+      label: Text Field3b
+      required: false
+      width: full
+    - name: text_field3c
+      pdf_field_name: EJ-105[0].Page1[0].List3[0].T3c[0].TextField3c[0]
+      type: text
+      label: Text Field3c
+      required: false
+      width: full
+    - name: text_field3c1
+      pdf_field_name: EJ-105[0].Page1[0].List3[0].T3c[0].TextField3c1[0]
+      type: text
+      label: Text Field3c
+      required: false
+      width: full
+    - name: text_field4a
+      pdf_field_name: EJ-105[0].Page1[0].List4[0].Lia[0].TextField4a[0]
+      type: text
+      label: Text Field4a
+      required: false
+      width: full
+    - name: text_field4b
+      pdf_field_name: EJ-105[0].Page1[0].List4[0].Lib[0].TextField4b[0]
+      type: text
+      label: Text Field4b
+      required: false
+      width: full
+    - name: dollar_a
+      pdf_field_name: EJ-105[0].Page1[0].List5[0].Lia[0].Dollar_a[0]
+      type: currency
+      label: Dollar A
+      required: false
+      width: third
+    - name: dollar_b
+      pdf_field_name: EJ-105[0].Page1[0].List5[0].Lib[0].Dollar_b[0]
+      type: currency
+      label: Dollar B
+      required: false
+      width: third
+    - name: dollar_c
+      pdf_field_name: EJ-105[0].Page1[0].List5[0].Lic[0].Dollar_c[0]
+      type: currency
+      label: Dollar C
+      required: false
+      width: third
+    - name: dollar_d
+      pdf_field_name: EJ-105[0].Page1[0].List5[0].Lid[0].Dollar_d[0]
+      type: currency
+      label: Dollar D
+      required: false
+      width: third
+    - name: cb6
+      pdf_field_name: EJ-105[0].Page2[0].List6[0].Cb6[0]
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: cb6ab
+      pdf_field_name: EJ-105[0].Page2[0].List6[0].No6a[0].Cb6ab[0]
+      type: text
+      label: Cb6ab
+      required: false
+      width: full
+    - name: cb6ab_2
+      pdf_field_name: EJ-105[0].Page2[0].List6[0].No6b[0].Cb6ab[0]
+      type: text
+      label: Cb6ab
+      required: false
+      width: full
+    - name: text_field6b
+      pdf_field_name: EJ-105[0].Page2[0].List6[0].No6b[0].TextField6b[0]
+      type: text
+      label: Text Field6b
+      required: false
+      width: full
+    - name: cb6b
+      pdf_field_name: EJ-105[0].Page2[0].List6[0].No6b[0].Cb6b\.1[0]
+      type: text
+      label: Cb6b\
+      required: false
+      width: full
+  mp_last:
+    title: Mp Last
+    fields:
+    - name: print
+      pdf_field_name: EJ-105[0].#pageSet[0].MPLast[0].Print[0]
+      type: checkbox
+      label: Print
+      required: false
+      width: full
+    - name: save
+      pdf_field_name: EJ-105[0].#pageSet[0].MPLast[0].Save[0]
+      type: checkbox
+      label: Save
+      required: false
+      width: full
+    - name: reset
+      pdf_field_name: EJ-105[0].#pageSet[0].MPLast[0].Reset[0]
+      type: checkbox
+      label: Reset
+      required: false
+      width: full
+  p2_caption:
+    title: P2 Caption
+    fields:
+    - name: short_title
+      pdf_field_name: EJ-105[0].Page2[0].P2Caption[0].TitlePartyName[0].ShortTitle[0]
+      type: text
+      label: Short Title
+      required: false
+      width: full
+    - name: case_number_2
+      pdf_field_name: EJ-105[0].Page2[0].P2Caption[0].CaseNumber[0].CaseNumber[0]
+      type: text
+      label: Case Number
+      required: false
+      width: full
+      shared_key: case:number
+  po_p_dec:
+    title: Po P Dec
+    fields:
+    - name: sig_date
+      pdf_field_name: EJ-105[0].Page2[0].PoPDec[0].SigDate[0]
+      type: date
+      label: Sig Date
+      required: false
+      width: half
+    - name: print_name
+      pdf_field_name: EJ-105[0].Page2[0].PoPDec[0].PrintName[0]
+      type: text
+      label: Print Name
+      required: false
+      width: full

@@ -1,0 +1,155 @@
+---
+form:
+  code: DAL-006
+  title: DAL 006 Form
+  description: ''
+  category: general
+  pdf_filename: dal006.pdf
+  fillable: true
+  instructions: ''
+sections:
+  mp:
+    title: Mp
+    fields:
+    - name: print
+      pdf_field_name: DAL-006[0].#pageSet[0].MP1[0].Print[0]
+      type: checkbox
+      label: Print
+      required: false
+      width: full
+    - name: save
+      pdf_field_name: DAL-006[0].#pageSet[0].MP1[0].Save[0]
+      type: checkbox
+      label: Save
+      required: false
+      width: full
+    - name: reset
+      pdf_field_name: DAL-006[0].#pageSet[0].MP1[0].Reset[0]
+      type: checkbox
+      label: Reset
+      required: false
+      width: full
+    - name: court_link
+      pdf_field_name: DAL-006[0].#pageSet[0].MP1[0].footer[0].CourtLink[0]
+      type: checkbox
+      label: Court Link
+      required: false
+      width: full
+  p1_caption:
+    title: P1 Caption
+    fields:
+    - name: case_number
+      pdf_field_name: DAL-006[0].Page1[0].P1Caption[0].captionSub[0].CaseNumber[0].CaseNumber[0]
+      type: text
+      label: Case Number
+      required: false
+      width: full
+      shared_key: case:number
+    - name: text_field1
+      pdf_field_name: DAL-006[0].Page1[0].P1Caption[0].AttyPartyInfo[0].TextField1[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: phone
+      pdf_field_name: DAL-006[0].Page1[0].P1Caption[0].AttyPartyInfo[0].Phone[0]
+      type: tel
+      label: Phone
+      required: false
+      width: half
+    - name: fax
+      pdf_field_name: DAL-006[0].Page1[0].P1Caption[0].AttyPartyInfo[0].Fax[0]
+      type: tel
+      label: Fax
+      required: false
+      width: half
+    - name: email
+      pdf_field_name: DAL-006[0].Page1[0].P1Caption[0].AttyPartyInfo[0].Email[0]
+      type: email
+      label: Email
+      required: false
+      width: half
+    - name: attorney
+      pdf_field_name: DAL-006[0].Page1[0].P1Caption[0].AttyPartyInfo[0].Attorney[0]
+      type: text
+      label: Attorney
+      required: false
+      width: full
+    - name: crt_county
+      pdf_field_name: DAL-006[0].Page1[0].P1Caption[0].CourtInfo[0].CrtCounty[0]
+      type: number
+      label: Crt County
+      required: false
+      width: third
+    - name: crt_street
+      pdf_field_name: DAL-006[0].Page1[0].P1Caption[0].CourtInfo[0].CrtStreet[0]
+      type: address
+      label: Crt Street
+      required: false
+      width: full
+    - name: crt_mailing_add
+      pdf_field_name: DAL-006[0].Page1[0].P1Caption[0].CourtInfo[0].CrtMailingAdd[0]
+      type: address
+      label: Crt Mailing Add
+      required: false
+      width: full
+    - name: crt_city_zip
+      pdf_field_name: DAL-006[0].Page1[0].P1Caption[0].CourtInfo[0].CrtCityZip[0]
+      type: address
+      label: Crt City Zip
+      required: false
+      width: full
+    - name: crt_branch
+      pdf_field_name: DAL-006[0].Page1[0].P1Caption[0].CourtInfo[0].CrtBranch[0]
+      type: text
+      label: Crt Branch
+      required: false
+      width: full
+    - name: party1
+      pdf_field_name: DAL-006[0].Page1[0].P1Caption[0].TitlePartyName[0].Party1[0]
+      type: text
+      label: Party
+      required: false
+      width: full
+    - name: party2
+      pdf_field_name: DAL-006[0].Page1[0].P1Caption[0].TitlePartyName[0].Party2[0]
+      type: text
+      label: Party
+      required: false
+      width: full
+  list:
+    title: List
+    fields:
+    - name: check_box61
+      pdf_field_name: DAL-006[0].Page1[0].List1[0].Li1[0].CheckBox61[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box62
+      pdf_field_name: DAL-006[0].Page1[0].List1[0].Li2[0].CheckBox62[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box63
+      pdf_field_name: DAL-006[0].Page1[0].List1[0].Li3[0].CheckBox63[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+  sign:
+    title: Sign
+    fields:
+    - name: sig_date
+      pdf_field_name: DAL-006[0].Page1[0].Sign[0].SigDate[0]
+      type: signature
+      label: Sig Date
+      required: false
+      width: full
+    - name: t14
+      pdf_field_name: DAL-006[0].Page1[0].Sign[0].T14[0]
+      type: signature
+      label: T
+      required: false
+      width: full

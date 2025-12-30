@@ -1,0 +1,432 @@
+---
+form:
+  code: GC-079
+  title: GC 079 Form
+  description: ''
+  category: guardianship/general
+  pdf_filename: gc079.pdf
+  fillable: true
+  instructions: ''
+sections:
+  p1_caption:
+    title: P1 Caption
+    fields:
+    - name: atty_bar_no
+      pdf_field_name: GC-079[0].Page1[0].P1Caption[0].AttyPartyInfo[0].AttyBarNo[0]
+      type: text
+      label: Atty Bar No
+      required: false
+      width: full
+    - name: name
+      pdf_field_name: GC-079[0].Page1[0].P1Caption[0].AttyPartyInfo[0].Name[0]
+      type: text
+      label: Name
+      required: false
+      width: full
+    - name: atty_firm
+      pdf_field_name: GC-079[0].Page1[0].P1Caption[0].AttyPartyInfo[0].AttyFirm[0]
+      type: text
+      label: Atty Firm
+      required: false
+      width: full
+    - name: street
+      pdf_field_name: GC-079[0].Page1[0].P1Caption[0].AttyPartyInfo[0].Street[0]
+      type: address
+      label: Street
+      required: false
+      width: full
+    - name: city
+      pdf_field_name: GC-079[0].Page1[0].P1Caption[0].AttyPartyInfo[0].City[0]
+      type: address
+      label: City
+      required: false
+      width: full
+    - name: state
+      pdf_field_name: GC-079[0].Page1[0].P1Caption[0].AttyPartyInfo[0].State[0]
+      type: address
+      label: State
+      required: false
+      width: full
+    - name: zip
+      pdf_field_name: GC-079[0].Page1[0].P1Caption[0].AttyPartyInfo[0].Zip[0]
+      type: address
+      label: Zip
+      required: false
+      width: full
+    - name: phone
+      pdf_field_name: GC-079[0].Page1[0].P1Caption[0].AttyPartyInfo[0].Phone[0]
+      type: tel
+      label: Phone
+      required: false
+      width: half
+    - name: fax
+      pdf_field_name: GC-079[0].Page1[0].P1Caption[0].AttyPartyInfo[0].Fax[0]
+      type: tel
+      label: Fax
+      required: false
+      width: half
+    - name: email
+      pdf_field_name: GC-079[0].Page1[0].P1Caption[0].AttyPartyInfo[0].Email[0]
+      type: email
+      label: Email
+      required: false
+      width: half
+    - name: atty_for
+      pdf_field_name: GC-079[0].Page1[0].P1Caption[0].AttyPartyInfo[0].AttyFor[0]
+      type: text
+      label: Atty For
+      required: false
+      width: full
+    - name: crt_county
+      pdf_field_name: GC-079[0].Page1[0].P1Caption[0].CourtInfo[0].CrtCounty[0]
+      type: number
+      label: Crt County
+      required: false
+      width: third
+    - name: crt_street
+      pdf_field_name: GC-079[0].Page1[0].P1Caption[0].CourtInfo[0].CrtStreet[0]
+      type: address
+      label: Crt Street
+      required: false
+      width: full
+    - name: crt_mailing_add
+      pdf_field_name: GC-079[0].Page1[0].P1Caption[0].CourtInfo[0].CrtMailingAdd[0]
+      type: address
+      label: Crt Mailing Add
+      required: false
+      width: full
+    - name: crt_city_zip
+      pdf_field_name: GC-079[0].Page1[0].P1Caption[0].CourtInfo[0].CrtCityZip[0]
+      type: address
+      label: Crt City Zip
+      required: false
+      width: full
+    - name: crt_branch
+      pdf_field_name: GC-079[0].Page1[0].P1Caption[0].CourtInfo[0].CrtBranch[0]
+      type: text
+      label: Crt Branch
+      required: false
+      width: full
+    - name: cgcb
+      pdf_field_name: GC-079[0].Page1[0].P1Caption[0].TitlePartyName[0].Conservatorship[0].CGCB[0]
+      type: text
+      label: Cgcb
+      required: false
+      width: full
+    - name: cgcb_2
+      pdf_field_name: GC-079[0].Page1[0].P1Caption[0].TitlePartyName[0].Guardianship[0].CGCB[0]
+      type: text
+      label: Cgcb
+      required: false
+      width: full
+    - name: check_box3
+      pdf_field_name: GC-079[0].Page1[0].P1Caption[0].TitlePartyName[0].CheckBox3[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: party1
+      pdf_field_name: GC-079[0].Page1[0].P1Caption[0].TitlePartyName[0].Party1[0]
+      type: text
+      label: Party
+      required: false
+      width: full
+    - name: cgcb_2
+      pdf_field_name: GC-079[0].Page1[0].P1Caption[0].TitlePartyName[0].Conservatee[0].CGCB[0]
+      type: text
+      label: Cgcb
+      required: false
+      width: full
+    - name: cgcb_2
+      pdf_field_name: GC-079[0].Page1[0].P1Caption[0].TitlePartyName[0].Ward[0].CGCB[0]
+      type: text
+      label: Cgcb
+      required: false
+      width: full
+    - name: cgcb_2
+      pdf_field_name: GC-079[0].Page1[0].P1Caption[0].FormTitle[0].Resident[0].Conservatee[0].CGCB[0]
+      type: text
+      label: Cgcb
+      required: false
+      width: full
+    - name: cgcb_2
+      pdf_field_name: GC-079[0].Page1[0].P1Caption[0].FormTitle[0].Resident[0].Ward[0].CGCB[0]
+      type: text
+      label: Cgcb
+      required: false
+      width: full
+    - name: party1_2
+      pdf_field_name: GC-079[0].Page1[0].P1Caption[0].FormTitle[0].Resident[0].Ward[0].Party1[0]
+      type: text
+      label: Party
+      required: false
+      width: full
+    - name: case_number
+      pdf_field_name: GC-079[0].Page1[0].P1Caption[0].CaseNumber[0].CaseNumber[0]
+      type: text
+      label: Case Number
+      required: false
+      width: full
+      shared_key: case:number
+  list:
+    title: List
+    fields:
+    - name: move_date
+      pdf_field_name: GC-079[0].Page1[0].List1[0].Item1[0].MoveDate[0]
+      type: date
+      label: Move Date
+      required: false
+      width: half
+    - name: field2
+      pdf_field_name: GC-079[0].Page1[0].List2[0].Li1[0].Field2[0]
+      type: text
+      label: Field
+      required: false
+      width: full
+    - name: field3
+      pdf_field_name: GC-079[0].Page1[0].List3[0].Li1[0].Field3[0]
+      type: text
+      label: Field
+      required: false
+      width: full
+    - name: petitioner
+      pdf_field_name: GC-079[0].Page1[0].List4[0].Li1[0].Petitioner[0]
+      type: text
+      label: Petitioner
+      required: false
+      width: full
+    - name: attach4cb
+      pdf_field_name: GC-079[0].Page1[0].List4[0].Li1[0].Attach4CB[0]
+      type: text
+      label: Attach4 Cb
+      required: false
+      width: full
+    - name: check_box19
+      pdf_field_name: GC-079[0].Page1[0].List4[0].Li1[0].CheckBox19[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: address
+      pdf_field_name: GC-079[0].Page2[0].List2[0].Li1[0].Address[0]
+      type: address
+      label: Address
+      required: false
+      width: full
+    - name: dep_place_cb
+      pdf_field_name: GC-079[0].Page2[0].List3[0].LI1[0].DepPlaceCB[0]
+      type: text
+      label: Dep Place Cb
+      required: false
+      width: full
+    - name: dep_place_cb_2
+      pdf_field_name: GC-079[0].Page2[0].List3[0].LI2[0].DepPlaceCB[0]
+      type: text
+      label: Dep Place Cb
+      required: false
+      width: full
+    - name: date_field
+      pdf_field_name: GC-079[0].Page2[0].List4[0].Date[0].DateField[0]
+      type: date
+      label: Date Field
+      required: false
+      width: half
+    - name: place_field
+      pdf_field_name: GC-079[0].Page2[0].List4[0].Place[0].PlaceField[0]
+      type: text
+      label: Place Field
+      required: false
+      width: full
+  pop_dec:
+    title: Pop Dec
+    fields:
+    - name: sig_date
+      pdf_field_name: GC-079[0].Page1[0].PopDec[0].SigDate[0]
+      type: date
+      label: Sig Date
+      required: false
+      width: half
+    - name: party_name
+      pdf_field_name: GC-079[0].Page1[0].PopDec[0].PartyName[0]
+      type: text
+      label: Party Name
+      required: false
+      width: full
+  mp_last:
+    title: Mp Last
+    fields:
+    - name: print
+      pdf_field_name: GC-079[0].#pageSet[0].MPLast[0].#area[0].Print[0]
+      type: checkbox
+      label: Print
+      required: false
+      width: full
+    - name: save
+      pdf_field_name: GC-079[0].#pageSet[0].MPLast[0].#area[0].Save[0]
+      type: checkbox
+      label: Save
+      required: false
+      width: full
+    - name: reset
+      pdf_field_name: GC-079[0].#pageSet[0].MPLast[0].#area[0].Reset[0]
+      type: checkbox
+      label: Reset
+      required: false
+      width: full
+  lp_caption:
+    title: Lp Caption
+    fields:
+    - name: cgcb_2
+      pdf_field_name: GC-079[0].Page2[0].LPCaption[0].TitlePartyName[0].Conservatorship[0].CGCB[0]
+      type: text
+      label: Cgcb
+      required: false
+      width: full
+    - name: cgcb_2
+      pdf_field_name: GC-079[0].Page2[0].LPCaption[0].TitlePartyName[0].Guardianship[0].CGCB[0]
+      type: text
+      label: Cgcb
+      required: false
+      width: full
+    - name: check_box3_2
+      pdf_field_name: GC-079[0].Page2[0].LPCaption[0].TitlePartyName[0].CheckBox3[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: party1_2
+      pdf_field_name: GC-079[0].Page2[0].LPCaption[0].TitlePartyName[0].Party1[0]
+      type: text
+      label: Party
+      required: false
+      width: full
+    - name: cgcb_2
+      pdf_field_name: GC-079[0].Page2[0].LPCaption[0].TitlePartyName[0].ConWard[0].Conservatee[0].CGCB[0]
+      type: text
+      label: Cgcb
+      required: false
+      width: full
+    - name: cgcb_2
+      pdf_field_name: GC-079[0].Page2[0].LPCaption[0].TitlePartyName[0].ConWard[0].Ward[0].CGCB[0]
+      type: text
+      label: Cgcb
+      required: false
+      width: full
+    - name: case_number_2
+      pdf_field_name: GC-079[0].Page2[0].LPCaption[0].CaseNumber[0].CaseNumber[0]
+      type: text
+      label: Case Number
+      required: false
+      width: full
+      shared_key: case:number
+  pos_po_p_dec:
+    title: Pos Po P Dec
+    fields:
+    - name: date
+      pdf_field_name: GC-079[0].Page2[0].POSPoPDec[0].Date[0]
+      type: date
+      label: Date
+      required: false
+      width: half
+    - name: type_name
+      pdf_field_name: GC-079[0].Page2[0].POSPoPDec[0].TypeName[0]
+      type: text
+      label: Type Name
+      required: false
+      width: full
+  mail_list:
+    title: Mail List
+    fields:
+    - name: cee_ward
+      pdf_field_name: GC-079[0].Page2[0].MailList1[0].Mail1[0].CeeWard[0]
+      type: text
+      label: Cee Ward
+      required: false
+      width: full
+    - name: cw_address
+      pdf_field_name: GC-079[0].Page2[0].MailList1[0].Mail1[0].CWAddress[0]
+      type: address
+      label: Cw Address
+      required: false
+      width: full
+    - name: atty
+      pdf_field_name: GC-079[0].Page2[0].MailList2[0].Mail2[0].Atty[0]
+      type: text
+      label: Atty
+      required: false
+      width: full
+    - name: atty_add
+      pdf_field_name: GC-079[0].Page2[0].MailList2[0].Mail2[0].AttyAdd[0]
+      type: text
+      label: Atty Add
+      required: false
+      width: full
+    - name: spouse_dp
+      pdf_field_name: GC-079[0].Page2[0].MailList3[0].Mail3[0].SpouseDP[0]
+      type: text
+      label: Spouse Dp
+      required: false
+      width: full
+    - name: spouse_dp_add
+      pdf_field_name: GC-079[0].Page2[0].MailList3[0].Mail3[0].SpouseDPAdd[0]
+      type: text
+      label: Spouse Dp Add
+      required: false
+      width: full
+    - name: parent1
+      pdf_field_name: GC-079[0].Page2[0].MailList4[0].Mail4[0].Parent1[0]
+      type: currency
+      label: Parent
+      required: false
+      width: third
+    - name: parent1add
+      pdf_field_name: GC-079[0].Page2[0].MailList4[0].Mail4[0].Parent1Add[0]
+      type: currency
+      label: Parent1 Add
+      required: false
+      width: third
+    - name: parent2
+      pdf_field_name: GC-079[0].Page2[0].MailList5[0].Mail5[0].Parent2[0]
+      type: currency
+      label: Parent
+      required: false
+      width: third
+    - name: parent2add
+      pdf_field_name: GC-079[0].Page2[0].MailList5[0].Mail5[0].Parent2Add[0]
+      type: currency
+      label: Parent2 Add
+      required: false
+      width: third
+    - name: custodian
+      pdf_field_name: GC-079[0].Page2[0].MailList6[0].Mail6[0].Custodian[0]
+      type: text
+      label: Custodian
+      required: false
+      width: full
+    - name: cust_add
+      pdf_field_name: GC-079[0].Page2[0].MailList6[0].Mail6[0].CustAdd[0]
+      type: text
+      label: Cust Add
+      required: false
+      width: full
+    - name: ge_name
+      pdf_field_name: GC-079[0].Page2[0].MailList7[0].Mail7[0].GEName[0]
+      type: text
+      label: Ge Name
+      required: false
+      width: full
+    - name: ge_address
+      pdf_field_name: GC-079[0].Page2[0].MailList7[0].Mail7[0].GEAddress[0]
+      type: address
+      label: Ge Address
+      required: false
+      width: full
+  attach:
+    title: Attach
+    fields:
+    - name: attach_cb
+      pdf_field_name: GC-079[0].Page2[0].Attach[0].AttachCB[0]
+      type: text
+      label: Attach Cb
+      required: false
+      width: full

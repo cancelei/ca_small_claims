@@ -1,0 +1,183 @@
+---
+form:
+  code: DV-900
+  title: DV 900 Form
+  description: ''
+  category: family_law/domestic_violence
+  pdf_filename: dv900.pdf
+  fillable: true
+  instructions: ''
+sections:
+  other_specify_tf:
+    title: Other Specify Tf
+    fields:
+    - name: other_specify_tf
+      pdf_field_name: topmostSubform[0].Page1[0].OtherSpecify_tf[0]
+      type: text
+      label: Other Specify Tf
+      required: false
+      width: full
+  stamp_court_case:
+    title: Stamp Court Case
+    fields:
+    - name: court_info_ft
+      pdf_field_name: topmostSubform[0].Page1[0].Stamp_court_case[0].CourtInfo_ft[0]
+      type: text
+      label: Court Info Ft
+      required: false
+      width: full
+    - name: case_number_ft
+      pdf_field_name: topmostSubform[0].Page1[0].Stamp_court_case[0].CaseNumber_ft[0]
+      type: text
+      label: Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+  t:
+    title: T
+    fields:
+    - name: t66
+      pdf_field_name: topmostSubform[0].Page1[0].T66[0]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t188
+      pdf_field_name: topmostSubform[0].Page1[0].T188[0]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t78
+      pdf_field_name: topmostSubform[0].Page1[0].T78[0]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t78_2
+      pdf_field_name: topmostSubform[0].Page1[0].T78[1]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t78_2
+      pdf_field_name: topmostSubform[0].Page1[0].T78[2]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t78_2
+      pdf_field_name: topmostSubform[0].Page1[0].T78[3]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t78_2
+      pdf_field_name: topmostSubform[0].Page1[0].T78[4]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t188_2
+      pdf_field_name: topmostSubform[0].Page1[0].T188[1]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t78_2
+      pdf_field_name: topmostSubform[0].Page1[0].T78[5]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t78_2
+      pdf_field_name: topmostSubform[0].Page1[0].T78[6]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t78_2
+      pdf_field_name: topmostSubform[0].Page1[0].T78[7]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t54
+      pdf_field_name: topmostSubform[0].#subform[1].T54[0]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t57
+      pdf_field_name: topmostSubform[0].#subform[1].T57[0]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t23
+      pdf_field_name: topmostSubform[0].#subform[1].T23[0]
+      type: checkbox
+      label: T
+      required: false
+      width: full
+  item4attach_cb:
+    title: Item4attach Cb
+    fields:
+    - name: item4attach_cb
+      pdf_field_name: topmostSubform[0].Page1[0].item4attach_cb[0]
+      type: text
+      label: Item4attach Cb
+      required: false
+      width: full
+  check_box:
+    title: Check Box
+    fields:
+    - name: check_box1
+      pdf_field_name: topmostSubform[0].Page1[0].CheckBox1[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box1_2
+      pdf_field_name: topmostSubform[0].Page1[0].CheckBox1[1]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+  case_number_ft:
+    title: Case Number Ft
+    fields:
+    - name: case_number_ft_2
+      pdf_field_name: topmostSubform[0].#subform[1].CaseNumber_ft[0]
+      type: text
+      label: Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+  print_bt:
+    title: Print Bt
+    fields:
+    - name: print_bt
+      pdf_field_name: topmostSubform[0].#subform[1].Print_bt[0]
+      type: checkbox
+      label: Print Bt
+      required: false
+      width: full
+  save_bt:
+    title: Save Bt
+    fields:
+    - name: save_bt
+      pdf_field_name: topmostSubform[0].#subform[1].Save_bt[0]
+      type: checkbox
+      label: Save Bt
+      required: false
+      width: full
+  reset_bt:
+    title: Reset Bt
+    fields:
+    - name: reset_bt
+      pdf_field_name: topmostSubform[0].#subform[1].Reset_bt[0]
+      type: checkbox
+      label: Reset Bt
+      required: false
+      width: full

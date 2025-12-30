@@ -1,0 +1,25 @@
+---
+form:
+  code: JV-060INFO
+  title: JV 060INFO Form
+  description: ''
+  category: juvenile/general
+  pdf_filename: jv060info.pdf
+  fillable: true
+  instructions: ''
+sections:
+  last_page:
+    title: Last Page
+    fields:
+    - name: print
+      pdf_field_name: JV-060-INFO[0].#pageSet[0].LastPage[0].FooterButtons[0].Print[0]
+      type: checkbox
+      label: Print
+      required: false
+      width: full
+    - name: save
+      pdf_field_name: JV-060-INFO[0].#pageSet[0].LastPage[0].FooterButtons[0].Save[0]
+      type: checkbox
+      label: Save
+      required: false
+      width: full

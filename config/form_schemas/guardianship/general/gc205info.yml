@@ -1,0 +1,25 @@
+---
+form:
+  code: GC-205INFO
+  title: GC 205INFO Form
+  description: ''
+  category: guardianship/general
+  pdf_filename: gc205info.pdf
+  fillable: true
+  instructions: ''
+sections:
+  general:
+    title: General
+    fields:
+    - name: print_this_form
+      pdf_field_name: Print this form
+      type: checkbox
+      label: Print This Form
+      required: false
+      width: full
+    - name: save_this_form
+      pdf_field_name: Save this form
+      type: checkbox
+      label: Save This Form
+      required: false
+      width: full

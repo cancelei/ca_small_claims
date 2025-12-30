@@ -1,0 +1,182 @@
+---
+form:
+  code: DV-610
+  title: DV 610 Form
+  description: ''
+  category: family_law/domestic_violence
+  pdf_filename: dv610.pdf
+  fillable: true
+  instructions: ''
+sections:
+  general:
+    title: General
+    fields:
+    - name: court
+      pdf_field_name: Court
+      type: text
+      label: Court
+      required: false
+      width: full
+    - name: to
+      pdf_field_name: To
+      type: text
+      label: To
+      required: false
+      width: full
+    - name: from
+      pdf_field_name: From
+      type: text
+      label: From
+      required: false
+      width: full
+    - name: person
+      pdf_field_name: Protected.person
+      type: text
+      label: Person
+      required: false
+      width: full
+    - name: person_2
+      pdf_field_name: Restrained.person
+      type: text
+      label: Person
+      required: false
+      width: full
+    - name: case_number
+      pdf_field_name: CaseNumber
+      type: text
+      label: Case Number
+      required: false
+      width: full
+      shared_key: case:number
+    - name: pages
+      pdf_field_name: 04.pages
+      type: text
+      label: Pages
+      required: false
+      width: full
+    - name: name_2
+      pdf_field_name: '09.name'
+      type: text
+      label: Name
+      required: false
+      width: full
+    - name: telephone_2
+      pdf_field_name: '09.telephone'
+      type: tel
+      label: Telephone
+      required: false
+      width: half
+    - name: email_2
+      pdf_field_name: CB.07.email
+      type: email
+      label: Email
+      required: false
+      width: half
+    - name: other
+      pdf_field_name: CB.07.other
+      type: text
+      label: Other
+      required: false
+      width: full
+    - name: telephone_2
+      pdf_field_name: CB.07.telephone
+      type: tel
+      label: Telephone
+      required: false
+      width: half
+    - name: tribe
+      pdf_field_name: CB.08.tribe
+      type: text
+      label: Tribe
+      required: false
+      width: full
+  fax:
+    title: Fax
+    fields:
+    - name: date
+      pdf_field_name: 05.fax.date
+      type: date
+      label: Date
+      required: false
+      width: half
+  court:
+    title: Court
+    fields:
+    - name: name
+      pdf_field_name: 06.court.name
+      type: text
+      label: Name
+      required: false
+      width: full
+      shared_key: court:name
+    - name: address
+      pdf_field_name: 06.court.mailing.address
+      type: address
+      label: Address
+      required: false
+      width: full
+      shared_key: court:address
+    - name: telephone
+      pdf_field_name: 06.court.telephone
+      type: tel
+      label: Telephone
+      required: false
+      width: half
+    - name: fax
+      pdf_field_name: 06.court.fax
+      type: tel
+      label: Fax
+      required: false
+      width: half
+    - name: person_2
+      pdf_field_name: 06.court.contact.person
+      type: text
+      label: Person
+      required: false
+      width: full
+    - name: email
+      pdf_field_name: 06.court.email
+      type: email
+      label: Email
+      required: false
+      width: half
+  tribal:
+    title: Tribal
+    fields:
+    - name: casenumber
+      pdf_field_name: 06.tribal.court.casenumber
+      type: text
+      label: Casenumber
+      required: false
+      width: full
+      shared_key: case:number
+  other:
+    title: Other
+    fields:
+    - name: confirmation
+      pdf_field_name: 07.other.confirmation
+      type: text
+      label: Confirmation
+      required: false
+      width: full
+    - name: copies
+      pdf_field_name: '08.other.copies'
+      type: text
+      label: Copies
+      required: false
+      width: full
+    - name: copies_2
+      pdf_field_name: CB.08.other.copies
+      type: text
+      label: Copies
+      required: false
+      width: full
+  protected:
+    title: Protected
+    fields:
+    - name: person_2
+      pdf_field_name: CB.08.protected.person
+      type: text
+      label: Person
+      required: false
+      width: full

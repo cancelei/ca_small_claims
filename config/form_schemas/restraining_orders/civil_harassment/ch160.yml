@@ -1,0 +1,602 @@
+---
+form:
+  code: CH-160
+  title: CH 160 Form
+  description: ''
+  category: restraining_orders/civil_harassment
+  pdf_filename: ch160.pdf
+  fillable: true
+  instructions: ''
+sections:
+  caption_sf:
+    title: Caption Sf
+    fields:
+    - name: court_info_ft
+      pdf_field_name: CH-160[0].Page1[0].Caption_sf[0].CourtInfo_ft[0]
+      type: text
+      label: Court Info Ft
+      required: false
+      width: full
+    - name: case_number_ft
+      pdf_field_name: CH-160[0].Page1[0].Caption_sf[0].CaseNumber_ft[0]
+      type: text
+      label: Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+  request_full_name_ft:
+    title: Request Full Name Ft
+    fields:
+    - name: request_full_name_ft
+      pdf_field_name: CH-160[0].Page1[0].RequestFullName_ft[0]
+      type: text
+      label: Request Full Name Ft
+      required: false
+      width: full
+  i_am_minor_cb:
+    title: I Am Minor Cb
+    fields:
+    - name: i_am_minor_cb
+      pdf_field_name: CH-160[0].Page1[0].IAmMinor_cb[0]
+      type: text
+      label: I Am Minor Cb
+      required: false
+      width: full
+    - name: i_am_minor_cb_2
+      pdf_field_name: CH-160[0].Page1[0].IAmMinor_cb[1]
+      type: text
+      label: I Am Minor Cb
+      required: false
+      width: full
+  other_protected_table_of_cb:
+    title: Other Protected Table Of Cb
+    fields:
+    - name: other_protected_table_of_cb
+      pdf_field_name: CH-160[0].Page1[0].OtherProtectedTable_OF_cb[0]
+      type: text
+      label: Other Protected Table Of Cb
+      required: false
+      width: full
+  minor_full_name_ft:
+    title: Minor Full Name Ft
+    fields:
+    - name: minor_full_name_ft
+      pdf_field_name: CH-160[0].Page1[0].MinorFullName_ft[0]
+      type: text
+      label: Minor Full Name Ft
+      required: false
+      width: full
+    - name: minor_full_name_ft_2
+      pdf_field_name: CH-160[0].Page1[0].MinorFullName_ft[1]
+      type: text
+      label: Minor Full Name Ft
+      required: false
+      width: full
+    - name: minor_full_name_ft_2
+      pdf_field_name: CH-160[0].Page1[0].MinorFullName_ft[2]
+      type: text
+      label: Minor Full Name Ft
+      required: false
+      width: full
+    - name: minor_full_name_ft_2
+      pdf_field_name: CH-160[0].Page1[0].MinorFullName_ft[3]
+      type: text
+      label: Minor Full Name Ft
+      required: false
+      width: full
+  protected_full_name_ft:
+    title: Protected Full Name Ft
+    fields:
+    - name: protected_full_name_ft
+      pdf_field_name: CH-160[0].Page1[0].ProtectedFullName_ft[0]
+      type: text
+      label: Protected Full Name Ft
+      required: false
+      width: full
+  restrained_full_name_ft:
+    title: Restrained Full Name Ft
+    fields:
+    - name: restrained_full_name_ft
+      pdf_field_name: CH-160[0].Page1[0].RestrainedFullName_ft[0]
+      type: text
+      label: Restrained Full Name Ft
+      required: false
+      width: full
+  iam_guardian_cb:
+    title: Iam Guardian Cb
+    fields:
+    - name: iam_guardian_cb
+      pdf_field_name: CH-160[0].Page1[0].IamGuardian_cb[0]
+      type: text
+      label: Iam Guardian Cb
+      required: false
+      width: full
+    - name: iam_guardian_cb_2
+      pdf_field_name: CH-160[0].Page1[0].IamGuardian_cb[1]
+      type: text
+      label: Iam Guardian Cb
+      required: false
+      width: full
+  px_caption:
+    title: Px Caption
+    fields:
+    - name: case_number_ft_2
+      pdf_field_name: CH-160[0].Page2[0].PxCaption[0].CaseNumber_ft[0]
+      type: text
+      label: Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+    - name: case_number_ft_2
+      pdf_field_name: CH-160[0].Page3[0].PxCaption[0].CaseNumber_ft[0]
+      type: text
+      label: Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+    - name: case_number_ft_2
+      pdf_field_name: CH-160[0].Page4[0].PxCaption[0].CaseNumber_ft[0]
+      type: text
+      label: Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+    - name: case_number_ft_2
+      pdf_field_name: CH-160[0].Page5[0].PxCaption[0].CaseNumber_ft[0]
+      type: text
+      label: Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+    - name: case_number_ft_2
+      pdf_field_name: CH-160[0].Page6[0].PxCaption[0].CaseNumber_ft[0]
+      type: text
+      label: Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+  more_than_one_cb:
+    title: More Than One Cb
+    fields:
+    - name: more_than_one_cb
+      pdf_field_name: CH-160[0].Page2[0].MoreThanOne_cb[0]
+      type: text
+      label: More Than One Cb
+      required: false
+      width: full
+  info_same_cb:
+    title: Info Same Cb
+    fields:
+    - name: info_same_cb
+      pdf_field_name: CH-160[0].Page2[0].InfoSame_cb[0]
+      type: text
+      label: Info Same Cb
+      required: false
+      width: full
+    - name: info_same_cb_2
+      pdf_field_name: CH-160[0].Page2[0].InfoSame_cb[1]
+      type: text
+      label: Info Same Cb
+      required: false
+      width: full
+  minor_name_cb:
+    title: Minor Name Cb
+    fields:
+    - name: minor_name_cb
+      pdf_field_name: CH-160[0].Page2[0].MinorName_cb[0]
+      type: text
+      label: Minor Name Cb
+      required: false
+      width: full
+  minor_address_cb:
+    title: Minor Address Cb
+    fields:
+    - name: minor_address_cb
+      pdf_field_name: CH-160[0].Page2[0].MinorAddress_cb[0]
+      type: address
+      label: Minor Address Cb
+      required: false
+      width: full
+  text_field:
+    title: Text Field
+    fields:
+    - name: text_field3
+      pdf_field_name: CH-160[0].Page2[0].TextField3[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field3_2
+      pdf_field_name: CH-160[0].Page2[0].TextField3[1]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field3_2
+      pdf_field_name: CH-160[0].Page2[0].TextField3[2]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field3_2
+      pdf_field_name: CH-160[0].Page2[0].TextField3[3]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field3_2
+      pdf_field_name: CH-160[0].Page2[0].TextField3[4]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field3_2
+      pdf_field_name: CH-160[0].Page2[0].TextField3[5]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field3_2
+      pdf_field_name: CH-160[0].Page2[0].TextField3[6]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field3_2
+      pdf_field_name: CH-160[0].Page2[0].TextField3[7]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field
+      pdf_field_name: CH-160[0].Page2[0].TextField[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field_2
+      pdf_field_name: CH-160[0].Page5[0].TextField[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field_2
+      pdf_field_name: CH-160[0].Page6[0].TextField[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+  numeric_field:
+    title: Numeric Field
+    fields:
+    - name: numeric_field1
+      pdf_field_name: CH-160[0].Page2[0].NumericField1[0]
+      type: text
+      label: Numeric Field
+      required: false
+      width: full
+  other_protected_text_of_cb:
+    title: Other Protected Text Of Cb
+    fields:
+    - name: other_protected_text_of_cb
+      pdf_field_name: CH-160[0].Page3[0].OtherProtectedText_OF_cb[0]
+      type: text
+      label: Other Protected Text Of Cb
+      required: false
+      width: full
+    - name: other_protected_text_of_cb_2
+      pdf_field_name: CH-160[0].Page3[0].OtherProtectedText_OF_cb[1]
+      type: text
+      label: Other Protected Text Of Cb
+      required: false
+      width: full
+    - name: other_protected_text_of_cb_2
+      pdf_field_name: CH-160[0].Page3[0].OtherProtectedText_OF_cb[2]
+      type: text
+      label: Other Protected Text Of Cb
+      required: false
+      width: full
+    - name: other_protected_text_of_cb_2
+      pdf_field_name: CH-160[0].Page3[0].OtherProtectedText_OF_cb[3]
+      type: text
+      label: Other Protected Text Of Cb
+      required: false
+      width: full
+  doc_title_ft:
+    title: Doc Title Ft
+    fields:
+    - name: doc_title_ft
+      pdf_field_name: CH-160[0].Page3[0].DocTitle_ft[0]
+      type: text
+      label: Doc Title Ft
+      required: false
+      width: full
+    - name: doc_title_ft_2
+      pdf_field_name: CH-160[0].Page3[0].DocTitle_ft[1]
+      type: text
+      label: Doc Title Ft
+      required: false
+      width: full
+    - name: doc_title_ft_2
+      pdf_field_name: CH-160[0].Page3[0].DocTitle_ft[2]
+      type: text
+      label: Doc Title Ft
+      required: false
+      width: full
+    - name: doc_title_ft_2
+      pdf_field_name: CH-160[0].Page3[0].DocTitle_ft[3]
+      type: text
+      label: Doc Title Ft
+      required: false
+      width: full
+    - name: doc_title_ft_2
+      pdf_field_name: CH-160[0].Page5[0].DocTitle_ft[0]
+      type: text
+      label: Doc Title Ft
+      required: false
+      width: full
+    - name: doc_title_ft_2
+      pdf_field_name: CH-160[0].Page5[0].DocTitle_ft[1]
+      type: text
+      label: Doc Title Ft
+      required: false
+      width: full
+    - name: doc_title_ft_2
+      pdf_field_name: CH-160[0].Page5[0].DocTitle_ft[2]
+      type: text
+      label: Doc Title Ft
+      required: false
+      width: full
+  doc_filing_date_ft:
+    title: Doc Filing Date Ft
+    fields:
+    - name: doc_filing_date_ft
+      pdf_field_name: CH-160[0].Page3[0].DocFilingDate_ft[0]
+      type: date
+      label: Doc Filing Date Ft
+      required: false
+      width: half
+      shared_key: filing:date
+    - name: doc_filing_date_ft_2
+      pdf_field_name: CH-160[0].Page3[0].DocFilingDate_ft[1]
+      type: date
+      label: Doc Filing Date Ft
+      required: false
+      width: half
+      shared_key: filing:date
+    - name: doc_filing_date_ft_2
+      pdf_field_name: CH-160[0].Page3[0].DocFilingDate_ft[2]
+      type: date
+      label: Doc Filing Date Ft
+      required: false
+      width: half
+      shared_key: filing:date
+    - name: doc_filing_date_ft_2
+      pdf_field_name: CH-160[0].Page3[0].DocFilingDate_ft[3]
+      type: date
+      label: Doc Filing Date Ft
+      required: false
+      width: half
+      shared_key: filing:date
+  other_protected_reasons_ft:
+    title: Other Protected Reasons Ft
+    fields:
+    - name: other_protected_reasons_ft
+      pdf_field_name: CH-160[0].Page4[0].OtherProtectedReasons_ft[0]
+      type: text
+      label: Other Protected Reasons Ft
+      required: false
+      width: full
+    - name: other_protected_reasons_ft_2
+      pdf_field_name: CH-160[0].Page4[0].OtherProtectedReasons_ft[1]
+      type: text
+      label: Other Protected Reasons Ft
+      required: false
+      width: full
+  check_box:
+    title: Check Box
+    fields:
+    - name: check_box2
+      pdf_field_name: CH-160[0].Page4[0].CheckBox2[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box2_2
+      pdf_field_name: CH-160[0].Page4[0].CheckBox2[1]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box2_2
+      pdf_field_name: CH-160[0].Page5[0].CheckBox2[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box4
+      pdf_field_name: CH-160[0].Page6[0].CheckBox4[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box4_2
+      pdf_field_name: CH-160[0].Page6[0].CheckBox4[1]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box4_2
+      pdf_field_name: CH-160[0].Page6[0].CheckBox4[2]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box4_2
+      pdf_field_name: CH-160[0].Page6[0].CheckBox4[3]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box4_2
+      pdf_field_name: CH-160[0].Page6[0].CheckBox4[4]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box4_2
+      pdf_field_name: CH-160[0].Page6[0].CheckBox4[5]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box4_2
+      pdf_field_name: CH-160[0].Page6[0].CheckBox4[6]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+  conf_minor_oth_cb:
+    title: Conf Minor Oth Cb
+    fields:
+    - name: conf_minor_oth_cb
+      pdf_field_name: CH-160[0].Page5[0].ConfMinorOth_cb[0]
+      type: text
+      label: Conf Minor Oth Cb
+      required: false
+      width: full
+  cancel_rb:
+    title: Cancel Rb
+    fields:
+    - name: cancel_rb
+      pdf_field_name: CH-160[0].Page5[0].Cancel_rb[0]
+      type: text
+      label: Cancel Rb
+      required: false
+      width: full
+    - name: cancel_rb_2
+      pdf_field_name: CH-160[0].Page5[0].Cancel_rb[1]
+      type: text
+      label: Cancel Rb
+      required: false
+      width: full
+  other_orders_cb:
+    title: Other Orders Cb
+    fields:
+    - name: other_orders_cb
+      pdf_field_name: CH-160[0].Page5[0].OtherOrders_cb[0]
+      type: text
+      label: Other Orders Cb
+      required: false
+      width: full
+  conf_minors_name_cb:
+    title: Conf Minors Name Cb
+    fields:
+    - name: conf_minors_name_cb
+      pdf_field_name: CH-160[0].Page5[0].ConfMinorsName_cb[0]
+      type: text
+      label: Conf Minors Name Cb
+      required: false
+      width: full
+  conf_minors_add_cb:
+    title: Conf Minors Add Cb
+    fields:
+    - name: conf_minors_add_cb
+      pdf_field_name: CH-160[0].Page5[0].ConfMinorsAdd_cb[0]
+      type: text
+      label: Conf Minors Add Cb
+      required: false
+      width: full
+  consequences_of_cb:
+    title: Consequences Of Cb
+    fields:
+    - name: consequences_of_cb
+      pdf_field_name: CH-160[0].Page5[0].Consequences_OF_cb[0]
+      type: text
+      label: Consequences Of Cb
+      required: false
+      width: full
+  pages_attached_no:
+    title: Pages Attached No
+    fields:
+    - name: pages_attached_no
+      pdf_field_name: CH-160[0].Page6[0].PagesAttached_no[0]
+      type: text
+      label: Pages Attached No
+      required: false
+      width: full
+  deny_cancel_rb:
+    title: Deny Cancel Rb
+    fields:
+    - name: deny_cancel_rb
+      pdf_field_name: CH-160[0].Page6[0].DenyCancel_rb[0]
+      type: text
+      label: Deny Cancel Rb
+      required: false
+      width: full
+    - name: deny_cancel_rb_2
+      pdf_field_name: CH-160[0].Page6[0].DenyCancel_rb[1]
+      type: text
+      label: Deny Cancel Rb
+      required: false
+      width: full
+  print_bt:
+    title: Print Bt
+    fields:
+    - name: print_bt
+      pdf_field_name: CH-160[0].Page6[0].#area[2].Print_bt[0]
+      type: checkbox
+      label: Print Bt
+      required: false
+      width: full
+  save_bt:
+    title: Save Bt
+    fields:
+    - name: save_bt
+      pdf_field_name: CH-160[0].Page6[0].#area[2].Save_bt[0]
+      type: checkbox
+      label: Save Bt
+      required: false
+      width: full
+  reset_bt:
+    title: Reset Bt
+    fields:
+    - name: reset_bt
+      pdf_field_name: CH-160[0].Page6[0].#area[2].Reset_bt[0]
+      type: checkbox
+      label: Reset Bt
+      required: false
+      width: full
+  t:
+    title: T
+    fields:
+    - name: t23
+      pdf_field_name: CH-160[0].Page6[0].#area[2].T23[0]
+      type: checkbox
+      label: T
+      required: false
+      width: full
+    - name: t14
+      pdf_field_name: CH-160[0].Page6[0].T14[0]
+      type: text
+      label: T
+      required: false
+      width: full
+  lawyer_signature_dt:
+    title: Lawyer Signature Dt
+    fields:
+    - name: lawyer_signature_dt
+      pdf_field_name: CH-160[0].Page6[0].LawyerSignature_dt[0]
+      type: signature
+      label: Lawyer Signature Dt
+      required: false
+      width: full
+  sig_date:
+    title: Sig Date
+    fields:
+    - name: sig_date
+      pdf_field_name: CH-160[0].Page6[0].SigDate[0]
+      type: date
+      label: Sig Date
+      required: false
+      width: half

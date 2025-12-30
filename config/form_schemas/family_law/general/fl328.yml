@@ -1,0 +1,71 @@
+---
+form:
+  code: FL-328
+  title: FL 328 Form
+  description: ''
+  category: family_law/general
+  pdf_filename: fl328.pdf
+  fillable: true
+  instructions: ''
+sections:
+  page_area:
+    title: Page Area
+    fields:
+    - name: print
+      pdf_field_name: FL-328[0].#pageSet[0].PageArea1[0].FooterSub[0].FooterButtons[0].Print[0]
+      type: checkbox
+      label: Print
+      required: false
+      width: full
+    - name: save
+      pdf_field_name: FL-328[0].#pageSet[0].PageArea1[0].FooterSub[0].FooterButtons[0].Save[0]
+      type: checkbox
+      label: Save
+      required: false
+      width: full
+    - name: reset
+      pdf_field_name: FL-328[0].#pageSet[0].PageArea1[0].FooterSub[0].FooterButtons[0].Reset[0]
+      type: checkbox
+      label: Reset
+      required: false
+      width: full
+    - name: warning
+      pdf_field_name: FL-328[0].#pageSet[0].PageArea1[0].FooterSub[0].FooterButtons[0].Warning[0]
+      type: checkbox
+      label: Warning
+      required: false
+      width: full
+    - name: court_link
+      pdf_field_name: FL-328[0].#pageSet[0].PageArea1[0].FooterSub[0].CourtLink[0]
+      type: checkbox
+      label: Court Link
+      required: false
+      width: full
+  stamp_case:
+    title: Stamp Case
+    fields:
+    - name: case_number_ft
+      pdf_field_name: FL-328[0].Page1[0].StampCase[0].CaseNumber_ft[0]
+      type: text
+      label: Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+  t:
+    title: T
+    fields:
+    - name: t58
+      pdf_field_name: FL-328[0].Page1[0].T58[0]
+      type: text
+      label: T
+      required: false
+      width: full
+  total_sub:
+    title: Total Sub
+    fields:
+    - name: page
+      pdf_field_name: FL-328[0].Page1[0].TotalSub[0].page[0]
+      type: text
+      label: Page
+      required: false
+      width: full

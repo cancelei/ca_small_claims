@@ -1,0 +1,636 @@
+---
+form:
+  code: CR-110
+  title: CR 110 Form
+  description: ''
+  category: criminal/general
+  pdf_filename: cr110.pdf
+  fillable: true
+  instructions: ''
+sections:
+  attorney_sub:
+    title: Attorney Sub
+    fields:
+    - name: atty_state_ft
+      pdf_field_name: cr110jv790[0].Page1[0].AttorneySub[0].AttyState_ft[0]
+      type: address
+      label: Atty State Ft
+      required: false
+      width: full
+    - name: atty_zip_ft
+      pdf_field_name: cr110jv790[0].Page1[0].AttorneySub[0].AttyZip_ft[0]
+      type: address
+      label: Atty Zip Ft
+      required: false
+      width: full
+    - name: atty_city_ft
+      pdf_field_name: cr110jv790[0].Page1[0].AttorneySub[0].AttyCity_ft[0]
+      type: address
+      label: Atty City Ft
+      required: false
+      width: full
+    - name: atty_street_ft
+      pdf_field_name: cr110jv790[0].Page1[0].AttorneySub[0].AttyStreet_ft[0]
+      type: address
+      label: Atty Street Ft
+      required: false
+      width: full
+    - name: atty_firm_ft
+      pdf_field_name: cr110jv790[0].Page1[0].AttorneySub[0].AttyFirm_ft[0]
+      type: text
+      label: Atty Firm Ft
+      required: false
+      width: full
+    - name: atty_name_ft
+      pdf_field_name: cr110jv790[0].Page1[0].AttorneySub[0].AttyName_ft[0]
+      type: text
+      label: Atty Name Ft
+      required: false
+      width: full
+    - name: atty_bar_no_dc
+      pdf_field_name: cr110jv790[0].Page1[0].AttorneySub[0].AttyBarNo_dc[0]
+      type: text
+      label: Atty Bar No Dc
+      required: false
+      width: full
+    - name: phone_ft
+      pdf_field_name: cr110jv790[0].Page1[0].AttorneySub[0].Phone_ft[0]
+      type: tel
+      label: Phone Ft
+      required: false
+      width: half
+    - name: fax_ft
+      pdf_field_name: cr110jv790[0].Page1[0].AttorneySub[0].Fax_ft[0]
+      type: tel
+      label: Fax Ft
+      required: false
+      width: half
+    - name: email_ft
+      pdf_field_name: cr110jv790[0].Page1[0].AttorneySub[0].Email_ft[0]
+      type: email
+      label: Email Ft
+      required: false
+      width: half
+    - name: atty_for_ft
+      pdf_field_name: cr110jv790[0].Page1[0].AttorneySub[0].AttyFor_ft[0]
+      type: text
+      label: Atty For Ft
+      required: false
+      width: full
+  courtsub:
+    title: Courtsub
+    fields:
+    - name: crt_county_ft
+      pdf_field_name: cr110jv790[0].Page1[0].Courtsub[0].CrtCounty_ft[0]
+      type: number
+      label: Crt County Ft
+      required: false
+      width: third
+    - name: branch_ft
+      pdf_field_name: cr110jv790[0].Page1[0].Courtsub[0].Branch_ft[0]
+      type: text
+      label: Branch Ft
+      required: false
+      width: full
+    - name: city_zip_ft
+      pdf_field_name: cr110jv790[0].Page1[0].Courtsub[0].CityZip_ft[0]
+      type: address
+      label: City Zip Ft
+      required: false
+      width: full
+    - name: street_ft
+      pdf_field_name: cr110jv790[0].Page1[0].Courtsub[0].Street_ft[0]
+      type: address
+      label: Street Ft
+      required: false
+      width: full
+    - name: mailing_add_ft
+      pdf_field_name: cr110jv790[0].Page1[0].Courtsub[0].MailingAdd_ft[0]
+      type: address
+      label: Mailing Add Ft
+      required: false
+      width: full
+  casename:
+    title: Casename
+    fields:
+    - name: case_name_ft
+      pdf_field_name: cr110jv790[0].Page1[0].Casename[0].CaseName_ft[0]
+      type: text
+      label: Case Name Ft
+      required: false
+      width: full
+  titlesub:
+    title: Titlesub
+    fields:
+    - name: original_amended
+      pdf_field_name: cr110jv790[0].Page1[0].Titlesub[0].Original_amended[0]
+      type: text
+      label: Original Amended
+      required: false
+      width: full
+    - name: original_amended_2
+      pdf_field_name: cr110jv790[0].Page1[0].Titlesub[0].Original_amended[1]
+      type: text
+      label: Original Amended
+      required: false
+      width: full
+    - name: text_field2
+      pdf_field_name: cr110jv790[0].Page1[0].Titlesub[0].TextField2[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+  casenumber:
+    title: Casenumber
+    fields:
+    - name: case_number_ft
+      pdf_field_name: cr110jv790[0].Page1[0].Casenumber[0].CaseNumber_ft[0]
+      type: text
+      label: Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+  list:
+    title: List
+    fields:
+    - name: cb1
+      pdf_field_name: cr110jv790[0].Page1[0].List1[0].Li1[0].CB1[0]
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: on_date2
+      pdf_field_name: cr110jv790[0].Page1[0].List1[0].Li1[0].on_date2[0]
+      type: date
+      label: On Date
+      required: false
+      width: half
+    - name: child_name
+      pdf_field_name: cr110jv790[0].Page1[0].List1[0].Li1[0].ChildName[0]
+      type: text
+      label: Child Name
+      required: false
+      width: full
+    - name: cb4
+      pdf_field_name: cr110jv790[0].Page1[0].List1[0].Li1[0].CB4[0]
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: item1a
+      pdf_field_name: cr110jv790[0].Page1[0].List1[0].Li1[0].item1a[0]
+      type: text
+      label: Item1a
+      required: false
+      width: full
+    - name: item1a_cont
+      pdf_field_name: cr110jv790[0].Page1[0].List1[0].Li1[0].item1aCont[0]
+      type: text
+      label: Item1a Cont
+      required: false
+      width: full
+    - name: item1b1and2
+      pdf_field_name: cr110jv790[0].Page1[0].List1[0].Li2[0].List[0].Li1[0].item1b1and2[0]
+      type: text
+      label: Item1b1and
+      required: false
+      width: full
+    - name: on_date2_2
+      pdf_field_name: cr110jv790[0].Page1[0].List1[0].Li2[0].List[0].Li1[0].on_date2[0]
+      type: date
+      label: On Date
+      required: false
+      width: half
+    - name: child_name_2
+      pdf_field_name: cr110jv790[0].Page1[0].List1[0].Li2[0].List[0].Li1[0].ChildName[0]
+      type: text
+      label: Child Name
+      required: false
+      width: full
+    - name: cb4_2
+      pdf_field_name: cr110jv790[0].Page1[0].List1[0].Li2[0].List[0].Li1[0].List[0].Li1[0].CB4[0]
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: text_field6
+      pdf_field_name: cr110jv790[0].Page1[0].List1[0].Li2[0].List[0].Li1[0].List[0].Li2[0].TextField6[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: cb4_2
+      pdf_field_name: cr110jv790[0].Page1[0].List1[0].Li2[0].List[0].Li1[0].List[0].Li2[0].CB4[0]
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: item1bc_cont
+      pdf_field_name: cr110jv790[0].Page1[0].List1[0].Li2[0].List[0].Li1[0].List[0].Li3[0].item1bcCont[0]
+      type: text
+      label: Item1bc Cont
+      required: false
+      width: full
+    - name: cb4_2
+      pdf_field_name: cr110jv790[0].Page1[0].List1[0].Li2[0].List[0].Li1[0].List[0].Li3[0].CB4[0]
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: item1bc
+      pdf_field_name: cr110jv790[0].Page1[0].List1[0].Li2[0].List[0].Li1[0].List[0].Li3[0].item1bc[0]
+      type: text
+      label: Item1bc
+      required: false
+      width: full
+    - name: text_field
+      pdf_field_name: cr110jv790[0].Page1[0].List1[0].Li2[0].List[0].Li1[0].List[0].Li4[0].TextField[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: cb4_2
+      pdf_field_name: cr110jv790[0].Page1[0].List1[0].Li2[0].List[0].Li1[0].List[0].Li4[0].CB4[0]
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: cb4_2
+      pdf_field_name: cr110jv790[0].Page1[0].List1[0].Li2[0].List[0].Li1[0].List[0].Li5[0].CB4[0]
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: cr110jv790[0].Page1[0].List1[0].Li2[0].List[0].Li1[0].List[0].Li5[0].TextField6[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: cr110jv790[0].Page1[0].List1[0].Li2[0].List[0].Li1[0].List[0].Li5[0].TextField6[1]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: cr110jv790[0].Page1[0].List1[0].Li2[0].List[0].Li1[0].List[0].Li5[0].TextField6[2]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: cr110jv790[0].Page1[0].List1[0].Li2[0].List[0].Li1[0].List[0].Li5[0].TextField6[3]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: cr110jv790[0].Page1[0].List1[0].Li2[0].List[0].Li1[0].List[0].Li5[0].TextField6[4]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: cr110jv790[0].Page1[0].List1[0].Li2[0].List[0].Li1[0].List[0].Li5[0].TextField6[5]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: cr110jv790[0].Page1[0].List1[0].Li2[0].List[0].Li1[0].List[0].Li5[0].TextField6[6]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: cr110jv790[0].Page1[0].List1[0].Li2[0].List[0].Li1[0].List[0].Li5[0].TextField6[7]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: cr110jv790[0].Page1[0].List1[0].Li2[0].List[0].Li1[0].List[0].Li5[0].TextField6[8]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: cr110jv790[0].Page1[0].List1[0].Li2[0].List[0].Li1[0].List[0].Li5[0].TextField6[9]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: cr110jv790[0].Page1[0].List1[0].Li2[0].List[0].Li1[0].List[0].Li5[0].TextField6[10]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: cr110jv790[0].Page1[0].List1[0].Li2[0].List[0].Li1[0].List[0].Li5[0].TextField6[11]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: cr110jv790[0].Page1[0].List1[0].Li2[0].List[0].Li1[0].List[0].Li5[0].TextField6[12]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: cr110jv790[0].Page1[0].List1[0].Li2[0].List[0].Li1[0].List[0].Li5[0].TextField6[13]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: cr110jv790[0].Page1[0].List1[0].Li2[0].List[0].Li1[0].List[0].Li5[0].TextField6[14]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: cr110jv790[0].Page1[0].List1[0].Li2[0].List[0].Li1[0].List[0].Li5[0].TextField6[15]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: cr110jv790[0].Page1[0].List1[0].Li2[0].List[0].Li1[0].List[0].Li5[0].TextField6[16]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: cr110jv790[0].Page1[0].List1[0].Li2[0].List[0].Li1[0].List[0].Li5[0].TextField6[17]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: cr110jv790[0].Page1[0].List1[0].Li2[0].List[0].Li1[0].List[0].Li5[0].TextField6[18]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: cr110jv790[0].Page1[0].List1[0].Li2[0].List[0].Li1[0].List[0].Li5[0].TextField6[19]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: cr110jv790[0].Page1[0].List1[0].Li2[0].List[0].Li1[0].List[0].Li5[0].TextField6[20]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: cr110jv790[0].Page1[0].List1[0].Li2[0].List[0].Li1[0].List[0].Li5[0].TextField6[21]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: cr110jv790[0].Page1[0].List1[0].Li2[0].List[0].Li1[0].List[0].Li5[0].TextField6[22]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: cr110jv790[0].Page1[0].List1[0].Li2[0].List[0].Li1[0].List[0].Li5[0].TextField6[23]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: item1b1and2_2
+      pdf_field_name: cr110jv790[0].Page1[0].List1[0].Li2[0].List[0].Li2[0].item1b1and2[0]
+      type: text
+      label: Item1b1and
+      required: false
+      width: full
+    - name: on_date2_2
+      pdf_field_name: cr110jv790[0].Page1[0].List1[0].Li2[0].List[0].Li2[0].on_date2[0]
+      type: date
+      label: On Date
+      required: false
+      width: half
+    - name: child_name_2
+      pdf_field_name: cr110jv790[0].Page1[0].List1[0].Li2[0].List[0].Li2[0].ChildName[0]
+      type: text
+      label: Child Name
+      required: false
+      width: full
+    - name: parent_name
+      pdf_field_name: cr110jv790[0].Page1[0].List1[0].Li2[0].List[0].Li2[0].ParentName[0]
+      type: currency
+      label: Parent Name
+      required: false
+      width: third
+    - name: cb4_2
+      pdf_field_name: cr110jv790[0].Page1[0].List1[0].Li2[0].CB4[0]
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: cb6
+      pdf_field_name: cr110jv790[0].Page1[0].List2[0].Li1[0].CB6[0]
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: cb7
+      pdf_field_name: cr110jv790[0].Page1[0].List2[0].Li2[0].CB7[0]
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: cb8
+      pdf_field_name: cr110jv790[0].Page1[0].List2[0].Li3[0].CB8[0]
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: cb9
+      pdf_field_name: cr110jv790[0].Page2[0].List3[0].Li1[0].CB9[0]
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: victim_name
+      pdf_field_name: cr110jv790[0].Page2[0].List3[0].Li1[0].VictimName[0]
+      type: text
+      label: Victim Name
+      required: false
+      width: full
+    - name: amountof
+      pdf_field_name: cr110jv790[0].Page2[0].List3[0].Li1[0].Amountof[0]
+      type: currency
+      label: Amountof
+      required: false
+      width: third
+    - name: cb10
+      pdf_field_name: cr110jv790[0].Page2[0].List3[0].Li2[0].CB10[0]
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: amount3b
+      pdf_field_name: cr110jv790[0].Page2[0].List3[0].Li2[0].Amount3b[0]
+      type: currency
+      label: Amount3b
+      required: false
+      width: third
+    - name: cb11
+      pdf_field_name: cr110jv790[0].Page2[0].List3[0].Li3[0].CB11[0]
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: loss
+      pdf_field_name: cr110jv790[0].Page2[0].List3[0].Li3[0].loss[0]
+      type: text
+      label: Loss
+      required: false
+      width: full
+    - name: loss_2
+      pdf_field_name: cr110jv790[0].Page2[0].List3[0].Li3[0].loss[1]
+      type: text
+      label: Loss
+      required: false
+      width: full
+    - name: cb14
+      pdf_field_name: cr110jv790[0].Page2[0].List3[0].Li4[0].CB14[0]
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: atty_fees
+      pdf_field_name: cr110jv790[0].Page2[0].List3[0].Li4[0].AttyFees[0]
+      type: currency
+      label: Atty Fees
+      required: false
+      width: third
+    - name: cb16
+      pdf_field_name: cr110jv790[0].Page2[0].List4[0].Li1[0].CB16[0]
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: cb17
+      pdf_field_name: cr110jv790[0].Page2[0].List4[0].Li2[0].CB17[0]
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: cb18
+      pdf_field_name: cr110jv790[0].Page2[0].List4[0].Li3[0].CB18[0]
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: cb19
+      pdf_field_name: cr110jv790[0].Page2[0].List4[0].Li4[0].CB19[0]
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: cb20
+      pdf_field_name: cr110jv790[0].Page2[0].List4[0].Li4[0].List[0].Li1[0].CB20[0]
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: cb21
+      pdf_field_name: cr110jv790[0].Page2[0].List4[0].Li4[0].List[0].Li2[0].CB21[0]
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: cb22
+      pdf_field_name: cr110jv790[0].Page2[0].List4[0].Li4[0].List[0].Li3[0].CB22[0]
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: cb23
+      pdf_field_name: cr110jv790[0].Page2[0].List4[0].Li4[0].List[0].Li4[0].CB23[0]
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: cb24
+      pdf_field_name: cr110jv790[0].Page2[0].List4[0].Li5[0].CB24[0]
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: cb25
+      pdf_field_name: cr110jv790[0].Page2[0].List4[0].Li6[0].CB25[0]
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: specify
+      pdf_field_name: cr110jv790[0].Page2[0].List4[0].Li6[0].Specify[0]
+      type: text
+      label: Specify
+      required: false
+      width: full
+  print:
+    title: Print
+    fields:
+    - name: print
+      pdf_field_name: cr110jv790[0].#pageSet[0].Page2[0].#area[0].Print[0]
+      type: checkbox
+      label: Print
+      required: false
+      width: full
+  save:
+    title: Save
+    fields:
+    - name: save
+      pdf_field_name: cr110jv790[0].#pageSet[0].Page2[0].#area[0].Save[0]
+      type: checkbox
+      label: Save
+      required: false
+      width: full
+  reset:
+    title: Reset
+    fields:
+    - name: reset
+      pdf_field_name: cr110jv790[0].#pageSet[0].Page2[0].#area[0].Reset[0]
+      type: checkbox
+      label: Reset
+      required: false
+      width: full
+  casenamesub:
+    title: Casenamesub
+    fields:
+    - name: case_name_ft_2
+      pdf_field_name: cr110jv790[0].Page2[0].Casenamesub[0].CaseName_ft[0]
+      type: text
+      label: Case Name Ft
+      required: false
+      width: full
+  casenosub:
+    title: Casenosub
+    fields:
+    - name: case_number_ft_2
+      pdf_field_name: cr110jv790[0].Page2[0].Casenosub[0].CaseNumber_ft[0]
+      type: text
+      label: Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+  datesub:
+    title: Datesub
+    fields:
+    - name: date_time_field1
+      pdf_field_name: cr110jv790[0].Page2[0].datesub[0].DateTimeField1[0]
+      type: date
+      label: Date Time Field
+      required: false
+      width: half

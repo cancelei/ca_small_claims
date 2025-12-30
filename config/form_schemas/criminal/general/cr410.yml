@@ -1,0 +1,192 @@
+---
+form:
+  code: CR-410
+  title: CR 410 Form
+  description: ''
+  category: criminal/general
+  pdf_filename: cr410.pdf
+  fillable: true
+  instructions: ''
+sections:
+  stamp_court_case:
+    title: Stamp Court Case
+    fields:
+    - name: court_info_ft
+      pdf_field_name: CR-410[0].Page1[0].Stamp_court_case[0].CourtInfo_ft[0]
+      type: text
+      label: Court Info Ft
+      required: false
+      width: full
+    - name: case_number
+      pdf_field_name: CR-410[0].Page1[0].Stamp_court_case[0].CaseNumber[0]
+      type: text
+      label: Case Number
+      required: false
+      width: full
+      shared_key: case:number
+    - name: tc_case_name_ft
+      pdf_field_name: CR-410[0].Page1[0].Stamp_court_case[0].TCCaseName_ft[0]
+      type: text
+      label: Tc Case Name Ft
+      required: false
+      width: full
+      shared_key: court:name
+  check_box:
+    title: Check Box
+    fields:
+    - name: check_box15
+      pdf_field_name: CR-410[0].Page1[0].CheckBox15[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box2
+      pdf_field_name: CR-410[0].Page1[0].CheckBox2[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+  fill_text:
+    title: Fill Text
+    fields:
+    - name: fill_text6
+      pdf_field_name: CR-410[0].Page1[0].FillText6[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text6_2
+      pdf_field_name: CR-410[0].Page1[0].FillText6[1]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text6_2
+      pdf_field_name: CR-410[0].Page1[0].FillText6[2]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text6_2
+      pdf_field_name: CR-410[0].Page1[0].FillText6[3]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text6_2
+      pdf_field_name: CR-410[0].Page1[0].FillText6[4]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text6_2
+      pdf_field_name: CR-410[0].Page1[0].FillText6[5]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text38
+      pdf_field_name: CR-410[0].Page1[0].FillText38[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text38_2
+      pdf_field_name: CR-410[0].Page1[0].FillText38[1]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text37
+      pdf_field_name: CR-410[0].Page1[0].FillText37[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text37_2
+      pdf_field_name: CR-410[0].Page1[0].FillText37[1]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+  deniedpetition:
+    title: Deniedpetition
+    fields:
+    - name: deniedpetition
+      pdf_field_name: CR-410[0].Page1[0].Deniedpetition[0]
+      type: text
+      label: Deniedpetition
+      required: false
+      width: full
+    - name: deniedpetition_2
+      pdf_field_name: CR-410[0].Page1[0].Deniedpetition[1]
+      type: text
+      label: Deniedpetition
+      required: false
+      width: full
+    - name: deniedpetition_2
+      pdf_field_name: CR-410[0].Page1[0].Deniedpetition[2]
+      type: text
+      label: Deniedpetition
+      required: false
+      width: full
+    - name: deniedpetition_2
+      pdf_field_name: CR-410[0].Page1[0].Deniedpetition[3]
+      type: text
+      label: Deniedpetition
+      required: false
+      width: full
+  t:
+    title: T
+    fields:
+    - name: t186
+      pdf_field_name: CR-410[0].Page1[0].T186[0]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t186_2
+      pdf_field_name: CR-410[0].Page1[0].T186[1]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t186_2
+      pdf_field_name: CR-410[0].Page1[0].T186[2]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t23
+      pdf_field_name: CR-410[0].Page1[0].#area[4].T23[1]
+      type: checkbox
+      label: T
+      required: false
+      width: full
+  print_bt:
+    title: Print Bt
+    fields:
+    - name: print_bt
+      pdf_field_name: CR-410[0].Page1[0].#area[4].Print_bt[0]
+      type: checkbox
+      label: Print Bt
+      required: false
+      width: full
+  save_bt:
+    title: Save Bt
+    fields:
+    - name: save_bt
+      pdf_field_name: CR-410[0].Page1[0].#area[4].Save_bt[0]
+      type: checkbox
+      label: Save Bt
+      required: false
+      width: full
+  reset_bt:
+    title: Reset Bt
+    fields:
+    - name: reset_bt
+      pdf_field_name: CR-410[0].Page1[0].#area[4].Reset_bt[0]
+      type: checkbox
+      label: Reset Bt
+      required: false
+      width: full

@@ -1,0 +1,200 @@
+---
+form:
+  code: JV-796
+  title: JV 796 Form
+  description: ''
+  category: juvenile/general
+  pdf_filename: jv796.pdf
+  fillable: true
+  instructions: ''
+sections:
+  radio_button_list:
+    title: Radio Button List
+    fields:
+    - name: radio_button_list
+      pdf_field_name: JV-796[0].Page1[0].RadioButtonList[0]
+      type: text
+      label: Radio Button List
+      required: false
+      width: full
+  p1_caption:
+    title: P1 Caption
+    fields:
+    - name: crt_county
+      pdf_field_name: JV-796[0].Page1[0].P1Caption[0].CourtInfo[0].CrtCounty[0]
+      type: number
+      label: Crt County
+      required: false
+      width: third
+    - name: crt_street
+      pdf_field_name: JV-796[0].Page1[0].P1Caption[0].CourtInfo[0].CrtStreet[0]
+      type: address
+      label: Crt Street
+      required: false
+      width: full
+    - name: crt_mailing_add
+      pdf_field_name: JV-796[0].Page1[0].P1Caption[0].CourtInfo[0].CrtMailingAdd[0]
+      type: address
+      label: Crt Mailing Add
+      required: false
+      width: full
+    - name: crt_branch
+      pdf_field_name: JV-796[0].Page1[0].P1Caption[0].CourtInfo[0].CrtBranch[0]
+      type: text
+      label: Crt Branch
+      required: false
+      width: full
+    - name: crt_city_zip
+      pdf_field_name: JV-796[0].Page1[0].P1Caption[0].CourtInfo[0].CrtCityZip[0]
+      type: address
+      label: Crt City Zip
+      required: false
+      width: full
+    - name: case_number
+      pdf_field_name: JV-796[0].Page1[0].P1Caption[0].CaseNumber[0].CaseNumber[0]
+      type: text
+      label: Case Number
+      required: false
+      width: full
+      shared_key: case:number
+    - name: text_field1
+      pdf_field_name: JV-796[0].Page1[0].P1Caption[0].AttyPartyInfo[0].TextField1[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: phone
+      pdf_field_name: JV-796[0].Page1[0].P1Caption[0].AttyPartyInfo[0].Phone[0]
+      type: tel
+      label: Phone
+      required: false
+      width: half
+    - name: fax
+      pdf_field_name: JV-796[0].Page1[0].P1Caption[0].AttyPartyInfo[0].Fax[0]
+      type: tel
+      label: Fax
+      required: false
+      width: half
+    - name: email
+      pdf_field_name: JV-796[0].Page1[0].P1Caption[0].AttyPartyInfo[0].Email[0]
+      type: email
+      label: Email
+      required: false
+      width: half
+    - name: email_2
+      pdf_field_name: JV-796[0].Page1[0].P1Caption[0].AttyPartyInfo[0].Email[1]
+      type: email
+      label: Email
+      required: false
+      width: half
+  sig_date:
+    title: Sig Date
+    fields:
+    - name: sig_date
+      pdf_field_name: JV-796[0].Page1[0].SigDate[0]
+      type: date
+      label: Sig Date
+      required: false
+      width: half
+    - name: sig_date_2
+      pdf_field_name: JV-796[0].Page1[0].SigDate[1]
+      type: date
+      label: Sig Date
+      required: false
+      width: half
+  sig_name:
+    title: Sig Name
+    fields:
+    - name: sig_name
+      pdf_field_name: JV-796[0].Page1[0].SigName[0]
+      type: text
+      label: Sig Name
+      required: false
+      width: full
+  on_date:
+    title: On Date
+    fields:
+    - name: on_date
+      pdf_field_name: JV-796[0].Page1[0].on_date[0]
+      type: date
+      label: On Date
+      required: false
+      width: half
+    - name: on_date_2
+      pdf_field_name: JV-796[0].Page1[0].on_date[1]
+      type: date
+      label: On Date
+      required: false
+      width: half
+    - name: on_date_2
+      pdf_field_name: JV-796[0].Page1[0].on_date[2]
+      type: date
+      label: On Date
+      required: false
+      width: half
+    - name: on_date_2
+      pdf_field_name: JV-796[0].Page1[0].#subform[2].on_date[3]
+      type: date
+      label: On Date
+      required: false
+      width: half
+    - name: on_date_2
+      pdf_field_name: JV-796[0].Page1[0].#subform[2].on_date[4]
+      type: date
+      label: On Date
+      required: false
+      width: half
+    - name: on_date_2
+      pdf_field_name: JV-796[0].Page1[0].#subform[2].on_date[5]
+      type: date
+      label: On Date
+      required: false
+      width: half
+    - name: on_date_2
+      pdf_field_name: JV-796[0].Page1[0].#subform[2].on_date[6]
+      type: date
+      label: On Date
+      required: false
+      width: half
+    - name: on_date_2
+      pdf_field_name: JV-796[0].Page1[0].#subform[2].on_date[7]
+      type: date
+      label: On Date
+      required: false
+      width: half
+  print:
+    title: Print
+    fields:
+    - name: print
+      pdf_field_name: JV-796[0].Page1[0].#area[0].Print[0]
+      type: checkbox
+      label: Print
+      required: false
+      width: full
+  save:
+    title: Save
+    fields:
+    - name: save
+      pdf_field_name: JV-796[0].Page1[0].#area[0].Save[0]
+      type: checkbox
+      label: Save
+      required: false
+      width: full
+  reset:
+    title: Reset
+    fields:
+    - name: reset
+      pdf_field_name: JV-796[0].Page1[0].#area[0].Reset[0]
+      type: checkbox
+      label: Reset
+      required: false
+      width: full
+  warning:
+    title: Warning
+    fields:
+    - name: warning
+      pdf_field_name: JV-796[0].Page1[0].#area[0].Warning[0]
+      type: checkbox
+      label: Warning
+      required: false
+      width: full

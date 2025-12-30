@@ -65,30 +65,11 @@ module Forms
       return form_num if form_num.present?
 
       # Fallback: extract from filename (e.g., "sc100.pdf" -> "SC-100")
-      filename = result[:filename].to_s.sub(/\.pdf$/i, "")
-      normalize_form_number(filename)
-    end
-
-    def normalize_form_number(raw)
-      # Convert "sc100" to "SC-100", "fl300a" to "FL-300A"
-      return raw.upcase if raw.include?("-")
-
-      match = raw.match(/^([a-z]+)(\d+)([a-z]*)$/i)
-      return raw.upcase unless match
-
-      prefix = match[1].upcase
-      number = match[2]
-      suffix = match[3].upcase
-      "#{prefix}-#{number}#{suffix}"
+      Utilities::FormCodeNormalizer.from_filename(result[:filename])
     end
 
     def extract_prefix(form_number)
-      return nil if form_number.blank?
-
-      # Handle both "SC-100" and "sc100" formats
-      normalized = form_number.to_s.upcase
-      match = normalized.match(/^([A-Z]+)/)
-      match&.[](1)
+      Utilities::FormCodeNormalizer.extract_prefix(form_number)
     end
 
     def filter_field_names(field_names)

@@ -1,32 +1,24 @@
 import { Controller } from "@hotwired/stimulus"
+import { createDebouncedHandler, DEBOUNCE_DELAYS } from "../utilities/debounce"
 
 export default class extends Controller {
   static values = {
     url: String,
-    debounceDelay: { type: Number, default: 1000 }
+    debounceDelay: { type: Number, default: DEBOUNCE_DELAYS.NORMAL }
   }
 
   connect() {
-    this.debounceTimer = null
+    this.debouncedSave = createDebouncedHandler(() => this.performSave())
   }
 
   disconnect() {
-    if (this.debounceTimer) {
-      clearTimeout(this.debounceTimer)
-    }
+    this.debouncedSave.cancel()
   }
 
   save() {
-    if (this.debounceTimer) {
-      clearTimeout(this.debounceTimer)
-    }
-
     // Show saving indicator
     this.updateStatus("Saving...", "saving")
-
-    this.debounceTimer = setTimeout(() => {
-      this.performSave()
-    }, this.debounceDelayValue)
+    this.debouncedSave.call(this.debounceDelayValue)
   }
 
   performSave() {

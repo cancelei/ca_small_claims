@@ -1,0 +1,112 @@
+---
+form:
+  code: CR-600
+  title: CR 600 Form
+  description: ''
+  category: criminal/general
+  pdf_filename: cr600.pdf
+  fillable: true
+  instructions: ''
+sections:
+  p1_caption:
+    title: P1 Caption
+    fields:
+    - name: crt_county
+      pdf_field_name: CR-600[0].Page1[0].p1Caption[0].CourtInfo[0].CrtCounty[0]
+      type: number
+      label: Crt County
+      required: false
+      width: third
+    - name: crt_street
+      pdf_field_name: CR-600[0].Page1[0].p1Caption[0].CourtInfo[0].CrtStreet[0]
+      type: address
+      label: Crt Street
+      required: false
+      width: full
+    - name: crt_mailing_add
+      pdf_field_name: CR-600[0].Page1[0].p1Caption[0].CourtInfo[0].CrtMailingAdd[0]
+      type: address
+      label: Crt Mailing Add
+      required: false
+      width: full
+    - name: crt_city_zip
+      pdf_field_name: CR-600[0].Page1[0].p1Caption[0].CourtInfo[0].CrtCityZip[0]
+      type: address
+      label: Crt City Zip
+      required: false
+      width: full
+    - name: crt_branch
+      pdf_field_name: CR-600[0].Page1[0].p1Caption[0].CourtInfo[0].CrtBranch[0]
+      type: text
+      label: Crt Branch
+      required: false
+      width: full
+    - name: party_ft
+      pdf_field_name: CR-600[0].Page1[0].p1Caption[0].TitlePartyName[0].Party_ft[0]
+      type: text
+      label: Party Ft
+      required: false
+      width: full
+    - name: case_number
+      pdf_field_name: CR-600[0].Page1[0].p1Caption[0].CaseNumber[0].CaseNumber[0]
+      type: text
+      label: Case Number
+      required: false
+      width: full
+      shared_key: case:number
+  p_x_caption:
+    title: P X Caption
+    fields:
+    - name: party_ft_2
+      pdf_field_name: CR-600[0].Page2[0].pXCaption[0].TitlePartyName[0].Party_ft[0]
+      type: text
+      label: Party Ft
+      required: false
+      width: full
+    - name: case_number_2
+      pdf_field_name: CR-600[0].Page2[0].pXCaption[0].CaseNumber[0].CaseNumber[0]
+      type: text
+      label: Case Number
+      required: false
+      width: full
+      shared_key: case:number
+    - name: party_ft_2
+      pdf_field_name: CR-600[0].Page3[0].pXCaption[0].TitlePartyName[0].Party_ft[0]
+      type: text
+      label: Party Ft
+      required: false
+      width: full
+    - name: case_number_2
+      pdf_field_name: CR-600[0].Page3[0].pXCaption[0].CaseNumber[0].CaseNumber[0]
+      type: text
+      label: Case Number
+      required: false
+      width: full
+      shared_key: case:number
+  sig_date:
+    title: Sig Date
+    fields:
+    - name: sig_date
+      pdf_field_name: CR-600[0].Page3[0].SigDate[0]
+      type: date
+      label: Sig Date
+      required: false
+      width: half
+  t:
+    title: T
+    fields:
+    - name: t14
+      pdf_field_name: CR-600[0].Page3[0].T14[0]
+      type: text
+      label: T
+      required: false
+      width: full
+  sig_party:
+    title: Sig Party
+    fields:
+    - name: sig_party
+      pdf_field_name: CR-600[0].Page3[0].SigParty[0]
+      type: text
+      label: Sig Party
+      required: false
+      width: full

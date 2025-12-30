@@ -1,0 +1,352 @@
+---
+form:
+  code: HC-100
+  title: HC 100 Form
+  description: ''
+  category: civil/habeas_corpus
+  pdf_filename: hc100.pdf
+  fillable: true
+  instructions: ''
+sections:
+  p1_caption:
+    title: P1 Caption
+    fields:
+    - name: atty_name
+      pdf_field_name: topmostSubform[0].Page1[0].p1Caption[0].AttyInfo[0].AttyName[0]
+      type: text
+      label: Atty Name
+      required: false
+      width: full
+    - name: bar_no
+      pdf_field_name: topmostSubform[0].Page1[0].p1Caption[0].AttyInfo[0].BarNo[0]
+      type: text
+      label: Bar No
+      required: false
+      width: full
+    - name: atty_street
+      pdf_field_name: topmostSubform[0].Page1[0].p1Caption[0].AttyInfo[0].AttyStreet[0]
+      type: address
+      label: Atty Street
+      required: false
+      width: full
+    - name: atty_city
+      pdf_field_name: topmostSubform[0].Page1[0].p1Caption[0].AttyInfo[0].AttyCity[0]
+      type: address
+      label: Atty City
+      required: false
+      width: full
+    - name: atty_state
+      pdf_field_name: topmostSubform[0].Page1[0].p1Caption[0].AttyInfo[0].AttyState[0]
+      type: address
+      label: Atty State
+      required: false
+      width: full
+    - name: atty_zip
+      pdf_field_name: topmostSubform[0].Page1[0].p1Caption[0].AttyInfo[0].AttyZip[0]
+      type: address
+      label: Atty Zip
+      required: false
+      width: full
+    - name: phone
+      pdf_field_name: topmostSubform[0].Page1[0].p1Caption[0].AttyInfo[0].Phone[0]
+      type: tel
+      label: Phone
+      required: false
+      width: half
+    - name: mobile
+      pdf_field_name: topmostSubform[0].Page1[0].p1Caption[0].AttyInfo[0].Mobile[0]
+      type: tel
+      label: Mobile
+      required: false
+      width: half
+    - name: email
+      pdf_field_name: topmostSubform[0].Page1[0].p1Caption[0].AttyInfo[0].Email[0]
+      type: email
+      label: Email
+      required: false
+      width: half
+  list:
+    title: List
+    fields:
+    - name: crt_choice
+      pdf_field_name: topmostSubform[0].Page1[0].List1[0].lia[0].crtChoice[0]
+      type: text
+      label: Crt Choice
+      required: false
+      width: full
+    - name: text_field6
+      pdf_field_name: topmostSubform[0].Page1[0].List1[0].lia[0].TextField6[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: crt_choice_2
+      pdf_field_name: topmostSubform[0].Page1[0].List1[0].lib[0].crtChoice[0]
+      type: text
+      label: Crt Choice
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: topmostSubform[0].Page1[0].List1[0].lib[0].TextField6[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: requirements
+      pdf_field_name: topmostSubform[0].Page1[0].List2[0].lia[0].Requirements[0]
+      type: text
+      label: Requirements
+      required: false
+      width: full
+    - name: serv_def
+      pdf_field_name: topmostSubform[0].Page1[0].List2[0].lia[0].LIA[0].li2[0].LI2[0].lia[0].servDef[0]
+      type: text
+      label: Serv Def
+      required: false
+      width: full
+    - name: serv_def_2
+      pdf_field_name: topmostSubform[0].Page1[0].List2[0].lia[0].LIA[0].li2[0].LI2[0].lib[0].servDef[0]
+      type: text
+      label: Serv Def
+      required: false
+      width: full
+    - name: serv_def_2
+      pdf_field_name: topmostSubform[0].Page1[0].List2[0].lia[0].LIA[0].li2[0].LI2[0].lic[0].servDef[0]
+      type: text
+      label: Serv Def
+      required: false
+      width: full
+    - name: completed
+      pdf_field_name: topmostSubform[0].Page1[0].List2[0].lia[0].LIA[0].li3[0].LI3[0].lia[0].Completed[0]
+      type: text
+      label: Completed
+      required: false
+      width: full
+    - name: hours1
+      pdf_field_name: topmostSubform[0].Page1[0].List2[0].lia[0].LIA[0].li3[0].LI3[0].lia[0].Hours1[0]
+      type: text
+      label: Hours
+      required: false
+      width: full
+    - name: hours2
+      pdf_field_name: topmostSubform[0].Page1[0].List2[0].lia[0].LIA[0].li3[0].LI3[0].lia[0].Hours2[0]
+      type: text
+      label: Hours
+      required: false
+      width: full
+    - name: instructor
+      pdf_field_name: topmostSubform[0].Page1[0].List2[0].lia[0].LIA[0].li3[0].LI3[0].lib[0].Instructor[0]
+      type: text
+      label: Instructor
+      required: false
+      width: full
+    - name: hours3
+      pdf_field_name: topmostSubform[0].Page1[0].List2[0].lia[0].LIA[0].li3[0].LI3[0].lib[0].Hours3[0]
+      type: text
+      label: Hours
+      required: false
+      width: full
+    - name: hours5
+      pdf_field_name: topmostSubform[0].Page1[0].List2[0].lia[0].LIA[0].li3[0].LI3[0].lib[0].Hours5[0]
+      type: text
+      label: Hours
+      required: false
+      width: full
+    - name: represented
+      pdf_field_name: topmostSubform[0].Page1[0].List2[0].lia[0].LIA[0].li3[0].LI3[0].lic[0].Represented[0]
+      type: text
+      label: Represented
+      required: false
+      width: full
+    - name: hours4
+      pdf_field_name: topmostSubform[0].Page1[0].List2[0].lia[0].LIA[0].li3[0].LI3[0].lic[0].Hours4[0]
+      type: text
+      label: Hours
+      required: false
+      width: full
+    - name: lead_cb
+      pdf_field_name: topmostSubform[0].Page2[0].List4[0].lia[0].Lead_cb[0]
+      type: text
+      label: Lead Cb
+      required: false
+      width: full
+    - name: prepared_cb
+      pdf_field_name: topmostSubform[0].Page2[0].List4[0].lib[0].Prepared_cb[0]
+      type: text
+      label: Prepared Cb
+      required: false
+      width: full
+    - name: filed_cb
+      pdf_field_name: topmostSubform[0].Page2[0].List4[0].lic[0].Filed_cb[0]
+      type: text
+      label: Filed Cb
+      required: false
+      width: full
+    - name: atty_name1
+      pdf_field_name: topmostSubform[0].Page2[0].List5[0].lia[0].attyName1[0]
+      type: text
+      label: Atty Name
+      required: false
+      width: full
+    - name: atty_add1
+      pdf_field_name: topmostSubform[0].Page2[0].List5[0].lia[0].attyAdd1[0]
+      type: text
+      label: Atty Add
+      required: false
+      width: full
+    - name: atty_tel1
+      pdf_field_name: topmostSubform[0].Page2[0].List5[0].lia[0].attyTel1[0]
+      type: tel
+      label: Atty Tel
+      required: false
+      width: half
+    - name: atty_email1
+      pdf_field_name: topmostSubform[0].Page2[0].List5[0].lia[0].attyEmail1[0]
+      type: email
+      label: Atty Email
+      required: false
+      width: half
+    - name: atty_name2
+      pdf_field_name: topmostSubform[0].Page2[0].List5[0].lib[0].attyName2[0]
+      type: text
+      label: Atty Name
+      required: false
+      width: full
+    - name: atty_add2
+      pdf_field_name: topmostSubform[0].Page2[0].List5[0].lib[0].attyAdd2[0]
+      type: text
+      label: Atty Add
+      required: false
+      width: full
+    - name: atty_tel2
+      pdf_field_name: topmostSubform[0].Page2[0].List5[0].lib[0].attyTel2[0]
+      type: tel
+      label: Atty Tel
+      required: false
+      width: half
+    - name: atty_email2
+      pdf_field_name: topmostSubform[0].Page2[0].List5[0].lib[0].attyEmail2[0]
+      type: email
+      label: Atty Email
+      required: false
+      width: half
+    - name: exp_def
+      pdf_field_name: topmostSubform[0].Page2[0].List6[0].lia[0].expDef[0]
+      type: text
+      label: Exp Def
+      required: false
+      width: full
+    - name: exp_def_2
+      pdf_field_name: topmostSubform[0].Page2[0].List6[0].lib[0].expDef[0]
+      type: text
+      label: Exp Def
+      required: false
+      width: full
+    - name: panel_member
+      pdf_field_name: topmostSubform[0].Page2[0].List7[0].lia[0].panelMember[0]
+      type: text
+      label: Panel Member
+      required: false
+      width: full
+    - name: panel_member_2
+      pdf_field_name: topmostSubform[0].Page2[0].List7[0].lib[0].panelMember[0]
+      type: text
+      label: Panel Member
+      required: false
+      width: full
+    - name: app_panel_membership
+      pdf_field_name: topmostSubform[0].Page2[0].List7[0].lib[0].AppPanelMembership[0]
+      type: text
+      label: App Panel Membership
+      required: false
+      width: full
+    - name: prev_app
+      pdf_field_name: topmostSubform[0].Page2[0].List8[0].lia[0].prevApp[0]
+      type: text
+      label: Prev App
+      required: false
+      width: full
+    - name: prev_app_2
+      pdf_field_name: topmostSubform[0].Page2[0].List8[0].lib[0].prevApp[0]
+      type: text
+      label: Prev App
+      required: false
+      width: full
+    - name: prev_app_date
+      pdf_field_name: topmostSubform[0].Page2[0].List8[0].lib[0].PrevAppDate[0]
+      type: date
+      label: Prev App Date
+      required: false
+      width: half
+    - name: prev_app_2
+      pdf_field_name: topmostSubform[0].Page2[0].List8[0].lic[0].prevApp[0]
+      type: text
+      label: Prev App
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: topmostSubform[0].Page2[0].List8[0].lic[0].TextField6[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+  mp_last:
+    title: Mp Last
+    fields:
+    - name: print
+      pdf_field_name: topmostSubform[0].#pageSet[0].MPLast[0].Print[0]
+      type: checkbox
+      label: Print
+      required: false
+      width: full
+    - name: save
+      pdf_field_name: topmostSubform[0].#pageSet[0].MPLast[0].Save[0]
+      type: checkbox
+      label: Save
+      required: false
+      width: full
+    - name: reset
+      pdf_field_name: topmostSubform[0].#pageSet[0].MPLast[0].Reset[0]
+      type: checkbox
+      label: Reset
+      required: false
+      width: full
+  px_caption:
+    title: Px Caption
+    fields:
+    - name: atty_name_2
+      pdf_field_name: topmostSubform[0].Page2[0].pxCaption[0].TitlePartyName[0].AttyName[0]
+      type: text
+      label: Atty Name
+      required: false
+      width: full
+    - name: bar_no_2
+      pdf_field_name: topmostSubform[0].Page2[0].pxCaption[0].BarNumber[0].BarNo[0]
+      type: text
+      label: Bar No
+      required: false
+      width: full
+  list2_cont:
+    title: List2 Cont
+    fields:
+    - name: requirements_2
+      pdf_field_name: topmostSubform[0].Page2[0].List2Cont[0].lib[0].Requirements[0]
+      type: text
+      label: Requirements
+      required: false
+      width: full
+  po_p_dec:
+    title: Po P Dec
+    fields:
+    - name: sig_date
+      pdf_field_name: topmostSubform[0].Page2[0].PoPDec[0].SigDate[0]
+      type: date
+      label: Sig Date
+      required: false
+      width: half
+    - name: sig_name
+      pdf_field_name: topmostSubform[0].Page2[0].PoPDec[0].sigName[0]
+      type: text
+      label: Sig Name
+      required: false
+      width: full

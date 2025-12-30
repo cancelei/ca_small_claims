@@ -2,8 +2,9 @@
 
 class FormsController < ApplicationController
   include SessionStorage
+  include PdfHandling
 
-  before_action :set_form_definition, only: [:show, :update, :preview, :download]
+  before_action :set_form_definition, only: [:show, :update, :preview, :download, :toggle_wizard]
 
   def index
     @forms = FormDefinition.active.includes(:category).ordered
@@ -25,6 +26,22 @@ class FormsController < ApplicationController
     @submission = find_or_create_submission(@form_definition)
     @sections = @form_definition.sections
     @field_definitions = @form_definition.field_definitions.by_position
+
+    # Wizard mode support
+    @wizard_mode = wizard_mode_enabled?
+    @skip_filled = skip_filled_enabled?
+
+    if @wizard_mode
+      filter_service = Forms::FieldFilterService.new(@form_definition, @submission, current_user)
+      @wizard_fields = filter_service.wizard_fields(skip_filled: @skip_filled)
+      @total_wizard_fields = filter_service.wizard_field_count(skip_filled: false)
+      @filled_count = filter_service.filled_fields.count
+    end
+  end
+
+  def toggle_wizard
+    session[:wizard_mode] = !session[:wizard_mode]
+    redirect_to form_path(@form_definition.code, skip_filled: params[:skip_filled])
   end
 
   def update
@@ -39,49 +56,34 @@ class FormsController < ApplicationController
             locals: { saved_at: Time.current }
           )
         end
+        format.json { render json: { success: true, saved_at: Time.current.iso8601 } }
         format.html { redirect_to form_path(@form_definition.code), notice: "Form saved" }
       end
     else
-      @sections = @form_definition.sections
-      @field_definitions = @form_definition.field_definitions.by_position
-      render :show, status: :unprocessable_entity
+      respond_to do |format|
+        format.turbo_stream do
+          @sections = @form_definition.sections
+          @field_definitions = @form_definition.field_definitions.by_position
+          render :show, status: :unprocessable_entity
+        end
+        format.json { render json: { success: false, errors: @submission.errors.full_messages }, status: :unprocessable_entity }
+        format.html do
+          @sections = @form_definition.sections
+          @field_definitions = @form_definition.field_definitions.by_position
+          render :show, status: :unprocessable_entity
+        end
+      end
     end
   end
 
   def preview
     @submission = find_or_create_submission(@form_definition)
-
-    begin
-      pdf_path = @submission.generate_pdf
-
-      send_file pdf_path,
-        type: "application/pdf",
-        disposition: "inline",
-        filename: "#{@form_definition.code}_preview.pdf"
-    rescue StandardError => e
-      Rails.logger.error "PDF generation failed: #{e.class} - #{e.message}"
-      Rails.logger.error e.backtrace.first(5).join("\n")
-      redirect_to form_path(@form_definition.code),
-        alert: "PDF generation failed: #{e.message.truncate(100)}"
-    end
+    send_pdf_inline(@submission)
   end
 
   def download
     @submission = find_or_create_submission(@form_definition)
-
-    begin
-      pdf_path = @submission.generate_flattened_pdf
-
-      send_file pdf_path,
-        type: "application/pdf",
-        disposition: "attachment",
-        filename: "#{@form_definition.code}_#{Date.current}.pdf"
-    rescue StandardError => e
-      Rails.logger.error "PDF generation failed: #{e.class} - #{e.message}"
-      Rails.logger.error e.backtrace.first(5).join("\n")
-      redirect_to form_path(@form_definition.code),
-        alert: "PDF generation failed: #{e.message.truncate(100)}"
-    end
+    send_pdf_download(@submission)
   end
 
   private
@@ -92,5 +94,28 @@ class FormsController < ApplicationController
 
   def submission_params
     params.require(:submission).permit!.to_h
+  end
+
+  def wizard_mode_enabled?
+    # Check URL param first, then session, default to true for wizard mode
+    if params[:wizard].present?
+      params[:wizard] == "true"
+    elsif session[:wizard_mode].nil?
+      true # Default to wizard mode
+    else
+      session[:wizard_mode]
+    end
+  end
+
+  def skip_filled_enabled?
+    # Only allow skip_filled for authenticated users
+    return false unless user_signed_in?
+
+    params[:skip_filled] == "true"
+  end
+
+  # Override PdfHandling concern method
+  def pdf_failure_redirect_path(_submission)
+    form_path(@form_definition.code)
   end
 end

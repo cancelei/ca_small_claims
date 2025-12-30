@@ -1,0 +1,78 @@
+---
+form:
+  code: JV-185
+  title: JV 185 Form
+  description: ''
+  category: juvenile/general
+  pdf_filename: jv185.pdf
+  fillable: true
+  instructions: ''
+sections:
+  case_number:
+    title: Case Number
+    fields:
+    - name: case_number_ft
+      pdf_field_name: topmostSubform[0].Page1[0].CaseNumber[0].CaseNumber_ft[0]
+      type: text
+      label: Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+    - name: case_number_ft_2
+      pdf_field_name: topmostSubform[0].Page2[0].CaseNumber[0].CaseNumber_ft[0]
+      type: text
+      label: Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+  nonminors_name:
+    title: Nonminors Name
+    fields:
+    - name: nonminors_name_ft
+      pdf_field_name: topmostSubform[0].Page1[0].NonminorsName[0].NonminorsName_ft[0]
+      type: text
+      label: Nonminors Name Ft
+      required: false
+      width: full
+    - name: nonminors_name_ft_2
+      pdf_field_name: topmostSubform[0].Page2[0].NonminorsName[0].NonminorsName_ft[0]
+      type: text
+      label: Nonminors Name Ft
+      required: false
+      width: full
+  t:
+    title: T
+    fields:
+    - name: t6
+      pdf_field_name: topmostSubform[0].Page2[0].T6[0]
+      type: text
+      label: T
+      required: false
+      width: full
+  print_bt:
+    title: Print Bt
+    fields:
+    - name: print_bt
+      pdf_field_name: topmostSubform[0].Page2[0].Print_bt[0]
+      type: checkbox
+      label: Print Bt
+      required: false
+      width: full
+  save_bt:
+    title: Save Bt
+    fields:
+    - name: save_bt
+      pdf_field_name: topmostSubform[0].Page2[0].Save_bt[0]
+      type: checkbox
+      label: Save Bt
+      required: false
+      width: full
+  reset_bt:
+    title: Reset Bt
+    fields:
+    - name: reset_bt
+      pdf_field_name: topmostSubform[0].Page2[0].Reset_bt[0]
+      type: checkbox
+      label: Reset Bt
+      required: false
+      width: full

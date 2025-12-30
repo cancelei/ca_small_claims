@@ -1,0 +1,175 @@
+---
+form:
+  code: MC-201
+  title: MC 201 Form
+  description: ''
+  category: civil/miscellaneous
+  pdf_filename: mc201.pdf
+  fillable: true
+  instructions: ''
+sections:
+  general:
+    title: General
+    fields:
+    - name: fill_text25
+      pdf_field_name: FillText25
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text180
+      pdf_field_name: FillText180
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text17
+      pdf_field_name: FillText17
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text21
+      pdf_field_name: FillText21
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text26
+      pdf_field_name: FillText26
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text30
+      pdf_field_name: FillText30
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text34
+      pdf_field_name: FillText34
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text42
+      pdf_field_name: FillText42
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text38
+      pdf_field_name: FillText38
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text51
+      pdf_field_name: FillText51
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text55
+      pdf_field_name: FillText55
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text59
+      pdf_field_name: FillText59
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text63
+      pdf_field_name: FillText63
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: check_box2
+      pdf_field_name: CheckBox2
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box218
+      pdf_field_name: CheckBox218
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box16
+      pdf_field_name: CheckBox16
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box22
+      pdf_field_name: CheckBox22
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box27
+      pdf_field_name: CheckBox27
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box28
+      pdf_field_name: CheckBox28
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box32
+      pdf_field_name: CheckBox32
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box33
+      pdf_field_name: CheckBox33
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box4
+      pdf_field_name: CheckBox4
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box3
+      pdf_field_name: CheckBox3
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box17
+      pdf_field_name: CheckBox17
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_bx4
+      pdf_field_name: CheckBx4
+      type: text
+      label: Check Bx
+      required: false
+      width: full
+    - name: check_b4
+      pdf_field_name: CheckB4
+      type: text
+      label: Check B
+      required: false
+      width: full
+    - name: check_bx3
+      pdf_field_name: CheckBx3
+      type: text
+      label: Check Bx
+      required: false
+      width: full

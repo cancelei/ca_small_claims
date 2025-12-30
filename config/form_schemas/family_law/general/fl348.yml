@@ -1,0 +1,79 @@
+---
+form:
+  code: FL-348
+  title: FL 348 Form
+  description: ''
+  category: family_law/general
+  pdf_filename: fl348.pdf
+  fillable: true
+  instructions: ''
+sections:
+  general:
+    title: General
+    fields:
+    - name: fill_text25
+      pdf_field_name: FillText25
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text180
+      pdf_field_name: FillText180
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text17
+      pdf_field_name: FillText17
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text21
+      pdf_field_name: FillText21
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text26
+      pdf_field_name: FillText26
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text30
+      pdf_field_name: FillText30
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text34
+      pdf_field_name: FillText34
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text42
+      pdf_field_name: FillText42
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text38
+      pdf_field_name: FillText38
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text51
+      pdf_field_name: FillText51
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: check_box23
+      pdf_field_name: CheckBox23
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full

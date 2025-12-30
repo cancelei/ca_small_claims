@@ -1,0 +1,213 @@
+---
+form:
+  code: EJ-182
+  title: EJ 182 Form
+  description: ''
+  category: civil/enforcement
+  pdf_filename: ej182.pdf
+  fillable: true
+  instructions: ''
+sections:
+  p1_caption:
+    title: P1 Caption
+    fields:
+    - name: lev_ofcr_info_ft
+      pdf_field_name: EJ-182[0].Page1[0].P1Caption[0].captionSub[0].Stamp_sf[0].LevOfcrInfo_ft[0]
+      type: text
+      label: Lev Ofcr Info Ft
+      required: false
+      width: full
+    - name: number1
+      pdf_field_name: EJ-182[0].Page1[0].P1Caption[0].captionSub[0].LevNumber[0].Number1[0]
+      type: text
+      label: Number
+      required: false
+      width: full
+    - name: case_number
+      pdf_field_name: EJ-182[0].Page1[0].P1Caption[0].captionSub[0].CourtCaseNumber[0].caseNumber[0]
+      type: text
+      label: Case Number
+      required: false
+      width: full
+      shared_key: case:number
+    - name: text_field1
+      pdf_field_name: EJ-182[0].Page1[0].P1Caption[0].AttyPartyInfo[0].TextField1[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: phone
+      pdf_field_name: EJ-182[0].Page1[0].P1Caption[0].AttyPartyInfo[0].Phone[0]
+      type: tel
+      label: Phone
+      required: false
+      width: half
+    - name: email
+      pdf_field_name: EJ-182[0].Page1[0].P1Caption[0].AttyPartyInfo[0].Email[0]
+      type: email
+      label: Email
+      required: false
+      width: half
+    - name: namecourt
+      pdf_field_name: EJ-182[0].Page1[0].P1Caption[0].CourtInfo[0].namecourt[0]
+      type: text
+      label: Namecourt
+      required: false
+      width: full
+      shared_key: court:name
+    - name: party1
+      pdf_field_name: EJ-182[0].Page1[0].P1Caption[0].TitlePartyName[0].Party1[0]
+      type: text
+      label: Party
+      required: false
+      width: full
+    - name: party2
+      pdf_field_name: EJ-182[0].Page1[0].P1Caption[0].TitlePartyName[0].Party2[0]
+      type: text
+      label: Party
+      required: false
+      width: full
+  date:
+    title: Date
+    fields:
+    - name: h_date_eng1
+      pdf_field_name: EJ-182[0].Page1[0].Date[0].HDateEng1[0]
+      type: date
+      label: H Date Eng
+      required: false
+      width: half
+    - name: h_date_eng2
+      pdf_field_name: EJ-182[0].Page1[0].Date[0].HDateEng2[0]
+      type: date
+      label: H Date Eng
+      required: false
+      width: half
+    - name: h_time_eng3
+      pdf_field_name: EJ-182[0].Page1[0].Date[0].HTimeEng3[0]
+      type: date
+      label: H Time Eng
+      required: false
+      width: half
+    - name: h_place_eng4
+      pdf_field_name: EJ-182[0].Page1[0].Date[0].HPlaceEng4[0]
+      type: date
+      label: H Place Eng
+      required: false
+      width: half
+    - name: h_place_eng5
+      pdf_field_name: EJ-182[0].Page1[0].Date[0].HPlaceEng5[0]
+      type: date
+      label: H Place Eng
+      required: false
+      width: half
+    - name: h_place_eng6
+      pdf_field_name: EJ-182[0].Page1[0].Date[0].HPlaceEng6[0]
+      type: date
+      label: H Place Eng
+      required: false
+      width: half
+    - name: h_date_eng1_2
+      pdf_field_name: EJ-182[0].Page2[0].Date2[0].HDateEng1[0]
+      type: date
+      label: H Date Eng
+      required: false
+      width: half
+    - name: h_date_eng2_2
+      pdf_field_name: EJ-182[0].Page2[0].Date2[0].HDateEng2[0]
+      type: date
+      label: H Date Eng
+      required: false
+      width: half
+    - name: h_time_eng3_2
+      pdf_field_name: EJ-182[0].Page2[0].Date2[0].HTimeEng3[0]
+      type: date
+      label: H Time Eng
+      required: false
+      width: half
+    - name: h_place_eng4_2
+      pdf_field_name: EJ-182[0].Page2[0].Date2[0].HPlaceEng4[0]
+      type: date
+      label: H Place Eng
+      required: false
+      width: half
+    - name: h_place_eng5_2
+      pdf_field_name: EJ-182[0].Page2[0].Date2[0].HPlaceEng5[0]
+      type: date
+      label: H Place Eng
+      required: false
+      width: half
+    - name: h_place_eng6_2
+      pdf_field_name: EJ-182[0].Page2[0].Date2[0].HPlaceEng6[0]
+      type: date
+      label: H Place Eng
+      required: false
+      width: half
+  sign:
+    title: Sign
+    fields:
+    - name: date1
+      pdf_field_name: EJ-182[0].Page1[0].Sign1[0].Date1[0]
+      type: date
+      label: Date
+      required: false
+      width: half
+    - name: print1
+      pdf_field_name: EJ-182[0].Page1[0].Sign1[0].Print1[0]
+      type: text
+      label: Print
+      required: false
+      width: full
+    - name: date1_2
+      pdf_field_name: EJ-182[0].Page2[0].Sign2[0].Date1[0]
+      type: date
+      label: Date
+      required: false
+      width: half
+    - name: print1_2
+      pdf_field_name: EJ-182[0].Page2[0].Sign2[0].Print1[0]
+      type: text
+      label: Print
+      required: false
+      width: full
+  mp_last:
+    title: Mp Last
+    fields:
+    - name: print
+      pdf_field_name: EJ-182[0].#pageSet[0].MPLast[0].Print[0]
+      type: checkbox
+      label: Print
+      required: false
+      width: full
+    - name: save
+      pdf_field_name: EJ-182[0].#pageSet[0].MPLast[0].Save[0]
+      type: checkbox
+      label: Save
+      required: false
+      width: full
+    - name: reset
+      pdf_field_name: EJ-182[0].#pageSet[0].MPLast[0].Reset[0]
+      type: checkbox
+      label: Reset
+      required: false
+      width: full
+  p_x_caption:
+    title: P X Caption
+    fields:
+    - name: short_title
+      pdf_field_name: EJ-182[0].Page2[0].pXCaption[0].Title[0].ShortTitle[0]
+      type: text
+      label: Short Title
+      required: false
+      width: full
+    - name: number1_2
+      pdf_field_name: EJ-182[0].Page2[0].pXCaption[0].File[0].Number1[0]
+      type: text
+      label: Number
+      required: false
+      width: full
+    - name: number2
+      pdf_field_name: EJ-182[0].Page2[0].pXCaption[0].Court[0].Number2[0]
+      type: text
+      label: Number
+      required: false
+      width: full

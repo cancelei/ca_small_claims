@@ -1,0 +1,364 @@
+---
+form:
+  code: EFS-006
+  title: EFS 006 Form
+  description: ''
+  category: general
+  pdf_filename: efs006.pdf
+  fillable: true
+  instructions: ''
+sections:
+  p1_caption:
+    title: P1 Caption
+    fields:
+    - name: case_number_ft
+      pdf_field_name: EFS-006[0].Page1[0].p1Caption[0].captionSub[0].CaseNumber[0].CaseNumber_ft[0]
+      type: text
+      label: Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+    - name: jud_ofcr_ft
+      pdf_field_name: EFS-006[0].Page1[0].p1Caption[0].captionSub[0].JudOfcr[0].JudOfcr_ft[0]
+      type: text
+      label: Jud Ofcr Ft
+      required: false
+      width: full
+    - name: dept_ft
+      pdf_field_name: EFS-006[0].Page1[0].p1Caption[0].captionSub[0].Dept[0].Dept_ft[0]
+      type: text
+      label: Dept Ft
+      required: false
+      width: full
+    - name: atty_bar_no
+      pdf_field_name: EFS-006[0].Page1[0].p1Caption[0].AttyPartyInfo[0].AttyBarNo[0]
+      type: text
+      label: Atty Bar No
+      required: false
+      width: full
+    - name: name
+      pdf_field_name: EFS-006[0].Page1[0].p1Caption[0].AttyPartyInfo[0].Name[0]
+      type: text
+      label: Name
+      required: false
+      width: full
+    - name: atty_firm
+      pdf_field_name: EFS-006[0].Page1[0].p1Caption[0].AttyPartyInfo[0].AttyFirm[0]
+      type: text
+      label: Atty Firm
+      required: false
+      width: full
+    - name: street
+      pdf_field_name: EFS-006[0].Page1[0].p1Caption[0].AttyPartyInfo[0].Street[0]
+      type: address
+      label: Street
+      required: false
+      width: full
+    - name: city
+      pdf_field_name: EFS-006[0].Page1[0].p1Caption[0].AttyPartyInfo[0].City[0]
+      type: address
+      label: City
+      required: false
+      width: full
+    - name: state
+      pdf_field_name: EFS-006[0].Page1[0].p1Caption[0].AttyPartyInfo[0].State[0]
+      type: address
+      label: State
+      required: false
+      width: full
+    - name: zip
+      pdf_field_name: EFS-006[0].Page1[0].p1Caption[0].AttyPartyInfo[0].Zip[0]
+      type: address
+      label: Zip
+      required: false
+      width: full
+    - name: phone
+      pdf_field_name: EFS-006[0].Page1[0].p1Caption[0].AttyPartyInfo[0].Phone[0]
+      type: tel
+      label: Phone
+      required: false
+      width: half
+    - name: fax
+      pdf_field_name: EFS-006[0].Page1[0].p1Caption[0].AttyPartyInfo[0].Fax[0]
+      type: tel
+      label: Fax
+      required: false
+      width: half
+    - name: email
+      pdf_field_name: EFS-006[0].Page1[0].p1Caption[0].AttyPartyInfo[0].Email[0]
+      type: email
+      label: Email
+      required: false
+      width: half
+    - name: atty_for
+      pdf_field_name: EFS-006[0].Page1[0].p1Caption[0].AttyPartyInfo[0].AttyFor[0]
+      type: text
+      label: Atty For
+      required: false
+      width: full
+    - name: crt_county
+      pdf_field_name: EFS-006[0].Page1[0].p1Caption[0].CourtInfo[0].CrtCounty[0]
+      type: number
+      label: Crt County
+      required: false
+      width: third
+    - name: crt_street
+      pdf_field_name: EFS-006[0].Page1[0].p1Caption[0].CourtInfo[0].CrtStreet[0]
+      type: address
+      label: Crt Street
+      required: false
+      width: full
+    - name: crt_mailing_add
+      pdf_field_name: EFS-006[0].Page1[0].p1Caption[0].CourtInfo[0].CrtMailingAdd[0]
+      type: address
+      label: Crt Mailing Add
+      required: false
+      width: full
+    - name: crt_city_zip
+      pdf_field_name: EFS-006[0].Page1[0].p1Caption[0].CourtInfo[0].CrtCityZip[0]
+      type: address
+      label: Crt City Zip
+      required: false
+      width: full
+    - name: crt_branch
+      pdf_field_name: EFS-006[0].Page1[0].p1Caption[0].CourtInfo[0].CrtBranch[0]
+      type: text
+      label: Crt Branch
+      required: false
+      width: full
+    - name: party1
+      pdf_field_name: EFS-006[0].Page1[0].p1Caption[0].TitlePartyName[0].Party1[0]
+      type: text
+      label: Party
+      required: false
+      width: full
+    - name: party2
+      pdf_field_name: EFS-006[0].Page1[0].p1Caption[0].TitlePartyName[0].Party2[0]
+      type: text
+      label: Party
+      required: false
+      width: full
+  list:
+    title: List
+    fields:
+    - name: party_def_cb
+      pdf_field_name: EFS-006[0].Page1[0].List1[0].PartyDef_cb[0]
+      type: text
+      label: Party Def Cb
+      required: false
+      width: full
+    - name: party_def_cb_2
+      pdf_field_name: EFS-006[0].Page1[0].List1[0].PartyDef_cb[1]
+      type: text
+      label: Party Def Cb
+      required: false
+      width: full
+    - name: plaintiff_cb
+      pdf_field_name: EFS-006[0].Page1[0].List1[0].lia[0].Plaintiff_cb[0]
+      type: text
+      label: Plaintiff Cb
+      required: false
+      width: full
+    - name: plaintiff_name_ft
+      pdf_field_name: EFS-006[0].Page1[0].List1[0].lia[0].PlaintiffName_ft[0]
+      type: text
+      label: Plaintiff Name Ft
+      required: false
+      width: full
+      shared_key: plaintiff:name
+    - name: defendant_cb
+      pdf_field_name: EFS-006[0].Page1[0].List1[0].lib[0].Defendant_cb[0]
+      type: text
+      label: Defendant Cb
+      required: false
+      width: full
+    - name: defendant_name_ft
+      pdf_field_name: EFS-006[0].Page1[0].List1[0].lib[0].DefendantName_ft[0]
+      type: text
+      label: Defendant Name Ft
+      required: false
+      width: full
+      shared_key: defendant:name
+    - name: petitioner_cb
+      pdf_field_name: EFS-006[0].Page1[0].List1[0].lic[0].Petitioner_cb[0]
+      type: text
+      label: Petitioner Cb
+      required: false
+      width: full
+    - name: petitioner_name_ft
+      pdf_field_name: EFS-006[0].Page1[0].List1[0].lic[0].PetitionerName_ft[0]
+      type: text
+      label: Petitioner Name Ft
+      required: false
+      width: full
+      shared_key: petitioner:name
+    - name: respondent_cb
+      pdf_field_name: EFS-006[0].Page1[0].List1[0].lid[0].Respondent_cb[0]
+      type: text
+      label: Respondent Cb
+      required: false
+      width: full
+    - name: respondent_name_ft
+      pdf_field_name: EFS-006[0].Page1[0].List1[0].lid[0].RespondentName_ft[0]
+      type: text
+      label: Respondent Name Ft
+      required: false
+      width: full
+      shared_key: respondent:name
+    - name: other_cb
+      pdf_field_name: EFS-006[0].Page1[0].List1[0].lie[0].Other_cb[0]
+      type: text
+      label: Other Cb
+      required: false
+      width: full
+    - name: other_name_ft
+      pdf_field_name: EFS-006[0].Page1[0].List1[0].lie[0].OtherName_ft[0]
+      type: text
+      label: Other Name Ft
+      required: false
+      width: full
+    - name: t45
+      pdf_field_name: EFS-006[0].Page1[0].List2[0].li1[0].T45[0]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t45_2
+      pdf_field_name: EFS-006[0].Page1[0].List2[0].li1[0].T45[1]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t45_2
+      pdf_field_name: EFS-006[0].Page1[0].List2[0].li1[0].T45[2]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t45_2
+      pdf_field_name: EFS-006[0].Page1[0].List2[0].li1[0].T45[3]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: withdrawal_effective_date_dt
+      pdf_field_name: EFS-006[0].Page1[0].List3[0].li1[0].WithdrawalEffectiveDate_dt[0]
+      type: date
+      label: Withdrawal Effective Date Dt
+      required: false
+      width: half
+    - name: other_specify_tf
+      pdf_field_name: EFS-006[0].Page2[0].List1[0].li1[0].OtherSpecify_tf[0]
+      type: text
+      label: Other Specify Tf
+      required: false
+      width: full
+    - name: t61
+      pdf_field_name: EFS-006[0].Page2[0].List2[0].lia[0].T61[0]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: other_specify_tf_2
+      pdf_field_name: EFS-006[0].Page2[0].List2[0].lia[0].OtherSpecify_tf[0]
+      type: text
+      label: Other Specify Tf
+      required: false
+      width: full
+    - name: t62
+      pdf_field_name: EFS-006[0].Page2[0].List2[0].lib[0].T62[0]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t45_2
+      pdf_field_name: EFS-006[0].Page2[0].List2[0].lic[0].T45[0]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: check_box61
+      pdf_field_name: EFS-006[0].Page2[0].List2[0].CheckBox61[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+  sig_date:
+    title: Sig Date
+    fields:
+    - name: sig_date
+      pdf_field_name: EFS-006[0].Page1[0].sigDate[0]
+      type: date
+      label: Sig Date
+      required: false
+      width: half
+  sig_name:
+    title: Sig Name
+    fields:
+    - name: sig_name
+      pdf_field_name: EFS-006[0].Page1[0].sigName[0]
+      type: text
+      label: Sig Name
+      required: false
+      width: full
+  mp_last:
+    title: Mp Last
+    fields:
+    - name: print
+      pdf_field_name: EFS-006[0].#pageSet[0].MPLast[0].Print[0]
+      type: checkbox
+      label: Print
+      required: false
+      width: full
+    - name: save
+      pdf_field_name: EFS-006[0].#pageSet[0].MPLast[0].Save[0]
+      type: checkbox
+      label: Save
+      required: false
+      width: full
+    - name: reset
+      pdf_field_name: EFS-006[0].#pageSet[0].MPLast[0].Reset[0]
+      type: checkbox
+      label: Reset
+      required: false
+      width: full
+  px_caption:
+    title: Px Caption
+    fields:
+    - name: case_number
+      pdf_field_name: EFS-006[0].Page2[0].pxCaption[0].CaseNumber[0].CaseNumber[0]
+      type: text
+      label: Case Number
+      required: false
+      width: full
+      shared_key: case:number
+    - name: party1_2
+      pdf_field_name: EFS-006[0].Page2[0].pxCaption[0].TitlePartyName[0].Party1[0]
+      type: text
+      label: Party
+      required: false
+      width: full
+    - name: party2_2
+      pdf_field_name: EFS-006[0].Page2[0].pxCaption[0].TitlePartyName[0].Party2[0]
+      type: text
+      label: Party
+      required: false
+      width: full
+  po_ps_ig_date:
+    title: Po Ps Ig Date
+    fields:
+    - name: po_ps_ig_date
+      pdf_field_name: EFS-006[0].Page2[0].PoPSIgDate[0]
+      type: date
+      label: Po Ps Ig Date
+      required: false
+      width: half
+  po_p_sig_name:
+    title: Po P Sig Name
+    fields:
+    - name: po_p_sig_name
+      pdf_field_name: EFS-006[0].Page2[0].PoPSigName[0]
+      type: text
+      label: Po P Sig Name
+      required: false
+      width: full

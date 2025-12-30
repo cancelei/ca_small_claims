@@ -1,0 +1,55 @@
+---
+form:
+  code: JV-127
+  title: JV 127 Form
+  description: ''
+  category: juvenile/general
+  pdf_filename: jv127.pdf
+  fillable: true
+  instructions: ''
+sections:
+  general:
+    title: General
+    fields:
+    - name: fill_text8
+      pdf_field_name: FillText8
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text7
+      pdf_field_name: FillText7
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: check_box4
+      pdf_field_name: CheckBox4
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box3
+      pdf_field_name: CheckBox3
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: fill_text6
+      pdf_field_name: FillText6
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text10
+      pdf_field_name: FillText10
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text9
+      pdf_field_name: FillText9
+      type: text
+      label: Fill Text
+      required: false
+      width: full

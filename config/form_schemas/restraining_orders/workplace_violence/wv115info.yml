@@ -1,0 +1,28 @@
+---
+form:
+  code: WV-115INFO
+  title: WV 115INFO Form
+  description: ''
+  category: restraining_orders/workplace_violence
+  pdf_filename: wv115info.pdf
+  fillable: true
+  instructions: ''
+sections:
+  print:
+    title: Print
+    fields:
+    - name: print
+      pdf_field_name: WV-115-INFO[0].Page1[0].#area[8].Print[0]
+      type: checkbox
+      label: Print
+      required: false
+      width: full
+  save:
+    title: Save
+    fields:
+    - name: save
+      pdf_field_name: WV-115-INFO[0].Page1[0].#area[8].Save[0]
+      type: checkbox
+      label: Save
+      required: false
+      width: full

@@ -1,0 +1,451 @@
+---
+form:
+  code: EA-116
+  title: EA 116 Form
+  description: ''
+  category: restraining_orders/elder_abuse
+  pdf_filename: ea116.pdf
+  fillable: true
+  instructions: ''
+sections:
+  stamp_court_case:
+    title: Stamp Court Case
+    fields:
+    - name: court_info_ft
+      pdf_field_name: EA-116[0].Page1[0].Stamp_court_case[0].CourtInfo_ft[0]
+      type: text
+      label: Court Info Ft
+      required: false
+      width: full
+    - name: case_number_ft
+      pdf_field_name: EA-116[0].Page1[0].Stamp_court_case[0].CaseNumber_ft[0]
+      type: text
+      label: Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+  t:
+    title: T
+    fields:
+    - name: t137
+      pdf_field_name: EA-116[0].Page1[0].T137[0]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t138
+      pdf_field_name: EA-116[0].Page1[0].T138[0]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t145
+      pdf_field_name: EA-116[0].Page1[0].T145[0]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t146
+      pdf_field_name: EA-116[0].Page1[0].T146[0]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t21
+      pdf_field_name: EA-116[0].Page1[0].T21[0]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t21_2
+      pdf_field_name: EA-116[0].Page1[0].T21[1]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t56
+      pdf_field_name: EA-116[0].Page3[0].T56[0]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t58
+      pdf_field_name: EA-116[0].Page3[0].T58[0]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t66
+      pdf_field_name: EA-116[0].Page3[0].T66[0]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t188
+      pdf_field_name: EA-116[0].Page3[0].T188[0]
+      type: text
+      label: T
+      required: false
+      width: full
+  text_field:
+    title: Text Field
+    fields:
+    - name: text_field2
+      pdf_field_name: EA-116[0].Page1[0].TextField2[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field2_2
+      pdf_field_name: EA-116[0].Page1[0].TextField2[1]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field2_2
+      pdf_field_name: EA-116[0].Page1[0].TextField2[2]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field2_2
+      pdf_field_name: EA-116[0].Page1[0].TextField2[3]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field2_2
+      pdf_field_name: EA-116[0].Page1[0].TextField2[4]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field2_2
+      pdf_field_name: EA-116[0].Page2[0].TextField2[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field2_2
+      pdf_field_name: EA-116[0].Page2[0].TextField2[1]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field2_2
+      pdf_field_name: EA-116[0].Page2[0].TextField2[2]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field2_2
+      pdf_field_name: EA-116[0].Page2[0].TextField2[3]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field2_2
+      pdf_field_name: EA-116[0].Page3[0].TextField2[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+  tro_extension_cb:
+    title: Tro Extension Cb
+    fields:
+    - name: tro_extension_cb
+      pdf_field_name: EA-116[0].Page1[0].TROExtension_cb[0]
+      type: text
+      label: Tro Extension Cb
+      required: false
+      width: full
+    - name: tro_extension_cb_2
+      pdf_field_name: EA-116[0].Page1[0].TROExtension_cb[1]
+      type: text
+      label: Tro Extension Cb
+      required: false
+      width: full
+  tro_issued_dt:
+    title: Tro Issued Dt
+    fields:
+    - name: tro_issued_dt
+      pdf_field_name: EA-116[0].Page1[0].TROIssued_dt[0]
+      type: date
+      label: Tro Issued Dt
+      required: false
+      width: half
+    - name: tro_issued_dt_2
+      pdf_field_name: EA-116[0].Page2[0].TROIssued_dt[0]
+      type: date
+      label: Tro Issued Dt
+      required: false
+      width: half
+    - name: tro_issued_dt_2
+      pdf_field_name: EA-116[0].Page2[0].TROIssued_dt[1]
+      type: date
+      label: Tro Issued Dt
+      required: false
+      width: half
+    - name: tro_issued_dt_2
+      pdf_field_name: EA-116[0].Page2[0].TROIssued_dt[2]
+      type: date
+      label: Tro Issued Dt
+      required: false
+      width: half
+    - name: tro_issued_dt_2
+      pdf_field_name: EA-116[0].Page2[0].TROIssued_dt[3]
+      type: date
+      label: Tro Issued Dt
+      required: false
+      width: half
+    - name: tro_issued_dt_2
+      pdf_field_name: EA-116[0].Page2[0].TROIssued_dt[4]
+      type: date
+      label: Tro Issued Dt
+      required: false
+      width: half
+  extend_tro_cb:
+    title: Extend Tro Cb
+    fields:
+    - name: extend_tro_cb
+      pdf_field_name: EA-116[0].Page1[0].ExtendTRO_cb[0]
+      type: text
+      label: Extend Tro Cb
+      required: false
+      width: full
+    - name: extend_tro_cb_2
+      pdf_field_name: EA-116[0].Page1[0].ExtendTRO_cb[1]
+      type: text
+      label: Extend Tro Cb
+      required: false
+      width: full
+    - name: extend_tro_cb_2
+      pdf_field_name: EA-116[0].Page1[0].ExtendTRO_cb[2]
+      type: text
+      label: Extend Tro Cb
+      required: false
+      width: full
+    - name: extend_tro_cb_2
+      pdf_field_name: EA-116[0].Page1[0].ExtendTRO_cb[3]
+      type: text
+      label: Extend Tro Cb
+      required: false
+      width: full
+    - name: extend_tro_cb_2
+      pdf_field_name: EA-116[0].Page1[0].ExtendTRO_cb[4]
+      type: text
+      label: Extend Tro Cb
+      required: false
+      width: full
+    - name: extend_tro_cb_2
+      pdf_field_name: EA-116[0].Page1[0].ExtendTRO_cb[5]
+      type: text
+      label: Extend Tro Cb
+      required: false
+      width: full
+  other_tr_oorders_ft:
+    title: Other Tr Oorders Ft
+    fields:
+    - name: other_tr_oorders_ft
+      pdf_field_name: EA-116[0].Page1[0].OtherTROorders_ft[0]
+      type: text
+      label: Other Tr Oorders Ft
+      required: false
+      width: full
+  extend_othee_cb:
+    title: Extend Othee Cb
+    fields:
+    - name: extend_othee_cb
+      pdf_field_name: EA-116[0].Page1[0].ExtendOthee_cb[0]
+      type: text
+      label: Extend Othee Cb
+      required: false
+      width: full
+  service_cb:
+    title: Service Cb
+    fields:
+    - name: service_cb
+      pdf_field_name: EA-116[0].Page2[0].Service_cb[0]
+      type: text
+      label: Service Cb
+      required: false
+      width: full
+    - name: service_cb_2
+      pdf_field_name: EA-116[0].Page2[0].Service_cb[1]
+      type: text
+      label: Service Cb
+      required: false
+      width: full
+    - name: service_cb_2
+      pdf_field_name: EA-116[0].Page2[0].Service_cb[2]
+      type: text
+      label: Service Cb
+      required: false
+      width: full
+    - name: service_cb_2
+      pdf_field_name: EA-116[0].Page2[0].Service_cb[3]
+      type: text
+      label: Service Cb
+      required: false
+      width: full
+    - name: service_cb_2
+      pdf_field_name: EA-116[0].Page2[0].Service_cb[4]
+      type: text
+      label: Service Cb
+      required: false
+      width: full
+    - name: service_cb_2
+      pdf_field_name: EA-116[0].Page2[0].Service_cb[5]
+      type: text
+      label: Service Cb
+      required: false
+      width: full
+    - name: service_cb_2
+      pdf_field_name: EA-116[0].Page2[0].Service_cb[6]
+      type: text
+      label: Service Cb
+      required: false
+      width: full
+    - name: service_cb_2
+      pdf_field_name: EA-116[0].Page2[0].Service_cb[7]
+      type: text
+      label: Service Cb
+      required: false
+      width: full
+    - name: service_cb_2
+      pdf_field_name: EA-116[0].Page2[0].Service_cb[8]
+      type: text
+      label: Service Cb
+      required: false
+      width: full
+    - name: service_cb_2
+      pdf_field_name: EA-116[0].Page2[0].Service_cb[9]
+      type: text
+      label: Service Cb
+      required: false
+      width: full
+    - name: service_cb_2
+      pdf_field_name: EA-116[0].Page2[0].Service_cb[10]
+      type: text
+      label: Service Cb
+      required: false
+      width: full
+  case_number_ft:
+    title: Case Number Ft
+    fields:
+    - name: case_number_ft_2
+      pdf_field_name: EA-116[0].Page2[0].CaseNumber_ft[0]
+      type: text
+      label: Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+    - name: case_number_ft_2
+      pdf_field_name: EA-116[0].Page3[0].CaseNumber_ft[0]
+      type: text
+      label: Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+  cb:
+    title: Cb
+    fields:
+    - name: cb
+      pdf_field_name: EA-116[0].Page2[0].cb[0]
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: cb_2
+      pdf_field_name: EA-116[0].Page2[0].cb[1]
+      type: text
+      label: Cb
+      required: false
+      width: full
+  check_box:
+    title: Check Box
+    fields:
+    - name: check_box1
+      pdf_field_name: EA-116[0].Page2[0].CheckBox1[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box1_2
+      pdf_field_name: EA-116[0].Page2[0].CheckBox1[1]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box1_2
+      pdf_field_name: EA-116[0].Page2[0].CheckBox1[2]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+  other_service_cb:
+    title: Other Service Cb
+    fields:
+    - name: other_service_cb
+      pdf_field_name: EA-116[0].Page2[0].OtherService_cb[0]
+      type: text
+      label: Other Service Cb
+      required: false
+      width: full
+    - name: other_service_cb_2
+      pdf_field_name: EA-116[0].Page2[0].OtherService_cb[1]
+      type: text
+      label: Other Service Cb
+      required: false
+      width: full
+    - name: other_service_cb_2
+      pdf_field_name: EA-116[0].Page2[0].OtherService_cb[2]
+      type: text
+      label: Other Service Cb
+      required: false
+      width: full
+  other_orders_cb:
+    title: Other Orders Cb
+    fields:
+    - name: other_orders_cb
+      pdf_field_name: EA-116[0].Page3[0].OtherOrders_cb[0]
+      type: text
+      label: Other Orders Cb
+      required: false
+      width: full
+  print:
+    title: Print
+    fields:
+    - name: print
+      pdf_field_name: EA-116[0].Page3[0].#area[2].Print[0]
+      type: checkbox
+      label: Print
+      required: false
+      width: full
+  save:
+    title: Save
+    fields:
+    - name: save
+      pdf_field_name: EA-116[0].Page3[0].#area[2].Save[0]
+      type: checkbox
+      label: Save
+      required: false
+      width: full
+  reset:
+    title: Reset
+    fields:
+    - name: reset
+      pdf_field_name: EA-116[0].Page3[0].#area[2].Reset[0]
+      type: checkbox
+      label: Reset
+      required: false
+      width: full
+  warning:
+    title: Warning
+    fields:
+    - name: warning
+      pdf_field_name: EA-116[0].Page3[0].#area[2].Warning[0]
+      type: checkbox
+      label: Warning
+      required: false
+      width: full

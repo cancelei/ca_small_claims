@@ -1,0 +1,28 @@
+---
+form:
+  code: JV-326INFO
+  title: JV 326INFO Form
+  description: ''
+  category: juvenile/general
+  pdf_filename: jv326info.pdf
+  fillable: true
+  instructions: ''
+sections:
+  print_bt:
+    title: Print Bt
+    fields:
+    - name: print_bt
+      pdf_field_name: topmostSubform[0].Page1[0].#area[16].Print_bt[0]
+      type: checkbox
+      label: Print Bt
+      required: false
+      width: full
+  save_bt:
+    title: Save Bt
+    fields:
+    - name: save_bt
+      pdf_field_name: topmostSubform[0].Page1[0].#area[16].Save_bt[0]
+      type: checkbox
+      label: Save Bt
+      required: false
+      width: full

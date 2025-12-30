@@ -2,6 +2,7 @@
 
 class SubmissionsController < ApplicationController
   include SessionStorage
+  include PdfHandling
 
   before_action :set_submission, only: [:show, :destroy, :pdf, :download_pdf]
 
@@ -26,33 +27,11 @@ class SubmissionsController < ApplicationController
   end
 
   def pdf
-    begin
-      pdf_path = @submission.generate_pdf
-
-      send_file pdf_path,
-        type: "application/pdf",
-        disposition: "inline",
-        filename: pdf_filename
-    rescue StandardError => e
-      Rails.logger.error "PDF generation failed: #{e.message}"
-      redirect_to submission_path(@submission),
-        alert: "PDF generation failed."
-    end
+    send_pdf_inline(@submission)
   end
 
   def download_pdf
-    begin
-      pdf_path = @submission.generate_flattened_pdf
-
-      send_file pdf_path,
-        type: "application/pdf",
-        disposition: "attachment",
-        filename: pdf_filename
-    rescue StandardError => e
-      Rails.logger.error "PDF generation failed: #{e.message}"
-      redirect_to submission_path(@submission),
-        alert: "PDF generation failed."
-    end
+    send_pdf_download(@submission)
   end
 
   private
@@ -65,9 +44,8 @@ class SubmissionsController < ApplicationController
     end
   end
 
-  def pdf_filename
-    form_code = @submission.form_definition.code
-    timestamp = Time.current.strftime("%Y%m%d")
-    "#{form_code}_#{timestamp}.pdf"
+  # Override PdfHandling concern method
+  def pdf_failure_redirect_path(submission)
+    submission_path(submission)
   end
 end

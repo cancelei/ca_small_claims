@@ -1,0 +1,119 @@
+---
+form:
+  code: CR-100
+  title: CR 100 Form
+  description: ''
+  category: criminal/general
+  pdf_filename: cr100.pdf
+  fillable: true
+  instructions: ''
+sections:
+  general:
+    title: General
+    fields:
+    - name: court_county
+      pdf_field_name: CourtCounty
+      type: number
+      label: Court County
+      required: false
+      width: third
+    - name: street
+      pdf_field_name: Court.street
+      type: address
+      label: Street
+      required: false
+      width: full
+    - name: mailing
+      pdf_field_name: Court.mailing
+      type: address
+      label: Mailing
+      required: false
+      width: full
+    - name: branch
+      pdf_field_name: Court.branch
+      type: text
+      label: Branch
+      required: false
+      width: full
+    - name: defendant
+      pdf_field_name: Defendant
+      type: text
+      label: Defendant
+      required: false
+      width: full
+    - name: print
+      pdf_field_name: CheckBox.print
+      type: checkbox
+      label: Print
+      required: false
+      width: full
+    - name: check_box
+      pdf_field_name: CheckBox
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: case_number
+      pdf_field_name: CaseNumber
+      type: text
+      label: Case Number
+      required: false
+      width: full
+      shared_key: case:number
+  city:
+    title: City
+    fields:
+    - name: zip
+      pdf_field_name: Court.city.zip
+      type: address
+      label: Zip
+      required: false
+      width: full
+  print:
+    title: Print
+    fields:
+    - name: choice
+      pdf_field_name: CheckBox.print.choice
+      type: checkbox
+      label: Choice
+      required: false
+      width: full
+    - name: date
+      pdf_field_name: 2.print.date
+      type: date
+      label: Date
+      required: false
+      width: half
+  b:
+    title: B
+    fields:
+    - name: print_2
+      pdf_field_name: 1.b.specify.print
+      type: text
+      label: Print
+      required: false
+      width: full
+    - name: position
+      pdf_field_name: 3.b.position
+      type: text
+      label: Position
+      required: false
+      width: full
+  a:
+    title: A
+    fields:
+    - name: name
+      pdf_field_name: 3.a.name
+      type: text
+      label: Name
+      required: false
+      width: full
+  c:
+    title: C
+    fields:
+    - name: number
+      pdf_field_name: 3.c.badge.number
+      type: text
+      label: Number
+      required: false
+      width: full

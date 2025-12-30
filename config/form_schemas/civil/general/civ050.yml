@@ -1,0 +1,600 @@
+---
+form:
+  code: CIV-050
+  title: CIV 050 Form
+  description: ''
+  category: civil/general
+  pdf_filename: civ050.pdf
+  fillable: true
+  instructions: ''
+sections:
+  p1_caption:
+    title: P1 Caption
+    fields:
+    - name: case_number_ft
+      pdf_field_name: CIV-050[0].Page1[0].P1Caption[0].CaseNumber[0].CaseNumber_ft[0]
+      type: text
+      label: Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+    - name: text_field1
+      pdf_field_name: CIV-050[0].Page1[0].P1Caption[0].AttyPartyInfo[0].TextField1[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: phone
+      pdf_field_name: CIV-050[0].Page1[0].P1Caption[0].AttyPartyInfo[0].Phone[0]
+      type: tel
+      label: Phone
+      required: false
+      width: half
+    - name: attorney
+      pdf_field_name: CIV-050[0].Page1[0].P1Caption[0].AttyPartyInfo[0].Attorney[0]
+      type: text
+      label: Attorney
+      required: false
+      width: full
+    - name: crt_county_ft
+      pdf_field_name: CIV-050[0].Page1[0].P1Caption[0].CourtInfo[0].CrtCounty_ft[0]
+      type: number
+      label: Crt County Ft
+      required: false
+      width: third
+    - name: street_ft
+      pdf_field_name: CIV-050[0].Page1[0].P1Caption[0].CourtInfo[0].Street_ft[0]
+      type: address
+      label: Street Ft
+      required: false
+      width: full
+    - name: mailing_add_ft
+      pdf_field_name: CIV-050[0].Page1[0].P1Caption[0].CourtInfo[0].MailingAdd_ft[0]
+      type: address
+      label: Mailing Add Ft
+      required: false
+      width: full
+    - name: city_zip_ft
+      pdf_field_name: CIV-050[0].Page1[0].P1Caption[0].CourtInfo[0].CityZip_ft[0]
+      type: address
+      label: City Zip Ft
+      required: false
+      width: full
+    - name: branch_ft
+      pdf_field_name: CIV-050[0].Page1[0].P1Caption[0].CourtInfo[0].Branch_ft[0]
+      type: text
+      label: Branch Ft
+      required: false
+      width: full
+    - name: party1_ft
+      pdf_field_name: CIV-050[0].Page1[0].P1Caption[0].TitlePartyName[0].Party1_ft[0]
+      type: text
+      label: Party1 Ft
+      required: false
+      width: full
+    - name: party2_ft
+      pdf_field_name: CIV-050[0].Page1[0].P1Caption[0].TitlePartyName[0].Party2_ft[0]
+      type: text
+      label: Party2 Ft
+      required: false
+      width: full
+  info:
+    title: Info
+    fields:
+    - name: fill_text1
+      pdf_field_name: CIV-050[0].Page1[0].Info[0].FillText1[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text2
+      pdf_field_name: CIV-050[0].Page1[0].Info[0].FillText2[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+  list:
+    title: List
+    fields:
+    - name: check_box1
+      pdf_field_name: CIV-050[0].Page1[0].List1[0].Lia[0].CheckBox1[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: fill_text4
+      pdf_field_name: CIV-050[0].Page1[0].List1[0].Lia[0].FillText4[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: check_box2
+      pdf_field_name: CIV-050[0].Page1[0].List1[0].Lib[0].CheckBox2[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: fill_text5
+      pdf_field_name: CIV-050[0].Page1[0].List1[0].Lib[0].FillText5[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: check_box3
+      pdf_field_name: CIV-050[0].Page1[0].List1[0].Lic[0].CheckBox3[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: fill_text6
+      pdf_field_name: CIV-050[0].Page1[0].List1[0].Lic[0].FillText6[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: check_box4
+      pdf_field_name: CIV-050[0].Page1[0].List1[0].Lid[0].CheckBox4[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: fill_text7
+      pdf_field_name: CIV-050[0].Page1[0].List1[0].Lid[0].FillText7[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: check_box5
+      pdf_field_name: CIV-050[0].Page1[0].List1[0].Lie[0].CheckBox5[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: fill_text3
+      pdf_field_name: CIV-050[0].Page1[0].List1[0].Lie[0].FillText3[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text70
+      pdf_field_name: CIV-050[0].Page1[0].List1[0].Lie[0].FillText70[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: check_box6
+      pdf_field_name: CIV-050[0].Page1[0].List1[0].Lif[0].CheckBox6[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: fill_text4_2
+      pdf_field_name: CIV-050[0].Page1[0].List1[0].Lif[0].FillText4[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text69
+      pdf_field_name: CIV-050[0].Page1[0].List1[0].Lif[0].FillText69[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: check_box7
+      pdf_field_name: CIV-050[0].Page1[0].List1[0].Lig[0].CheckBox7[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: checkbox8
+      pdf_field_name: CIV-050[0].Page1[0].List2[0].Lia[0].Checkbox8[0]
+      type: checkbox
+      label: Checkbox
+      required: false
+      width: full
+    - name: fill_text68
+      pdf_field_name: CIV-050[0].Page1[0].List2[0].Lia[0].FillText68[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: check_box9
+      pdf_field_name: CIV-050[0].Page1[0].List2[0].Lib[0].CheckBox9[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: fill_text67
+      pdf_field_name: CIV-050[0].Page1[0].List2[0].Lib[0].FillText67[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: check_box10
+      pdf_field_name: CIV-050[0].Page1[0].List2[0].Lic[0].CheckBox10[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: fill_text66
+      pdf_field_name: CIV-050[0].Page1[0].List2[0].Lic[0].FillText66[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: check_box11
+      pdf_field_name: CIV-050[0].Page1[0].List2[0].Lid[0].CheckBox11[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: fill_text65
+      pdf_field_name: CIV-050[0].Page1[0].List2[0].Lid[0].FillText65[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: check_box12
+      pdf_field_name: CIV-050[0].Page1[0].List2[0].Lie[0].CheckBox12[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: fill_text64
+      pdf_field_name: CIV-050[0].Page1[0].List2[0].Lie[0].FillText64[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: check_box13
+      pdf_field_name: CIV-050[0].Page1[0].List2[0].Lif[0].CheckBox13[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: fill_text63
+      pdf_field_name: CIV-050[0].Page1[0].List2[0].Lif[0].FillText63[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: check_box14
+      pdf_field_name: CIV-050[0].Page1[0].List2[0].Lig[0].CheckBox14[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: fill_text62
+      pdf_field_name: CIV-050[0].Page1[0].List2[0].Lig[0].FillText62[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: check_box15
+      pdf_field_name: CIV-050[0].Page1[0].List2[0].Lih[0].CheckBox15[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: fill_text61
+      pdf_field_name: CIV-050[0].Page1[0].List2[0].Lih[0].FillText61[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: check_box16
+      pdf_field_name: CIV-050[0].Page1[0].List2[0].Lii[0].CheckBox16[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: fill_text5_2
+      pdf_field_name: CIV-050[0].Page1[0].List2[0].Lii[0].FillText5[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text60
+      pdf_field_name: CIV-050[0].Page1[0].List2[0].Lii[0].FillText60[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: check_box17
+      pdf_field_name: CIV-050[0].Page1[0].List2[0].Lij[0].CheckBox17[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: fill_text6_2
+      pdf_field_name: CIV-050[0].Page1[0].List2[0].Lij[0].FillText6[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text59
+      pdf_field_name: CIV-050[0].Page1[0].List2[0].Lij[0].FillText59[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: check_box18
+      pdf_field_name: CIV-050[0].Page1[0].List2[0].Lik[0].CheckBox18[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box19
+      pdf_field_name: CIV-050[0].Page1[0].List3[0].item3[0].CheckBox19[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: fill_text58
+      pdf_field_name: CIV-050[0].Page1[0].List3[0].item3[0].FillText58[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: check_box25
+      pdf_field_name: CIV-050[0].Page2[0].List1[0].Lia[0].CheckBox25[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box20
+      pdf_field_name: CIV-050[0].Page2[0].List1[0].Lia[0].CheckBox20[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: fill_text109
+      pdf_field_name: CIV-050[0].Page2[0].List1[0].Lia[0].FillText109[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text30
+      pdf_field_name: CIV-050[0].Page2[0].List1[0].Lib[0].FillText30[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: check_box24
+      pdf_field_name: CIV-050[0].Page2[0].List1[0].Lic[0].CheckBox24[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box21
+      pdf_field_name: CIV-050[0].Page2[0].List1[0].Lic[0].CheckBox21[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: fill_text31
+      pdf_field_name: CIV-050[0].Page2[0].List1[0].Lic[0].FillText31[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: check_box26
+      pdf_field_name: CIV-050[0].Page2[0].List1[0].Lid[0].CheckBox26[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box230
+      pdf_field_name: CIV-050[0].Page2[0].List1[0].Lid[0].CheckBox230[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box230_2
+      pdf_field_name: CIV-050[0].Page2[0].List1[0].Lid[0].CheckBox230[1]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: fill_text107
+      pdf_field_name: CIV-050[0].Page2[0].List1[0].Lid[0].SubLid[0].Li1[0].FillText107[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text106
+      pdf_field_name: CIV-050[0].Page2[0].List1[0].Lid[0].SubLid[0].Li2[0].FillText106[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text105
+      pdf_field_name: CIV-050[0].Page2[0].List1[0].Lid[0].SubLid[0].Li3[0].FillText105[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: check_box27
+      pdf_field_name: CIV-050[0].Page2[0].List1[0].Lie[0].CheckBox27[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: fill_text104
+      pdf_field_name: CIV-050[0].Page2[0].List1[0].Lie[0].SubLie[0].Li1[0].FillText104[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text103
+      pdf_field_name: CIV-050[0].Page2[0].List1[0].Lie[0].SubLie[0].Li2[0].FillText103[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: check_box40
+      pdf_field_name: CIV-050[0].Page2[0].List2[0].Lia[0].CheckBox40[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box40_2
+      pdf_field_name: CIV-050[0].Page2[0].List2[0].Lib[0].CheckBox40[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box40_2
+      pdf_field_name: CIV-050[0].Page2[0].List2[0].Lic[0].CheckBox40[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box40_2
+      pdf_field_name: CIV-050[0].Page2[0].List2[0].Lid[0].CheckBox40[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box40_2
+      pdf_field_name: CIV-050[0].Page2[0].List2[0].Lie[0].CheckBox40[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box40_2
+      pdf_field_name: CIV-050[0].Page2[0].List2[0].Lif[0].CheckBox40[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: fill_text13
+      pdf_field_name: CIV-050[0].Page2[0].List2[0].Lif[0].FillText13[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: check_box34
+      pdf_field_name: CIV-050[0].Page2[0].List2[0].Lif[0].CheckBox34[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: fill_text102
+      pdf_field_name: CIV-050[0].Page2[0].List4[0].item4[0].FillText102[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: check_box35
+      pdf_field_name: CIV-050[0].Page2[0].List5[0].Lia[0].CheckBox35[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box36
+      pdf_field_name: CIV-050[0].Page2[0].List5[0].Lib[0].CheckBox36[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box37
+      pdf_field_name: CIV-050[0].Page2[0].List5[0].Lic[0].CheckBox37[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box38
+      pdf_field_name: CIV-050[0].Page2[0].List5[0].Lid[0].CheckBox38[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box39
+      pdf_field_name: CIV-050[0].Page2[0].List5[0].Lie[0].CheckBox39[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: fill_text101
+      pdf_field_name: CIV-050[0].Page2[0].List5[0].Lif[0].FillText101[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+  sign:
+    title: Sign
+    fields:
+    - name: fill_text57
+      pdf_field_name: CIV-050[0].Page1[0].Sign[0].FillText57[0]
+      type: signature
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text56
+      pdf_field_name: CIV-050[0].Page1[0].Sign[0].FillText56[0]
+      type: signature
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text1140
+      pdf_field_name: CIV-050[0].Page2[0].Sign1[0].FillText1140[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text113
+      pdf_field_name: CIV-050[0].Page2[0].Sign2[0].FillText113[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+  mp_last:
+    title: Mp Last
+    fields:
+    - name: warning
+      pdf_field_name: CIV-050[0].#pageSet[0].MPLast[0].Warning[0]
+      type: checkbox
+      label: Warning
+      required: false
+      width: full
+    - name: print
+      pdf_field_name: CIV-050[0].#pageSet[0].MPLast[0].Print[0]
+      type: checkbox
+      label: Print
+      required: false
+      width: full
+    - name: save
+      pdf_field_name: CIV-050[0].#pageSet[0].MPLast[0].Save[0]
+      type: checkbox
+      label: Save
+      required: false
+      width: full
+    - name: reset
+      pdf_field_name: CIV-050[0].#pageSet[0].MPLast[0].Reset[0]
+      type: checkbox
+      label: Reset
+      required: false
+      width: full
+  px_header:
+    title: Px Header
+    fields:
+    - name: party1_ft_2
+      pdf_field_name: CIV-050[0].Page2[0].PxHeader[0].TitlePartyName[0].Party1_ft[0]
+      type: text
+      label: Party1 Ft
+      required: false
+      width: full
+    - name: party2_ft_2
+      pdf_field_name: CIV-050[0].Page2[0].PxHeader[0].TitlePartyName[0].Party2_ft[0]
+      type: text
+      label: Party2 Ft
+      required: false
+      width: full
+    - name: case_number_ft_2
+      pdf_field_name: CIV-050[0].Page2[0].PxHeader[0].CaseNumber[0].CaseNumber_ft[0]
+      type: text
+      label: Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number

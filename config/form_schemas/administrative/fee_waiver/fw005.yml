@@ -1,0 +1,174 @@
+---
+form:
+  code: FW-005
+  title: FW 005 Form
+  description: ''
+  category: administrative/fee_waiver
+  pdf_filename: fw005.pdf
+  fillable: true
+  instructions: ''
+sections:
+  t:
+    title: T
+    fields:
+    - name: t16
+      pdf_field_name: FW-005[0].Page1[0].T16[0]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t20
+      pdf_field_name: FW-005[0].Page1[0].T20[0]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t27
+      pdf_field_name: FW-005[0].Page1[0].T27[0]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t28
+      pdf_field_name: FW-005[0].Page1[0].T28[0]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t29
+      pdf_field_name: FW-005[0].Page1[0].T29[0]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t32
+      pdf_field_name: FW-005[0].Page1[0].T32[0]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t48
+      pdf_field_name: FW-005[0].Page1[0].T48[0]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t178
+      pdf_field_name: FW-005[0].Page1[0].T178[0]
+      type: text
+      label: T
+      required: false
+      width: full
+  text_field:
+    title: Text Field
+    fields:
+    - name: text_field2
+      pdf_field_name: FW-005[0].Page1[0].TextField2[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field2_2
+      pdf_field_name: FW-005[0].Page1[0].TextField2[1]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field2_2
+      pdf_field_name: FW-005[0].Page1[0].#area[5].TextField2[2]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+  check_box:
+    title: Check Box
+    fields:
+    - name: check_box3
+      pdf_field_name: FW-005[0].Page1[0].CheckBox3[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+  service_rblist:
+    title: Service Rblist
+    fields:
+    - name: service_rblist
+      pdf_field_name: FW-005[0].Page1[0].Service_rblist[0]
+      type: text
+      label: Service Rblist
+      required: false
+      width: full
+  fill_text:
+    title: Fill Text
+    fields:
+    - name: fill_text54
+      pdf_field_name: FW-005[0].Page1[0].FillText54[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text55
+      pdf_field_name: FW-005[0].Page1[0].FillText55[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+  stamp_court_case:
+    title: Stamp Court Case
+    fields:
+    - name: court_info_ft
+      pdf_field_name: FW-005[0].Page1[0].Stamp_court_case[0].CourtInfo_ft[0]
+      type: text
+      label: Court Info Ft
+      required: false
+      width: full
+    - name: case_number_ft
+      pdf_field_name: FW-005[0].Page1[0].Stamp_court_case[0].CaseNumber_ft[0]
+      type: text
+      label: Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+    - name: case_name_ft
+      pdf_field_name: FW-005[0].Page1[0].Stamp_court_case[0].CaseName_ft[0]
+      type: text
+      label: Case Name Ft
+      required: false
+      width: full
+      shared_key: court:name
+  print:
+    title: Print
+    fields:
+    - name: print
+      pdf_field_name: FW-005[0].Page1[0].#area[11].Print[0]
+      type: checkbox
+      label: Print
+      required: false
+      width: full
+  save:
+    title: Save
+    fields:
+    - name: save
+      pdf_field_name: FW-005[0].Page1[0].#area[11].Save[0]
+      type: checkbox
+      label: Save
+      required: false
+      width: full
+  reset:
+    title: Reset
+    fields:
+    - name: reset
+      pdf_field_name: FW-005[0].Page1[0].#area[11].Reset[0]
+      type: checkbox
+      label: Reset
+      required: false
+      width: full
+  warning:
+    title: Warning
+    fields:
+    - name: warning
+      pdf_field_name: FW-005[0].Page1[0].#area[11].Warning[0]
+      type: checkbox
+      label: Warning
+      required: false
+      width: full

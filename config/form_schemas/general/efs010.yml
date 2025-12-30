@@ -1,0 +1,315 @@
+---
+form:
+  code: EFS-010
+  title: EFS 010 Form
+  description: ''
+  category: general
+  pdf_filename: efs010.pdf
+  fillable: true
+  instructions: ''
+sections:
+  p1_caption:
+    title: P1 Caption
+    fields:
+    - name: case_number
+      pdf_field_name: EFS-010[0].Page1[0].P1Caption[0].captionSub[0].CaseNumber[0].CaseNumber[0]
+      type: text
+      label: Case Number
+      required: false
+      width: full
+      shared_key: case:number
+    - name: jo_name
+      pdf_field_name: EFS-010[0].Page1[0].P1Caption[0].captionSub[0].JOInfo[0].JOName[0]
+      type: text
+      label: Jo Name
+      required: false
+      width: full
+    - name: crt_department
+      pdf_field_name: EFS-010[0].Page1[0].P1Caption[0].captionSub[0].DeptInfo[0].crtDepartment[0]
+      type: text
+      label: Crt Department
+      required: false
+      width: full
+    - name: text_field1
+      pdf_field_name: EFS-010[0].Page1[0].P1Caption[0].AttyPartyInfo[0].TextField1[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: phone
+      pdf_field_name: EFS-010[0].Page1[0].P1Caption[0].AttyPartyInfo[0].Phone[0]
+      type: tel
+      label: Phone
+      required: false
+      width: half
+    - name: fax
+      pdf_field_name: EFS-010[0].Page1[0].P1Caption[0].AttyPartyInfo[0].Fax[0]
+      type: tel
+      label: Fax
+      required: false
+      width: half
+    - name: email
+      pdf_field_name: EFS-010[0].Page1[0].P1Caption[0].AttyPartyInfo[0].Email[0]
+      type: email
+      label: Email
+      required: false
+      width: half
+    - name: name
+      pdf_field_name: EFS-010[0].Page1[0].P1Caption[0].AttyPartyInfo[0].Name[0]
+      type: text
+      label: Name
+      required: false
+      width: full
+    - name: crt_county
+      pdf_field_name: EFS-010[0].Page1[0].P1Caption[0].CourtInfo[0].CrtCounty[0]
+      type: number
+      label: Crt County
+      required: false
+      width: third
+    - name: crt_street
+      pdf_field_name: EFS-010[0].Page1[0].P1Caption[0].CourtInfo[0].CrtStreet[0]
+      type: address
+      label: Crt Street
+      required: false
+      width: full
+    - name: crt_mailing_add
+      pdf_field_name: EFS-010[0].Page1[0].P1Caption[0].CourtInfo[0].CrtMailingAdd[0]
+      type: address
+      label: Crt Mailing Add
+      required: false
+      width: full
+    - name: crt_city_zip
+      pdf_field_name: EFS-010[0].Page1[0].P1Caption[0].CourtInfo[0].CrtCityZip[0]
+      type: address
+      label: Crt City Zip
+      required: false
+      width: full
+    - name: crt_branch
+      pdf_field_name: EFS-010[0].Page1[0].P1Caption[0].CourtInfo[0].CrtBranch[0]
+      type: text
+      label: Crt Branch
+      required: false
+      width: full
+    - name: party1
+      pdf_field_name: EFS-010[0].Page1[0].P1Caption[0].TitlePartyName[0].Party1[0]
+      type: text
+      label: Party
+      required: false
+      width: full
+    - name: party2
+      pdf_field_name: EFS-010[0].Page1[0].P1Caption[0].TitlePartyName[0].Party2[0]
+      type: text
+      label: Party
+      required: false
+      width: full
+  list:
+    title: List
+    fields:
+    - name: check_boxqd1
+      pdf_field_name: EFS-010[0].Page1[0].List1[0].CheckBoxqd1[0]
+      type: checkbox
+      label: Check Boxqd
+      required: false
+      width: full
+    - name: check_boxqd2
+      pdf_field_name: EFS-010[0].Page1[0].List1[0].CheckBoxqd2[0]
+      type: checkbox
+      label: Check Boxqd
+      required: false
+      width: full
+    - name: check_boxqd
+      pdf_field_name: EFS-010[0].Page1[0].List1[0].LI1[0].CheckBoxqd[0]
+      type: checkbox
+      label: Check Boxqd
+      required: false
+      width: full
+    - name: fill_text1
+      pdf_field_name: EFS-010[0].Page1[0].List1[0].LI1[0].FillText1[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: check_boxqd_2
+      pdf_field_name: EFS-010[0].Page1[0].List1[0].LI2[0].CheckBoxqd[0]
+      type: checkbox
+      label: Check Boxqd
+      required: false
+      width: full
+    - name: fill_text1_2
+      pdf_field_name: EFS-010[0].Page1[0].List1[0].LI2[0].FillText1[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: check_boxqd_2
+      pdf_field_name: EFS-010[0].Page1[0].List1[0].LI3[0].CheckBoxqd[0]
+      type: checkbox
+      label: Check Boxqd
+      required: false
+      width: full
+    - name: fill_text1_2
+      pdf_field_name: EFS-010[0].Page1[0].List1[0].LI3[0].FillText1[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: check_boxqd_2
+      pdf_field_name: EFS-010[0].Page1[0].List1[0].LI4[0].CheckBoxqd[0]
+      type: checkbox
+      label: Check Boxqd
+      required: false
+      width: full
+    - name: fill_text1_2
+      pdf_field_name: EFS-010[0].Page1[0].List1[0].LI4[0].FillText1[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: check_boxqd_2
+      pdf_field_name: EFS-010[0].Page1[0].List1[0].LI5[0].CheckBoxqd[0]
+      type: checkbox
+      label: Check Boxqd
+      required: false
+      width: full
+    - name: fill_text1_2
+      pdf_field_name: EFS-010[0].Page1[0].List1[0].LI5[0].FillText1[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text1_2
+      pdf_field_name: EFS-010[0].Page1[0].List2[0].LI1[0].FillText1[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text1_2
+      pdf_field_name: EFS-010[0].Page1[0].List3[0].LI1[0].FillText1[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text1_2
+      pdf_field_name: EFS-010[0].Page1[0].List4[0].LI1[0].FillText1[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text1_2
+      pdf_field_name: EFS-010[0].Page2[0].List1[0].LI1[0].FillText1[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text1_2
+      pdf_field_name: EFS-010[0].Page2[0].List1[0].LI2[0].FillText1[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text1_2
+      pdf_field_name: EFS-010[0].Page2[0].List2[0].LI1[0].FillText1[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text2
+      pdf_field_name: EFS-010[0].Page2[0].List2[0].LI1[0].FillText2[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text1_2
+      pdf_field_name: EFS-010[0].Page2[0].List2[0].LI2[0].FillText1[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text1_2
+      pdf_field_name: EFS-010[0].Page2[0].List2[0].LI3[0].FillText1[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text1_2
+      pdf_field_name: EFS-010[0].Page2[0].List2[0].LI4[0].FillText1[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: check_boxqd_2
+      pdf_field_name: EFS-010[0].Page2[0].List2[0].CheckBoxqd[0]
+      type: checkbox
+      label: Check Boxqd
+      required: false
+      width: full
+  sig_sub:
+    title: Sig Sub
+    fields:
+    - name: date1
+      pdf_field_name: EFS-010[0].Page1[0].SigSub[0].Date1[0]
+      type: date
+      label: Date
+      required: false
+      width: half
+    - name: print_name1
+      pdf_field_name: EFS-010[0].Page1[0].SigSub[0].PrintName1[0]
+      type: text
+      label: Print Name
+      required: false
+      width: full
+    - name: date1_2
+      pdf_field_name: EFS-010[0].Page2[0].SigSub[0].Date1[0]
+      type: date
+      label: Date
+      required: false
+      width: half
+    - name: print_name1_2
+      pdf_field_name: EFS-010[0].Page2[0].SigSub[0].PrintName1[0]
+      type: text
+      label: Print Name
+      required: false
+      width: full
+  mp_last:
+    title: Mp Last
+    fields:
+    - name: print
+      pdf_field_name: EFS-010[0].#pageSet[0].MPLast[0].Print[0]
+      type: checkbox
+      label: Print
+      required: false
+      width: full
+    - name: save
+      pdf_field_name: EFS-010[0].#pageSet[0].MPLast[0].Save[0]
+      type: checkbox
+      label: Save
+      required: false
+      width: full
+    - name: reset
+      pdf_field_name: EFS-010[0].#pageSet[0].MPLast[0].Reset[0]
+      type: checkbox
+      label: Reset
+      required: false
+      width: full
+  p_x_caption:
+    title: P X Caption
+    fields:
+    - name: party1_2
+      pdf_field_name: EFS-010[0].Page2[0].pXCaption[0].TitlePartyName[0].Party1[0]
+      type: text
+      label: Party
+      required: false
+      width: full
+    - name: party2_2
+      pdf_field_name: EFS-010[0].Page2[0].pXCaption[0].TitlePartyName[0].Party2[0]
+      type: text
+      label: Party
+      required: false
+      width: full
+    - name: case_number_2
+      pdf_field_name: EFS-010[0].Page2[0].pXCaption[0].CaseNumber[0].CaseNumber[0]
+      type: text
+      label: Case Number
+      required: false
+      width: full
+      shared_key: case:number

@@ -1,0 +1,399 @@
+---
+form:
+  code: JV-618
+  title: JV 618 Form
+  description: ''
+  category: juvenile/general
+  pdf_filename: jv618.pdf
+  fillable: true
+  instructions: ''
+sections:
+  p1_caption:
+    title: P1 Caption
+    fields:
+    - name: atty_bar_no
+      pdf_field_name: JV-618[0].Page1[0].P1Caption[0].AttyPartyInfo[0].AttyBarNo[0]
+      type: text
+      label: Atty Bar No
+      required: false
+      width: full
+    - name: name
+      pdf_field_name: JV-618[0].Page1[0].P1Caption[0].AttyPartyInfo[0].Name[0]
+      type: text
+      label: Name
+      required: false
+      width: full
+    - name: atty_firm
+      pdf_field_name: JV-618[0].Page1[0].P1Caption[0].AttyPartyInfo[0].AttyFirm[0]
+      type: text
+      label: Atty Firm
+      required: false
+      width: full
+    - name: street
+      pdf_field_name: JV-618[0].Page1[0].P1Caption[0].AttyPartyInfo[0].Street[0]
+      type: address
+      label: Street
+      required: false
+      width: full
+    - name: city
+      pdf_field_name: JV-618[0].Page1[0].P1Caption[0].AttyPartyInfo[0].City[0]
+      type: address
+      label: City
+      required: false
+      width: full
+    - name: state
+      pdf_field_name: JV-618[0].Page1[0].P1Caption[0].AttyPartyInfo[0].State[0]
+      type: address
+      label: State
+      required: false
+      width: full
+    - name: zip
+      pdf_field_name: JV-618[0].Page1[0].P1Caption[0].AttyPartyInfo[0].Zip[0]
+      type: address
+      label: Zip
+      required: false
+      width: full
+    - name: phone
+      pdf_field_name: JV-618[0].Page1[0].P1Caption[0].AttyPartyInfo[0].Phone[0]
+      type: tel
+      label: Phone
+      required: false
+      width: half
+    - name: fax
+      pdf_field_name: JV-618[0].Page1[0].P1Caption[0].AttyPartyInfo[0].Fax[0]
+      type: tel
+      label: Fax
+      required: false
+      width: half
+    - name: email
+      pdf_field_name: JV-618[0].Page1[0].P1Caption[0].AttyPartyInfo[0].Email[0]
+      type: email
+      label: Email
+      required: false
+      width: half
+    - name: atty_for
+      pdf_field_name: JV-618[0].Page1[0].P1Caption[0].AttyPartyInfo[0].AttyFor[0]
+      type: text
+      label: Atty For
+      required: false
+      width: full
+    - name: crt_county
+      pdf_field_name: JV-618[0].Page1[0].P1Caption[0].CourtInfo[0].CrtCounty[0]
+      type: number
+      label: Crt County
+      required: false
+      width: third
+    - name: crt_street
+      pdf_field_name: JV-618[0].Page1[0].P1Caption[0].CourtInfo[0].CrtStreet[0]
+      type: address
+      label: Crt Street
+      required: false
+      width: full
+    - name: crt_mailing_add
+      pdf_field_name: JV-618[0].Page1[0].P1Caption[0].CourtInfo[0].CrtMailingAdd[0]
+      type: address
+      label: Crt Mailing Add
+      required: false
+      width: full
+    - name: crt_city_zip
+      pdf_field_name: JV-618[0].Page1[0].P1Caption[0].CourtInfo[0].CrtCityZip[0]
+      type: address
+      label: Crt City Zip
+      required: false
+      width: full
+    - name: crt_branch
+      pdf_field_name: JV-618[0].Page1[0].P1Caption[0].CourtInfo[0].CrtBranch[0]
+      type: text
+      label: Crt Branch
+      required: false
+      width: full
+    - name: party1
+      pdf_field_name: JV-618[0].Page1[0].P1Caption[0].TitlePartyName[0].Party1[0]
+      type: text
+      label: Party
+      required: false
+      width: full
+    - name: cn
+      pdf_field_name: JV-618[0].Page1[0].P1Caption[0].CaseNumber[0].CN[0]
+      type: text
+      label: Cn
+      required: false
+      width: full
+      shared_key: case:number
+  list:
+    title: List
+    fields:
+    - name: t9
+      pdf_field_name: JV-618[0].Page1[0].List1[0].Li1[0].T9[0]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: itemab_cb
+      pdf_field_name: JV-618[0].Page1[0].List2[0].Li1[0].itemab_cb[0]
+      type: text
+      label: Itemab Cb
+      required: false
+      width: full
+    - name: itemab_cb_2
+      pdf_field_name: JV-618[0].Page1[0].List2[0].Li2[0].itemab_cb[0]
+      type: text
+      label: Itemab Cb
+      required: false
+      width: full
+    - name: petitioner_cb
+      pdf_field_name: JV-618[0].Page1[0].List3[0].Li1[0].#area[0].petitioner_cb[0]
+      type: text
+      label: Petitioner Cb
+      required: false
+      width: full
+    - name: text_field2
+      pdf_field_name: JV-618[0].Page1[0].List3[0].Li1[0].TextField2[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field2_2
+      pdf_field_name: JV-618[0].Page1[0].List4[0].Li1[0].TextField2[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: date_time_field1
+      pdf_field_name: JV-618[0].Page1[0].List4[0].Li2[0].DateTimeField1[0]
+      type: date
+      label: Date Time Field
+      required: false
+      width: half
+    - name: text_field2_2
+      pdf_field_name: JV-618[0].Page1[0].List4[0].Li2[0].TextField2[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field2_2
+      pdf_field_name: JV-618[0].Page1[0].List4[0].Li3[0].TextField2[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: tx
+      pdf_field_name: JV-618[0].Page1[0].List4[0].Li4[0].TX[0]
+      type: text
+      label: Tx
+      required: false
+      width: full
+    - name: text_field2_2
+      pdf_field_name: JV-618[0].Page1[0].List4[0].Li4[0].TextField2[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: check_box61
+      pdf_field_name: JV-618[0].Page1[0].List4[0].Li5[0].#area[0].CheckBox61[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: text_field2_2
+      pdf_field_name: JV-618[0].Page1[0].List4[0].Li5[0].TextField2[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: check_box61_2
+      pdf_field_name: JV-618[0].Page1[0].List4[0].Li6[0].#area[0].CheckBox61[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: text_field2_2
+      pdf_field_name: JV-618[0].Page1[0].List4[0].Li6[0].TextField2[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field2_2
+      pdf_field_name: JV-618[0].Page1[0].List4[0].TextField2[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field2_2
+      pdf_field_name: JV-618[0].Page1[0].List5[0].Li1[0].TextField2[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field2_2
+      pdf_field_name: JV-618[0].Page1[0].List5[0].Li2[0].TextField2[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field2_2
+      pdf_field_name: JV-618[0].Page1[0].List5[0].Li3[0].TextField2[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field2_2
+      pdf_field_name: JV-618[0].Page1[0].List5[0].Li4[0].TextField2[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field2_2
+      pdf_field_name: JV-618[0].Page1[0].List5[0].Li5[0].TextField2[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field2_2
+      pdf_field_name: JV-618[0].Page1[0].List5[0].Li6[0].TextField2[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: tx1
+      pdf_field_name: JV-618[0].Page2[0].List6[0].Li1[0].TX1[0]
+      type: text
+      label: Tx
+      required: false
+      width: full
+    - name: tx2
+      pdf_field_name: JV-618[0].Page2[0].List6[0].Li1[0].TX2[0]
+      type: text
+      label: Tx
+      required: false
+      width: full
+    - name: text_field2_2
+      pdf_field_name: JV-618[0].Page2[0].List6[0].Li1[0].TextField2[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field2_2
+      pdf_field_name: JV-618[0].Page2[0].List7[0].Li1[0].TextField2[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+  footer_buttons:
+    title: Footer Buttons
+    fields:
+    - name: print
+      pdf_field_name: JV-618[0].#pageSet[0].Page2[0].FooterButtons[0].Print[0]
+      type: checkbox
+      label: Print
+      required: false
+      width: full
+    - name: save
+      pdf_field_name: JV-618[0].#pageSet[0].Page2[0].FooterButtons[0].Save[0]
+      type: checkbox
+      label: Save
+      required: false
+      width: full
+    - name: reset
+      pdf_field_name: JV-618[0].#pageSet[0].Page2[0].FooterButtons[0].Reset[0]
+      type: checkbox
+      label: Reset
+      required: false
+      width: full
+    - name: warning
+      pdf_field_name: JV-618[0].#pageSet[0].Page2[0].FooterButtons[0].Warning[0]
+      type: checkbox
+      label: Warning
+      required: false
+      width: full
+  child_name_sub:
+    title: Child Name Sub
+    fields:
+    - name: party1_2
+      pdf_field_name: JV-618[0].Page2[0].ChildNameSub[0].ChildName[0].Party1[0]
+      type: text
+      label: Party
+      required: false
+      width: full
+  case_number_sub:
+    title: Case Number Sub
+    fields:
+    - name: cn_2
+      pdf_field_name: JV-618[0].Page2[0].CaseNumberSub[0].CaseNumber[0].CN[0]
+      type: text
+      label: Cn
+      required: false
+      width: full
+      shared_key: case:number
+  sign_sub:
+    title: Sign Sub
+    fields:
+    - name: sig_date
+      pdf_field_name: JV-618[0].Page2[0].SignSub[0].#area[0].SigDate[0]
+      type: date
+      label: Sig Date
+      required: false
+      width: half
+    - name: t14
+      pdf_field_name: JV-618[0].Page2[0].SignSub[0].#area[0].T14[0]
+      type: text
+      label: T
+      required: false
+      width: full
+  decl_interpreter_sub:
+    title: Decl Interpreter Sub
+    fields:
+    - name: on_date_ff
+      pdf_field_name: JV-618[0].Page2[0].DeclInterpreterSub[0].on_date_ff[0]
+      type: date
+      label: On Date Ff
+      required: false
+      width: half
+    - name: check_box1
+      pdf_field_name: JV-618[0].Page2[0].DeclInterpreterSub[0].#area[0].CheckBox1[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box2
+      pdf_field_name: JV-618[0].Page2[0].DeclInterpreterSub[0].#area[1].CheckBox2[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: sig_date_2
+      pdf_field_name: JV-618[0].Page2[0].DeclInterpreterSub[0].#area[2].SigDate[0]
+      type: date
+      label: Sig Date
+      required: false
+      width: half
+    - name: t14_2
+      pdf_field_name: JV-618[0].Page2[0].DeclInterpreterSub[0].#area[2].T14[0]
+      type: text
+      label: T
+      required: false
+      width: full
+  decl_attorney_sub:
+    title: Decl Attorney Sub
+    fields:
+    - name: sig_date_2
+      pdf_field_name: JV-618[0].Page2[0].DeclAttorneySub[0].#area[0].SigDate[0]
+      type: date
+      label: Sig Date
+      required: false
+      width: half
+    - name: t14_2
+      pdf_field_name: JV-618[0].Page2[0].DeclAttorneySub[0].#area[0].T14[0]
+      type: text
+      label: T
+      required: false
+      width: full
+  oand_f_sub:
+    title: Oand F Sub
+    fields:
+    - name: sig_date_2
+      pdf_field_name: JV-618[0].Page2[0].OandFSub[0].#area[0].SigDate[0]
+      type: date
+      label: Sig Date
+      required: false
+      width: half

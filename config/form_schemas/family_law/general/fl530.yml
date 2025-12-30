@@ -1,0 +1,815 @@
+---
+form:
+  code: FL-530
+  title: FL 530 Form
+  description: ''
+  category: family_law/general
+  pdf_filename: fl530.pdf
+  fillable: true
+  instructions: ''
+sections:
+  p1_caption:
+    title: P1 Caption
+    fields:
+    - name: party_atty_add_info_ft
+      pdf_field_name: FL-530[0].Page1[0].P1Caption[0].PartyAttyAddInfo_ft[0]
+      type: text
+      label: Party Atty Add Info Ft
+      required: false
+      width: full
+    - name: email_ft
+      pdf_field_name: FL-530[0].Page1[0].P1Caption[0].Email_ft[0]
+      type: email
+      label: Email Ft
+      required: false
+      width: half
+    - name: crt_county
+      pdf_field_name: FL-530[0].Page1[0].P1Caption[0].CourtInfo[0].CrtCounty[0]
+      type: number
+      label: Crt County
+      required: false
+      width: third
+    - name: crt_street
+      pdf_field_name: FL-530[0].Page1[0].P1Caption[0].CourtInfo[0].CrtStreet[0]
+      type: address
+      label: Crt Street
+      required: false
+      width: full
+    - name: crt_mailing_add
+      pdf_field_name: FL-530[0].Page1[0].P1Caption[0].CourtInfo[0].CrtMailingAdd[0]
+      type: address
+      label: Crt Mailing Add
+      required: false
+      width: full
+    - name: crt_city_zip
+      pdf_field_name: FL-530[0].Page1[0].P1Caption[0].CourtInfo[0].CrtCityZip[0]
+      type: address
+      label: Crt City Zip
+      required: false
+      width: full
+    - name: crt_branch
+      pdf_field_name: FL-530[0].Page1[0].P1Caption[0].CourtInfo[0].CrtBranch[0]
+      type: text
+      label: Crt Branch
+      required: false
+      width: full
+    - name: respondent
+      pdf_field_name: FL-530[0].Page1[0].P1Caption[0].CourtInfo[0].Respondent[0]
+      type: text
+      label: Respondent
+      required: false
+      width: full
+    - name: other_parent
+      pdf_field_name: FL-530[0].Page1[0].P1Caption[0].CourtInfo[0].OtherParent[0]
+      type: currency
+      label: Other Parent
+      required: false
+      width: third
+    - name: petitioner
+      pdf_field_name: FL-530[0].Page1[0].P1Caption[0].CourtInfo[0].Petitioner[0]
+      type: text
+      label: Petitioner
+      required: false
+      width: full
+    - name: checkbox
+      pdf_field_name: FL-530[0].Page1[0].P1Caption[0].TitlePartyName[0].FormTitle[0].Checkbox[0]
+      type: checkbox
+      label: Checkbox
+      required: false
+      width: full
+    - name: cb_choice1
+      pdf_field_name: FL-530[0].Page1[0].P1Caption[0].TitlePartyName[0].CBChoice1[0]
+      type: text
+      label: Cb Choice
+      required: false
+      width: full
+    - name: field
+      pdf_field_name: FL-530[0].Page1[0].P1Caption[0].TitlePartyName[0].#field[1]
+      type: text
+      label: "#Field"
+      required: false
+      width: full
+    - name: field_2
+      pdf_field_name: FL-530[0].Page1[0].P1Caption[0].TitlePartyName[0].#field[2]
+      type: text
+      label: "#Field"
+      required: false
+      width: full
+    - name: fax_ft
+      pdf_field_name: FL-530[0].Page1[0].P1Caption[0].Fax_ft[0]
+      type: tel
+      label: Fax Ft
+      required: false
+      width: half
+    - name: atty_for_ft
+      pdf_field_name: FL-530[0].Page1[0].P1Caption[0].AttyFor_ft[0]
+      type: text
+      label: Atty For Ft
+      required: false
+      width: full
+    - name: phone_ft
+      pdf_field_name: FL-530[0].Page1[0].P1Caption[0].Phone_ft[0]
+      type: tel
+      label: Phone Ft
+      required: false
+      width: half
+  case_number:
+    title: Case Number
+    fields:
+    - name: case_number_ft
+      pdf_field_name: FL-530[0].Page1[0].CaseNumber[0].CaseNumber_ft[0]
+      type: text
+      label: Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+    - name: case_number_ft_2
+      pdf_field_name: FL-530[0].#subform[2].CaseNumber[0].CaseNumber_ft[0]
+      type: text
+      label: Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+  fill_text06:
+    title: Fill Text06\
+    fields:
+    - name: name
+      pdf_field_name: FL-530[0].Page1[0].FillText06\.b\.child\.name\.1[0]
+      type: text
+      label: Name\
+      required: false
+      width: full
+    - name: name_2
+      pdf_field_name: FL-530[0].Page1[0].FillText06\.b\.child\.name\.2[0]
+      type: text
+      label: Name\
+      required: false
+      width: full
+    - name: name_2
+      pdf_field_name: FL-530[0].Page1[0].FillText06\.b\.child\.name\.3[0]
+      type: text
+      label: Name\
+      required: false
+      width: full
+    - name: dob
+      pdf_field_name: FL-530[0].Page1[0].FillText06\.b\.DOB\.1[0]
+      type: date
+      label: Dob\
+      required: false
+      width: half
+    - name: dob_2
+      pdf_field_name: FL-530[0].Page1[0].FillText06\.b\.DOB\.2[0]
+      type: date
+      label: Dob\
+      required: false
+      width: half
+    - name: dob_2
+      pdf_field_name: FL-530[0].Page1[0].FillText06\.b\.DOB\.3[0]
+      type: date
+      label: Dob\
+      required: false
+      width: half
+  fill_text:
+    title: Fill Text\
+    fields:
+    - name: amount
+      pdf_field_name: FL-530[0].Page1[0].FillText\.06\.b\.monthly\.amount\.1[0]
+      type: currency
+      label: Amount\
+      required: false
+      width: third
+    - name: amount_2
+      pdf_field_name: FL-530[0].Page1[0].FillText\.06\.b\.monthly\.amount\.2[0]
+      type: currency
+      label: Amount\
+      required: false
+      width: third
+    - name: amount_2
+      pdf_field_name: FL-530[0].Page1[0].FillText\.06\.b\.monthly\.amount\.3[0]
+      type: currency
+      label: Amount\
+      required: false
+      width: third
+    - name: fill_text107
+      pdf_field_name: FL-530[0].Page1[0].FillText107[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text90
+      pdf_field_name: FL-530[0].Page1[0].#area[0].FillText90[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text90_2
+      pdf_field_name: FL-530[0].Page1[0].#area[1].FillText90[1]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: other
+      pdf_field_name: FL-530[0].Page2[0].FillText\.06\.d\.1\.Other[0]
+      type: text
+      label: Other
+      required: false
+      width: full
+    - name: name_2
+      pdf_field_name: FL-530[0].Page2[0].FillText\.06\.d\.child\.name\.01[0]
+      type: text
+      label: Name\
+      required: false
+      width: full
+    - name: name_2
+      pdf_field_name: FL-530[0].Page2[0].FillText\.06\.d\.child\.name\.02[0]
+      type: text
+      label: Name\
+      required: false
+      width: full
+    - name: name_2
+      pdf_field_name: FL-530[0].Page2[0].FillText\.06\.d\.child\.name\.03[0]
+      type: text
+      label: Name\
+      required: false
+      width: full
+    - name: name_2
+      pdf_field_name: FL-530[0].Page2[0].FillText\.06\.d\.child\.name\.04[0]
+      type: text
+      label: Name\
+      required: false
+      width: full
+    - name: name_2
+      pdf_field_name: FL-530[0].Page2[0].FillText\.06\.d\.child\.name\.05[0]
+      type: text
+      label: Name\
+      required: false
+      width: full
+    - name: dob_2
+      pdf_field_name: FL-530[0].Page2[0].FillText\.06\.d\.DOB\.01[0]
+      type: date
+      label: Dob\
+      required: false
+      width: half
+    - name: dob_2
+      pdf_field_name: FL-530[0].Page2[0].FillText\.06\.d\.DOB\.02[0]
+      type: date
+      label: Dob\
+      required: false
+      width: half
+    - name: dob_2
+      pdf_field_name: FL-530[0].Page2[0].FillText\.06\.d\.DOB\.03[0]
+      type: date
+      label: Dob\
+      required: false
+      width: half
+    - name: dob_2
+      pdf_field_name: FL-530[0].Page2[0].FillText\.06\.d\.DOB\.04[0]
+      type: date
+      label: Dob\
+      required: false
+      width: half
+    - name: dob_2
+      pdf_field_name: FL-530[0].Page2[0].FillText\.06\.d\.DOB\.05[0]
+      type: date
+      label: Dob\
+      required: false
+      width: half
+    - name: period
+      pdf_field_name: FL-530[0].Page2[0].FillText\.06\.d\.support\.period\.01[0]
+      type: text
+      label: Period\
+      required: false
+      width: full
+    - name: period_2
+      pdf_field_name: FL-530[0].Page2[0].FillText\.06\.d\.support\.period\.02[0]
+      type: text
+      label: Period\
+      required: false
+      width: full
+    - name: period_2
+      pdf_field_name: FL-530[0].Page2[0].FillText\.06\.d\.support\.period\.03[0]
+      type: text
+      label: Period\
+      required: false
+      width: full
+    - name: period_2
+      pdf_field_name: FL-530[0].Page2[0].FillText\.06\.d\.support\.period\.04[0]
+      type: text
+      label: Period\
+      required: false
+      width: full
+    - name: period_2
+      pdf_field_name: FL-530[0].Page2[0].FillText\.06\.d\.support\.period\.05[0]
+      type: text
+      label: Period\
+      required: false
+      width: full
+    - name: amount_2
+      pdf_field_name: FL-530[0].Page2[0].FillText\.06\.d\.amount\.1[0]
+      type: currency
+      label: Amount\
+      required: false
+      width: third
+    - name: amount_2
+      pdf_field_name: FL-530[0].Page2[0].FillText\.06\.d\.amount\.2[0]
+      type: currency
+      label: Amount\
+      required: false
+      width: third
+    - name: amount_2
+      pdf_field_name: FL-530[0].Page2[0].FillText\.06\.d\.amount\.3[0]
+      type: currency
+      label: Amount\
+      required: false
+      width: third
+    - name: amount_2
+      pdf_field_name: FL-530[0].Page2[0].FillText\.06\.d\.amount\.4[0]
+      type: currency
+      label: Amount\
+      required: false
+      width: third
+    - name: amount_2
+      pdf_field_name: FL-530[0].Page2[0].FillText\.06\.d\.amount\.5[0]
+      type: currency
+      label: Amount\
+      required: false
+      width: third
+    - name: amount_2
+      pdf_field_name: FL-530[0].Page2[0].FillText\.06\.b\.3\.amount[0]
+      type: currency
+      label: Amount
+      required: false
+      width: third
+    - name: month
+      pdf_field_name: FL-530[0].Page2[0].FillText\.06\.b\.3\.day\.of\.month[0]
+      type: text
+      label: Month
+      required: false
+      width: full
+    - name: date
+      pdf_field_name: FL-530[0].Page2[0].FillText\.06\.b\.3\.beginning\.date[0]
+      type: date
+      label: Date
+      required: false
+      width: half
+    - name: percent
+      pdf_field_name: FL-530[0].Page2[0].FillText\.03\.e\.1\.a\.percent[0]
+      type: text
+      label: Percent
+      required: false
+      width: full
+    - name: percent_2
+      pdf_field_name: FL-530[0].Page2[0].FillText\.03\.e\.1\.a\.percent[1]
+      type: text
+      label: Percent
+      required: false
+      width: full
+    - name: fill_text90_2
+      pdf_field_name: FL-530[0].Page2[0].FillText90[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text90_2
+      pdf_field_name: FL-530[0].Page2[0].FillText90[1]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: other_2
+      pdf_field_name: FL-530[0].#subform[2].FillText\.06\.b\.2\.other[0]
+      type: text
+      label: Other
+      required: false
+      width: full
+    - name: address
+      pdf_field_name: FL-530[0].#subform[2].FillText\.06\.f\.address[0]
+      type: address
+      label: Address
+      required: false
+      width: full
+    - name: amount_2
+      pdf_field_name: FL-530[0].#subform[2].FillText\.06\.d\.2\.total\.amount[0]
+      type: currency
+      label: Amount
+      required: false
+      width: third
+    - name: amount_2
+      pdf_field_name: FL-530[0].#subform[2].FillText\.06\.d\.2\.amount[0]
+      type: currency
+      label: Amount
+      required: false
+      width: third
+    - name: date_2
+      pdf_field_name: FL-530[0].#subform[2].FillText\.06\.d\.2\.date[0]
+      type: date
+      label: Date
+      required: false
+      width: half
+    - name: month_2
+      pdf_field_name: FL-530[0].#subform[2].FillText\.06\.d\.2\.day\.of\.month[0]
+      type: text
+      label: Month
+      required: false
+      width: full
+    - name: date_2
+      pdf_field_name: FL-530[0].#subform[2].FillText\.date\.0[0]
+      type: date
+      label: Date\
+      required: false
+      width: half
+    - name: signing
+      pdf_field_name: FL-530[0].#subform[2].FillText\.date\.signing[0]
+      type: date
+      label: Signing
+      required: false
+      width: half
+  checkbox:
+    title: Checkbox
+    fields:
+    - name: checkbox_2
+      pdf_field_name: FL-530[0].Page1[0].Checkbox[0]
+      type: checkbox
+      label: Checkbox
+      required: false
+      width: full
+    - name: checkbox_2
+      pdf_field_name: FL-530[0].Page1[0].Checkbox[1]
+      type: checkbox
+      label: Checkbox
+      required: false
+      width: full
+    - name: checkbox_2
+      pdf_field_name: FL-530[0].Page1[0].Checkbox[2]
+      type: checkbox
+      label: Checkbox
+      required: false
+      width: full
+    - name: checkbox_2
+      pdf_field_name: FL-530[0].Page1[0].Checkbox[3]
+      type: checkbox
+      label: Checkbox
+      required: false
+      width: full
+    - name: checkbox_2
+      pdf_field_name: FL-530[0].Page1[0].Checkbox[4]
+      type: checkbox
+      label: Checkbox
+      required: false
+      width: full
+    - name: checkbox_2
+      pdf_field_name: FL-530[0].Page1[0].Checkbox[5]
+      type: checkbox
+      label: Checkbox
+      required: false
+      width: full
+    - name: checkbox_2
+      pdf_field_name: FL-530[0].Page1[0].Checkbox[6]
+      type: checkbox
+      label: Checkbox
+      required: false
+      width: full
+    - name: checkbox_2
+      pdf_field_name: FL-530[0].Page1[0].Checkbox[7]
+      type: checkbox
+      label: Checkbox
+      required: false
+      width: full
+    - name: checkbox_2
+      pdf_field_name: FL-530[0].Page1[0].Checkbox[8]
+      type: checkbox
+      label: Checkbox
+      required: false
+      width: full
+    - name: checkbox_2
+      pdf_field_name: FL-530[0].Page1[0].Checkbox[9]
+      type: checkbox
+      label: Checkbox
+      required: false
+      width: full
+    - name: checkbox_2
+      pdf_field_name: FL-530[0].Page1[0].#area[0].Checkbox[10]
+      type: checkbox
+      label: Checkbox
+      required: false
+      width: full
+    - name: checkbox_2
+      pdf_field_name: FL-530[0].Page1[0].Checkbox[11]
+      type: checkbox
+      label: Checkbox
+      required: false
+      width: full
+    - name: checkbox_2
+      pdf_field_name: FL-530[0].Page1[0].Checkbox[12]
+      type: checkbox
+      label: Checkbox
+      required: false
+      width: full
+    - name: checkbox_2
+      pdf_field_name: FL-530[0].Page1[0].Checkbox[13]
+      type: checkbox
+      label: Checkbox
+      required: false
+      width: full
+    - name: checkbox_2
+      pdf_field_name: FL-530[0].Page1[0].#area[1].Checkbox[14]
+      type: checkbox
+      label: Checkbox
+      required: false
+      width: full
+    - name: checkbox_2
+      pdf_field_name: FL-530[0].Page2[0].Checkbox[0]
+      type: checkbox
+      label: Checkbox
+      required: false
+      width: full
+    - name: checkbox_2
+      pdf_field_name: FL-530[0].Page2[0].Checkbox[1]
+      type: checkbox
+      label: Checkbox
+      required: false
+      width: full
+    - name: checkbox_2
+      pdf_field_name: FL-530[0].Page2[0].Checkbox[2]
+      type: checkbox
+      label: Checkbox
+      required: false
+      width: full
+    - name: checkbox_2
+      pdf_field_name: FL-530[0].Page2[0].Checkbox[3]
+      type: checkbox
+      label: Checkbox
+      required: false
+      width: full
+    - name: checkbox_2
+      pdf_field_name: FL-530[0].Page2[0].Checkbox[4]
+      type: checkbox
+      label: Checkbox
+      required: false
+      width: full
+    - name: checkbox_2
+      pdf_field_name: FL-530[0].Page2[0].Checkbox[5]
+      type: checkbox
+      label: Checkbox
+      required: false
+      width: full
+    - name: checkbox_2
+      pdf_field_name: FL-530[0].Page2[0].Checkbox[6]
+      type: checkbox
+      label: Checkbox
+      required: false
+      width: full
+    - name: checkbox_2
+      pdf_field_name: FL-530[0].Page2[0].Checkbox[7]
+      type: checkbox
+      label: Checkbox
+      required: false
+      width: full
+    - name: checkbox_2
+      pdf_field_name: FL-530[0].Page2[0].Checkbox[8]
+      type: checkbox
+      label: Checkbox
+      required: false
+      width: full
+    - name: checkbox_2
+      pdf_field_name: FL-530[0].Page2[0].Checkbox[9]
+      type: checkbox
+      label: Checkbox
+      required: false
+      width: full
+  on_date_ff:
+    title: On Date Ff
+    fields:
+    - name: on_date_ff
+      pdf_field_name: FL-530[0].Page1[0].on_date_ff[0]
+      type: date
+      label: On Date Ff
+      required: false
+      width: half
+    - name: on_date_ff_2
+      pdf_field_name: FL-530[0].Page1[0].on_date_ff[1]
+      type: date
+      label: On Date Ff
+      required: false
+      width: half
+    - name: on_date_ff_2
+      pdf_field_name: FL-530[0].Page1[0].on_date_ff[2]
+      type: date
+      label: On Date Ff
+      required: false
+      width: half
+    - name: on_date_ff_2
+      pdf_field_name: FL-530[0].Page1[0].on_date_ff[3]
+      type: date
+      label: On Date Ff
+      required: false
+      width: half
+    - name: on_date_ff_2
+      pdf_field_name: FL-530[0].Page1[0].on_date_ff[4]
+      type: date
+      label: On Date Ff
+      required: false
+      width: half
+    - name: on_date_ff_2
+      pdf_field_name: FL-530[0].Page1[0].on_date_ff[5]
+      type: date
+      label: On Date Ff
+      required: false
+      width: half
+    - name: on_date_ff_2
+      pdf_field_name: FL-530[0].#subform[2].on_date_ff[0]
+      type: date
+      label: On Date Ff
+      required: false
+      width: half
+  choice_list:
+    title: Choice List
+    fields:
+    - name: choice_list
+      pdf_field_name: FL-530[0].Page1[0].ChoiceList[0]
+      type: text
+      label: Choice List
+      required: false
+      width: full
+    - name: choice_list_2
+      pdf_field_name: FL-530[0].Page1[0].ChoiceList[1]
+      type: text
+      label: Choice List
+      required: false
+      width: full
+    - name: choice_list_2
+      pdf_field_name: FL-530[0].Page2[0].ChoiceList[0]
+      type: text
+      label: Choice List
+      required: false
+      width: full
+    - name: choice_list_2
+      pdf_field_name: FL-530[0].Page2[0].ChoiceList[1]
+      type: text
+      label: Choice List
+      required: false
+      width: full
+  px_caption:
+    title: Px Caption
+    fields:
+    - name: respondent_2
+      pdf_field_name: FL-530[0].Page2[0].PxCaption[0].TitlePartyName[0].Respondent[0]
+      type: text
+      label: Respondent
+      required: false
+      width: full
+      shared_key: respondent:name
+    - name: other_parent_2
+      pdf_field_name: FL-530[0].Page2[0].PxCaption[0].TitlePartyName[0].OtherParent[0]
+      type: currency
+      label: Other Parent
+      required: false
+      width: third
+    - name: petitioner_2
+      pdf_field_name: FL-530[0].Page2[0].PxCaption[0].TitlePartyName[0].Petitioner[0]
+      type: text
+      label: Petitioner
+      required: false
+      width: full
+      shared_key: petitioner:name
+    - name: case_number_ft_2
+      pdf_field_name: FL-530[0].Page2[0].PxCaption[0].CaseNumber[0].CaseNumber_ft[0]
+      type: text
+      label: Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+  check_box:
+    title: Check Box\
+    fields:
+    - name: paying
+      pdf_field_name: FL-530[0].Page2[0].#area[0].CheckBox\.06\.c\.parent\.paying[0]
+      type: currency
+      label: Paying
+      required: false
+      width: third
+    - name: receiving
+      pdf_field_name: FL-530[0].Page2[0].CheckBox\.06\.c\.parent\.receiving[0]
+      type: currency
+      label: Receiving
+      required: false
+      width: third
+    - name: d
+      pdf_field_name: FL-530[0].Page2[0].CheckBox\.06\.d\.0[0]
+      type: checkbox
+      label: D\
+      required: false
+      width: full
+    - name: other_2
+      pdf_field_name: FL-530[0].Page2[0].CheckBox\.06\.d\.1\.other[0]
+      type: checkbox
+      label: Other
+      required: false
+      width: full
+    - name: d_2
+      pdf_field_name: FL-530[0].#subform[2].CheckBox\.06\.d\.2[0]
+      type: checkbox
+      label: D\
+      required: false
+      width: full
+    - name: d_2
+      pdf_field_name: FL-530[0].#subform[2].CheckBox\.06\.d\.3[0]
+      type: checkbox
+      label: D\
+      required: false
+      width: full
+    - name: d_2
+      pdf_field_name: FL-530[0].#subform[2].CheckBox\.06\.d\.2[1]
+      type: checkbox
+      label: D\
+      required: false
+      width: full
+  petitioner_cb:
+    title: Petitioner Cb
+    fields:
+    - name: petitioner_cb
+      pdf_field_name: FL-530[0].Page2[0].#area[1].petitioner_cb[0]
+      type: text
+      label: Petitioner Cb
+      required: false
+      width: full
+    - name: petitioner_cb_2
+      pdf_field_name: FL-530[0].#subform[2].#area[1].petitioner_cb[0]
+      type: text
+      label: Petitioner Cb
+      required: false
+      width: full
+  on_date:
+    title: On Date
+    fields:
+    - name: on_date
+      pdf_field_name: FL-530[0].Page2[0].on_date[0]
+      type: date
+      label: On Date
+      required: false
+      width: half
+    - name: on_date_2
+      pdf_field_name: FL-530[0].Page2[0].on_date[1]
+      type: date
+      label: On Date
+      required: false
+      width: half
+  title_party_name:
+    title: Title Party Name
+    fields:
+    - name: respondent_2
+      pdf_field_name: FL-530[0].#subform[2].TitlePartyName[0].Respondent[0]
+      type: text
+      label: Respondent
+      required: false
+      width: full
+      shared_key: respondent:name
+    - name: other_parent_2
+      pdf_field_name: FL-530[0].#subform[2].TitlePartyName[0].OtherParent[0]
+      type: currency
+      label: Other Parent
+      required: false
+      width: third
+    - name: petitioner_2
+      pdf_field_name: FL-530[0].#subform[2].TitlePartyName[0].Petitioner[0]
+      type: text
+      label: Petitioner
+      required: false
+      width: full
+      shared_key: petitioner:name
+  print:
+    title: Print
+    fields:
+    - name: print
+      pdf_field_name: FL-530[0].#subform[2].#area[0].Print[0]
+      type: checkbox
+      label: Print
+      required: false
+      width: full
+  save:
+    title: Save
+    fields:
+    - name: save
+      pdf_field_name: FL-530[0].#subform[2].#area[0].Save[0]
+      type: checkbox
+      label: Save
+      required: false
+      width: full
+  reset:
+    title: Reset
+    fields:
+    - name: reset
+      pdf_field_name: FL-530[0].#subform[2].#area[0].Reset[0]
+      type: checkbox
+      label: Reset
+      required: false
+      width: full
+  warning:
+    title: Warning
+    fields:
+    - name: warning
+      pdf_field_name: FL-530[0].#subform[2].#area[0].Warning[0]
+      type: checkbox
+      label: Warning
+      required: false
+      width: full

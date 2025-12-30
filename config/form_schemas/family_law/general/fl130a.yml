@@ -1,0 +1,122 @@
+---
+form:
+  code: FL-130A
+  title: FL 130A Form
+  description: ''
+  category: family_law/general
+  pdf_filename: fl130a.pdf
+  fillable: true
+  instructions: ''
+sections:
+  p1_footer:
+    title: P1 Footer
+    fields:
+    - name: button1
+      pdf_field_name: FL-130A[0].#pageSet[0].Page1[0].P1Footer[0].Button1[0]
+      type: checkbox
+      label: Button
+      required: false
+      width: full
+    - name: warning
+      pdf_field_name: FL-130A[0].#pageSet[0].Page1[0].P1Footer[0].#area[0].Warning[0]
+      type: checkbox
+      label: Warning
+      required: false
+      width: full
+    - name: print
+      pdf_field_name: FL-130A[0].#pageSet[0].Page1[0].P1Footer[0].#area[0].Print[0]
+      type: checkbox
+      label: Print
+      required: false
+      width: full
+    - name: save
+      pdf_field_name: FL-130A[0].#pageSet[0].Page1[0].P1Footer[0].#area[0].Save[0]
+      type: checkbox
+      label: Save
+      required: false
+      width: full
+    - name: reset
+      pdf_field_name: FL-130A[0].#pageSet[0].Page1[0].P1Footer[0].#area[0].Reset[0]
+      type: checkbox
+      label: Reset
+      required: false
+      width: full
+  caption_sub:
+    title: Caption Sub
+    fields:
+    - name: case_number
+      pdf_field_name: FL-130A[0].Page1[0].CaptionSub[0].CN[0].CaseNumber[0].CaseNumber[0]
+      type: text
+      label: Case Number
+      required: false
+      width: full
+      shared_key: case:number
+    - name: party1
+      pdf_field_name: FL-130A[0].Page1[0].CaptionSub[0].TP[0].TitlePartyName[0].Party1[0]
+      type: text
+      label: Party
+      required: false
+      width: full
+    - name: party2
+      pdf_field_name: FL-130A[0].Page1[0].CaptionSub[0].TP[0].TitlePartyName[0].Party2[0]
+      type: text
+      label: Party
+      required: false
+      width: full
+    - name: party3
+      pdf_field_name: FL-130A[0].Page1[0].CaptionSub[0].TP[0].TitlePartyName[0].Party3[0]
+      type: text
+      label: Party
+      required: false
+      width: full
+  notice_sub:
+    title: Notice Sub
+    fields:
+    - name: button1_2
+      pdf_field_name: FL-130A[0].Page1[0].NoticeSub[0].Button1[0]
+      type: checkbox
+      label: Button
+      required: false
+      width: full
+  list:
+    title: List
+    fields:
+    - name: check_box1
+      pdf_field_name: FL-130A[0].Page1[0].List2[0].LI1[0].List1[0].LI1[0].CheckBox1[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box2
+      pdf_field_name: FL-130A[0].Page1[0].List2[0].LI1[0].List1[0].LI2[0].CheckBox2[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box3
+      pdf_field_name: FL-130A[0].Page1[0].List2[0].LI1[0].List1[0].LI3[0].CheckBox3[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: other_specify_tf
+      pdf_field_name: FL-130A[0].Page1[0].List2[0].LI1[0].List1[0].LI3[0].Other_specify_tf[0]
+      type: text
+      label: Other Specify Tf
+      required: false
+      width: full
+  sign_sub:
+    title: Sign Sub
+    fields:
+    - name: sig_date
+      pdf_field_name: FL-130A[0].Page1[0].SignSub[0].SigDate[0]
+      type: date
+      label: Sig Date
+      required: false
+      width: half
+    - name: sig_name
+      pdf_field_name: FL-130A[0].Page1[0].SignSub[0].SigName[0]
+      type: text
+      label: Sig Name
+      required: false
+      width: full

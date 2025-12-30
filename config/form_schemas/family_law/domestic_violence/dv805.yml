@@ -1,0 +1,239 @@
+---
+form:
+  code: DV-805
+  title: DV 805 Form
+  description: ''
+  category: family_law/domestic_violence
+  pdf_filename: dv805.pdf
+  fillable: true
+  instructions: ''
+sections:
+  protected_full_name_ft:
+    title: Protected Full Name Ft
+    fields:
+    - name: protected_full_name_ft
+      pdf_field_name: topmostSubform[0].Page1[0].ProtectedFullName_ft[0]
+      type: text
+      label: Protected Full Name Ft
+      required: false
+      width: full
+  restrained_full_name_ft:
+    title: Restrained Full Name Ft
+    fields:
+    - name: restrained_full_name_ft
+      pdf_field_name: topmostSubform[0].Page1[0].RestrainedFullName_ft[0]
+      type: text
+      label: Restrained Full Name Ft
+      required: false
+      width: full
+  restrained_lawyer_name_ft:
+    title: Restrained Lawyer Name Ft
+    fields:
+    - name: restrained_lawyer_name_ft
+      pdf_field_name: topmostSubform[0].Page1[0].RestrainedLawyerName_ft[0]
+      type: text
+      label: Restrained Lawyer Name Ft
+      required: false
+      width: full
+  restrained_lawyer_bar_no:
+    title: Restrained Lawyer Bar No
+    fields:
+    - name: restrained_lawyer_bar_no
+      pdf_field_name: topmostSubform[0].Page1[0].RestrainedLawyerBar_no[0]
+      type: text
+      label: Restrained Lawyer Bar No
+      required: false
+      width: full
+  stamp_court_case:
+    title: Stamp Court Case
+    fields:
+    - name: court_info_ft
+      pdf_field_name: topmostSubform[0].Page1[0].Stamp_court_case[0].CourtInfo_ft[0]
+      type: text
+      label: Court Info Ft
+      required: false
+      width: full
+    - name: case_number_ft
+      pdf_field_name: topmostSubform[0].Page1[0].Stamp_court_case[0].CaseNumber_ft[0]
+      type: text
+      label: Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+  restrained_lawyer_firm_ft:
+    title: Restrained Lawyer Firm Ft
+    fields:
+    - name: restrained_lawyer_firm_ft
+      pdf_field_name: topmostSubform[0].Page1[0].RestrainedLawyerFirm_ft[0]
+      type: text
+      label: Restrained Lawyer Firm Ft
+      required: false
+      width: full
+  restrained_street_ft:
+    title: Restrained Street Ft
+    fields:
+    - name: restrained_street_ft
+      pdf_field_name: topmostSubform[0].Page1[0].RestrainedStreet_ft[0]
+      type: address
+      label: Restrained Street Ft
+      required: false
+      width: full
+  restrained_city_ft:
+    title: Restrained City Ft
+    fields:
+    - name: restrained_city_ft
+      pdf_field_name: topmostSubform[0].Page1[0].RestrainedCity_ft[0]
+      type: address
+      label: Restrained City Ft
+      required: false
+      width: full
+    - name: restrained_city_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].RestrainedCity_ft[1]
+      type: address
+      label: Restrained City Ft
+      required: false
+      width: full
+  restrained_state_ft:
+    title: Restrained State Ft
+    fields:
+    - name: restrained_state_ft
+      pdf_field_name: topmostSubform[0].Page1[0].RestrainedState_ft[0]
+      type: address
+      label: Restrained State Ft
+      required: false
+      width: full
+  restrained_zip_ft:
+    title: Restrained Zip Ft
+    fields:
+    - name: restrained_zip_ft
+      pdf_field_name: topmostSubform[0].Page1[0].RestrainedZip_ft[0]
+      type: address
+      label: Restrained Zip Ft
+      required: false
+      width: full
+  restrained_phone_ft:
+    title: Restrained Phone Ft
+    fields:
+    - name: restrained_phone_ft
+      pdf_field_name: topmostSubform[0].Page1[0].RestrainedPhone_ft[0]
+      type: tel
+      label: Restrained Phone Ft
+      required: false
+      width: half
+    - name: restrained_phone_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].RestrainedPhone_ft[1]
+      type: tel
+      label: Restrained Phone Ft
+      required: false
+      width: half
+  restrained_fax_ft:
+    title: Restrained Fax Ft
+    fields:
+    - name: restrained_fax_ft
+      pdf_field_name: topmostSubform[0].Page1[0].RestrainedFax_ft[0]
+      type: tel
+      label: Restrained Fax Ft
+      required: false
+      width: half
+  restrained_e_mail_ft:
+    title: Restrained E Mail Ft
+    fields:
+    - name: restrained_e_mail_ft
+      pdf_field_name: topmostSubform[0].Page1[0].RestrainedE-Mail_ft[0]
+      type: email
+      label: Restrained E Mail Ft
+      required: false
+      width: half
+    - name: restrained_e_mail_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].RestrainedE-Mail_ft[1]
+      type: email
+      label: Restrained E Mail Ft
+      required: false
+      width: half
+  am_filing_cb:
+    title: Am Filing Cb
+    fields:
+    - name: am_filing_cb
+      pdf_field_name: topmostSubform[0].Page1[0].AmFiling_cb[0]
+      type: text
+      label: Am Filing Cb
+      required: false
+      width: full
+    - name: am_filing_cb_2
+      pdf_field_name: topmostSubform[0].Page1[0].AmFiling_cb[1]
+      type: text
+      label: Am Filing Cb
+      required: false
+      width: full
+  multi_line_field:
+    title: Multi Line Field
+    fields:
+    - name: text_field2
+      pdf_field_name: topmostSubform[0].Page1[0].MultiLine_Field[0].TextField2[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+  date_time_field:
+    title: Date Time Field
+    fields:
+    - name: date_time_field1
+      pdf_field_name: topmostSubform[0].Page1[0].#area[7].DateTimeField1[0]
+      type: date
+      label: Date Time Field
+      required: false
+      width: half
+  general:
+    title: General
+    fields:
+    - name: field
+      pdf_field_name: topmostSubform[0].Page1[0].#field[21]
+      type: text
+      label: "#Field"
+      required: false
+      width: full
+  text_field:
+    title: Text Field
+    fields:
+    - name: text_field2_2
+      pdf_field_name: topmostSubform[0].Page1[0].TextField2[1]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+  print_bt:
+    title: Print Bt
+    fields:
+    - name: print_bt
+      pdf_field_name: topmostSubform[0].Page1[0].Print_bt[0]
+      type: checkbox
+      label: Print Bt
+      required: false
+      width: full
+  save_bt:
+    title: Save Bt
+    fields:
+    - name: save_bt
+      pdf_field_name: topmostSubform[0].Page1[0].Save_bt[0]
+      type: checkbox
+      label: Save Bt
+      required: false
+      width: full
+  reset_bt:
+    title: Reset Bt
+    fields:
+    - name: reset_bt
+      pdf_field_name: topmostSubform[0].Page1[0].Reset_bt[0]
+      type: checkbox
+      label: Reset Bt
+      required: false
+      width: full
+  t:
+    title: T
+    fields:
+    - name: t23
+      pdf_field_name: topmostSubform[0].Page1[0].T23[1]
+      type: checkbox
+      label: T
+      required: false
+      width: full

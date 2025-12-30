@@ -1,0 +1,61 @@
+<%# Wizard Navigation - Previous/Next/Finish buttons %>
+
+<div class="flex justify-between items-center mt-6 pt-4 border-t border-base-200">
+  <%# Previous Button %>
+  <button type="button"
+          class="btn btn-outline btn-primary gap-2"
+          data-wizard-target="prevBtn"
+          data-action="click->wizard#previous"
+          disabled>
+    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path>
+    </svg>
+    Previous
+  </button>
+
+  <%# Keyboard Hints (Desktop only) %>
+  <div class="hidden lg:flex items-center gap-2 text-xs text-base-content/50">
+    <kbd class="kbd kbd-sm">Enter</kbd>
+    <span>or</span>
+    <kbd class="kbd kbd-sm">Ctrl</kbd>
+    <span>+</span>
+    <kbd class="kbd kbd-sm">Arrow</kbd>
+    <span>to navigate</span>
+  </div>
+
+  <%# Next Button %>
+  <button type="button"
+          class="btn btn-primary gap-2"
+          data-wizard-target="nextBtn"
+          data-action="click->wizard#next">
+    Next
+    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+    </svg>
+  </button>
+
+  <%# Finish Button (hidden until last field) %>
+  <button type="submit"
+          class="btn btn-success gap-2 hidden"
+          data-wizard-target="finishBtn">
+    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+    </svg>
+    Complete Form
+  </button>
+</div>
+
+<%# Quick navigation dots (for longer forms) %>
+<% if @wizard_fields && @wizard_fields.count > 3 %>
+  <div class="flex justify-center gap-2 mt-4 flex-wrap">
+    <% @wizard_fields.each_with_index do |field, idx| %>
+      <button type="button"
+              class="w-3 h-3 rounded-full transition-all duration-200 hover:scale-125
+                     <%= idx == 0 ? 'bg-primary' : 'bg-base-300 hover:bg-primary/50' %>"
+              data-action="click->wizard#goTo"
+              data-index="<%= idx %>"
+              title="<%= field.label || field.name.titleize %>">
+      </button>
+    <% end %>
+  </div>
+<% end %>

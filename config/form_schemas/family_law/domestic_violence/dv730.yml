@@ -1,0 +1,406 @@
+---
+form:
+  code: DV-730
+  title: DV 730 Form
+  description: ''
+  category: family_law/domestic_violence
+  pdf_filename: dv730.pdf
+  fillable: true
+  instructions: ''
+sections:
+  px_caption:
+    title: Px Caption
+    fields:
+    - name: court_info_ft
+      pdf_field_name: DV-730[0].Page1[0].PxCaption[0].CourtInfo_ft[0]
+      type: text
+      label: Court Info Ft
+      required: false
+      width: full
+    - name: case_number_ft
+      pdf_field_name: DV-730[0].Page1[0].PxCaption[0].CaseNumber_ft[0]
+      type: text
+      label: Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+  list:
+    title: List
+    fields:
+    - name: namefielditem1
+      pdf_field_name: DV-730[0].Page1[0].List1[0].Li1[0].namefielditem1[0]
+      type: text
+      label: Namefielditem
+      required: false
+      width: full
+    - name: nameitem2
+      pdf_field_name: DV-730[0].Page1[0].List2[0].Li1[0].nameitem2[0]
+      type: text
+      label: Nameitem
+      required: false
+      width: full
+    - name: addressitem2
+      pdf_field_name: DV-730[0].Page1[0].List2[0].Li1[0].addressitem2[0]
+      type: address
+      label: Addressitem
+      required: false
+      width: full
+    - name: cityitem2
+      pdf_field_name: DV-730[0].Page1[0].List2[0].Li1[0].cityitem2[0]
+      type: address
+      label: Cityitem
+      required: false
+      width: full
+    - name: stateitem2
+      pdf_field_name: DV-730[0].Page1[0].List2[0].Li1[0].stateitem2[0]
+      type: address
+      label: Stateitem
+      required: false
+      width: full
+    - name: zipitem2
+      pdf_field_name: DV-730[0].Page1[0].List2[0].Li1[0].zipitem2[0]
+      type: address
+      label: Zipitem
+      required: false
+      width: full
+    - name: granted_denied_cb
+      pdf_field_name: DV-730[0].Page1[0].List3[0].Li1[0].Granted-Denied_cb[0]
+      type: text
+      label: Granted Denied Cb
+      required: false
+      width: full
+    - name: timeexp_cb
+      pdf_field_name: DV-730[0].Page1[0].List3[0].Li1[0].List[0].Li1[0].Timeexp_cb[0]
+      type: text
+      label: Timeexp Cb
+      required: false
+      width: full
+    - name: timeampm_cb
+      pdf_field_name: DV-730[0].Page1[0].List3[0].Li1[0].List[0].Li1[0].Timeampm_cb[0]
+      type: text
+      label: Timeampm Cb
+      required: false
+      width: full
+    - name: expiration_date_dt
+      pdf_field_name: DV-730[0].Page1[0].List3[0].Li1[0].List[0].Li1[0].ExpirationDate_dt[0]
+      type: date
+      label: Expiration Date Dt
+      required: false
+      width: half
+    - name: expiration_time_dt
+      pdf_field_name: DV-730[0].Page1[0].List3[0].Li1[0].List[0].Li1[0].ExpirationTime_dt[0]
+      type: date
+      label: Expiration Time Dt
+      required: false
+      width: half
+    - name: timeampm_cb_2
+      pdf_field_name: DV-730[0].Page1[0].List3[0].Li1[0].List[0].Li1[0].Timeampm_cb[1]
+      type: text
+      label: Timeampm Cb
+      required: false
+      width: full
+    - name: timeampm_cb_2
+      pdf_field_name: DV-730[0].Page1[0].List3[0].Li1[0].List[0].Li1[0].Timeampm_cb[2]
+      type: text
+      label: Timeampm Cb
+      required: false
+      width: full
+    - name: timeexp_cb_2
+      pdf_field_name: DV-730[0].Page1[0].List3[0].Li1[0].List[0].Li2[0].Timeexp_cb[0]
+      type: text
+      label: Timeexp Cb
+      required: false
+      width: full
+    - name: granted_denied_cb_2
+      pdf_field_name: DV-730[0].Page1[0].List3[0].Li2[0].Granted-Denied_cb[0]
+      type: text
+      label: Granted Denied Cb
+      required: false
+      width: full
+    - name: hearing_date_dt
+      pdf_field_name: DV-730[0].Page2[0].List4[0].Li1[0].HearingDate_dt[0]
+      type: date
+      label: Hearing Date Dt
+      required: false
+      width: half
+    - name: hearing_time_dt
+      pdf_field_name: DV-730[0].Page2[0].List4[0].Li1[0].HearingTime_dt[0]
+      type: text
+      label: Hearing Time Dt
+      required: false
+      width: full
+    - name: hearingampm
+      pdf_field_name: DV-730[0].Page2[0].List4[0].Li1[0].Hearingampm[0]
+      type: text
+      label: Hearingampm
+      required: false
+      width: full
+    - name: hearingampm_2
+      pdf_field_name: DV-730[0].Page2[0].List4[0].Li1[0].Hearingampm[1]
+      type: text
+      label: Hearingampm
+      required: false
+      width: full
+    - name: hearing_protected_cb
+      pdf_field_name: DV-730[0].Page2[0].List4[0].Li1[0].HearingProtected_cb[0]
+      type: text
+      label: Hearing Protected Cb
+      required: false
+      width: full
+    - name: hearing_protected_lawyer_cb
+      pdf_field_name: DV-730[0].Page2[0].List4[0].Li1[0].HearingProtectedLawyer_cb[0]
+      type: text
+      label: Hearing Protected Lawyer Cb
+      required: false
+      width: full
+    - name: protected_lawyer_name_ft
+      pdf_field_name: DV-730[0].Page2[0].List4[0].Li1[0].ProtectedLawyerName_ft[0]
+      type: text
+      label: Protected Lawyer Name Ft
+      required: false
+      width: full
+    - name: hearing_restrained_cb
+      pdf_field_name: DV-730[0].Page2[0].List4[0].Li1[0].HearingRestrained_cb[0]
+      type: text
+      label: Hearing Restrained Cb
+      required: false
+      width: full
+    - name: hearing_restrained_lawyer_cb
+      pdf_field_name: DV-730[0].Page2[0].List4[0].Li1[0].HearingRestrainedLawyer_cb[0]
+      type: text
+      label: Hearing Restrained Lawyer Cb
+      required: false
+      width: full
+    - name: restrained_lawyer_name_ft
+      pdf_field_name: DV-730[0].Page2[0].List4[0].Li1[0].RestrainedLawyerName_ft[0]
+      type: text
+      label: Restrained Lawyer Name Ft
+      required: false
+      width: full
+    - name: lawyer_fee_cost_cb
+      pdf_field_name: DV-730[0].Page2[0].List5[0].Li1[0].LawyerFeeCost_cb[0]
+      type: currency
+      label: Lawyer Fee Cost Cb
+      required: false
+      width: third
+    - name: person_in1_cb
+      pdf_field_name: DV-730[0].Page2[0].List5[0].Li1[0].PersonIn1_cb[0]
+      type: text
+      label: Person In1 Cb
+      required: false
+      width: full
+    - name: person_in2_cb
+      pdf_field_name: DV-730[0].Page2[0].List5[0].Li1[0].PersonIn2_cb[0]
+      type: text
+      label: Person In2 Cb
+      required: false
+      width: full
+    - name: lawyer1fees_pay_to_ft
+      pdf_field_name: DV-730[0].Page2[0].List5[0].Li1[0].Lawyer1Fees_PayTo_ft[0]
+      type: currency
+      label: Lawyer1 Fees Pay To Ft
+      required: false
+      width: third
+    - name: lawyer1fees_for_ft
+      pdf_field_name: DV-730[0].Page2[0].List5[0].Li1[0].Lawyer1Fees_For_ft[0]
+      type: currency
+      label: Lawyer1 Fees For Ft
+      required: false
+      width: third
+    - name: lawyer1fees_amount_no
+      pdf_field_name: DV-730[0].Page2[0].List5[0].Li1[0].Lawyer1Fees_Amount_no[0]
+      type: currency
+      label: Lawyer1 Fees Amount No
+      required: false
+      width: third
+    - name: lawyer1fees_due_date_dt
+      pdf_field_name: DV-730[0].Page2[0].List5[0].Li1[0].Lawyer1Fees_DueDate_dt[0]
+      type: date
+      label: Lawyer1 Fees Due Date Dt
+      required: false
+      width: half
+    - name: lawyer2_pay_to_ft
+      pdf_field_name: DV-730[0].Page2[0].List5[0].Li1[0].Lawyer2_PayTo_ft[0]
+      type: text
+      label: Lawyer2 Pay To Ft
+      required: false
+      width: full
+    - name: lawyer2fees_for_ft
+      pdf_field_name: DV-730[0].Page2[0].List5[0].Li1[0].Lawyer2Fees_For_ft[0]
+      type: currency
+      label: Lawyer2 Fees For Ft
+      required: false
+      width: third
+    - name: lawyer_fees_amount_no
+      pdf_field_name: DV-730[0].Page2[0].List5[0].Li1[0].LawyerFees_Amount_no[0]
+      type: currency
+      label: Lawyer Fees Amount No
+      required: false
+      width: third
+    - name: lawyer2fees_due_date_dt
+      pdf_field_name: DV-730[0].Page2[0].List5[0].Li1[0].Lawyer2Fees_DueDate_dt[0]
+      type: date
+      label: Lawyer2 Fees Due Date Dt
+      required: false
+      width: half
+    - name: field_name_cb
+      pdf_field_name: DV-730[0].Page3[0].List8[0].FieldName_cb[0]
+      type: text
+      label: Field Name Cb
+      required: false
+      width: full
+    - name: number_of_attached_pages_ft
+      pdf_field_name: DV-730[0].Page3[0].List8[0].Li1[0].NumberOfAttachedPages_ft[0]
+      type: text
+      label: Number Of Attached Pages Ft
+      required: false
+      width: full
+    - name: field_name_cb1
+      pdf_field_name: DV-730[0].Page3[0].List8[0].Li2[0].FieldName_cb1[0]
+      type: text
+      label: Field Name Cb
+      required: false
+      width: full
+    - name: ag_hague_cert_cb
+      pdf_field_name: DV-730[0].Page3[0].List8[0].Li2[0].AGHagueCert_cb[0]
+      type: text
+      label: Ag Hague Cert Cb
+      required: false
+      width: full
+    - name: text_field2
+      pdf_field_name: DV-730[0].Page3[0].List8[0].Li2[0].TextField2[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+  case_number_ft:
+    title: Case Number Ft
+    fields:
+    - name: case_number_ft_2
+      pdf_field_name: DV-730[0].Page2[0].CaseNumber_ft[0]
+      type: text
+      label: Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+    - name: case_number_ft_2
+      pdf_field_name: DV-730[0].Page3[0].CaseNumber_ft[0]
+      type: text
+      label: Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+  list6subset:
+    title: List6subset
+    fields:
+    - name: item6a_cb
+      pdf_field_name: DV-730[0].Page2[0].List6subset[0].List6[0].Li1[0].item6a_cb[0]
+      type: text
+      label: Item6a Cb
+      required: false
+      width: full
+    - name: item6b
+      pdf_field_name: DV-730[0].Page2[0].List6subset[0].List6[0].Li2[0].item6b[0]
+      type: text
+      label: Item6b
+      required: false
+      width: full
+    - name: proof_service_cb
+      pdf_field_name: DV-730[0].Page2[0].List6subset[0].List6[0].Li2[0].List6b[0].Li1[0].ProofService_cb[0]
+      type: text
+      label: Proof Service Cb
+      required: false
+      width: full
+    - name: proof_service_cb_2
+      pdf_field_name: DV-730[0].Page2[0].List6subset[0].List6[0].Li2[0].List6b[0].Li2[0].ProofService_cb[0]
+      type: text
+      label: Proof Service Cb
+      required: false
+      width: full
+    - name: text_field
+      pdf_field_name: DV-730[0].Page2[0].List6subset[0].List6[0].Li2[0].List6b[0].Li2[0].TextField[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: proof_service_cb_2
+      pdf_field_name: DV-730[0].Page2[0].List6subset[0].List6[0].Li2[0].List6b[0].Li3[0].ProofService_cb[0]
+      type: text
+      label: Proof Service Cb
+      required: false
+      width: full
+    - name: item6b3ab
+      pdf_field_name: DV-730[0].Page2[0].List6subset[0].List6[0].Li2[0].List6b[0].Li3[0].List6b3[0].Li1[0].item6b3ab[0]
+      type: text
+      label: Item6b3ab
+      required: false
+      width: full
+    - name: date_field1
+      pdf_field_name: DV-730[0].Page2[0].List6subset[0].List6[0].Li2[0].List6b[0].Li3[0].List6b3[0].Li1[0].DateField1[0]
+      type: date
+      label: Date Field
+      required: false
+      width: half
+    - name: item6b3ab_2
+      pdf_field_name: DV-730[0].Page2[0].List6subset[0].List6[0].Li2[0].List6b[0].Li3[0].List6b3[0].Li2[0].item6b3ab[0]
+      type: text
+      label: Item6b3ab
+      required: false
+      width: full
+    - name: date_field2
+      pdf_field_name: DV-730[0].Page2[0].List6subset[0].List6[0].Li2[0].List6b[0].Li3[0].List6b3[0].Li2[0].DateField2[0]
+      type: date
+      label: Date Field
+      required: false
+      width: half
+  lastpage:
+    title: Lastpage
+    fields:
+    - name: print
+      pdf_field_name: DV-730[0].#pageSet[0].Lastpage[0].Print[0]
+      type: checkbox
+      label: Print
+      required: false
+      width: full
+    - name: save
+      pdf_field_name: DV-730[0].#pageSet[0].Lastpage[0].Save[0]
+      type: checkbox
+      label: Save
+      required: false
+      width: full
+    - name: reset
+      pdf_field_name: DV-730[0].#pageSet[0].Lastpage[0].Reset[0]
+      type: checkbox
+      label: Reset
+      required: false
+      width: full
+    - name: warning
+      pdf_field_name: DV-730[0].#pageSet[0].Lastpage[0].Warning[0]
+      type: checkbox
+      label: Warning
+      required: false
+      width: full
+  judgesign:
+    title: Judgesign
+    fields:
+    - name: sig_date
+      pdf_field_name: DV-730[0].Page3[0].judgesign[0].SigDate[0]
+      type: date
+      label: Sig Date
+      required: false
+      width: half
+  clerkscert:
+    title: Clerkscert
+    fields:
+    - name: clerk_certificate_dt
+      pdf_field_name: DV-730[0].Page3[0].clerkscert[0].ClerkCertificate_dt[0]
+      type: text
+      label: Clerk Certificate Dt
+      required: false
+      width: full
+    - name: clerk_name_ft
+      pdf_field_name: DV-730[0].Page3[0].clerkscert[0].ClerkName_ft[0]
+      type: text
+      label: Clerk Name Ft
+      required: false
+      width: full

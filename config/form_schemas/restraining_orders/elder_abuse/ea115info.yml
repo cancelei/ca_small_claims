@@ -1,0 +1,28 @@
+---
+form:
+  code: EA-115INFO
+  title: EA 115INFO Form
+  description: ''
+  category: restraining_orders/elder_abuse
+  pdf_filename: ea115info.pdf
+  fillable: true
+  instructions: ''
+sections:
+  print:
+    title: Print
+    fields:
+    - name: print
+      pdf_field_name: EA-115-INFO[0].Page1[0].#area[8].Print[0]
+      type: checkbox
+      label: Print
+      required: false
+      width: full
+  save:
+    title: Save
+    fields:
+    - name: save
+      pdf_field_name: EA-115-INFO[0].Page1[0].#area[8].Save[0]
+      type: checkbox
+      label: Save
+      required: false
+      width: full

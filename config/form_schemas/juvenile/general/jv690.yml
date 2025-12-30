@@ -1,0 +1,279 @@
+---
+form:
+  code: JV-690
+  title: JV 690 Form
+  description: ''
+  category: juvenile/general
+  pdf_filename: jv690.pdf
+  fillable: true
+  instructions: ''
+sections:
+  court_sub:
+    title: Court Sub
+    fields:
+    - name: court_name
+      pdf_field_name: JV-690[0].Page1[0].CourtSub[0].Court[0].CourtName[0]
+      type: text
+      label: Court Name
+      required: false
+      width: full
+      shared_key: court:name
+    - name: address
+      pdf_field_name: JV-690[0].Page1[0].CourtSub[0].Court[0].Address[0]
+      type: address
+      label: Address
+      required: false
+      width: full
+      shared_key: court:address
+    - name: city
+      pdf_field_name: JV-690[0].Page1[0].CourtSub[0].Court[0].City[0]
+      type: address
+      label: City
+      required: false
+      width: full
+    - name: branch
+      pdf_field_name: JV-690[0].Page1[0].CourtSub[0].Court[0].Branch[0]
+      type: text
+      label: Branch
+      required: false
+      width: full
+  school_sub:
+    title: School Sub
+    fields:
+    - name: school_name
+      pdf_field_name: JV-690[0].Page1[0].SchoolSub[0].School[0].SchoolName[0]
+      type: text
+      label: School Name
+      required: false
+      width: full
+    - name: dist
+      pdf_field_name: JV-690[0].Page1[0].SchoolSub[0].School[0].Dist[0]
+      type: text
+      label: Dist
+      required: false
+      width: full
+    - name: address_2
+      pdf_field_name: JV-690[0].Page1[0].SchoolSub[0].School[0].Address[0]
+      type: address
+      label: Address
+      required: false
+      width: full
+    - name: city_2
+      pdf_field_name: JV-690[0].Page1[0].SchoolSub[0].School[0].City[0]
+      type: address
+      label: City
+      required: false
+      width: full
+  list:
+    title: List
+    fields:
+    - name: text_field1
+      pdf_field_name: JV-690[0].Page1[0].List1[0].Li1[0].TextField1[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: date_field1
+      pdf_field_name: JV-690[0].Page1[0].List1[0].Li1[0].DateField1[0]
+      type: date
+      label: Date Field
+      required: false
+      width: half
+    - name: checkbox_cb
+      pdf_field_name: JV-690[0].Page1[0].List1[0].Li1[0].#area[0].checkbox_cb[0]
+      type: checkbox
+      label: Checkbox Cb
+      required: false
+      width: full
+    - name: petitioner_cb
+      pdf_field_name: JV-690[0].Page1[0].List1[0].Li2[0].#area[0].petitioner_cb[0]
+      type: text
+      label: Petitioner Cb
+      required: false
+      width: full
+    - name: petitioner_cb_2
+      pdf_field_name: JV-690[0].Page1[0].List1[0].Li2[0].List[0].Li1[0].#area[0].#area[1].petitioner_cb[0]
+      type: text
+      label: Petitioner Cb
+      required: false
+      width: full
+    - name: text_field6
+      pdf_field_name: JV-690[0].Page1[0].List1[0].Li2[0].List[0].Li1[0].#area[0].#area[1].TextField6[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: petitioner_cb_2
+      pdf_field_name: JV-690[0].Page1[0].List1[0].Li2[0].List[0].Li2[0].#area[0].#area[1].petitioner_cb[0]
+      type: text
+      label: Petitioner Cb
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: JV-690[0].Page1[0].List1[0].Li2[0].List[0].Li2[0].TextField6[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: petitioner_cb_2
+      pdf_field_name: JV-690[0].Page1[0].List1[0].Li2[0].List[0].Li3[0].#area[0].#area[1].petitioner_cb[0]
+      type: text
+      label: Petitioner Cb
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: JV-690[0].Page1[0].List1[0].Li2[0].List[0].Li3[0].TextField6[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: petitioner_cb_2
+      pdf_field_name: JV-690[0].Page1[0].List1[0].Li2[0].List[0].Li4[0].#area[0].#area[1].petitioner_cb[0]
+      type: text
+      label: Petitioner Cb
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: JV-690[0].Page1[0].List1[0].Li2[0].List[0].Li4[0].TextField6[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: petitioner_cb_2
+      pdf_field_name: JV-690[0].Page1[0].List1[0].Li2[0].List[0].Li5[0].#area[0].petitioner_cb[0]
+      type: text
+      label: Petitioner Cb
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: JV-690[0].Page1[0].List1[0].Li2[0].List[0].Li5[0].TextField6[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: petitioner_cb_2
+      pdf_field_name: JV-690[0].Page1[0].List1[0].Li2[0].List[0].Li6[0].#area[0].#area[1].petitioner_cb[0]
+      type: text
+      label: Petitioner Cb
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: JV-690[0].Page1[0].List1[0].Li2[0].List[0].Li6[0].#area[0].TextField6[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: petitioner_cb_2
+      pdf_field_name: JV-690[0].Page1[0].List1[0].Li2[0].List[0].Li7[0].#area[0].petitioner_cb[0]
+      type: text
+      label: Petitioner Cb
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: JV-690[0].Page1[0].List1[0].Li2[0].List[0].Li7[0].TextField6[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: petitioner_cb_2
+      pdf_field_name: JV-690[0].Page1[0].List1[0].Li2[0].List[0].Li8[0].#area[0].petitioner_cb[0]
+      type: text
+      label: Petitioner Cb
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: JV-690[0].Page1[0].List1[0].Li2[0].List[0].Li8[0].TextField6[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: petitioner_cb_2
+      pdf_field_name: JV-690[0].Page1[0].List1[0].Li2[0].List[0].Li9[0].#area[0].petitioner_cb[0]
+      type: text
+      label: Petitioner Cb
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: JV-690[0].Page1[0].List1[0].Li2[0].List[0].Li9[0].TextField6[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: petitioner_cb_2
+      pdf_field_name: JV-690[0].Page1[0].List1[0].Li2[0].List[0].Li10[0].#area[0].petitioner_cb[0]
+      type: text
+      label: Petitioner Cb
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: JV-690[0].Page1[0].List1[0].Li2[0].List[0].Li10[0].TextField6[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: item2ab
+      pdf_field_name: JV-690[0].Page1[0].List2[0].Li1[0].#area[0].Item2ab[0]
+      type: text
+      label: Item2ab
+      required: false
+      width: full
+    - name: item2ab_2
+      pdf_field_name: JV-690[0].Page1[0].List2[0].Li2[0].#area[0].Item2ab[0]
+      type: text
+      label: Item2ab
+      required: false
+      width: full
+    - name: item2ab_2
+      pdf_field_name: JV-690[0].Page1[0].List2[0].Li3[0].#area[0].Item2ab[0]
+      type: text
+      label: Item2ab
+      required: false
+      width: full
+    - name: text_field2
+      pdf_field_name: JV-690[0].Page1[0].List2[0].Li4[0].#area[0].TextField2[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: check_box61
+      pdf_field_name: JV-690[0].Page1[0].List2[0].Li4[0].#area[0].CheckBox61[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+  sign_sub:
+    title: Sign Sub
+    fields:
+    - name: on_date_ff
+      pdf_field_name: JV-690[0].Page1[0].signSub[0].on_date_ff[0]
+      type: date
+      label: On Date Ff
+      required: false
+      width: half
+  footer_buttons:
+    title: Footer Buttons
+    fields:
+    - name: print
+      pdf_field_name: JV-690[0].#pageSet[0].Page2[0].FooterButtons[0].Print[0]
+      type: checkbox
+      label: Print
+      required: false
+      width: full
+    - name: save
+      pdf_field_name: JV-690[0].#pageSet[0].Page2[0].FooterButtons[0].Save[0]
+      type: checkbox
+      label: Save
+      required: false
+      width: full
+    - name: reset
+      pdf_field_name: JV-690[0].#pageSet[0].Page2[0].FooterButtons[0].Reset[0]
+      type: checkbox
+      label: Reset
+      required: false
+      width: full
+    - name: warning
+      pdf_field_name: JV-690[0].#pageSet[0].Page2[0].FooterButtons[0].Warning[0]
+      type: checkbox
+      label: Warning
+      required: false
+      width: full

@@ -13,6 +13,9 @@ RSpec.describe FormDefinition, type: :model do
   end
 
   describe "validations" do
+    # Subject needed for uniqueness test - shoulda-matchers requires a valid record
+    subject { build(:form_definition) }
+
     it { is_expected.to validate_presence_of(:code) }
     it { is_expected.to validate_presence_of(:title) }
     it { is_expected.to validate_presence_of(:pdf_filename) }

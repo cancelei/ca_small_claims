@@ -1,0 +1,31 @@
+---
+form:
+  code: JV-793
+  title: JV 793 Form
+  description: ''
+  category: juvenile/general
+  pdf_filename: jv793.pdf
+  fillable: true
+  instructions: ''
+sections:
+  btn_footer_gp:
+    title: Btn Footer Gp
+    fields:
+    - name: print_bt
+      pdf_field_name: topmostSubform[0].Page5[0].BtnFooter_gp[0].Print_bt[0]
+      type: checkbox
+      label: Print Bt
+      required: false
+      width: full
+    - name: save_bt
+      pdf_field_name: topmostSubform[0].Page5[0].BtnFooter_gp[0].Save_bt[0]
+      type: checkbox
+      label: Save Bt
+      required: false
+      width: full
+    - name: reset_bt
+      pdf_field_name: topmostSubform[0].Page5[0].BtnFooter_gp[0].Reset_bt[0]
+      type: checkbox
+      label: Reset Bt
+      required: false
+      width: full

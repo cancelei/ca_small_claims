@@ -1,0 +1,883 @@
+---
+form:
+  code: HC-001
+  title: HC 001 Form
+  description: ''
+  category: civil/habeas_corpus
+  pdf_filename: hc001.pdf
+  fillable: true
+  instructions: ''
+sections:
+  mp:
+    title: Mp
+    fields:
+    - name: court_link1
+      pdf_field_name: HC-001[0].#pageSet[0].MP1[0].footer[0].CourtLink1[0]
+      type: checkbox
+      label: Court Link
+      required: false
+      width: full
+  mp_last:
+    title: Mp Last
+    fields:
+    - name: print
+      pdf_field_name: HC-001[0].#pageSet[0].MPLast[0].Print[0]
+      type: checkbox
+      label: Print
+      required: false
+      width: full
+    - name: save
+      pdf_field_name: HC-001[0].#pageSet[0].MPLast[0].Save[0]
+      type: checkbox
+      label: Save
+      required: false
+      width: full
+    - name: reset
+      pdf_field_name: HC-001[0].#pageSet[0].MPLast[0].Reset[0]
+      type: checkbox
+      label: Reset
+      required: false
+      width: full
+  caption:
+    title: Caption
+    fields:
+    - name: cap_name
+      pdf_field_name: HC-001[0].Page1[0].Caption[0].NameAdd[0].capName[0]
+      type: text
+      label: Cap Name
+      required: false
+      width: full
+    - name: capadd
+      pdf_field_name: HC-001[0].Page1[0].Caption[0].NameAdd[0].capadd[0]
+      type: text
+      label: Capadd
+      required: false
+      width: full
+    - name: i_dno
+      pdf_field_name: HC-001[0].Page1[0].Caption[0].NameAdd[0].IDno[0]
+      type: text
+      label: I Dno
+      required: false
+      width: full
+    - name: crt_info
+      pdf_field_name: HC-001[0].Page1[0].Caption[0].CrtInfo[0].crtInfo[0]
+      type: text
+      label: Crt Info
+      required: false
+      width: full
+    - name: petitioner
+      pdf_field_name: HC-001[0].Page1[0].Caption[0].PetitrInfo[0].Petitioner[0]
+      type: text
+      label: Petitioner
+      required: false
+      width: full
+    - name: respondent
+      pdf_field_name: HC-001[0].Page1[0].Caption[0].PetitrInfo[0].respondent[0]
+      type: text
+      label: Respondent
+      required: false
+      width: full
+    - name: pet_hc_no
+      pdf_field_name: HC-001[0].Page1[0].Caption[0].PetitrInfo[0].petHCNo[0]
+      type: text
+      label: Pet Hc No
+      required: false
+      width: full
+  petition_concerns:
+    title: Petition Concerns
+    fields:
+    - name: check_box1
+      pdf_field_name: HC-001[0].Page2[0].PetitionConcerns[0].CheckBox1[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box5
+      pdf_field_name: HC-001[0].Page2[0].PetitionConcerns[0].CheckBox5[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box19
+      pdf_field_name: HC-001[0].Page2[0].PetitionConcerns[0].CheckBox19[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box2
+      pdf_field_name: HC-001[0].Page2[0].PetitionConcerns[0].CheckBox2[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box6
+      pdf_field_name: HC-001[0].Page2[0].PetitionConcerns[0].CheckBox6[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box3
+      pdf_field_name: HC-001[0].Page2[0].PetitionConcerns[0].CheckBox3[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box7
+      pdf_field_name: HC-001[0].Page2[0].PetitionConcerns[0].CheckBox7[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box4
+      pdf_field_name: HC-001[0].Page2[0].PetitionConcerns[0].CheckBox4[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: fill_text11
+      pdf_field_name: HC-001[0].Page2[0].PetitionConcerns[0].FillText11[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+  li:
+    title: Li
+    fields:
+    - name: fill_text12
+      pdf_field_name: HC-001[0].Page2[0].LI1[0].li1[0].FillText12[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: check_box10
+      pdf_field_name: HC-001[0].Page2[0].LI4[0].li4[0].CheckBox10[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box10_2
+      pdf_field_name: HC-001[0].Page2[0].LI4[0].li4[0].CheckBox10[1]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box10_2
+      pdf_field_name: HC-001[0].Page2[0].LI4[0].li4[0].CheckBox10[2]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box10_2
+      pdf_field_name: HC-001[0].Page2[0].LI4[0].li4[0].CheckBox10[3]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: fill_text25
+      pdf_field_name: HC-001[0].Page2[0].LI4[0].li4[0].FillText25[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: check_box11
+      pdf_field_name: HC-001[0].Page2[0].LI5[0].li5[0].CheckBox11[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box11_2
+      pdf_field_name: HC-001[0].Page2[0].LI5[0].li5[0].CheckBox11[1]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box11_2
+      pdf_field_name: HC-001[0].Page2[0].LI5[0].li5[0].CheckBox11[2]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box11_2
+      pdf_field_name: HC-001[0].Page2[0].LI5[0].li5[0].CheckBox11[3]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: fill_text90
+      pdf_field_name: HC-001[0].Page5[0].LI9[0].li9[0].FillText90[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: petition_cb1
+      pdf_field_name: HC-001[0].Page5[0].LI11[0].li11[0].PetitionCB1[0]
+      type: text
+      label: Petition Cb
+      required: false
+      width: full
+    - name: petition_cb1_2
+      pdf_field_name: HC-001[0].Page5[0].LI11[0].li11[0].PetitionCB1[1]
+      type: text
+      label: Petition Cb
+      required: false
+      width: full
+    - name: fill_text111
+      pdf_field_name: HC-001[0].Page6[0].LI13[0].li13[0].FillText111[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text112
+      pdf_field_name: HC-001[0].Page6[0].LI14[0].li14[0].FillText112[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: rep_cb1
+      pdf_field_name: HC-001[0].Page6[0].LI15[0].li15[0].RepCB1[0]
+      type: text
+      label: Rep Cb
+      required: false
+      width: full
+    - name: rep_cb1_2
+      pdf_field_name: HC-001[0].Page6[0].LI15[0].li15[0].RepCB1[1]
+      type: text
+      label: Rep Cb
+      required: false
+      width: full
+    - name: fill_text113
+      pdf_field_name: HC-001[0].Page6[0].LI15[0].li15[0].FillText113[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text114
+      pdf_field_name: HC-001[0].Page6[0].LI16[0].li16[0].FillText114[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: petition_cb2
+      pdf_field_name: HC-001[0].Page6[0].LI16[0].li16[0].PetitionCB2[0]
+      type: text
+      label: Petition Cb
+      required: false
+      width: full
+    - name: petition_cb2_2
+      pdf_field_name: HC-001[0].Page6[0].LI16[0].li16[0].PetitionCB2[1]
+      type: text
+      label: Petition Cb
+      required: false
+      width: full
+    - name: fill_text115
+      pdf_field_name: HC-001[0].Page6[0].LI17[0].li17[0].FillText115[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+  list:
+    title: List
+    fields:
+    - name: fill_text13
+      pdf_field_name: HC-001[0].Page2[0].List2[0].Lia[0].FillText13[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: release_cb1
+      pdf_field_name: HC-001[0].Page2[0].List2[0].Lib[0].ReleaseCB1[0]
+      type: text
+      label: Release Cb
+      required: false
+      width: full
+    - name: fill_text11_2
+      pdf_field_name: HC-001[0].Page2[0].List2[0].Lib[0].FillText11[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: release_cb1_2
+      pdf_field_name: HC-001[0].Page2[0].List2[0].Lib[0].ReleaseCB1[1]
+      type: text
+      label: Release Cb
+      required: false
+      width: full
+    - name: check_box8
+      pdf_field_name: HC-001[0].Page2[0].List3[0].CheckBox8[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box8_2
+      pdf_field_name: HC-001[0].Page2[0].List3[0].CheckBox8[1]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: fill_text14
+      pdf_field_name: HC-001[0].Page2[0].List3[0].Li3a[0].FillText14[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text16
+      pdf_field_name: HC-001[0].Page2[0].List3[0].Li3b[0].FillText16[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text18
+      pdf_field_name: HC-001[0].Page2[0].List3[0].Li3c[0].FillText18[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text19
+      pdf_field_name: HC-001[0].Page2[0].List3[0].Li3d[0].FillText19[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text20
+      pdf_field_name: HC-001[0].Page2[0].List3[0].Li3e[0].FillText20[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text21
+      pdf_field_name: HC-001[0].Page2[0].List3[0].Li3f[0].FillText21[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text22
+      pdf_field_name: HC-001[0].Page2[0].List3[0].Li3g[0].FillText22[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text23
+      pdf_field_name: HC-001[0].Page2[0].List3[0].Li3h[0].FillText23[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: check_box9
+      pdf_field_name: HC-001[0].Page2[0].List3[0].Li3i[0].CheckBox9[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box9_2
+      pdf_field_name: HC-001[0].Page2[0].List3[0].Li3i[0].CheckBox9[1]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: fill_text24
+      pdf_field_name: HC-001[0].Page2[0].List3[0].Li3i[0].FillText24[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text26
+      pdf_field_name: HC-001[0].Page3[0].List6[0].Item6[0].FillText26[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text30
+      pdf_field_name: HC-001[0].Page3[0].List6[0].Li6a[0].FillText30[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text43
+      pdf_field_name: HC-001[0].Page3[0].List6[0].Li6b[0].FillText43[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text43_2
+      pdf_field_name: HC-001[0].Page3[0].List6[0].Li6c[0].FillText43[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: appeal1
+      pdf_field_name: HC-001[0].Page5[0].List7[0].Appeal1[0]
+      type: text
+      label: Appeal
+      required: false
+      width: full
+    - name: appeal1_2
+      pdf_field_name: HC-001[0].Page5[0].List7[0].Appeal1[1]
+      type: text
+      label: Appeal
+      required: false
+      width: full
+    - name: fill_text75
+      pdf_field_name: HC-001[0].Page5[0].List7[0].Li7a[0].FillText75[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text76
+      pdf_field_name: HC-001[0].Page5[0].List7[0].Li7b[0].FillText76[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text77
+      pdf_field_name: HC-001[0].Page5[0].List7[0].Li7c[0].FillText77[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text78
+      pdf_field_name: HC-001[0].Page5[0].List7[0].Li7d[0].FillText78[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text80
+      pdf_field_name: HC-001[0].Page5[0].List7[0].Li7e[0].SubLi7e[0].SubLie1[0].FillText80[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text81
+      pdf_field_name: HC-001[0].Page5[0].List7[0].Li7e[0].SubLi7e[0].SubLie2[0].FillText81[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text82
+      pdf_field_name: HC-001[0].Page5[0].List7[0].Li7e[0].SubLi7e[0].SubLie3[0].FillText82[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: appeal2
+      pdf_field_name: HC-001[0].Page5[0].List7[0].Li7f[0].Appeal2[0]
+      type: text
+      label: Appeal
+      required: false
+      width: full
+    - name: appeal2_2
+      pdf_field_name: HC-001[0].Page5[0].List7[0].Li7f[0].Appeal2[1]
+      type: text
+      label: Appeal
+      required: false
+      width: full
+    - name: fill_text83
+      pdf_field_name: HC-001[0].Page5[0].List7[0].Li7f[0].FillText83[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: review1
+      pdf_field_name: HC-001[0].Page5[0].List8[0].Review1[0]
+      type: text
+      label: Review
+      required: false
+      width: full
+    - name: review1_2
+      pdf_field_name: HC-001[0].Page5[0].List8[0].Review1[1]
+      type: text
+      label: Review
+      required: false
+      width: full
+    - name: fill_text84
+      pdf_field_name: HC-001[0].Page5[0].List8[0].Li8a[0].FillText84[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text85
+      pdf_field_name: HC-001[0].Page5[0].List8[0].Li8b[0].FillText85[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text86
+      pdf_field_name: HC-001[0].Page5[0].List8[0].Li8c[0].FillText86[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text87
+      pdf_field_name: HC-001[0].Page5[0].List8[0].Li8d[0].SubLis8[0].SubLid1[0].FillText87[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text88
+      pdf_field_name: HC-001[0].Page5[0].List8[0].Li8d[0].SubLis8[0].SubLid2[0].FillText88[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text89
+      pdf_field_name: HC-001[0].Page5[0].List8[0].Li8d[0].SubLis8[0].SubLid3[0].FillText89[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text91
+      pdf_field_name: HC-001[0].Page5[0].List10[0].Li10a[0].FillText91[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: review2
+      pdf_field_name: HC-001[0].Page5[0].List10[0].Li10b[0].Review2[0]
+      type: text
+      label: Review
+      required: false
+      width: full
+    - name: review2_2
+      pdf_field_name: HC-001[0].Page5[0].List10[0].Li10b[0].Review2[1]
+      type: text
+      label: Review
+      required: false
+      width: full
+    - name: fill_text100
+      pdf_field_name: HC-001[0].Page6[0].List12[0].Li12a[0].SubList12[0].SubLia1[0].FillText100[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text99
+      pdf_field_name: HC-001[0].Page6[0].List12[0].Li12a[0].SubList12[0].SubLia2[0].FillText99[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text103
+      pdf_field_name: HC-001[0].Page6[0].List12[0].Li12a[0].SubList12[0].SubLia3[0].FillText103[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text104
+      pdf_field_name: HC-001[0].Page6[0].List12[0].Li12a[0].SubList12[0].SubLia4[0].FillText104[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text78_2
+      pdf_field_name: HC-001[0].Page6[0].List12[0].Li12a[0].SubList12[0].SubLia5[0].FillText78[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text101
+      pdf_field_name: HC-001[0].Page6[0].List12[0].Li12a[0].SubList12[0].SubLia6[0].TopList12a[0].TopLia[0].FillText101[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text102
+      pdf_field_name: HC-001[0].Page6[0].List12[0].Li12a[0].SubList12[0].SubLia6[0].TopList12a[0].TopLib[0].FillText102[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text102_2
+      pdf_field_name: HC-001[0].Page6[0].List12[0].Li12a[0].SubList12[0].SubLia6[0].TopList12a[0].TopLic[0].FillText102[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text100_2
+      pdf_field_name: HC-001[0].Page6[0].List12[0].Li12b[0].SubList12b[0].SubLib1[0].FillText100[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text99_2
+      pdf_field_name: HC-001[0].Page6[0].List12[0].Li12b[0].SubList12b[0].SubLib2[0].FillText99[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text103_2
+      pdf_field_name: HC-001[0].Page6[0].List12[0].Li12b[0].SubList12b[0].SubLib3[0].FillText103[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text104_2
+      pdf_field_name: HC-001[0].Page6[0].List12[0].Li12b[0].SubList12b[0].SubLib4[0].FillText104[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text78_2
+      pdf_field_name: HC-001[0].Page6[0].List12[0].Li12b[0].SubList12b[0].SubLib5[0].FillText78[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text101_2
+      pdf_field_name: HC-001[0].Page6[0].List12[0].Li12b[0].SubList12b[0].SubLib6[0].TopList12b[0].TopLia[0].FillText101[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text102_2
+      pdf_field_name: HC-001[0].Page6[0].List12[0].Li12b[0].SubList12b[0].SubLib6[0].TopList12b[0].TopLib[0].FillText102[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text102_2
+      pdf_field_name: HC-001[0].Page6[0].List12[0].Li12b[0].SubList12b[0].SubLib6[0].TopList12b[0].TopLic[0].FillText102[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: check_box_caption
+      pdf_field_name: HC-001[0].Page7[0].List18[0].Li18a[0].SubList18a[0].SubLia1[0].CheckBoxCaption[0]
+      type: checkbox
+      label: Check Box Caption
+      required: false
+      width: full
+    - name: check_box19_2
+      pdf_field_name: HC-001[0].Page7[0].List18[0].Li18a[0].SubList18a[0].SubLia2[0].CheckBox19[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box19_2
+      pdf_field_name: HC-001[0].Page7[0].List18[0].Li18a[0].SubList18a[0].SubLia3[0].CheckBox19[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box19_2
+      pdf_field_name: HC-001[0].Page7[0].List18[0].Li18a[0].SubList18a[0].SubLia4[0].CheckBox19[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box19_2
+      pdf_field_name: HC-001[0].Page7[0].List18[0].Li18b[0].SubList18b[0].SubLib1[0].CheckBox19[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: biastrial
+      pdf_field_name: HC-001[0].Page7[0].List18[0].Li18b[0].SubList18b[0].SubLib2[0].biastrial[0]
+      type: text
+      label: Biastrial
+      required: false
+      width: full
+    - name: seriousconviction
+      pdf_field_name: HC-001[0].Page7[0].List18[0].Li18b[0].SubList18b[0].SubLib3[0].seriousconviction[0]
+      type: text
+      label: Seriousconviction
+      required: false
+      width: full
+    - name: longersentence
+      pdf_field_name: HC-001[0].Page7[0].List18[0].Li18b[0].SubList18b[0].SubLib4[0].longersentence[0]
+      type: text
+      label: Longersentence
+      required: false
+      width: full
+    - name: def
+      pdf_field_name: HC-001[0].Page7[0].List18[0].Li18b[0].SubList18b[0].SubLib4[0].TopList4[0].lia[0].def[0]
+      type: text
+      label: Def
+      required: false
+      width: full
+    - name: victim
+      pdf_field_name: HC-001[0].Page7[0].List18[0].Li18b[0].SubList18b[0].SubLib4[0].TopList4[0].lib[0].victim[0]
+      type: text
+      label: Victim
+      required: false
+      width: full
+    - name: claim_cb1
+      pdf_field_name: HC-001[0].Page7[0].List18[0].Li18c[0].ClaimCB1[0]
+      type: text
+      label: Claim Cb
+      required: false
+      width: full
+    - name: claim_cb1_2
+      pdf_field_name: HC-001[0].Page7[0].List18[0].Li18c[0].ClaimCB1[1]
+      type: text
+      label: Claim Cb
+      required: false
+      width: full
+    - name: text_field
+      pdf_field_name: HC-001[0].Page7[0].List18[0].Li18c[0].TextField[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: appoint_cb1
+      pdf_field_name: HC-001[0].Page7[0].List18[0].Li18d[0].AppointCB1[0]
+      type: text
+      label: Appoint Cb
+      required: false
+      width: full
+    - name: appoint_cb1_2
+      pdf_field_name: HC-001[0].Page7[0].List18[0].Li18d[0].AppointCB1[1]
+      type: text
+      label: Appoint Cb
+      required: false
+      width: full
+    - name: hire_cb1
+      pdf_field_name: HC-001[0].Page7[0].List18[0].Li18d[0].HireCB1[0]
+      type: text
+      label: Hire Cb
+      required: false
+      width: full
+    - name: hire_cb1_2
+      pdf_field_name: HC-001[0].Page7[0].List18[0].Li18d[0].HireCB1[1]
+      type: text
+      label: Hire Cb
+      required: false
+      width: full
+    - name: petition_cb3
+      pdf_field_name: HC-001[0].Page7[0].List18[0].Li18e[0].PetitionCB3[0]
+      type: text
+      label: Petition Cb
+      required: false
+      width: full
+    - name: petition_cb3_2
+      pdf_field_name: HC-001[0].Page7[0].List18[0].Li18e[0].PetitionCB3[1]
+      type: text
+      label: Petition Cb
+      required: false
+      width: full
+    - name: text_field_2
+      pdf_field_name: HC-001[0].Page7[0].List18[0].Li18e[0].SubList18e[0].SubLie1[0].TextField[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field_2
+      pdf_field_name: HC-001[0].Page7[0].List18[0].Li18e[0].SubList18e[0].SubLie2[0].TextField[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: violation_cb1
+      pdf_field_name: HC-001[0].Page7[0].List18[0].Li18f[0].ViolationCB1[0]
+      type: text
+      label: Violation Cb
+      required: false
+      width: full
+    - name: violation_cb1_2
+      pdf_field_name: HC-001[0].Page7[0].List18[0].Li18f[0].ViolationCB1[1]
+      type: text
+      label: Violation Cb
+      required: false
+      width: full
+    - name: check_box_caption_2
+      pdf_field_name: HC-001[0].Page7[0].List18[0].Li18f[0].SubList18f[0].SubLif1[0].CheckBoxCaption[0]
+      type: checkbox
+      label: Check Box Caption
+      required: false
+      width: full
+    - name: text_field6
+      pdf_field_name: HC-001[0].Page7[0].List18[0].Li18f[0].SubList18f[0].SubLif1[0].TextField6[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: check_box_caption_2
+      pdf_field_name: HC-001[0].Page7[0].List18[0].Li18f[0].SubList18f[0].SubLif2[0].CheckBoxCaption[0]
+      type: checkbox
+      label: Check Box Caption
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: HC-001[0].Page7[0].List18[0].Li18f[0].SubList18f[0].SubLif2[0].TextField6[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+  claim:
+    title: Claim
+    fields:
+    - name: fill_text47
+      pdf_field_name: HC-001[0].Page4[0].Claim2[0].FillText47[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text48
+      pdf_field_name: HC-001[0].Page4[0].Claim2[0].FillText48[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text52
+      pdf_field_name: HC-001[0].Page4[0].Claim2[0].LiCa[0].FillText52[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text70
+      pdf_field_name: HC-001[0].Page4[0].Claim2[0].LiCb[0].FillText70[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text70_2
+      pdf_field_name: HC-001[0].Page4[0].Claim2[0].LiCc[0].FillText70[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+  item18g:
+    title: Item18g
+    fields:
+    - name: claim_cb11
+      pdf_field_name: HC-001[0].Page8[0].Item18g[0].ClaimCB11[0]
+      type: text
+      label: Claim Cb
+      required: false
+      width: full
+    - name: claim_cb11_2
+      pdf_field_name: HC-001[0].Page8[0].Item18g[0].ClaimCB11[1]
+      type: text
+      label: Claim Cb
+      required: false
+      width: full
+    - name: evidence_cb1
+      pdf_field_name: HC-001[0].Page8[0].Item18g[0].SubLig1[0].EvidenceCB1[0]
+      type: text
+      label: Evidence Cb
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: HC-001[0].Page8[0].Item18g[0].SubLig1[0].TextField6[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: evidence_cb1_2
+      pdf_field_name: HC-001[0].Page8[0].Item18g[0].SubLig2[0].EvidenceCB1[0]
+      type: text
+      label: Evidence Cb
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: HC-001[0].Page8[0].Item18g[0].SubLig2[0].TextField6[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+  date_sign:
+    title: Date Sign
+    fields:
+    - name: fill_text116
+      pdf_field_name: HC-001[0].Page8[0].DateSign[0].FillText116[0]
+      type: date
+      label: Fill Text
+      required: false
+      width: half

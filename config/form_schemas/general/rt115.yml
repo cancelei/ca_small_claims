@@ -1,0 +1,216 @@
+---
+form:
+  code: RT-115
+  title: RT 115 Form
+  description: ''
+  category: general
+  pdf_filename: rt115.pdf
+  fillable: true
+  instructions: ''
+sections:
+  rightcaption:
+    title: Rightcaption
+    fields:
+    - name: court_info
+      pdf_field_name: RCP-115[0].Page1[0].rightcaption[0].CourtInfo[0]
+      type: text
+      label: Court Info
+      required: false
+      width: full
+    - name: case_number
+      pdf_field_name: RCP-115[0].Page1[0].rightcaption[0].CaseNumber[0]
+      type: text
+      label: Case Number
+      required: false
+      width: full
+      shared_key: case:number
+  list:
+    title: List
+    fields:
+    - name: protected_lawyer_name
+      pdf_field_name: RCP-115[0].Page1[0].List1[0].lia[0].ProtectedLawyerName[0]
+      type: text
+      label: Protected Lawyer Name
+      required: false
+      width: full
+    - name: party_def_cb
+      pdf_field_name: RCP-115[0].Page1[0].List1[0].lib[0].LIB[0].li1[0].PartyDef_cb[0]
+      type: text
+      label: Party Def Cb
+      required: false
+      width: full
+    - name: party_def_cb_2
+      pdf_field_name: RCP-115[0].Page1[0].List1[0].lib[0].LIB[0].li2[0].PartyDef_cb[0]
+      type: text
+      label: Party Def Cb
+      required: false
+      width: full
+    - name: protected_street
+      pdf_field_name: RCP-115[0].Page1[0].List1[0].lib[0].LIB[0].li2[0].ProtectedStreet[0]
+      type: address
+      label: Protected Street
+      required: false
+      width: full
+    - name: protected_city
+      pdf_field_name: RCP-115[0].Page1[0].List1[0].lib[0].LIB[0].li2[0].ProtectedCity[0]
+      type: address
+      label: Protected City
+      required: false
+      width: full
+    - name: protected_state
+      pdf_field_name: RCP-115[0].Page1[0].List1[0].lib[0].LIB[0].li2[0].ProtectedState[0]
+      type: address
+      label: Protected State
+      required: false
+      width: full
+    - name: protected_zip
+      pdf_field_name: RCP-115[0].Page1[0].List1[0].lib[0].LIB[0].li2[0].ProtectedZip[0]
+      type: address
+      label: Protected Zip
+      required: false
+      width: full
+    - name: protected_phone
+      pdf_field_name: RCP-115[0].Page1[0].List1[0].lib[0].LIB[0].li2[0].ProtectedPhone[0]
+      type: tel
+      label: Protected Phone
+      required: false
+      width: half
+    - name: protected_fax
+      pdf_field_name: RCP-115[0].Page1[0].List1[0].lib[0].LIB[0].li2[0].ProtectedFax[0]
+      type: tel
+      label: Protected Fax
+      required: false
+      width: half
+    - name: protected_email
+      pdf_field_name: RCP-115[0].Page1[0].List1[0].lib[0].LIB[0].li2[0].ProtectedEmail[0]
+      type: email
+      label: Protected Email
+      required: false
+      width: half
+    - name: protected_lawyer_name_2
+      pdf_field_name: RCP-115[0].Page1[0].List1[0].lib[0].LIB[0].li2[0].ProtectedLawyerName[0]
+      type: text
+      label: Protected Lawyer Name
+      required: false
+      width: full
+    - name: protected_lawyer_bar_no
+      pdf_field_name: RCP-115[0].Page1[0].List1[0].lib[0].LIB[0].li2[0].ProtectedLawyerBar_no[0]
+      type: text
+      label: Protected Lawyer Bar No
+      required: false
+      width: full
+    - name: protected_lawyer_firm
+      pdf_field_name: RCP-115[0].Page1[0].List1[0].lib[0].LIB[0].li2[0].ProtectedLawyerFirm[0]
+      type: text
+      label: Protected Lawyer Firm
+      required: false
+      width: full
+    - name: crt_date_resc
+      pdf_field_name: RCP-115[0].Page2[0].List3[0].lia[0].CRTDateResc[0]
+      type: date
+      label: Crt Date Resc
+      required: false
+      width: half
+    - name: crt_date_resc_2
+      pdf_field_name: RCP-115[0].Page2[0].List3[0].lib[0].CRTDateResc[0]
+      type: date
+      label: Crt Date Resc
+      required: false
+      width: half
+    - name: below
+      pdf_field_name: RCP-115[0].Page2[0].List3[0].lic[0].Below[0]
+      type: text
+      label: Below
+      required: false
+      width: full
+    - name: reason_other_cb
+      pdf_field_name: RCP-115[0].Page2[0].List3[0].lic[0].ReasonOther_cb[0]
+      type: text
+      label: Reason Other Cb
+      required: false
+      width: full
+  item:
+    title: Item
+    fields:
+    - name: two_option_choice
+      pdf_field_name: RCP-115[0].Page1[0].Item2[0].lia[0].TwoOptionChoice[0]
+      type: text
+      label: Two Option Choice
+      required: false
+      width: full
+    - name: two_option_choice_2
+      pdf_field_name: RCP-115[0].Page1[0].Item2[0].lia[0].TwoOptionChoice[1]
+      type: text
+      label: Two Option Choice
+      required: false
+      width: full
+    - name: protected_lawyer_name_2
+      pdf_field_name: RCP-115[0].Page1[0].Item2[0].lia[0].ProtectedLawyerName[0]
+      type: text
+      label: Protected Lawyer Name
+      required: false
+      width: full
+    - name: current_hearing_dt
+      pdf_field_name: RCP-115[0].Page1[0].Item2[0].li2b[0].CurrentHearing_dt[0]
+      type: currency
+      label: Current Hearing Dt
+      required: false
+      width: third
+  mp_last:
+    title: Mp Last
+    fields:
+    - name: print
+      pdf_field_name: RCP-115[0].#pageSet[0].MPLast[0].Print[0]
+      type: checkbox
+      label: Print
+      required: false
+      width: full
+    - name: save
+      pdf_field_name: RCP-115[0].#pageSet[0].MPLast[0].Save[0]
+      type: checkbox
+      label: Save
+      required: false
+      width: full
+    - name: reset
+      pdf_field_name: RCP-115[0].#pageSet[0].MPLast[0].Reset[0]
+      type: checkbox
+      label: Reset
+      required: false
+      width: full
+  px_caption:
+    title: Px Caption
+    fields:
+    - name: case_number_2
+      pdf_field_name: RCP-115[0].Page2[0].PxCaption[0].CaseNumber[0]
+      type: text
+      label: Case Number
+      required: false
+      width: full
+      shared_key: case:number
+  declaration:
+    title: Declaration
+    fields:
+    - name: sig_date
+      pdf_field_name: RCP-115[0].Page2[0].Declaration[0].SigDate[0]
+      type: date
+      label: Sig Date
+      required: false
+      width: half
+    - name: t14
+      pdf_field_name: RCP-115[0].Page2[0].Declaration[0].T14[0]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: sig_date_2
+      pdf_field_name: RCP-115[0].Page2[0].Declaration[0].SigDate[1]
+      type: date
+      label: Sig Date
+      required: false
+      width: half
+    - name: t14_2
+      pdf_field_name: RCP-115[0].Page2[0].Declaration[0].T14[1]
+      type: text
+      label: T
+      required: false
+      width: full

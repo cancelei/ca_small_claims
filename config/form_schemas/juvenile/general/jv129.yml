@@ -1,0 +1,43 @@
+---
+form:
+  code: JV-129
+  title: JV 129 Form
+  description: ''
+  category: juvenile/general
+  pdf_filename: jv129.pdf
+  fillable: true
+  instructions: ''
+sections:
+  general:
+    title: General
+    fields:
+    - name: fill_text7
+      pdf_field_name: FillText7
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text6
+      pdf_field_name: FillText6
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text8
+      pdf_field_name: FillText8
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text4
+      pdf_field_name: FillText4
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text5
+      pdf_field_name: FillText5
+      type: text
+      label: Fill Text
+      required: false
+      width: full

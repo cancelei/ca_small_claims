@@ -1,0 +1,449 @@
+---
+form:
+  code: JV-136
+  title: JV 136 Form
+  description: ''
+  category: juvenile/general
+  pdf_filename: jv136.pdf
+  fillable: true
+  instructions: ''
+sections:
+  general:
+    title: General
+    fields:
+    - name: atty1
+      pdf_field_name: Atty1
+      type: text
+      label: Atty
+      required: false
+      width: full
+    - name: atty2
+      pdf_field_name: Atty2
+      type: text
+      label: Atty
+      required: false
+      width: full
+    - name: atty3
+      pdf_field_name: Atty3
+      type: text
+      label: Atty
+      required: false
+      width: full
+    - name: atty4
+      pdf_field_name: Atty4
+      type: text
+      label: Atty
+      required: false
+      width: full
+    - name: tel
+      pdf_field_name: Tel
+      type: tel
+      label: Tel
+      required: false
+      width: half
+    - name: fax
+      pdf_field_name: Fax
+      type: tel
+      label: Fax
+      required: false
+      width: half
+    - name: email
+      pdf_field_name: email
+      type: email
+      label: Email
+      required: false
+      width: half
+    - name: for
+      pdf_field_name: Attorney.for
+      type: text
+      label: For
+      required: false
+      width: full
+    - name: county
+      pdf_field_name: Court.County
+      type: number
+      label: County
+      required: false
+      width: third
+    - name: street
+      pdf_field_name: Court.street
+      type: address
+      label: Street
+      required: false
+      width: full
+    - name: mailing
+      pdf_field_name: Court.mailing
+      type: address
+      label: Mailing
+      required: false
+      width: full
+    - name: branch
+      pdf_field_name: Court.branch
+      type: text
+      label: Branch
+      required: false
+      width: full
+    - name: tf0date
+      pdf_field_name: TF0Date
+      type: date
+      label: Tf0 Date
+      required: false
+      width: half
+    - name: cb1
+      pdf_field_name: CB1
+      type: checkbox
+      label: Cb
+      required: false
+      width: full
+    - name: cb3a
+      pdf_field_name: CB3a
+      type: checkbox
+      label: Cb3a
+      required: false
+      width: full
+    - name: cb3b
+      pdf_field_name: CB3b
+      type: checkbox
+      label: Cb3b
+      required: false
+      width: full
+    - name: cb3c
+      pdf_field_name: CB3c
+      type: checkbox
+      label: Cb3c
+      required: false
+      width: full
+    - name: cb4
+      pdf_field_name: CB4
+      type: checkbox
+      label: Cb
+      required: false
+      width: full
+    - name: tf3b_amount
+      pdf_field_name: TF3bAmount
+      type: currency
+      label: Tf3b Amount
+      required: false
+      width: third
+    - name: tf3c_amount
+      pdf_field_name: TF3cAmount
+      type: currency
+      label: Tf3c Amount
+      required: false
+      width: third
+    - name: cb5
+      pdf_field_name: CB5
+      type: checkbox
+      label: Cb
+      required: false
+      width: full
+    - name: cb5address
+      pdf_field_name: CB5Address
+      type: address
+      label: Cb5 Address
+      required: false
+      width: full
+    - name: case_number
+      pdf_field_name: CaseNumber
+      type: text
+      label: Case Number
+      required: false
+      width: full
+      shared_key: case:number
+    - name: childrens_names
+      pdf_field_name: ChildrensNames
+      type: text
+      label: Childrens Names
+      required: false
+      width: full
+    - name: tf_responsible_person
+      pdf_field_name: TFResponsiblePerson
+      type: text
+      label: Tf Responsible Person
+      required: false
+      width: full
+    - name: responsible_person_date
+      pdf_field_name: ResponsiblePersonDate
+      type: date
+      label: Responsible Person Date
+      required: false
+      width: half
+    - name: feo_date
+      pdf_field_name: FEODate
+      type: date
+      label: Feo Date
+      required: false
+      width: half
+    - name: feo_name
+      pdf_field_name: FEOName
+      type: text
+      label: Feo Name
+      required: false
+      width: full
+    - name: order_date
+      pdf_field_name: OrderDate
+      type: date
+      label: Order Date
+      required: false
+      width: half
+    - name: cb5hearing
+      pdf_field_name: CB5Hearing
+      type: checkbox
+      label: Cb5 Hearing
+      required: false
+      width: full
+    - name: tf5dept
+      pdf_field_name: TF5Dept
+      type: text
+      label: Tf5 Dept
+      required: false
+      width: full
+    - name: tf5date
+      pdf_field_name: TF5Date
+      type: date
+      label: Tf5 Date
+      required: false
+      width: half
+    - name: tf5time
+      pdf_field_name: TF5Time
+      type: text
+      label: Tf5 Time
+      required: false
+      width: full
+    - name: tf5address
+      pdf_field_name: TF5Address
+      type: address
+      label: Tf5 Address
+      required: false
+      width: full
+    - name: tf9a_time
+      pdf_field_name: TF9aTime
+      type: text
+      label: Tf9a Time
+      required: false
+      width: full
+    - name: tf9a_date
+      pdf_field_name: TF9aDate
+      type: date
+      label: Tf9a Date
+      required: false
+      width: half
+    - name: tf9a_dept
+      pdf_field_name: TF9aDept
+      type: text
+      label: Tf9a Dept
+      required: false
+      width: full
+    - name: cb9a_address
+      pdf_field_name: CB9aAddress
+      type: address
+      label: Cb9a Address
+      required: false
+      width: full
+    - name: tf9a_address
+      pdf_field_name: TF9aAddress
+      type: address
+      label: Tf9a Address
+      required: false
+      width: full
+    - name: cb9a_hearing
+      pdf_field_name: CB9aHearing
+      type: checkbox
+      label: Cb9a Hearing
+      required: false
+      width: full
+    - name: cb9c
+      pdf_field_name: CB9c
+      type: checkbox
+      label: Cb9c
+      required: false
+      width: full
+    - name: cb9b
+      pdf_field_name: CB9b
+      type: checkbox
+      label: Cb9b
+      required: false
+      width: full
+    - name: cb9
+      pdf_field_name: CB9
+      type: checkbox
+      label: Cb
+      required: false
+      width: full
+    - name: cb2
+      pdf_field_name: CB2
+      type: checkbox
+      label: Cb
+      required: false
+      width: full
+    - name: tf2amount
+      pdf_field_name: TF2Amount
+      type: currency
+      label: Tf2 Amount
+      required: false
+      width: third
+    - name: cb3
+      pdf_field_name: CB3
+      type: checkbox
+      label: Cb
+      required: false
+      width: full
+    - name: cb6
+      pdf_field_name: CB6
+      type: checkbox
+      label: Cb
+      required: false
+      width: full
+    - name: cb7
+      pdf_field_name: CB7
+      type: checkbox
+      label: Cb
+      required: false
+      width: full
+    - name: tf6amount
+      pdf_field_name: TF6Amount
+      type: currency
+      label: Tf6 Amount
+      required: false
+      width: third
+    - name: tf7amount
+      pdf_field_name: TF7Amount
+      type: currency
+      label: Tf7 Amount
+      required: false
+      width: third
+    - name: cb8
+      pdf_field_name: CB8
+      type: checkbox
+      label: Cb
+      required: false
+      width: full
+    - name: tf8amount
+      pdf_field_name: TF8Amount
+      type: currency
+      label: Tf8 Amount
+      required: false
+      width: third
+    - name: tf8day
+      pdf_field_name: TF8Day
+      type: text
+      label: Tf8 Day
+      required: false
+      width: full
+    - name: tf8start_date
+      pdf_field_name: TF8StartDate
+      type: date
+      label: Tf8 Start Date
+      required: false
+      width: half
+    - name: cb8a
+      pdf_field_name: CB8a
+      type: checkbox
+      label: Cb8a
+      required: false
+      width: full
+    - name: cb8b
+      pdf_field_name: CB8b
+      type: checkbox
+      label: Cb8b
+      required: false
+      width: full
+    - name: cb11
+      pdf_field_name: CB11
+      type: checkbox
+      label: Cb
+      required: false
+      width: full
+    - name: tf11amount
+      pdf_field_name: TF11Amount
+      type: currency
+      label: Tf11 Amount
+      required: false
+      width: third
+    - name: cb12
+      pdf_field_name: CB12
+      type: checkbox
+      label: Cb
+      required: false
+      width: full
+    - name: tf12amount
+      pdf_field_name: TF12Amount
+      type: currency
+      label: Tf12 Amount
+      required: false
+      width: third
+    - name: cb13
+      pdf_field_name: CB13
+      type: checkbox
+      label: Cb
+      required: false
+      width: full
+    - name: tf13amount
+      pdf_field_name: TF13Amount
+      type: currency
+      label: Tf13 Amount
+      required: false
+      width: third
+    - name: tf13day
+      pdf_field_name: TF13Day
+      type: text
+      label: Tf13 Day
+      required: false
+      width: full
+    - name: tf13start_date
+      pdf_field_name: TF13StartDate
+      type: date
+      label: Tf13 Start Date
+      required: false
+      width: half
+    - name: cb14
+      pdf_field_name: CB14
+      type: checkbox
+      label: Cb
+      required: false
+      width: full
+    - name: cb15a
+      pdf_field_name: CB15a
+      type: checkbox
+      label: Cb15a
+      required: false
+      width: full
+    - name: cb15b
+      pdf_field_name: CB15b
+      type: checkbox
+      label: Cb15b
+      required: false
+      width: full
+    - name: cb16
+      pdf_field_name: CB16
+      type: checkbox
+      label: Cb
+      required: false
+      width: full
+    - name: cb17
+      pdf_field_name: CB17
+      type: checkbox
+      label: Cb
+      required: false
+      width: full
+    - name: cb15
+      pdf_field_name: CB15
+      type: checkbox
+      label: Cb
+      required: false
+      width: full
+    - name: cb18
+      pdf_field_name: CB18
+      type: checkbox
+      label: Cb
+      required: false
+      width: full
+  city:
+    title: City
+    fields:
+    - name: zip
+      pdf_field_name: Court.City.zip
+      type: address
+      label: Zip
+      required: false
+      width: full

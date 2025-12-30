@@ -1,0 +1,161 @@
+---
+form:
+  code: FL-694
+  title: FL 694 Form
+  description: ''
+  category: family_law/general
+  pdf_filename: fl694.pdf
+  fillable: true
+  instructions: ''
+sections:
+  fill_text:
+    title: Fill Text
+    fields:
+    - name: fill_text1140
+      pdf_field_name: FL-694[0].Page1[0].FillText1140[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text56
+      pdf_field_name: FL-694[0].Page1[0].FillText56[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text1140_2
+      pdf_field_name: FL-694[0].Page1[0].FillText1140[1]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text56_2
+      pdf_field_name: FL-694[0].Page1[0].FillText56[1]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+  case_number:
+    title: Case Number
+    fields:
+    - name: case_number
+      pdf_field_name: FL-694[0].Page1[0].#subform[1].CaseNumber[0].CaseNumber[0]
+      type: text
+      label: Case Number
+      required: false
+      width: full
+      shared_key: case:number
+  title_party_name:
+    title: Title Party Name
+    fields:
+    - name: party1
+      pdf_field_name: FL-694[0].Page1[0].#subform[1].TitlePartyName[0].Party1[0]
+      type: text
+      label: Party
+      required: false
+      width: full
+    - name: party2
+      pdf_field_name: FL-694[0].Page1[0].#subform[1].TitlePartyName[0].Party2[0]
+      type: text
+      label: Party
+      required: false
+      width: full
+    - name: party3
+      pdf_field_name: FL-694[0].Page1[0].#subform[1].TitlePartyName[0].Party3[0]
+      type: text
+      label: Party
+      required: false
+      width: full
+  petitioner_cb:
+    title: Petitioner Cb
+    fields:
+    - name: petitioner_cb
+      pdf_field_name: FL-694[0].Page1[0].#area[0].petitioner_cb[0]
+      type: text
+      label: Petitioner Cb
+      required: false
+      width: full
+    - name: petitioner_cb_2
+      pdf_field_name: FL-694[0].Page1[0].#area[1].petitioner_cb[1]
+      type: text
+      label: Petitioner Cb
+      required: false
+      width: full
+    - name: petitioner_cb_2
+      pdf_field_name: FL-694[0].Page1[0].#area[3].petitioner_cb\.2[0]
+      type: text
+      label: Petitioner Cb\
+      required: false
+      width: full
+  text_field:
+    title: Text Field
+    fields:
+    - name: text_field2
+      pdf_field_name: FL-694[0].Page1[0].#area[2].TextField2[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field2_2
+      pdf_field_name: FL-694[0].Page1[0].#area[5].TextField2[1]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field2_2
+      pdf_field_name: FL-694[0].Page1[0].#area[7].TextField2[2]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+  petitioner_cb2:
+    title: Petitioner Cb2\
+    fields:
+    - name: petitioner_cb2
+      pdf_field_name: FL-694[0].Page1[0].#area[4].petitioner_cb2\.1[0]
+      type: text
+      label: Petitioner Cb2\
+      required: false
+      width: full
+    - name: petitioner_cb2_2
+      pdf_field_name: FL-694[0].Page1[0].#area[6].petitioner_cb2\.3[0]
+      type: text
+      label: Petitioner Cb2\
+      required: false
+      width: full
+  print:
+    title: Print
+    fields:
+    - name: print
+      pdf_field_name: FL-694[0].#area[0].Print[0]
+      type: checkbox
+      label: Print
+      required: false
+      width: full
+  save:
+    title: Save
+    fields:
+    - name: save
+      pdf_field_name: FL-694[0].#area[0].Save[0]
+      type: checkbox
+      label: Save
+      required: false
+      width: full
+  reset:
+    title: Reset
+    fields:
+    - name: reset
+      pdf_field_name: FL-694[0].#area[0].Reset[0]
+      type: checkbox
+      label: Reset
+      required: false
+      width: full
+  warning:
+    title: Warning
+    fields:
+    - name: warning
+      pdf_field_name: FL-694[0].#area[0].Warning[0]
+      type: checkbox
+      label: Warning
+      required: false
+      width: full

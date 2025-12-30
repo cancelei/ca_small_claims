@@ -7,6 +7,8 @@ RSpec.describe S3::TemplateService, type: :service do
   let(:s3_client_double) { instance_double(Aws::S3::Client) }
   let(:test_pdf_filename) { "sc100.pdf" }
   let(:cache_path) { Rails.root.join("tmp", "cached_templates", test_pdf_filename) }
+  let(:configured_bucket) { Rails.application.config.s3_config[:bucket] }
+  let(:configured_prefix) { Rails.application.config.s3_config[:prefix] }
 
   before do
     # Stub S3 client initialization
@@ -25,8 +27,8 @@ RSpec.describe S3::TemplateService, type: :service do
     context "when template does not exist in cache" do
       it "downloads from S3 and caches locally" do
         expect(s3_client_double).to receive(:get_object).with(
-          bucket: "ca-small-claims-pdfs",
-          key: "test/templates/#{test_pdf_filename}",
+          bucket: configured_bucket,
+          key: "#{configured_prefix}/#{test_pdf_filename}",
           response_target: cache_path.to_s
         )
 
@@ -57,7 +59,8 @@ RSpec.describe S3::TemplateService, type: :service do
         # Create a stale cached file (older than 24 hours)
         FileUtils.mkdir_p(cache_path.dirname)
         FileUtils.touch(cache_path)
-        File.utime(25.hours.ago, 25.hours.ago, cache_path)
+        stale_time = 25.hours.ago.to_time
+        File.utime(stale_time, stale_time, cache_path)
       end
 
       it "downloads fresh version from S3" do
@@ -107,8 +110,8 @@ RSpec.describe S3::TemplateService, type: :service do
 
     it "uploads template to S3 with correct metadata" do
       expect(s3_client_double).to receive(:put_object) do |args|
-        expect(args[:bucket]).to eq("ca-small-claims-pdfs")
-        expect(args[:key]).to eq("test/templates/#{test_pdf_filename}")
+        expect(args[:bucket]).to eq(configured_bucket)
+        expect(args[:key]).to eq("#{configured_prefix}/#{test_pdf_filename}")
         expect(args[:content_type]).to eq("application/pdf")
         expect(args[:metadata]).to include(:uploaded_at, :source)
       end
@@ -177,8 +180,8 @@ RSpec.describe S3::TemplateService, type: :service do
     it "returns the correct S3 URL" do
       url = service.template_url(test_pdf_filename)
 
-      expect(url).to include("ca-small-claims-pdfs")
-      expect(url).to include("test/templates/#{test_pdf_filename}")
+      expect(url).to include(configured_bucket)
+      expect(url).to include("#{configured_prefix}/#{test_pdf_filename}")
     end
   end
 end

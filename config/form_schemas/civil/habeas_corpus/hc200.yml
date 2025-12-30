@@ -1,0 +1,288 @@
+---
+form:
+  code: HC-200
+  title: HC 200 Form
+  description: ''
+  category: civil/habeas_corpus
+  pdf_filename: hc200.pdf
+  fillable: true
+  instructions: ''
+sections:
+  p1_caption:
+    title: P1 Caption
+    fields:
+    - name: case_number_ft
+      pdf_field_name: HC-200[0].Page1[0].P1Caption[0].captionSub[0].CaseNumber[0].CaseNumber_ft[0]
+      type: text
+      label: Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+    - name: atty_bar_no
+      pdf_field_name: HC-200[0].Page1[0].P1Caption[0].AttyPartyInfo[0].AttyBarNo[0]
+      type: text
+      label: Atty Bar No
+      required: false
+      width: full
+    - name: name
+      pdf_field_name: HC-200[0].Page1[0].P1Caption[0].AttyPartyInfo[0].Name[0]
+      type: text
+      label: Name
+      required: false
+      width: full
+    - name: atty_firm
+      pdf_field_name: HC-200[0].Page1[0].P1Caption[0].AttyPartyInfo[0].AttyFirm[0]
+      type: text
+      label: Atty Firm
+      required: false
+      width: full
+    - name: street
+      pdf_field_name: HC-200[0].Page1[0].P1Caption[0].AttyPartyInfo[0].Street[0]
+      type: address
+      label: Street
+      required: false
+      width: full
+    - name: city
+      pdf_field_name: HC-200[0].Page1[0].P1Caption[0].AttyPartyInfo[0].City[0]
+      type: address
+      label: City
+      required: false
+      width: full
+    - name: state
+      pdf_field_name: HC-200[0].Page1[0].P1Caption[0].AttyPartyInfo[0].State[0]
+      type: address
+      label: State
+      required: false
+      width: full
+    - name: zip
+      pdf_field_name: HC-200[0].Page1[0].P1Caption[0].AttyPartyInfo[0].Zip[0]
+      type: address
+      label: Zip
+      required: false
+      width: full
+    - name: phone
+      pdf_field_name: HC-200[0].Page1[0].P1Caption[0].AttyPartyInfo[0].Phone[0]
+      type: tel
+      label: Phone
+      required: false
+      width: half
+    - name: fax
+      pdf_field_name: HC-200[0].Page1[0].P1Caption[0].AttyPartyInfo[0].Fax[0]
+      type: tel
+      label: Fax
+      required: false
+      width: half
+    - name: email
+      pdf_field_name: HC-200[0].Page1[0].P1Caption[0].AttyPartyInfo[0].Email[0]
+      type: email
+      label: Email
+      required: false
+      width: half
+    - name: atty_for
+      pdf_field_name: HC-200[0].Page1[0].P1Caption[0].AttyPartyInfo[0].AttyFor[0]
+      type: text
+      label: Atty For
+      required: false
+      width: full
+    - name: crt_county
+      pdf_field_name: HC-200[0].Page1[0].P1Caption[0].CourtInfo[0].CrtCounty[0]
+      type: number
+      label: Crt County
+      required: false
+      width: third
+    - name: crt_street
+      pdf_field_name: HC-200[0].Page1[0].P1Caption[0].CourtInfo[0].CrtStreet[0]
+      type: address
+      label: Crt Street
+      required: false
+      width: full
+    - name: crt_mailing_add
+      pdf_field_name: HC-200[0].Page1[0].P1Caption[0].CourtInfo[0].CrtMailingAdd[0]
+      type: address
+      label: Crt Mailing Add
+      required: false
+      width: full
+    - name: crt_city_zip
+      pdf_field_name: HC-200[0].Page1[0].P1Caption[0].CourtInfo[0].CrtCityZip[0]
+      type: address
+      label: Crt City Zip
+      required: false
+      width: full
+    - name: crt_branch
+      pdf_field_name: HC-200[0].Page1[0].P1Caption[0].CourtInfo[0].CrtBranch[0]
+      type: text
+      label: Crt Branch
+      required: false
+      width: full
+    - name: party_ft
+      pdf_field_name: HC-200[0].Page1[0].P1Caption[0].TitlePartyName[0].Party_ft[0]
+      type: text
+      label: Party Ft
+      required: false
+      width: full
+  list:
+    title: List
+    fields:
+    - name: party_ft_2
+      pdf_field_name: HC-200[0].Page1[0].List1[0].li1[0].Party_ft[0]
+      type: text
+      label: Party Ft
+      required: false
+      width: full
+    - name: fill_text15
+      pdf_field_name: HC-200[0].Page1[0].List1[0].li1[0].FillText15[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: check_box1
+      pdf_field_name: HC-200[0].Page1[0].List2[0].CheckBox1[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: cert_grant
+      pdf_field_name: HC-200[0].Page1[0].List2[0].lia[0].certGrant[0]
+      type: text
+      label: Cert Grant
+      required: false
+      width: full
+    - name: cert_grant_2
+      pdf_field_name: HC-200[0].Page1[0].List2[0].lib[0].certGrant[0]
+      type: text
+      label: Cert Grant
+      required: false
+      width: full
+    - name: check_box8
+      pdf_field_name: HC-200[0].Page1[0].List3[0].li1[0].CheckBox8[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: atty_rep
+      pdf_field_name: HC-200[0].Page1[0].List3[0].li1[0].attyRep[0]
+      type: text
+      label: Atty Rep
+      required: false
+      width: full
+    - name: atty_rep_2
+      pdf_field_name: HC-200[0].Page1[0].List3[0].li1[0].attyRep[1]
+      type: text
+      label: Atty Rep
+      required: false
+      width: full
+    - name: pet_add
+      pdf_field_name: HC-200[0].Page1[0].List4[0].li1[0].petAdd[0]
+      type: text
+      label: Pet Add
+      required: false
+      width: full
+    - name: pet_add_2
+      pdf_field_name: HC-200[0].Page1[0].List4[0].li1[0].petAdd[1]
+      type: text
+      label: Pet Add
+      required: false
+      width: full
+    - name: fill_text19
+      pdf_field_name: HC-200[0].Page1[0].List4[0].li1[0].FillText19[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+  sig_date:
+    title: Sig Date
+    fields:
+    - name: sig_date
+      pdf_field_name: HC-200[0].Page1[0].sigDate[0]
+      type: date
+      label: Sig Date
+      required: false
+      width: half
+  sig_name:
+    title: Sig Name
+    fields:
+    - name: sig_name
+      pdf_field_name: HC-200[0].Page1[0].sigName[0]
+      type: text
+      label: Sig Name
+      required: false
+      width: full
+  mp_last:
+    title: Mp Last
+    fields:
+    - name: print
+      pdf_field_name: HC-200[0].#pageSet[0].MPLast[0].Print[0]
+      type: checkbox
+      label: Print
+      required: false
+      width: full
+    - name: save
+      pdf_field_name: HC-200[0].#pageSet[0].MPLast[0].Save[0]
+      type: checkbox
+      label: Save
+      required: false
+      width: full
+    - name: reset
+      pdf_field_name: HC-200[0].#pageSet[0].MPLast[0].Reset[0]
+      type: checkbox
+      label: Reset
+      required: false
+      width: full
+  p_x_caption:
+    title: P X Caption
+    fields:
+    - name: case_number_ft_2
+      pdf_field_name: HC-200[0].Page2[0].pXCaption[0].CaseNumber[0].CaseNumber_ft[0]
+      type: text
+      label: Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+    - name: party_ft_2
+      pdf_field_name: HC-200[0].Page2[0].pXCaption[0].TitlePartyName[0].Party_ft[0]
+      type: text
+      label: Party Ft
+      required: false
+      width: full
+  req_list:
+    title: Req List
+    fields:
+    - name: attachment1_cb
+      pdf_field_name: HC-200[0].Page2[0].reqList1[0].li1[0].Attachment1_cb[0]
+      type: text
+      label: Attachment1 Cb
+      required: false
+      width: full
+    - name: claims_ft
+      pdf_field_name: HC-200[0].Page2[0].reqList1[0].li1[0].Claims_ft[0]
+      type: text
+      label: Claims Ft
+      required: false
+      width: full
+    - name: attachment2_cb
+      pdf_field_name: HC-200[0].Page2[0].reqList2[0].li1[0].Attachment2_cb[0]
+      type: text
+      label: Attachment2 Cb
+      required: false
+      width: full
+    - name: pc1509d_ft
+      pdf_field_name: HC-200[0].Page2[0].reqList2[0].li1[0].PC1509d_ft[0]
+      type: text
+      label: Pc1509d Ft
+      required: false
+      width: full
+  po_p_dec:
+    title: Po P Dec
+    fields:
+    - name: sig_date_2
+      pdf_field_name: HC-200[0].Page2[0].PoPDec[0].sigDate[0]
+      type: date
+      label: Sig Date
+      required: false
+      width: half
+    - name: sig_name_2
+      pdf_field_name: HC-200[0].Page2[0].PoPDec[0].sigName[0]
+      type: text
+      label: Sig Name
+      required: false
+      width: full

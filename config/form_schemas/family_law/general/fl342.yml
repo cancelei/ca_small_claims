@@ -1,0 +1,1087 @@
+---
+form:
+  code: FL-342
+  title: FL 342 Form
+  description: ''
+  category: family_law/general
+  pdf_filename: fl342.pdf
+  fillable: true
+  instructions: ''
+sections:
+  page1_footer:
+    title: Page1 Footer
+    fields:
+    - name: courts_link
+      pdf_field_name: FL-342[0].#pageSet[0].Page1[0].Page1Footer[0].CourtsLink[0]
+      type: checkbox
+      label: Courts Link
+      required: false
+      width: full
+  last_page:
+    title: Last Page
+    fields:
+    - name: warning
+      pdf_field_name: FL-342[0].#pageSet[0].LastPage[0].Page3Footer[0].FooterButtons[0].Warning[0]
+      type: checkbox
+      label: Warning
+      required: false
+      width: full
+    - name: print
+      pdf_field_name: FL-342[0].#pageSet[0].LastPage[0].Page3Footer[0].FooterButtons[0].Print[0]
+      type: checkbox
+      label: Print
+      required: false
+      width: full
+    - name: save
+      pdf_field_name: FL-342[0].#pageSet[0].LastPage[0].Page3Footer[0].FooterButtons[0].Save[0]
+      type: checkbox
+      label: Save
+      required: false
+      width: full
+    - name: reset
+      pdf_field_name: FL-342[0].#pageSet[0].LastPage[0].Page3Footer[0].FooterButtons[0].Reset[0]
+      type: checkbox
+      label: Reset
+      required: false
+      width: full
+  page1_caption:
+    title: Page1 Caption
+    fields:
+    - name: petitioner_text_field
+      pdf_field_name: FL-342[0].Page1[0].Page1Caption[0].CaseTitle[0].PetitionerTextField[0]
+      type: text
+      label: Petitioner Text Field
+      required: false
+      width: full
+    - name: respondent_text_field
+      pdf_field_name: FL-342[0].Page1[0].Page1Caption[0].CaseTitle[0].RespondentTextField[0]
+      type: text
+      label: Respondent Text Field
+      required: false
+      width: full
+    - name: other_party_text_field
+      pdf_field_name: FL-342[0].Page1[0].Page1Caption[0].CaseTitle[0].OtherPartyTextField[0]
+      type: text
+      label: Other Party Text Field
+      required: false
+      width: full
+    - name: case_number_text_field
+      pdf_field_name: FL-342[0].Page1[0].Page1Caption[0].CaseNumber[0].CaseNumberTextField[0]
+      type: text
+      label: Case Number Text Field
+      required: false
+      width: full
+      shared_key: case:number
+  attachment_to:
+    title: Attachment To
+    fields:
+    - name: attachment_to_checkbox1
+      pdf_field_name: FL-342[0].Page1[0].AttachmentTo[0].AttachmentToCheckbox1[0]
+      type: checkbox
+      label: Attachment To Checkbox
+      required: false
+      width: full
+    - name: attachment_to_checkbox2
+      pdf_field_name: FL-342[0].Page1[0].AttachmentTo[0].AttachmentToCheckbox2[0]
+      type: checkbox
+      label: Attachment To Checkbox
+      required: false
+      width: full
+    - name: attachment_to_checkbox3
+      pdf_field_name: FL-342[0].Page1[0].AttachmentTo[0].AttachmentToCheckbox3[0]
+      type: checkbox
+      label: Attachment To Checkbox
+      required: false
+      width: full
+    - name: attachment_to_checkbox4
+      pdf_field_name: FL-342[0].Page1[0].AttachmentTo[0].AttachmentToCheckbox4[0]
+      type: checkbox
+      label: Attachment To Checkbox
+      required: false
+      width: full
+    - name: attachment_to_checkbox5
+      pdf_field_name: FL-342[0].Page1[0].AttachmentTo[0].AttachmentToCheckbox5[0]
+      type: checkbox
+      label: Attachment To Checkbox
+      required: false
+      width: full
+    - name: attachment_to_text_field
+      pdf_field_name: FL-342[0].Page1[0].AttachmentTo[0].AttachmentToTextField[0]
+      type: text
+      label: Attachment To Text Field
+      required: false
+      width: full
+  list:
+    title: List
+    fields:
+    - name: item1checkbox
+      pdf_field_name: FL-342[0].Page1[0].List1[0].LI1[0].Item1[0].Item1Checkbox[0]
+      type: checkbox
+      label: Item1 Checkbox
+      required: false
+      width: full
+    - name: item2checkbox
+      pdf_field_name: FL-342[0].Page1[0].List2[0].Item2Checkbox[0]
+      type: checkbox
+      label: Item2 Checkbox
+      required: false
+      width: full
+    - name: gross_income_currency_field1
+      pdf_field_name: FL-342[0].Page1[0].List2[0].LI1[0].Item2a[0].Item2aTable[0].Item2aTableRow1[0].GrossIncomeCurrencyField1[0]
+      type: currency
+      label: Gross Income Currency Field
+      required: false
+      width: third
+    - name: net_income_currency_field1
+      pdf_field_name: FL-342[0].Page1[0].List2[0].LI1[0].Item2a[0].Item2aTable[0].Item2aTableRow1[0].NetIncomeCurrencyField1[0]
+      type: currency
+      label: Net Income Currency Field
+      required: false
+      width: third
+    - name: receiving_assistance_checkbox1
+      pdf_field_name: FL-342[0].Page1[0].List2[0].LI1[0].Item2a[0].Item2aTable[0].Item2aTableRow1[0].ReceivingAssistanceCheckbox1[0]
+      type: checkbox
+      label: Receiving Assistance Checkbox
+      required: false
+      width: full
+    - name: gross_income_currency_field2
+      pdf_field_name: FL-342[0].Page1[0].List2[0].LI1[0].Item2a[0].Item2aTable[0].Item2aTableRow2[0].GrossIncomeCurrencyField2[0]
+      type: currency
+      label: Gross Income Currency Field
+      required: false
+      width: third
+    - name: net_income_currency_field2
+      pdf_field_name: FL-342[0].Page1[0].List2[0].LI1[0].Item2a[0].Item2aTable[0].Item2aTableRow2[0].NetIncomeCurrencyField2[0]
+      type: currency
+      label: Net Income Currency Field
+      required: false
+      width: third
+    - name: receiving_assistance_checkbox2
+      pdf_field_name: FL-342[0].Page1[0].List2[0].LI1[0].Item2a[0].Item2aTable[0].Item2aTableRow2[0].ReceivingAssistanceCheckbox2[0]
+      type: checkbox
+      label: Receiving Assistance Checkbox
+      required: false
+      width: full
+    - name: gross_income_currency_field3
+      pdf_field_name: FL-342[0].Page1[0].List2[0].LI1[0].Item2a[0].Item2aTable[0].Item2aTableRow3[0].GrossIncomeCurrencyField3[0]
+      type: currency
+      label: Gross Income Currency Field
+      required: false
+      width: third
+    - name: net_income_currency_field3
+      pdf_field_name: FL-342[0].Page1[0].List2[0].LI1[0].Item2a[0].Item2aTable[0].Item2aTableRow3[0].NetIncomeCurrencyField3[0]
+      type: currency
+      label: Net Income Currency Field
+      required: false
+      width: third
+    - name: receiving_assistance_checkbox3
+      pdf_field_name: FL-342[0].Page1[0].List2[0].LI1[0].Item2a[0].Item2aTable[0].Item2aTableRow3[0].ReceivingAssistanceCheckbox3[0]
+      type: checkbox
+      label: Receiving Assistance Checkbox
+      required: false
+      width: full
+    - name: item2b1checkbox
+      pdf_field_name: FL-342[0].Page1[0].List2[0].LI2[0].Item2b[0].LI2List1[0].LI1[0].Item2b1[0].Item2b1Checkbox[0]
+      type: checkbox
+      label: Item2b1 Checkbox
+      required: false
+      width: full
+    - name: item2b1currency_field
+      pdf_field_name: FL-342[0].Page1[0].List2[0].LI2[0].Item2b[0].LI2List1[0].LI1[0].Item2b1[0].Item2b1CurrencyField[0]
+      type: text
+      label: Item2b1 Currency Field
+      required: false
+      width: full
+    - name: item2b2checkbox
+      pdf_field_name: FL-342[0].Page1[0].List2[0].LI2[0].Item2b[0].LI2List1[0].LI2[0].Item2b2[0].Item2b2Checkbox[0]
+      type: checkbox
+      label: Item2b2 Checkbox
+      required: false
+      width: full
+    - name: item2b2currency_field
+      pdf_field_name: FL-342[0].Page1[0].List2[0].LI2[0].Item2b[0].LI2List1[0].LI2[0].Item2b2[0].Item2b2CurrencyField[0]
+      type: text
+      label: Item2b2 Currency Field
+      required: false
+      width: full
+    - name: item2b3checkbox
+      pdf_field_name: FL-342[0].Page1[0].List2[0].LI2[0].Item2b[0].LI2List1[0].LI3[0].Item2b3[0].Item2b3Checkbox[0]
+      type: checkbox
+      label: Item2b3 Checkbox
+      required: false
+      width: full
+    - name: item2b3currency_field
+      pdf_field_name: FL-342[0].Page1[0].List2[0].LI2[0].Item2b[0].LI2List1[0].LI3[0].Item2b3[0].Item2b3CurrencyField[0]
+      type: text
+      label: Item2b3 Currency Field
+      required: false
+      width: full
+    - name: item2b4a_checkbox
+      pdf_field_name: FL-342[0].Page1[0].List2[0].LI2[0].Item2b[0].LI2List1[0].LI4[0].Item2b4[0].LI4List1[0].LI1[0].Item2b4a[0].Item2b4aCheckbox[0]
+      type: checkbox
+      label: Item2b4a Checkbox
+      required: false
+      width: full
+    - name: form_fl_302link
+      pdf_field_name: FL-342[0].Page1[0].List2[0].LI2[0].Item2b[0].LI2List1[0].LI4[0].Item2b4[0].LI4List1[0].LI1[0].Item2b4a[0].FormFL-302Link[0]
+      type: checkbox
+      label: Form Fl 302 Link
+      required: false
+      width: full
+    - name: item2b4b_checkbox
+      pdf_field_name: FL-342[0].Page1[0].List2[0].LI2[0].Item2b[0].LI2List1[0].LI4[0].Item2b4[0].LI4List1[0].LI2[0].Item2b4b[0].Item2b4bCheckbox[0]
+      type: checkbox
+      label: Item2b4b Checkbox
+      required: false
+      width: full
+    - name: item2b4b_text_field
+      pdf_field_name: FL-342[0].Page1[0].List2[0].LI2[0].Item2b[0].LI2List1[0].LI4[0].Item2b4[0].LI4List1[0].LI2[0].Item2b4b[0].Item2b4bTextField[0]
+      type: text
+      label: Item2b4b Text Field
+      required: false
+      width: full
+    - name: item3checkbox
+      pdf_field_name: FL-342[0].Page1[0].List3[0].Item3Checkbox[0]
+      type: checkbox
+      label: Item3 Checkbox
+      required: false
+      width: full
+    - name: item3a_text_field
+      pdf_field_name: FL-342[0].Page1[0].List3[0].LI1[0].Item3aTextField[0]
+      type: text
+      label: Item3a Text Field
+      required: false
+      width: full
+    - name: item3b_percent_field1
+      pdf_field_name: FL-342[0].Page1[0].List3[0].LI2[0].Item3b[0].Item3bPercentField1[0]
+      type: text
+      label: Item3b Percent Field
+      required: false
+      width: full
+    - name: item3b_percent_field2
+      pdf_field_name: FL-342[0].Page1[0].List3[0].LI2[0].Item3b[0].Item3bPercentField2[0]
+      type: text
+      label: Item3b Percent Field
+      required: false
+      width: full
+    - name: item3b_percent_field3
+      pdf_field_name: FL-342[0].Page1[0].List3[0].LI2[0].Item3b[0].Item3bPercentField3[0]
+      type: text
+      label: Item3b Percent Field
+      required: false
+      width: full
+    - name: item4checkbox
+      pdf_field_name: FL-342[0].Page1[0].List4[0].LI1[0].Item4[0].Item4Checkbox[0]
+      type: checkbox
+      label: Item4 Checkbox
+      required: false
+      width: full
+    - name: item4a_checkbox
+      pdf_field_name: FL-342[0].Page1[0].List4[0].LI1[0].Item4[0].Item4Table[0].Item4aTableRow[0].Item4aCheckbox[0]
+      type: checkbox
+      label: Item4a Checkbox
+      required: false
+      width: full
+    - name: item4a_petitioner_currency_field
+      pdf_field_name: FL-342[0].Page1[0].List4[0].LI1[0].Item4[0].Item4Table[0].Item4aTableRow[0].Item4aPetitionerCurrencyField[0]
+      type: text
+      label: Item4a Petitioner Currency Field
+      required: false
+      width: full
+    - name: item4a_respondent_currency_field
+      pdf_field_name: FL-342[0].Page1[0].List4[0].LI1[0].Item4[0].Item4Table[0].Item4aTableRow[0].Item4aRespondentCurrencyField[0]
+      type: text
+      label: Item4a Respondent Currency Field
+      required: false
+      width: full
+    - name: item4a_other_party_currency_field
+      pdf_field_name: FL-342[0].Page1[0].List4[0].LI1[0].Item4[0].Item4Table[0].Item4aTableRow[0].Item4aOtherPartyCurrencyField[0]
+      type: text
+      label: Item4a Other Party Currency Field
+      required: false
+      width: full
+    - name: item4a_end_date_field
+      pdf_field_name: FL-342[0].Page1[0].List4[0].LI1[0].Item4[0].Item4Table[0].Item4aTableRow[0].Item4aEndDateField[0]
+      type: date
+      label: Item4a End Date Field
+      required: false
+      width: half
+    - name: item4b_checkbox
+      pdf_field_name: FL-342[0].Page1[0].List4[0].LI1[0].Item4[0].Item4Table[0].Item4bTableRow[0].Item4bCheckbox[0]
+      type: checkbox
+      label: Item4b Checkbox
+      required: false
+      width: full
+    - name: item4b_petitioner_currency_field
+      pdf_field_name: FL-342[0].Page1[0].List4[0].LI1[0].Item4[0].Item4Table[0].Item4bTableRow[0].Item4bPetitionerCurrencyField[0]
+      type: text
+      label: Item4b Petitioner Currency Field
+      required: false
+      width: full
+    - name: item4b_respondent_currency_field
+      pdf_field_name: FL-342[0].Page1[0].List4[0].LI1[0].Item4[0].Item4Table[0].Item4bTableRow[0].Item4bRespondentCurrencyField[0]
+      type: text
+      label: Item4b Respondent Currency Field
+      required: false
+      width: full
+    - name: item4b_other_party_currency_field
+      pdf_field_name: FL-342[0].Page1[0].List4[0].LI1[0].Item4[0].Item4Table[0].Item4bTableRow[0].Item4bOtherPartyCurrencyField[0]
+      type: text
+      label: Item4b Other Party Currency Field
+      required: false
+      width: full
+    - name: item4b_end_date_field
+      pdf_field_name: FL-342[0].Page1[0].List4[0].LI1[0].Item4[0].Item4Table[0].Item4bTableRow[0].Item4bEndDateField[0]
+      type: date
+      label: Item4b End Date Field
+      required: false
+      width: half
+    - name: item4c_checkbox
+      pdf_field_name: FL-342[0].Page1[0].List4[0].LI1[0].Item4[0].Item4Table[0].Item4cTableRow[0].Item4cCheckbox[0]
+      type: checkbox
+      label: Item4c Checkbox
+      required: false
+      width: full
+    - name: item4c_petitioner_currency_field
+      pdf_field_name: FL-342[0].Page1[0].List4[0].LI1[0].Item4[0].Item4Table[0].Item4cTableRow[0].Item4cPetitionerCurrencyField[0]
+      type: text
+      label: Item4c Petitioner Currency Field
+      required: false
+      width: full
+    - name: item4c_respondent_currency_field
+      pdf_field_name: FL-342[0].Page1[0].List4[0].LI1[0].Item4[0].Item4Table[0].Item4cTableRow[0].Item4cRespondentCurrencyField[0]
+      type: text
+      label: Item4c Respondent Currency Field
+      required: false
+      width: full
+    - name: item4c_other_party_currency_field
+      pdf_field_name: FL-342[0].Page1[0].List4[0].LI1[0].Item4[0].Item4Table[0].Item4cTableRow[0].Item4cOtherPartyCurrencyField[0]
+      type: text
+      label: Item4c Other Party Currency Field
+      required: false
+      width: full
+    - name: item4c_end_date_field
+      pdf_field_name: FL-342[0].Page1[0].List4[0].LI1[0].Item4[0].Item4Table[0].Item4cTableRow[0].Item4cEndDateField[0]
+      type: date
+      label: Item4c End Date Field
+      required: false
+      width: half
+    - name: item5checkbox
+      pdf_field_name: FL-342[0].Page1[0].List5[0].Item5Checkbox[0]
+      type: checkbox
+      label: Item5 Checkbox
+      required: false
+      width: full
+    - name: item5a_checkbox
+      pdf_field_name: FL-342[0].Page1[0].List5[0].LI1[0].Item5a[0].Item5aCheckbox[0]
+      type: checkbox
+      label: Item5a Checkbox
+      required: false
+      width: full
+    - name: item5b_checkbox
+      pdf_field_name: FL-342[0].Page1[0].List5[0].LI2[0].Item5b[0].Item5bCheckbox[0]
+      type: checkbox
+      label: Item5b Checkbox
+      required: false
+      width: full
+    - name: item5b_text_field
+      pdf_field_name: FL-342[0].Page1[0].List5[0].LI2[0].Item5b[0].Item5bTextField[0]
+      type: text
+      label: Item5b Text Field
+      required: false
+      width: full
+    - name: item6checkbox
+      pdf_field_name: FL-342[0].Page2[0].List6[0].Item6Checkbox[0]
+      type: checkbox
+      label: Item6 Checkbox
+      required: false
+      width: full
+    - name: item6a_checkbox1
+      pdf_field_name: FL-342[0].Page2[0].List6[0].LI1[0].Item6a[0].Item6aCheckbox1[0]
+      type: checkbox
+      label: Item6a Checkbox
+      required: false
+      width: full
+    - name: item6a_checkbox1_2
+      pdf_field_name: FL-342[0].Page2[0].List6[0].LI1[0].Item6a[0].Item6aCheckbox1[1]
+      type: checkbox
+      label: Item6a Checkbox
+      required: false
+      width: full
+    - name: item6a_checkbox1_2
+      pdf_field_name: FL-342[0].Page2[0].List6[0].LI1[0].Item6a[0].Item6aCheckbox1[2]
+      type: checkbox
+      label: Item6a Checkbox
+      required: false
+      width: full
+    - name: item6a_date_field
+      pdf_field_name: FL-342[0].Page2[0].List6[0].LI1[0].Item6a[0].Item6aDateField[0]
+      type: date
+      label: Item6a Date Field
+      required: false
+      width: half
+    - name: child_name_text_field1
+      pdf_field_name: FL-342[0].Page2[0].List6[0].LI1[0].Item6a[0].Item6aTable[0].Item6aTableRow1[0].ChildNameTextField1[0]
+      type: text
+      label: Child Name Text Field
+      required: false
+      width: full
+    - name: date_of_birth_date_field1
+      pdf_field_name: FL-342[0].Page2[0].List6[0].LI1[0].Item6a[0].Item6aTable[0].Item6aTableRow1[0].DateOfBirthDateField1[0]
+      type: date
+      label: Date Of Birth Date Field
+      required: false
+      width: half
+    - name: monthly_amount_currency_field1
+      pdf_field_name: FL-342[0].Page2[0].List6[0].LI1[0].Item6a[0].Item6aTable[0].Item6aTableRow1[0].MonthlyAmountCurrencyField1[0]
+      type: currency
+      label: Monthly Amount Currency Field
+      required: false
+      width: third
+    - name: payable_to_text_field1
+      pdf_field_name: FL-342[0].Page2[0].List6[0].LI1[0].Item6a[0].Item6aTable[0].Item6aTableRow1[0].PayableToTextField1[0]
+      type: text
+      label: Payable To Text Field
+      required: false
+      width: full
+    - name: child_name_text_field2
+      pdf_field_name: FL-342[0].Page2[0].List6[0].LI1[0].Item6a[0].Item6aTable[0].Item6aTableRow2[0].ChildNameTextField2[0]
+      type: text
+      label: Child Name Text Field
+      required: false
+      width: full
+    - name: date_of_birth_date_field2
+      pdf_field_name: FL-342[0].Page2[0].List6[0].LI1[0].Item6a[0].Item6aTable[0].Item6aTableRow2[0].DateOfBirthDateField2[0]
+      type: date
+      label: Date Of Birth Date Field
+      required: false
+      width: half
+    - name: monthly_amount_currency_field2
+      pdf_field_name: FL-342[0].Page2[0].List6[0].LI1[0].Item6a[0].Item6aTable[0].Item6aTableRow2[0].MonthlyAmountCurrencyField2[0]
+      type: currency
+      label: Monthly Amount Currency Field
+      required: false
+      width: third
+    - name: payable_to_text_field2
+      pdf_field_name: FL-342[0].Page2[0].List6[0].LI1[0].Item6a[0].Item6aTable[0].Item6aTableRow2[0].PayableToTextField2[0]
+      type: text
+      label: Payable To Text Field
+      required: false
+      width: full
+    - name: child_name_text_field3
+      pdf_field_name: FL-342[0].Page2[0].List6[0].LI1[0].Item6a[0].Item6aTable[0].Item6aTableRow3[0].ChildNameTextField3[0]
+      type: text
+      label: Child Name Text Field
+      required: false
+      width: full
+    - name: date_of_birth_date_field3
+      pdf_field_name: FL-342[0].Page2[0].List6[0].LI1[0].Item6a[0].Item6aTable[0].Item6aTableRow3[0].DateOfBirthDateField3[0]
+      type: date
+      label: Date Of Birth Date Field
+      required: false
+      width: half
+    - name: monthly_amount_currency_field3
+      pdf_field_name: FL-342[0].Page2[0].List6[0].LI1[0].Item6a[0].Item6aTable[0].Item6aTableRow3[0].MonthlyAmountCurrencyField3[0]
+      type: currency
+      label: Monthly Amount Currency Field
+      required: false
+      width: third
+    - name: payable_to_text_field3
+      pdf_field_name: FL-342[0].Page2[0].List6[0].LI1[0].Item6a[0].Item6aTable[0].Item6aTableRow3[0].PayableToTextField3[0]
+      type: text
+      label: Payable To Text Field
+      required: false
+      width: full
+    - name: child_name_text_field4
+      pdf_field_name: FL-342[0].Page2[0].List6[0].LI1[0].Item6a[0].Item6aTable[0].Item6aTableRow4[0].ChildNameTextField4[0]
+      type: text
+      label: Child Name Text Field
+      required: false
+      width: full
+    - name: date_of_birth_date_field4
+      pdf_field_name: FL-342[0].Page2[0].List6[0].LI1[0].Item6a[0].Item6aTable[0].Item6aTableRow4[0].DateOfBirthDateField4[0]
+      type: date
+      label: Date Of Birth Date Field
+      required: false
+      width: half
+    - name: monthly_amount_currency_field4
+      pdf_field_name: FL-342[0].Page2[0].List6[0].LI1[0].Item6a[0].Item6aTable[0].Item6aTableRow4[0].MonthlyAmountCurrencyField4[0]
+      type: currency
+      label: Monthly Amount Currency Field
+      required: false
+      width: third
+    - name: payable_to_text_field4
+      pdf_field_name: FL-342[0].Page2[0].List6[0].LI1[0].Item6a[0].Item6aTable[0].Item6aTableRow4[0].PayableToTextField4[0]
+      type: text
+      label: Payable To Text Field
+      required: false
+      width: full
+    - name: item6a_checkbox2
+      pdf_field_name: FL-342[0].Page2[0].List6[0].LI1[0].Item6a[0].Item6aCheckbox2[0]
+      type: checkbox
+      label: Item6a Checkbox
+      required: false
+      width: full
+    - name: item6a_checkbox3
+      pdf_field_name: FL-342[0].Page2[0].List6[0].LI1[0].Item6a[0].Item6aCheckbox3[0]
+      type: checkbox
+      label: Item6a Checkbox
+      required: false
+      width: full
+    - name: item6a_text_field
+      pdf_field_name: FL-342[0].Page2[0].List6[0].LI1[0].Item6a[0].Item6aTextField[0]
+      type: text
+      label: Item6a Text Field
+      required: false
+      width: full
+    - name: item6b_checkbox
+      pdf_field_name: FL-342[0].Page2[0].List6[0].LI2[0].Item6bCheckbox[0]
+      type: checkbox
+      label: Item6b Checkbox
+      required: false
+      width: full
+    - name: item6b1a_checkbox1
+      pdf_field_name: FL-342[0].Page2[0].List6[0].LI2[0].LI2List1[0].LI1[0].Item6b1[0].LI1List1[0].LI1[0].Item6b1a[0].Item6b1aCheckbox1[0]
+      type: checkbox
+      label: Item6b1a Checkbox
+      required: false
+      width: full
+    - name: item6b1a_percent_field
+      pdf_field_name: FL-342[0].Page2[0].List6[0].LI2[0].LI2List1[0].LI1[0].Item6b1[0].LI1List1[0].LI1[0].Item6b1a[0].Item6b1aPercentField[0]
+      type: text
+      label: Item6b1a Percent Field
+      required: false
+      width: full
+    - name: item6b1a_checkbox2
+      pdf_field_name: FL-342[0].Page2[0].List6[0].LI2[0].LI2List1[0].LI1[0].Item6b1[0].LI1List1[0].LI1[0].Item6b1a[0].Item6b1aCheckbox2[0]
+      type: checkbox
+      label: Item6b1a Checkbox
+      required: false
+      width: full
+    - name: item6b1a_currency_field
+      pdf_field_name: FL-342[0].Page2[0].List6[0].LI2[0].LI2List1[0].LI1[0].Item6b1[0].LI1List1[0].LI1[0].Item6b1a[0].Item6b1aCurrencyField[0]
+      type: text
+      label: Item6b1a Currency Field
+      required: false
+      width: full
+    - name: item6b1b_checkbox1
+      pdf_field_name: FL-342[0].Page2[0].List6[0].LI2[0].LI2List1[0].LI1[0].Item6b1[0].LI1List1[0].LI2[0].Item6b1b[0].Item6b1bCheckbox1[0]
+      type: checkbox
+      label: Item6b1b Checkbox
+      required: false
+      width: full
+    - name: item6b1b_percent_field
+      pdf_field_name: FL-342[0].Page2[0].List6[0].LI2[0].LI2List1[0].LI1[0].Item6b1[0].LI1List1[0].LI2[0].Item6b1b[0].Item6b1bPercentField[0]
+      type: text
+      label: Item6b1b Percent Field
+      required: false
+      width: full
+    - name: item6b1b_checkbox2
+      pdf_field_name: FL-342[0].Page2[0].List6[0].LI2[0].LI2List1[0].LI1[0].Item6b1[0].LI1List1[0].LI2[0].Item6b1b[0].Item6b1bCheckbox2[0]
+      type: checkbox
+      label: Item6b1b Checkbox
+      required: false
+      width: full
+    - name: item6b1b_currency_field
+      pdf_field_name: FL-342[0].Page2[0].List6[0].LI2[0].LI2List1[0].LI1[0].Item6b1[0].LI1List1[0].LI2[0].Item6b1b[0].Item6b1bCurrencyField[0]
+      type: text
+      label: Item6b1b Currency Field
+      required: false
+      width: full
+    - name: item6b1c_checkbox1
+      pdf_field_name: FL-342[0].Page2[0].List6[0].LI2[0].LI2List1[0].LI1[0].Item6b1[0].LI1List1[0].LI3[0].Item6b1c[0].Item6b1cCheckbox1[0]
+      type: checkbox
+      label: Item6b1c Checkbox
+      required: false
+      width: full
+    - name: item6b1c_percent_field
+      pdf_field_name: FL-342[0].Page2[0].List6[0].LI2[0].LI2List1[0].LI1[0].Item6b1[0].LI1List1[0].LI3[0].Item6b1c[0].Item6b1cPercentField[0]
+      type: text
+      label: Item6b1c Percent Field
+      required: false
+      width: full
+    - name: item6b1c_checkbox2
+      pdf_field_name: FL-342[0].Page2[0].List6[0].LI2[0].LI2List1[0].LI1[0].Item6b1[0].LI1List1[0].LI3[0].Item6b1c[0].Item6b1cCheckbox2[0]
+      type: checkbox
+      label: Item6b1c Checkbox
+      required: false
+      width: full
+    - name: item6b1c_currency_field
+      pdf_field_name: FL-342[0].Page2[0].List6[0].LI2[0].LI2List1[0].LI1[0].Item6b1[0].LI1List1[0].LI3[0].Item6b1c[0].Item6b1cCurrencyField[0]
+      type: text
+      label: Item6b1c Currency Field
+      required: false
+      width: full
+    - name: item6b1d_checkbox
+      pdf_field_name: FL-342[0].Page2[0].List6[0].LI2[0].LI2List1[0].LI1[0].Item6b1[0].LI1List1[0].LI4[0].Item6b1d[0].Item6b1dCheckbox[0]
+      type: checkbox
+      label: Item6b1d Checkbox
+      required: false
+      width: full
+    - name: item6b1d_text_field
+      pdf_field_name: FL-342[0].Page2[0].List6[0].LI2[0].LI2List1[0].LI1[0].Item6b1[0].LI1List1[0].LI4[0].Item6b1d[0].Item6b1dTextField[0]
+      type: text
+      label: Item6b1d Text Field
+      required: false
+      width: full
+    - name: item6b2a_checkbox1
+      pdf_field_name: FL-342[0].Page2[0].List6[0].LI2[0].LI2List1[0].LI2[0].Item6b2[0].LI2List1[0].LI1[0].Item6b2a[0].Item6b2aCheckbox1[0]
+      type: checkbox
+      label: Item6b2a Checkbox
+      required: false
+      width: full
+    - name: item6b2a_percent_field
+      pdf_field_name: FL-342[0].Page2[0].List6[0].LI2[0].LI2List1[0].LI2[0].Item6b2[0].LI2List1[0].LI1[0].Item6b2a[0].Item6b2aPercentField[0]
+      type: text
+      label: Item6b2a Percent Field
+      required: false
+      width: full
+    - name: item6b2a_checkbox2
+      pdf_field_name: FL-342[0].Page2[0].List6[0].LI2[0].LI2List1[0].LI2[0].Item6b2[0].LI2List1[0].LI1[0].Item6b2a[0].Item6b2aCheckbox2[0]
+      type: checkbox
+      label: Item6b2a Checkbox
+      required: false
+      width: full
+    - name: item6b2a_currency_field
+      pdf_field_name: FL-342[0].Page2[0].List6[0].LI2[0].LI2List1[0].LI2[0].Item6b2[0].LI2List1[0].LI1[0].Item6b2a[0].Item6b2aCurrencyField[0]
+      type: text
+      label: Item6b2a Currency Field
+      required: false
+      width: full
+    - name: item6b2b_checkbox1
+      pdf_field_name: FL-342[0].Page2[0].List6[0].LI2[0].LI2List1[0].LI2[0].Item6b2[0].LI2List1[0].LI2[0].Item6b2b[0].Item6b2bCheckbox1[0]
+      type: checkbox
+      label: Item6b2b Checkbox
+      required: false
+      width: full
+    - name: item6b2b_percent_field
+      pdf_field_name: FL-342[0].Page2[0].List6[0].LI2[0].LI2List1[0].LI2[0].Item6b2[0].LI2List1[0].LI2[0].Item6b2b[0].Item6b2bPercentField[0]
+      type: text
+      label: Item6b2b Percent Field
+      required: false
+      width: full
+    - name: item6b2b_checkbox2
+      pdf_field_name: FL-342[0].Page2[0].List6[0].LI2[0].LI2List1[0].LI2[0].Item6b2[0].LI2List1[0].LI2[0].Item6b2b[0].Item6b2bCheckbox2[0]
+      type: checkbox
+      label: Item6b2b Checkbox
+      required: false
+      width: full
+    - name: item6b2b_currency_field
+      pdf_field_name: FL-342[0].Page2[0].List6[0].LI2[0].LI2List1[0].LI2[0].Item6b2[0].LI2List1[0].LI2[0].Item6b2b[0].Item6b2bCurrencyField[0]
+      type: text
+      label: Item6b2b Currency Field
+      required: false
+      width: full
+    - name: item6b2c_checkbox1
+      pdf_field_name: FL-342[0].Page2[0].List6[0].LI2[0].LI2List1[0].LI2[0].Item6b2[0].LI2List1[0].LI3[0].Item6b2c[0].Item6b2cCheckbox1[0]
+      type: checkbox
+      label: Item6b2c Checkbox
+      required: false
+      width: full
+    - name: item6b2c_percent_field
+      pdf_field_name: FL-342[0].Page2[0].List6[0].LI2[0].LI2List1[0].LI2[0].Item6b2[0].LI2List1[0].LI3[0].Item6b2c[0].Item6b2cPercentField[0]
+      type: text
+      label: Item6b2c Percent Field
+      required: false
+      width: full
+    - name: item6b2c_checkbox2
+      pdf_field_name: FL-342[0].Page2[0].List6[0].LI2[0].LI2List1[0].LI2[0].Item6b2[0].LI2List1[0].LI3[0].Item6b2c[0].Item6b2cCheckbox2[0]
+      type: checkbox
+      label: Item6b2c Checkbox
+      required: false
+      width: full
+    - name: item6b2c_currency_field
+      pdf_field_name: FL-342[0].Page2[0].List6[0].LI2[0].LI2List1[0].LI2[0].Item6b2[0].LI2List1[0].LI3[0].Item6b2c[0].Item6b2cCurrencyField[0]
+      type: text
+      label: Item6b2c Currency Field
+      required: false
+      width: full
+    - name: item6b2d_checkbox
+      pdf_field_name: FL-342[0].Page2[0].List6[0].LI2[0].LI2List1[0].LI2[0].Item6b2[0].LI2List1[0].LI4[0].Item6b2d[0].Item6b2dCheckbox[0]
+      type: checkbox
+      label: Item6b2d Checkbox
+      required: false
+      width: full
+    - name: item6b2d_text_field
+      pdf_field_name: FL-342[0].Page2[0].List6[0].LI2[0].LI2List1[0].LI2[0].Item6b2[0].LI2List1[0].LI4[0].Item6b2d[0].Item6b2dTextField[0]
+      type: text
+      label: Item6b2d Text Field
+      required: false
+      width: full
+    - name: item6c_checkbox
+      pdf_field_name: FL-342[0].Page2[0].List6[0].LI3[0].Item6cCheckbox[0]
+      type: checkbox
+      label: Item6c Checkbox
+      required: false
+      width: full
+    - name: item6c1checkbox
+      pdf_field_name: FL-342[0].Page2[0].List6[0].LI3[0].LI3List1[0].LI1[0].Item6c1[0].Item6c1Checkbox[0]
+      type: checkbox
+      label: Item6c1 Checkbox
+      required: false
+      width: full
+    - name: item6c1a_checkbox1
+      pdf_field_name: FL-342[0].Page2[0].List6[0].LI3[0].LI3List1[0].LI1[0].Item6c1[0].LI1List1[0].LI1[0].Item6c1a[0].Item6c1aCheckbox1[0]
+      type: checkbox
+      label: Item6c1a Checkbox
+      required: false
+      width: full
+    - name: item6c1a_percent_field
+      pdf_field_name: FL-342[0].Page2[0].List6[0].LI3[0].LI3List1[0].LI1[0].Item6c1[0].LI1List1[0].LI1[0].Item6c1a[0].Item6c1aPercentField[0]
+      type: text
+      label: Item6c1a Percent Field
+      required: false
+      width: full
+    - name: item6c1a_checkbox2
+      pdf_field_name: FL-342[0].Page2[0].List6[0].LI3[0].LI3List1[0].LI1[0].Item6c1[0].LI1List1[0].LI1[0].Item6c1a[0].Item6c1aCheckbox2[0]
+      type: checkbox
+      label: Item6c1a Checkbox
+      required: false
+      width: full
+    - name: item6c1a_currency_field
+      pdf_field_name: FL-342[0].Page2[0].List6[0].LI3[0].LI3List1[0].LI1[0].Item6c1[0].LI1List1[0].LI1[0].Item6c1a[0].Item6c1aCurrencyField[0]
+      type: text
+      label: Item6c1a Currency Field
+      required: false
+      width: full
+    - name: item6c1b_checkbox1
+      pdf_field_name: FL-342[0].Page2[0].List6[0].LI3[0].LI3List1[0].LI1[0].Item6c1[0].LI1List1[0].LI2[0].Item6c1b[0].Item6c1bCheckbox1[0]
+      type: checkbox
+      label: Item6c1b Checkbox
+      required: false
+      width: full
+    - name: item6c1b_percent_field
+      pdf_field_name: FL-342[0].Page2[0].List6[0].LI3[0].LI3List1[0].LI1[0].Item6c1[0].LI1List1[0].LI2[0].Item6c1b[0].Item6c1bPercentField[0]
+      type: text
+      label: Item6c1b Percent Field
+      required: false
+      width: full
+    - name: item6c1b_checkbox2
+      pdf_field_name: FL-342[0].Page2[0].List6[0].LI3[0].LI3List1[0].LI1[0].Item6c1[0].LI1List1[0].LI2[0].Item6c1b[0].Item6c1bCheckbox2[0]
+      type: checkbox
+      label: Item6c1b Checkbox
+      required: false
+      width: full
+    - name: item6c1b_currency_field
+      pdf_field_name: FL-342[0].Page2[0].List6[0].LI3[0].LI3List1[0].LI1[0].Item6c1[0].LI1List1[0].LI2[0].Item6c1b[0].Item6c1bCurrencyField[0]
+      type: text
+      label: Item6c1b Currency Field
+      required: false
+      width: full
+    - name: item6c1c_checkbox1
+      pdf_field_name: FL-342[0].Page2[0].List6[0].LI3[0].LI3List1[0].LI1[0].Item6c1[0].LI1List1[0].LI3[0].Item6c1c[0].Item6c1cCheckbox1[0]
+      type: checkbox
+      label: Item6c1c Checkbox
+      required: false
+      width: full
+    - name: item6c1c_percent_field
+      pdf_field_name: FL-342[0].Page2[0].List6[0].LI3[0].LI3List1[0].LI1[0].Item6c1[0].LI1List1[0].LI3[0].Item6c1c[0].Item6c1cPercentField[0]
+      type: text
+      label: Item6c1c Percent Field
+      required: false
+      width: full
+    - name: item6c1c_checkbox2
+      pdf_field_name: FL-342[0].Page2[0].List6[0].LI3[0].LI3List1[0].LI1[0].Item6c1[0].LI1List1[0].LI3[0].Item6c1c[0].Item6c1cCheckbox2[0]
+      type: checkbox
+      label: Item6c1c Checkbox
+      required: false
+      width: full
+    - name: item6c1c_currency_field
+      pdf_field_name: FL-342[0].Page2[0].List6[0].LI3[0].LI3List1[0].LI1[0].Item6c1[0].LI1List1[0].LI3[0].Item6c1c[0].Item6c1cCurrencyField[0]
+      type: text
+      label: Item6c1c Currency Field
+      required: false
+      width: full
+    - name: item6c1d_checkbox
+      pdf_field_name: FL-342[0].Page2[0].List6[0].LI3[0].LI3List1[0].LI1[0].Item6c1[0].LI1List1[0].LI4[0].Item6c1d[0].Item6c1dCheckbox[0]
+      type: checkbox
+      label: Item6c1d Checkbox
+      required: false
+      width: full
+    - name: item6c1d_text_field
+      pdf_field_name: FL-342[0].Page2[0].List6[0].LI3[0].LI3List1[0].LI1[0].Item6c1[0].LI1List1[0].LI4[0].Item6c1d[0].Item6c1dTextField[0]
+      type: text
+      label: Item6c1d Text Field
+      required: false
+      width: full
+    - name: item6c2checkbox
+      pdf_field_name: FL-342[0].Page2[0].List6[0].LI3[0].LI3List1[0].LI2[0].Item6c2[0].Item6c2Checkbox[0]
+      type: checkbox
+      label: Item6c2 Checkbox
+      required: false
+      width: full
+    - name: item6c2a_checkbox1
+      pdf_field_name: FL-342[0].Page2[0].List6[0].LI3[0].LI3List1[0].LI2[0].Item6c2[0].LI2List1[0].LI1[0].Item6c2a[0].Item6c2aCheckbox1[0]
+      type: checkbox
+      label: Item6c2a Checkbox
+      required: false
+      width: full
+    - name: item6c2a_percent_field
+      pdf_field_name: FL-342[0].Page2[0].List6[0].LI3[0].LI3List1[0].LI2[0].Item6c2[0].LI2List1[0].LI1[0].Item6c2a[0].Item6c2aPercentField[0]
+      type: text
+      label: Item6c2a Percent Field
+      required: false
+      width: full
+    - name: item6c2a_checkbox2
+      pdf_field_name: FL-342[0].Page2[0].List6[0].LI3[0].LI3List1[0].LI2[0].Item6c2[0].LI2List1[0].LI1[0].Item6c2a[0].Item6c2aCheckbox2[0]
+      type: checkbox
+      label: Item6c2a Checkbox
+      required: false
+      width: full
+    - name: item6c2a_currency_field
+      pdf_field_name: FL-342[0].Page2[0].List6[0].LI3[0].LI3List1[0].LI2[0].Item6c2[0].LI2List1[0].LI1[0].Item6c2a[0].Item6c2aCurrencyField[0]
+      type: text
+      label: Item6c2a Currency Field
+      required: false
+      width: full
+    - name: item6c2b_checkbox1
+      pdf_field_name: FL-342[0].Page2[0].List6[0].LI3[0].LI3List1[0].LI2[0].Item6c2[0].LI2List1[0].LI2[0].Item6c2b[0].Item6c2bCheckbox1[0]
+      type: checkbox
+      label: Item6c2b Checkbox
+      required: false
+      width: full
+    - name: item6c2b_percent_field
+      pdf_field_name: FL-342[0].Page2[0].List6[0].LI3[0].LI3List1[0].LI2[0].Item6c2[0].LI2List1[0].LI2[0].Item6c2b[0].Item6c2bPercentField[0]
+      type: text
+      label: Item6c2b Percent Field
+      required: false
+      width: full
+    - name: item6c2b_checkbox2
+      pdf_field_name: FL-342[0].Page2[0].List6[0].LI3[0].LI3List1[0].LI2[0].Item6c2[0].LI2List1[0].LI2[0].Item6c2b[0].Item6c2bCheckbox2[0]
+      type: checkbox
+      label: Item6c2b Checkbox
+      required: false
+      width: full
+    - name: item6c2b_currency_field
+      pdf_field_name: FL-342[0].Page2[0].List6[0].LI3[0].LI3List1[0].LI2[0].Item6c2[0].LI2List1[0].LI2[0].Item6c2b[0].Item6c2bCurrencyField[0]
+      type: text
+      label: Item6c2b Currency Field
+      required: false
+      width: full
+    - name: item6c2c_checkbox1
+      pdf_field_name: FL-342[0].Page2[0].List6[0].LI3[0].LI3List1[0].LI2[0].Item6c2[0].LI2List1[0].LI3[0].Item6c2c[0].Item6c2cCheckbox1[0]
+      type: checkbox
+      label: Item6c2c Checkbox
+      required: false
+      width: full
+    - name: item6c2c_percent_field
+      pdf_field_name: FL-342[0].Page2[0].List6[0].LI3[0].LI3List1[0].LI2[0].Item6c2[0].LI2List1[0].LI3[0].Item6c2c[0].Item6c2cPercentField[0]
+      type: text
+      label: Item6c2c Percent Field
+      required: false
+      width: full
+    - name: item6c2c_checkbox2
+      pdf_field_name: FL-342[0].Page2[0].List6[0].LI3[0].LI3List1[0].LI2[0].Item6c2[0].LI2List1[0].LI3[0].Item6c2c[0].Item6c2cCheckbox2[0]
+      type: checkbox
+      label: Item6c2c Checkbox
+      required: false
+      width: full
+    - name: item6c2c_currency_field
+      pdf_field_name: FL-342[0].Page2[0].List6[0].LI3[0].LI3List1[0].LI2[0].Item6c2[0].LI2List1[0].LI3[0].Item6c2c[0].Item6c2cCurrencyField[0]
+      type: text
+      label: Item6c2c Currency Field
+      required: false
+      width: full
+    - name: item6c2d_checkbox
+      pdf_field_name: FL-342[0].Page2[0].List6[0].LI3[0].LI3List1[0].LI2[0].Item6c2[0].LI2List1[0].LI4[0].Item6c2d[0].Item6c2dCheckbox[0]
+      type: checkbox
+      label: Item6c2d Checkbox
+      required: false
+      width: full
+    - name: item6c2d_text_field
+      pdf_field_name: FL-342[0].Page2[0].List6[0].LI3[0].LI3List1[0].LI2[0].Item6c2[0].LI2List1[0].LI4[0].Item6c2d[0].Item6c2dTextField[0]
+      type: text
+      label: Item6c2d Text Field
+      required: false
+      width: full
+    - name: item6d_checkbox1
+      pdf_field_name: FL-342[0].Page2[0].List6[0].LI4[0].Item6d[0].Item6dCheckbox1[0]
+      type: checkbox
+      label: Item6d Checkbox
+      required: false
+      width: full
+    - name: item6d_checkbox2
+      pdf_field_name: FL-342[0].Page2[0].List6[0].LI4[0].Item6d[0].Item6dCheckbox2[0]
+      type: checkbox
+      label: Item6d Checkbox
+      required: false
+      width: full
+    - name: item6d_checkbox2_2
+      pdf_field_name: FL-342[0].Page2[0].List6[0].LI4[0].Item6d[0].Item6dCheckbox2[1]
+      type: checkbox
+      label: Item6d Checkbox
+      required: false
+      width: full
+    - name: form_fl_342a_link
+      pdf_field_name: FL-342[0].Page2[0].List6[0].LI4[0].Item6d[0].FormFL-342ALink[0]
+      type: checkbox
+      label: Form Fl 342 A Link
+      required: false
+      width: full
+    - name: item7a_checkbox1
+      pdf_field_name: FL-342[0].Page3[0].List7[0].LI1[0].Item7a[0].Item7aCheckbox1[0]
+      type: checkbox
+      label: Item7a Checkbox
+      required: false
+      width: full
+    - name: item7a_checkbox2
+      pdf_field_name: FL-342[0].Page3[0].List7[0].LI1[0].Item7a[0].Item7aCheckbox2[0]
+      type: checkbox
+      label: Item7a Checkbox
+      required: false
+      width: full
+    - name: item7a_checkbox3
+      pdf_field_name: FL-342[0].Page3[0].List7[0].LI1[0].Item7a[0].Item7aCheckbox3[0]
+      type: checkbox
+      label: Item7a Checkbox
+      required: false
+      width: full
+    - name: item7b_checkbox1
+      pdf_field_name: FL-342[0].Page3[0].List7[0].LI2[0].Item7b[0].Item7bCheckbox1[0]
+      type: checkbox
+      label: Item7b Checkbox
+      required: false
+      width: full
+    - name: item7b_checkbox2
+      pdf_field_name: FL-342[0].Page3[0].List7[0].LI2[0].Item7b[0].Item7bCheckbox2[0]
+      type: checkbox
+      label: Item7b Checkbox
+      required: false
+      width: full
+    - name: item7b_checkbox3
+      pdf_field_name: FL-342[0].Page3[0].List7[0].LI2[0].Item7b[0].Item7bCheckbox3[0]
+      type: checkbox
+      label: Item7b Checkbox
+      required: false
+      width: full
+    - name: item7b_checkbox4
+      pdf_field_name: FL-342[0].Page3[0].List7[0].LI2[0].Item7b[0].Item7bCheckbox4[0]
+      type: checkbox
+      label: Item7b Checkbox
+      required: false
+      width: full
+    - name: item7c_checkbox
+      pdf_field_name: FL-342[0].Page3[0].List7[0].LI3[0].Item7c[0].Item7cCheckbox[0]
+      type: checkbox
+      label: Item7c Checkbox
+      required: false
+      width: full
+    - name: item10checkbox1
+      pdf_field_name: FL-342[0].Page3[0].List10[0].LI1[0].Item10[0].Item10Checkbox1[0]
+      type: checkbox
+      label: Item10 Checkbox
+      required: false
+      width: full
+    - name: item10checkbox2
+      pdf_field_name: FL-342[0].Page3[0].List10[0].LI1[0].Item10[0].Item10Checkbox2[0]
+      type: checkbox
+      label: Item10 Checkbox
+      required: false
+      width: full
+    - name: item10checkbox3
+      pdf_field_name: FL-342[0].Page3[0].List10[0].LI1[0].Item10[0].Item10Checkbox3[0]
+      type: checkbox
+      label: Item10 Checkbox
+      required: false
+      width: full
+    - name: item10checkbox4
+      pdf_field_name: FL-342[0].Page3[0].List10[0].LI1[0].Item10[0].Item10Checkbox4[0]
+      type: checkbox
+      label: Item10 Checkbox
+      required: false
+      width: full
+    - name: item10text_field
+      pdf_field_name: FL-342[0].Page3[0].List10[0].LI1[0].Item10[0].Item10TextField[0]
+      type: text
+      label: Item10 Text Field
+      required: false
+      width: full
+    - name: item11text_field
+      pdf_field_name: FL-342[0].Page3[0].List11[0].LI1[0].Item11[0].Item11TextField[0]
+      type: text
+      label: Item11 Text Field
+      required: false
+      width: full
+    - name: form_fl_192link
+      pdf_field_name: FL-342[0].Page3[0].List12[0].LI1[0].Item12a[0].FormFL-192Link[0]
+      type: checkbox
+      label: Form Fl 192 Link
+      required: false
+      width: full
+    - name: form_dv_130link
+      pdf_field_name: FL-342[0].Page3[0].List12[0].LI2[0].Item12b[0].FormDV-130Link[0]
+      type: checkbox
+      label: Form Dv 130 Link
+      required: false
+      width: full
+    - name: form_fl_191link
+      pdf_field_name: FL-342[0].Page3[0].List13[0].LI1[0].Item13[0].FormFL-191Link[0]
+      type: checkbox
+      label: Form Fl 191 Link
+      required: false
+      width: full
+  page2_caption:
+    title: Page2 Caption
+    fields:
+    - name: petitioner_text_field_2
+      pdf_field_name: FL-342[0].Page2[0].Page2Caption[0].CaseTitle[0].PetitionerTextField[0]
+      type: text
+      label: Petitioner Text Field
+      required: false
+      width: full
+    - name: respondent_text_field_2
+      pdf_field_name: FL-342[0].Page2[0].Page2Caption[0].CaseTitle[0].RespondentTextField[0]
+      type: text
+      label: Respondent Text Field
+      required: false
+      width: full
+    - name: other_party_text_field_2
+      pdf_field_name: FL-342[0].Page2[0].Page2Caption[0].CaseTitle[0].OtherPartyTextField[0]
+      type: text
+      label: Other Party Text Field
+      required: false
+      width: full
+    - name: case_number_text_field_2
+      pdf_field_name: FL-342[0].Page2[0].Page2Caption[0].CaseNumber[0].CaseNumberTextField[0]
+      type: text
+      label: Case Number Text Field
+      required: false
+      width: full
+      shared_key: case:number
+  total_child_support_calc_currency_field:
+    title: Total Child Support Calc Currency Field
+    fields:
+    - name: total_child_support_calc_currency_field
+      pdf_field_name: FL-342[0].Page2[0].TotalChildSupportCalcCurrencyField[0]
+      type: text
+      label: Total Child Support Calc Currency Field
+      required: false
+      width: full
+  page3_caption:
+    title: Page3 Caption
+    fields:
+    - name: petitioner_text_field_2
+      pdf_field_name: FL-342[0].Page3[0].Page3Caption[0].CaseTitle[0].PetitionerTextField[0]
+      type: text
+      label: Petitioner Text Field
+      required: false
+      width: full
+    - name: respondent_text_field_2
+      pdf_field_name: FL-342[0].Page3[0].Page3Caption[0].CaseTitle[0].RespondentTextField[0]
+      type: text
+      label: Respondent Text Field
+      required: false
+      width: full
+    - name: other_party_text_field_2
+      pdf_field_name: FL-342[0].Page3[0].Page3Caption[0].CaseTitle[0].OtherPartyTextField[0]
+      type: text
+      label: Other Party Text Field
+      required: false
+      width: full
+    - name: case_number_text_field_2
+      pdf_field_name: FL-342[0].Page3[0].Page3Caption[0].CaseNumber[0].CaseNumberTextField[0]
+      type: text
+      label: Case Number Text Field
+      required: false
+      width: full
+      shared_key: case:number

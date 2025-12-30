@@ -1,0 +1,371 @@
+---
+form:
+  code: CD-200
+  title: CD 200 Form
+  description: ''
+  category: general
+  pdf_filename: cd200.pdf
+  fillable: true
+  instructions: ''
+sections:
+  p1_caption:
+    title: P1 Caption
+    fields:
+    - name: case_number
+      pdf_field_name: CD-200[0].Page1[0].P1Caption[0].captionSub[0].CaseNumber[0].CaseNumber[0]
+      type: text
+      label: Case Number
+      required: false
+      width: full
+      shared_key: case:number
+    - name: text_field1
+      pdf_field_name: CD-200[0].Page1[0].P1Caption[0].AttyPartyInfo[0].TextField1[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: phone
+      pdf_field_name: CD-200[0].Page1[0].P1Caption[0].AttyPartyInfo[0].Phone[0]
+      type: tel
+      label: Phone
+      required: false
+      width: half
+    - name: fax
+      pdf_field_name: CD-200[0].Page1[0].P1Caption[0].AttyPartyInfo[0].Fax[0]
+      type: tel
+      label: Fax
+      required: false
+      width: half
+    - name: email
+      pdf_field_name: CD-200[0].Page1[0].P1Caption[0].AttyPartyInfo[0].Email[0]
+      type: email
+      label: Email
+      required: false
+      width: half
+    - name: attorney
+      pdf_field_name: CD-200[0].Page1[0].P1Caption[0].AttyPartyInfo[0].Attorney[0]
+      type: text
+      label: Attorney
+      required: false
+      width: full
+    - name: crt_county
+      pdf_field_name: CD-200[0].Page1[0].P1Caption[0].CourtInfo[0].CrtCounty[0]
+      type: number
+      label: Crt County
+      required: false
+      width: third
+    - name: crt_street
+      pdf_field_name: CD-200[0].Page1[0].P1Caption[0].CourtInfo[0].CrtStreet[0]
+      type: address
+      label: Crt Street
+      required: false
+      width: full
+    - name: crt_mailing_add
+      pdf_field_name: CD-200[0].Page1[0].P1Caption[0].CourtInfo[0].CrtMailingAdd[0]
+      type: address
+      label: Crt Mailing Add
+      required: false
+      width: full
+    - name: crt_city_zip
+      pdf_field_name: CD-200[0].Page1[0].P1Caption[0].CourtInfo[0].CrtCityZip[0]
+      type: address
+      label: Crt City Zip
+      required: false
+      width: full
+    - name: crt_branch
+      pdf_field_name: CD-200[0].Page1[0].P1Caption[0].CourtInfo[0].CrtBranch[0]
+      type: text
+      label: Crt Branch
+      required: false
+      width: full
+    - name: party1
+      pdf_field_name: CD-200[0].Page1[0].P1Caption[0].TitlePartyName[0].Party1[0]
+      type: text
+      label: Party
+      required: false
+      width: full
+    - name: party2
+      pdf_field_name: CD-200[0].Page1[0].P1Caption[0].TitlePartyName[0].Party2[0]
+      type: text
+      label: Party
+      required: false
+      width: full
+  list:
+    title: List
+    fields:
+    - name: plaintiffname
+      pdf_field_name: CD-200[0].Page1[0].List1[0].Plaintiffname[0]
+      type: text
+      label: Plaintiffname
+      required: false
+      width: full
+      shared_key: plaintiff:name
+    - name: filing_amt
+      pdf_field_name: CD-200[0].Page1[0].List1[0].Lia[0].FilingAmt[0]
+      type: text
+      label: Filing Amt
+      required: false
+      width: full
+    - name: validclaimproperty
+      pdf_field_name: CD-200[0].Page1[0].List1[0].Lib[0].Validclaimproperty[0]
+      type: text
+      label: Validclaimproperty
+      required: false
+      width: full
+    - name: valid_claim_contd
+      pdf_field_name: CD-200[0].Page1[0].List1[0].Lib[0].ValidClaimContd[0]
+      type: text
+      label: Valid Claim Contd
+      required: false
+      width: full
+    - name: unavailable_levy
+      pdf_field_name: CD-200[0].Page1[0].List1[0].Lic[0].UnavailableLevy[0]
+      type: text
+      label: Unavailable Levy
+      required: false
+      width: full
+    - name: impairedvalue
+      pdf_field_name: CD-200[0].Page1[0].List1[0].Lic[0].Impairedvalue[0]
+      type: text
+      label: Impairedvalue
+      required: false
+      width: full
+    - name: defendant_name
+      pdf_field_name: CD-200[0].Page1[0].List2[0].DefendantName[0]
+      type: text
+      label: Defendant Name
+      required: false
+      width: full
+      shared_key: defendant:name
+    - name: transferanyinterest
+      pdf_field_name: CD-200[0].Page1[0].List2[0].Lia[0].Transferanyinterest[0]
+      type: text
+      label: Transferanyinterest
+      required: false
+      width: full
+    - name: property
+      pdf_field_name: CD-200[0].Page1[0].List2[0].Lia[0].SubLia[0].Li1[0].Property[0]
+      type: text
+      label: Property
+      required: false
+      width: full
+    - name: specify_property
+      pdf_field_name: CD-200[0].Page1[0].List2[0].Lia[0].SubLia[0].Li1[0].SpecifyProperty[0]
+      type: text
+      label: Specify Property
+      required: false
+      width: full
+    - name: transfer_contd
+      pdf_field_name: CD-200[0].Page1[0].List2[0].Lia[0].SubLia[0].Li1[0].transferContd[0]
+      type: text
+      label: Transfer Contd
+      required: false
+      width: full
+    - name: farm_products
+      pdf_field_name: CD-200[0].Page1[0].List2[0].Lia[0].SubLia[0].Li2[0].FarmProducts[0]
+      type: text
+      label: Farm Products
+      required: false
+      width: full
+    - name: describe_farm_products
+      pdf_field_name: CD-200[0].Page1[0].List2[0].Lia[0].SubLia[0].Li2[0].DescribeFarmProducts[0]
+      type: text
+      label: Describe Farm Products
+      required: false
+      width: full
+    - name: farm_prodcutscontd
+      pdf_field_name: CD-200[0].Page1[0].List2[0].Lia[0].SubLia[0].Li2[0].FarmProdcutscontd[0]
+      type: text
+      label: Farm Prodcutscontd
+      required: false
+      width: full
+    - name: inventory
+      pdf_field_name: CD-200[0].Page1[0].List2[0].Lia[0].SubLia[0].Li3[0].Inventory[0]
+      type: text
+      label: Inventory
+      required: false
+      width: full
+    - name: describeinventory
+      pdf_field_name: CD-200[0].Page1[0].List2[0].Lia[0].SubLia[0].Li3[0].Describeinventory[0]
+      type: text
+      label: Describeinventory
+      required: false
+      width: full
+    - name: inventroy_contd
+      pdf_field_name: CD-200[0].Page1[0].List2[0].Lia[0].SubLia[0].Li3[0].InventroyContd[0]
+      type: text
+      label: Inventroy Contd
+      required: false
+      width: full
+    - name: concealing
+      pdf_field_name: CD-200[0].Page2[0].List2[0].Lib[0].Concealing[0]
+      type: text
+      label: Concealing
+      required: false
+      width: full
+    - name: describe_concealing
+      pdf_field_name: CD-200[0].Page2[0].List2[0].Lib[0].describeConcealing[0]
+      type: text
+      label: Describe Concealing
+      required: false
+      width: full
+    - name: concealing_contd
+      pdf_field_name: CD-200[0].Page2[0].List2[0].Lib[0].ConcealingContd[0]
+      type: text
+      label: Concealing Contd
+      required: false
+      width: full
+    - name: impairing_value
+      pdf_field_name: CD-200[0].Page2[0].List2[0].Lic[0].ImpairingValue[0]
+      type: text
+      label: Impairing Value
+      required: false
+      width: full
+    - name: propertyimpaired
+      pdf_field_name: CD-200[0].Page2[0].List2[0].Lic[0].SubLic[0].Li1[0].propertyimpaired[0]
+      type: text
+      label: Propertyimpaired
+      required: false
+      width: full
+    - name: property_impaired_contd
+      pdf_field_name: CD-200[0].Page2[0].List2[0].Lic[0].SubLic[0].Li1[0].PropertyImpairedContd[0]
+      type: text
+      label: Property Impaired Contd
+      required: false
+      width: full
+    - name: destruction
+      pdf_field_name: CD-200[0].Page2[0].List2[0].Lic[0].SubLic[0].Li2[0].Destruction[0]
+      type: text
+      label: Destruction
+      required: false
+      width: full
+    - name: destruction_contd
+      pdf_field_name: CD-200[0].Page2[0].List2[0].Lic[0].SubLic[0].Li2[0].destructionContd[0]
+      type: text
+      label: Destruction Contd
+      required: false
+      width: full
+    - name: disposing
+      pdf_field_name: CD-200[0].Page2[0].List2[0].Lid[0].Disposing[0]
+      type: text
+      label: Disposing
+      required: false
+      width: full
+    - name: inventory46
+      pdf_field_name: CD-200[0].Page2[0].List2[0].Lid[0].SubLid[0].Li1[0].inventory46[0]
+      type: text
+      label: Inventory
+      required: false
+      width: full
+    - name: describe46
+      pdf_field_name: CD-200[0].Page2[0].List2[0].Lid[0].SubLid[0].Li1[0].describe46[0]
+      type: text
+      label: Describe
+      required: false
+      width: full
+    - name: farmsaleleasecontd
+      pdf_field_name: CD-200[0].Page2[0].List2[0].Lid[0].SubLid[0].Li1[0].Farmsaleleasecontd[0]
+      type: text
+      label: Farmsaleleasecontd
+      required: false
+      width: full
+    - name: inventory45
+      pdf_field_name: CD-200[0].Page2[0].List2[0].Lid[0].SubLid[0].Li2[0].inventory45[0]
+      type: text
+      label: Inventory
+      required: false
+      width: full
+    - name: describe45
+      pdf_field_name: CD-200[0].Page2[0].List2[0].Lid[0].SubLid[0].Li2[0].describe45[0]
+      type: text
+      label: Describe
+      required: false
+      width: full
+    - name: inventory_contd
+      pdf_field_name: CD-200[0].Page2[0].List2[0].Lid[0].SubLid[0].Li2[0].inventoryContd[0]
+      type: text
+      label: Inventory Contd
+      required: false
+      width: full
+    - name: noofboxeschecked
+      pdf_field_name: CD-200[0].Page2[0].List2[0].Lie[0].Noofboxeschecked[0]
+      type: text
+      label: Noofboxeschecked
+      required: false
+      width: full
+    - name: clerkattachcopy
+      pdf_field_name: CD-200[0].Page2[0].List3[0].item3[0].Clerkattachcopy[0]
+      type: text
+      label: Clerkattachcopy
+      required: false
+      width: full
+    - name: noforceafter_date
+      pdf_field_name: CD-200[0].Page2[0].List4[0].item4[0].NoforceafterDate[0]
+      type: date
+      label: Noforceafter Date
+      required: false
+      width: half
+    - name: noof_pages_att
+      pdf_field_name: CD-200[0].Page2[0].List5[0].item5[0].NoofPagesAtt[0]
+      type: text
+      label: Noof Pages Att
+      required: false
+      width: full
+  mp_last:
+    title: Mp Last
+    fields:
+    - name: print
+      pdf_field_name: CD-200[0].#pageSet[0].MPLast[0].Print[0]
+      type: checkbox
+      label: Print
+      required: false
+      width: full
+    - name: save
+      pdf_field_name: CD-200[0].#pageSet[0].MPLast[0].Save[0]
+      type: checkbox
+      label: Save
+      required: false
+      width: full
+    - name: reset
+      pdf_field_name: CD-200[0].#pageSet[0].MPLast[0].Reset[0]
+      type: checkbox
+      label: Reset
+      required: false
+      width: full
+  px_caption:
+    title: Px Caption
+    fields:
+    - name: party1_2
+      pdf_field_name: CD-200[0].Page2[0].PxCaption[0].TitlePartyName[0].Party1[0]
+      type: text
+      label: Party
+      required: false
+      width: full
+    - name: party2_2
+      pdf_field_name: CD-200[0].Page2[0].PxCaption[0].TitlePartyName[0].Party2[0]
+      type: text
+      label: Party
+      required: false
+      width: full
+    - name: case_number_2
+      pdf_field_name: CD-200[0].Page2[0].PxCaption[0].CaseNumber[0].CaseNumber[0]
+      type: text
+      label: Case Number
+      required: false
+      width: full
+      shared_key: case:number
+  sign:
+    title: Sign
+    fields:
+    - name: sig_date
+      pdf_field_name: CD-200[0].Page2[0].Sign[0].SigDate[0]
+      type: signature
+      label: Sig Date
+      required: false
+      width: full
+    - name: sigafterlastatt
+      pdf_field_name: CD-200[0].Page2[0].Sign[0].Sigafterlastatt[0]
+      type: signature
+      label: Sigafterlastatt
+      required: false
+      width: full

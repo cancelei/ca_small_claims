@@ -1,0 +1,447 @@
+---
+form:
+  code: FL-686
+  title: FL 686 Form
+  description: ''
+  category: family_law/general
+  pdf_filename: fl686.pdf
+  fillable: true
+  instructions: ''
+sections:
+  p1_caption:
+    title: P1 Caption
+    fields:
+    - name: atty_bar_no
+      pdf_field_name: FL-686[0].Page1[0].P1Caption[0].AttyPartyInfo[0].AttyBarNo[0]
+      type: text
+      label: Atty Bar No
+      required: false
+      width: full
+    - name: address1
+      pdf_field_name: FL-686[0].Page1[0].P1Caption[0].AttyPartyInfo[0].Address1[0]
+      type: address
+      label: Address
+      required: false
+      width: full
+    - name: address2
+      pdf_field_name: FL-686[0].Page1[0].P1Caption[0].AttyPartyInfo[0].Address2[0]
+      type: address
+      label: Address
+      required: false
+      width: full
+    - name: address3
+      pdf_field_name: FL-686[0].Page1[0].P1Caption[0].AttyPartyInfo[0].Address3[0]
+      type: address
+      label: Address
+      required: false
+      width: full
+    - name: phone
+      pdf_field_name: FL-686[0].Page1[0].P1Caption[0].AttyPartyInfo[0].Phone[0]
+      type: tel
+      label: Phone
+      required: false
+      width: half
+    - name: fax
+      pdf_field_name: FL-686[0].Page1[0].P1Caption[0].AttyPartyInfo[0].Fax[0]
+      type: tel
+      label: Fax
+      required: false
+      width: half
+    - name: email
+      pdf_field_name: FL-686[0].Page1[0].P1Caption[0].AttyPartyInfo[0].Email[0]
+      type: email
+      label: Email
+      required: false
+      width: half
+    - name: atty_for
+      pdf_field_name: FL-686[0].Page1[0].P1Caption[0].AttyPartyInfo[0].AttyFor[0]
+      type: text
+      label: Atty For
+      required: false
+      width: full
+    - name: crt_county
+      pdf_field_name: FL-686[0].Page1[0].P1Caption[0].CourtInfo[0].CrtCounty[0]
+      type: number
+      label: Crt County
+      required: false
+      width: third
+    - name: crt_street
+      pdf_field_name: FL-686[0].Page1[0].P1Caption[0].CourtInfo[0].CrtStreet[0]
+      type: address
+      label: Crt Street
+      required: false
+      width: full
+    - name: crt_mailing_add
+      pdf_field_name: FL-686[0].Page1[0].P1Caption[0].CourtInfo[0].CrtMailingAdd[0]
+      type: address
+      label: Crt Mailing Add
+      required: false
+      width: full
+    - name: crt_city_zip
+      pdf_field_name: FL-686[0].Page1[0].P1Caption[0].CourtInfo[0].CrtCityZip[0]
+      type: address
+      label: Crt City Zip
+      required: false
+      width: full
+    - name: crt_branch
+      pdf_field_name: FL-686[0].Page1[0].P1Caption[0].CourtInfo[0].CrtBranch[0]
+      type: text
+      label: Crt Branch
+      required: false
+      width: full
+    - name: party1
+      pdf_field_name: FL-686[0].Page1[0].P1Caption[0].TitlePartyName[0].Party1[0]
+      type: text
+      label: Party
+      required: false
+      width: full
+    - name: party2
+      pdf_field_name: FL-686[0].Page1[0].P1Caption[0].TitlePartyName[0].Party2[0]
+      type: text
+      label: Party
+      required: false
+      width: full
+    - name: party3
+      pdf_field_name: FL-686[0].Page1[0].P1Caption[0].TitlePartyName[0].Party3[0]
+      type: text
+      label: Party
+      required: false
+      width: full
+    - name: case_number
+      pdf_field_name: FL-686[0].Page1[0].P1Caption[0].CaseNumber[0].CaseNumber[0]
+      type: text
+      label: Case Number
+      required: false
+      width: full
+      shared_key: case:number
+    - name: text_field2
+      pdf_field_name: FL-686[0].Page1[0].P1Caption[0].TextField2[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: fill_text1
+      pdf_field_name: FL-686[0].Page1[0].P1Caption[0].FillText1[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: check_box3
+      pdf_field_name: FL-686[0].Page1[0].P1Caption[0].CheckBox3[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: rb2choices
+      pdf_field_name: FL-686[0].Page1[0].P1Caption[0].RB2Choices[0]
+      type: text
+      label: Rb2 Choices
+      required: false
+      width: full
+    - name: multiline_check_box
+      pdf_field_name: FL-686[0].Page1[0].P1Caption[0].MultilineCheckBox[0]
+      type: checkbox
+      label: Multiline Check Box
+      required: false
+      width: full
+    - name: check_box_right_caption
+      pdf_field_name: FL-686[0].Page1[0].P1Caption[0].CheckBoxRightCaption[0]
+      type: checkbox
+      label: Check Box Right Caption
+      required: false
+      width: full
+    - name: check_box_right_caption_2
+      pdf_field_name: FL-686[0].Page1[0].P1Caption[0].CheckBoxRightCaption[1]
+      type: checkbox
+      label: Check Box Right Caption
+      required: false
+      width: full
+    - name: check_box_right_caption_2
+      pdf_field_name: FL-686[0].Page1[0].P1Caption[0].CheckBoxRightCaption[2]
+      type: checkbox
+      label: Check Box Right Caption
+      required: false
+      width: full
+    - name: check_box_right_caption_2
+      pdf_field_name: FL-686[0].Page1[0].P1Caption[0].CheckBoxRightCaption[3]
+      type: checkbox
+      label: Check Box Right Caption
+      required: false
+      width: full
+    - name: check_box_right_caption_2
+      pdf_field_name: FL-686[0].Page1[0].P1Caption[0].CheckBoxRightCaption[4]
+      type: checkbox
+      label: Check Box Right Caption
+      required: false
+      width: full
+    - name: button1
+      pdf_field_name: FL-686[0].Page1[0].P1Caption[0].Button1[0]
+      type: checkbox
+      label: Button
+      required: false
+      width: full
+    - name: button1_2
+      pdf_field_name: FL-686[0].Page1[0].P1Caption[0].Button1[1]
+      type: checkbox
+      label: Button
+      required: false
+      width: full
+    - name: button1_2
+      pdf_field_name: FL-686[0].Page1[0].P1Caption[0].Button1[2]
+      type: checkbox
+      label: Button
+      required: false
+      width: full
+    - name: button1_2
+      pdf_field_name: FL-686[0].Page1[0].P1Caption[0].Button1[3]
+      type: checkbox
+      label: Button
+      required: false
+      width: full
+    - name: button1_2
+      pdf_field_name: FL-686[0].Page1[0].P1Caption[0].Button1[4]
+      type: checkbox
+      label: Button
+      required: false
+      width: full
+  last_page:
+    title: Last Page
+    fields:
+    - name: case_number_2
+      pdf_field_name: FL-686[0].#pageSet[0].LastPage[0].PxCaption[0].CaseNumber[0].CaseNumber[0]
+      type: text
+      label: Case Number
+      required: false
+      width: full
+      shared_key: case:number
+    - name: party1_2
+      pdf_field_name: FL-686[0].#pageSet[0].LastPage[0].PxCaption[0].Party1[0]
+      type: text
+      label: Party
+      required: false
+      width: full
+    - name: party2_2
+      pdf_field_name: FL-686[0].#pageSet[0].LastPage[0].PxCaption[0].Party2[0]
+      type: text
+      label: Party
+      required: false
+      width: full
+    - name: party3_2
+      pdf_field_name: FL-686[0].#pageSet[0].LastPage[0].PxCaption[0].Party3[0]
+      type: text
+      label: Party
+      required: false
+      width: full
+  sig_date:
+    title: Sig Date
+    fields:
+    - name: sig_date
+      pdf_field_name: FL-686[0].Page2[0].SigDate[0]
+      type: date
+      label: Sig Date
+      required: false
+      width: half
+  sig_name:
+    title: Sig Name
+    fields:
+    - name: sig_name
+      pdf_field_name: FL-686[0].Page2[0].SigName[0]
+      type: text
+      label: Sig Name
+      required: false
+      width: full
+  text_field:
+    title: Text Field
+    fields:
+    - name: text_field2_2
+      pdf_field_name: FL-686[0].Page2[0].TextField2[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field2_2
+      pdf_field_name: FL-686[0].Page2[0].TextField2[1]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field2_2
+      pdf_field_name: FL-686[0].Page2[0].TextField2[2]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field2_2
+      pdf_field_name: FL-686[0].Page2[0].TextField2[3]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field2_2
+      pdf_field_name: FL-686[0].Page2[0].TextField2[4]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field2_2
+      pdf_field_name: FL-686[0].Page2[0].TextField2[5]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field2_2
+      pdf_field_name: FL-686[0].Page2[0].TextField2[6]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field2_2
+      pdf_field_name: FL-686[0].Page2[0].TextField2[7]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+  date_field:
+    title: Date Field
+    fields:
+    - name: date_field1
+      pdf_field_name: FL-686[0].Page2[0].DateField1[0]
+      type: date
+      label: Date Field
+      required: false
+      width: half
+  fill_text:
+    title: Fill Text
+    fields:
+    - name: fill_text1_2
+      pdf_field_name: FL-686[0].Page2[0].FillText1[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text1_2
+      pdf_field_name: FL-686[0].Page2[0].FillText1[1]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text1_2
+      pdf_field_name: FL-686[0].Page2[0].FillText1[2]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text1_2
+      pdf_field_name: FL-686[0].Page2[0].FillText1[3]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text1_2
+      pdf_field_name: FL-686[0].Page2[0].FillText1[4]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text1_2
+      pdf_field_name: FL-686[0].Page2[0].FillText1[5]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text1_2
+      pdf_field_name: FL-686[0].Page2[0].FillText1[6]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+  check_box:
+    title: Check Box
+    fields:
+    - name: check_box3_2
+      pdf_field_name: FL-686[0].Page2[0].CheckBox3[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box3_2
+      pdf_field_name: FL-686[0].Page2[0].CheckBox3[1]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box3_2
+      pdf_field_name: FL-686[0].Page2[0].CheckBox3[2]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box3_2
+      pdf_field_name: FL-686[0].Page2[0].CheckBox3[3]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box3_2
+      pdf_field_name: FL-686[0].Page2[0].CheckBox3[4]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box3_2
+      pdf_field_name: FL-686[0].Page2[0].CheckBox3[5]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box3_2
+      pdf_field_name: FL-686[0].Page2[0].CheckBox3[6]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+  check_box_right_caption:
+    title: Check Box Right Caption
+    fields:
+    - name: check_box_right_caption_2
+      pdf_field_name: FL-686[0].Page2[0].CheckBoxRightCaption[0]
+      type: checkbox
+      label: Check Box Right Caption
+      required: false
+      width: full
+  print:
+    title: Print
+    fields:
+    - name: print
+      pdf_field_name: FL-686[0].Page2[0].#area[0].Print[0]
+      type: checkbox
+      label: Print
+      required: false
+      width: full
+  save:
+    title: Save
+    fields:
+    - name: save
+      pdf_field_name: FL-686[0].Page2[0].#area[0].Save[0]
+      type: checkbox
+      label: Save
+      required: false
+      width: full
+  reset:
+    title: Reset
+    fields:
+    - name: reset
+      pdf_field_name: FL-686[0].Page2[0].#area[0].Reset[0]
+      type: checkbox
+      label: Reset
+      required: false
+      width: full
+  warning:
+    title: Warning
+    fields:
+    - name: warning
+      pdf_field_name: FL-686[0].Page2[0].#area[0].Warning[0]
+      type: checkbox
+      label: Warning
+      required: false
+      width: full

@@ -1,0 +1,480 @@
+---
+form:
+  code: JV-176
+  title: JV 176 Form
+  description: ''
+  category: juvenile/general
+  pdf_filename: jv176.pdf
+  fillable: true
+  instructions: ''
+sections:
+  right_caption:
+    title: Right Caption
+    fields:
+    - name: court_info
+      pdf_field_name: JV-176[0].Page1[0].RightCaption[0].CourtInfo[0]
+      type: text
+      label: Court Info
+      required: false
+      width: full
+    - name: name
+      pdf_field_name: JV-176[0].Page1[0].RightCaption[0].name[0]
+      type: text
+      label: Name
+      required: false
+      width: full
+    - name: namedob
+      pdf_field_name: JV-176[0].Page1[0].RightCaption[0].namedob[0]
+      type: text
+      label: Namedob
+      required: false
+      width: full
+    - name: case_number
+      pdf_field_name: JV-176[0].Page1[0].RightCaption[0].CaseNumber[0]
+      type: text
+      label: Case Number
+      required: false
+      width: full
+      shared_key: case:number
+  item:
+    title: Item
+    fields:
+    - name: sig_date
+      pdf_field_name: JV-176[0].Page1[0].item1[0].SigDate[0]
+      type: date
+      label: Sig Date
+      required: false
+      width: half
+    - name: time
+      pdf_field_name: JV-176[0].Page1[0].item1[0].time[0]
+      type: text
+      label: Time
+      required: false
+      width: full
+    - name: dept
+      pdf_field_name: JV-176[0].Page1[0].item1[0].dept[0]
+      type: text
+      label: Dept
+      required: false
+      width: full
+    - name: full_name
+      pdf_field_name: JV-176[0].Page1[0].item1[0].FullName[0]
+      type: text
+      label: Full Name
+      required: false
+      width: full
+    - name: protected_lawyer_name
+      pdf_field_name: JV-176[0].Page1[0].item1[0].ProtectedLawyerName[0]
+      type: text
+      label: Protected Lawyer Name
+      required: false
+      width: full
+    - name: text_field
+      pdf_field_name: JV-176[0].Page1[0].item1[0].TextField[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: thereport2
+      pdf_field_name: JV-176[0].Page1[0].item2[0].thereport2[0]
+      type: text
+      label: Thereport
+      required: false
+      width: full
+    - name: socialworker2
+      pdf_field_name: JV-176[0].Page1[0].item2[0].socialworker2[0]
+      type: text
+      label: Socialworker
+      required: false
+      width: full
+    - name: po2
+      pdf_field_name: JV-176[0].Page1[0].item2[0].po2[0]
+      type: text
+      label: Po
+      required: false
+      width: full
+    - name: fileddate2
+      pdf_field_name: JV-176[0].Page1[0].item2[0].fileddate2[0]
+      type: date
+      label: Fileddate
+      required: false
+      width: half
+    - name: casadated
+      pdf_field_name: JV-176[0].Page1[0].item2[0].casadated[0]
+      type: date
+      label: Casadated
+      required: false
+      width: half
+    - name: sig_date_2
+      pdf_field_name: JV-176[0].Page1[0].item2[0].SigDate[0]
+      type: date
+      label: Sig Date
+      required: false
+      width: half
+    - name: c
+      pdf_field_name: JV-176[0].Page1[0].item2[0].other2\.c[0]
+      type: text
+      label: C
+      required: false
+      width: full
+    - name: c_2
+      pdf_field_name: JV-176[0].Page1[0].item2[0].specify\.c[0]
+      type: text
+      label: C
+      required: false
+      width: full
+    - name: e
+      pdf_field_name: JV-176[0].Page1[0].item2[0].specify\.e[0]
+      type: text
+      label: E
+      required: false
+      width: full
+    - name: d
+      pdf_field_name: JV-176[0].Page1[0].item2[0].specify\.d[0]
+      type: text
+      label: D
+      required: false
+      width: full
+    - name: d_2
+      pdf_field_name: JV-176[0].Page1[0].item2[0].other\.d[0]
+      type: text
+      label: D
+      required: false
+      width: full
+    - name: e_2
+      pdf_field_name: JV-176[0].Page1[0].item2[0].other\.e[0]
+      type: text
+      label: E
+      required: false
+      width: full
+    - name: noricereq3
+      pdf_field_name: JV-176[0].Page1[0].item3[0].noricereq3[0]
+      type: text
+      label: Noricereq
+      required: false
+      width: full
+    - name: check_box_right_caption
+      pdf_field_name: JV-176[0].Page1[0].item3[0].CheckBoxRightCaption[0]
+      type: checkbox
+      label: Check Box Right Caption
+      required: false
+      width: full
+    - name: text_field_2
+      pdf_field_name: JV-176[0].Page1[0].item3[0].TextField[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: nonminor4
+      pdf_field_name: JV-176[0].Page1[0].item4[0].nonminor4[0]
+      type: text
+      label: Nonminor
+      required: false
+      width: full
+    - name: nonminordept4
+      pdf_field_name: JV-176[0].Page1[0].item4[0].nonminordept4[0]
+      type: text
+      label: Nonminordept
+      required: false
+      width: full
+    - name: continues4
+      pdf_field_name: JV-176[0].Page1[0].item4[0].continues4[0]
+      type: text
+      label: Continues
+      required: false
+      width: full
+    - name: doesnotcon4
+      pdf_field_name: JV-176[0].Page1[0].item4[0].doesnotcon4[0]
+      type: text
+      label: Doesnotcon
+      required: false
+      width: full
+    - name: isisnot4
+      pdf_field_name: JV-176[0].Page1[0].item4[0].isisnot4[0]
+      type: text
+      label: Isisnot
+      required: false
+      width: full
+    - name: check_box_right_caption_2
+      pdf_field_name: JV-176[0].Page1[0].item4[0].CheckBoxRightCaption[0]
+      type: checkbox
+      label: Check Box Right Caption
+      required: false
+      width: full
+    - name: the5
+      pdf_field_name: JV-176[0].Page1[0].item5[0].the5[0]
+      type: text
+      label: The
+      required: false
+      width: full
+    - name: socialworker5
+      pdf_field_name: JV-176[0].Page1[0].item5[0].socialworker5[0]
+      type: text
+      label: Socialworker
+      required: false
+      width: full
+    - name: po5
+      pdf_field_name: JV-176[0].Page1[0].item5[0].po5[0]
+      type: text
+      label: Po
+      required: false
+      width: full
+    - name: po5_2
+      pdf_field_name: JV-176[0].Page1[0].item5[0].po5\.2[0]
+      type: text
+      label: Po5\
+      required: false
+      width: full
+    - name: socialworker5_2
+      pdf_field_name: JV-176[0].Page1[0].item5[0].socialworker5\.2[0]
+      type: text
+      label: Socialworker5\
+      required: false
+      width: full
+    - name: the5_2
+      pdf_field_name: JV-176[0].Page1[0].item5[0].the5\.2[0]
+      type: text
+      label: The5\
+      required: false
+      width: full
+    - name: a
+      pdf_field_name: JV-176[0].Page1[0].item5[0].nonminor5\.a[0]
+      type: text
+      label: A
+      required: false
+      width: full
+    - name: a_2
+      pdf_field_name: JV-176[0].Page1[0].item5[0].nonminordept5\.a[0]
+      type: text
+      label: A
+      required: false
+      width: full
+    - name: thecourt5
+      pdf_field_name: JV-176[0].Page2[0].item5[0].thecourt5\.2[0]
+      type: text
+      label: Thecourt5\
+      required: false
+      width: full
+    - name: childwelf5
+      pdf_field_name: JV-176[0].Page2[0].item5[0].childwelf5\.2[0]
+      type: text
+      label: Childwelf5\
+      required: false
+      width: full
+    - name: po5_2
+      pdf_field_name: JV-176[0].Page2[0].item5[0].po5\.2[0]
+      type: text
+      label: Po5\
+      required: false
+      width: full
+    - name: po5_2
+      pdf_field_name: JV-176[0].Page2[0].item5[0].po5\.3[0]
+      type: text
+      label: Po5\
+      required: false
+      width: full
+    - name: po5_2
+      pdf_field_name: JV-176[0].Page2[0].item5[0].po5\.1[0]
+      type: text
+      label: Po5\
+      required: false
+      width: full
+    - name: setting5
+      pdf_field_name: JV-176[0].Page2[0].item5[0].setting5[0]
+      type: text
+      label: Setting
+      required: false
+      width: full
+    - name: welfage5
+      pdf_field_name: JV-176[0].Page2[0].item5[0].welfage5\.3[0]
+      type: text
+      label: Welfage5\
+      required: false
+      width: full
+    - name: section388
+      pdf_field_name: JV-176[0].Page2[0].item5[0].section388[0]
+      type: text
+      label: Section
+      required: false
+      width: full
+    - name: section778
+      pdf_field_name: JV-176[0].Page2[0].item5[0].section778[0]
+      type: text
+      label: Section
+      required: false
+      width: full
+    - name: date5
+      pdf_field_name: JV-176[0].Page2[0].item5[0].date5\.4[0]
+      type: date
+      label: Date5\
+      required: false
+      width: half
+    - name: attime5
+      pdf_field_name: JV-176[0].Page2[0].item5[0].attime5\.4[0]
+      type: text
+      label: Attime5\
+      required: false
+      width: full
+    - name: attime5_2
+      pdf_field_name: JV-176[0].Page2[0].item5[0].attime5\.5[0]
+      type: text
+      label: Attime5\
+      required: false
+      width: full
+    - name: a_2
+      pdf_field_name: JV-176[0].Page2[0].item5[0].attime5\.a[0]
+      type: text
+      label: A
+      required: false
+      width: full
+    - name: text_field_2
+      pdf_field_name: JV-176[0].Page2[0].item5[0].TextField[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: scheduled5
+      pdf_field_name: JV-176[0].Page2[0].item5[0].scheduled5\.5[0]
+      type: text
+      label: Scheduled5\
+      required: false
+      width: full
+    - name: indept5
+      pdf_field_name: JV-176[0].Page2[0].item5[0].indept5\.5[0]
+      type: text
+      label: Indept5\
+      required: false
+      width: full
+    - name: a_2
+      pdf_field_name: JV-176[0].Page2[0].item5[0].indept5\.a[0]
+      type: text
+      label: A
+      required: false
+      width: full
+    - name: thenonminor5
+      pdf_field_name: JV-176[0].Page2[0].item5[0].thenonminor5\.5[0]
+      type: text
+      label: Thenonminor5\
+      required: false
+      width: full
+    - name: b
+      pdf_field_name: JV-176[0].Page2[0].item5[0].the5\.b[0]
+      type: text
+      label: B
+      required: false
+      width: full
+    - name: socialworker5_2
+      pdf_field_name: JV-176[0].Page2[0].item5[0].socialworker5\.1[0]
+      type: text
+      label: Socialworker5\
+      required: false
+      width: full
+    - name: on_date
+      pdf_field_name: JV-176[0].Page2[0].item5[0].OnDate[0]
+      type: date
+      label: On Date
+      required: false
+      width: half
+    - name: b_2
+      pdf_field_name: JV-176[0].Page2[0].item5[0].nonminor5\.b[0]
+      type: text
+      label: B
+      required: false
+      width: full
+    - name: b_2
+      pdf_field_name: JV-176[0].Page2[0].item5[0].nonminordept5\.b[0]
+      type: text
+      label: B
+      required: false
+      width: full
+    - name: text_field_2
+      pdf_field_name: JV-176[0].Page2[0].item6[0].TextField[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: thepsych6
+      pdf_field_name: JV-176[0].Page2[0].item6[0].thepsych6[0]
+      type: text
+      label: Thepsych
+      required: false
+      width: full
+    - name: the6
+      pdf_field_name: JV-176[0].Page2[0].item6[0].the6[0]
+      type: text
+      label: The
+      required: false
+      width: full
+    - name: socialworker6
+      pdf_field_name: JV-176[0].Page2[0].item6[0].socialworker6[0]
+      type: text
+      label: Socialworker
+      required: false
+      width: full
+    - name: po6
+      pdf_field_name: JV-176[0].Page2[0].item6[0].po6[0]
+      type: text
+      label: Po
+      required: false
+      width: full
+    - name: thecourt6
+      pdf_field_name: JV-176[0].Page2[0].item6[0].thecourt6[0]
+      type: text
+      label: Thecourt
+      required: false
+      width: full
+  footer:
+    title: Footer
+    fields:
+    - name: court_link
+      pdf_field_name: JV-176[0].Page1[0].Footer[0].CourtLink[0]
+      type: checkbox
+      label: Court Link
+      required: false
+      width: full
+  px_caption:
+    title: Px Caption
+    fields:
+    - name: case_number_2
+      pdf_field_name: JV-176[0].Page2[0].PxCaption[0].CaseNumber[0]
+      type: text
+      label: Case Number
+      required: false
+      width: full
+      shared_key: case:number
+  signaturesub:
+    title: Signaturesub
+    fields:
+    - name: sig_date_2
+      pdf_field_name: JV-176[0].Page2[0].signaturesub[0].SigDate[0]
+      type: signature
+      label: Sig Date
+      required: false
+      width: full
+  footer_buttons:
+    title: Footer Buttons
+    fields:
+    - name: print
+      pdf_field_name: JV-176[0].FooterButtons[0].Print[0]
+      type: checkbox
+      label: Print
+      required: false
+      width: full
+    - name: save
+      pdf_field_name: JV-176[0].FooterButtons[0].Save[0]
+      type: checkbox
+      label: Save
+      required: false
+      width: full
+    - name: reset
+      pdf_field_name: JV-176[0].FooterButtons[0].Reset[0]
+      type: checkbox
+      label: Reset
+      required: false
+      width: full
+    - name: warning
+      pdf_field_name: JV-176[0].FooterButtons[0].Warning[0]
+      type: checkbox
+      label: Warning
+      required: false
+      width: full

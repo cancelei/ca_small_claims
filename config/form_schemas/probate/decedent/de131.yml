@@ -1,0 +1,211 @@
+---
+form:
+  code: DE-131
+  title: DE 131 Form
+  description: ''
+  category: probate/decedent
+  pdf_filename: de131.pdf
+  fillable: true
+  instructions: ''
+sections:
+  general:
+    title: General
+    fields:
+    - name: cb
+      pdf_field_name: CB.0.0
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: cb_2
+      pdf_field_name: CB.0.1
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: cb_2
+      pdf_field_name: CB.0.2
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: cb_2
+      pdf_field_name: CB.0.3
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: cb_2
+      pdf_field_name: CB.0.4
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: cb_2
+      pdf_field_name: CB.0.5
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: cb_2
+      pdf_field_name: CB.0.6
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: cb_2
+      pdf_field_name: CB.0.7
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: cb_2
+      pdf_field_name: CB.0.8
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: cb_2
+      pdf_field_name: CB.0.9
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: cb_2
+      pdf_field_name: CB.0.10
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: cb_2
+      pdf_field_name: CB.0.11
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: cb_2
+      pdf_field_name: CB.0.12
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: text
+      pdf_field_name: TEXT.1.0
+      type: text
+      label: Text
+      required: false
+      width: full
+    - name: text_2
+      pdf_field_name: TEXT.1.1
+      type: text
+      label: Text
+      required: false
+      width: full
+    - name: text_2
+      pdf_field_name: TEXT.1.2
+      type: text
+      label: Text
+      required: false
+      width: full
+    - name: text_2
+      pdf_field_name: TEXT.1.3
+      type: text
+      label: Text
+      required: false
+      width: full
+    - name: text_2
+      pdf_field_name: TEXT.1.4
+      type: text
+      label: Text
+      required: false
+      width: full
+    - name: text_2
+      pdf_field_name: TEXT.1.5
+      type: text
+      label: Text
+      required: false
+      width: full
+    - name: text_2
+      pdf_field_name: TEXT.1.6
+      type: text
+      label: Text
+      required: false
+      width: full
+    - name: text_2
+      pdf_field_name: TEXT.1.7
+      type: text
+      label: Text
+      required: false
+      width: full
+    - name: text_2
+      pdf_field_name: TEXT.1.8
+      type: text
+      label: Text
+      required: false
+      width: full
+    - name: text_2
+      pdf_field_name: TEXT.1.9
+      type: text
+      label: Text
+      required: false
+      width: full
+    - name: text_2
+      pdf_field_name: TEXT.1.10
+      type: text
+      label: Text
+      required: false
+      width: full
+    - name: text_2
+      pdf_field_name: TEXT.1.11
+      type: text
+      label: Text
+      required: false
+      width: full
+    - name: text_2
+      pdf_field_name: TEXT.1.12
+      type: text
+      label: Text
+      required: false
+      width: full
+    - name: text_2
+      pdf_field_name: TEXT.1.14
+      type: text
+      label: Text
+      required: false
+      width: full
+    - name: text_2
+      pdf_field_name: TEXT.1.15
+      type: text
+      label: Text
+      required: false
+      width: full
+    - name: text_2
+      pdf_field_name: TEXT.1.16
+      type: text
+      label: Text
+      required: false
+      width: full
+    - name: text_2
+      pdf_field_name: TEXT.1.17
+      type: text
+      label: Text
+      required: false
+      width: full
+    - name: text_2
+      pdf_field_name: TEXT.1.18
+      type: text
+      label: Text
+      required: false
+      width: full
+    - name: text_2
+      pdf_field_name: TEXT.1.19
+      type: text
+      label: Text
+      required: false
+      width: full
+    - name: text_2
+      pdf_field_name: TEXT.1.13.0
+      type: text
+      label: Text
+      required: false
+      width: full

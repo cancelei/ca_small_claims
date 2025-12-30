@@ -1,0 +1,173 @@
+---
+form:
+  code: FL-235
+  title: FL 235 Form
+  description: ''
+  category: family_law/general
+  pdf_filename: fl235.pdf
+  fillable: true
+  instructions: ''
+sections:
+  px_caption:
+    title: Px Caption
+    fields:
+    - name: party1_ft
+      pdf_field_name: FL-235[0].#subform[0].pxCaption[0].TitlePartyName[0].Party1_ft[0]
+      type: text
+      label: Party1 Ft
+      required: false
+      width: full
+    - name: party2_ft
+      pdf_field_name: FL-235[0].#subform[0].pxCaption[0].TitlePartyName[0].Party2_ft[0]
+      type: text
+      label: Party2 Ft
+      required: false
+      width: full
+    - name: case_number
+      pdf_field_name: FL-235[0].#subform[0].pxCaption[0].CaseNumber[0].CaseNumber[0]
+      type: text
+      label: Case Number
+      required: false
+      width: full
+      shared_key: case:number
+  fill_text:
+    title: Fill Text
+    fields:
+    - name: fill_text1140
+      pdf_field_name: FL-235[0].#subform[0].FillText1140[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text56
+      pdf_field_name: FL-235[0].#subform[0].FillText56[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text109
+      pdf_field_name: FL-235[0].#subform[0].FillText109[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text109_2
+      pdf_field_name: FL-235[0].#subform[0].FillText109[1]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text1140_2
+      pdf_field_name: FL-235[0].#subform[0].FillText1140[1]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text56_2
+      pdf_field_name: FL-235[0].#subform[0].FillText56[1]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+  check_box:
+    title: Check Box
+    fields:
+    - name: check_box1
+      pdf_field_name: FL-235[0].#subform[0].CheckBox1[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box1_2
+      pdf_field_name: FL-235[0].#subform[0].CheckBox1[1]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box1_2
+      pdf_field_name: FL-235[0].#subform[0].CheckBox1[2]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box1_2
+      pdf_field_name: FL-235[0].#subform[0].CheckBox1[3]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+  rb2_choices:
+    title: Rb2 Choices
+    fields:
+    - name: rb2choices
+      pdf_field_name: FL-235[0].#subform[0].RB2Choices[0]
+      type: text
+      label: Rb2 Choices
+      required: false
+      width: full
+    - name: rb2choices_2
+      pdf_field_name: FL-235[0].#subform[0].RB2Choices[1]
+      type: text
+      label: Rb2 Choices
+      required: false
+      width: full
+    - name: rb2choices_2
+      pdf_field_name: FL-235[0].#subform[0].RB2Choices[2]
+      type: text
+      label: Rb2 Choices
+      required: false
+      width: full
+    - name: rb2choices_2
+      pdf_field_name: FL-235[0].#subform[0].RB2Choices[3]
+      type: text
+      label: Rb2 Choices
+      required: false
+      width: full
+    - name: rb2choices_2
+      pdf_field_name: FL-235[0].#subform[0].RB2Choices[4]
+      type: text
+      label: Rb2 Choices
+      required: false
+      width: full
+    - name: rb2choices_2
+      pdf_field_name: FL-235[0].#subform[0].RB2Choices[5]
+      type: text
+      label: Rb2 Choices
+      required: false
+      width: full
+  print:
+    title: Print
+    fields:
+    - name: print
+      pdf_field_name: FL-235[0].#subform[0].#area[2].Print[0]
+      type: checkbox
+      label: Print
+      required: false
+      width: full
+  save:
+    title: Save
+    fields:
+    - name: save
+      pdf_field_name: FL-235[0].#subform[0].#area[2].Save[0]
+      type: checkbox
+      label: Save
+      required: false
+      width: full
+  reset:
+    title: Reset
+    fields:
+    - name: reset
+      pdf_field_name: FL-235[0].#subform[0].#area[2].Reset[0]
+      type: checkbox
+      label: Reset
+      required: false
+      width: full
+  warning:
+    title: Warning
+    fields:
+    - name: warning
+      pdf_field_name: FL-235[0].#subform[0].#area[2].Warning[0]
+      type: checkbox
+      label: Warning
+      required: false
+      width: full

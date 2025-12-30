@@ -1,0 +1,324 @@
+---
+form:
+  code: MD-140
+  title: MD 140 Form
+  description: ''
+  category: general
+  pdf_filename: md140.pdf
+  fillable: true
+  instructions: ''
+sections:
+  std_p1_header_sf:
+    title: Std P1 Header Sf
+    fields:
+    - name: crt_county
+      pdf_field_name: MD-140[0].Page1[0].StdP1Header_sf[0].CourtInfo[0].CrtCounty[0]
+      type: number
+      label: Crt County
+      required: false
+      width: third
+    - name: branch
+      pdf_field_name: MD-140[0].Page1[0].StdP1Header_sf[0].CourtInfo[0].Branch[0]
+      type: text
+      label: Branch
+      required: false
+      width: full
+    - name: city_zip
+      pdf_field_name: MD-140[0].Page1[0].StdP1Header_sf[0].CourtInfo[0].CityZip[0]
+      type: address
+      label: City Zip
+      required: false
+      width: full
+    - name: street
+      pdf_field_name: MD-140[0].Page1[0].StdP1Header_sf[0].CourtInfo[0].Street[0]
+      type: address
+      label: Street
+      required: false
+      width: full
+    - name: mailing_add
+      pdf_field_name: MD-140[0].Page1[0].StdP1Header_sf[0].CourtInfo[0].MailingAdd[0]
+      type: address
+      label: Mailing Add
+      required: false
+      width: full
+    - name: party1
+      pdf_field_name: MD-140[0].Page1[0].StdP1Header_sf[0].TitlePartyName[0].Party1[0]
+      type: text
+      label: Party
+      required: false
+      width: full
+    - name: party2
+      pdf_field_name: MD-140[0].Page1[0].StdP1Header_sf[0].TitlePartyName[0].Party2[0]
+      type: text
+      label: Party
+      required: false
+      width: full
+    - name: case_number
+      pdf_field_name: MD-140[0].Page1[0].StdP1Header_sf[0].CaseNumber[0].CaseNumber[0]
+      type: text
+      label: Case Number
+      required: false
+      width: full
+      shared_key: case:number
+    - name: atty_state
+      pdf_field_name: MD-140[0].Page1[0].StdP1Header_sf[0].AttyInfo[0].AttyState[0]
+      type: address
+      label: Atty State
+      required: false
+      width: full
+    - name: atty_zip
+      pdf_field_name: MD-140[0].Page1[0].StdP1Header_sf[0].AttyInfo[0].AttyZip[0]
+      type: address
+      label: Atty Zip
+      required: false
+      width: full
+    - name: atty_city
+      pdf_field_name: MD-140[0].Page1[0].StdP1Header_sf[0].AttyInfo[0].AttyCity[0]
+      type: address
+      label: Atty City
+      required: false
+      width: full
+    - name: atty_street
+      pdf_field_name: MD-140[0].Page1[0].StdP1Header_sf[0].AttyInfo[0].AttyStreet[0]
+      type: address
+      label: Atty Street
+      required: false
+      width: full
+    - name: atty_firm
+      pdf_field_name: MD-140[0].Page1[0].StdP1Header_sf[0].AttyInfo[0].AttyFirm[0]
+      type: text
+      label: Atty Firm
+      required: false
+      width: full
+    - name: atty_name
+      pdf_field_name: MD-140[0].Page1[0].StdP1Header_sf[0].AttyInfo[0].AttyName[0]
+      type: text
+      label: Atty Name
+      required: false
+      width: full
+    - name: phone
+      pdf_field_name: MD-140[0].Page1[0].StdP1Header_sf[0].AttyInfo[0].Phone[0]
+      type: tel
+      label: Phone
+      required: false
+      width: half
+    - name: fax
+      pdf_field_name: MD-140[0].Page1[0].StdP1Header_sf[0].AttyInfo[0].Fax[0]
+      type: tel
+      label: Fax
+      required: false
+      width: half
+    - name: email
+      pdf_field_name: MD-140[0].Page1[0].StdP1Header_sf[0].AttyInfo[0].Email[0]
+      type: email
+      label: Email
+      required: false
+      width: half
+    - name: atty_for
+      pdf_field_name: MD-140[0].Page1[0].StdP1Header_sf[0].AttyInfo[0].AttyFor[0]
+      type: text
+      label: Atty For
+      required: false
+      width: full
+    - name: bar_no
+      pdf_field_name: MD-140[0].Page1[0].StdP1Header_sf[0].AttyInfo[0].BarNo[0]
+      type: text
+      label: Bar No
+      required: false
+      width: full
+  appellant_cb:
+    title: Appellant Cb
+    fields:
+    - name: appellant_cb
+      pdf_field_name: MD-140[0].Page1[0].Appellant_cb[0]
+      type: text
+      label: Appellant Cb
+      required: false
+      width: full
+    - name: appellant_cb_2
+      pdf_field_name: MD-140[0].Page1[0].Appellant_cb[1]
+      type: text
+      label: Appellant Cb
+      required: false
+      width: full
+  text:
+    title: Text\
+    fields:
+    - name: '18'
+      pdf_field_name: MD-140[0].Page1[0].TEXT\.0\.18\.1[0]
+      type: text
+      label: 18\
+      required: false
+      width: full
+    - name: '18_2'
+      pdf_field_name: MD-140[0].Page1[0].TEXT\.0\.18\.6[0]
+      type: text
+      label: 18\
+      required: false
+      width: full
+    - name: '18_2'
+      pdf_field_name: MD-140[0].Page1[0].TEXT\.0\.18\.7[0]
+      type: text
+      label: 18\
+      required: false
+      width: full
+  fill_text:
+    title: Fill Text
+    fields:
+    - name: fill_text1140
+      pdf_field_name: MD-140[0].Page1[0].FillText1140[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text56
+      pdf_field_name: MD-140[0].Page1[0].FillText56[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text1140_2
+      pdf_field_name: MD-140[0].Page2[0].FillText1140[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text56_2
+      pdf_field_name: MD-140[0].Page2[0].FillText56[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text1140_2
+      pdf_field_name: MD-140[0].Page2[0].FillText1140[1]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text1140_2
+      pdf_field_name: MD-140[0].Page2[0].FillText1140[2]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text1140_2
+      pdf_field_name: MD-140[0].Page2[0].FillText1140[3]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text1140_2
+      pdf_field_name: MD-140[0].Page2[0].FillText1140[4]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text1140_2
+      pdf_field_name: MD-140[0].Page2[0].FillText1140[5]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text1140_2
+      pdf_field_name: MD-140[0].Page2[0].FillText1140[6]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text1140_2
+      pdf_field_name: MD-140[0].Page2[0].FillText1140[7]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text1140_2
+      pdf_field_name: MD-140[0].Page2[0].FillText1140[8]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text1140_2
+      pdf_field_name: MD-140[0].Page2[0].FillText1140[9]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text1140_2
+      pdf_field_name: MD-140[0].Page2[0].FillText1140[10]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+  px_caption_sf:
+    title: Px Caption Sf
+    fields:
+    - name: case_number_2
+      pdf_field_name: MD-140[0].Page2[0].PxCaption_sf[0].CaseNumber[0].CaseNumber[0]
+      type: text
+      label: Case Number
+      required: false
+      width: full
+      shared_key: case:number
+    - name: party1_2
+      pdf_field_name: MD-140[0].Page2[0].PxCaption_sf[0].TitlePartyName[0].Party1[0]
+      type: text
+      label: Party
+      required: false
+      width: full
+    - name: party2_2
+      pdf_field_name: MD-140[0].Page2[0].PxCaption_sf[0].TitlePartyName[0].Party2[0]
+      type: text
+      label: Party
+      required: false
+      width: full
+  service_cb:
+    title: Service Cb
+    fields:
+    - name: service_cb
+      pdf_field_name: MD-140[0].Page2[0].#area[0].Service_cb[0]
+      type: text
+      label: Service Cb
+      required: false
+      width: full
+    - name: service_cb_2
+      pdf_field_name: MD-140[0].Page2[0].#area[0].Service_cb[1]
+      type: text
+      label: Service Cb
+      required: false
+      width: full
+  print_bt:
+    title: Print Bt
+    fields:
+    - name: print_bt
+      pdf_field_name: MD-140[0].Page2[0].Print_bt[0]
+      type: checkbox
+      label: Print Bt
+      required: false
+      width: full
+  save_bt:
+    title: Save Bt
+    fields:
+    - name: save_bt
+      pdf_field_name: MD-140[0].Page2[0].Save_bt[0]
+      type: checkbox
+      label: Save Bt
+      required: false
+      width: full
+  reset_bt:
+    title: Reset Bt
+    fields:
+    - name: reset_bt
+      pdf_field_name: MD-140[0].Page2[0].Reset_bt[0]
+      type: checkbox
+      label: Reset Bt
+      required: false
+      width: full
+  t:
+    title: T
+    fields:
+    - name: t23
+      pdf_field_name: MD-140[0].Page2[0].T23[0]
+      type: checkbox
+      label: T
+      required: false
+      width: full

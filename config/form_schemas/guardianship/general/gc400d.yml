@@ -1,0 +1,1096 @@
+---
+form:
+  code: GC-400D
+  title: GC 400D Form
+  description: ''
+  category: guardianship/general
+  pdf_filename: gc400d.pdf
+  fillable: true
+  instructions: ''
+sections:
+  footer:
+    title: Footer
+    fields:
+    - name: fill_text3
+      pdf_field_name: topmostSubform[0].Page1[0].Footer[0].PageOf_gp[0].FillText3[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text2
+      pdf_field_name: topmostSubform[0].Page1[0].Footer[0].PageOf_gp[0].FillText2[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+  date_ft:
+    title: Date Ft
+    fields:
+    - name: date_ft
+      pdf_field_name: topmostSubform[0].Page1[0].Date_ft[0]
+      type: date
+      label: Date Ft
+      required: false
+      width: half
+    - name: date_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].Date_ft[1]
+      type: date
+      label: Date Ft
+      required: false
+      width: half
+    - name: date_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].Date_ft[2]
+      type: date
+      label: Date Ft
+      required: false
+      width: half
+    - name: date_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].Date_ft[3]
+      type: date
+      label: Date Ft
+      required: false
+      width: half
+    - name: date_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].Date_ft[4]
+      type: date
+      label: Date Ft
+      required: false
+      width: half
+    - name: date_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].Date_ft[5]
+      type: date
+      label: Date Ft
+      required: false
+      width: half
+    - name: date_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].Date_ft[6]
+      type: date
+      label: Date Ft
+      required: false
+      width: half
+    - name: date_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].Date_ft[7]
+      type: date
+      label: Date Ft
+      required: false
+      width: half
+    - name: date_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].Date_ft[8]
+      type: date
+      label: Date Ft
+      required: false
+      width: half
+    - name: date_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].Date_ft[9]
+      type: date
+      label: Date Ft
+      required: false
+      width: half
+    - name: date_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].Date_ft[10]
+      type: date
+      label: Date Ft
+      required: false
+      width: half
+    - name: date_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].Date_ft[11]
+      type: date
+      label: Date Ft
+      required: false
+      width: half
+    - name: date_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].Date_ft[12]
+      type: date
+      label: Date Ft
+      required: false
+      width: half
+    - name: date_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].Date_ft[13]
+      type: date
+      label: Date Ft
+      required: false
+      width: half
+    - name: date_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].Date_ft[14]
+      type: date
+      label: Date Ft
+      required: false
+      width: half
+    - name: date_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].Date_ft[15]
+      type: date
+      label: Date Ft
+      required: false
+      width: half
+    - name: date_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].Date_ft[16]
+      type: date
+      label: Date Ft
+      required: false
+      width: half
+    - name: date_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].Date_ft[17]
+      type: date
+      label: Date Ft
+      required: false
+      width: half
+    - name: date_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].Date_ft[18]
+      type: date
+      label: Date Ft
+      required: false
+      width: half
+    - name: date_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].Date_ft[19]
+      type: date
+      label: Date Ft
+      required: false
+      width: half
+    - name: date_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].Date_ft[20]
+      type: date
+      label: Date Ft
+      required: false
+      width: half
+    - name: date_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].Date_ft[21]
+      type: date
+      label: Date Ft
+      required: false
+      width: half
+    - name: date_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].Date_ft[22]
+      type: date
+      label: Date Ft
+      required: false
+      width: half
+    - name: date_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].Date_ft[23]
+      type: date
+      label: Date Ft
+      required: false
+      width: half
+    - name: date_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].Date_ft[24]
+      type: date
+      label: Date Ft
+      required: false
+      width: half
+    - name: date_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].Date_ft[25]
+      type: date
+      label: Date Ft
+      required: false
+      width: half
+    - name: date_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].Date_ft[26]
+      type: date
+      label: Date Ft
+      required: false
+      width: half
+    - name: date_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].Date_ft[27]
+      type: date
+      label: Date Ft
+      required: false
+      width: half
+    - name: date_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].Date_ft[28]
+      type: date
+      label: Date Ft
+      required: false
+      width: half
+    - name: date_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].Date_ft[29]
+      type: date
+      label: Date Ft
+      required: false
+      width: half
+    - name: date_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].Date_ft[30]
+      type: date
+      label: Date Ft
+      required: false
+      width: half
+    - name: date_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].Date_ft[31]
+      type: date
+      label: Date Ft
+      required: false
+      width: half
+  property_sold_ft:
+    title: Property Sold Ft
+    fields:
+    - name: property_sold_ft
+      pdf_field_name: topmostSubform[0].Page1[0].PropertySold_ft[0]
+      type: text
+      label: Property Sold Ft
+      required: false
+      width: full
+    - name: property_sold_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].PropertySold_ft[1]
+      type: text
+      label: Property Sold Ft
+      required: false
+      width: full
+    - name: property_sold_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].PropertySold_ft[2]
+      type: text
+      label: Property Sold Ft
+      required: false
+      width: full
+    - name: property_sold_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].PropertySold_ft[3]
+      type: text
+      label: Property Sold Ft
+      required: false
+      width: full
+    - name: property_sold_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].PropertySold_ft[4]
+      type: text
+      label: Property Sold Ft
+      required: false
+      width: full
+    - name: property_sold_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].PropertySold_ft[5]
+      type: text
+      label: Property Sold Ft
+      required: false
+      width: full
+    - name: property_sold_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].PropertySold_ft[6]
+      type: text
+      label: Property Sold Ft
+      required: false
+      width: full
+    - name: property_sold_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].PropertySold_ft[7]
+      type: text
+      label: Property Sold Ft
+      required: false
+      width: full
+    - name: property_sold_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].PropertySold_ft[8]
+      type: text
+      label: Property Sold Ft
+      required: false
+      width: full
+    - name: property_sold_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].PropertySold_ft[9]
+      type: text
+      label: Property Sold Ft
+      required: false
+      width: full
+    - name: property_sold_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].PropertySold_ft[10]
+      type: text
+      label: Property Sold Ft
+      required: false
+      width: full
+    - name: property_sold_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].PropertySold_ft[11]
+      type: text
+      label: Property Sold Ft
+      required: false
+      width: full
+    - name: property_sold_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].PropertySold_ft[12]
+      type: text
+      label: Property Sold Ft
+      required: false
+      width: full
+    - name: property_sold_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].PropertySold_ft[13]
+      type: text
+      label: Property Sold Ft
+      required: false
+      width: full
+    - name: property_sold_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].PropertySold_ft[14]
+      type: text
+      label: Property Sold Ft
+      required: false
+      width: full
+    - name: property_sold_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].PropertySold_ft[15]
+      type: text
+      label: Property Sold Ft
+      required: false
+      width: full
+    - name: property_sold_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].PropertySold_ft[16]
+      type: text
+      label: Property Sold Ft
+      required: false
+      width: full
+    - name: property_sold_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].PropertySold_ft[17]
+      type: text
+      label: Property Sold Ft
+      required: false
+      width: full
+    - name: property_sold_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].PropertySold_ft[18]
+      type: text
+      label: Property Sold Ft
+      required: false
+      width: full
+    - name: property_sold_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].PropertySold_ft[19]
+      type: text
+      label: Property Sold Ft
+      required: false
+      width: full
+    - name: property_sold_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].PropertySold_ft[20]
+      type: text
+      label: Property Sold Ft
+      required: false
+      width: full
+    - name: property_sold_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].PropertySold_ft[21]
+      type: text
+      label: Property Sold Ft
+      required: false
+      width: full
+    - name: property_sold_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].PropertySold_ft[22]
+      type: text
+      label: Property Sold Ft
+      required: false
+      width: full
+    - name: property_sold_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].PropertySold_ft[23]
+      type: text
+      label: Property Sold Ft
+      required: false
+      width: full
+    - name: property_sold_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].PropertySold_ft[24]
+      type: text
+      label: Property Sold Ft
+      required: false
+      width: full
+    - name: property_sold_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].PropertySold_ft[25]
+      type: text
+      label: Property Sold Ft
+      required: false
+      width: full
+    - name: property_sold_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].PropertySold_ft[26]
+      type: text
+      label: Property Sold Ft
+      required: false
+      width: full
+    - name: property_sold_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].PropertySold_ft[27]
+      type: text
+      label: Property Sold Ft
+      required: false
+      width: full
+    - name: property_sold_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].PropertySold_ft[28]
+      type: text
+      label: Property Sold Ft
+      required: false
+      width: full
+    - name: property_sold_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].PropertySold_ft[29]
+      type: text
+      label: Property Sold Ft
+      required: false
+      width: full
+    - name: property_sold_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].PropertySold_ft[30]
+      type: text
+      label: Property Sold Ft
+      required: false
+      width: full
+    - name: property_sold_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].PropertySold_ft[31]
+      type: text
+      label: Property Sold Ft
+      required: false
+      width: full
+  carry_value_ft:
+    title: Carry Value Ft
+    fields:
+    - name: carry_value_ft
+      pdf_field_name: topmostSubform[0].Page1[0].CarryValue_ft[0]
+      type: text
+      label: Carry Value Ft
+      required: false
+      width: full
+    - name: carry_value_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].CarryValue_ft[1]
+      type: text
+      label: Carry Value Ft
+      required: false
+      width: full
+    - name: carry_value_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].CarryValue_ft[2]
+      type: text
+      label: Carry Value Ft
+      required: false
+      width: full
+    - name: carry_value_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].CarryValue_ft[3]
+      type: text
+      label: Carry Value Ft
+      required: false
+      width: full
+    - name: carry_value_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].CarryValue_ft[4]
+      type: text
+      label: Carry Value Ft
+      required: false
+      width: full
+    - name: carry_value_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].CarryValue_ft[5]
+      type: text
+      label: Carry Value Ft
+      required: false
+      width: full
+    - name: carry_value_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].CarryValue_ft[6]
+      type: text
+      label: Carry Value Ft
+      required: false
+      width: full
+    - name: carry_value_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].CarryValue_ft[7]
+      type: text
+      label: Carry Value Ft
+      required: false
+      width: full
+    - name: carry_value_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].CarryValue_ft[8]
+      type: text
+      label: Carry Value Ft
+      required: false
+      width: full
+    - name: carry_value_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].CarryValue_ft[9]
+      type: text
+      label: Carry Value Ft
+      required: false
+      width: full
+    - name: carry_value_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].CarryValue_ft[10]
+      type: text
+      label: Carry Value Ft
+      required: false
+      width: full
+    - name: carry_value_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].CarryValue_ft[11]
+      type: text
+      label: Carry Value Ft
+      required: false
+      width: full
+    - name: carry_value_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].CarryValue_ft[12]
+      type: text
+      label: Carry Value Ft
+      required: false
+      width: full
+    - name: carry_value_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].CarryValue_ft[13]
+      type: text
+      label: Carry Value Ft
+      required: false
+      width: full
+    - name: carry_value_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].CarryValue_ft[14]
+      type: text
+      label: Carry Value Ft
+      required: false
+      width: full
+    - name: carry_value_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].CarryValue_ft[15]
+      type: text
+      label: Carry Value Ft
+      required: false
+      width: full
+    - name: carry_value_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].CarryValue_ft[16]
+      type: text
+      label: Carry Value Ft
+      required: false
+      width: full
+    - name: carry_value_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].CarryValue_ft[17]
+      type: text
+      label: Carry Value Ft
+      required: false
+      width: full
+    - name: carry_value_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].CarryValue_ft[18]
+      type: text
+      label: Carry Value Ft
+      required: false
+      width: full
+    - name: carry_value_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].CarryValue_ft[19]
+      type: text
+      label: Carry Value Ft
+      required: false
+      width: full
+    - name: carry_value_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].CarryValue_ft[20]
+      type: text
+      label: Carry Value Ft
+      required: false
+      width: full
+    - name: carry_value_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].CarryValue_ft[21]
+      type: text
+      label: Carry Value Ft
+      required: false
+      width: full
+    - name: carry_value_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].CarryValue_ft[22]
+      type: text
+      label: Carry Value Ft
+      required: false
+      width: full
+    - name: carry_value_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].CarryValue_ft[23]
+      type: text
+      label: Carry Value Ft
+      required: false
+      width: full
+    - name: carry_value_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].CarryValue_ft[24]
+      type: text
+      label: Carry Value Ft
+      required: false
+      width: full
+    - name: carry_value_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].CarryValue_ft[25]
+      type: text
+      label: Carry Value Ft
+      required: false
+      width: full
+    - name: carry_value_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].CarryValue_ft[26]
+      type: text
+      label: Carry Value Ft
+      required: false
+      width: full
+    - name: carry_value_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].CarryValue_ft[27]
+      type: text
+      label: Carry Value Ft
+      required: false
+      width: full
+    - name: carry_value_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].CarryValue_ft[28]
+      type: text
+      label: Carry Value Ft
+      required: false
+      width: full
+    - name: carry_value_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].CarryValue_ft[29]
+      type: text
+      label: Carry Value Ft
+      required: false
+      width: full
+    - name: carry_value_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].CarryValue_ft[30]
+      type: text
+      label: Carry Value Ft
+      required: false
+      width: full
+    - name: carry_value_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].CarryValue_ft[31]
+      type: text
+      label: Carry Value Ft
+      required: false
+      width: full
+  sale_price_ft:
+    title: Sale Price Ft
+    fields:
+    - name: sale_price_ft
+      pdf_field_name: topmostSubform[0].Page1[0].SalePrice_ft[0]
+      type: currency
+      label: Sale Price Ft
+      required: false
+      width: third
+    - name: sale_price_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].SalePrice_ft[1]
+      type: currency
+      label: Sale Price Ft
+      required: false
+      width: third
+    - name: sale_price_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].SalePrice_ft[2]
+      type: currency
+      label: Sale Price Ft
+      required: false
+      width: third
+    - name: sale_price_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].SalePrice_ft[3]
+      type: currency
+      label: Sale Price Ft
+      required: false
+      width: third
+    - name: sale_price_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].SalePrice_ft[4]
+      type: currency
+      label: Sale Price Ft
+      required: false
+      width: third
+    - name: sale_price_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].SalePrice_ft[5]
+      type: currency
+      label: Sale Price Ft
+      required: false
+      width: third
+    - name: sale_price_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].SalePrice_ft[6]
+      type: currency
+      label: Sale Price Ft
+      required: false
+      width: third
+    - name: sale_price_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].SalePrice_ft[7]
+      type: currency
+      label: Sale Price Ft
+      required: false
+      width: third
+    - name: sale_price_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].SalePrice_ft[8]
+      type: currency
+      label: Sale Price Ft
+      required: false
+      width: third
+    - name: sale_price_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].SalePrice_ft[9]
+      type: currency
+      label: Sale Price Ft
+      required: false
+      width: third
+    - name: sale_price_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].SalePrice_ft[10]
+      type: currency
+      label: Sale Price Ft
+      required: false
+      width: third
+    - name: sale_price_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].SalePrice_ft[11]
+      type: currency
+      label: Sale Price Ft
+      required: false
+      width: third
+    - name: sale_price_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].SalePrice_ft[12]
+      type: currency
+      label: Sale Price Ft
+      required: false
+      width: third
+    - name: sale_price_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].SalePrice_ft[13]
+      type: currency
+      label: Sale Price Ft
+      required: false
+      width: third
+    - name: sale_price_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].SalePrice_ft[14]
+      type: currency
+      label: Sale Price Ft
+      required: false
+      width: third
+    - name: sale_price_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].SalePrice_ft[15]
+      type: currency
+      label: Sale Price Ft
+      required: false
+      width: third
+    - name: sale_price_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].SalePrice_ft[16]
+      type: currency
+      label: Sale Price Ft
+      required: false
+      width: third
+    - name: sale_price_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].SalePrice_ft[17]
+      type: currency
+      label: Sale Price Ft
+      required: false
+      width: third
+    - name: sale_price_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].SalePrice_ft[18]
+      type: currency
+      label: Sale Price Ft
+      required: false
+      width: third
+    - name: sale_price_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].SalePrice_ft[19]
+      type: currency
+      label: Sale Price Ft
+      required: false
+      width: third
+    - name: sale_price_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].SalePrice_ft[20]
+      type: currency
+      label: Sale Price Ft
+      required: false
+      width: third
+    - name: sale_price_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].SalePrice_ft[21]
+      type: currency
+      label: Sale Price Ft
+      required: false
+      width: third
+    - name: sale_price_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].SalePrice_ft[22]
+      type: currency
+      label: Sale Price Ft
+      required: false
+      width: third
+    - name: sale_price_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].SalePrice_ft[23]
+      type: currency
+      label: Sale Price Ft
+      required: false
+      width: third
+    - name: sale_price_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].SalePrice_ft[24]
+      type: currency
+      label: Sale Price Ft
+      required: false
+      width: third
+    - name: sale_price_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].SalePrice_ft[25]
+      type: currency
+      label: Sale Price Ft
+      required: false
+      width: third
+    - name: sale_price_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].SalePrice_ft[26]
+      type: currency
+      label: Sale Price Ft
+      required: false
+      width: third
+    - name: sale_price_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].SalePrice_ft[27]
+      type: currency
+      label: Sale Price Ft
+      required: false
+      width: third
+    - name: sale_price_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].SalePrice_ft[28]
+      type: currency
+      label: Sale Price Ft
+      required: false
+      width: third
+    - name: sale_price_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].SalePrice_ft[29]
+      type: currency
+      label: Sale Price Ft
+      required: false
+      width: third
+    - name: sale_price_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].SalePrice_ft[30]
+      type: currency
+      label: Sale Price Ft
+      required: false
+      width: third
+    - name: sale_price_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].SalePrice_ft[31]
+      type: currency
+      label: Sale Price Ft
+      required: false
+      width: third
+  loss_ft:
+    title: Loss Ft
+    fields:
+    - name: loss_ft
+      pdf_field_name: topmostSubform[0].Page1[0].Loss_ft[0]
+      type: text
+      label: Loss Ft
+      required: false
+      width: full
+    - name: loss_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].Loss_ft[1]
+      type: text
+      label: Loss Ft
+      required: false
+      width: full
+    - name: loss_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].Loss_ft[2]
+      type: text
+      label: Loss Ft
+      required: false
+      width: full
+    - name: loss_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].Loss_ft[3]
+      type: text
+      label: Loss Ft
+      required: false
+      width: full
+    - name: loss_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].Loss_ft[4]
+      type: text
+      label: Loss Ft
+      required: false
+      width: full
+    - name: loss_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].Loss_ft[5]
+      type: text
+      label: Loss Ft
+      required: false
+      width: full
+    - name: loss_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].Loss_ft[6]
+      type: text
+      label: Loss Ft
+      required: false
+      width: full
+    - name: loss_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].Loss_ft[7]
+      type: text
+      label: Loss Ft
+      required: false
+      width: full
+    - name: loss_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].Loss_ft[8]
+      type: text
+      label: Loss Ft
+      required: false
+      width: full
+    - name: loss_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].Loss_ft[9]
+      type: text
+      label: Loss Ft
+      required: false
+      width: full
+    - name: loss_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].Loss_ft[10]
+      type: text
+      label: Loss Ft
+      required: false
+      width: full
+    - name: loss_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].Loss_ft[11]
+      type: text
+      label: Loss Ft
+      required: false
+      width: full
+    - name: loss_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].Loss_ft[12]
+      type: text
+      label: Loss Ft
+      required: false
+      width: full
+    - name: loss_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].Loss_ft[13]
+      type: text
+      label: Loss Ft
+      required: false
+      width: full
+    - name: loss_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].Loss_ft[14]
+      type: text
+      label: Loss Ft
+      required: false
+      width: full
+    - name: loss_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].Loss_ft[15]
+      type: text
+      label: Loss Ft
+      required: false
+      width: full
+    - name: loss_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].Loss_ft[16]
+      type: text
+      label: Loss Ft
+      required: false
+      width: full
+    - name: loss_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].Loss_ft[17]
+      type: text
+      label: Loss Ft
+      required: false
+      width: full
+    - name: loss_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].Loss_ft[18]
+      type: text
+      label: Loss Ft
+      required: false
+      width: full
+    - name: loss_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].Loss_ft[19]
+      type: text
+      label: Loss Ft
+      required: false
+      width: full
+    - name: loss_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].Loss_ft[20]
+      type: text
+      label: Loss Ft
+      required: false
+      width: full
+    - name: loss_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].Loss_ft[21]
+      type: text
+      label: Loss Ft
+      required: false
+      width: full
+    - name: loss_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].Loss_ft[22]
+      type: text
+      label: Loss Ft
+      required: false
+      width: full
+    - name: loss_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].Loss_ft[23]
+      type: text
+      label: Loss Ft
+      required: false
+      width: full
+    - name: loss_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].Loss_ft[24]
+      type: text
+      label: Loss Ft
+      required: false
+      width: full
+    - name: loss_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].Loss_ft[25]
+      type: text
+      label: Loss Ft
+      required: false
+      width: full
+    - name: loss_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].Loss_ft[26]
+      type: text
+      label: Loss Ft
+      required: false
+      width: full
+    - name: loss_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].Loss_ft[27]
+      type: text
+      label: Loss Ft
+      required: false
+      width: full
+    - name: loss_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].Loss_ft[28]
+      type: text
+      label: Loss Ft
+      required: false
+      width: full
+    - name: loss_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].Loss_ft[29]
+      type: text
+      label: Loss Ft
+      required: false
+      width: full
+    - name: loss_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].Loss_ft[30]
+      type: text
+      label: Loss Ft
+      required: false
+      width: full
+    - name: loss_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].Loss_ft[31]
+      type: text
+      label: Loss Ft
+      required: false
+      width: full
+  total_losses_ft:
+    title: Total Losses Ft
+    fields:
+    - name: total_losses_ft
+      pdf_field_name: topmostSubform[0].Page1[0].TotalLosses_ft[0]
+      type: text
+      label: Total Losses Ft
+      required: false
+      width: full
+    - name: total_losses_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].TotalLosses_ft[1]
+      type: text
+      label: Total Losses Ft
+      required: false
+      width: full
+    - name: total_losses_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].TotalLosses_ft[2]
+      type: text
+      label: Total Losses Ft
+      required: false
+      width: full
+  header_gp:
+    title: Header Gp
+    fields:
+    - name: case_number_ft
+      pdf_field_name: topmostSubform[0].Page1[0].Header_gp[0].CaseNumber[0].CaseNumber_ft[0]
+      type: text
+      label: Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+    - name: conservatorship_cb
+      pdf_field_name: topmostSubform[0].Page1[0].Header_gp[0].CaseNumber[1].CaseName_gp[0].Conservatorship_gp[0].Conservatorship_cb[0]
+      type: text
+      label: Conservatorship Cb
+      required: false
+      width: full
+      shared_key: case:number
+    - name: guardianship_cb
+      pdf_field_name: topmostSubform[0].Page1[0].Header_gp[0].CaseNumber[1].CaseName_gp[0].Guardianship_gp[0].Guardianship_cb[0]
+      type: text
+      label: Guardianship Cb
+      required: false
+      width: full
+      shared_key: case:number
+    - name: conservatee_cb
+      pdf_field_name: topmostSubform[0].Page1[0].Header_gp[0].CaseNumber[1].CaseName_gp[0].Conservatee_gp[0].Conservatee_cb[0]
+      type: text
+      label: Conservatee Cb
+      required: false
+      width: full
+      shared_key: case:number
+    - name: minor_cb
+      pdf_field_name: topmostSubform[0].Page1[0].Header_gp[0].CaseNumber[1].CaseName_gp[0].Minor_gp[0].Minor_cb[0]
+      type: text
+      label: Minor Cb
+      required: false
+      width: full
+      shared_key: case:number
+    - name: name_ft
+      pdf_field_name: topmostSubform[0].Page1[0].Header_gp[0].CaseNumber[1].CaseName_gp[0].Name_ft[0]
+      type: text
+      label: Name Ft
+      required: false
+      width: full
+      shared_key: case:number
+  check_box:
+    title: Check Box
+    fields:
+    - name: check_box61
+      pdf_field_name: topmostSubform[0].Page1[0].CheckBox[0].CheckBox61[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+  btn_footer_gp:
+    title: Btn Footer Gp
+    fields:
+    - name: print_bt
+      pdf_field_name: topmostSubform[0].Page1[0].BtnFooter_gp[0].Print_bt[0]
+      type: checkbox
+      label: Print Bt
+      required: false
+      width: full
+    - name: save_bt
+      pdf_field_name: topmostSubform[0].Page1[0].BtnFooter_gp[0].Save_bt[0]
+      type: checkbox
+      label: Save Bt
+      required: false
+      width: full
+    - name: reset_bt
+      pdf_field_name: topmostSubform[0].Page1[0].BtnFooter_gp[0].Reset_bt[0]
+      type: checkbox
+      label: Reset Bt
+      required: false
+      width: full

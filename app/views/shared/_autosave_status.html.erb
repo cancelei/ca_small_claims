@@ -1,10 +1,10 @@
 <% if saved_at.present? %>
-  <span class="text-green-600">
+  <span class="text-success">
     <svg class="inline w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
     </svg>
     Saved <%= time_ago_in_words(saved_at) %> ago
   </span>
 <% else %>
-  <span class="text-gray-400">Not saved yet</span>
+  <span class="text-base-content/50">Not saved yet</span>
 <% end %>

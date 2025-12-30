@@ -80,13 +80,8 @@ module Forms
       end
 
       def load_schema(file_path)
-        YAML.safe_load(
-          File.read(file_path),
-          permitted_classes: [Symbol, Date],
-          symbolize_names: true
-        )
-      rescue StandardError => e
-        { parse_error: e.message }
+        result = Utilities::YamlLoader.safe_load_file(file_path)
+        result[:success] ? result[:data] : { parse_error: result[:error] }
       end
 
       def check_shared_key_collisions

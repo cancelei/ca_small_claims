@@ -1,0 +1,34 @@
+---
+form:
+  code: DV-530INFO
+  title: DV 530INFO Form
+  description: ''
+  category: family_law/domestic_violence
+  pdf_filename: dv530info.pdf
+  fillable: true
+  instructions: ''
+sections:
+  footer_sub:
+    title: Footer Sub
+    fields:
+    - name: court_link
+      pdf_field_name: DV-530-INFO[0].#pageSet[0].Page1[0].FooterSub[0].CourtLink[0]
+      type: checkbox
+      label: Court Link
+      required: false
+      width: full
+  footer_buttons:
+    title: Footer Buttons
+    fields:
+    - name: print
+      pdf_field_name: DV-530-INFO[0].#pageSet[0].Page2[0].FooterButtons[0].Print[0]
+      type: checkbox
+      label: Print
+      required: false
+      width: full
+    - name: save
+      pdf_field_name: DV-530-INFO[0].#pageSet[0].Page2[0].FooterButtons[0].Save[0]
+      type: checkbox
+      label: Save
+      required: false
+      width: full

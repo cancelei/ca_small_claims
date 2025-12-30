@@ -1,0 +1,271 @@
+---
+form:
+  code: DV-720
+  title: DV 720 Form
+  description: ''
+  category: family_law/domestic_violence
+  pdf_filename: dv720.pdf
+  fillable: true
+  instructions: ''
+sections:
+  footer_sub:
+    title: Footer Sub
+    fields:
+    - name: button1
+      pdf_field_name: DV-720[0].#pageSet[0].Page1[0].FooterSub[0].Button1[0]
+      type: checkbox
+      label: Button
+      required: false
+      width: full
+  print:
+    title: Print
+    fields:
+    - name: print
+      pdf_field_name: DV-720[0].#pageSet[0].Page3[0].Print[0]
+      type: checkbox
+      label: Print
+      required: false
+      width: full
+  save:
+    title: Save
+    fields:
+    - name: save
+      pdf_field_name: DV-720[0].#pageSet[0].Page3[0].Save[0]
+      type: checkbox
+      label: Save
+      required: false
+      width: full
+  reset:
+    title: Reset
+    fields:
+    - name: reset
+      pdf_field_name: DV-720[0].#pageSet[0].Page3[0].Reset[0]
+      type: checkbox
+      label: Reset
+      required: false
+      width: full
+  warning:
+    title: Warning
+    fields:
+    - name: warning
+      pdf_field_name: DV-720[0].#pageSet[0].Page3[0].Warning[0]
+      type: checkbox
+      label: Warning
+      required: false
+      width: full
+  subform:
+    title: Subform
+    fields:
+    - name: court_info_ft
+      pdf_field_name: DV-720[0].Page1[0].Subform1[0].CourtInfo_ft[0]
+      type: text
+      label: Court Info Ft
+      required: false
+      width: full
+    - name: case_number_ft
+      pdf_field_name: DV-720[0].Page1[0].Subform1[0].CaseNumber_ft[0]
+      type: text
+      label: Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+    - name: hearing_dept
+      pdf_field_name: DV-720[0].Page1[0].Subform1[0].List1[0].Li1[0].HearingDept[0]
+      type: text
+      label: Hearing Dept
+      required: false
+      width: full
+    - name: text_field
+      pdf_field_name: DV-720[0].Page1[0].Subform1[0].List2[0].Li1[0].TextField[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: tf1
+      pdf_field_name: DV-720[0].Page1[0].Subform1[0].List2[0].Li1[0].tf1[0]
+      type: text
+      label: Tf
+      required: false
+      width: full
+    - name: tf2
+      pdf_field_name: DV-720[0].Page1[0].Subform1[0].List2[0].Li1[0].tf2[0]
+      type: text
+      label: Tf
+      required: false
+      width: full
+    - name: tf3
+      pdf_field_name: DV-720[0].Page1[0].Subform1[0].List2[0].Li1[0].tf3[0]
+      type: text
+      label: Tf
+      required: false
+      width: full
+    - name: tf4
+      pdf_field_name: DV-720[0].Page1[0].Subform1[0].List2[0].Li1[0].tf4[0]
+      type: text
+      label: Tf
+      required: false
+      width: full
+    - name: tf5
+      pdf_field_name: DV-720[0].Page1[0].Subform1[0].List2[0].Li1[0].tf5[0]
+      type: text
+      label: Tf
+      required: false
+      width: full
+    - name: tf6
+      pdf_field_name: DV-720[0].Page1[0].Subform1[0].List2[0].Li1[0].tf6[0]
+      type: text
+      label: Tf
+      required: false
+      width: full
+    - name: tf7
+      pdf_field_name: DV-720[0].Page1[0].Subform1[0].List2[0].Li1[0].tf7[0]
+      type: text
+      label: Tf
+      required: false
+      width: full
+    - name: tf8
+      pdf_field_name: DV-720[0].Page1[0].Subform1[0].List2[0].Li1[0].tf8[0]
+      type: text
+      label: Tf
+      required: false
+      width: full
+    - name: tf9
+      pdf_field_name: DV-720[0].Page1[0].Subform1[0].List2[0].Li1[0].tf9[0]
+      type: text
+      label: Tf
+      required: false
+      width: full
+    - name: tf10
+      pdf_field_name: DV-720[0].Page1[0].Subform1[0].List2[0].Li1[0].tf10[0]
+      type: text
+      label: Tf
+      required: false
+      width: full
+  case_number_ft:
+    title: Case Number Ft
+    fields:
+    - name: case_number_ft_2
+      pdf_field_name: DV-720[0].Page2[0].CaseNumber_ft[0]
+      type: text
+      label: Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+  list:
+    title: List
+    fields:
+    - name: item4ab
+      pdf_field_name: DV-720[0].Page2[0].List4[0].Li1[0].item4ab[0]
+      type: text
+      label: Item4ab
+      required: false
+      width: full
+    - name: item4ab_2
+      pdf_field_name: DV-720[0].Page2[0].List4[0].Li2[0].item4ab[0]
+      type: text
+      label: Item4ab
+      required: false
+      width: full
+    - name: text_fielditem4
+      pdf_field_name: DV-720[0].Page2[0].List4[0].Li2[0].TextFielditem4[0]
+      type: text
+      label: Text Fielditem
+      required: false
+      width: full
+    - name: text_fielditem4cont
+      pdf_field_name: DV-720[0].Page2[0].List4[0].Li2[0].TextFielditem4Cont[0]
+      type: text
+      label: Text Fielditem4 Cont
+      required: false
+      width: full
+    - name: addreasonscb
+      pdf_field_name: DV-720[0].Page2[0].List5[0].Li1[0].addreasonscb[0]
+      type: text
+      label: Addreasonscb
+      required: false
+      width: full
+    - name: tf10_2
+      pdf_field_name: DV-720[0].Page2[0].List5[0].Li1[0].tf10[0]
+      type: text
+      label: Tf
+      required: false
+      width: full
+    - name: item5attach_cb
+      pdf_field_name: DV-720[0].Page2[0].List5[0].Li1[0].item5Attach_cb[0]
+      type: text
+      label: Item5 Attach Cb
+      required: false
+      width: full
+    - name: lawyer_cb
+      pdf_field_name: DV-720[0].Page2[0].List6[0].lawyer_cb[0]
+      type: text
+      label: Lawyer Cb
+      required: false
+      width: full
+    - name: additem6_cb
+      pdf_field_name: DV-720[0].Page2[0].List6[0].additem6_cb[0]
+      type: text
+      label: Additem6 Cb
+      required: false
+      width: full
+    - name: sig_date
+      pdf_field_name: DV-720[0].Page3[0].List7[0].Li1[0].SigDate[0]
+      type: date
+      label: Sig Date
+      required: false
+      width: half
+    - name: signame
+      pdf_field_name: DV-720[0].Page3[0].List7[0].Li1[0].Signame[0]
+      type: text
+      label: Signame
+      required: false
+      width: full
+    - name: sig_date_2
+      pdf_field_name: DV-720[0].Page3[0].List8[0].Li1[0].SigDate[0]
+      type: date
+      label: Sig Date
+      required: false
+      width: half
+    - name: name
+      pdf_field_name: DV-720[0].Page3[0].List8[0].Li1[0].lawyer\.name[0]
+      type: text
+      label: Name
+      required: false
+      width: full
+  case_no:
+    title: Case No
+    fields:
+    - name: case_number_ft_2
+      pdf_field_name: DV-720[0].Page3[0].CaseNo[0].CaseNumber_ft[0]
+      type: text
+      label: Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+  next:
+    title: Next\
+    fields:
+    - name: dv250
+      pdf_field_name: DV-720[0].Page3[0].Next\.Steps[0].dv250[0]
+      type: checkbox
+      label: Dv
+      required: false
+      width: full
+    - name: mc410
+      pdf_field_name: DV-720[0].Page3[0].Next\.Steps[0].mc410[0]
+      type: checkbox
+      label: Mc
+      required: false
+      width: full
+    - name: int300
+      pdf_field_name: DV-720[0].Page3[0].Next\.Steps[0].int300[0]
+      type: checkbox
+      label: Int
+      required: false
+      width: full
+    - name: button1_2
+      pdf_field_name: DV-720[0].Page3[0].Next\.Steps[0].Button1[0]
+      type: checkbox
+      label: Button
+      required: false
+      width: full

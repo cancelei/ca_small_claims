@@ -1,0 +1,242 @@
+---
+form:
+  code: DV-250
+  title: DV 250 Form
+  description: ''
+  category: family_law/domestic_violence
+  pdf_filename: dv250.pdf
+  fillable: true
+  instructions: ''
+sections:
+  t:
+    title: T
+    fields:
+    - name: t78
+      pdf_field_name: DV-250[0].Page1[0].T78[0]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t79
+      pdf_field_name: DV-250[0].Page1[0].T79[0]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t78_2
+      pdf_field_name: DV-250[0].Page1[0].T78[1]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t77
+      pdf_field_name: DV-250[0].Page1[0].T77[0]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t42
+      pdf_field_name: DV-250[0].Page1[0].T42[0]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t72
+      pdf_field_name: DV-250[0].Page1[0].T72[0]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t40
+      pdf_field_name: DV-250[0].Page1[0].T40[0]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t145
+      pdf_field_name: DV-250[0].Page1[0].T145[0]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t72_2
+      pdf_field_name: DV-250[0].Page1[0].T72[1]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t42_2
+      pdf_field_name: DV-250[0].Page1[0].T42[1]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t73
+      pdf_field_name: DV-250[0].Page1[0].T73[0]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t77_2
+      pdf_field_name: DV-250[0].Page1[0].T77[1]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t78_2
+      pdf_field_name: DV-250[0].Page1[0].T78[2]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t79_2
+      pdf_field_name: DV-250[0].Page1[0].T79[1]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t78_2
+      pdf_field_name: DV-250[0].Page1[0].T78[3]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t78_2
+      pdf_field_name: DV-250[0].Page1[0].T78[4]
+      type: text
+      label: T
+      required: false
+      width: full
+  parent_rel:
+    title: Parent Rel
+    fields:
+    - name: parent_rel
+      pdf_field_name: DV-250[0].Page1[0].ParentRel[0]
+      type: currency
+      label: Parent Rel
+      required: false
+      width: third
+    - name: parent_rel_2
+      pdf_field_name: DV-250[0].Page1[0].ParentRel[1]
+      type: currency
+      label: Parent Rel
+      required: false
+      width: third
+  stamp_court_case:
+    title: Stamp Court Case
+    fields:
+    - name: court_info_ft
+      pdf_field_name: DV-250[0].Page1[0].Stamp_court_case[0].CourtInfo_ft[0]
+      type: text
+      label: Court Info Ft
+      required: false
+      width: full
+    - name: case_number_ft
+      pdf_field_name: DV-250[0].Page1[0].Stamp_court_case[0].CaseNumber_ft[0]
+      type: text
+      label: Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+  tro_cb:
+    title: Tro Cb
+    fields:
+    - name: tro_cb
+      pdf_field_name: DV-250[0].Page1[0].TRO_cb[0]
+      type: text
+      label: Tro Cb
+      required: false
+      width: full
+    - name: tro_cb_2
+      pdf_field_name: DV-250[0].Page1[0].TRO_cb[1]
+      type: text
+      label: Tro Cb
+      required: false
+      width: full
+    - name: tro_cb_2
+      pdf_field_name: DV-250[0].Page1[0].TRO_cb[2]
+      type: text
+      label: Tro Cb
+      required: false
+      width: full
+    - name: tro_cb_2
+      pdf_field_name: DV-250[0].Page1[0].TRO_cb[3]
+      type: text
+      label: Tro Cb
+      required: false
+      width: full
+    - name: tro_cb_2
+      pdf_field_name: DV-250[0].Page1[0].TRO_cb[4]
+      type: text
+      label: Tro Cb
+      required: false
+      width: full
+    - name: tro_cb_2
+      pdf_field_name: DV-250[0].Page1[0].TRO_cb[5]
+      type: text
+      label: Tro Cb
+      required: false
+      width: full
+  general:
+    title: General
+    fields:
+    - name: field
+      pdf_field_name: DV-250[0].Page1[0].#field[17]
+      type: text
+      label: "#Field"
+      required: false
+      width: full
+  party_signature_dt:
+    title: Party Signature Dt
+    fields:
+    - name: party_signature_dt
+      pdf_field_name: DV-250[0].Page1[0].PartySignature_dt[0]
+      type: signature
+      label: Party Signature Dt
+      required: false
+      width: full
+  party_name_ft:
+    title: Party Name Ft
+    fields:
+    - name: party_name_ft
+      pdf_field_name: DV-250[0].Page1[0].PartyName_ft[0]
+      type: text
+      label: Party Name Ft
+      required: false
+      width: full
+  print:
+    title: Print
+    fields:
+    - name: print
+      pdf_field_name: DV-250[0].Page1[0].#area[10].Print[0]
+      type: checkbox
+      label: Print
+      required: false
+      width: full
+  save:
+    title: Save
+    fields:
+    - name: save
+      pdf_field_name: DV-250[0].Page1[0].#area[10].Save[0]
+      type: checkbox
+      label: Save
+      required: false
+      width: full
+  reset:
+    title: Reset
+    fields:
+    - name: reset
+      pdf_field_name: DV-250[0].Page1[0].#area[10].Reset[0]
+      type: checkbox
+      label: Reset
+      required: false
+      width: full
+  warning:
+    title: Warning
+    fields:
+    - name: warning
+      pdf_field_name: DV-250[0].Page1[0].#area[10].Warning[0]
+      type: checkbox
+      label: Warning
+      required: false
+      width: full

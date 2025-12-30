@@ -1,0 +1,281 @@
+---
+form:
+  code: GC-360
+  title: GC 360 Form
+  description: ''
+  category: guardianship/general
+  pdf_filename: gc360.pdf
+  fillable: true
+  instructions: ''
+sections:
+  ej_header_sf:
+    title: Ej Header Sf
+    fields:
+    - name: add2_ft
+      pdf_field_name: form1[0].Page1[0].EJHeader_sf[0].AttyPartyInfo_sf[0].Add2_ft[0]
+      type: text
+      label: Add2 Ft
+      required: false
+      width: full
+    - name: add1_ft
+      pdf_field_name: form1[0].Page1[0].EJHeader_sf[0].AttyPartyInfo_sf[0].Add1_ft[0]
+      type: text
+      label: Add1 Ft
+      required: false
+      width: full
+    - name: add5_ft
+      pdf_field_name: form1[0].Page1[0].EJHeader_sf[0].AttyPartyInfo_sf[0].Add5_ft[0]
+      type: text
+      label: Add5 Ft
+      required: false
+      width: full
+    - name: add4_ft
+      pdf_field_name: form1[0].Page1[0].EJHeader_sf[0].AttyPartyInfo_sf[0].Add4_ft[0]
+      type: text
+      label: Add4 Ft
+      required: false
+      width: full
+    - name: add3_ft
+      pdf_field_name: form1[0].Page1[0].EJHeader_sf[0].AttyPartyInfo_sf[0].Add3_ft[0]
+      type: text
+      label: Add3 Ft
+      required: false
+      width: full
+    - name: tel_ft
+      pdf_field_name: form1[0].Page1[0].EJHeader_sf[0].AttyPartyInfo_sf[0].Tel_ft[0]
+      type: tel
+      label: Tel Ft
+      required: false
+      width: half
+    - name: e_mail_ft
+      pdf_field_name: form1[0].Page1[0].EJHeader_sf[0].AttyPartyInfo_sf[0].EMail_ft[0]
+      type: email
+      label: E Mail Ft
+      required: false
+      width: half
+    - name: fax_ft
+      pdf_field_name: form1[0].Page1[0].EJHeader_sf[0].AttyPartyInfo_sf[0].Fax_ft[0]
+      type: tel
+      label: Fax Ft
+      required: false
+      width: half
+    - name: crt_street_add_ft
+      pdf_field_name: form1[0].Page1[0].EJHeader_sf[0].CrtInfo_sf[0].CrtStreetAdd_ft[0]
+      type: address
+      label: Crt Street Add Ft
+      required: false
+      width: full
+    - name: crt_mail_ft
+      pdf_field_name: form1[0].Page1[0].EJHeader_sf[0].CrtInfo_sf[0].CrtMail_ft[0]
+      type: text
+      label: Crt Mail Ft
+      required: false
+      width: full
+    - name: crt_city_zip_ft
+      pdf_field_name: form1[0].Page1[0].EJHeader_sf[0].CrtInfo_sf[0].CrtCityZip_ft[0]
+      type: address
+      label: Crt City Zip Ft
+      required: false
+      width: full
+    - name: crt_branch
+      pdf_field_name: form1[0].Page1[0].EJHeader_sf[0].CrtInfo_sf[0].CrtBranch[0]
+      type: text
+      label: Crt Branch
+      required: false
+      width: full
+    - name: crtname_ft
+      pdf_field_name: form1[0].Page1[0].EJHeader_sf[0].CrtInfo_sf[0].Crtname_ft[0]
+      type: text
+      label: Crtname Ft
+      required: false
+      width: full
+    - name: ca_reg_number_ft
+      pdf_field_name: form1[0].Page1[0].EJHeader_sf[0].CaseNumber_sf_sf[0].CARegNumber_ft[0]
+      type: text
+      label: Ca Reg Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+    - name: person_checkbox
+      pdf_field_name: form1[0].Page1[0].EJHeader_sf[0].CaseNameConship[0].PersonCheckbox[0]
+      type: checkbox
+      label: Person Checkbox
+      required: false
+      width: full
+    - name: estate_checkbox
+      pdf_field_name: form1[0].Page1[0].EJHeader_sf[0].CaseNameConship[0].EstateCheckbox[0]
+      type: address
+      label: Estate Checkbox
+      required: false
+      width: full
+    - name: consee_name_ft
+      pdf_field_name: form1[0].Page1[0].EJHeader_sf[0].CaseNameConship[0].ConseeName_ft[0]
+      type: text
+      label: Consee Name Ft
+      required: false
+      width: full
+    - name: state_ft
+      pdf_field_name: form1[0].Page1[0].EJHeader_sf[0].ForeignCaseInfo[0].State-ft[0]
+      type: address
+      label: State Ft
+      required: false
+      width: full
+    - name: court_ft
+      pdf_field_name: form1[0].Page1[0].EJHeader_sf[0].ForeignCaseInfo[0].Court-ft[0]
+      type: text
+      label: Court Ft
+      required: false
+      width: full
+    - name: dept_ft
+      pdf_field_name: form1[0].Page1[0].EJHeader_sf[0].ForeignCaseInfo[0].Dept-ft[0]
+      type: text
+      label: Dept Ft
+      required: false
+      width: full
+    - name: title_ft
+      pdf_field_name: form1[0].Page1[0].EJHeader_sf[0].ForeignCaseInfo[0].Title-ft[0]
+      type: text
+      label: Title Ft
+      required: false
+      width: full
+    - name: case_number
+      pdf_field_name: form1[0].Page1[0].EJHeader_sf[0].ForeignCaseInfo[0].CaseNumber[0]
+      type: text
+      label: Case Number
+      required: false
+      width: full
+      shared_key: case:number
+  case_number_box_p:
+    title: Case Number Box P
+    fields:
+    - name: ca_reg_number_ft_2
+      pdf_field_name: form1[0].Page2[0].CaseNumberBoxP2[0].CARegNumber_ft[0]
+      type: text
+      label: Ca Reg Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+    - name: ca_reg_number_ft_2
+      pdf_field_name: form1[0].#subform[2].CaseNumberBoxP2[0].CARegNumber_ft[0]
+      type: text
+      label: Ca Reg Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+  page2_header:
+    title: Page2 Header
+    fields:
+    - name: consee_name_ft_2
+      pdf_field_name: form1[0].Page2[0].Page2Header[0].ConseeName_ft[0]
+      type: text
+      label: Consee Name Ft
+      required: false
+      width: full
+    - name: consee_name_ft_2
+      pdf_field_name: form1[0].#subform[2].Page2Header[0].ConseeName_ft[0]
+      type: text
+      label: Consee Name Ft
+      required: false
+      width: full
+  initials_box2_ft:
+    title: Initials Box2 Ft
+    fields:
+    - name: initials_box2_ft
+      pdf_field_name: form1[0].Page2[0].InitialsBox2-ft[0]
+      type: text
+      label: Initials Box2 Ft
+      required: false
+      width: full
+  initials_box1_ft:
+    title: Initials Box1 Ft
+    fields:
+    - name: initials_box1_ft
+      pdf_field_name: form1[0].Page2[0].InitialsBox1-ft[0]
+      type: text
+      label: Initials Box1 Ft
+      required: false
+      width: full
+  registrant_name_ft:
+    title: Registrant Name Ft
+    fields:
+    - name: registrant_name_ft
+      pdf_field_name: form1[0].Page2[0].RegistrantName-ft[0]
+      type: text
+      label: Registrant Name Ft
+      required: false
+      width: full
+    - name: registrant_name_ft_2
+      pdf_field_name: form1[0].#subform[2].RegistrantName-ft[0]
+      type: text
+      label: Registrant Name Ft
+      required: false
+      width: full
+  date_time_field:
+    title: Date Time Field
+    fields:
+    - name: date_time_field1
+      pdf_field_name: form1[0].Page2[0].DateTimeField1[0]
+      type: date
+      label: Date Time Field
+      required: false
+      width: half
+    - name: date_time_field1_2
+      pdf_field_name: form1[0].#subform[2].DateTimeField1[0]
+      type: date
+      label: Date Time Field
+      required: false
+      width: half
+  minor_checkbox:
+    title: Minor Checkbox
+    fields:
+    - name: minor_checkbox2
+      pdf_field_name: form1[0].Page2[0].MinorCheckbox2[0]
+      type: checkbox
+      label: Minor Checkbox
+      required: false
+      width: full
+    - name: minor_checkbox1
+      pdf_field_name: form1[0].Page2[0].MinorCheckbox1[0]
+      type: checkbox
+      label: Minor Checkbox
+      required: false
+      width: full
+    - name: minor_checkbox1_2
+      pdf_field_name: form1[0].#subform[2].MinorCheckbox1[0]
+      type: checkbox
+      label: Minor Checkbox
+      required: false
+      width: full
+    - name: minor_checkbox2_2
+      pdf_field_name: form1[0].#subform[2].MinorCheckbox2[0]
+      type: checkbox
+      label: Minor Checkbox
+      required: false
+      width: full
+  print_bt:
+    title: Print Bt
+    fields:
+    - name: print_bt
+      pdf_field_name: form1[0].#subform[2].Print_bt[0]
+      type: checkbox
+      label: Print Bt
+      required: false
+      width: full
+  save_bt:
+    title: Save Bt
+    fields:
+    - name: save_bt
+      pdf_field_name: form1[0].#subform[2].Save_bt[0]
+      type: checkbox
+      label: Save Bt
+      required: false
+      width: full
+  reset_bt:
+    title: Reset Bt
+    fields:
+    - name: reset_bt
+      pdf_field_name: form1[0].#subform[2].Reset_bt[0]
+      type: checkbox
+      label: Reset Bt
+      required: false
+      width: full

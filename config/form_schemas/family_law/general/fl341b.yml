@@ -1,0 +1,502 @@
+---
+form:
+  code: FL-341B
+  title: FL 341B Form
+  description: ''
+  category: family_law/general
+  pdf_filename: fl341b.pdf
+  fillable: true
+  instructions: ''
+sections:
+  page_area:
+    title: Page Area
+    fields:
+    - name: button1
+      pdf_field_name: FL-341B[0].#pageSet[0].PageArea1[0].footersub[0].Button1[0]
+      type: checkbox
+      label: Button
+      required: false
+      width: full
+  print:
+    title: Print
+    fields:
+    - name: print
+      pdf_field_name: FL-341B[0].#pageSet[0].Page2[0].#area[0].Print[0]
+      type: checkbox
+      label: Print
+      required: false
+      width: full
+  save:
+    title: Save
+    fields:
+    - name: save
+      pdf_field_name: FL-341B[0].#pageSet[0].Page2[0].#area[0].Save[0]
+      type: checkbox
+      label: Save
+      required: false
+      width: full
+  reset:
+    title: Reset
+    fields:
+    - name: reset
+      pdf_field_name: FL-341B[0].#pageSet[0].Page2[0].#area[0].Reset[0]
+      type: checkbox
+      label: Reset
+      required: false
+      width: full
+  caption_p1_sf:
+    title: Caption P1 Sf
+    fields:
+    - name: petitioner_ft
+      pdf_field_name: FL-341B[0].Page1[0].CaptionP1_sf[0].TitlePartyName[0].Petitioner_ft[0]
+      type: text
+      label: Petitioner Ft
+      required: false
+      width: full
+      shared_key: petitioner:name
+    - name: respondent_ft
+      pdf_field_name: FL-341B[0].Page1[0].CaptionP1_sf[0].TitlePartyName[0].Respondent_ft[0]
+      type: text
+      label: Respondent Ft
+      required: false
+      width: full
+      shared_key: respondent:name
+    - name: other_parent_party_ft
+      pdf_field_name: FL-341B[0].Page1[0].CaptionP1_sf[0].TitlePartyName[0].OtherParentParty_ft[0]
+      type: currency
+      label: Other Parent Party Ft
+      required: false
+      width: third
+    - name: case_number_ft
+      pdf_field_name: FL-341B[0].Page1[0].CaptionP1_sf[0].CaseNumber[0].CaseNumber_ft[0]
+      type: text
+      label: Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+    - name: petitioner_ft_2
+      pdf_field_name: FL-341B[0].Page2[0].CaptionP1_sf[0].TitlePartyName[0].Petitioner_ft[0]
+      type: text
+      label: Petitioner Ft
+      required: false
+      width: full
+      shared_key: petitioner:name
+    - name: respondent_ft_2
+      pdf_field_name: FL-341B[0].Page2[0].CaptionP1_sf[0].TitlePartyName[0].Respondent_ft[0]
+      type: text
+      label: Respondent Ft
+      required: false
+      width: full
+      shared_key: respondent:name
+    - name: other_parent_party_ft_2
+      pdf_field_name: FL-341B[0].Page2[0].CaptionP1_sf[0].TitlePartyName[0].OtherParentParty_ft[0]
+      type: currency
+      label: Other Parent Party Ft
+      required: false
+      width: third
+    - name: case_number_ft_2
+      pdf_field_name: FL-341B[0].Page2[0].CaptionP1_sf[0].CaseNumber[0].CaseNumber_ft[0]
+      type: text
+      label: Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+  to_sub:
+    title: To Sub
+    fields:
+    - name: child_custody_visitation_attachment_cb
+      pdf_field_name: FL-341B[0].Page1[0].ToSub[0].ChildCustodyVisitationAttachment_cb[0]
+      type: text
+      label: Child Custody Visitation Attachment Cb
+      required: false
+      width: full
+    - name: juvenile_custody_order_judgment_cb
+      pdf_field_name: FL-341B[0].Page1[0].ToSub[0].JuvenileCustodyOrder_Judgment_cb[0]
+      type: text
+      label: Juvenile Custody Order Judgment Cb
+      required: false
+      width: full
+    - name: check_box61
+      pdf_field_name: FL-341B[0].Page1[0].ToSub[0].CheckBox61[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: other_attachment_ft
+      pdf_field_name: FL-341B[0].Page1[0].ToSub[0].OtherAttachment_ft[0]
+      type: text
+      label: Other Attachment Ft
+      required: false
+      width: full
+  list:
+    title: List
+    fields:
+    - name: party_who_will_take_child_without_permissin_ft
+      pdf_field_name: FL-341B[0].Page1[0].List1[0].PartyWhoWillTakeChildWithoutPermissin_ft[0]
+      type: text
+      label: Party Who Will Take Child Without Permissin Ft
+      required: false
+      width: full
+    - name: violated_past_orders_cb
+      pdf_field_name: FL-341B[0].Page1[0].List1[0].Li1[0].ViolatedPastOrders_cb[0]
+      type: text
+      label: Violated Past Orders Cb
+      required: false
+      width: full
+    - name: no_strong_ties_to_california_cb
+      pdf_field_name: FL-341B[0].Page1[0].List1[0].Li2[0].NoStrongTiesToCalifornia_cb[0]
+      type: text
+      label: No Strong Ties To California Cb
+      required: false
+      width: full
+    - name: things_done_by_parent_cb
+      pdf_field_name: FL-341B[0].Page1[0].List1[0].Li3[0].ThingsDoneByParent_cb[0]
+      type: currency
+      label: Things Done By Parent Cb
+      required: false
+      width: third
+    - name: quit_job_cb
+      pdf_field_name: FL-341B[0].Page1[0].List1[0].Li3[0].QuitJob_cb[0]
+      type: text
+      label: Quit Job Cb
+      required: false
+      width: full
+    - name: sold_home_cb
+      pdf_field_name: FL-341B[0].Page1[0].List1[0].Li3[0].SoldHome_cb[0]
+      type: text
+      label: Sold Home Cb
+      required: false
+      width: full
+    - name: closed_bank_acct_cb
+      pdf_field_name: FL-341B[0].Page1[0].List1[0].Li3[0].ClosedBankAcct_cb[0]
+      type: text
+      label: Closed Bank Acct Cb
+      required: false
+      width: full
+    - name: ended_lease_cb
+      pdf_field_name: FL-341B[0].Page1[0].List1[0].Li3[0].EndedLease_cb[0]
+      type: text
+      label: Ended Lease Cb
+      required: false
+      width: full
+    - name: sold_assets_cb
+      pdf_field_name: FL-341B[0].Page1[0].List1[0].Li3[0].SoldAssets_cb[0]
+      type: text
+      label: Sold Assets Cb
+      required: false
+      width: full
+    - name: hidden_or_destroyed_docs_cb
+      pdf_field_name: FL-341B[0].Page1[0].List1[0].Li3[0].HiddenOrDestroyedDocs_cb[0]
+      type: text
+      label: Hidden Or Destroyed Docs Cb
+      required: false
+      width: full
+    - name: applied_for_passport_cb
+      pdf_field_name: FL-341B[0].Page1[0].List1[0].Li3[0].AppliedForPassport_cb[0]
+      type: text
+      label: Applied For Passport Cb
+      required: false
+      width: full
+    - name: check_box61_2
+      pdf_field_name: FL-341B[0].Page1[0].List1[0].Li3[0].CheckBox61[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: things_done_to_prep_ft
+      pdf_field_name: FL-341B[0].Page1[0].List1[0].Li3[0].ThingsDoneToPrep_ft[0]
+      type: text
+      label: Things Done To Prep Ft
+      required: false
+      width: full
+    - name: has_history_of_cb
+      pdf_field_name: FL-341B[0].Page1[0].List1[0].Li4[0].HasHistoryOf_cb[0]
+      type: text
+      label: Has History Of Cb
+      required: false
+      width: full
+    - name: domestic_violence_cb
+      pdf_field_name: FL-341B[0].Page1[0].List1[0].Li4[0].DomesticViolence_cb[0]
+      type: text
+      label: Domestic Violence Cb
+      required: false
+      width: full
+    - name: child_abuse_cb
+      pdf_field_name: FL-341B[0].Page1[0].List1[0].Li4[0].ChildAbuse_cb[0]
+      type: text
+      label: Child Abuse Cb
+      required: false
+      width: full
+    - name: not_cooperating_cb
+      pdf_field_name: FL-341B[0].Page1[0].List1[0].Li4[0].NotCooperating_cb[0]
+      type: text
+      label: Not Cooperating Cb
+      required: false
+      width: full
+    - name: has_criminal_record_cb
+      pdf_field_name: FL-341B[0].Page1[0].List1[0].Li5[0].HasCriminalRecord_cb[0]
+      type: text
+      label: Has Criminal Record Cb
+      required: false
+      width: full
+    - name: has_ties_to_other_county_state_country_cb
+      pdf_field_name: FL-341B[0].Page1[0].List1[0].Li6[0].HasTiesToOtherCountyStateCountry_cb[0]
+      type: address
+      label: Has Ties To Other County State Country Cb
+      required: false
+      width: full
+    - name: supervised_visits_ordered_cb
+      pdf_field_name: FL-341B[0].Page1[0].List2[0].Li1[0].SupervisedVisitsOrdered_cb[0]
+      type: text
+      label: Supervised Visits Ordered Cb
+      required: false
+      width: full
+    - name: sup_visit_terms_where_cb
+      pdf_field_name: FL-341B[0].Page1[0].List2[0].Li1[0].SupVisitTermsWhere_cb[0]
+      type: text
+      label: Sup Visit Terms Where Cb
+      required: false
+      width: full
+    - name: sup_visit_terms_where_cb_2
+      pdf_field_name: FL-341B[0].Page1[0].List2[0].Li1[0].SupVisitTermsWhere_cb[1]
+      type: text
+      label: Sup Visit Terms Where Cb
+      required: false
+      width: full
+    - name: terms_of_supervised_visits_ft
+      pdf_field_name: FL-341B[0].Page1[0].List2[0].Li1[0].TermsOfSupervisedVisits_ft[0]
+      type: text
+      label: Terms Of Supervised Visits Ft
+      required: false
+      width: full
+    - name: bond_required_to_be_posted_cb
+      pdf_field_name: FL-341B[0].Page1[0].List3[0].Li1[0].BondRequiredToBePosted_cb[0]
+      type: text
+      label: Bond Required To Be Posted Cb
+      required: false
+      width: full
+    - name: dollar_amountof_bond_nu
+      pdf_field_name: FL-341B[0].Page1[0].List3[0].Li1[0].DollarAmountofBond_nu[0]
+      type: currency
+      label: Dollar Amountof Bond Nu
+      required: false
+      width: third
+    - name: specify
+      pdf_field_name: FL-341B[0].Page1[0].List3[0].Li1[0].Specify[0]
+      type: text
+      label: Specify
+      required: false
+      width: full
+    - name: specify_cont
+      pdf_field_name: FL-341B[0].Page1[0].List3[0].Li1[0].SpecifyCont[0]
+      type: text
+      label: Specify Cont
+      required: false
+      width: full
+    - name: party_must_not_move_with_children_from_cb
+      pdf_field_name: FL-341B[0].Page1[0].List4[0].Li1[0].PartyMustNotMoveWithChildrenFrom_cb[0]
+      type: text
+      label: Party Must Not Move With Children From Cb
+      required: false
+      width: full
+    - name: current_residence_cb
+      pdf_field_name: FL-341B[0].Page1[0].List4[0].Li1[0].CurrentResidence_cb[0]
+      type: currency
+      label: Current Residence Cb
+      required: false
+      width: third
+    - name: check_box61_2
+      pdf_field_name: FL-341B[0].Page1[0].List4[0].Li1[0].CheckBox61[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: t371
+      pdf_field_name: FL-341B[0].Page1[0].List4[0].Li1[0].T371[0]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: this_country_cb
+      pdf_field_name: FL-341B[0].Page1[0].List4[0].Li1[0].ThisCountry_cb[0]
+      type: number
+      label: This Country Cb
+      required: false
+      width: third
+    - name: other_place_cb
+      pdf_field_name: FL-341B[0].Page1[0].List4[0].Li1[0].OtherPlace_cb[0]
+      type: text
+      label: Other Place Cb
+      required: false
+      width: full
+    - name: specify_other_place_ft
+      pdf_field_name: FL-341B[0].Page1[0].List4[0].Li1[0].SpecifyOtherPlace_ft[0]
+      type: text
+      label: Specify Other Place Ft
+      required: false
+      width: full
+    - name: no_travel_with_children_cb
+      pdf_field_name: FL-341B[0].Page1[0].List5[0].Li1[0].NoTravelWithChildren_cb[0]
+      type: text
+      label: No Travel With Children Cb
+      required: false
+      width: full
+    - name: no_move_from_this_county_cb
+      pdf_field_name: FL-341B[0].Page1[0].List5[0].Li1[0].NoMoveFromThisCounty_cb[0]
+      type: number
+      label: No Move From This County Cb
+      required: false
+      width: third
+    - name: no_move_from_usa_cb
+      pdf_field_name: FL-341B[0].Page1[0].List5[0].Li1[0].NoMoveFromUSA_cb[0]
+      type: text
+      label: No Move From Usa Cb
+      required: false
+      width: full
+    - name: no_moves_from_california_cb
+      pdf_field_name: FL-341B[0].Page1[0].List5[0].Li1[0].NoMovesFromCalifornia_cb[0]
+      type: text
+      label: No Moves From California Cb
+      required: false
+      width: full
+    - name: no_move_from_other_place_cb
+      pdf_field_name: FL-341B[0].Page1[0].List5[0].Li1[0].NoMoveFromOtherPlace_cb[0]
+      type: text
+      label: No Move From Other Place Cb
+      required: false
+      width: full
+    - name: other_place_ft
+      pdf_field_name: FL-341B[0].Page1[0].List5[0].Li1[0].OtherPlace_ft[0]
+      type: text
+      label: Other Place Ft
+      required: false
+      width: full
+    - name: register_this_order_in_another_state_cb
+      pdf_field_name: FL-341B[0].Page1[0].List6[0].Li1[0].RegisterThisOrderInAnotherState_cb[0]
+      type: address
+      label: Register This Order In Another State Cb
+      required: false
+      width: full
+    - name: specify_other_state_ft
+      pdf_field_name: FL-341B[0].Page1[0].List6[0].Li1[0].SpecifyOtherState_ft[0]
+      type: address
+      label: Specify Other State Ft
+      required: false
+      width: full
+    - name: no_applications_for_passports_and_vital_docs_cb
+      pdf_field_name: FL-341B[0].Page1[0].List7[0].Li1[0].NoApplicationsForPassportsAndVitalDocs_cb[0]
+      type: text
+      label: No Applications For Passports And Vital Docs Cb
+      required: false
+      width: full
+    - name: must_turn_in_childrens_passports_cb
+      pdf_field_name: FL-341B[0].Page2[0].List8[0].Li1[0].MustTurnInChildrensPassports_cb[0]
+      type: text
+      label: Must Turn In Childrens Passports Cb
+      required: false
+      width: full
+    - name: list_vital_documents_to_turn_in_ft
+      pdf_field_name: FL-341B[0].Page2[0].List8[0].Li1[0].ListVitalDocumentsToTurnIn_ft[0]
+      type: text
+      label: List Vital Documents To Turn In Ft
+      required: false
+      width: full
+    - name: give_other_parent_items_before_travel_with_children_cb
+      pdf_field_name: FL-341B[0].Page2[0].List9[0].Li1[0].GiveOtherParentItemsBeforeTravelWithChildren_cb[0]
+      type: currency
+      label: Give Other Parent Items Before Travel With Children Cb
+      required: false
+      width: third
+    - name: travel_itinerary_cb
+      pdf_field_name: FL-341B[0].Page2[0].List9[0].Li1[0].TravelItinerary_cb[0]
+      type: text
+      label: Travel Itinerary Cb
+      required: false
+      width: full
+    - name: copies_roundtrip_tickets_cb
+      pdf_field_name: FL-341B[0].Page2[0].List9[0].Li1[0].Copies_RoundtripTickets_cb[0]
+      type: text
+      label: Copies Roundtrip Tickets Cb
+      required: false
+      width: full
+    - name: addresses_and_telephone_info_cb
+      pdf_field_name: FL-341B[0].Page2[0].List9[0].Li1[0].AddressesAndTelephoneInfo_cb[0]
+      type: tel
+      label: Addresses And Telephone Info Cb
+      required: false
+      width: half
+    - name: open_airline_ticke_for_other_parent_cb
+      pdf_field_name: FL-341B[0].Page2[0].List9[0].Li1[0].OpenAirlineTickeForOtherParent_cb[0]
+      type: currency
+      label: Open Airline Ticke For Other Parent Cb
+      required: false
+      width: third
+    - name: check_box61_2
+      pdf_field_name: FL-341B[0].Page2[0].List9[0].Li1[0].CheckBox61[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: other_travel_info_ft
+      pdf_field_name: FL-341B[0].Page2[0].List9[0].Li1[0].OtherTravelInfo_ft[0]
+      type: text
+      label: Other Travel Info Ft
+      required: false
+      width: full
+    - name: notify_embassy_or_consulate_cb
+      pdf_field_name: FL-341B[0].Page2[0].List10[0].Li1[0].NotifyEmbassyOrConsulate_cb[0]
+      type: text
+      label: Notify Embassy Or Consulate Cb
+      required: false
+      width: full
+    - name: specify_country_ft
+      pdf_field_name: FL-341B[0].Page2[0].List10[0].Li1[0].SpecifyCountry_ft[0]
+      type: number
+      label: Specify Country Ft
+      required: false
+      width: third
+    - name: number_of_days_notice_due_to_court_nu
+      pdf_field_name: FL-341B[0].Page2[0].List10[0].Li1[0].NumberOfDaysNoticeDueToCourt_nu[0]
+      type: text
+      label: Number Of Days Notice Due To Court Nu
+      required: false
+      width: full
+    - name: get_orders_from_other_country_like_order_in_usa_cb
+      pdf_field_name: FL-341B[0].Page2[0].List11[0].Li1[0].GetOrdersFromOtherCountryLikeOrderInUSA_cb[0]
+      type: number
+      label: Get Orders From Other Country Like Order In Usa Cb
+      required: false
+      width: third
+    - name: enforce_the_order_cb
+      pdf_field_name: FL-341B[0].Page2[0].List12[0].Li1[0].EnforceTheOrder_cb[0]
+      type: text
+      label: Enforce The Order Cb
+      required: false
+      width: full
+    - name: enforcement_contact_info_ft
+      pdf_field_name: FL-341B[0].Page2[0].List12[0].Li1[0].EnforcementContactInfo_ft[0]
+      type: text
+      label: Enforcement Contact Info Ft
+      required: false
+      width: full
+    - name: other_order_cb
+      pdf_field_name: FL-341B[0].Page2[0].List13[0].Li1[0].OtherOrder_cb[0]
+      type: text
+      label: Other Order Cb
+      required: false
+      width: full
+    - name: specify_other_orders_ft
+      pdf_field_name: FL-341B[0].Page2[0].List13[0].Li1[0].SpecifyOtherOrders_ft[0]
+      type: text
+      label: Specify Other Orders Ft
+      required: false
+      width: full
+  sing_sub:
+    title: Sing Sub
+    fields:
+    - name: date_signed_by_court_dt
+      pdf_field_name: FL-341B[0].Page2[0].SingSub[0].DateSignedByCourt_dt[0]
+      type: date
+      label: Date Signed By Court Dt
+      required: false
+      width: half

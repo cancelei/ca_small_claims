@@ -1,0 +1,234 @@
+---
+form:
+  code: JV-206
+  title: JV 206 Form
+  description: ''
+  category: juvenile/general
+  pdf_filename: jv206.pdf
+  fillable: true
+  instructions: ''
+sections:
+  other_specify_tf:
+    title: Other Specify Tf
+    fields:
+    - name: other_specify_tf
+      pdf_field_name: topmostSubform[0].Page1[0].OtherSpecify_tf[0]
+      type: text
+      label: Other Specify Tf
+      required: false
+      width: full
+    - name: other_specify_tf_2
+      pdf_field_name: topmostSubform[0].Page1[0].OtherSpecify_tf[1]
+      type: text
+      label: Other Specify Tf
+      required: false
+      width: full
+    - name: other_specify_tf_2
+      pdf_field_name: topmostSubform[0].Page1[0].OtherSpecify_tf[2]
+      type: text
+      label: Other Specify Tf
+      required: false
+      width: full
+  p2_header_gp:
+    title: P2 Header Gp
+    fields:
+    - name: family_ft
+      pdf_field_name: topmostSubform[0].Page1[0].P2Header_gp[0].CaseNumber[0].family_ft[0]
+      type: text
+      label: Family Ft
+      required: false
+      width: full
+      shared_key: case:number
+    - name: juvenile_ft
+      pdf_field_name: topmostSubform[0].Page1[0].P2Header_gp[0].CaseNumber[0].juvenile_ft[0]
+      type: text
+      label: Juvenile Ft
+      required: false
+      width: full
+      shared_key: case:number
+  radio_button_list:
+    title: Radio Button List
+    fields:
+    - name: radio_button_list
+      pdf_field_name: topmostSubform[0].Page1[0].RadioButtonList[0]
+      type: text
+      label: Radio Button List
+      required: false
+      width: full
+    - name: radio_button_list_2
+      pdf_field_name: topmostSubform[0].Page1[0].#area[3].RadioButtonList[1]
+      type: text
+      label: Radio Button List
+      required: false
+      width: full
+  general:
+    title: General
+    fields:
+    - name: area
+      pdf_field_name: topmostSubform[0].Page1[0].#area[3]
+      type: text
+      label: "#Area"
+      required: false
+      width: full
+    - name: field
+      pdf_field_name: topmostSubform[0].Page1[0].#field[21]
+      type: text
+      label: "#Field"
+      required: false
+      width: full
+    - name: field_2
+      pdf_field_name: topmostSubform[0].Page1[0].#field[23]
+      type: text
+      label: "#Field"
+      required: false
+      width: full
+  petitioner_cb:
+    title: Petitioner Cb
+    fields:
+    - name: petitioner_cb
+      pdf_field_name: topmostSubform[0].Page1[0].#area[4].petitioner_cb[0]
+      type: text
+      label: Petitioner Cb
+      required: false
+      width: full
+    - name: petitioner_cb_2
+      pdf_field_name: topmostSubform[0].Page1[0].#area[5].petitioner_cb[1]
+      type: text
+      label: Petitioner Cb
+      required: false
+      width: full
+    - name: petitioner_cb_2
+      pdf_field_name: topmostSubform[0].Page1[0].#area[6].petitioner_cb[2]
+      type: text
+      label: Petitioner Cb
+      required: false
+      width: full
+    - name: petitioner_cb_2
+      pdf_field_name: topmostSubform[0].Page1[0].#area[7].petitioner_cb[3]
+      type: text
+      label: Petitioner Cb
+      required: false
+      width: full
+    - name: petitioner_cb_2
+      pdf_field_name: topmostSubform[0].Page1[0].#area[8].petitioner_cb[4]
+      type: text
+      label: Petitioner Cb
+      required: false
+      width: full
+    - name: petitioner_cb_2
+      pdf_field_name: topmostSubform[0].Page1[0].#area[9].petitioner_cb[5]
+      type: text
+      label: Petitioner Cb
+      required: false
+      width: full
+    - name: petitioner_cb_2
+      pdf_field_name: topmostSubform[0].Page1[0].#area[10].petitioner_cb[6]
+      type: text
+      label: Petitioner Cb
+      required: false
+      width: full
+    - name: petitioner_cb_2
+      pdf_field_name: topmostSubform[0].Page1[0].#area[11].petitioner_cb[7]
+      type: text
+      label: Petitioner Cb
+      required: false
+      width: full
+    - name: petitioner_cb_2
+      pdf_field_name: topmostSubform[0].Page1[0].#area[12].petitioner_cb[8]
+      type: text
+      label: Petitioner Cb
+      required: false
+      width: full
+    - name: petitioner_cb_2
+      pdf_field_name: topmostSubform[0].Page1[0].#area[13].petitioner_cb[9]
+      type: text
+      label: Petitioner Cb
+      required: false
+      width: full
+    - name: petitioner_cb_2
+      pdf_field_name: topmostSubform[0].Page1[0].#area[14].petitioner_cb[10]
+      type: text
+      label: Petitioner Cb
+      required: false
+      width: full
+    - name: petitioner_cb_2
+      pdf_field_name: topmostSubform[0].Page1[0].#area[15].petitioner_cb[11]
+      type: text
+      label: Petitioner Cb
+      required: false
+      width: full
+    - name: petitioner_cb_2
+      pdf_field_name: topmostSubform[0].Page1[0].#area[17].petitioner_cb[12]
+      type: text
+      label: Petitioner Cb
+      required: false
+      width: full
+  check_box:
+    title: Check Box
+    fields:
+    - name: check_box61
+      pdf_field_name: topmostSubform[0].Page1[0].#area[16].CheckBox61[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box61_2
+      pdf_field_name: topmostSubform[0].Page1[0].#area[18].CheckBox61[1]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box61_2
+      pdf_field_name: topmostSubform[0].Page1[0].#area[19].CheckBox61[2]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box61_2
+      pdf_field_name: topmostSubform[0].Page1[0].#area[20].CheckBox61[3]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box61_2
+      pdf_field_name: topmostSubform[0].Page1[0].#area[21].CheckBox61[4]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+  case_name_ft:
+    title: Case Name Ft
+    fields:
+    - name: case_name_ft
+      pdf_field_name: topmostSubform[0].Page1[0].CaseName_ft[0]
+      type: text
+      label: Case Name Ft
+      required: false
+      width: full
+  print_bt:
+    title: Print Bt
+    fields:
+    - name: print_bt
+      pdf_field_name: topmostSubform[0].Page1[0].Print_bt[0]
+      type: checkbox
+      label: Print Bt
+      required: false
+      width: full
+  save_bt:
+    title: Save Bt
+    fields:
+    - name: save_bt
+      pdf_field_name: topmostSubform[0].Page1[0].Save_bt[0]
+      type: checkbox
+      label: Save Bt
+      required: false
+      width: full
+  reset_bt:
+    title: Reset Bt
+    fields:
+    - name: reset_bt
+      pdf_field_name: topmostSubform[0].Page1[0].Reset_bt[0]
+      type: checkbox
+      label: Reset Bt
+      required: false
+      width: full

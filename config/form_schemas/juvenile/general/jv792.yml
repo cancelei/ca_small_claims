@@ -1,0 +1,37 @@
+---
+form:
+  code: JV-792
+  title: JV 792 Form
+  description: ''
+  category: juvenile/general
+  pdf_filename: jv792.pdf
+  fillable: true
+  instructions: ''
+sections:
+  page_area:
+    title: Page Area
+    fields:
+    - name: court_link
+      pdf_field_name: cr112jv792[0].#pageSet[0].PageArea1[0].Footer1[0].Footer[0].CourtLink[0]
+      type: checkbox
+      label: Court Link
+      required: false
+      width: full
+  print:
+    title: Print
+    fields:
+    - name: print
+      pdf_field_name: cr112jv792[0].#pageSet[0].Page2[0].#area[0].Print[0]
+      type: checkbox
+      label: Print
+      required: false
+      width: full
+  save:
+    title: Save
+    fields:
+    - name: save
+      pdf_field_name: cr112jv792[0].#pageSet[0].Page2[0].#area[0].Save[0]
+      type: checkbox
+      label: Save
+      required: false
+      width: full

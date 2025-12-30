@@ -1,0 +1,46 @@
+---
+form:
+  code: FL-281
+  title: FL 281 Form
+  description: ''
+  category: family_law/general
+  pdf_filename: fl281.pdf
+  fillable: true
+  instructions: ''
+sections:
+  print:
+    title: Print
+    fields:
+    - name: print
+      pdf_field_name: FL-281[0].Page3[0].#area[0].Print[0]
+      type: checkbox
+      label: Print
+      required: false
+      width: full
+  save:
+    title: Save
+    fields:
+    - name: save
+      pdf_field_name: FL-281[0].Page3[0].#area[0].Save[0]
+      type: checkbox
+      label: Save
+      required: false
+      width: full
+  reset:
+    title: Reset
+    fields:
+    - name: reset
+      pdf_field_name: FL-281[0].Page3[0].#area[0].Reset[0]
+      type: checkbox
+      label: Reset
+      required: false
+      width: full
+  warning:
+    title: Warning
+    fields:
+    - name: warning
+      pdf_field_name: FL-281[0].Page3[0].#area[0].Warning[0]
+      type: checkbox
+      label: Warning
+      required: false
+      width: full

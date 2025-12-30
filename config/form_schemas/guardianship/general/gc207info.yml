@@ -1,0 +1,25 @@
+---
+form:
+  code: GC-207INFO
+  title: GC 207INFO Form
+  description: ''
+  category: guardianship/general
+  pdf_filename: gc207info.pdf
+  fillable: true
+  instructions: ''
+sections:
+  general:
+    title: General
+    fields:
+    - name: print_this_form
+      pdf_field_name: Print this form
+      type: checkbox
+      label: Print This Form
+      required: false
+      width: full
+    - name: save_this_form
+      pdf_field_name: Save this form
+      type: checkbox
+      label: Save This Form
+      required: false
+      width: full

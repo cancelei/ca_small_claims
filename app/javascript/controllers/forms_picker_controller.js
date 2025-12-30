@@ -1,30 +1,23 @@
 import { Controller } from "@hotwired/stimulus"
+import { createDebouncedHandler, DEBOUNCE_DELAYS } from "../utilities/debounce"
 
 export default class extends Controller {
   static targets = ["searchInput", "categoryButton", "results"]
   static values = {
     url: String,
-    debounceDelay: { type: Number, default: 300 }
+    debounceDelay: { type: Number, default: DEBOUNCE_DELAYS.FAST }
   }
 
   connect() {
-    this.debounceTimer = null
+    this.debouncedSearch = createDebouncedHandler(() => this.performSearch())
   }
 
   disconnect() {
-    if (this.debounceTimer) {
-      clearTimeout(this.debounceTimer)
-    }
+    this.debouncedSearch.cancel()
   }
 
   search() {
-    if (this.debounceTimer) {
-      clearTimeout(this.debounceTimer)
-    }
-
-    this.debounceTimer = setTimeout(() => {
-      this.performSearch()
-    }, this.debounceDelayValue)
+    this.debouncedSearch.call(this.debounceDelayValue)
   }
 
   selectCategory(event) {

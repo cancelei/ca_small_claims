@@ -9,7 +9,10 @@ module Forms
         /signature/i,
         /sig$/i,        # Ends with "Sig" (e.g., PetitionerSig)
         /sig[^a-z]/i,   # "Sig" followed by non-letter (e.g., Sig1)
-        /\bsign\b/i
+        /\bsign\b/i,
+        /attorney.*sign/i,
+        /petitioner.*sign/i,
+        /respondent.*sign/i
       ],
       date: [
         /date/i,
@@ -17,18 +20,26 @@ module Forms
         /birth.*date/i,
         /date.*birth/i,
         /hearing.*date/i,
-        /filing.*date/i
+        /filing.*date/i,
+        /expir/i,          # Expiration dates
+        /issued/i,         # Issue dates
+        /served/i,         # Service dates
+        /marriage.*date/i,
+        /separation.*date/i,
+        /incident.*date/i
       ],
       email: [
         /email/i,
-        /e-mail/i
+        /e-mail/i,
+        /electronic.*mail/i
       ],
       tel: [
         /phone/i,
         /tel(?:ephone)?/i,
         /fax/i,
         /mobile/i,
-        /cell/i
+        /cell/i,
+        /contact.*number/i
       ],
       currency: [
         /amount/i,
@@ -40,7 +51,16 @@ module Forms
         /money/i,
         /price/i,
         /total.*due/i,
-        /balance/i
+        /balance/i,
+        /income/i,
+        /expense/i,
+        /asset.*value/i,
+        /debt/i,
+        /support.*amount/i,   # Child/spousal support
+        /rent/i,
+        /mortgage/i,
+        /salary/i,
+        /wage/i
       ],
       address: [
         /address/i,
@@ -49,12 +69,24 @@ module Forms
         /state/i,
         /zip/i,
         /postal/i,
-        /mailing/i
+        /mailing/i,
+        /residence/i,
+        /location/i
       ],
       checkbox: [
         /^checkbox/i,
         /\bchk\b/i,
-        /check.*box/i
+        /check.*box/i,
+        /^cb[_\d]/i,      # CB1, CB_2, etc.
+        /\byes\b.*\bno\b/i
+      ],
+      number: [
+        /\bage\b/i,
+        /\byear\b.*born/i,
+        /number.*child/i,
+        /count/i,
+        /quantity/i,
+        /\bnum\b/i
       ]
     }.freeze
 
@@ -72,7 +104,16 @@ module Forms
       /immigration/i,
       /bank.*account/i,
       /credit.*card/i,
-      /routing.*number/i
+      /routing.*number/i,
+      /minor.*name/i,         # Child names in family law
+      /child.*name/i,
+      /victim.*name/i,        # DV/restraining orders
+      /protected.*person/i,
+      /dependent.*name/i,
+      /medical.*record/i,
+      /health.*info/i,
+      /employment.*history/i,
+      /financial.*account/i
     ].freeze
 
     # PDF field names to skip (utility buttons, not user data)
@@ -87,7 +128,21 @@ module Forms
       /^NoticeFooter/i,
       /^#pageSet/i,
       /^#subform/i,
-      /^\[.*\]$/  # Pure array references
+      /^\[.*\]$/,           # Pure array references
+      /^Page\d+$/i,         # Page markers
+      /^Header$/i,
+      /^Footer$/i,
+      /^FormTitle$/i,
+      /^Instructions$/i,
+      /^PrintButton/i,
+      /^SaveButton/i,
+      /^ResetButton/i,
+      /^ClearButton/i,
+      /^Barcode/i,
+      /^QRCode/i,
+      /^Logo$/i,
+      /^Seal$/i,
+      /^Watermark/i
     ].freeze
 
     def initialize

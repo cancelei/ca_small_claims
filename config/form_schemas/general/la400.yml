@@ -1,0 +1,164 @@
+---
+form:
+  code: LA-400
+  title: LA 400 Form
+  description: ''
+  category: general
+  pdf_filename: la400.pdf
+  fillable: true
+  instructions: ''
+sections:
+  date_time_field:
+    title: Date Time Field
+    fields:
+    - name: date_time_field1
+      pdf_field_name: topmostSubform[0].Page1[0].DateTimeField1[0]
+      type: date
+      label: Date Time Field
+      required: false
+      width: half
+  caption_p1_right_sf:
+    title: Caption P1 Right Sf
+    fields:
+    - name: court_info_ft
+      pdf_field_name: topmostSubform[0].Page1[0].CaptionP1Right_sf[0].CourtInfo_ft[0]
+      type: text
+      label: Court Info Ft
+      required: false
+      width: full
+  your_name_ft:
+    title: Your Name Ft
+    fields:
+    - name: your_name_ft
+      pdf_field_name: topmostSubform[0].Page1[0].YourName_ft[0]
+      type: text
+      label: Your Name Ft
+      required: false
+      width: full
+  text_field:
+    title: Text Field
+    fields:
+    - name: text_field3
+      pdf_field_name: topmostSubform[0].Page1[0].TextField3[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field4
+      pdf_field_name: topmostSubform[0].Page1[0].TextField4[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field5
+      pdf_field_name: topmostSubform[0].Page1[0].TextField5[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field20
+      pdf_field_name: topmostSubform[0].Page1[0].TextField20[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field3_2
+      pdf_field_name: topmostSubform[0].Page1[0].TextField3[1]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field3_2
+      pdf_field_name: topmostSubform[0].Page1[0].TextField3[2]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field3_2
+      pdf_field_name: topmostSubform[0].Page1[0].TextField3[3]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+  date_field:
+    title: Date Field
+    fields:
+    - name: date_field1
+      pdf_field_name: topmostSubform[0].Page1[0].DateField1[0]
+      type: date
+      label: Date Field
+      required: false
+      width: half
+    - name: date_field1_2
+      pdf_field_name: topmostSubform[0].Page1[0].DateField1[1]
+      type: date
+      label: Date Field
+      required: false
+      width: half
+    - name: date_field1_2
+      pdf_field_name: topmostSubform[0].Page1[0].DateField1[2]
+      type: date
+      label: Date Field
+      required: false
+      width: half
+  case_number_ft:
+    title: Case Number Ft
+    fields:
+    - name: case_number_ft
+      pdf_field_name: topmostSubform[0].Page1[0].CaseNumber_ft[0]
+      type: text
+      label: Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+  option_cb:
+    title: Option Cb
+    fields:
+    - name: option_cb
+      pdf_field_name: topmostSubform[0].Page1[0].option_cb[0]
+      type: text
+      label: Option Cb
+      required: false
+      width: full
+    - name: option_cb_2
+      pdf_field_name: topmostSubform[0].Page1[0].option_cb[1]
+      type: text
+      label: Option Cb
+      required: false
+      width: full
+  print:
+    title: Print
+    fields:
+    - name: print
+      pdf_field_name: topmostSubform[0].Page1[0].#area[3].Print[0]
+      type: checkbox
+      label: Print
+      required: false
+      width: full
+  save:
+    title: Save
+    fields:
+    - name: save
+      pdf_field_name: topmostSubform[0].Page1[0].#area[3].Save[0]
+      type: checkbox
+      label: Save
+      required: false
+      width: full
+  reset:
+    title: Reset
+    fields:
+    - name: reset
+      pdf_field_name: topmostSubform[0].Page1[0].#area[3].Reset[0]
+      type: checkbox
+      label: Reset
+      required: false
+      width: full
+  warning:
+    title: Warning
+    fields:
+    - name: warning
+      pdf_field_name: topmostSubform[0].Page1[0].#area[3].Warning[0]
+      type: checkbox
+      label: Warning
+      required: false
+      width: full

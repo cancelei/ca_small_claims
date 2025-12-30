@@ -1,0 +1,743 @@
+---
+form:
+  code: GC-312
+  title: GC 312 Form
+  description: ''
+  category: guardianship/general
+  pdf_filename: gc312.pdf
+  fillable: true
+  instructions: ''
+sections:
+  p1_caption:
+    title: P1 Caption
+    fields:
+    - name: atty_bar_no
+      pdf_field_name: GC-312[0].Page1[0].p1Caption[0].AttyPartyInfo[0].AttyBarNo[0]
+      type: text
+      label: Atty Bar No
+      required: false
+      width: full
+    - name: conservator_name
+      pdf_field_name: GC-312[0].Page1[0].p1Caption[0].AttyPartyInfo[0].ConservatorName[0]
+      type: text
+      label: Conservator Name
+      required: false
+      width: full
+    - name: atty_firm
+      pdf_field_name: GC-312[0].Page1[0].p1Caption[0].AttyPartyInfo[0].AttyFirm[0]
+      type: text
+      label: Atty Firm
+      required: false
+      width: full
+    - name: street
+      pdf_field_name: GC-312[0].Page1[0].p1Caption[0].AttyPartyInfo[0].Street[0]
+      type: address
+      label: Street
+      required: false
+      width: full
+    - name: city
+      pdf_field_name: GC-312[0].Page1[0].p1Caption[0].AttyPartyInfo[0].City[0]
+      type: address
+      label: City
+      required: false
+      width: full
+    - name: state
+      pdf_field_name: GC-312[0].Page1[0].p1Caption[0].AttyPartyInfo[0].State[0]
+      type: address
+      label: State
+      required: false
+      width: full
+    - name: zip
+      pdf_field_name: GC-312[0].Page1[0].p1Caption[0].AttyPartyInfo[0].Zip[0]
+      type: address
+      label: Zip
+      required: false
+      width: full
+    - name: phone
+      pdf_field_name: GC-312[0].Page1[0].p1Caption[0].AttyPartyInfo[0].Phone[0]
+      type: tel
+      label: Phone
+      required: false
+      width: half
+    - name: fax
+      pdf_field_name: GC-312[0].Page1[0].p1Caption[0].AttyPartyInfo[0].Fax[0]
+      type: tel
+      label: Fax
+      required: false
+      width: half
+    - name: email
+      pdf_field_name: GC-312[0].Page1[0].p1Caption[0].AttyPartyInfo[0].Email[0]
+      type: email
+      label: Email
+      required: false
+      width: half
+    - name: atty_for
+      pdf_field_name: GC-312[0].Page1[0].p1Caption[0].AttyPartyInfo[0].AttyFor[0]
+      type: text
+      label: Atty For
+      required: false
+      width: full
+    - name: crt_county
+      pdf_field_name: GC-312[0].Page1[0].p1Caption[0].CourtInfo[0].CrtCounty[0]
+      type: number
+      label: Crt County
+      required: false
+      width: third
+    - name: crt_street
+      pdf_field_name: GC-312[0].Page1[0].p1Caption[0].CourtInfo[0].CrtStreet[0]
+      type: address
+      label: Crt Street
+      required: false
+      width: full
+    - name: crt_mailing_add
+      pdf_field_name: GC-312[0].Page1[0].p1Caption[0].CourtInfo[0].CrtMailingAdd[0]
+      type: address
+      label: Crt Mailing Add
+      required: false
+      width: full
+    - name: crt_city_zip
+      pdf_field_name: GC-312[0].Page1[0].p1Caption[0].CourtInfo[0].CrtCityZip[0]
+      type: address
+      label: Crt City Zip
+      required: false
+      width: full
+    - name: crt_branch
+      pdf_field_name: GC-312[0].Page1[0].p1Caption[0].CourtInfo[0].CrtBranch[0]
+      type: text
+      label: Crt Branch
+      required: false
+      width: full
+    - name: conservatee_ft
+      pdf_field_name: GC-312[0].Page1[0].p1Caption[0].TitlePartyName[0].Conservatee_ft[0]
+      type: text
+      label: Conservatee Ft
+      required: false
+      width: full
+    - name: ltd_cb
+      pdf_field_name: GC-312[0].Page1[0].p1Caption[0].FormTitle[0].Ltd_cb[0]
+      type: text
+      label: Ltd Cb
+      required: false
+      width: full
+    - name: person_cb
+      pdf_field_name: GC-312[0].Page1[0].p1Caption[0].FormTitle[0].Person_cb[0]
+      type: text
+      label: Person Cb
+      required: false
+      width: full
+    - name: estate_cb
+      pdf_field_name: GC-312[0].Page1[0].p1Caption[0].FormTitle[0].Estate_cb[0]
+      type: address
+      label: Estate Cb
+      required: false
+      width: full
+    - name: case_number
+      pdf_field_name: GC-312[0].Page1[0].p1Caption[0].CaseNumber[0].CaseNumber[0]
+      type: text
+      label: Case Number
+      required: false
+      width: full
+      shared_key: case:number
+    - name: hearing_dt
+      pdf_field_name: GC-312[0].Page1[0].p1Caption[0].HearingDate[0].HearingDt[0]
+      type: date
+      label: Hearing Dt
+      required: false
+      width: half
+    - name: dept
+      pdf_field_name: GC-312[0].Page1[0].p1Caption[0].Dept-Time[0].Dept[0]
+      type: text
+      label: Dept
+      required: false
+      width: full
+    - name: time
+      pdf_field_name: GC-312[0].Page1[0].p1Caption[0].Dept-Time[0].Time[0]
+      type: text
+      label: Time
+      required: false
+      width: full
+  item:
+    title: Item
+    fields:
+    - name: conservatee_ft_2
+      pdf_field_name: GC-312[0].Page1[0].Item1[0].Conservatee_ft[0]
+      type: text
+      label: Conservatee Ft
+      required: false
+      width: full
+    - name: dob_ft
+      pdf_field_name: GC-312[0].Page1[0].Item1[0].DOB_ft[0]
+      type: text
+      label: Dob Ft
+      required: false
+      width: full
+    - name: age_ft
+      pdf_field_name: GC-312[0].Page1[0].Item1[0].Age_ft[0]
+      type: text
+      label: Age Ft
+      required: false
+      width: full
+    - name: ssn_ft
+      pdf_field_name: GC-312[0].Page1[0].Item1[0].SSN_ft[0]
+      type: text
+      label: Ssn Ft
+      required: false
+      width: full
+    - name: petitioner_cb
+      pdf_field_name: GC-312[0].Page1[0].Item2[0].Petitioner_cb[0]
+      type: text
+      label: Petitioner Cb
+      required: false
+      width: full
+    - name: prop_conservator_cb
+      pdf_field_name: GC-312[0].Page1[0].Item2[0].PropConservator_cb[0]
+      type: text
+      label: Prop Conservator Cb
+      required: false
+      width: full
+    - name: prsnl_needs_cb
+      pdf_field_name: GC-312[0].Page1[0].Item3[0].Item3Main[0].PrsnlNeeds_cb[0]
+      type: text
+      label: Prsnl Needs Cb
+      required: false
+      width: full
+    - name: phys_health_ft
+      pdf_field_name: GC-312[0].Page1[0].Item3[0].Item3a[0].PhysHealth_ft[0]
+      type: text
+      label: Phys Health Ft
+      required: false
+      width: full
+    - name: conti_att3a_cb
+      pdf_field_name: GC-312[0].Page1[0].Item3[0].Item3a[0].ContiAtt3a_cb[0]
+      type: text
+      label: Conti Att3a Cb
+      required: false
+      width: full
+    - name: food_ft
+      pdf_field_name: GC-312[0].Page1[0].Item3[0].Item3b[0].Food_ft[0]
+      type: text
+      label: Food Ft
+      required: false
+      width: full
+    - name: cont_att3b3b
+      pdf_field_name: GC-312[0].Page1[0].Item3[0].Item3b[0].ContAtt3b3b[0]
+      type: text
+      label: Cont Att3b3b
+      required: false
+      width: full
+    - name: clothing_ft
+      pdf_field_name: GC-312[0].Page1[0].Item3[0].Item3c[0].Clothing_ft[0]
+      type: text
+      label: Clothing Ft
+      required: false
+      width: full
+    - name: cont_att3c_cb
+      pdf_field_name: GC-312[0].Page1[0].Item3[0].Item3c[0].ContAtt3c_cb[0]
+      type: text
+      label: Cont Att3c Cb
+      required: false
+      width: full
+    - name: shelter_ft
+      pdf_field_name: GC-312[0].Page1[0].Item3[0].Item3d[0].Shelter_ft[0]
+      type: text
+      label: Shelter Ft
+      required: false
+      width: full
+    - name: cont_att3d_cb
+      pdf_field_name: GC-312[0].Page1[0].Item3[0].Item3d[0].ContAtt3d_cb[0]
+      type: text
+      label: Cont Att3d Cb
+      required: false
+      width: full
+    - name: fin_resources_cb
+      pdf_field_name: GC-312[0].Page2[0].Item4[0].FinResources_cb[0]
+      type: text
+      label: Fin Resources Cb
+      required: false
+      width: full
+    - name: fin_res_ft
+      pdf_field_name: GC-312[0].Page2[0].Item4[0].FinRes_ft[0]
+      type: text
+      label: Fin Res Ft
+      required: false
+      width: full
+    - name: cont_att4a_cb
+      pdf_field_name: GC-312[0].Page2[0].Item4[0].ContAtt4a_cb[0]
+      type: text
+      label: Cont Att4a Cb
+      required: false
+      width: full
+    - name: frd_undue_infl_ft
+      pdf_field_name: GC-312[0].Page2[0].Item4[0].FrdUndueInfl_ft[0]
+      type: text
+      label: Frd Undue Infl Ft
+      required: false
+      width: full
+    - name: cont_att4b
+      pdf_field_name: GC-312[0].Page2[0].Item4[0].ContAtt4b[0]
+      type: text
+      label: Cont Att4b
+      required: false
+      width: full
+    - name: res_nature_ft
+      pdf_field_name: GC-312[0].Page2[0].Item5[0].Item5a[0].ResNature_ft[0]
+      type: text
+      label: Res Nature Ft
+      required: false
+      width: full
+    - name: res_address_ft
+      pdf_field_name: GC-312[0].Page2[0].Item5[0].Item5b[0].ResAddress_ft[0]
+      type: address
+      label: Res Address Ft
+      required: false
+      width: full
+    - name: c
+      pdf_field_name: GC-312[0].Page2[0].Item5[0].Item5c[0].residence5\.c[0]
+      type: address
+      label: C
+      required: false
+      width: full
+    - name: c_2
+      pdf_field_name: GC-312[0].Page2[0].Item5[0].Item5c[0].residence5\.c[1]
+      type: address
+      label: C
+      required: false
+      width: full
+    - name: other_addr_ft
+      pdf_field_name: GC-312[0].Page2[0].Item5[0].Item5c[0].OtherAddr_ft[0]
+      type: text
+      label: Other Addr Ft
+      required: false
+      width: full
+    - name: currnt_loc_nature_ft
+      pdf_field_name: GC-312[0].Page2[0].Item5[0].Item5d[0].CurrntLocNature_ft[0]
+      type: text
+      label: Currnt Loc Nature Ft
+      required: false
+      width: full
+    - name: living_res_cb
+      pdf_field_name: GC-312[0].Page2[0].Item5[0].Item5e[0].Item5e1[0].LivingRes_cb[0]
+      type: text
+      label: Living Res Cb
+      required: false
+      width: full
+    - name: e
+      pdf_field_name: GC-312[0].Page2[0].Item5[0].Item5e[0].Item5e1[0].Item5e1a[0].livinginthe5\.e[0]
+      type: text
+      label: E
+      required: false
+      width: full
+    - name: e_2
+      pdf_field_name: GC-312[0].Page2[0].Item5[0].Item5e[0].Item5e1[0].Item5e1b[0].livinginthe5\.e[0]
+      type: text
+      label: E
+      required: false
+      width: full
+    - name: e_2
+      pdf_field_name: GC-312[0].Page2[0].Item5[0].Item5e[0].Item5e1[0].Item5e1c[0].livinginthe5\.e[0]
+      type: text
+      label: E
+      required: false
+      width: full
+    - name: not_living_res_cb
+      pdf_field_name: GC-312[0].Page2[0].Item5[0].Item5e[0].Item5e2[0].NotLivingRes_cb[0]
+      type: text
+      label: Not Living Res Cb
+      required: false
+      width: full
+    - name: e2
+      pdf_field_name: GC-312[0].Page2[0].Item5[0].Item5e[0].Item5e2[0].Item5e2a[0].notlivinginthe5\.e2[0]
+      type: text
+      label: E
+      required: false
+      width: full
+    - name: rtn_date_ft
+      pdf_field_name: GC-312[0].Page2[0].Item5[0].Item5e[0].Item5e2[0].Item5e2a[0].RtnDate_ft[0]
+      type: date
+      label: Rtn Date Ft
+      required: false
+      width: half
+    - name: e2_2
+      pdf_field_name: GC-312[0].Page2[0].Item5[0].Item5e[0].Item5e2[0].Item5e2b[0].notlivinginthe5\.e2[0]
+      type: text
+      label: E
+      required: false
+      width: full
+    - name: e2_2
+      pdf_field_name: GC-312[0].Page2[0].Item5[0].Item5e[0].Item5e2[0].Item5e2c[0].notlivinginthe5\.e2[0]
+      type: text
+      label: E
+      required: false
+      width: full
+    - name: reasons_for5e
+      pdf_field_name: GC-312[0].Page2[0].Item5[0].Item5f[0].ReasonsFor5e[0]
+      type: text
+      label: Reasons For5e
+      required: false
+      width: full
+    - name: cont_att5e_cb
+      pdf_field_name: GC-312[0].Page2[0].Item5[0].Item5f[0].ContAtt5e_cb[0]
+      type: text
+      label: Cont Att5e Cb
+      required: false
+      width: full
+    - name: sdm_ft
+      pdf_field_name: GC-312[0].Page3[0].Item6[0].Item6a[0].SDM_ft[0]
+      type: text
+      label: Sdm Ft
+      required: false
+      width: full
+    - name: cont_att6a_cb
+      pdf_field_name: GC-312[0].Page3[0].Item6[0].Item6a[0].ContAtt6a_cb[0]
+      type: text
+      label: Cont Att6a Cb
+      required: false
+      width: full
+    - name: des_hc_surr_ft
+      pdf_field_name: GC-312[0].Page3[0].Item6[0].Item6b[0].DesHCSurr_ft[0]
+      type: text
+      label: Des Hc Surr Ft
+      required: false
+      width: full
+    - name: cont_att6b_cb
+      pdf_field_name: GC-312[0].Page3[0].Item6[0].Item6b[0].ContAtt6b_cb[0]
+      type: text
+      label: Cont Att6b Cb
+      required: false
+      width: full
+    - name: ahcd_ft
+      pdf_field_name: GC-312[0].Page3[0].Item6[0].Item6c[0].AHCD_ft[0]
+      type: text
+      label: Ahcd Ft
+      required: false
+      width: full
+    - name: cont_att6c
+      pdf_field_name: GC-312[0].Page3[0].Item6[0].Item6c[0].ContAtt6c[0]
+      type: text
+      label: Cont Att6c
+      required: false
+      width: full
+    - name: poa_ft
+      pdf_field_name: GC-312[0].Page3[0].Item6[0].Item6d[0].POA_ft[0]
+      type: text
+      label: Poa Ft
+      required: false
+      width: full
+    - name: cont_att6d
+      pdf_field_name: GC-312[0].Page3[0].Item6[0].Item6d[0].ContAtt6d[0]
+      type: text
+      label: Cont Att6d
+      required: false
+      width: full
+    - name: trust_ft
+      pdf_field_name: GC-312[0].Page3[0].Item6[0].Item6e[0].Trust_ft[0]
+      type: text
+      label: Trust Ft
+      required: false
+      width: full
+    - name: cont_att6e_cb
+      pdf_field_name: GC-312[0].Page3[0].Item6[0].Item6e[0].ContAtt6e_cb[0]
+      type: text
+      label: Cont Att6e Cb
+      required: false
+      width: full
+    - name: other_alts_ft
+      pdf_field_name: GC-312[0].Page3[0].Item6[0].Item6f[0].OtherAlts_ft[0]
+      type: text
+      label: Other Alts Ft
+      required: false
+      width: full
+    - name: cont_att6f
+      pdf_field_name: GC-312[0].Page3[0].Item6[0].Item6f[0].ContAtt6f[0]
+      type: text
+      label: Cont Att6f
+      required: false
+      width: full
+    - name: health_servs_cb
+      pdf_field_name: GC-312[0].Page4[0].Item7[0].Item7a[0].HealthServs_cb[0]
+      type: text
+      label: Health Servs Cb
+      required: false
+      width: full
+    - name: health_servs_ft
+      pdf_field_name: GC-312[0].Page4[0].Item7[0].Item7a[0].HealthServs_ft[0]
+      type: text
+      label: Health Servs Ft
+      required: false
+      width: full
+    - name: cont_att7a_cb
+      pdf_field_name: GC-312[0].Page4[0].Item7[0].Item7a[0].ContAtt7a_cb[0]
+      type: text
+      label: Cont Att7a Cb
+      required: false
+      width: full
+    - name: social_servs_cb
+      pdf_field_name: GC-312[0].Page4[0].Item7[0].Item7b[0].SocialServs_cb[0]
+      type: text
+      label: Social Servs Cb
+      required: false
+      width: full
+    - name: social_servs_ft
+      pdf_field_name: GC-312[0].Page4[0].Item7[0].Item7b[0].SocialServs_ft[0]
+      type: text
+      label: Social Servs Ft
+      required: false
+      width: full
+    - name: cont_att7b_cb
+      pdf_field_name: GC-312[0].Page4[0].Item7[0].Item7b[0].ContAtt7b_cb[0]
+      type: text
+      label: Cont Att7b Cb
+      required: false
+      width: full
+    - name: dont_know_cb
+      pdf_field_name: GC-312[0].Page4[0].Item7[0].Item7c[0].DontKnow_cb[0]
+      type: text
+      label: Dont Know Cb
+      required: false
+      width: full
+    - name: hs_cb
+      pdf_field_name: GC-312[0].Page4[0].Item7[0].Item7c[0].HS_cb[0]
+      type: text
+      label: Hs Cb
+      required: false
+      width: full
+    - name: ss_cb
+      pdf_field_name: GC-312[0].Page4[0].Item7[0].Item7c[0].SS_cb[0]
+      type: text
+      label: Ss Cb
+      required: false
+      width: full
+    - name: a
+      pdf_field_name: GC-312[0].Page4[0].Item8[0].Item8a[0].Knows_8\.a[0]
+      type: text
+      label: A
+      required: false
+      width: full
+    - name: a_2
+      pdf_field_name: GC-312[0].Page4[0].Item8[0].Item8a[0].Knows_8\.a[1]
+      type: text
+      label: A
+      required: false
+      width: full
+    - name: a_2
+      pdf_field_name: GC-312[0].Page4[0].Item8[0].Item8a[0].Knows_8\.a[2]
+      type: text
+      label: A
+      required: false
+      width: full
+    - name: b
+      pdf_field_name: GC-312[0].Page4[0].Item8[0].Item8b[0].Agrees_8\.b[0]
+      type: text
+      label: B
+      required: false
+      width: full
+    - name: b_2
+      pdf_field_name: GC-312[0].Page4[0].Item8[0].Item8b[0].Agrees_8\.b[1]
+      type: text
+      label: B
+      required: false
+      width: full
+    - name: b_2
+      pdf_field_name: GC-312[0].Page4[0].Item8[0].Item8b[0].Agrees_8\.b[2]
+      type: text
+      label: B
+      required: false
+      width: full
+    - name: b_2
+      pdf_field_name: GC-312[0].Page4[0].Item8[0].Item8b[0].Agrees_8\.b[3]
+      type: text
+      label: B
+      required: false
+      width: full
+    - name: pers_know9a_cb
+      pdf_field_name: GC-312[0].Page4[0].Item9[0].Item9a[0].PersKnow9a_cb[0]
+      type: text
+      label: Pers Know9a Cb
+      required: false
+      width: full
+    - name: affidavit9a_cb
+      pdf_field_name: GC-312[0].Page4[0].Item9[0].Item9a[0].Affidavit9a_cb[0]
+      type: text
+      label: Affidavit9a Cb
+      required: false
+      width: full
+    - name: pers_know9b_cb
+      pdf_field_name: GC-312[0].Page4[0].Item9[0].Item9b[0].PersKnow9b_cb[0]
+      type: text
+      label: Pers Know9b Cb
+      required: false
+      width: full
+    - name: affidavit9b_cb
+      pdf_field_name: GC-312[0].Page4[0].Item9[0].Item9b[0].Affidavit9b_cb[0]
+      type: text
+      label: Affidavit9b Cb
+      required: false
+      width: full
+    - name: pers_know9c_cb
+      pdf_field_name: GC-312[0].Page4[0].Item9[0].Item9c[0].PersKnow9c_cb[0]
+      type: text
+      label: Pers Know9c Cb
+      required: false
+      width: full
+    - name: affidavit9c_cb
+      pdf_field_name: GC-312[0].Page4[0].Item9[0].Item9c[0].Affidavit9c_cb[0]
+      type: text
+      label: Affidavit9c Cb
+      required: false
+      width: full
+    - name: pers_know9d_cb
+      pdf_field_name: GC-312[0].Page4[0].Item9[0].Item9d[0].PersKnow9d_cb[0]
+      type: text
+      label: Pers Know9d Cb
+      required: false
+      width: full
+    - name: affidavit9d_cb
+      pdf_field_name: GC-312[0].Page4[0].Item9[0].Item9d[0].Affidavit9d_cb[0]
+      type: text
+      label: Affidavit9d Cb
+      required: false
+      width: full
+    - name: pers_know9e_cb
+      pdf_field_name: GC-312[0].Page4[0].Item9[0].Item9e[0].PersKnow9e_cb[0]
+      type: text
+      label: Pers Know9e Cb
+      required: false
+      width: full
+    - name: affidavit9e_cb
+      pdf_field_name: GC-312[0].Page4[0].Item9[0].Item9e[0].Affidavit9e_cb[0]
+      type: text
+      label: Affidavit9e Cb
+      required: false
+      width: full
+    - name: pers_know9f_cb
+      pdf_field_name: GC-312[0].Page4[0].Item9[0].Item9f[0].PersKnow9f_cb[0]
+      type: text
+      label: Pers Know9f Cb
+      required: false
+      width: full
+    - name: affidavit9f_cb
+      pdf_field_name: GC-312[0].Page4[0].Item9[0].Item9f[0].Affidavit9f_cb[0]
+      type: text
+      label: Affidavit9f Cb
+      required: false
+      width: full
+    - name: not_apply3_cb
+      pdf_field_name: GC-312[0].Page4[0].Item10[0].NotApply3_cb[0]
+      type: text
+      label: Not Apply3 Cb
+      required: false
+      width: full
+    - name: not_apply4_cb
+      pdf_field_name: GC-312[0].Page4[0].Item10[0].NotApply4_cb[0]
+      type: text
+      label: Not Apply4 Cb
+      required: false
+      width: full
+    - name: not_app_explain_ft
+      pdf_field_name: GC-312[0].Page4[0].Item10[0].NotAppExplain_ft[0]
+      type: text
+      label: Not App Explain Ft
+      required: false
+      width: full
+    - name: cont_att10_cb
+      pdf_field_name: GC-312[0].Page4[0].Item10[0].ContAtt10_cb[0]
+      type: text
+      label: Cont Att10 Cb
+      required: false
+      width: full
+    - name: num_pages
+      pdf_field_name: GC-312[0].Page4[0].Item11[0].NumPages[0]
+      type: text
+      label: Num Pages
+      required: false
+      width: full
+  p2_caption_sf:
+    title: P2 Caption Sf
+    fields:
+    - name: conservatee_ft_2
+      pdf_field_name: GC-312[0].Page2[0].p2Caption_sf[0].pxCaption[0].TitlePartyName[0].Conservatee_ft[0]
+      type: text
+      label: Conservatee Ft
+      required: false
+      width: full
+    - name: case_number_2
+      pdf_field_name: GC-312[0].Page2[0].p2Caption_sf[0].pxCaption[0].CaseNumber[0].CaseNumber[0]
+      type: text
+      label: Case Number
+      required: false
+      width: full
+      shared_key: case:number
+  p3_caption_sf:
+    title: P3 Caption Sf
+    fields:
+    - name: conservatee_ft_2
+      pdf_field_name: GC-312[0].Page3[0].p3Caption_sf[0].pxCaption[0].TitlePartyName[0].Conservatee_ft[0]
+      type: text
+      label: Conservatee Ft
+      required: false
+      width: full
+    - name: case_number_2
+      pdf_field_name: GC-312[0].Page3[0].p3Caption_sf[0].pxCaption[0].CaseNumber[0].CaseNumber[0]
+      type: text
+      label: Case Number
+      required: false
+      width: full
+      shared_key: case:number
+  last_page:
+    title: Last Page
+    fields:
+    - name: print
+      pdf_field_name: GC-312[0].#pageSet[0].LastPage[0].FooterButtons[0].Print[0]
+      type: checkbox
+      label: Print
+      required: false
+      width: full
+    - name: save
+      pdf_field_name: GC-312[0].#pageSet[0].LastPage[0].FooterButtons[0].Save[0]
+      type: checkbox
+      label: Save
+      required: false
+      width: full
+    - name: reset
+      pdf_field_name: GC-312[0].#pageSet[0].LastPage[0].FooterButtons[0].Reset[0]
+      type: checkbox
+      label: Reset
+      required: false
+      width: full
+    - name: warning
+      pdf_field_name: GC-312[0].#pageSet[0].LastPage[0].FooterButtons[0].Warning[0]
+      type: checkbox
+      label: Warning
+      required: false
+      width: full
+  p4_caption_sf:
+    title: P4 Caption Sf
+    fields:
+    - name: conservatee_ft_2
+      pdf_field_name: GC-312[0].Page4[0].p4Caption_sf[0].pxCaption[0].TitlePartyName[0].Conservatee_ft[0]
+      type: text
+      label: Conservatee Ft
+      required: false
+      width: full
+    - name: case_number_2
+      pdf_field_name: GC-312[0].Page4[0].p4Caption_sf[0].pxCaption[0].CaseNumber[0].CaseNumber[0]
+      type: text
+      label: Case Number
+      required: false
+      width: full
+      shared_key: case:number
+  po_p_dec:
+    title: Po P Dec
+    fields:
+    - name: sig_date
+      pdf_field_name: GC-312[0].Page4[0].PoPDec[0].SigDate[0]
+      type: date
+      label: Sig Date
+      required: false
+      width: half
+    - name: type_print_name
+      pdf_field_name: GC-312[0].Page4[0].PoPDec[0].TypePrintName[0]
+      type: text
+      label: Type Print Name
+      required: false
+      width: full

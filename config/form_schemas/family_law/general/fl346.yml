@@ -1,0 +1,380 @@
+---
+form:
+  code: FL-346
+  title: FL 346 Form
+  description: ''
+  category: family_law/general
+  pdf_filename: fl346.pdf
+  fillable: true
+  instructions: ''
+sections:
+  general:
+    title: General
+    fields:
+    - name: plaintiff
+      pdf_field_name: Petitioner.plaintiff
+      type: text
+      label: Plaintiff
+      required: false
+      width: full
+    - name: petitioner
+      pdf_field_name: Petitioner
+      type: text
+      label: Petitioner
+      required: false
+      width: full
+    - name: defendant
+      pdf_field_name: Respondent.Defendant
+      type: text
+      label: Defendant
+      required: false
+      width: full
+    - name: respondent
+      pdf_field_name: Respondent
+      type: text
+      label: Respondent
+      required: false
+      width: full
+    - name: party
+      pdf_field_name: Other.party
+      type: text
+      label: Party
+      required: false
+      width: full
+    - name: other
+      pdf_field_name: Other
+      type: text
+      label: Other
+      required: false
+      width: full
+    - name: check_box00
+      pdf_field_name: CheckBox00.2
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box00_2
+      pdf_field_name: CheckBox00.3
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box00_2
+      pdf_field_name: CheckBox00.4
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box00_2
+      pdf_field_name: CheckBox00.1
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: other_2
+      pdf_field_name: FillText00.Other
+      type: text
+      label: Other
+      required: false
+      width: full
+    - name: check_box01
+      pdf_field_name: CheckBox01.0
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: a
+      pdf_field_name: CheckBox01.a
+      type: checkbox
+      label: A
+      required: false
+      width: full
+    - name: b
+      pdf_field_name: CheckBox01.b
+      type: checkbox
+      label: B
+      required: false
+      width: full
+    - name: a_2
+      pdf_field_name: CheckBox02.a
+      type: checkbox
+      label: A
+      required: false
+      width: full
+    - name: b_2
+      pdf_field_name: CheckBox02.b
+      type: checkbox
+      label: B
+      required: false
+      width: full
+    - name: c
+      pdf_field_name: CheckBox02.c
+      type: checkbox
+      label: C
+      required: false
+      width: full
+    - name: check_box02
+      pdf_field_name: CheckBox02.0
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box03
+      pdf_field_name: CheckBox03.0
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: other_2
+      pdf_field_name: FillText03.Other
+      type: text
+      label: Other
+      required: false
+      width: full
+    - name: a_2
+      pdf_field_name: CheckBox04.a
+      type: checkbox
+      label: A
+      required: false
+      width: full
+    - name: d
+      pdf_field_name: CheckBox04.d
+      type: checkbox
+      label: D
+      required: false
+      width: full
+    - name: c_2
+      pdf_field_name: CheckBox04.c
+      type: checkbox
+      label: C
+      required: false
+      width: full
+    - name: d_2
+      pdf_field_name: FillText04.d
+      type: text
+      label: D
+      required: false
+      width: full
+    - name: case_number
+      pdf_field_name: CaseNumber
+      type: text
+      label: Case Number
+      required: false
+      width: full
+      shared_key: case:number
+    - name: b_2
+      pdf_field_name: CheckBox05.b
+      type: checkbox
+      label: B
+      required: false
+      width: full
+    - name: c_2
+      pdf_field_name: CheckBox05.c
+      type: checkbox
+      label: C
+      required: false
+      width: full
+    - name: d_2
+      pdf_field_name: CheckBox05.d
+      type: checkbox
+      label: D
+      required: false
+      width: full
+    - name: e_2
+      pdf_field_name: CheckBox05.e
+      type: checkbox
+      label: E
+      required: false
+      width: full
+    - name: a_2
+      pdf_field_name: CheckBox05.a
+      type: checkbox
+      label: A
+      required: false
+      width: full
+    - name: f
+      pdf_field_name: CheckBox05.f
+      type: checkbox
+      label: F
+      required: false
+      width: full
+    - name: check_box05
+      pdf_field_name: CheckBox05.0
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box06
+      pdf_field_name: CheckBox06.0
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: fill_text06
+      pdf_field_name: FillText06
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+  a:
+    title: A
+    fields:
+    - name: choice
+      pdf_field_name: CheckBox04.a.Choice
+      type: checkbox
+      label: Choice
+      required: false
+      width: full
+    - name: amount_2
+      pdf_field_name: FillText05.a.amount
+      type: currency
+      label: Amount
+      required: false
+      width: third
+  b:
+    title: B
+    fields:
+    - name: b_2
+      pdf_field_name: CheckBox04.b.2
+      type: checkbox
+      label: B
+      required: false
+      width: full
+    - name: b_2
+      pdf_field_name: CheckBox04.b.1
+      type: checkbox
+      label: B
+      required: false
+      width: full
+    - name: b_2
+      pdf_field_name: CheckBox04.b.3
+      type: checkbox
+      label: B
+      required: false
+      width: full
+    - name: b_2
+      pdf_field_name: FillText04.b.1
+      type: text
+      label: B
+      required: false
+      width: full
+    - name: b_2
+      pdf_field_name: FillText04.b.2
+      type: text
+      label: B
+      required: false
+      width: full
+    - name: amount_2
+      pdf_field_name: FillText05.b.amount
+      type: currency
+      label: Amount
+      required: false
+      width: third
+  e:
+    title: E
+    fields:
+    - name: e
+      pdf_field_name: CheckBox04.e.2
+      type: checkbox
+      label: E
+      required: false
+      width: full
+    - name: e_2
+      pdf_field_name: CheckBox04.e.3
+      type: checkbox
+      label: E
+      required: false
+      width: full
+    - name: e_2
+      pdf_field_name: CheckBox04.e.4
+      type: checkbox
+      label: E
+      required: false
+      width: full
+    - name: e_2
+      pdf_field_name: CheckBox04.e.1
+      type: checkbox
+      label: E
+      required: false
+      width: full
+    - name: e_2
+      pdf_field_name: CheckBox04.e.5
+      type: checkbox
+      label: E
+      required: false
+      width: full
+    - name: date
+      pdf_field_name: FillText04.e.1.date
+      type: date
+      label: Date
+      required: false
+      width: half
+    - name: amount
+      pdf_field_name: FillText04.e.2.amount
+      type: currency
+      label: Amount
+      required: false
+      width: third
+    - name: day
+      pdf_field_name: FillText04.e.2.day
+      type: text
+      label: Day
+      required: false
+      width: full
+    - name: date_2
+      pdf_field_name: FillText04.e.2.date
+      type: date
+      label: Date
+      required: false
+      width: half
+    - name: day_2
+      pdf_field_name: FillText04.e.3.day
+      type: text
+      label: Day
+      required: false
+      width: full
+    - name: other_2
+      pdf_field_name: FillText04.e.5.other
+      type: text
+      label: Other
+      required: false
+      width: full
+    - name: amount_2
+      pdf_field_name: FillText05.e.amount
+      type: currency
+      label: Amount
+      required: false
+      width: third
+  c:
+    title: C
+    fields:
+    - name: choice_2
+      pdf_field_name: CheckBox04.c.Choice
+      type: checkbox
+      label: Choice
+      required: false
+      width: full
+    - name: amount_2
+      pdf_field_name: FillText05.c.amount
+      type: currency
+      label: Amount
+      required: false
+      width: third
+  d:
+    title: D
+    fields:
+    - name: amount_2
+      pdf_field_name: FillText05.d.amount
+      type: currency
+      label: Amount
+      required: false
+      width: third
+  f:
+    title: F
+    fields:
+    - name: other_2
+      pdf_field_name: FillText05.f.other
+      type: text
+      label: Other
+      required: false
+      width: full

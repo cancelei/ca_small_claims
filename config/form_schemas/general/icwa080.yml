@@ -1,0 +1,230 @@
+---
+form:
+  code: ICWA-080
+  title: ICWA 080 Form
+  description: ''
+  category: general
+  pdf_filename: icwa080.pdf
+  fillable: true
+  instructions: ''
+sections:
+  p1_caption:
+    title: P1 Caption
+    fields:
+    - name: atty_bar_no
+      pdf_field_name: ICWA-080[0].Page1[0].p1Caption[0].AttyPartyInfo[0].AttyBarNo[0]
+      type: text
+      label: Atty Bar No
+      required: false
+      width: full
+    - name: name
+      pdf_field_name: ICWA-080[0].Page1[0].p1Caption[0].AttyPartyInfo[0].Name[0]
+      type: text
+      label: Name
+      required: false
+      width: full
+    - name: atty_firm
+      pdf_field_name: ICWA-080[0].Page1[0].p1Caption[0].AttyPartyInfo[0].AttyFirm[0]
+      type: text
+      label: Atty Firm
+      required: false
+      width: full
+    - name: street
+      pdf_field_name: ICWA-080[0].Page1[0].p1Caption[0].AttyPartyInfo[0].Street[0]
+      type: address
+      label: Street
+      required: false
+      width: full
+    - name: city
+      pdf_field_name: ICWA-080[0].Page1[0].p1Caption[0].AttyPartyInfo[0].City[0]
+      type: address
+      label: City
+      required: false
+      width: full
+    - name: state
+      pdf_field_name: ICWA-080[0].Page1[0].p1Caption[0].AttyPartyInfo[0].State[0]
+      type: address
+      label: State
+      required: false
+      width: full
+    - name: zip
+      pdf_field_name: ICWA-080[0].Page1[0].p1Caption[0].AttyPartyInfo[0].Zip[0]
+      type: address
+      label: Zip
+      required: false
+      width: full
+    - name: phone
+      pdf_field_name: ICWA-080[0].Page1[0].p1Caption[0].AttyPartyInfo[0].Phone[0]
+      type: tel
+      label: Phone
+      required: false
+      width: half
+    - name: fax
+      pdf_field_name: ICWA-080[0].Page1[0].p1Caption[0].AttyPartyInfo[0].Fax[0]
+      type: tel
+      label: Fax
+      required: false
+      width: half
+    - name: email
+      pdf_field_name: ICWA-080[0].Page1[0].p1Caption[0].AttyPartyInfo[0].Email[0]
+      type: email
+      label: Email
+      required: false
+      width: half
+    - name: atty_for
+      pdf_field_name: ICWA-080[0].Page1[0].p1Caption[0].AttyPartyInfo[0].AttyFor[0]
+      type: text
+      label: Atty For
+      required: false
+      width: full
+    - name: crt_county
+      pdf_field_name: ICWA-080[0].Page1[0].p1Caption[0].CourtInfo[0].CrtCounty[0]
+      type: number
+      label: Crt County
+      required: false
+      width: third
+    - name: crt_street
+      pdf_field_name: ICWA-080[0].Page1[0].p1Caption[0].CourtInfo[0].CrtStreet[0]
+      type: address
+      label: Crt Street
+      required: false
+      width: full
+    - name: crt_mailing_add
+      pdf_field_name: ICWA-080[0].Page1[0].p1Caption[0].CourtInfo[0].CrtMailingAdd[0]
+      type: address
+      label: Crt Mailing Add
+      required: false
+      width: full
+    - name: crt_city_zip
+      pdf_field_name: ICWA-080[0].Page1[0].p1Caption[0].CourtInfo[0].CrtCityZip[0]
+      type: address
+      label: Crt City Zip
+      required: false
+      width: full
+    - name: crt_branch
+      pdf_field_name: ICWA-080[0].Page1[0].p1Caption[0].CourtInfo[0].CrtBranch[0]
+      type: text
+      label: Crt Branch
+      required: false
+      width: full
+    - name: party1
+      pdf_field_name: ICWA-080[0].Page1[0].p1Caption[0].TitlePartyName[0].Party1[0]
+      type: text
+      label: Party
+      required: false
+      width: full
+    - name: case_number
+      pdf_field_name: ICWA-080[0].Page1[0].p1Caption[0].CaseNumber[0].CaseNumber[0]
+      type: text
+      label: Case Number
+      required: false
+      width: full
+      shared_key: case:number
+  childs_name_tf:
+    title: Childs Name Tf
+    fields:
+    - name: childs_name_tf
+      pdf_field_name: ICWA-080[0].Page1[0].ChildsName_tf[0]
+      type: text
+      label: Childs Name Tf
+      required: false
+      width: full
+  dob_tf:
+    title: Dob Tf
+    fields:
+    - name: dob_tf
+      pdf_field_name: ICWA-080[0].Page1[0].DOB_tf[0]
+      type: text
+      label: Dob Tf
+      required: false
+      width: full
+  item2a_cb:
+    title: Item2a Cb
+    fields:
+    - name: item2a_cb
+      pdf_field_name: ICWA-080[0].Page1[0].Item2a_cb[0]
+      type: text
+      label: Item2a Cb
+      required: false
+      width: full
+  item2b_cb:
+    title: Item2b Cb
+    fields:
+    - name: item2b_cb
+      pdf_field_name: ICWA-080[0].Page1[0].item2b_cb[0]
+      type: text
+      label: Item2b Cb
+      required: false
+      width: full
+  fill_text:
+    title: Fill Text
+    fields:
+    - name: fill_text1140
+      pdf_field_name: ICWA-080[0].Page1[0].FillText1140[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+  item2b_date_tf:
+    title: Item2b Date Tf
+    fields:
+    - name: item2b_date_tf
+      pdf_field_name: ICWA-080[0].Page1[0].item2bDate_tf[0]
+      type: date
+      label: Item2b Date Tf
+      required: false
+      width: half
+  item2b_time_tf:
+    title: Item2b Time Tf
+    fields:
+    - name: item2b_time_tf
+      pdf_field_name: ICWA-080[0].Page1[0].item2bTime_tf[0]
+      type: text
+      label: Item2b Time Tf
+      required: false
+      width: full
+  item2b_location_tf:
+    title: Item2b Location Tf
+    fields:
+    - name: item2b_location_tf
+      pdf_field_name: ICWA-080[0].Page1[0].item2bLocation_tf[0]
+      type: address
+      label: Item2b Location Tf
+      required: false
+      width: full
+  print:
+    title: Print
+    fields:
+    - name: print
+      pdf_field_name: ICWA-080[0].#area[0].Print[0]
+      type: checkbox
+      label: Print
+      required: false
+      width: full
+  save:
+    title: Save
+    fields:
+    - name: save
+      pdf_field_name: ICWA-080[0].#area[0].Save[0]
+      type: checkbox
+      label: Save
+      required: false
+      width: full
+  reset:
+    title: Reset
+    fields:
+    - name: reset
+      pdf_field_name: ICWA-080[0].#area[0].Reset[0]
+      type: checkbox
+      label: Reset
+      required: false
+      width: full
+  warning:
+    title: Warning
+    fields:
+    - name: warning
+      pdf_field_name: ICWA-080[0].#area[0].Warning[0]
+      type: checkbox
+      label: Warning
+      required: false
+      width: full

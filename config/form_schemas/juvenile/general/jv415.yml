@@ -1,0 +1,1586 @@
+---
+form:
+  code: JV-415
+  title: JV 415 Form
+  description: ''
+  category: juvenile/general
+  pdf_filename: jv415.pdf
+  fillable: true
+  instructions: ''
+sections:
+  std_p1_header_sf:
+    title: Std P1 Header Sf
+    fields:
+    - name: crt_county_ft
+      pdf_field_name: JV-415[0].Page1[0].StdP1Header_sf[0].CourtInfo[0].CrtCounty_ft[0]
+      type: number
+      label: Crt County Ft
+      required: false
+      width: third
+    - name: branch_ft
+      pdf_field_name: JV-415[0].Page1[0].StdP1Header_sf[0].CourtInfo[0].Branch_ft[0]
+      type: text
+      label: Branch Ft
+      required: false
+      width: full
+    - name: city_zip_ft
+      pdf_field_name: JV-415[0].Page1[0].StdP1Header_sf[0].CourtInfo[0].CityZip_ft[0]
+      type: address
+      label: City Zip Ft
+      required: false
+      width: full
+    - name: street_ft
+      pdf_field_name: JV-415[0].Page1[0].StdP1Header_sf[0].CourtInfo[0].Street_ft[0]
+      type: address
+      label: Street Ft
+      required: false
+      width: full
+    - name: mailing_add_ft
+      pdf_field_name: JV-415[0].Page1[0].StdP1Header_sf[0].CourtInfo[0].MailingAdd_ft[0]
+      type: address
+      label: Mailing Add Ft
+      required: false
+      width: full
+    - name: party1_ft
+      pdf_field_name: JV-415[0].Page1[0].StdP1Header_sf[0].TitlePartyName[0].Party1_ft[0]
+      type: text
+      label: Party1 Ft
+      required: false
+      width: full
+    - name: case_number_ft
+      pdf_field_name: JV-415[0].Page1[0].StdP1Header_sf[0].CaseNumber[0].CaseNumber_ft[0]
+      type: text
+      label: Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+    - name: atty_state_ft
+      pdf_field_name: JV-415[0].Page1[0].StdP1Header_sf[0].AttyInfo[0].AttyState_ft[0]
+      type: address
+      label: Atty State Ft
+      required: false
+      width: full
+    - name: atty_zip_ft
+      pdf_field_name: JV-415[0].Page1[0].StdP1Header_sf[0].AttyInfo[0].AttyZip_ft[0]
+      type: address
+      label: Atty Zip Ft
+      required: false
+      width: full
+    - name: atty_city_ft
+      pdf_field_name: JV-415[0].Page1[0].StdP1Header_sf[0].AttyInfo[0].AttyCity_ft[0]
+      type: address
+      label: Atty City Ft
+      required: false
+      width: full
+    - name: atty_street_ft
+      pdf_field_name: JV-415[0].Page1[0].StdP1Header_sf[0].AttyInfo[0].AttyStreet_ft[0]
+      type: address
+      label: Atty Street Ft
+      required: false
+      width: full
+    - name: atty_firm_ft
+      pdf_field_name: JV-415[0].Page1[0].StdP1Header_sf[0].AttyInfo[0].AttyFirm_ft[0]
+      type: text
+      label: Atty Firm Ft
+      required: false
+      width: full
+    - name: atty_name_ft
+      pdf_field_name: JV-415[0].Page1[0].StdP1Header_sf[0].AttyInfo[0].AttyName_ft[0]
+      type: text
+      label: Atty Name Ft
+      required: false
+      width: full
+    - name: phone_ft
+      pdf_field_name: JV-415[0].Page1[0].StdP1Header_sf[0].AttyInfo[0].Phone_ft[0]
+      type: tel
+      label: Phone Ft
+      required: false
+      width: half
+    - name: fax_ft
+      pdf_field_name: JV-415[0].Page1[0].StdP1Header_sf[0].AttyInfo[0].Fax_ft[0]
+      type: tel
+      label: Fax Ft
+      required: false
+      width: half
+    - name: email_ft
+      pdf_field_name: JV-415[0].Page1[0].StdP1Header_sf[0].AttyInfo[0].Email_ft[0]
+      type: email
+      label: Email Ft
+      required: false
+      width: half
+    - name: atty_for_ft
+      pdf_field_name: JV-415[0].Page1[0].StdP1Header_sf[0].AttyInfo[0].AttyFor_ft[0]
+      type: text
+      label: Atty For Ft
+      required: false
+      width: full
+    - name: bar_no_ft
+      pdf_field_name: JV-415[0].Page1[0].StdP1Header_sf[0].AttyInfo[0].BarNo_ft[0]
+      type: text
+      label: Bar No Ft
+      required: false
+      width: full
+  text_ff2a:
+    title: Text Ff2a
+    fields:
+    - name: text_ff2a
+      pdf_field_name: JV-415[0].Page1[0].text_ff2a[0]
+      type: text
+      label: Text Ff2a
+      required: false
+      width: full
+  text_ff2b:
+    title: Text Ff2b
+    fields:
+    - name: text_ff2b
+      pdf_field_name: JV-415[0].Page1[0].text_ff2b[0]
+      type: text
+      label: Text Ff2b
+      required: false
+      width: full
+  text_ff2c:
+    title: Text Ff2c
+    fields:
+    - name: text_ff2c
+      pdf_field_name: JV-415[0].Page1[0].text_ff2c[0]
+      type: text
+      label: Text Ff2c
+      required: false
+      width: full
+  text_ff2d:
+    title: Text Ff2d
+    fields:
+    - name: text_ff2d
+      pdf_field_name: JV-415[0].Page1[0].text_ff2d[0]
+      type: text
+      label: Text Ff2d
+      required: false
+      width: full
+  text_ff2e:
+    title: Text Ff2e
+    fields:
+    - name: text_ff2e
+      pdf_field_name: JV-415[0].Page1[0].text_ff2e[0]
+      type: text
+      label: Text Ff2e
+      required: false
+      width: full
+  text_ff2f:
+    title: Text Ff2f
+    fields:
+    - name: text_ff2f
+      pdf_field_name: JV-415[0].Page1[0].text_ff2f[0]
+      type: text
+      label: Text Ff2f
+      required: false
+      width: full
+  text_ff2h:
+    title: Text Ff2h
+    fields:
+    - name: text_ff2h1
+      pdf_field_name: JV-415[0].Page1[0].text_ff2h1[0]
+      type: text
+      label: Text Ff2h
+      required: false
+      width: full
+    - name: text_ff2h2
+      pdf_field_name: JV-415[0].Page1[0].text_ff2h2[0]
+      type: text
+      label: Text Ff2h
+      required: false
+      width: full
+    - name: text_ff2h3
+      pdf_field_name: JV-415[0].Page1[0].text_ff2h3[0]
+      type: text
+      label: Text Ff2h
+      required: false
+      width: full
+    - name: text_ff2h4
+      pdf_field_name: JV-415[0].Page1[0].text_ff2h4[0]
+      type: text
+      label: Text Ff2h
+      required: false
+      width: full
+    - name: text_ff2h5
+      pdf_field_name: JV-415[0].Page1[0].text_ff2h5[0]
+      type: text
+      label: Text Ff2h
+      required: false
+      width: full
+    - name: text_ff2h6
+      pdf_field_name: JV-415[0].Page1[0].text_ff2h6[0]
+      type: text
+      label: Text Ff2h
+      required: false
+      width: full
+    - name: text_ff2h7
+      pdf_field_name: JV-415[0].Page1[0].text_ff2h7[0]
+      type: text
+      label: Text Ff2h
+      required: false
+      width: full
+    - name: text_ff2h8
+      pdf_field_name: JV-415[0].Page1[0].text_ff2h8[0]
+      type: text
+      label: Text Ff2h
+      required: false
+      width: full
+    - name: text_ff2h9
+      pdf_field_name: JV-415[0].Page1[0].text_ff2h9[0]
+      type: text
+      label: Text Ff2h
+      required: false
+      width: full
+    - name: text_ff2h10
+      pdf_field_name: JV-415[0].Page1[0].text_ff2h10[0]
+      type: text
+      label: Text Ff2h
+      required: false
+      width: full
+    - name: text_ff2h11
+      pdf_field_name: JV-415[0].Page1[0].text_ff2h11[0]
+      type: text
+      label: Text Ff2h
+      required: false
+      width: full
+  text_field:
+    title: Text Field
+    fields:
+    - name: text_field6
+      pdf_field_name: JV-415[0].Page1[0].TextField6[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: JV-415[0].Page1[0].TextField6[1]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: JV-415[0].Page1[0].TextField6[2]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: JV-415[0].Page1[0].TextField6[3]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: JV-415[0].Page1[0].TextField6[4]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: JV-415[0].Page1[0].TextField6[5]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: JV-415[0].Page1[0].TextField6[6]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: JV-415[0].Page1[0].TextField6[7]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: JV-415[0].Page1[0].TextField6[8]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: JV-415[0].Page1[0].TextField6[9]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: JV-415[0].Page1[0].TextField6[10]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: JV-415[0].Page2[0].TextField6[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field8
+      pdf_field_name: JV-415[0].#subform[2].#area[3].TextField8[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field9
+      pdf_field_name: JV-415[0].#subform[2].#area[4].TextField9[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field14
+      pdf_field_name: JV-415[0].#subform[4].#area[6].#area[14].TextField14[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+  text_ff2i:
+    title: Text Ff2i
+    fields:
+    - name: text_ff2i1
+      pdf_field_name: JV-415[0].Page1[0].text_ff2i1[0]
+      type: text
+      label: Text Ff2i
+      required: false
+      width: full
+    - name: text_ff2i2
+      pdf_field_name: JV-415[0].Page1[0].text_ff2i2[0]
+      type: text
+      label: Text Ff2i
+      required: false
+      width: full
+    - name: text_ff2i3
+      pdf_field_name: JV-415[0].Page1[0].text_ff2i3[0]
+      type: text
+      label: Text Ff2i
+      required: false
+      width: full
+  checkbox:
+    title: Checkbox
+    fields:
+    - name: checkbox
+      pdf_field_name: JV-415[0].Page1[0].Checkbox[0]
+      type: checkbox
+      label: Checkbox
+      required: false
+      width: full
+    - name: checkbox_2
+      pdf_field_name: JV-415[0].Page1[0].Checkbox[1]
+      type: checkbox
+      label: Checkbox
+      required: false
+      width: full
+    - name: checkbox_2
+      pdf_field_name: JV-415[0].Page1[0].Checkbox[2]
+      type: checkbox
+      label: Checkbox
+      required: false
+      width: full
+    - name: checkbox_2
+      pdf_field_name: JV-415[0].Page1[0].Checkbox[3]
+      type: checkbox
+      label: Checkbox
+      required: false
+      width: full
+    - name: checkbox_2
+      pdf_field_name: JV-415[0].Page1[0].Checkbox[4]
+      type: checkbox
+      label: Checkbox
+      required: false
+      width: full
+    - name: checkbox_2
+      pdf_field_name: JV-415[0].Page1[0].Checkbox[5]
+      type: checkbox
+      label: Checkbox
+      required: false
+      width: full
+    - name: checkbox_2
+      pdf_field_name: JV-415[0].Page1[0].Checkbox[6]
+      type: checkbox
+      label: Checkbox
+      required: false
+      width: full
+    - name: checkbox_2
+      pdf_field_name: JV-415[0].Page1[0].Checkbox[7]
+      type: checkbox
+      label: Checkbox
+      required: false
+      width: full
+    - name: checkbox_2
+      pdf_field_name: JV-415[0].Page1[0].Checkbox[8]
+      type: checkbox
+      label: Checkbox
+      required: false
+      width: full
+    - name: checkbox_2
+      pdf_field_name: JV-415[0].Page1[0].Checkbox[9]
+      type: checkbox
+      label: Checkbox
+      required: false
+      width: full
+    - name: checkbox_2
+      pdf_field_name: JV-415[0].Page1[0].Checkbox[10]
+      type: checkbox
+      label: Checkbox
+      required: false
+      width: full
+    - name: checkbox_2
+      pdf_field_name: JV-415[0].Page1[0].Checkbox[11]
+      type: checkbox
+      label: Checkbox
+      required: false
+      width: full
+    - name: checkbox_2
+      pdf_field_name: JV-415[0].Page1[0].Checkbox[12]
+      type: checkbox
+      label: Checkbox
+      required: false
+      width: full
+    - name: checkbox_2
+      pdf_field_name: JV-415[0].Page1[0].Checkbox[13]
+      type: checkbox
+      label: Checkbox
+      required: false
+      width: full
+    - name: checkbox_2
+      pdf_field_name: JV-415[0].Page1[0].Checkbox[14]
+      type: checkbox
+      label: Checkbox
+      required: false
+      width: full
+    - name: checkbox_2
+      pdf_field_name: JV-415[0].Page1[0].Checkbox[15]
+      type: checkbox
+      label: Checkbox
+      required: false
+      width: full
+    - name: checkbox_2
+      pdf_field_name: JV-415[0].Page1[0].Checkbox[16]
+      type: checkbox
+      label: Checkbox
+      required: false
+      width: full
+    - name: checkbox_2
+      pdf_field_name: JV-415[0].Page1[0].Checkbox[17]
+      type: checkbox
+      label: Checkbox
+      required: false
+      width: full
+    - name: checkbox_2
+      pdf_field_name: JV-415[0].Page1[0].Checkbox[18]
+      type: checkbox
+      label: Checkbox
+      required: false
+      width: full
+    - name: checkbox_2
+      pdf_field_name: JV-415[0].Page1[0].Checkbox[19]
+      type: checkbox
+      label: Checkbox
+      required: false
+      width: full
+    - name: checkbox_2
+      pdf_field_name: JV-415[0].Page1[0].Checkbox[20]
+      type: checkbox
+      label: Checkbox
+      required: false
+      width: full
+    - name: checkbox_2
+      pdf_field_name: JV-415[0].Page1[0].Checkbox[21]
+      type: checkbox
+      label: Checkbox
+      required: false
+      width: full
+    - name: checkbox_2
+      pdf_field_name: JV-415[0].Page1[0].Checkbox[22]
+      type: checkbox
+      label: Checkbox
+      required: false
+      width: full
+    - name: checkbox_2
+      pdf_field_name: JV-415[0].Page1[0].Checkbox[23]
+      type: checkbox
+      label: Checkbox
+      required: false
+      width: full
+    - name: checkbox_2
+      pdf_field_name: JV-415[0].Page1[0].Checkbox[24]
+      type: checkbox
+      label: Checkbox
+      required: false
+      width: full
+    - name: checkbox_2
+      pdf_field_name: JV-415[0].Page1[0].Checkbox[25]
+      type: checkbox
+      label: Checkbox
+      required: false
+      width: full
+    - name: checkbox_2
+      pdf_field_name: JV-415[0].Page1[0].Checkbox[26]
+      type: checkbox
+      label: Checkbox
+      required: false
+      width: full
+    - name: checkbox_2
+      pdf_field_name: JV-415[0].Page1[0].Checkbox[27]
+      type: checkbox
+      label: Checkbox
+      required: false
+      width: full
+    - name: checkbox_2
+      pdf_field_name: JV-415[0].Page1[0].Checkbox[28]
+      type: checkbox
+      label: Checkbox
+      required: false
+      width: full
+    - name: checkbox_2
+      pdf_field_name: JV-415[0].Page1[0].Checkbox[29]
+      type: checkbox
+      label: Checkbox
+      required: false
+      width: full
+    - name: checkbox_2
+      pdf_field_name: JV-415[0].Page1[0].Checkbox[30]
+      type: checkbox
+      label: Checkbox
+      required: false
+      width: full
+    - name: checkbox_2
+      pdf_field_name: JV-415[0].Page1[0].Checkbox[31]
+      type: checkbox
+      label: Checkbox
+      required: false
+      width: full
+    - name: checkbox_2
+      pdf_field_name: JV-415[0].Page1[0].Checkbox[32]
+      type: checkbox
+      label: Checkbox
+      required: false
+      width: full
+    - name: checkbox10
+      pdf_field_name: JV-415[0].#subform[2].#area[1].#area[2].Checkbox10[0]
+      type: checkbox
+      label: Checkbox
+      required: false
+      width: full
+    - name: checkbox13
+      pdf_field_name: JV-415[0].#subform[4].#area[6].#area[7].Checkbox13[0]
+      type: checkbox
+      label: Checkbox
+      required: false
+      width: full
+    - name: checkbox16
+      pdf_field_name: JV-415[0].#subform[4].#area[6].#area[15].Checkbox16[0]
+      type: checkbox
+      label: Checkbox
+      required: false
+      width: full
+  interpreter:
+    title: Interpreter
+    fields:
+    - name: interpreter
+      pdf_field_name: JV-415[0].Page1[0].Interpreter[0]
+      type: text
+      label: Interpreter
+      required: false
+      width: full
+  checkbox1a:
+    title: Checkbox1a
+    fields:
+    - name: checkbox1a
+      pdf_field_name: JV-415[0].Page1[0].#area[0].Checkbox1a[0]
+      type: checkbox
+      label: Checkbox1a
+      required: false
+      width: full
+  checkbox1b:
+    title: Checkbox1b
+    fields:
+    - name: checkbox1b
+      pdf_field_name: JV-415[0].Page1[0].#area[1].Checkbox1b[0]
+      type: checkbox
+      label: Checkbox1b
+      required: false
+      width: full
+  checkbox1c:
+    title: Checkbox1c
+    fields:
+    - name: checkbox1c
+      pdf_field_name: JV-415[0].Page1[0].#area[2].Checkbox1c[0]
+      type: checkbox
+      label: Checkbox1c
+      required: false
+      width: full
+  text_field1a:
+    title: Text Field1a
+    fields:
+    - name: text_field1a
+      pdf_field_name: JV-415[0].Page1[0].#area[3].TextField1a[0]
+      type: text
+      label: Text Field1a
+      required: false
+      width: full
+  check_box1d:
+    title: Check Box1d
+    fields:
+    - name: check_box1d
+      pdf_field_name: JV-415[0].Page1[0].#area[3].CheckBox1d[0]
+      type: checkbox
+      label: Check Box1d
+      required: false
+      width: full
+  on_date_ff1a:
+    title: On Date Ff1a
+    fields:
+    - name: on_date_ff1a
+      pdf_field_name: JV-415[0].Page1[0].on_date_ff1a[0]
+      type: date
+      label: On Date Ff1a
+      required: false
+      width: half
+  date_field3a:
+    title: Date Field3a
+    fields:
+    - name: date_field3a
+      pdf_field_name: JV-415[0].Page1[0].#area[4].DateField3a[0]
+      type: date
+      label: Date Field3a
+      required: false
+      width: half
+  check_box3a:
+    title: Check Box3a
+    fields:
+    - name: check_box3a
+      pdf_field_name: JV-415[0].Page1[0].#area[4].CheckBox3a[0]
+      type: checkbox
+      label: Check Box3a
+      required: false
+      width: full
+    - name: check_box3a1
+      pdf_field_name: JV-415[0].Page1[0].CheckBox3a1[0]
+      type: checkbox
+      label: Check Box3a
+      required: false
+      width: full
+    - name: check_box3a2
+      pdf_field_name: JV-415[0].Page1[0].CheckBox3a2[0]
+      type: checkbox
+      label: Check Box3a
+      required: false
+      width: full
+  has_cb:
+    title: Has Cb
+    fields:
+    - name: has_cb
+      pdf_field_name: JV-415[0].Page1[0].Has_cb[0]
+      type: text
+      label: Has Cb
+      required: false
+      width: full
+  has_not_cb:
+    title: Has Not Cb
+    fields:
+    - name: has_not_cb
+      pdf_field_name: JV-415[0].Page1[0].HasNot_cb[0]
+      type: text
+      label: Has Not Cb
+      required: false
+      width: full
+  successful_cb:
+    title: Successful Cb
+    fields:
+    - name: successful_cb
+      pdf_field_name: JV-415[0].Page1[0].#area[5].successful_cb[0]
+      type: text
+      label: Successful Cb
+      required: false
+      width: full
+  unsuccessful_cb:
+    title: Unsuccessful Cb
+    fields:
+    - name: unsuccessful_cb
+      pdf_field_name: JV-415[0].Page1[0].#area[6].unsuccessful_cb[0]
+      type: text
+      label: Unsuccessful Cb
+      required: false
+      width: full
+  check_box7a:
+    title: Check Box7a
+    fields:
+    - name: check_box7a
+      pdf_field_name: JV-415[0].Page2[0].CheckBox7a[0]
+      type: checkbox
+      label: Check Box7a
+      required: false
+      width: full
+    - name: check_box7a_2
+      pdf_field_name: JV-415[0].Page2[0].CheckBox7a[1]
+      type: checkbox
+      label: Check Box7a
+      required: false
+      width: full
+    - name: check_box7a_2
+      pdf_field_name: JV-415[0].Page2[0].CheckBox7a[2]
+      type: checkbox
+      label: Check Box7a
+      required: false
+      width: full
+    - name: check_box7a_2
+      pdf_field_name: JV-415[0].Page2[0].CheckBox7a[3]
+      type: checkbox
+      label: Check Box7a
+      required: false
+      width: full
+    - name: check_box7a_2
+      pdf_field_name: JV-415[0].Page2[0].CheckBox7a[4]
+      type: checkbox
+      label: Check Box7a
+      required: false
+      width: full
+    - name: check_box7a_2
+      pdf_field_name: JV-415[0].Page2[0].CheckBox7a[5]
+      type: checkbox
+      label: Check Box7a
+      required: false
+      width: full
+    - name: check_box7a_2
+      pdf_field_name: JV-415[0].Page2[0].CheckBox7a[6]
+      type: checkbox
+      label: Check Box7a
+      required: false
+      width: full
+    - name: check_box7a_2
+      pdf_field_name: JV-415[0].#subform[4].CheckBox7a[0]
+      type: checkbox
+      label: Check Box7a
+      required: false
+      width: full
+  px_caption_sf:
+    title: Px Caption Sf
+    fields:
+    - name: case_number_ft_2
+      pdf_field_name: JV-415[0].Page2[0].PxCaption_sf[0].CaseNumber[0].CaseNumber_ft[0]
+      type: text
+      label: Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+    - name: party1_ft_2
+      pdf_field_name: JV-415[0].Page2[0].PxCaption_sf[0].TitlePartyName[0].Party1_ft[0]
+      type: text
+      label: Party1 Ft
+      required: false
+      width: full
+    - name: case_number_ft_2
+      pdf_field_name: JV-415[0].#subform[2].PxCaption_sf[0].CaseNumber[0].CaseNumber_ft[0]
+      type: text
+      label: Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+    - name: party1_ft_2
+      pdf_field_name: JV-415[0].#subform[2].PxCaption_sf[0].TitlePartyName[0].Party1_ft[0]
+      type: text
+      label: Party1 Ft
+      required: false
+      width: full
+    - name: case_number_ft_2
+      pdf_field_name: JV-415[0].#subform[4].PxCaption_sf[1].CaseNumber[0].CaseNumber_ft[0]
+      type: text
+      label: Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+    - name: party1_ft_2
+      pdf_field_name: JV-415[0].#subform[4].PxCaption_sf[1].TitlePartyName[0].Party1_ft[0]
+      type: text
+      label: Party1 Ft
+      required: false
+      width: full
+  check_box4a:
+    title: Check Box4a
+    fields:
+    - name: check_box4a
+      pdf_field_name: JV-415[0].Page2[0].CheckBox4a[0]
+      type: checkbox
+      label: Check Box4a
+      required: false
+      width: full
+  check_box4b:
+    title: Check Box4b
+    fields:
+    - name: check_box4b
+      pdf_field_name: JV-415[0].Page2[0].CheckBox4b[0]
+      type: checkbox
+      label: Check Box4b
+      required: false
+      width: full
+  check_box:
+    title: Check Box
+    fields:
+    - name: check_box6
+      pdf_field_name: JV-415[0].Page2[0].CheckBox6[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box19
+      pdf_field_name: JV-415[0].#subform[2].#area[0].CheckBox19[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box17
+      pdf_field_name: JV-415[0].#subform[4].CheckBox17[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box18
+      pdf_field_name: JV-415[0].#subform[4].CheckBox18[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+  check_box5b:
+    title: Check Box5b
+    fields:
+    - name: check_box5b
+      pdf_field_name: JV-415[0].Page2[0].CheckBox5b[0]
+      type: checkbox
+      label: Check Box5b
+      required: false
+      width: full
+  check_box5a:
+    title: Check Box5a
+    fields:
+    - name: check_box5a
+      pdf_field_name: JV-415[0].Page2[0].CheckBox5a[0]
+      type: checkbox
+      label: Check Box5a
+      required: false
+      width: full
+  rb4_choice5a:
+    title: Rb4 Choice5a
+    fields:
+    - name: rb4choice5a1
+      pdf_field_name: JV-415[0].Page2[0].RB4Choice5a1[0]
+      type: text
+      label: Rb4 Choice5a
+      required: false
+      width: full
+    - name: rb4choice5a2
+      pdf_field_name: JV-415[0].Page2[0].RB4Choice5a2[0]
+      type: text
+      label: Rb4 Choice5a
+      required: false
+      width: full
+  check_box7b:
+    title: Check Box7b
+    fields:
+    - name: check_box7b
+      pdf_field_name: JV-415[0].Page2[0].CheckBox7b[0]
+      type: checkbox
+      label: Check Box7b
+      required: false
+      width: full
+    - name: check_box7b_2
+      pdf_field_name: JV-415[0].#subform[4].CheckBox7b[0]
+      type: checkbox
+      label: Check Box7b
+      required: false
+      width: full
+  text_ff7b:
+    title: Text Ff7b
+    fields:
+    - name: text_ff7b1
+      pdf_field_name: JV-415[0].Page2[0].text_ff7b1[0]
+      type: text
+      label: Text Ff7b
+      required: false
+      width: full
+    - name: text_ff7b2
+      pdf_field_name: JV-415[0].Page2[0].text_ff7b2[0]
+      type: text
+      label: Text Ff7b
+      required: false
+      width: full
+    - name: text_ff7b3
+      pdf_field_name: JV-415[0].Page2[0].text_ff7b3[0]
+      type: text
+      label: Text Ff7b
+      required: false
+      width: full
+    - name: text_ff7b3_2
+      pdf_field_name: JV-415[0].Page2[0].text_ff7b3[1]
+      type: text
+      label: Text Ff7b
+      required: false
+      width: full
+    - name: text_ff7b3_2
+      pdf_field_name: JV-415[0].Page2[0].text_ff7b3[2]
+      type: text
+      label: Text Ff7b
+      required: false
+      width: full
+  date_field3b:
+    title: Date Field3b
+    fields:
+    - name: date_field3b
+      pdf_field_name: JV-415[0].Page2[0].#area[0].DateField3b[0]
+      type: date
+      label: Date Field3b
+      required: false
+      width: half
+  check_box3b:
+    title: Check Box3b
+    fields:
+    - name: check_box3b
+      pdf_field_name: JV-415[0].Page2[0].#area[0].CheckBox3b[0]
+      type: checkbox
+      label: Check Box3b
+      required: false
+      width: full
+  date_field3c:
+    title: Date Field3c
+    fields:
+    - name: date_field3c
+      pdf_field_name: JV-415[0].Page2[0].#area[1].DateField3c[0]
+      type: date
+      label: Date Field3c
+      required: false
+      width: half
+  check_box3c:
+    title: Check Box3c
+    fields:
+    - name: check_box3c
+      pdf_field_name: JV-415[0].Page2[0].#area[1].CheckBox3c[0]
+      type: checkbox
+      label: Check Box3c
+      required: false
+      width: full
+  text_field3d:
+    title: Text Field3d
+    fields:
+    - name: text_field3d
+      pdf_field_name: JV-415[0].Page2[0].#area[2].TextField3d[0]
+      type: text
+      label: Text Field3d
+      required: false
+      width: full
+  check_box3d:
+    title: Check Box3d
+    fields:
+    - name: check_box3d
+      pdf_field_name: JV-415[0].Page2[0].#area[2].CheckBox3d[0]
+      type: checkbox
+      label: Check Box3d
+      required: false
+      width: full
+  text_field3e:
+    title: Text Field3e
+    fields:
+    - name: text_field3e
+      pdf_field_name: JV-415[0].Page2[0].#area[3].TextField3e[0]
+      type: text
+      label: Text Field3e
+      required: false
+      width: full
+  check_box3e:
+    title: Check Box3e
+    fields:
+    - name: check_box3e
+      pdf_field_name: JV-415[0].Page2[0].#area[3].CheckBox3e[0]
+      type: checkbox
+      label: Check Box3e
+      required: false
+      width: full
+  check_box3f:
+    title: Check Box3f
+    fields:
+    - name: check_box3f
+      pdf_field_name: JV-415[0].Page2[0].CheckBox3f[0]
+      type: checkbox
+      label: Check Box3f
+      required: false
+      width: full
+  check_box11a:
+    title: Check Box11a
+    fields:
+    - name: check_box11a
+      pdf_field_name: JV-415[0].#subform[2].#area[0].CheckBox11a[0]
+      type: checkbox
+      label: Check Box11a
+      required: false
+      width: full
+  check_box11b:
+    title: Check Box11b
+    fields:
+    - name: check_box11b
+      pdf_field_name: JV-415[0].#subform[2].#area[0].CheckBox11b[0]
+      type: checkbox
+      label: Check Box11b
+      required: false
+      width: full
+  check_box11c:
+    title: Check Box11c
+    fields:
+    - name: check_box11c
+      pdf_field_name: JV-415[0].#subform[2].#area[0].CheckBox11c[0]
+      type: checkbox
+      label: Check Box11c
+      required: false
+      width: full
+  check_box11d:
+    title: Check Box11d
+    fields:
+    - name: check_box11d
+      pdf_field_name: JV-415[0].#subform[2].#area[0].CheckBox11d[0]
+      type: checkbox
+      label: Check Box11d
+      required: false
+      width: full
+  text_field10a:
+    title: Text Field10a
+    fields:
+    - name: text_field10a
+      pdf_field_name: JV-415[0].#subform[2].#area[1].TextField10a[0]
+      type: text
+      label: Text Field10a
+      required: false
+      width: full
+  text_field10b:
+    title: Text Field10b
+    fields:
+    - name: text_field10b
+      pdf_field_name: JV-415[0].#subform[2].#area[1].TextField10b[0]
+      type: text
+      label: Text Field10b
+      required: false
+      width: full
+  text_field10c:
+    title: Text Field10c
+    fields:
+    - name: text_field10c
+      pdf_field_name: JV-415[0].#subform[2].#area[1].TextField10c[0]
+      type: text
+      label: Text Field10c
+      required: false
+      width: full
+  text_field10d:
+    title: Text Field10d
+    fields:
+    - name: text_field10d
+      pdf_field_name: JV-415[0].#subform[2].#area[1].TextField10d[0]
+      type: text
+      label: Text Field10d
+      required: false
+      width: full
+  text_field10e:
+    title: Text Field10e
+    fields:
+    - name: text_field10e
+      pdf_field_name: JV-415[0].#subform[2].#area[1].TextField10e[0]
+      type: text
+      label: Text Field10e
+      required: false
+      width: full
+  text_field10f:
+    title: Text Field10f
+    fields:
+    - name: text_field10f
+      pdf_field_name: JV-415[0].#subform[2].#area[1].TextField10f[0]
+      type: text
+      label: Text Field10f
+      required: false
+      width: full
+  check_box8a:
+    title: Check Box8a
+    fields:
+    - name: check_box8a
+      pdf_field_name: JV-415[0].#subform[2].CheckBox8a[0]
+      type: checkbox
+      label: Check Box8a
+      required: false
+      width: full
+  check_box8e:
+    title: Check Box8e
+    fields:
+    - name: check_box8e
+      pdf_field_name: JV-415[0].#subform[2].CheckBox8e[0]
+      type: checkbox
+      label: Check Box8e
+      required: false
+      width: full
+  check_box8b:
+    title: Check Box8b
+    fields:
+    - name: check_box8b
+      pdf_field_name: JV-415[0].#subform[2].CheckBox8b[0]
+      type: checkbox
+      label: Check Box8b
+      required: false
+      width: full
+  check_boxf:
+    title: Check Boxf
+    fields:
+    - name: check_boxf
+      pdf_field_name: JV-415[0].#subform[2].CheckBoxf[0]
+      type: checkbox
+      label: Check Boxf
+      required: false
+      width: full
+  check_box8c:
+    title: Check Box8c
+    fields:
+    - name: check_box8c
+      pdf_field_name: JV-415[0].#subform[2].CheckBox8c[0]
+      type: checkbox
+      label: Check Box8c
+      required: false
+      width: full
+  check_boxg:
+    title: Check Boxg
+    fields:
+    - name: check_boxg
+      pdf_field_name: JV-415[0].#subform[2].CheckBoxg[0]
+      type: checkbox
+      label: Check Boxg
+      required: false
+      width: full
+  check_box8d:
+    title: Check Box8d
+    fields:
+    - name: check_box8d
+      pdf_field_name: JV-415[0].#subform[2].CheckBox8d[0]
+      type: checkbox
+      label: Check Box8d
+      required: false
+      width: full
+  check_boxh:
+    title: Check Boxh
+    fields:
+    - name: check_boxh
+      pdf_field_name: JV-415[0].#subform[2].#area[3].CheckBoxh[0]
+      type: checkbox
+      label: Check Boxh
+      required: false
+      width: full
+  check_box9a:
+    title: Check Box9a
+    fields:
+    - name: check_box9a
+      pdf_field_name: JV-415[0].#subform[2].CheckBox9a[0]
+      type: checkbox
+      label: Check Box9a
+      required: false
+      width: full
+  check_box9e:
+    title: Check Box9e
+    fields:
+    - name: check_box9e
+      pdf_field_name: JV-415[0].#subform[2].CheckBox9e[0]
+      type: checkbox
+      label: Check Box9e
+      required: false
+      width: full
+  check_box9b:
+    title: Check Box9b
+    fields:
+    - name: check_box9b
+      pdf_field_name: JV-415[0].#subform[2].CheckBox9b[0]
+      type: checkbox
+      label: Check Box9b
+      required: false
+      width: full
+  check_box9f:
+    title: Check Box9f
+    fields:
+    - name: check_box9f
+      pdf_field_name: JV-415[0].#subform[2].CheckBox9f[0]
+      type: checkbox
+      label: Check Box9f
+      required: false
+      width: full
+  check_box9c:
+    title: Check Box9c
+    fields:
+    - name: check_box9c
+      pdf_field_name: JV-415[0].#subform[2].CheckBox9c[0]
+      type: checkbox
+      label: Check Box9c
+      required: false
+      width: full
+  check_box9g:
+    title: Check Box9g
+    fields:
+    - name: check_box9g
+      pdf_field_name: JV-415[0].#subform[2].CheckBox9g[0]
+      type: checkbox
+      label: Check Box9g
+      required: false
+      width: full
+  check_box9d:
+    title: Check Box9d
+    fields:
+    - name: check_box9d
+      pdf_field_name: JV-415[0].#subform[2].CheckBox9d[0]
+      type: checkbox
+      label: Check Box9d
+      required: false
+      width: full
+  check_box9h:
+    title: Check Box9h
+    fields:
+    - name: check_box9h
+      pdf_field_name: JV-415[0].#subform[2].#area[4].CheckBox9h[0]
+      type: checkbox
+      label: Check Box9h
+      required: false
+      width: full
+  check_box12a:
+    title: Check Box12a
+    fields:
+    - name: check_box12a
+      pdf_field_name: JV-415[0].#subform[2].CheckBox12a[0]
+      type: checkbox
+      label: Check Box12a
+      required: false
+      width: full
+  check_box12b:
+    title: Check Box12b
+    fields:
+    - name: check_box12b
+      pdf_field_name: JV-415[0].#subform[2].CheckBox12b[0]
+      type: checkbox
+      label: Check Box12b
+      required: false
+      width: full
+  check_box12c:
+    title: Check Box12c
+    fields:
+    - name: check_box12c
+      pdf_field_name: JV-415[0].#subform[2].CheckBox12c[0]
+      type: checkbox
+      label: Check Box12c
+      required: false
+      width: full
+  on_date_ff:
+    title: On Date Ff
+    fields:
+    - name: on_date_ff19
+      pdf_field_name: JV-415[0].#subform[4].on_date_ff19[0]
+      type: date
+      label: On Date Ff
+      required: false
+      width: half
+    - name: on_date_ff00
+      pdf_field_name: JV-415[0].#subform[4].on_date_ff00[0]
+      type: date
+      label: On Date Ff
+      required: false
+      width: half
+    - name: on_date_ff01
+      pdf_field_name: JV-415[0].#subform[4].on_date_ff01[0]
+      type: date
+      label: On Date Ff
+      required: false
+      width: half
+  field_name_cbjudge:
+    title: Field Name Cbjudge
+    fields:
+    - name: field_name_cbjudge
+      pdf_field_name: JV-415[0].#subform[4].FieldName_cbjudge[0]
+      type: text
+      label: Field Name Cbjudge
+      required: false
+      width: full
+  field_name_cbjudgept:
+    title: Field Name Cbjudgept
+    fields:
+    - name: field_name_cbjudgept
+      pdf_field_name: JV-415[0].#subform[4].FieldName_cbjudgept[0]
+      type: text
+      label: Field Name Cbjudgept
+      required: false
+      width: full
+  field_name_cbreferee:
+    title: Field Name Cbreferee
+    fields:
+    - name: field_name_cbreferee
+      pdf_field_name: JV-415[0].#subform[4].FieldName_cbreferee[0]
+      type: text
+      label: Field Name Cbreferee
+      required: false
+      width: full
+  field_name_cbcomm:
+    title: Field Name Cbcomm
+    fields:
+    - name: field_name_cbcomm
+      pdf_field_name: JV-415[0].#subform[4].FieldName_cbcomm[0]
+      type: text
+      label: Field Name Cbcomm
+      required: false
+      width: full
+  on_date_ff17aa:
+    title: On Date Ff17aa
+    fields:
+    - name: on_date_ff17aa
+      pdf_field_name: JV-415[0].#subform[4].on_date_ff17aa[0]
+      type: date
+      label: On Date Ff17aa
+      required: false
+      width: half
+  on_date_ff17ab:
+    title: On Date Ff17ab
+    fields:
+    - name: on_date_ff17ab
+      pdf_field_name: JV-415[0].#subform[4].on_date_ff17ab[0]
+      type: date
+      label: On Date Ff17ab
+      required: false
+      width: half
+  on_date_ff17ac:
+    title: On Date Ff17ac
+    fields:
+    - name: on_date_ff17ac
+      pdf_field_name: JV-415[0].#subform[4].on_date_ff17ac[0]
+      type: date
+      label: On Date Ff17ac
+      required: false
+      width: half
+  on_date_ff17ad:
+    title: On Date Ff17ad
+    fields:
+    - name: on_date_ff17ad
+      pdf_field_name: JV-415[0].#subform[4].on_date_ff17ad[0]
+      type: date
+      label: On Date Ff17ad
+      required: false
+      width: half
+  check_box7c:
+    title: Check Box7c
+    fields:
+    - name: check_box7c
+      pdf_field_name: JV-415[0].#subform[4].CheckBox7c[0]
+      type: checkbox
+      label: Check Box7c
+      required: false
+      width: full
+  text_field17e:
+    title: Text Field17e
+    fields:
+    - name: text_field17e
+      pdf_field_name: JV-415[0].#subform[4].#area[5].TextField17e[0]
+      type: text
+      label: Text Field17e
+      required: false
+      width: full
+  check_box17e:
+    title: Check Box17e
+    fields:
+    - name: check_box17e
+      pdf_field_name: JV-415[0].#subform[4].#area[5].CheckBox17e[0]
+      type: checkbox
+      label: Check Box17e
+      required: false
+      width: full
+  check_box17d:
+    title: Check Box17d
+    fields:
+    - name: check_box17d
+      pdf_field_name: JV-415[0].#subform[4].CheckBox17d[0]
+      type: checkbox
+      label: Check Box17d
+      required: false
+      width: full
+  on_date_ff17ca:
+    title: On Date Ff17ca
+    fields:
+    - name: on_date_ff17ca
+      pdf_field_name: JV-415[0].#subform[4].on_date_ff17ca[0]
+      type: date
+      label: On Date Ff17ca
+      required: false
+      width: half
+  on_date_ff17cb:
+    title: On Date Ff17cb
+    fields:
+    - name: on_date_ff17cb
+      pdf_field_name: JV-415[0].#subform[4].on_date_ff17cb[0]
+      type: date
+      label: On Date Ff17cb
+      required: false
+      width: half
+  on_date_ff17cc:
+    title: On Date Ff17cc
+    fields:
+    - name: on_date_ff17cc
+      pdf_field_name: JV-415[0].#subform[4].on_date_ff17cc[0]
+      type: date
+      label: On Date Ff17cc
+      required: false
+      width: half
+  on_date_ff17cd:
+    title: On Date Ff17cd
+    fields:
+    - name: on_date_ff17cd
+      pdf_field_name: JV-415[0].#subform[4].on_date_ff17cd[0]
+      type: date
+      label: On Date Ff17cd
+      required: false
+      width: half
+  other_specify_tf16b:
+    title: Other Specify Tf16b
+    fields:
+    - name: other_specify_tf16b
+      pdf_field_name: JV-415[0].#subform[4].#area[6].OtherSpecify_tf16b[0]
+      type: text
+      label: Other Specify Tf16b
+      required: false
+      width: full
+  check_box13a:
+    title: Check Box13a
+    fields:
+    - name: check_box13a
+      pdf_field_name: JV-415[0].#subform[4].#area[6].CheckBox13a[0]
+      type: checkbox
+      label: Check Box13a
+      required: false
+      width: full
+  check_box13b:
+    title: Check Box13b
+    fields:
+    - name: check_box13b
+      pdf_field_name: JV-415[0].#subform[4].#area[6].CheckBox13b[0]
+      type: checkbox
+      label: Check Box13b
+      required: false
+      width: full
+  check_box13c:
+    title: Check Box13c
+    fields:
+    - name: check_box13c
+      pdf_field_name: JV-415[0].#subform[4].#area[6].CheckBox13c[0]
+      type: checkbox
+      label: Check Box13c
+      required: false
+      width: full
+  checkbox14a:
+    title: Checkbox14a
+    fields:
+    - name: checkbox14a
+      pdf_field_name: JV-415[0].#subform[4].#area[6].#area[8].Checkbox14a[0]
+      type: checkbox
+      label: Checkbox14a
+      required: false
+      width: full
+  checkbox14b:
+    title: Checkbox14b
+    fields:
+    - name: checkbox14b
+      pdf_field_name: JV-415[0].#subform[4].#area[6].#area[9].Checkbox14b[0]
+      type: checkbox
+      label: Checkbox14b
+      required: false
+      width: full
+  checkbox14c:
+    title: Checkbox14c
+    fields:
+    - name: checkbox14c
+      pdf_field_name: JV-415[0].#subform[4].#area[6].#area[10].Checkbox14c[0]
+      type: checkbox
+      label: Checkbox14c
+      required: false
+      width: full
+  checkbox14d:
+    title: Checkbox14d
+    fields:
+    - name: checkbox14d
+      pdf_field_name: JV-415[0].#subform[4].#area[6].#area[11].Checkbox14d[0]
+      type: checkbox
+      label: Checkbox14d
+      required: false
+      width: full
+  checkbox14e:
+    title: Checkbox14e
+    fields:
+    - name: checkbox14e
+      pdf_field_name: JV-415[0].#subform[4].#area[6].#area[12].Checkbox14e[0]
+      type: checkbox
+      label: Checkbox14e
+      required: false
+      width: full
+  checkbox14f:
+    title: Checkbox14f
+    fields:
+    - name: checkbox14f
+      pdf_field_name: JV-415[0].#subform[4].#area[6].#area[13].Checkbox14f[0]
+      type: checkbox
+      label: Checkbox14f
+      required: false
+      width: full
+  check_box14g:
+    title: Check Box14g
+    fields:
+    - name: check_box14g
+      pdf_field_name: JV-415[0].#subform[4].#area[6].#area[14].CheckBox14g[0]
+      type: checkbox
+      label: Check Box14g
+      required: false
+      width: full
+  checkbox16a:
+    title: Checkbox16a
+    fields:
+    - name: checkbox16a
+      pdf_field_name: JV-415[0].#subform[4].#area[6].#area[16].Checkbox16a[0]
+      type: checkbox
+      label: Checkbox16a
+      required: false
+      width: full
+  checkbox16b:
+    title: Checkbox16b
+    fields:
+    - name: checkbox16b
+      pdf_field_name: JV-415[0].#subform[4].#area[6].#area[17].Checkbox16b[0]
+      type: checkbox
+      label: Checkbox16b
+      required: false
+      width: full
+  print:
+    title: Print
+    fields:
+    - name: print
+      pdf_field_name: JV-415[0].#subform[4].#area[18].Print[0]
+      type: checkbox
+      label: Print
+      required: false
+      width: full
+  save:
+    title: Save
+    fields:
+    - name: save
+      pdf_field_name: JV-415[0].#subform[4].#area[18].Save[0]
+      type: checkbox
+      label: Save
+      required: false
+      width: full
+  reset:
+    title: Reset
+    fields:
+    - name: reset
+      pdf_field_name: JV-415[0].#subform[4].#area[18].Reset[0]
+      type: checkbox
+      label: Reset
+      required: false
+      width: full
+  warning:
+    title: Warning
+    fields:
+    - name: warning
+      pdf_field_name: JV-415[0].#subform[4].#area[18].Warning[0]
+      type: checkbox
+      label: Warning
+      required: false
+      width: full

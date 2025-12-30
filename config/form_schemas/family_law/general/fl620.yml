@@ -1,0 +1,224 @@
+---
+form:
+  code: FL-620
+  title: FL 620 Form
+  description: ''
+  category: family_law/general
+  pdf_filename: fl620.pdf
+  fillable: true
+  instructions: ''
+sections:
+  print:
+    title: Print
+    fields:
+    - name: print
+      pdf_field_name: FL-620[0].#pageSet[0].Page1[0].#area[0].Print[0]
+      type: checkbox
+      label: Print
+      required: false
+      width: full
+  save:
+    title: Save
+    fields:
+    - name: save
+      pdf_field_name: FL-620[0].#pageSet[0].Page1[0].#area[0].Save[0]
+      type: checkbox
+      label: Save
+      required: false
+      width: full
+  reset:
+    title: Reset
+    fields:
+    - name: reset
+      pdf_field_name: FL-620[0].#pageSet[0].Page1[0].#area[0].Reset[0]
+      type: checkbox
+      label: Reset
+      required: false
+      width: full
+  warning:
+    title: Warning
+    fields:
+    - name: warning
+      pdf_field_name: FL-620[0].#pageSet[0].Page1[0].#area[0].Warning[0]
+      type: checkbox
+      label: Warning
+      required: false
+      width: full
+  p1_footer:
+    title: P1 Footer
+    fields:
+    - name: ca_court_link
+      pdf_field_name: FL-620[0].#pageSet[0].Page1[0].P1Footer[0].CACourtLink[0]
+      type: checkbox
+      label: Ca Court Link
+      required: false
+      width: full
+  header:
+    title: Header
+    fields:
+    - name: gov_agency
+      pdf_field_name: FL-620[0].Page1[0].Header[0].AttyPartyInfo[0].GovAgency[0]
+      type: text
+      label: Gov Agency
+      required: false
+      width: full
+    - name: phone
+      pdf_field_name: FL-620[0].Page1[0].Header[0].AttyPartyInfo[0].Phone[0]
+      type: tel
+      label: Phone
+      required: false
+      width: half
+    - name: fax
+      pdf_field_name: FL-620[0].Page1[0].Header[0].AttyPartyInfo[0].Fax[0]
+      type: tel
+      label: Fax
+      required: false
+      width: half
+    - name: atty_for
+      pdf_field_name: FL-620[0].Page1[0].Header[0].AttyPartyInfo[0].AttyFor[0]
+      type: text
+      label: Atty For
+      required: false
+      width: full
+    - name: crt_county
+      pdf_field_name: FL-620[0].Page1[0].Header[0].CourtInfo[0].CrtCounty[0]
+      type: number
+      label: Crt County
+      required: false
+      width: third
+    - name: crt_street
+      pdf_field_name: FL-620[0].Page1[0].Header[0].CourtInfo[0].CrtStreet[0]
+      type: address
+      label: Crt Street
+      required: false
+      width: full
+    - name: crt_mailing_add
+      pdf_field_name: FL-620[0].Page1[0].Header[0].CourtInfo[0].CrtMailingAdd[0]
+      type: address
+      label: Crt Mailing Add
+      required: false
+      width: full
+    - name: crt_city_zip
+      pdf_field_name: FL-620[0].Page1[0].Header[0].CourtInfo[0].CrtCityZip[0]
+      type: address
+      label: Crt City Zip
+      required: false
+      width: full
+    - name: crt_branch
+      pdf_field_name: FL-620[0].Page1[0].Header[0].CourtInfo[0].CrtBranch[0]
+      type: text
+      label: Crt Branch
+      required: false
+      width: full
+    - name: party1
+      pdf_field_name: FL-620[0].Page1[0].Header[0].TitlePartyName[0].Party1[0]
+      type: text
+      label: Party
+      required: false
+      width: full
+    - name: party2
+      pdf_field_name: FL-620[0].Page1[0].Header[0].TitlePartyName[0].Party2[0]
+      type: text
+      label: Party
+      required: false
+      width: full
+    - name: party3
+      pdf_field_name: FL-620[0].Page1[0].Header[0].TitlePartyName[0].Party3[0]
+      type: text
+      label: Party
+      required: false
+      width: full
+    - name: case_number
+      pdf_field_name: FL-620[0].Page1[0].Header[0].CaseNumber[0].CaseNumber[0]
+      type: text
+      label: Case Number
+      required: false
+      width: full
+      shared_key: case:number
+  list:
+    title: List
+    fields:
+    - name: check_box1
+      pdf_field_name: FL-620[0].Page1[0].List3[0].LiA[0].CheckBox1[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: button1
+      pdf_field_name: FL-620[0].Page1[0].List3[0].LiA[0].Button1[0]
+      type: checkbox
+      label: Button
+      required: false
+      width: full
+    - name: check_box1_2
+      pdf_field_name: FL-620[0].Page1[0].List3[0].LiB[0].CheckBox1[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box1_2
+      pdf_field_name: FL-620[0].Page1[0].List3[0].LiC[0].CheckBox1[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: text_field3c
+      pdf_field_name: FL-620[0].Page1[0].List3[0].LiC[0].TextField3c[0]
+      type: text
+      label: Text Field3c
+      required: false
+      width: full
+    - name: button1_2
+      pdf_field_name: FL-620[0].Page1[0].List3[0].Notice[0].Note[0].Note1[0].Button1[0]
+      type: checkbox
+      label: Button
+      required: false
+      width: full
+    - name: button2
+      pdf_field_name: FL-620[0].Page1[0].List3[0].Notice[0].Note[0].Note3[0].Button2[0]
+      type: checkbox
+      label: Button
+      required: false
+      width: full
+  sign:
+    title: Sign
+    fields:
+    - name: sig_date
+      pdf_field_name: FL-620[0].Page1[0].Sign[0].SigDate[0]
+      type: signature
+      label: Sig Date
+      required: false
+      width: full
+    - name: sig_name
+      pdf_field_name: FL-620[0].Page1[0].Sign[0].SigName[0]
+      type: signature
+      label: Sig Name
+      required: false
+      width: full
+  court_use:
+    title: Court Use
+    fields:
+    - name: check_box2
+      pdf_field_name: FL-620[0].Page1[0].CourtUse[0].Li1[0].T1\.1[0].CheckBox2[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: date
+      pdf_field_name: FL-620[0].Page1[0].CourtUse[0].Li1[0].Date[0]
+      type: date
+      label: Date
+      required: false
+      width: half
+    - name: check_box2_2
+      pdf_field_name: FL-620[0].Page1[0].CourtUse[0].Li2[0].T2\.1[0].CheckBox2[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: text_field6
+      pdf_field_name: FL-620[0].Page1[0].CourtUse[0].Li2[0].TextField6[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full

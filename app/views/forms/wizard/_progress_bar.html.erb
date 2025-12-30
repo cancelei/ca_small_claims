@@ -1,0 +1,36 @@
+<%# Wizard Progress Bar %>
+<%# Uses @wizard_fields, @total_wizard_fields, @filled_count from controller %>
+
+<div class="mb-6">
+  <%# Progress Bar %>
+  <div class="w-full bg-base-200 rounded-full h-3 mb-3 overflow-hidden">
+    <div class="bg-gradient-to-r from-primary to-primary/80 h-3 rounded-full transition-all duration-500 ease-out"
+         data-wizard-target="progress"
+         style="width: <%= @wizard_fields.present? ? (1.0 / @wizard_fields.count * 100).round : 0 %>%">
+    </div>
+  </div>
+
+  <%# Counter and Status Row %>
+  <div class="flex justify-between items-center text-sm">
+    <%# Question Counter %>
+    <div class="flex items-center gap-2">
+      <span data-wizard-target="counter" class="font-medium text-base-content">
+        1 / <%= @wizard_fields&.count || 0 %>
+      </span>
+      <span class="text-base-content/50">questions</span>
+    </div>
+
+    <%# Auto-save Status %>
+    <div id="autosave-status" class="text-base-content/70" data-form-target="status">
+      <%= render partial: "shared/autosave_status", locals: { saved_at: @submission.updated_at } %>
+    </div>
+  </div>
+
+  <%# Optional: Overall completion indicator %>
+  <% if @total_wizard_fields && @total_wizard_fields > 0 %>
+    <div class="mt-2 text-xs text-base-content/50 text-center">
+      <% completion = ((@filled_count.to_f / @total_wizard_fields) * 100).round %>
+      <%= completion %>% of form completed
+    </div>
+  <% end %>
+</div>

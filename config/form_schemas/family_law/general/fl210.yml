@@ -1,0 +1,94 @@
+---
+form:
+  code: FL-210
+  title: FL 210 Form
+  description: ''
+  category: family_law/general
+  pdf_filename: fl210.pdf
+  fillable: true
+  instructions: ''
+sections:
+  caption_sf:
+    title: Caption Sf
+    fields:
+    - name: t7
+      pdf_field_name: topmostSubform[0].Page1[0].Caption_sf[0].T7[0]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t16
+      pdf_field_name: topmostSubform[0].Page1[0].Caption_sf[0].T16[0]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t18
+      pdf_field_name: topmostSubform[0].Page1[0].Caption_sf[0].T18[0]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t105
+      pdf_field_name: topmostSubform[0].Page1[0].Caption_sf[0].T105[0]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t107
+      pdf_field_name: topmostSubform[0].Page1[0].Caption_sf[0].T107[0]
+      type: text
+      label: T
+      required: false
+      width: full
+  t:
+    title: T
+    fields:
+    - name: t69
+      pdf_field_name: topmostSubform[0].Page1[0].T69[0]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t103
+      pdf_field_name: topmostSubform[0].Page1[0].T103[0]
+      type: text
+      label: T
+      required: false
+      width: full
+  other_specify_tf:
+    title: Other Specify Tf
+    fields:
+    - name: other_specify_tf
+      pdf_field_name: topmostSubform[0].Page1[0].OtherSpecify_tf[0]
+      type: text
+      label: Other Specify Tf
+      required: false
+      width: full
+    - name: other_specify_tf_2
+      pdf_field_name: topmostSubform[0].Page1[0].OtherSpecify_tf[1]
+      type: text
+      label: Other Specify Tf
+      required: false
+      width: full
+  btn_footer_gp:
+    title: Btn Footer Gp
+    fields:
+    - name: print_bt
+      pdf_field_name: topmostSubform[0].Page2[0].BtnFooter_gp[0].Print_bt[0]
+      type: checkbox
+      label: Print Bt
+      required: false
+      width: full
+    - name: save_bt
+      pdf_field_name: topmostSubform[0].Page2[0].BtnFooter_gp[0].Save_bt[0]
+      type: checkbox
+      label: Save Bt
+      required: false
+      width: full
+    - name: reset_bt
+      pdf_field_name: topmostSubform[0].Page2[0].BtnFooter_gp[0].Reset_bt[0]
+      type: checkbox
+      label: Reset Bt
+      required: false
+      width: full

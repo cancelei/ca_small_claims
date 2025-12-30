@@ -1,0 +1,395 @@
+---
+form:
+  code: ICWA-010A
+  title: ICWA 010A Form
+  description: ''
+  category: general
+  pdf_filename: icwa010a.pdf
+  fillable: true
+  instructions: ''
+sections:
+  indian_status_tf:
+    title: Indian Status Tf
+    fields:
+    - name: indian_status_tf
+      pdf_field_name: ICWA-010A[0].Page1[0].IndianStatus_tf[0]
+      type: text
+      label: Indian Status Tf
+      required: false
+      width: full
+  childs_name_tf:
+    title: Childs Name Tf
+    fields:
+    - name: childs_name_tf
+      pdf_field_name: ICWA-010A[0].Page1[0].ChildsName_tf[0]
+      type: text
+      label: Childs Name Tf
+      required: false
+      width: full
+  indian_status_cb:
+    title: Indian Status Cb
+    fields:
+    - name: indian_status_cb
+      pdf_field_name: ICWA-010A[0].Page1[0].IndianStatus_cb[0]
+      type: text
+      label: Indian Status Cb
+      required: false
+      width: full
+  date_tf:
+    title: Date Tf
+    fields:
+    - name: date_tf
+      pdf_field_name: ICWA-010A[0].Page1[0].Date_tf[0]
+      type: date
+      label: Date Tf
+      required: false
+      width: half
+  print_name_tf:
+    title: Print Name Tf
+    fields:
+    - name: print_name_tf
+      pdf_field_name: ICWA-010A[0].Page1[0].PrintName_tf[0]
+      type: text
+      label: Print Name Tf
+      required: false
+      width: full
+  px_caption:
+    title: Px Caption
+    fields:
+    - name: childs_name_tf_2
+      pdf_field_name: ICWA-010A[0].Page1[0].PxCaption[0].TitlePartyName[0].ChildsName_tf[0]
+      type: text
+      label: Childs Name Tf
+      required: false
+      width: full
+    - name: case_number_tf
+      pdf_field_name: ICWA-010A[0].Page1[0].PxCaption[0].CaseNumber[0].CaseNumber_tf[0]
+      type: text
+      label: Case Number Tf
+      required: false
+      width: full
+      shared_key: case:number
+  indian_status_ques_cb:
+    title: Indian Status Ques Cb
+    fields:
+    - name: indian_status_ques_cb
+      pdf_field_name: ICWA-010A[0].Page1[0].IndianStatusQues_cb[0]
+      type: text
+      label: Indian Status Ques Cb
+      required: false
+      width: full
+  text_field:
+    title: Text Field
+    fields:
+    - name: text_field6
+      pdf_field_name: ICWA-010A[0].Page1[0].TextField6[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+  checkbox:
+    title: Checkbox
+    fields:
+    - name: checkbox
+      pdf_field_name: ICWA-010A[0].Page1[0].Checkbox[0]
+      type: checkbox
+      label: Checkbox
+      required: false
+      width: full
+  name_tf:
+    title: Name Tf
+    fields:
+    - name: name_tf
+      pdf_field_name: ICWA-010A[0].Page1[0].Name_tf[0]
+      type: text
+      label: Name Tf
+      required: false
+      width: full
+    - name: name_tf_2
+      pdf_field_name: ICWA-010A[0].Page1[0].Name_tf[1]
+      type: text
+      label: Name Tf
+      required: false
+      width: full
+  address_tf:
+    title: Address Tf
+    fields:
+    - name: address_tf
+      pdf_field_name: ICWA-010A[0].Page1[0].Address_tf[0]
+      type: address
+      label: Address Tf
+      required: false
+      width: full
+    - name: address_tf_2
+      pdf_field_name: ICWA-010A[0].Page1[0].Address_tf[1]
+      type: address
+      label: Address Tf
+      required: false
+      width: full
+  city_state_zip_tf:
+    title: City State Zip Tf
+    fields:
+    - name: city_state_zip_tf
+      pdf_field_name: ICWA-010A[0].Page1[0].CityStateZip_tf[0]
+      type: address
+      label: City State Zip Tf
+      required: false
+      width: full
+    - name: city_state_zip_tf_2
+      pdf_field_name: ICWA-010A[0].Page1[0].CityStateZip_tf[1]
+      type: address
+      label: City State Zip Tf
+      required: false
+      width: full
+  telephone_tf:
+    title: Telephone Tf
+    fields:
+    - name: telephone_tf
+      pdf_field_name: ICWA-010A[0].Page1[0].Telephone_tf[0]
+      type: tel
+      label: Telephone Tf
+      required: false
+      width: half
+    - name: telephone_tf_2
+      pdf_field_name: ICWA-010A[0].Page1[0].Telephone_tf[1]
+      type: tel
+      label: Telephone Tf
+      required: false
+      width: half
+  date_questioned_tf:
+    title: Date Questioned Tf
+    fields:
+    - name: date_questioned_tf
+      pdf_field_name: ICWA-010A[0].Page1[0].DateQuestioned_tf[0]
+      type: date
+      label: Date Questioned Tf
+      required: false
+      width: half
+    - name: date_questioned_tf_2
+      pdf_field_name: ICWA-010A[0].Page1[0].DateQuestioned_tf[1]
+      type: date
+      label: Date Questioned Tf
+      required: false
+      width: half
+  relationship_child_tf:
+    title: Relationship Child Tf
+    fields:
+    - name: relationship_child_tf
+      pdf_field_name: ICWA-010A[0].Page1[0].RelationshipChild_tf[0]
+      type: text
+      label: Relationship Child Tf
+      required: false
+      width: full
+    - name: relationship_child_tf_2
+      pdf_field_name: ICWA-010A[0].Page1[0].RelationshipChild_tf[1]
+      type: text
+      label: Relationship Child Tf
+      required: false
+      width: full
+  add_person_cb:
+    title: Add Person Cb
+    fields:
+    - name: add_person_cb
+      pdf_field_name: ICWA-010A[0].Page1[0].#area[0].AddPerson_cb[0]
+      type: text
+      label: Add Person Cb
+      required: false
+      width: full
+  reason_cb:
+    title: Reason Cb
+    fields:
+    - name: reason_cb
+      pdf_field_name: ICWA-010A[0].Page1[0].Reason_cb[0]
+      type: text
+      label: Reason Cb
+      required: false
+      width: full
+  no_reason_cb:
+    title: No Reason Cb
+    fields:
+    - name: no_reason_cb
+      pdf_field_name: ICWA-010A[0].Page1[0].NoReason_cb[0]
+      type: text
+      label: No Reason Cb
+      required: false
+      width: full
+  item4_cb:
+    title: Item4 Cb
+    fields:
+    - name: item4_cb
+      pdf_field_name: ICWA-010A[0].Page1[0].item4_cb[0]
+      type: text
+      label: Item4 Cb
+      required: false
+      width: full
+  item5a_cb:
+    title: Item5a Cb
+    fields:
+    - name: item5a_cb
+      pdf_field_name: ICWA-010A[0].Page1[0].item5a_cb[0]
+      type: text
+      label: Item5a Cb
+      required: false
+      width: full
+  item5a_name_tf:
+    title: Item5a Name Tf
+    fields:
+    - name: item5a_name_tf
+      pdf_field_name: ICWA-010A[0].Page1[0].item5aName_tf[0]
+      type: text
+      label: Item5a Name Tf
+      required: false
+      width: full
+  item5a_location_tf:
+    title: Item5a Location Tf
+    fields:
+    - name: item5a_location_tf
+      pdf_field_name: ICWA-010A[0].Page1[0].item5aLocation_tf[0]
+      type: address
+      label: Item5a Location Tf
+      required: false
+      width: full
+  item5b_cb:
+    title: Item5b Cb
+    fields:
+    - name: item5b_cb
+      pdf_field_name: ICWA-010A[0].Page1[0].item5b_cb[0]
+      type: text
+      label: Item5b Cb
+      required: false
+      width: full
+  item5b_name_cb:
+    title: Item5b Name Cb
+    fields:
+    - name: item5b_name_cb
+      pdf_field_name: ICWA-010A[0].Page1[0].item5bName_cb[0]
+      type: text
+      label: Item5b Name Cb
+      required: false
+      width: full
+    - name: item5b_name_cb_2
+      pdf_field_name: ICWA-010A[0].Page1[0].item5bName_cb[1]
+      type: text
+      label: Item5b Name Cb
+      required: false
+      width: full
+  item5b_location_tf:
+    title: Item5b Location Tf
+    fields:
+    - name: item5b_location_tf
+      pdf_field_name: ICWA-010A[0].Page1[0].item5bLocation_tf[0]
+      type: address
+      label: Item5b Location Tf
+      required: false
+      width: full
+    - name: item5b_location_tf_2
+      pdf_field_name: ICWA-010A[0].Page1[0].item5bLocation_tf[1]
+      type: address
+      label: Item5b Location Tf
+      required: false
+      width: full
+    - name: item5b_location_tf_2
+      pdf_field_name: ICWA-010A[0].Page1[0].item5bLocation_tf[2]
+      type: address
+      label: Item5b Location Tf
+      required: false
+      width: full
+  item5c_cb:
+    title: Item5c Cb
+    fields:
+    - name: item5c_cb
+      pdf_field_name: ICWA-010A[0].Page1[0].item5c_cb[0]
+      type: text
+      label: Item5c Cb
+      required: false
+      width: full
+  item5d_cb:
+    title: Item5d Cb
+    fields:
+    - name: item5d_cb
+      pdf_field_name: ICWA-010A[0].Page1[0].item5d_cb[0]
+      type: text
+      label: Item5d Cb
+      required: false
+      width: full
+  item5e_cb:
+    title: Item5e Cb
+    fields:
+    - name: item5e_cb
+      pdf_field_name: ICWA-010A[0].Page1[0].item5e_cb[0]
+      type: text
+      label: Item5e Cb
+      required: false
+      width: full
+  item5f_cb:
+    title: Item5f Cb
+    fields:
+    - name: item5f_cb
+      pdf_field_name: ICWA-010A[0].Page1[0].item5f_cb[0]
+      type: text
+      label: Item5f Cb
+      required: false
+      width: full
+  item6fostercare_cb:
+    title: Item6fostercare Cb
+    fields:
+    - name: item6fostercare_cb
+      pdf_field_name: ICWA-010A[0].Page1[0].item6fostercare_cb[0]
+      type: text
+      label: Item6fostercare Cb
+      required: false
+      width: full
+  item6probable_fc_cb:
+    title: Item6probable Fc Cb
+    fields:
+    - name: item6probable_fc_cb
+      pdf_field_name: ICWA-010A[0].Page1[0].item6probableFC_cb[0]
+      type: text
+      label: Item6probable Fc Cb
+      required: false
+      width: full
+  item5f_name_tf:
+    title: Item5f Name Tf
+    fields:
+    - name: item5f_name_tf
+      pdf_field_name: ICWA-010A[0].Page1[0].item5fName_tf[0]
+      type: text
+      label: Item5f Name Tf
+      required: false
+      width: full
+  print:
+    title: Print
+    fields:
+    - name: print
+      pdf_field_name: ICWA-010A[0].Page1[0].#area[1].Print[0]
+      type: checkbox
+      label: Print
+      required: false
+      width: full
+  save:
+    title: Save
+    fields:
+    - name: save
+      pdf_field_name: ICWA-010A[0].Page1[0].#area[1].Save[0]
+      type: checkbox
+      label: Save
+      required: false
+      width: full
+  reset:
+    title: Reset
+    fields:
+    - name: reset
+      pdf_field_name: ICWA-010A[0].Page1[0].#area[1].Reset[0]
+      type: checkbox
+      label: Reset
+      required: false
+      width: full
+  warning:
+    title: Warning
+    fields:
+    - name: warning
+      pdf_field_name: ICWA-010A[0].Page1[0].#area[1].Warning[0]
+      type: checkbox
+      label: Warning
+      required: false
+      width: full

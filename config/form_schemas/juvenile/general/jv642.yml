@@ -1,0 +1,1346 @@
+---
+form:
+  code: JV-642
+  title: JV 642 Form
+  description: ''
+  category: juvenile/general
+  pdf_filename: jv642.pdf
+  fillable: true
+  instructions: ''
+sections:
+  header:
+    title: Header
+    fields:
+    - name: childs_name_ft
+      pdf_field_name: JV-642[0].Page1[0].header1[0].childsname[0].ChildsName_ft[0]
+      type: text
+      label: Childs Name Ft
+      required: false
+      width: full
+    - name: case_number_ft
+      pdf_field_name: JV-642[0].Page1[0].header1[0].casenum[0].CaseNumber_ft[0]
+      type: text
+      label: Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+    - name: childs_name_ft_2
+      pdf_field_name: JV-642[0].Page2[0].header2[0].childsname[0].ChildsName_ft[0]
+      type: text
+      label: Childs Name Ft
+      required: false
+      width: full
+    - name: case_number_ft_2
+      pdf_field_name: JV-642[0].Page2[0].header2[0].casenum[0].CaseNumber_ft[0]
+      type: text
+      label: Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+    - name: childs_name_ft_2
+      pdf_field_name: JV-642[0].Page3[0].header3[0].childsname[0].ChildsName_ft[0]
+      type: text
+      label: Childs Name Ft
+      required: false
+      width: full
+    - name: case_number_ft_2
+      pdf_field_name: JV-642[0].Page3[0].header3[0].casenum[0].CaseNumber_ft[0]
+      type: text
+      label: Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+    - name: childs_name_ft_2
+      pdf_field_name: JV-642[0].Page4[0].header4[0].childsname[0].ChildsName_ft[0]
+      type: text
+      label: Childs Name Ft
+      required: false
+      width: full
+    - name: case_number_ft_2
+      pdf_field_name: JV-642[0].Page4[0].header4[0].casenum[0].CaseNumber_ft[0]
+      type: text
+      label: Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+  title:
+    title: Title
+    fields:
+    - name: app_cb
+      pdf_field_name: JV-642[0].Page1[0].title[0].app_cb[0]
+      type: text
+      label: App Cb
+      required: false
+      width: full
+    - name: app_cb_2
+      pdf_field_name: JV-642[0].Page1[0].title[0].app_cb[1]
+      type: text
+      label: App Cb
+      required: false
+      width: full
+  list:
+    title: List
+    fields:
+    - name: petitioner_cb
+      pdf_field_name: JV-642[0].Page1[0].List1[0].Li1[0].petitioner_cb[0]
+      type: text
+      label: Petitioner Cb
+      required: false
+      width: full
+    - name: check_box61
+      pdf_field_name: JV-642[0].Page1[0].List2[0].Li1[0].CheckBox61[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: dateofbirth
+      pdf_field_name: JV-642[0].Page1[0].List2[0].Li1[0].dateofbirth[0]
+      type: date
+      label: Dateofbirth
+      required: false
+      width: half
+    - name: petitioner_cb_2
+      pdf_field_name: JV-642[0].Page1[0].List3[0].Li1[0].petitioner_cb[0]
+      type: text
+      label: Petitioner Cb
+      required: false
+      width: full
+    - name: check_box61_2
+      pdf_field_name: JV-642[0].Page1[0].List4[0].Li1[0].CheckBox61[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: takeninto
+      pdf_field_name: JV-642[0].Page1[0].List4[0].Li1[0].takeninto[0]
+      type: text
+      label: Takeninto
+      required: false
+      width: full
+    - name: field_name_cb
+      pdf_field_name: JV-642[0].Page1[0].List4[0].Li1[0].FieldName_cb[0]
+      type: text
+      label: Field Name Cb
+      required: false
+      width: full
+    - name: field_name_cb_2
+      pdf_field_name: JV-642[0].Page1[0].List4[0].Li1[0].FieldName_cb[1]
+      type: text
+      label: Field Name Cb
+      required: false
+      width: full
+    - name: date
+      pdf_field_name: JV-642[0].Page1[0].List4[0].Li1[0].date[0]
+      type: date
+      label: Date
+      required: false
+      width: half
+    - name: check_box61_2
+      pdf_field_name: JV-642[0].Page1[0].List5[0].Li1[0].CheckBox61[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: filedat
+      pdf_field_name: JV-642[0].Page1[0].List5[0].Li1[0].filedat[0]
+      type: text
+      label: Filedat
+      required: false
+      width: full
+    - name: am_cb
+      pdf_field_name: JV-642[0].Page1[0].List5[0].Li1[0].am_cb[0]
+      type: text
+      label: Am Cb
+      required: false
+      width: full
+    - name: am_cb_2
+      pdf_field_name: JV-642[0].Page1[0].List5[0].Li1[0].am_cb[1]
+      type: text
+      label: Am Cb
+      required: false
+      width: full
+    - name: date5
+      pdf_field_name: JV-642[0].Page1[0].List5[0].Li1[0].date5[0]
+      type: date
+      label: Date
+      required: false
+      width: half
+    - name: petitioner_cb_2
+      pdf_field_name: JV-642[0].Page1[0].List6[0].Li1[0].petitioner_cb[0]
+      type: text
+      label: Petitioner Cb
+      required: false
+      width: full
+    - name: theface
+      pdf_field_name: JV-642[0].Page1[0].List7[0].Li1[0].theface[0]
+      type: text
+      label: Theface
+      required: false
+      width: full
+    - name: confimedas
+      pdf_field_name: JV-642[0].Page1[0].List7[0].Li1[0].confimedas[0]
+      type: text
+      label: Confimedas
+      required: false
+      width: full
+    - name: confimedas_2
+      pdf_field_name: JV-642[0].Page1[0].List7[0].Li1[0].confimedas[1]
+      type: text
+      label: Confimedas
+      required: false
+      width: full
+    - name: text_field2
+      pdf_field_name: JV-642[0].Page1[0].List7[0].Li1[0].TextField2[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: cb_thecourtinquired
+      pdf_field_name: JV-642[0].Page1[0].List8[0].Li1[0].item8_a[0].cb_thecourtinquired[0]
+      type: text
+      label: Cb Thecourtinquired
+      required: false
+      width: full
+    - name: cb_themother
+      pdf_field_name: JV-642[0].Page1[0].List8[0].Li1[0].item8_a[0].cb_themother[0]
+      type: text
+      label: Cb Themother
+      required: false
+      width: full
+    - name: cb_others
+      pdf_field_name: JV-642[0].Page1[0].List8[0].Li1[0].item8_a[0].cb_others[0]
+      type: text
+      label: Cb Others
+      required: false
+      width: full
+    - name: text_field2_2
+      pdf_field_name: JV-642[0].Page1[0].List8[0].Li1[0].item8_a[0].TextField2[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: check_box1
+      pdf_field_name: JV-642[0].Page1[0].List8[0].Li1[0].item8_b[0].CheckBox1[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: text_field2_2
+      pdf_field_name: JV-642[0].Page1[0].List8[0].Li1[0].item8_b[0].TextField2[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: name8
+      pdf_field_name: JV-642[0].Page1[0].List8[0].Li1[0].item8_b[0].name8[0]
+      type: text
+      label: Name
+      required: false
+      width: full
+    - name: name_bio
+      pdf_field_name: JV-642[0].Page1[0].List8[0].Li1[0].item8_b[0].nameBio[0]
+      type: text
+      label: Name Bio
+      required: false
+      width: full
+    - name: namepre
+      pdf_field_name: JV-642[0].Page1[0].List8[0].Li1[0].item8_b[0].namepre[0]
+      type: text
+      label: Namepre
+      required: false
+      width: full
+    - name: cb_alleged
+      pdf_field_name: JV-642[0].Page1[0].List8[0].Li1[0].item8_b[0].cb_alleged[0]
+      type: text
+      label: Cb Alleged
+      required: false
+      width: full
+    - name: check_box_captiona
+      pdf_field_name: JV-642[0].Page1[0].List9[0].Li1[0].CheckBoxCaptiona[0]
+      type: checkbox
+      label: Check Box Captiona
+      required: false
+      width: full
+    - name: check_box_captionb
+      pdf_field_name: JV-642[0].Page1[0].List9[0].Li2[0].CheckBoxCaptionb[0]
+      type: checkbox
+      label: Check Box Captionb
+      required: false
+      width: full
+    - name: icwastatus10a
+      pdf_field_name: JV-642[0].Page1[0].List10[0].Li1[0].icwastatus10a[0]
+      type: text
+      label: Icwastatus10a
+      required: false
+      width: full
+    - name: icwastatus10a_2
+      pdf_field_name: JV-642[0].Page1[0].List10[0].Li2[0].icwastatus10a[0]
+      type: text
+      label: Icwastatus10a
+      required: false
+      width: full
+    - name: probationdept10b
+      pdf_field_name: JV-642[0].Page1[0].List10[0].Li2[0].List[0].Li1[0].probationdept10b[0]
+      type: text
+      label: Probationdept10b
+      required: false
+      width: full
+    - name: probationdept10b_2
+      pdf_field_name: JV-642[0].Page1[0].List10[0].Li2[0].List[0].Li2[0].probationdept10b[0]
+      type: text
+      label: Probationdept10b
+      required: false
+      width: full
+    - name: reasonto
+      pdf_field_name: JV-642[0].Page1[0].List10[0].Li3[0].reasonto[0]
+      type: text
+      label: Reasonto
+      required: false
+      width: full
+    - name: probdeptc1
+      pdf_field_name: JV-642[0].Page1[0].List10[0].Li3[0].List[0].Li1[0].probdeptc1[0]
+      type: text
+      label: Probdeptc
+      required: false
+      width: full
+    - name: probdeptc1_2
+      pdf_field_name: JV-642[0].Page1[0].List10[0].Li3[0].List[0].Li2[0].probdeptc1[0]
+      type: text
+      label: Probdeptc
+      required: false
+      width: full
+    - name: mother11
+      pdf_field_name: JV-642[0].Page2[0].List11[0].Li1[0].mother11[0]
+      type: text
+      label: Mother
+      required: false
+      width: full
+    - name: father11
+      pdf_field_name: JV-642[0].Page2[0].List11[0].Li1[0].father11[0]
+      type: text
+      label: Father
+      required: false
+      width: full
+    - name: guardian11
+      pdf_field_name: JV-642[0].Page2[0].List11[0].Li1[0].guardian11[0]
+      type: text
+      label: Guardian
+      required: false
+      width: full
+    - name: indiancust11
+      pdf_field_name: JV-642[0].Page2[0].List11[0].Li1[0].indiancust11[0]
+      type: text
+      label: Indiancust
+      required: false
+      width: full
+    - name: other11
+      pdf_field_name: JV-642[0].Page2[0].List11[0].Li1[0].other11[0]
+      type: text
+      label: Other
+      required: false
+      width: full
+    - name: otherspecify
+      pdf_field_name: JV-642[0].Page2[0].List11[0].Li1[0].otherspecify[0]
+      type: text
+      label: Otherspecify
+      required: false
+      width: full
+    - name: petitioner_cb_2
+      pdf_field_name: JV-642[0].Page2[0].List12[0].petitioner_cb[0]
+      type: text
+      label: Petitioner Cb
+      required: false
+      width: full
+    - name: petitioner_cb_2
+      pdf_field_name: JV-642[0].Page2[0].List12[0].Li1[0].petitioner_cb[0]
+      type: text
+      label: Petitioner Cb
+      required: false
+      width: full
+    - name: petitioner_cb_2
+      pdf_field_name: JV-642[0].Page2[0].List12[0].Li2[0].petitioner_cb[0]
+      type: text
+      label: Petitioner Cb
+      required: false
+      width: full
+    - name: petitioner_cb_2
+      pdf_field_name: JV-642[0].Page2[0].List12[0].Li3[0].petitioner_cb[0]
+      type: text
+      label: Petitioner Cb
+      required: false
+      width: full
+    - name: check_box61_2
+      pdf_field_name: JV-642[0].Page2[0].List12[0].Li4[0].CheckBox61[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: hearing
+      pdf_field_name: JV-642[0].Page2[0].List12[0].Li4[0].hearing[0]
+      type: text
+      label: Hearing
+      required: false
+      width: full
+    - name: petitioner_cb_2
+      pdf_field_name: JV-642[0].Page2[0].List12[0].Li5[0].petitioner_cb[0]
+      type: text
+      label: Petitioner Cb
+      required: false
+      width: full
+    - name: petitioner_cb_2
+      pdf_field_name: JV-642[0].Page2[0].List12[0].Li6[0].petitioner_cb[0]
+      type: text
+      label: Petitioner Cb
+      required: false
+      width: full
+    - name: check_box61_2
+      pdf_field_name: JV-642[0].Page2[0].List12[0].Li7[0].CheckBox61[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: other
+      pdf_field_name: JV-642[0].Page2[0].List12[0].Li7[0].other[0]
+      type: text
+      label: Other
+      required: false
+      width: full
+    - name: cb_13
+      pdf_field_name: JV-642[0].Page2[0].List13[0].Li1[0].cb_13[0]
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: thechild13
+      pdf_field_name: JV-642[0].Page2[0].List13[0].Li1[0].thechild13[0]
+      type: text
+      label: Thechild
+      required: false
+      width: full
+    - name: cb_childscounsel13
+      pdf_field_name: JV-642[0].Page2[0].List13[0].Li1[0].cb_childscounsel13[0]
+      type: text
+      label: Cb Childscounsel
+      required: false
+      width: full
+    - name: check_box61_2
+      pdf_field_name: JV-642[0].Page2[0].List14[0].Li1[0].CheckBox61[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: petitioner_cb_2
+      pdf_field_name: JV-642[0].Page2[0].List15[0].Li1[0].petitioner_cb[0]
+      type: text
+      label: Petitioner Cb
+      required: false
+      width: full
+    - name: petitioner_cb2
+      pdf_field_name: JV-642[0].Page2[0].List15[0].Li1[0].petitioner_cb2[0]
+      type: text
+      label: Petitioner Cb
+      required: false
+      width: full
+    - name: deinedorasked
+      pdf_field_name: JV-642[0].Page2[0].List15[0].Li1[0].deinedorasked[0]
+      type: text
+      label: Deinedorasked
+      required: false
+      width: full
+    - name: dated
+      pdf_field_name: JV-642[0].Page2[0].List15[0].Li1[0].dated[0]
+      type: date
+      label: Dated
+      required: false
+      width: half
+    - name: deinedorasked_2
+      pdf_field_name: JV-642[0].Page2[0].List15[0].Li1[0].deinedorasked[1]
+      type: text
+      label: Deinedorasked
+      required: false
+      width: full
+    - name: petitioner_cb_2
+      pdf_field_name: JV-642[0].Page2[0].List16[0].Li1[0].petitioner_cb[0]
+      type: text
+      label: Petitioner Cb
+      required: false
+      width: full
+    - name: intrestsof16
+      pdf_field_name: JV-642[0].Page2[0].List16[0].Li1[0].intrestsof16[0]
+      type: text
+      label: Intrestsof
+      required: false
+      width: full
+    - name: because16
+      pdf_field_name: JV-642[0].Page2[0].List16[0].Li1[0].because16[0]
+      type: text
+      label: Because
+      required: false
+      width: full
+    - name: check_box61_2
+      pdf_field_name: JV-642[0].Page2[0].List17[0].CheckBox61[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: hearing_2
+      pdf_field_name: JV-642[0].Page2[0].List17[0].Li1[0].hearing[0]
+      type: text
+      label: Hearing
+      required: false
+      width: full
+    - name: crossexam
+      pdf_field_name: JV-642[0].Page2[0].List17[0].Li2[0].crossexam[0]
+      type: text
+      label: Crossexam
+      required: false
+      width: full
+    - name: subpoena
+      pdf_field_name: JV-642[0].Page2[0].List17[0].Li3[0].subpoena[0]
+      type: text
+      label: Subpoena
+      required: false
+      width: full
+    - name: remainsilent
+      pdf_field_name: JV-642[0].Page2[0].List17[0].Li4[0].remainsilent[0]
+      type: text
+      label: Remainsilent
+      required: false
+      width: full
+    - name: petitioner_cb_2
+      pdf_field_name: JV-642[0].Page2[0].List18[0].Li1[0].petitioner_cb[0]
+      type: text
+      label: Petitioner Cb
+      required: false
+      width: full
+    - name: item17a_cb
+      pdf_field_name: JV-642[0].Page2[0].List18[0].Li1[0].List[0].Li1[0].item17a_cb[0]
+      type: text
+      label: Item17a Cb
+      required: false
+      width: full
+    - name: file_cb
+      pdf_field_name: JV-642[0].Page2[0].List18[0].Li1[0].List[0].Li1[0].file_cb[0]
+      type: text
+      label: File Cb
+      required: false
+      width: full
+    - name: file_cb_2
+      pdf_field_name: JV-642[0].Page2[0].List18[0].Li1[0].List[0].Li1[0].file_cb[1]
+      type: text
+      label: File Cb
+      required: false
+      width: full
+    - name: t303
+      pdf_field_name: JV-642[0].Page2[0].List18[0].Li1[0].List[0].Li1[0].T303[0]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: item17a_cb_2
+      pdf_field_name: JV-642[0].Page2[0].List18[0].Li1[0].List[0].Li2[0].item17a_cb[0]
+      type: text
+      label: Item17a Cb
+      required: false
+      width: full
+    - name: file2_cb
+      pdf_field_name: JV-642[0].Page2[0].List18[0].Li1[0].List[0].Li2[0].file2_cb[0]
+      type: text
+      label: File2 Cb
+      required: false
+      width: full
+    - name: file2_cb_2
+      pdf_field_name: JV-642[0].Page2[0].List18[0].Li1[0].List[0].Li2[0].file2_cb[1]
+      type: text
+      label: File2 Cb
+      required: false
+      width: full
+    - name: t303_2
+      pdf_field_name: JV-642[0].Page2[0].List18[0].Li1[0].List[0].Li2[0].T303[0]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: petitioner_cb_2
+      pdf_field_name: JV-642[0].Page2[0].List18[0].Li2[0].petitioner_cb[0]
+      type: text
+      label: Petitioner Cb
+      required: false
+      width: full
+    - name: petitioner_cb_2
+      pdf_field_name: JV-642[0].Page2[0].List18[0].Li3[0].petitioner_cb[0]
+      type: text
+      label: Petitioner Cb
+      required: false
+      width: full
+    - name: petitioner_cb_2
+      pdf_field_name: JV-642[0].Page2[0].List18[0].Li4[0].petitioner_cb[0]
+      type: text
+      label: Petitioner Cb
+      required: false
+      width: full
+    - name: check_box61_2
+      pdf_field_name: JV-642[0].Page2[0].List18[0].Li5[0].CheckBox61[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: petitioner_cb_2
+      pdf_field_name: JV-642[0].Page3[0].List19[0].Li1[0].petitioner_cb[0]
+      type: text
+      label: Petitioner Cb
+      required: false
+      width: full
+    - name: cb_1
+      pdf_field_name: JV-642[0].Page3[0].List19[0].Li1[0].cb_1[0]
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: cb_2
+      pdf_field_name: JV-642[0].Page3[0].List19[0].Li1[0].cb_2[0]
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: cb19a1
+      pdf_field_name: JV-642[0].Page3[0].List19[0].Li1[0].cb19a1[0]
+      type: text
+      label: Cb19a
+      required: false
+      width: full
+    - name: cb19a1_2
+      pdf_field_name: JV-642[0].Page3[0].List19[0].Li1[0].cb19a1[1]
+      type: text
+      label: Cb19a
+      required: false
+      width: full
+    - name: cb19a1_2
+      pdf_field_name: JV-642[0].Page3[0].List19[0].Li1[0].cb19a1[2]
+      type: text
+      label: Cb19a
+      required: false
+      width: full
+    - name: box1
+      pdf_field_name: JV-642[0].Page3[0].List19[0].Li1[0].box1[0]
+      type: text
+      label: Box
+      required: false
+      width: full
+    - name: box2
+      pdf_field_name: JV-642[0].Page3[0].List19[0].Li1[0].box2[0]
+      type: text
+      label: Box
+      required: false
+      width: full
+    - name: box3
+      pdf_field_name: JV-642[0].Page3[0].List19[0].Li1[0].box3[0]
+      type: text
+      label: Box
+      required: false
+      width: full
+    - name: cb19a2
+      pdf_field_name: JV-642[0].Page3[0].List19[0].Li1[0].cb19a2[0]
+      type: text
+      label: Cb19a
+      required: false
+      width: full
+    - name: cb19a2_2
+      pdf_field_name: JV-642[0].Page3[0].List19[0].Li1[0].cb19a2[1]
+      type: text
+      label: Cb19a
+      required: false
+      width: full
+    - name: cb19a2_2
+      pdf_field_name: JV-642[0].Page3[0].List19[0].Li1[0].cb19a2[2]
+      type: text
+      label: Cb19a
+      required: false
+      width: full
+    - name: box4
+      pdf_field_name: JV-642[0].Page3[0].List19[0].Li1[0].box4[0]
+      type: text
+      label: Box
+      required: false
+      width: full
+    - name: box5
+      pdf_field_name: JV-642[0].Page3[0].List19[0].Li1[0].box5[0]
+      type: text
+      label: Box
+      required: false
+      width: full
+    - name: box6
+      pdf_field_name: JV-642[0].Page3[0].List19[0].Li1[0].box6[0]
+      type: text
+      label: Box
+      required: false
+      width: full
+    - name: cb19a3
+      pdf_field_name: JV-642[0].Page3[0].List19[0].Li1[0].cb19a3[0]
+      type: text
+      label: Cb19a
+      required: false
+      width: full
+    - name: cb19a3_2
+      pdf_field_name: JV-642[0].Page3[0].List19[0].Li1[0].cb19a3[1]
+      type: text
+      label: Cb19a
+      required: false
+      width: full
+    - name: cb19a3_2
+      pdf_field_name: JV-642[0].Page3[0].List19[0].Li1[0].cb19a3[2]
+      type: text
+      label: Cb19a
+      required: false
+      width: full
+    - name: box7
+      pdf_field_name: JV-642[0].Page3[0].List19[0].Li1[0].box7[0]
+      type: text
+      label: Box
+      required: false
+      width: full
+    - name: box8
+      pdf_field_name: JV-642[0].Page3[0].List19[0].Li1[0].box8[0]
+      type: text
+      label: Box
+      required: false
+      width: full
+    - name: box9
+      pdf_field_name: JV-642[0].Page3[0].List19[0].Li1[0].box9[0]
+      type: text
+      label: Box
+      required: false
+      width: full
+    - name: cb19a4
+      pdf_field_name: JV-642[0].Page3[0].List19[0].Li1[0].cb19a4[0]
+      type: text
+      label: Cb19a
+      required: false
+      width: full
+    - name: cb19a4_2
+      pdf_field_name: JV-642[0].Page3[0].List19[0].Li1[0].cb19a4[1]
+      type: text
+      label: Cb19a
+      required: false
+      width: full
+    - name: cb19a4_2
+      pdf_field_name: JV-642[0].Page3[0].List19[0].Li1[0].cb19a4[2]
+      type: text
+      label: Cb19a
+      required: false
+      width: full
+    - name: box10
+      pdf_field_name: JV-642[0].Page3[0].List19[0].Li1[0].box10[0]
+      type: text
+      label: Box
+      required: false
+      width: full
+    - name: box11
+      pdf_field_name: JV-642[0].Page3[0].List19[0].Li1[0].box11[0]
+      type: text
+      label: Box
+      required: false
+      width: full
+    - name: box12
+      pdf_field_name: JV-642[0].Page3[0].List19[0].Li1[0].box12[0]
+      type: text
+      label: Box
+      required: false
+      width: full
+    - name: cb19a5
+      pdf_field_name: JV-642[0].Page3[0].List19[0].Li1[0].cb19a5[0]
+      type: text
+      label: Cb19a
+      required: false
+      width: full
+    - name: cb19a5_2
+      pdf_field_name: JV-642[0].Page3[0].List19[0].Li1[0].cb19a5[1]
+      type: text
+      label: Cb19a
+      required: false
+      width: full
+    - name: cb19a5_2
+      pdf_field_name: JV-642[0].Page3[0].List19[0].Li1[0].cb19a5[2]
+      type: text
+      label: Cb19a
+      required: false
+      width: full
+    - name: box13
+      pdf_field_name: JV-642[0].Page3[0].List19[0].Li1[0].box13[0]
+      type: text
+      label: Box
+      required: false
+      width: full
+    - name: check_box61_2
+      pdf_field_name: JV-642[0].Page3[0].List19[0].Li2[0].CheckBox61[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: petitioner_cb_2
+      pdf_field_name: JV-642[0].Page3[0].List19[0].Li3[0].petitioner_cb[0]
+      type: text
+      label: Petitioner Cb
+      required: false
+      width: full
+    - name: box14
+      pdf_field_name: JV-642[0].Page3[0].List19[0].Li3[0].box14[0]
+      type: text
+      label: Box
+      required: false
+      width: full
+    - name: box15
+      pdf_field_name: JV-642[0].Page3[0].List19[0].Li3[0].box15[0]
+      type: text
+      label: Box
+      required: false
+      width: full
+    - name: box16
+      pdf_field_name: JV-642[0].Page3[0].List19[0].Li3[0].box16[0]
+      type: text
+      label: Box
+      required: false
+      width: full
+    - name: box17
+      pdf_field_name: JV-642[0].Page3[0].List19[0].Li3[0].box17[0]
+      type: text
+      label: Box
+      required: false
+      width: full
+    - name: box18
+      pdf_field_name: JV-642[0].Page3[0].List19[0].Li3[0].box18[0]
+      type: text
+      label: Box
+      required: false
+      width: full
+    - name: box19
+      pdf_field_name: JV-642[0].Page3[0].List19[0].Li3[0].box19[0]
+      type: text
+      label: Box
+      required: false
+      width: full
+    - name: petitioner_cb_2
+      pdf_field_name: JV-642[0].Page3[0].List20[0].Li1[0].petitioner_cb[0]
+      type: text
+      label: Petitioner Cb
+      required: false
+      width: full
+    - name: petitioner_601
+      pdf_field_name: JV-642[0].Page3[0].List20[0].Li1[0].petitioner_601[0]
+      type: text
+      label: Petitioner
+      required: false
+      width: full
+    - name: petitioner_cb2_2
+      pdf_field_name: JV-642[0].Page3[0].List20[0].Li1[0].petitioner_cb2[0]
+      type: text
+      label: Petitioner Cb
+      required: false
+      width: full
+    - name: check_box61_2
+      pdf_field_name: JV-642[0].Page3[0].List21[0].Li1[0].CheckBox61[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: themax
+      pdf_field_name: JV-642[0].Page3[0].List21[0].Li1[0].themax[0]
+      type: text
+      label: Themax
+      required: false
+      width: full
+    - name: petitioner_cb_2
+      pdf_field_name: JV-642[0].Page3[0].List22[0].Li1[0].petitioner_cb[0]
+      type: text
+      label: Petitioner Cb
+      required: false
+      width: full
+    - name: text_field2_2
+      pdf_field_name: JV-642[0].Page3[0].List22[0].Li1[0].TextField2[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: petitioner_cb_2
+      pdf_field_name: JV-642[0].Page3[0].List23[0].Li1[0].petitioner_cb[0]
+      type: text
+      label: Petitioner Cb
+      required: false
+      width: full
+    - name: text_field2_2
+      pdf_field_name: JV-642[0].Page3[0].List23[0].Li1[0].TextField2[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: petitioner_cb_2
+      pdf_field_name: JV-642[0].Page3[0].List24[0].Li1[0].petitioner_cb[0]
+      type: text
+      label: Petitioner Cb
+      required: false
+      width: full
+    - name: petitioner_cb_2
+      pdf_field_name: JV-642[0].Page3[0].List25[0].Li1[0].petitioner_cb[0]
+      type: text
+      label: Petitioner Cb
+      required: false
+      width: full
+    - name: check_box1_2
+      pdf_field_name: JV-642[0].Page3[0].List25[0].Li1[0].CheckBox1[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: documents
+      pdf_field_name: JV-642[0].Page3[0].List25[0].Li1[0].documents[0]
+      type: text
+      label: Documents
+      required: false
+      width: full
+    - name: check_box2
+      pdf_field_name: JV-642[0].Page3[0].List25[0].Li1[0].CheckBox2[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: testimony
+      pdf_field_name: JV-642[0].Page3[0].List25[0].Li1[0].testimony[0]
+      type: text
+      label: Testimony
+      required: false
+      width: full
+    - name: check_box3
+      pdf_field_name: JV-642[0].Page3[0].List25[0].Li1[0].CheckBox3[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: examination
+      pdf_field_name: JV-642[0].Page3[0].List25[0].Li1[0].examination[0]
+      type: text
+      label: Examination
+      required: false
+      width: full
+    - name: petitioner_cb1
+      pdf_field_name: JV-642[0].Page3[0].List25[0].Li1[0].petitioner_cb1[0]
+      type: text
+      label: Petitioner Cb
+      required: false
+      width: full
+    - name: petitioner_cb_2
+      pdf_field_name: JV-642[0].Page3[0].List26[0].Li1[0].petitioner_cb[0]
+      type: text
+      label: Petitioner Cb
+      required: false
+      width: full
+    - name: tothehome
+      pdf_field_name: JV-642[0].Page3[0].List26[0].Li1[0].tothehome[0]
+      type: text
+      label: Tothehome
+      required: false
+      width: full
+    - name: text_field2_2
+      pdf_field_name: JV-642[0].Page3[0].List26[0].Li1[0].TextField2[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: petitioner_cb2_2
+      pdf_field_name: JV-642[0].Page3[0].List26[0].Li1[0].petitioner_cb2[0]
+      type: text
+      label: Petitioner Cb
+      required: false
+      width: full
+    - name: petitioner_cb3
+      pdf_field_name: JV-642[0].Page3[0].List26[0].Li1[0].petitioner_cb3[0]
+      type: text
+      label: Petitioner Cb
+      required: false
+      width: full
+    - name: petitioner_cb4
+      pdf_field_name: JV-642[0].Page3[0].List26[0].Li1[0].petitioner_cb4[0]
+      type: text
+      label: Petitioner Cb
+      required: false
+      width: full
+    - name: check_box61_2
+      pdf_field_name: JV-642[0].Page3[0].List27[0].Li1[0].CheckBox61[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: petitioner_cb_2
+      pdf_field_name: JV-642[0].Page3[0].List28[0].Li1[0].petitioner_cb[0]
+      type: text
+      label: Petitioner Cb
+      required: false
+      width: full
+    - name: petitioner_cb29
+      pdf_field_name: JV-642[0].Page3[0].List29[0].petitioner_cb29[0]
+      type: text
+      label: Petitioner Cb
+      required: false
+      width: full
+    - name: petitioner_cb_2
+      pdf_field_name: JV-642[0].Page3[0].List29[0].Li1[0].petitioner_cb[0]
+      type: text
+      label: Petitioner Cb
+      required: false
+      width: full
+    - name: petitioner_cb_2
+      pdf_field_name: JV-642[0].Page3[0].List29[0].Li2[0].petitioner_cb[0]
+      type: text
+      label: Petitioner Cb
+      required: false
+      width: full
+    - name: petitioner_cb_2
+      pdf_field_name: JV-642[0].Page3[0].List29[0].Li3[0].petitioner_cb[0]
+      type: text
+      label: Petitioner Cb
+      required: false
+      width: full
+    - name: petitioner_cb_2
+      pdf_field_name: JV-642[0].Page3[0].List29[0].Li4[0].petitioner_cb[0]
+      type: text
+      label: Petitioner Cb
+      required: false
+      width: full
+    - name: petitioner_cb_2
+      pdf_field_name: JV-642[0].Page3[0].List29[0].Li5[0].petitioner_cb[0]
+      type: text
+      label: Petitioner Cb
+      required: false
+      width: full
+    - name: petitioner_cb_2
+      pdf_field_name: JV-642[0].Page4[0].List30[0].Li1[0].petitioner_cb[0]
+      type: text
+      label: Petitioner Cb
+      required: false
+      width: full
+    - name: petitioner_cb_2
+      pdf_field_name: JV-642[0].Page4[0].List31[0].Li1[0].petitioner_cb[0]
+      type: text
+      label: Petitioner Cb
+      required: false
+      width: full
+    - name: petitioner_cb_2
+      pdf_field_name: JV-642[0].Page4[0].List32[0].Li1[0].petitioner_cb[0]
+      type: text
+      label: Petitioner Cb
+      required: false
+      width: full
+    - name: petitioner_cb_2
+      pdf_field_name: JV-642[0].Page4[0].List33[0].Li1[0].petitioner_cb[0]
+      type: text
+      label: Petitioner Cb
+      required: false
+      width: full
+    - name: havehavenot33
+      pdf_field_name: JV-642[0].Page4[0].List33[0].Li1[0].havehavenot33[0]
+      type: text
+      label: Havehavenot
+      required: false
+      width: full
+    - name: havehavenot33_2
+      pdf_field_name: JV-642[0].Page4[0].List33[0].Li1[0].havehavenot33[1]
+      type: text
+      label: Havehavenot
+      required: false
+      width: full
+    - name: petitioner_cb_2
+      pdf_field_name: JV-642[0].Page4[0].List34[0].Li1[0].petitioner_cb[0]
+      type: text
+      label: Petitioner Cb
+      required: false
+      width: full
+    - name: date_field1
+      pdf_field_name: JV-642[0].Page4[0].List34[0].Li1[0].DateField1[0]
+      type: date
+      label: Date Field
+      required: false
+      width: half
+    - name: check_box61_2
+      pdf_field_name: JV-642[0].Page4[0].List35[0].Li1[0].CheckBox61[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: petitioner_cb_2
+      pdf_field_name: JV-642[0].Page4[0].List36[0].Li1[0].petitioner_cb[0]
+      type: text
+      label: Petitioner Cb
+      required: false
+      width: full
+    - name: check_box61_2
+      pdf_field_name: JV-642[0].Page4[0].List37[0].Li1[0].CheckBox61[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box1_2
+      pdf_field_name: JV-642[0].Page4[0].List38[0].Li1[0].CheckBox1[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: mother
+      pdf_field_name: JV-642[0].Page4[0].List38[0].Li1[0].mother[0]
+      type: text
+      label: Mother
+      required: false
+      width: full
+    - name: father
+      pdf_field_name: JV-642[0].Page4[0].List38[0].Li1[0].father[0]
+      type: text
+      label: Father
+      required: false
+      width: full
+    - name: legalguardian
+      pdf_field_name: JV-642[0].Page4[0].List38[0].Li1[0].legalguardian[0]
+      type: text
+      label: Legalguardian
+      required: false
+      width: full
+    - name: cb3
+      pdf_field_name: JV-642[0].Page4[0].List38[0].Li1[0].cb3[0]
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: petitioner_cb_2
+      pdf_field_name: JV-642[0].Page4[0].List39[0].Li1[0].petitioner_cb[0]
+      type: text
+      label: Petitioner Cb
+      required: false
+      width: full
+    - name: check_box61_2
+      pdf_field_name: JV-642[0].Page4[0].List40[0].Li1[0].CheckBox61[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box62
+      pdf_field_name: JV-642[0].Page4[0].List40[0].Li1[0].CheckBox62[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box62_2
+      pdf_field_name: JV-642[0].Page4[0].List40[0].Li1[0].CheckBox62[1]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: circumstances
+      pdf_field_name: JV-642[0].Page4[0].List40[0].Li1[0].Circumstances[0]
+      type: text
+      label: Circumstances
+      required: false
+      width: full
+    - name: check_box61_2
+      pdf_field_name: JV-642[0].Page4[0].List41[0].Li1[0].CheckBox61[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: county_of
+      pdf_field_name: JV-642[0].Page4[0].List41[0].Li1[0].CountyOf[0]
+      type: number
+      label: County Of
+      required: false
+      width: third
+    - name: check_box61_2
+      pdf_field_name: JV-642[0].Page4[0].List42[0].Li1[0].CheckBox61[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: other_specify_tf
+      pdf_field_name: JV-642[0].Page4[0].List42[0].Li1[0].OtherSpecify_tf[0]
+      type: text
+      label: Other Specify Tf
+      required: false
+      width: full
+    - name: petitioner_cb3_2
+      pdf_field_name: JV-642[0].Page4[0].List43[0].Li1[0].petitioner_cb3[0]
+      type: text
+      label: Petitioner Cb
+      required: false
+      width: full
+    - name: petitioner_cb_2
+      pdf_field_name: JV-642[0].Page4[0].List43[0].Li1[0].petitioner_cb[0]
+      type: text
+      label: Petitioner Cb
+      required: false
+      width: full
+    - name: petitioner_cb2_2
+      pdf_field_name: JV-642[0].Page4[0].List43[0].Li1[0].petitioner_cb2[0]
+      type: text
+      label: Petitioner Cb
+      required: false
+      width: full
+    - name: other_waived
+      pdf_field_name: JV-642[0].Page4[0].List43[0].Li1[0].OtherWaived[0]
+      type: text
+      label: Other Waived
+      required: false
+      width: full
+    - name: petitioner_cb4_2
+      pdf_field_name: JV-642[0].Page4[0].List43[0].Li1[0].petitioner_cb4[0]
+      type: text
+      label: Petitioner Cb
+      required: false
+      width: full
+    - name: check_box61_2
+      pdf_field_name: JV-642[0].Page4[0].List43[0].Li1[0].CheckBox61[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: petitioner_cb_2
+      pdf_field_name: JV-642[0].Page4[0].List44[0].Li1[0].petitioner_cb[0]
+      type: text
+      label: Petitioner Cb
+      required: false
+      width: full
+    - name: date1
+      pdf_field_name: JV-642[0].Page4[0].List44[0].Li1[0].FillText42\.date1[0]
+      type: date
+      label: Date
+      required: false
+      width: half
+    - name: time1
+      pdf_field_name: JV-642[0].Page4[0].List44[0].Li1[0].FillText42\.time1[0]
+      type: text
+      label: Time
+      required: false
+      width: full
+    - name: department1
+      pdf_field_name: JV-642[0].Page4[0].List44[0].Li1[0].FillText42\.Department1[0]
+      type: text
+      label: Department
+      required: false
+      width: full
+    - name: type1
+      pdf_field_name: JV-642[0].Page4[0].List44[0].Li1[0].FillText42\.type1[0]
+      type: text
+      label: Type
+      required: false
+      width: full
+    - name: date2
+      pdf_field_name: JV-642[0].Page4[0].List44[0].Li1[0].FillText42\.date2[0]
+      type: date
+      label: Date
+      required: false
+      width: half
+    - name: time2
+      pdf_field_name: JV-642[0].Page4[0].List44[0].Li1[0].FillText42\.time2[0]
+      type: text
+      label: Time
+      required: false
+      width: full
+    - name: department2
+      pdf_field_name: JV-642[0].Page4[0].List44[0].Li1[0].FillText42\.Department2[0]
+      type: text
+      label: Department
+      required: false
+      width: full
+    - name: type2
+      pdf_field_name: JV-642[0].Page4[0].List44[0].Li1[0].FillText42\.type2[0]
+      type: text
+      label: Type
+      required: false
+      width: full
+    - name: thechild
+      pdf_field_name: JV-642[0].Page4[0].List45[0].Li1[0].thechild[0]
+      type: text
+      label: Thechild
+      required: false
+      width: full
+    - name: isordered
+      pdf_field_name: JV-642[0].Page4[0].List45[0].Li1[0].List[0].Li1[0].isordered[0]
+      type: text
+      label: Isordered
+      required: false
+      width: full
+    - name: petitioner_cb_2
+      pdf_field_name: JV-642[0].Page4[0].List45[0].Li1[0].List[0].Li2[0].petitioner_cb[0]
+      type: text
+      label: Petitioner Cb
+      required: false
+      width: full
+    - name: petitioner_cb_2
+      pdf_field_name: JV-642[0].Page4[0].List47[0].Li1[0].petitioner_cb[0]
+      type: text
+      label: Petitioner Cb
+      required: false
+      width: full
+  list10_cont:
+    title: List10 Cont
+    fields:
+    - name: check_box_caption103c
+      pdf_field_name: JV-642[0].Page2[0].List10Cont[0].Li3Cont[0].List[0].Li1[0].CheckBoxCaption103c[0]
+      type: checkbox
+      label: Check Box Caption103c
+      required: false
+      width: full
+    - name: check_box_caption104c
+      pdf_field_name: JV-642[0].Page2[0].List10Cont[0].Li3Cont[0].List[0].Li2[0].CheckBoxCaption104c[0]
+      type: checkbox
+      label: Check Box Caption104c
+      required: false
+      width: full
+    - name: check_box_caption
+      pdf_field_name: JV-642[0].Page2[0].List10Cont[0].Li4[0].CheckBoxCaption[0]
+      type: checkbox
+      label: Check Box Caption
+      required: false
+      width: full
+    - name: specifytribe
+      pdf_field_name: JV-642[0].Page2[0].List10Cont[0].Li4[0].specifytribe[0]
+      type: text
+      label: Specifytribe
+      required: false
+      width: full
+  footer_buttons:
+    title: Footer Buttons
+    fields:
+    - name: print
+      pdf_field_name: JV-642[0].#pageSet[0].Page4[0].FooterButtons[0].Print[0]
+      type: checkbox
+      label: Print
+      required: false
+      width: full
+    - name: save
+      pdf_field_name: JV-642[0].#pageSet[0].Page4[0].FooterButtons[0].Save[0]
+      type: checkbox
+      label: Save
+      required: false
+      width: full
+    - name: reset
+      pdf_field_name: JV-642[0].#pageSet[0].Page4[0].FooterButtons[0].Reset[0]
+      type: checkbox
+      label: Reset
+      required: false
+      width: full
+    - name: warning
+      pdf_field_name: JV-642[0].#pageSet[0].Page4[0].FooterButtons[0].Warning[0]
+      type: checkbox
+      label: Warning
+      required: false
+      width: full
+  datesignature:
+    title: Datesignature
+    fields:
+    - name: date1_2
+      pdf_field_name: JV-642[0].Page4[0].datesignature[0].Date1[0]
+      type: signature
+      label: Date
+      required: false
+      width: full
+    - name: date2_2
+      pdf_field_name: JV-642[0].Page4[0].datesignature[0].Date2[0]
+      type: signature
+      label: Date
+      required: false
+      width: full

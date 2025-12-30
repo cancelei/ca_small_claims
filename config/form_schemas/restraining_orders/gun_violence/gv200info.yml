@@ -1,0 +1,46 @@
+---
+form:
+  code: GV-200INFO
+  title: GV 200INFO Form
+  description: ''
+  category: restraining_orders/gun_violence
+  pdf_filename: gv200info.pdf
+  fillable: true
+  instructions: ''
+sections:
+  print_bt:
+    title: Print Bt
+    fields:
+    - name: print_bt
+      pdf_field_name: GV-200-INFO[0].Page2[0].Print_bt[0]
+      type: checkbox
+      label: Print Bt
+      required: false
+      width: full
+  save_bt:
+    title: Save Bt
+    fields:
+    - name: save_bt
+      pdf_field_name: GV-200-INFO[0].Page2[0].Save_bt[0]
+      type: checkbox
+      label: Save Bt
+      required: false
+      width: full
+  reset_bt:
+    title: Reset Bt
+    fields:
+    - name: reset_bt
+      pdf_field_name: GV-200-INFO[0].Page2[0].Reset_bt[0]
+      type: checkbox
+      label: Reset Bt
+      required: false
+      width: full
+  t:
+    title: T
+    fields:
+    - name: t23
+      pdf_field_name: GV-200-INFO[0].Page2[0].T23[0]
+      type: checkbox
+      label: T
+      required: false
+      width: full

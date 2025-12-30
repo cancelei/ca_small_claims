@@ -1,0 +1,361 @@
+---
+form:
+  code: CH-176
+  title: CH 176 Form
+  description: ''
+  category: restraining_orders/civil_harassment
+  pdf_filename: ch176.pdf
+  fillable: true
+  instructions: ''
+sections:
+  court_info_ft:
+    title: Court Info Ft
+    fields:
+    - name: court_info_ft
+      pdf_field_name: CH-176[0].Page1[0].CourtInfo_ft[0]
+      type: text
+      label: Court Info Ft
+      required: false
+      width: full
+  case_number_ft:
+    title: Case Number Ft
+    fields:
+    - name: case_number_ft
+      pdf_field_name: CH-176[0].Page1[0].CaseNumber_ft[0]
+      type: text
+      label: Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+  protected_lawyer_name_ft:
+    title: Protected Lawyer Name Ft
+    fields:
+    - name: protected_lawyer_name_ft
+      pdf_field_name: CH-176[0].Page1[0].ProtectedLawyerName_ft[0]
+      type: text
+      label: Protected Lawyer Name Ft
+      required: false
+      width: full
+    - name: protected_lawyer_name_ft_2
+      pdf_field_name: CH-176[0].Page1[0].ProtectedLawyerName_ft[1]
+      type: text
+      label: Protected Lawyer Name Ft
+      required: false
+      width: full
+    - name: protected_lawyer_name_ft_2
+      pdf_field_name: CH-176[0].Page1[0].ProtectedLawyerName_ft[2]
+      type: text
+      label: Protected Lawyer Name Ft
+      required: false
+      width: full
+  protected_lawyer_bar_no:
+    title: Protected Lawyer Bar No
+    fields:
+    - name: protected_lawyer_bar_no
+      pdf_field_name: CH-176[0].Page1[0].ProtectedLawyerBar_no[0]
+      type: text
+      label: Protected Lawyer Bar No
+      required: false
+      width: full
+  protected_street_ft:
+    title: Protected Street Ft
+    fields:
+    - name: protected_street_ft
+      pdf_field_name: CH-176[0].Page1[0].ProtectedStreet_ft[0]
+      type: address
+      label: Protected Street Ft
+      required: false
+      width: full
+  protected_phone_ft:
+    title: Protected Phone Ft
+    fields:
+    - name: protected_phone_ft
+      pdf_field_name: CH-176[0].Page1[0].ProtectedPhone_ft[0]
+      type: tel
+      label: Protected Phone Ft
+      required: false
+      width: half
+    - name: protected_phone_ft_2
+      pdf_field_name: CH-176[0].Page1[0].ProtectedPhone_ft[1]
+      type: tel
+      label: Protected Phone Ft
+      required: false
+      width: half
+  protected_state_ft:
+    title: Protected State Ft
+    fields:
+    - name: protected_state_ft
+      pdf_field_name: CH-176[0].Page1[0].ProtectedState_ft[0]
+      type: address
+      label: Protected State Ft
+      required: false
+      width: full
+  protected_zip_ft:
+    title: Protected Zip Ft
+    fields:
+    - name: protected_zip_ft
+      pdf_field_name: CH-176[0].Page1[0].ProtectedZip_ft[0]
+      type: address
+      label: Protected Zip Ft
+      required: false
+      width: full
+  protected_email_ft:
+    title: Protected Email Ft
+    fields:
+    - name: protected_email_ft
+      pdf_field_name: CH-176[0].Page1[0].ProtectedEmail_ft[0]
+      type: email
+      label: Protected Email Ft
+      required: false
+      width: half
+  protected_city_ft:
+    title: Protected City Ft
+    fields:
+    - name: protected_city_ft
+      pdf_field_name: CH-176[0].Page1[0].ProtectedCity_ft[0]
+      type: address
+      label: Protected City Ft
+      required: false
+      width: full
+  protected_description:
+    title: Protected Description
+    fields:
+    - name: protected_description
+      pdf_field_name: CH-176[0].Page1[0].ProtectedDescription[0]
+      type: text
+      label: Protected Description
+      required: false
+      width: full
+    - name: protected_description_2
+      pdf_field_name: CH-176[0].Page1[0].ProtectedDescription[1]
+      type: text
+      label: Protected Description
+      required: false
+      width: full
+    - name: protected_description1
+      pdf_field_name: CH-176[0].Page1[0].ProtectedDescription1[0]
+      type: text
+      label: Protected Description
+      required: false
+      width: full
+    - name: protected_description1_2
+      pdf_field_name: CH-176[0].Page1[0].ProtectedDescription1[1]
+      type: text
+      label: Protected Description
+      required: false
+      width: full
+    - name: protected_description3
+      pdf_field_name: CH-176[0].Page1[0].ProtectedDescription3[0]
+      type: text
+      label: Protected Description
+      required: false
+      width: full
+  text_field:
+    title: Text Field
+    fields:
+    - name: text_field
+      pdf_field_name: CH-176[0].Page1[0].TextField[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field_2
+      pdf_field_name: CH-176[0].Page1[0].TextField[1]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field_2
+      pdf_field_name: CH-176[0].Page1[0].TextField[2]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field_2
+      pdf_field_name: CH-176[0].Page2[0].TextField[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field_2
+      pdf_field_name: CH-176[0].Page2[0].TextField[1]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field_2
+      pdf_field_name: CH-176[0].Page2[0].TextField[2]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field_2
+      pdf_field_name: CH-176[0].Page3[0].TextField[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field_2
+      pdf_field_name: CH-176[0].Page3[0].TextField[1]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+  pe_p2_header:
+    title: Pe P2 Header\
+    fields:
+    - name: case_number_ft_2
+      pdf_field_name: CH-176[0].Page2[0].PE_P2Header\.grp[0].CaseNumber_ft[0]
+      type: text
+      label: Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+    - name: case_number_ft_2
+      pdf_field_name: CH-176[0].Page3[0].PE_P2Header\.grp[0].CaseNumber_ft[0]
+      type: text
+      label: Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+  check_box:
+    title: Check Box
+    fields:
+    - name: check_box4
+      pdf_field_name: CH-176[0].Page2[0].CheckBox4[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box4_2
+      pdf_field_name: CH-176[0].Page2[0].CheckBox4[1]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box1
+      pdf_field_name: CH-176[0].Page2[0].CheckBox1[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box1_2
+      pdf_field_name: CH-176[0].Page2[0].CheckBox1[1]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box1_2
+      pdf_field_name: CH-176[0].Page2[0].CheckBox1[2]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box1_2
+      pdf_field_name: CH-176[0].Page2[0].CheckBox1[3]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box1_2
+      pdf_field_name: CH-176[0].Page2[0].CheckBox1[4]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box1_2
+      pdf_field_name: CH-176[0].Page2[0].CheckBox1[5]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+  multiline_check_box:
+    title: Multiline Check Box
+    fields:
+    - name: multiline_check_box
+      pdf_field_name: CH-176[0].Page2[0].MultilineCheckBox[0]
+      type: checkbox
+      label: Multiline Check Box
+      required: false
+      width: full
+    - name: multiline_check_box_2
+      pdf_field_name: CH-176[0].Page2[0].MultilineCheckBox[1]
+      type: checkbox
+      label: Multiline Check Box
+      required: false
+      width: full
+    - name: multiline_check_box_2
+      pdf_field_name: CH-176[0].Page2[0].MultilineCheckBox[2]
+      type: checkbox
+      label: Multiline Check Box
+      required: false
+      width: full
+  check_box_right_caption:
+    title: Check Box Right Caption
+    fields:
+    - name: check_box_right_caption
+      pdf_field_name: CH-176[0].Page2[0].CheckBoxRightCaption[0]
+      type: checkbox
+      label: Check Box Right Caption
+      required: false
+      width: full
+  sig_date:
+    title: Sig Date
+    fields:
+    - name: sig_date
+      pdf_field_name: CH-176[0].Page3[0].SigDate[0]
+      type: date
+      label: Sig Date
+      required: false
+      width: half
+    - name: sig_date_2
+      pdf_field_name: CH-176[0].Page3[0].SigDate[1]
+      type: date
+      label: Sig Date
+      required: false
+      width: half
+  t:
+    title: T
+    fields:
+    - name: t14
+      pdf_field_name: CH-176[0].Page3[0].T14[0]
+      type: text
+      label: T
+      required: false
+      width: full
+  print:
+    title: Print
+    fields:
+    - name: print
+      pdf_field_name: CH-176[0].Page3[0].#area[5].Print[0]
+      type: checkbox
+      label: Print
+      required: false
+      width: full
+  save:
+    title: Save
+    fields:
+    - name: save
+      pdf_field_name: CH-176[0].Page3[0].#area[5].Save[0]
+      type: checkbox
+      label: Save
+      required: false
+      width: full
+  reset:
+    title: Reset
+    fields:
+    - name: reset
+      pdf_field_name: CH-176[0].Page3[0].#area[5].Reset[0]
+      type: checkbox
+      label: Reset
+      required: false
+      width: full
+  warning:
+    title: Warning
+    fields:
+    - name: warning
+      pdf_field_name: CH-176[0].Page3[0].#area[5].Warning[0]
+      type: checkbox
+      label: Warning
+      required: false
+      width: full

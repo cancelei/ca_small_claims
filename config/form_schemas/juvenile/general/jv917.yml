@@ -1,0 +1,209 @@
+---
+form:
+  code: JV-917
+  title: JV 917 Form
+  description: ''
+  category: juvenile/general
+  pdf_filename: jv917.pdf
+  fillable: true
+  instructions: ''
+sections:
+  page_area:
+    title: Page Area
+    fields:
+    - name: court_link
+      pdf_field_name: JV-917[0].#pageSet[0].PageArea1[0].Footer_sf[0].CourtLink[0]
+      type: checkbox
+      label: Court Link
+      required: false
+      width: full
+    - name: print
+      pdf_field_name: JV-917[0].#pageSet[0].PageArea1[0].Footer_sf[0].FooterButtons[0].Print[0]
+      type: checkbox
+      label: Print
+      required: false
+      width: full
+    - name: save
+      pdf_field_name: JV-917[0].#pageSet[0].PageArea1[0].Footer_sf[0].FooterButtons[0].Save[0]
+      type: checkbox
+      label: Save
+      required: false
+      width: full
+    - name: reset
+      pdf_field_name: JV-917[0].#pageSet[0].PageArea1[0].Footer_sf[0].FooterButtons[0].Reset[0]
+      type: checkbox
+      label: Reset
+      required: false
+      width: full
+    - name: warning
+      pdf_field_name: JV-917[0].#pageSet[0].PageArea1[0].Footer_sf[0].FooterButtons[0].Warning[0]
+      type: checkbox
+      label: Warning
+      required: false
+      width: full
+  right_caption_sf:
+    title: Right Caption Sf
+    fields:
+    - name: case_number_ft
+      pdf_field_name: JV-917[0].Page1[0].RightCaption_sf[0].CaseSub[0].CN[0].CaseNumber_ft[0]
+      type: text
+      label: Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+    - name: court_info_ft
+      pdf_field_name: JV-917[0].Page1[0].RightCaption_sf[0].CourtSub[0].Court[0].CourtInfo_ft[0]
+      type: text
+      label: Court Info Ft
+      required: false
+      width: full
+    - name: date_field1
+      pdf_field_name: JV-917[0].Page1[0].RightCaption_sf[0].DeptSub[0].Courtuse[0].DateField1[0]
+      type: date
+      label: Date Field
+      required: false
+      width: half
+    - name: text_field4
+      pdf_field_name: JV-917[0].Page1[0].RightCaption_sf[0].DeptSub[0].Courtuse[0].TextField4[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field3
+      pdf_field_name: JV-917[0].Page1[0].RightCaption_sf[0].DeptSub[0].Courtuse[0].TextField3[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+  list:
+    title: List
+    fields:
+    - name: field1
+      pdf_field_name: JV-917[0].Page1[0].List1[0].Li1[0].Field1[0]
+      type: text
+      label: Field
+      required: false
+      width: full
+    - name: field2
+      pdf_field_name: JV-917[0].Page1[0].List1[0].Li1[0].Field2[0]
+      type: text
+      label: Field
+      required: false
+      width: full
+    - name: field3
+      pdf_field_name: JV-917[0].Page1[0].List1[0].Li1[0].Field3[0]
+      type: text
+      label: Field
+      required: false
+      width: full
+    - name: check_boxitem1ab
+      pdf_field_name: JV-917[0].Page1[0].List1[0].Li2[0].CheckBoxitem1ab[0]
+      type: checkbox
+      label: Check Boxitem1ab
+      required: false
+      width: full
+    - name: check_boxitem1ab_2
+      pdf_field_name: JV-917[0].Page1[0].List1[0].Li2[0].CheckBoxitem1ab[1]
+      type: checkbox
+      label: Check Boxitem1ab
+      required: false
+      width: full
+    - name: check_box2
+      pdf_field_name: JV-917[0].Page1[0].List2[0].Li1[0].CheckBox2[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box2_2
+      pdf_field_name: JV-917[0].Page1[0].List2[0].Li2[0].CheckBox2[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box3
+      pdf_field_name: JV-917[0].Page1[0].List2[0].Li2[0].SubLib[0].Lib1[0].CheckBox3[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box4
+      pdf_field_name: JV-917[0].Page1[0].List2[0].Li2[0].SubLib[0].Lib2[0].CheckBox4[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box5
+      pdf_field_name: JV-917[0].Page1[0].List2[0].Li3[0].CheckBox5[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box6
+      pdf_field_name: JV-917[0].Page1[0].List2[0].Li3[0].List[0].Li1[0].CheckBox6[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: field9
+      pdf_field_name: JV-917[0].Page1[0].List2[0].Li3[0].List[0].Li1[0].Field9[0]
+      type: text
+      label: Field
+      required: false
+      width: full
+    - name: check_box7
+      pdf_field_name: JV-917[0].Page1[0].List2[0].Li3[0].List[0].Li2[0].CheckBox7[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: field9_2
+      pdf_field_name: JV-917[0].Page1[0].List2[0].Li3[0].List[0].Li2[0].Field9[0]
+      type: text
+      label: Field
+      required: false
+      width: full
+    - name: check_box8
+      pdf_field_name: JV-917[0].Page1[0].List2[0].Li3[0].List[0].Li3[0].CheckBox8[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: field10
+      pdf_field_name: JV-917[0].Page1[0].List2[0].Li3[0].List[0].Li3[0].Field10[0]
+      type: text
+      label: Field
+      required: false
+      width: full
+    - name: check_box10
+      pdf_field_name: JV-917[0].Page1[0].List2[0].Li3[0].List[0].Li4[0].CheckBox10[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box13
+      pdf_field_name: JV-917[0].Page1[0].List2[0].Li3[0].List[0].Li5[0].CheckBox13[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: field13
+      pdf_field_name: JV-917[0].Page1[0].List2[0].Li3[0].List[0].Li5[0].Field13[0]
+      type: text
+      label: Field
+      required: false
+      width: full
+  sign_sub:
+    title: Sign Sub
+    fields:
+    - name: date2
+      pdf_field_name: JV-917[0].Page1[0].SignSub[0].Date2[0]
+      type: date
+      label: Date
+      required: false
+      width: half
+    - name: field15
+      pdf_field_name: JV-917[0].Page1[0].SignSub[0].Field15[0]
+      type: text
+      label: Field
+      required: false
+      width: full

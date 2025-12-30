@@ -1,0 +1,352 @@
+---
+form:
+  code: RT-130
+  title: RT 130 Form
+  description: ''
+  category: general
+  pdf_filename: rt130.pdf
+  fillable: true
+  instructions: ''
+sections:
+  right_caption:
+    title: Right Caption
+    fields:
+    - name: court_info
+      pdf_field_name: RT-130[0].Page1[0].rightCaption[0].courtInfo[0]
+      type: text
+      label: Court Info
+      required: false
+      width: full
+    - name: case_number
+      pdf_field_name: RT-130[0].Page1[0].rightCaption[0].CaseNumber[0]
+      type: text
+      label: Case Number
+      required: false
+      width: full
+      shared_key: case:number
+  li:
+    title: Li
+    fields:
+    - name: restrained_full_name_ft
+      pdf_field_name: RT-130[0].Page1[0].LI1[0].li1[0].RestrainedFullName_ft[0]
+      type: text
+      label: Restrained Full Name Ft
+      required: false
+      width: full
+    - name: restrained_sex_cb
+      pdf_field_name: RT-130[0].Page1[0].LI1[0].li1[0].RestrainedSex_cb[0]
+      type: text
+      label: Restrained Sex Cb
+      required: false
+      width: full
+    - name: restrained_sex_cb_2
+      pdf_field_name: RT-130[0].Page1[0].LI1[0].li1[0].RestrainedSex_cb[1]
+      type: text
+      label: Restrained Sex Cb
+      required: false
+      width: full
+    - name: restrained_sex_cb_2
+      pdf_field_name: RT-130[0].Page1[0].LI1[0].li1[0].RestrainedSex_cb[2]
+      type: text
+      label: Restrained Sex Cb
+      required: false
+      width: full
+    - name: restrained_race_ft
+      pdf_field_name: RT-130[0].Page1[0].LI1[0].li1[0].RestrainedRace_ft[0]
+      type: text
+      label: Restrained Race Ft
+      required: false
+      width: full
+    - name: restrained_dob_dt
+      pdf_field_name: RT-130[0].Page1[0].LI1[0].li1[0].RestrainedDOB_dt[0]
+      type: text
+      label: Restrained Dob Dt
+      required: false
+      width: full
+    - name: restrained_age
+      pdf_field_name: RT-130[0].Page1[0].LI1[0].li1[0].RestrainedAge[0]
+      type: text
+      label: Restrained Age
+      required: false
+      width: full
+    - name: restrained_height_ft
+      pdf_field_name: RT-130[0].Page1[0].LI1[0].li1[0].RestrainedHeight_ft[0]
+      type: text
+      label: Restrained Height Ft
+      required: false
+      width: full
+    - name: restrained_weight_ft
+      pdf_field_name: RT-130[0].Page1[0].LI1[0].li1[0].RestrainedWeight_ft[0]
+      type: text
+      label: Restrained Weight Ft
+      required: false
+      width: full
+    - name: restrained_hair_ft
+      pdf_field_name: RT-130[0].Page1[0].LI1[0].li1[0].RestrainedHair_ft[0]
+      type: text
+      label: Restrained Hair Ft
+      required: false
+      width: full
+    - name: restrained_eyes_ft
+      pdf_field_name: RT-130[0].Page1[0].LI1[0].li1[0].RestrainedEyes_ft[0]
+      type: text
+      label: Restrained Eyes Ft
+      required: false
+      width: full
+    - name: protected_full_name_ft
+      pdf_field_name: RT-130[0].Page1[0].LI2[0].li1[0].ProtectedFullName_ft[0]
+      type: text
+      label: Protected Full Name Ft
+      required: false
+      width: full
+    - name: protected_street_ft
+      pdf_field_name: RT-130[0].Page1[0].LI2[0].li1[0].ProtectedStreet_ft[0]
+      type: address
+      label: Protected Street Ft
+      required: false
+      width: full
+    - name: check_box19
+      pdf_field_name: RT-130[0].Page1[0].LI2[0].li1[0].CheckBox19[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: text_field
+      pdf_field_name: RT-130[0].Page1[0].LI2[0].li1[0].TextField[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field_2
+      pdf_field_name: RT-130[0].Page1[0].LI2[0].li1[0].TextField[1]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: other_add_of
+      pdf_field_name: RT-130[0].Page1[0].LI2[0].li1[0].OtherAddOF[0]
+      type: text
+      label: Other Add Of
+      required: false
+      width: full
+    - name: expiration_date_dt
+      pdf_field_name: RT-130[0].Page1[0].LI3[0].Item3[0].ExpirationDate_dt[0]
+      type: date
+      label: Expiration Date Dt
+      required: false
+      width: half
+    - name: expiration_time_dt
+      pdf_field_name: RT-130[0].Page1[0].LI3[0].Item3[0].ExpirationTime_dt[0]
+      type: date
+      label: Expiration Time Dt
+      required: false
+      width: half
+    - name: time_def
+      pdf_field_name: RT-130[0].Page1[0].LI3[0].Item3[0].TimeDef[0]
+      type: text
+      label: Time Def
+      required: false
+      width: full
+    - name: time_def_2
+      pdf_field_name: RT-130[0].Page1[0].LI3[0].Item3[0].TimeDef[1]
+      type: text
+      label: Time Def
+      required: false
+      width: full
+    - name: time_def_2
+      pdf_field_name: RT-130[0].Page1[0].LI3[0].Item3[0].TimeDef[2]
+      type: text
+      label: Time Def
+      required: false
+      width: full
+    - name: expiration_date_dt_2
+      pdf_field_name: RT-130[0].Page1[0].LI4[0].lia[0].ExpirationDate_dt[0]
+      type: date
+      label: Expiration Date Dt
+      required: false
+      width: half
+    - name: hearing_time_dt
+      pdf_field_name: RT-130[0].Page1[0].LI4[0].lia[0].HearingTime_dt[0]
+      type: text
+      label: Hearing Time Dt
+      required: false
+      width: full
+    - name: hearing_dept
+      pdf_field_name: RT-130[0].Page1[0].LI4[0].lia[0].HearingDept[0]
+      type: text
+      label: Hearing Dept
+      required: false
+      width: full
+    - name: hearing_judge_name_ft
+      pdf_field_name: RT-130[0].Page1[0].LI4[0].lia[0].HearingJudgeName_ft[0]
+      type: text
+      label: Hearing Judge Name Ft
+      required: false
+      width: full
+    - name: hearing_protected_cb
+      pdf_field_name: RT-130[0].Page1[0].LI4[0].lib[0].LIB[0].li1[0].HearingProtected_cb[0]
+      type: text
+      label: Hearing Protected Cb
+      required: false
+      width: full
+    - name: hearing_protected_lawyer_cb
+      pdf_field_name: RT-130[0].Page1[0].LI4[0].lib[0].LIB[0].li2[0].HearingProtectedLawyer_cb[0]
+      type: text
+      label: Hearing Protected Lawyer Cb
+      required: false
+      width: full
+    - name: hearing_restrained_lawyer_name_ft
+      pdf_field_name: RT-130[0].Page1[0].LI4[0].lib[0].LIB[0].li2[0].HearingRestrainedLawyerName_ft[0]
+      type: text
+      label: Hearing Restrained Lawyer Name Ft
+      required: false
+      width: full
+    - name: hearing_protected_lawyer_cb_2
+      pdf_field_name: RT-130[0].Page1[0].LI4[0].lib[0].LIB[0].li3[0].HearingProtectedLawyer_cb[0]
+      type: text
+      label: Hearing Protected Lawyer Cb
+      required: false
+      width: full
+    - name: hearing_protected_lawyer_name_ft
+      pdf_field_name: RT-130[0].Page1[0].LI4[0].lib[0].LIB[0].li3[0].HearingProtectedLawyerName_ft[0]
+      type: text
+      label: Hearing Protected Lawyer Name Ft
+      required: false
+      width: full
+    - name: hearing_present_of_cb
+      pdf_field_name: RT-130[0].Page1[0].LI4[0].lib[0].hearingOF[0].HearingPresent_OF_cb[0]
+      type: text
+      label: Hearing Present Of Cb
+      required: false
+      width: full
+    - name: service_cb6
+      pdf_field_name: RT-130[0].Page2[0].LI6[0].lia[0].ServiceCB6[0]
+      type: text
+      label: Service Cb
+      required: false
+      width: full
+    - name: service_cb6_2
+      pdf_field_name: RT-130[0].Page2[0].LI6[0].lib[0].ServiceCB6[0]
+      type: text
+      label: Service Cb
+      required: false
+      width: full
+    - name: pages_attached_no
+      pdf_field_name: RT-130[0].Page2[0].LI7[0].li1[0].PagesAttached_no[0]
+      type: text
+      label: Pages Attached No
+      required: false
+      width: full
+  px_caption:
+    title: Px Caption
+    fields:
+    - name: case_number_2
+      pdf_field_name: RT-130[0].Page2[0].PxCaption[0].CaseNumber[0]
+      type: text
+      label: Case Number
+      required: false
+      width: full
+      shared_key: case:number
+    - name: case_number_2
+      pdf_field_name: RT-130[0].Page3[0].PxCaption[0].CaseNumber[0]
+      type: text
+      label: Case Number
+      required: false
+      width: full
+      shared_key: case:number
+  list:
+    title: List
+    fields:
+    - name: clets_who_rb
+      pdf_field_name: RT-130[0].Page2[0].List8[0].lia[0].CLETSWho_rb[0]
+      type: text
+      label: Clets Who Rb
+      required: false
+      width: full
+    - name: clets_who_rb_2
+      pdf_field_name: RT-130[0].Page2[0].List8[0].lib[0].CLETSWho_rb[0]
+      type: text
+      label: Clets Who Rb
+      required: false
+      width: full
+    - name: clets_who_rb_2
+      pdf_field_name: RT-130[0].Page2[0].List8[0].lic[0].CLETSWho_rb[0]
+      type: text
+      label: Clets Who Rb
+      required: false
+      width: full
+    - name: clets_agency1_ft
+      pdf_field_name: RT-130[0].Page2[0].List8[0].lic[0].LETable[0].LE1[0].CLETSAgency1_ft[0]
+      type: text
+      label: Clets Agency1 Ft
+      required: false
+      width: full
+    - name: clets_agency_address1_ft
+      pdf_field_name: RT-130[0].Page2[0].List8[0].lic[0].LETable[0].LE1[0].CLETSAgencyAddress1_ft[0]
+      type: address
+      label: Clets Agency Address1 Ft
+      required: false
+      width: full
+    - name: clets_agency2_ft
+      pdf_field_name: RT-130[0].Page2[0].List8[0].lic[0].LETable[0].LE2[0].CLETSAgency2_ft[0]
+      type: text
+      label: Clets Agency2 Ft
+      required: false
+      width: full
+    - name: clets_agency_address2_ft
+      pdf_field_name: RT-130[0].Page2[0].List8[0].lic[0].LETable[0].LE2[0].CLETSAgencyAddress2_ft[0]
+      type: address
+      label: Clets Agency Address2 Ft
+      required: false
+      width: full
+    - name: clets_agency_of_cb
+      pdf_field_name: RT-130[0].Page2[0].List8[0].lic[0].LETable[0].CLETSAgency_OF_cb[0]
+      type: text
+      label: Clets Agency Of Cb
+      required: false
+      width: full
+  signature_date_dt:
+    title: Signature Date Dt
+    fields:
+    - name: signature_date_dt
+      pdf_field_name: RT-130[0].Page2[0].SignatureDate_dt[0]
+      type: signature
+      label: Signature Date Dt
+      required: false
+      width: full
+  mp_last:
+    title: Mp Last
+    fields:
+    - name: print
+      pdf_field_name: RT-130[0].#pageSet[0].MPLast[0].Print[0]
+      type: checkbox
+      label: Print
+      required: false
+      width: full
+    - name: save
+      pdf_field_name: RT-130[0].#pageSet[0].MPLast[0].Save[0]
+      type: checkbox
+      label: Save
+      required: false
+      width: full
+    - name: reset
+      pdf_field_name: RT-130[0].#pageSet[0].MPLast[0].Reset[0]
+      type: checkbox
+      label: Reset
+      required: false
+      width: full
+  clerk_cert:
+    title: Clerk Cert
+    fields:
+    - name: certificate_date_dt
+      pdf_field_name: RT-130[0].Page3[0].ClerkCert[0].CertificateDate_dt[0]
+      type: date
+      label: Certificate Date Dt
+      required: false
+      width: half
+    - name: t11
+      pdf_field_name: RT-130[0].Page3[0].ClerkCert[0].T11[0]
+      type: text
+      label: T
+      required: false
+      width: full

@@ -1,0 +1,40 @@
+---
+form:
+  code: EJ-140INFO
+  title: EJ 140INFO Form
+  description: ''
+  category: civil/enforcement
+  pdf_filename: ej140info.pdf
+  fillable: true
+  instructions: ''
+sections:
+  right:
+    title: Right
+    fields:
+    - name: sh_serv
+      pdf_field_name: EJ-140-INFO[0].Page2[0].Right[0].Question6[0].ServeFormSteps[0].bullet3[0].SHServ[0]
+      type: checkbox
+      label: Sh Serv
+      required: false
+      width: full
+    - name: selfhelp_int
+      pdf_field_name: EJ-140-INFO[0].Page8[0].Right[0].selfhelpInt[0]
+      type: checkbox
+      label: Selfhelp Int
+      required: false
+      width: full
+  mp_last:
+    title: Mp Last
+    fields:
+    - name: print
+      pdf_field_name: EJ-140-INFO[0].#pageSet[0].MPLast[0].Print[0]
+      type: checkbox
+      label: Print
+      required: false
+      width: full
+    - name: save
+      pdf_field_name: EJ-140-INFO[0].#pageSet[0].MPLast[0].Save[0]
+      type: checkbox
+      label: Save
+      required: false
+      width: full

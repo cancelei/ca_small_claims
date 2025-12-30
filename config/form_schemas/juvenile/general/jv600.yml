@@ -1,0 +1,706 @@
+---
+form:
+  code: JV-600
+  title: JV 600 Form
+  description: ''
+  category: juvenile/general
+  pdf_filename: jv600.pdf
+  fillable: true
+  instructions: ''
+sections:
+  address_tf:
+    title: Address Tf
+    fields:
+    - name: address_tf
+      pdf_field_name: JV-600[0].Page1[0].address_tf[0]
+      type: address
+      label: Address Tf
+      required: false
+      width: full
+    - name: address_tf_2
+      pdf_field_name: JV-600[0].Page1[0].address_tf[1]
+      type: address
+      label: Address Tf
+      required: false
+      width: full
+    - name: address_tf_2
+      pdf_field_name: JV-600[0].Page1[0].address_tf[2]
+      type: address
+      label: Address Tf
+      required: false
+      width: full
+    - name: address_tf_2
+      pdf_field_name: JV-600[0].Page1[0].address_tf[3]
+      type: address
+      label: Address Tf
+      required: false
+      width: full
+  date_tf:
+    title: Date Tf
+    fields:
+    - name: date_tf
+      pdf_field_name: JV-600[0].Page1[0].date_tf[0]
+      type: date
+      label: Date Tf
+      required: false
+      width: half
+  item602_cb:
+    title: Item602 Cb
+    fields:
+    - name: item602_cb
+      pdf_field_name: JV-600[0].Page1[0].#area[0].item602_cb[0]
+      type: text
+      label: Item602 Cb
+      required: false
+      width: full
+    - name: item602_cb_2
+      pdf_field_name: JV-600[0].Page1[0].#area[5].item602_cb[1]
+      type: text
+      label: Item602 Cb
+      required: false
+      width: full
+  item601b_cb:
+    title: Item601b Cb
+    fields:
+    - name: item601b_cb
+      pdf_field_name: JV-600[0].Page1[0].#area[1].item601b_cb[0]
+      type: text
+      label: Item601b Cb
+      required: false
+      width: full
+    - name: item601b_cb_2
+      pdf_field_name: JV-600[0].Page1[0].#area[6].item601b_cb[1]
+      type: text
+      label: Item601b Cb
+      required: false
+      width: full
+  item601a_cb:
+    title: Item601a Cb
+    fields:
+    - name: check_box61
+      pdf_field_name: JV-600[0].Page1[0].item601a_cb[0].CheckBox61[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: item601a_cb
+      pdf_field_name: JV-600[0].Page1[0].#area[7].item601a_cb[1]
+      type: text
+      label: Item601a Cb
+      required: false
+      width: full
+  violation_tf:
+    title: Violation Tf
+    fields:
+    - name: violation_tf
+      pdf_field_name: JV-600[0].Page1[0].violation_tf[0]
+      type: text
+      label: Violation Tf
+      required: false
+      width: full
+  item1a_cb:
+    title: Item1a Cb
+    fields:
+    - name: item1a_cb
+      pdf_field_name: JV-600[0].Page1[0].#area[3].item1a_cb[0]
+      type: text
+      label: Item1a Cb
+      required: false
+      width: full
+  checkbox:
+    title: Checkbox
+    fields:
+    - name: checkbox
+      pdf_field_name: JV-600[0].Page1[0].#area[4].Checkbox[0]
+      type: checkbox
+      label: Checkbox
+      required: false
+      width: full
+    - name: checkbox_2
+      pdf_field_name: JV-600[0].Page2[0].#area[4].Checkbox[0]
+      type: checkbox
+      label: Checkbox
+      required: false
+      width: full
+  childnameaddress_tf:
+    title: Childnameaddress Tf
+    fields:
+    - name: childnameaddress_tf
+      pdf_field_name: JV-600[0].Page1[0].childnameaddress_tf[0]
+      type: address
+      label: Childnameaddress Tf
+      required: false
+      width: full
+  age_tf:
+    title: Age Tf
+    fields:
+    - name: age_tf
+      pdf_field_name: JV-600[0].Page1[0].age_tf[0]
+      type: text
+      label: Age Tf
+      required: false
+      width: full
+  dob_tf:
+    title: Dob Tf
+    fields:
+    - name: dob_tf
+      pdf_field_name: JV-600[0].Page1[0].dob_tf[0]
+      type: text
+      label: Dob Tf
+      required: false
+      width: full
+  sex_tf:
+    title: Sex Tf
+    fields:
+    - name: sex_tf
+      pdf_field_name: JV-600[0].Page1[0].sex_tf[0]
+      type: text
+      label: Sex Tf
+      required: false
+      width: full
+  alleged_cb:
+    title: Alleged Cb
+    fields:
+    - name: alleged_cb
+      pdf_field_name: JV-600[0].Page1[0].#area[8].alleged_cb[0]
+      type: text
+      label: Alleged Cb
+      required: false
+      width: full
+    - name: alleged_cb_2
+      pdf_field_name: JV-600[0].Page1[0].#area[25].alleged_cb[1]
+      type: text
+      label: Alleged Cb
+      required: false
+      width: full
+    - name: alleged_cb_2
+      pdf_field_name: JV-600[0].Page1[0].#area[31].alleged_cb[2]
+      type: text
+      label: Alleged Cb
+      required: false
+      width: full
+  presumed_cb:
+    title: Presumed Cb
+    fields:
+    - name: presumed_cb
+      pdf_field_name: JV-600[0].Page1[0].#area[9].presumed_cb[0]
+      type: text
+      label: Presumed Cb
+      required: false
+      width: full
+    - name: presumed_cb_2
+      pdf_field_name: JV-600[0].Page1[0].#area[26].presumed_cb[1]
+      type: text
+      label: Presumed Cb
+      required: false
+      width: full
+    - name: presumed_cb_2
+      pdf_field_name: JV-600[0].Page1[0].#area[30].presumed_cb[2]
+      type: text
+      label: Presumed Cb
+      required: false
+      width: full
+  biological_cb:
+    title: Biological Cb
+    fields:
+    - name: biological_cb
+      pdf_field_name: JV-600[0].Page1[0].#area[10].biological_cb[0]
+      type: text
+      label: Biological Cb
+      required: false
+      width: full
+    - name: biological_cb_2
+      pdf_field_name: JV-600[0].Page1[0].#area[27].biological_cb[1]
+      type: text
+      label: Biological Cb
+      required: false
+      width: full
+    - name: biological_cb_2
+      pdf_field_name: JV-600[0].Page1[0].#area[29].biological_cb[2]
+      type: text
+      label: Biological Cb
+      required: false
+      width: full
+  legal_cb:
+    title: Legal Cb
+    fields:
+    - name: legal_cb
+      pdf_field_name: JV-600[0].Page1[0].#area[11].legal_cb[0]
+      type: text
+      label: Legal Cb
+      required: false
+      width: full
+    - name: legal_cb_2
+      pdf_field_name: JV-600[0].Page1[0].#area[24].legal_cb[1]
+      type: text
+      label: Legal Cb
+      required: false
+      width: full
+    - name: legal_cb_2
+      pdf_field_name: JV-600[0].Page1[0].#area[28].legal_cb[2]
+      type: text
+      label: Legal Cb
+      required: false
+      width: full
+  unknown_cb:
+    title: Unknown Cb
+    fields:
+    - name: unknown_cb
+      pdf_field_name: JV-600[0].Page1[0].#area[12].unknown_cb[0]
+      type: text
+      label: Unknown Cb
+      required: false
+      width: full
+    - name: unknown_cb_2
+      pdf_field_name: JV-600[0].Page1[0].#area[17].unknown_cb[1]
+      type: text
+      label: Unknown Cb
+      required: false
+      width: full
+    - name: unknown_cb_2
+      pdf_field_name: JV-600[0].Page1[0].#area[23].unknown_cb[2]
+      type: text
+      label: Unknown Cb
+      required: false
+      width: full
+  attorney_tf:
+    title: Attorney Tf
+    fields:
+    - name: attorney_tf
+      pdf_field_name: JV-600[0].Page1[0].attorney_tf[0]
+      type: text
+      label: Attorney Tf
+      required: false
+      width: full
+  guardian_cb:
+    title: Guardian Cb
+    fields:
+    - name: guardian_cb
+      pdf_field_name: JV-600[0].Page1[0].#area[13].guardian_cb[0]
+      type: text
+      label: Guardian Cb
+      required: false
+      width: full
+    - name: guardian_cb_2
+      pdf_field_name: JV-600[0].Page1[0].#area[18].guardian_cb[1]
+      type: text
+      label: Guardian Cb
+      required: false
+      width: full
+    - name: guardian_cb_2
+      pdf_field_name: JV-600[0].Page1[0].#area[22].guardian_cb[2]
+      type: text
+      label: Guardian Cb
+      required: false
+      width: full
+  father_cb:
+    title: Father Cb
+    fields:
+    - name: father_cb
+      pdf_field_name: JV-600[0].Page1[0].#area[14].father_cb[0]
+      type: text
+      label: Father Cb
+      required: false
+      width: full
+    - name: father_cb_2
+      pdf_field_name: JV-600[0].Page1[0].#area[19].father_cb[1]
+      type: text
+      label: Father Cb
+      required: false
+      width: full
+    - name: father_cb_2
+      pdf_field_name: JV-600[0].Page1[0].#area[21].father_cb[2]
+      type: text
+      label: Father Cb
+      required: false
+      width: full
+  mother_cb:
+    title: Mother Cb
+    fields:
+    - name: mother_cb
+      pdf_field_name: JV-600[0].Page1[0].#area[15].mother_cb[0]
+      type: text
+      label: Mother Cb
+      required: false
+      width: full
+    - name: mother_cb_2
+      pdf_field_name: JV-600[0].Page1[0].#area[16].mother_cb[1]
+      type: text
+      label: Mother Cb
+      required: false
+      width: full
+    - name: mother_cb_2
+      pdf_field_name: JV-600[0].Page1[0].#area[20].mother_cb[2]
+      type: text
+      label: Mother Cb
+      required: false
+      width: full
+  name_tf:
+    title: Name Tf
+    fields:
+    - name: name_tf
+      pdf_field_name: JV-600[0].Page1[0].name_tf[0]
+      type: text
+      label: Name Tf
+      required: false
+      width: full
+    - name: name_tf_2
+      pdf_field_name: JV-600[0].Page1[0].name_tf[1]
+      type: text
+      label: Name Tf
+      required: false
+      width: full
+    - name: name_tf_2
+      pdf_field_name: JV-600[0].Page1[0].name_tf[2]
+      type: text
+      label: Name Tf
+      required: false
+      width: full
+  othername_tf:
+    title: Othername Tf
+    fields:
+    - name: othername_tf
+      pdf_field_name: JV-600[0].Page1[0].othername_tf[0]
+      type: text
+      label: Othername Tf
+      required: false
+      width: full
+  noparent_cb:
+    title: Noparent Cb
+    fields:
+    - name: noparent_cb
+      pdf_field_name: JV-600[0].Page1[0].#area[32].noparent_cb[0]
+      type: currency
+      label: Noparent Cb
+      required: false
+      width: third
+  phone_tf:
+    title: Phone Tf
+    fields:
+    - name: phone_tf
+      pdf_field_name: JV-600[0].Page1[0].phone_tf[0]
+      type: tel
+      label: Phone Tf
+      required: false
+      width: half
+  notdetained_cb:
+    title: Notdetained Cb
+    fields:
+    - name: notdetained_cb
+      pdf_field_name: JV-600[0].Page1[0].#area[33].notdetained_cb[0]
+      type: text
+      label: Notdetained Cb
+      required: false
+      width: full
+  datefield_df:
+    title: Datefield Df
+    fields:
+    - name: datefield_df
+      pdf_field_name: JV-600[0].Page1[0].datefield_df[0]
+      type: date
+      label: Datefield Df
+      required: false
+      width: half
+    - name: datefield_df_2
+      pdf_field_name: JV-600[0].Page2[0].#area[2].datefield_df[0]
+      type: date
+      label: Datefield Df
+      required: false
+      width: half
+  detained_cb:
+    title: Detained Cb
+    fields:
+    - name: detained_cb
+      pdf_field_name: JV-600[0].Page1[0].#area[34].detained_cb[0]
+      type: text
+      label: Detained Cb
+      required: false
+      width: full
+  court_info:
+    title: Court Info
+    fields:
+    - name: crt_county_ft
+      pdf_field_name: JV-600[0].Page1[0].CourtInfo[0].CrtCounty_ft[0]
+      type: number
+      label: Crt County Ft
+      required: false
+      width: third
+    - name: branch_ft
+      pdf_field_name: JV-600[0].Page1[0].CourtInfo[0].Branch_ft[0]
+      type: text
+      label: Branch Ft
+      required: false
+      width: full
+    - name: city_zip_ft
+      pdf_field_name: JV-600[0].Page1[0].CourtInfo[0].CityZip_ft[0]
+      type: address
+      label: City Zip Ft
+      required: false
+      width: full
+    - name: street_ft
+      pdf_field_name: JV-600[0].Page1[0].CourtInfo[0].Street_ft[0]
+      type: address
+      label: Street Ft
+      required: false
+      width: full
+    - name: mailing_add_ft
+      pdf_field_name: JV-600[0].Page1[0].CourtInfo[0].MailingAdd_ft[0]
+      type: address
+      label: Mailing Add Ft
+      required: false
+      width: full
+  title_party_name:
+    title: Title Party Name
+    fields:
+    - name: case_name_ft
+      pdf_field_name: JV-600[0].Page1[0].TitlePartyName[0].CaseName_ft[0]
+      type: text
+      label: Case Name Ft
+      required: false
+      width: full
+  case_number:
+    title: Case Number
+    fields:
+    - name: case_number_ft
+      pdf_field_name: JV-600[0].Page1[0].CaseNumber[0].CaseNumber_ft[0]
+      type: text
+      label: Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+  form_title:
+    title: Form Title
+    fields:
+    - name: item602_cb_2
+      pdf_field_name: JV-600[0].Page1[0].FormTitle[0].#area[0].item602_cb[0]
+      type: text
+      label: Item602 Cb
+      required: false
+      width: full
+    - name: item601b_cb_2
+      pdf_field_name: JV-600[0].Page1[0].FormTitle[0].#area[1].item601b_cb[0]
+      type: text
+      label: Item601b Cb
+      required: false
+      width: full
+    - name: item601a_cb_2
+      pdf_field_name: JV-600[0].Page1[0].FormTitle[0].#area[2].item601a_cb[0]
+      type: text
+      label: Item601a Cb
+      required: false
+      width: full
+  atty_info:
+    title: Atty Info
+    fields:
+    - name: atty_state_ft
+      pdf_field_name: JV-600[0].Page1[0].AttyInfo[0].AttyState_ft[0]
+      type: address
+      label: Atty State Ft
+      required: false
+      width: full
+    - name: atty_zip_ft
+      pdf_field_name: JV-600[0].Page1[0].AttyInfo[0].AttyZip_ft[0]
+      type: address
+      label: Atty Zip Ft
+      required: false
+      width: full
+    - name: atty_city_ft
+      pdf_field_name: JV-600[0].Page1[0].AttyInfo[0].AttyCity_ft[0]
+      type: address
+      label: Atty City Ft
+      required: false
+      width: full
+    - name: atty_street_ft
+      pdf_field_name: JV-600[0].Page1[0].AttyInfo[0].AttyStreet_ft[0]
+      type: address
+      label: Atty Street Ft
+      required: false
+      width: full
+    - name: atty_firm_ft
+      pdf_field_name: JV-600[0].Page1[0].AttyInfo[0].AttyFirm_ft[0]
+      type: text
+      label: Atty Firm Ft
+      required: false
+      width: full
+    - name: atty_name_ft
+      pdf_field_name: JV-600[0].Page1[0].AttyInfo[0].AttyName_ft[0]
+      type: text
+      label: Atty Name Ft
+      required: false
+      width: full
+    - name: atty_bar_no_dc
+      pdf_field_name: JV-600[0].Page1[0].AttyInfo[0].AttyBarNo_dc[0]
+      type: text
+      label: Atty Bar No Dc
+      required: false
+      width: full
+    - name: phone_ft
+      pdf_field_name: JV-600[0].Page1[0].AttyInfo[0].Phone_ft[0]
+      type: tel
+      label: Phone Ft
+      required: false
+      width: half
+    - name: fax_ft
+      pdf_field_name: JV-600[0].Page1[0].AttyInfo[0].Fax_ft[0]
+      type: tel
+      label: Fax Ft
+      required: false
+      width: half
+    - name: email_ft
+      pdf_field_name: JV-600[0].Page1[0].AttyInfo[0].Email_ft[0]
+      type: email
+      label: Email Ft
+      required: false
+      width: half
+    - name: atty_for_ft
+      pdf_field_name: JV-600[0].Page1[0].AttyInfo[0].AttyFor_ft[0]
+      type: text
+      label: Atty For Ft
+      required: false
+      width: full
+  placedetention_tf:
+    title: Placedetention Tf
+    fields:
+    - name: placedetention_tf
+      pdf_field_name: JV-600[0].Page1[0].placedetention_tf[0]
+      type: text
+      label: Placedetention Tf
+      required: false
+      width: full
+  p2_header_gp:
+    title: P2 Header Gp
+    fields:
+    - name: case_number_ft_2
+      pdf_field_name: JV-600[0].Page2[0].P2Header_gp[0].CaseNumber[0].CaseNumber_ft[0]
+      type: text
+      label: Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+    - name: case_name_ft_2
+      pdf_field_name: JV-600[0].Page2[0].P2Header_gp[0].CaseNumber[1].CaseName_ft[0]
+      type: text
+      label: Case Name Ft
+      required: false
+      width: full
+      shared_key: case:number
+  item3_cb:
+    title: Item3 Cb
+    fields:
+    - name: item3_cb
+      pdf_field_name: JV-600[0].Page2[0].#area[1].item3_cb[0]
+      type: text
+      label: Item3 Cb
+      required: false
+      width: full
+  typename_tf:
+    title: Typename Tf
+    fields:
+    - name: typename_tf
+      pdf_field_name: JV-600[0].Page2[0].#area[2].typename_tf[0]
+      type: text
+      label: Typename Tf
+      required: false
+      width: full
+  numberpage_tf:
+    title: Numberpage Tf
+    fields:
+    - name: numberpage_tf
+      pdf_field_name: JV-600[0].Page2[0].numberpage_tf[0]
+      type: text
+      label: Numberpage Tf
+      required: false
+      width: full
+  textfield_tf:
+    title: Textfield Tf
+    fields:
+    - name: textfield_tf
+      pdf_field_name: JV-600[0].Page2[0].textfield_tf[0]
+      type: text
+      label: Textfield Tf
+      required: false
+      width: full
+    - name: textfield_tf_2
+      pdf_field_name: JV-600[0].Page2[0].textfield_tf[1]
+      type: text
+      label: Textfield Tf
+      required: false
+      width: full
+  item4a_cb:
+    title: Item4a Cb
+    fields:
+    - name: item4a_cb
+      pdf_field_name: JV-600[0].Page2[0].#area[5].item4a_cb[0]
+      type: text
+      label: Item4a Cb
+      required: false
+      width: full
+  item4c_cb:
+    title: Item4c Cb
+    fields:
+    - name: item4c_cb
+      pdf_field_name: JV-600[0].Page2[0].#area[6].item4c_cb[0]
+      type: text
+      label: Item4c Cb
+      required: false
+      width: full
+  item4b_cb:
+    title: Item4b Cb
+    fields:
+    - name: item4b_cb
+      pdf_field_name: JV-600[0].Page2[0].#area[7].item4b_cb[0]
+      type: text
+      label: Item4b Cb
+      required: false
+      width: full
+  text_field:
+    title: Text Field
+    fields:
+    - name: text_field6
+      pdf_field_name: JV-600[0].Page2[0].#area[7].TextField6[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: JV-600[0].Page2[0].TextField6[1]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+  print:
+    title: Print
+    fields:
+    - name: print
+      pdf_field_name: JV-600[0].Page2[0].#area[8].Print[0]
+      type: checkbox
+      label: Print
+      required: false
+      width: full
+  save:
+    title: Save
+    fields:
+    - name: save
+      pdf_field_name: JV-600[0].Page2[0].#area[8].Save[0]
+      type: checkbox
+      label: Save
+      required: false
+      width: full
+  reset:
+    title: Reset
+    fields:
+    - name: reset
+      pdf_field_name: JV-600[0].Page2[0].#area[8].Reset[0]
+      type: checkbox
+      label: Reset
+      required: false
+      width: full
+  warning:
+    title: Warning
+    fields:
+    - name: warning
+      pdf_field_name: JV-600[0].Page2[0].#area[8].Warning[0]
+      type: checkbox
+      label: Warning
+      required: false
+      width: full

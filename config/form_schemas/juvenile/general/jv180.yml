@@ -1,0 +1,760 @@
+---
+form:
+  code: JV-180
+  title: JV 180 Form
+  description: ''
+  category: juvenile/general
+  pdf_filename: jv180.pdf
+  fillable: true
+  instructions: ''
+sections:
+  header_right:
+    title: Header Right
+    fields:
+    - name: court_info_ft
+      pdf_field_name: JV-180[0].Page1[0].HeaderRight[0].CourtInfo_ft[0]
+      type: text
+      label: Court Info Ft
+      required: false
+      width: full
+    - name: case_number_ft
+      pdf_field_name: JV-180[0].Page1[0].HeaderRight[0].CaseNumber_ft[0]
+      type: text
+      label: Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+    - name: name_child_youth_ft
+      pdf_field_name: JV-180[0].Page1[0].HeaderRight[0].NameChildYouth_ft[0]
+      type: text
+      label: Name Child Youth Ft
+      required: false
+      width: full
+  text_field:
+    title: Text Field
+    fields:
+    - name: text_field2
+      pdf_field_name: JV-180[0].Page1[0].TextField2[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field2_2
+      pdf_field_name: JV-180[0].Page1[0].TextField2[1]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field2_2
+      pdf_field_name: JV-180[0].Page1[0].TextField2[2]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field2_2
+      pdf_field_name: JV-180[0].Page1[0].TextField2[3]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field2_2
+      pdf_field_name: JV-180[0].Page1[0].TextField2[4]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field2_2
+      pdf_field_name: JV-180[0].Page1[0].TextField2[5]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field2_2
+      pdf_field_name: JV-180[0].Page1[0].TextField2[6]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field2_2
+      pdf_field_name: JV-180[0].Page1[0].TextField2[7]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field2_2
+      pdf_field_name: JV-180[0].Page1[0].TextField2[8]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field2_2
+      pdf_field_name: JV-180[0].Page1[0].TextField2[9]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field2_2
+      pdf_field_name: JV-180[0].Page1[0].TextField2[10]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field2_2
+      pdf_field_name: JV-180[0].Page1[0].TextField2[11]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field2_2
+      pdf_field_name: JV-180[0].Page1[0].TextField2[12]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6
+      pdf_field_name: JV-180[0].Page1[0].TextField6[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field2_2
+      pdf_field_name: JV-180[0].Page2[0].#area[3].TextField2[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field2_2
+      pdf_field_name: JV-180[0].Page2[0].#subform[0].TextField2[1]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field2_2
+      pdf_field_name: JV-180[0].Page3[0].TextField2[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field2_2
+      pdf_field_name: JV-180[0].Page3[0].TextField2[1]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field2_2
+      pdf_field_name: JV-180[0].Page3[0].TextField2[2]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field2_2
+      pdf_field_name: JV-180[0].Page3[0].TextField2[3]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field2_2
+      pdf_field_name: JV-180[0].Page3[0].TextField2[4]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field2_2
+      pdf_field_name: JV-180[0].Page3[0].TextField2[5]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field2_2
+      pdf_field_name: JV-180[0].Page3[0].TextField2[6]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field2_2
+      pdf_field_name: JV-180[0].Page3[0].TextField2[7]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field2_2
+      pdf_field_name: JV-180[0].Page3[0].TextField2[8]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field2_2
+      pdf_field_name: JV-180[0].Page3[0].TextField2[9]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field2_2
+      pdf_field_name: JV-180[0].Page3[0].TextField2[10]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field2_2
+      pdf_field_name: JV-180[0].Page3[0].TextField2[11]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field2_2
+      pdf_field_name: JV-180[0].Page3[0].TextField2[12]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field2_2
+      pdf_field_name: JV-180[0].Page3[0].TextField2[13]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field2_2
+      pdf_field_name: JV-180[0].Page3[0].TextField2[14]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field2_2
+      pdf_field_name: JV-180[0].Page3[0].TextField2[15]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field2_2
+      pdf_field_name: JV-180[0].Page3[0].TextField2[16]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field2_2
+      pdf_field_name: JV-180[0].Page3[0].TextField2[17]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field2_2
+      pdf_field_name: JV-180[0].Page3[0].TextField2[18]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field2_2
+      pdf_field_name: JV-180[0].Page3[0].TextField2[19]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field2_2
+      pdf_field_name: JV-180[0].Page3[0].TextField2[20]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field2_2
+      pdf_field_name: JV-180[0].Page3[0].TextField2[21]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+  t:
+    title: T
+    fields:
+    - name: t72
+      pdf_field_name: JV-180[0].Page1[0].T72[0]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t9
+      pdf_field_name: JV-180[0].Page2[0].#area[3].T9[2]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t9_2
+      pdf_field_name: JV-180[0].Page2[0].#area[3].T9[3]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t9_2
+      pdf_field_name: JV-180[0].Page2[0].#area[3].T9[4]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t9_2
+      pdf_field_name: JV-180[0].Page2[0].#area[3].T9[5]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t9_2
+      pdf_field_name: JV-180[0].Page2[0].#area[3].T9[6]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t9_2
+      pdf_field_name: JV-180[0].Page2[0].#area[3].T9[7]
+      type: text
+      label: T
+      required: false
+      width: full
+  item1a:
+    title: Item1a
+    fields:
+    - name: item1a
+      pdf_field_name: JV-180[0].Page1[0].item1a[0]
+      type: text
+      label: Item1a
+      required: false
+      width: full
+  item:
+    title: Item
+    fields:
+    - name: item2
+      pdf_field_name: JV-180[0].Page1[0].item2[0]
+      type: text
+      label: Item
+      required: false
+      width: full
+  radio_button_list:
+    title: Radio Button List
+    fields:
+    - name: radio_button_list
+      pdf_field_name: JV-180[0].Page1[0].RadioButtonList[0]
+      type: text
+      label: Radio Button List
+      required: false
+      width: full
+  attch_jv:
+    title: Attch Jv
+    fields:
+    - name: attch_jv182
+      pdf_field_name: JV-180[0].Page1[0].attch_jv182[0]
+      type: text
+      label: Attch Jv
+      required: false
+      width: full
+  date_time_field:
+    title: Date Time Field
+    fields:
+    - name: date_time_field2
+      pdf_field_name: JV-180[0].Page1[0].DateTimeField2[0]
+      type: date
+      label: Date Time Field
+      required: false
+      width: half
+    - name: date_time_field1
+      pdf_field_name: JV-180[0].Page3[0].DateTimeField1[0]
+      type: date
+      label: Date Time Field
+      required: false
+      width: half
+  parent_rb:
+    title: Parent Rb
+    fields:
+    - name: parent_rb
+      pdf_field_name: JV-180[0].Page1[0].parent_rb[0]
+      type: currency
+      label: Parent Rb
+      required: false
+      width: third
+  legl_guadn_rb:
+    title: Legl Guadn Rb
+    fields:
+    - name: legl_guadn_rb
+      pdf_field_name: JV-180[0].Page1[0].LeglGuadn_rb[0]
+      type: text
+      label: Legl Guadn Rb
+      required: false
+      width: full
+  relative_rb:
+    title: Relative Rb
+    fields:
+    - name: relative_rb
+      pdf_field_name: JV-180[0].Page1[0].relative_rb[0]
+      type: text
+      label: Relative Rb
+      required: false
+      width: full
+  fost_home_rb:
+    title: Fost Home Rb
+    fields:
+    - name: fost_home_rb
+      pdf_field_name: JV-180[0].Page1[0].FostHome_rb[0]
+      type: text
+      label: Fost Home Rb
+      required: false
+      width: full
+  grup_home_rb:
+    title: Grup Home Rb
+    fields:
+    - name: grup_home_rb
+      pdf_field_name: JV-180[0].Page1[0].GrupHome_rb[0]
+      type: text
+      label: Grup Home Rb
+      required: false
+      width: full
+  dnt_know_rb:
+    title: Dnt Know Rb
+    fields:
+    - name: dnt_know_rb
+      pdf_field_name: JV-180[0].Page1[0].DntKnow_rb[0]
+      type: text
+      label: Dnt Know Rb
+      required: false
+      width: full
+  field_name_cb:
+    title: Field Name Cb
+    fields:
+    - name: field_name_cb
+      pdf_field_name: JV-180[0].Page1[0].FieldName_cb[0]
+      type: text
+      label: Field Name Cb
+      required: false
+      width: full
+    - name: field_name_cb_2
+      pdf_field_name: JV-180[0].Page2[0].#area[3].FieldName_cb[0]
+      type: text
+      label: Field Name Cb
+      required: false
+      width: full
+    - name: field_name_cb_2
+      pdf_field_name: JV-180[0].Page2[0].#area[3].FieldName_cb[1]
+      type: text
+      label: Field Name Cb
+      required: false
+      width: full
+    - name: field_name_cb_2
+      pdf_field_name: JV-180[0].Page2[0].#area[3].FieldName_cb[2]
+      type: text
+      label: Field Name Cb
+      required: false
+      width: full
+    - name: field_name_cb_2
+      pdf_field_name: JV-180[0].Page3[0].FieldName_cb[0]
+      type: text
+      label: Field Name Cb
+      required: false
+      width: full
+  pe_p2_header_gp:
+    title: Pe P2 Header Gp
+    fields:
+    - name: name_child_youth_ft_2
+      pdf_field_name: JV-180[0].Page2[0].PE_P2Header_gp[0].NameChildYouth_ft[0]
+      type: text
+      label: Name Child Youth Ft
+      required: false
+      width: full
+    - name: case_number_ft_2
+      pdf_field_name: JV-180[0].Page2[0].PE_P2Header_gp[0].CaseNumber_ft[0]
+      type: text
+      label: Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+    - name: case_number_ft_2
+      pdf_field_name: JV-180[0].Page3[0].PE_P2Header_gp[0].CaseNumber_ft[0]
+      type: text
+      label: Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+    - name: name_child_youth_ft_2
+      pdf_field_name: JV-180[0].Page3[0].PE_P2Header_gp[0].NameChildYouth_ft[0]
+      type: text
+      label: Name Child Youth Ft
+      required: false
+      width: full
+  date_field:
+    title: Date Field
+    fields:
+    - name: date_field1
+      pdf_field_name: JV-180[0].Page2[0].DateField1[0]
+      type: date
+      label: Date Field
+      required: false
+      width: half
+  attch_mc:
+    title: Attch Mc
+    fields:
+    - name: attch_mc025
+      pdf_field_name: JV-180[0].Page2[0].#subform[0].attch_mc025[0]
+      type: text
+      label: Attch Mc
+      required: false
+      width: full
+  multi_line_field:
+    title: Multi Line Field
+    fields:
+    - name: text_field2_2
+      pdf_field_name: JV-180[0].Page2[0].MultiLine_Field[0].TextField2[2]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field2_2
+      pdf_field_name: JV-180[0].Page2[0].MultiLine_Field[1].TextField2[3]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field2_2
+      pdf_field_name: JV-180[0].Page2[0].MultiLine_Field[2].TextField2[4]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field2_2
+      pdf_field_name: JV-180[0].Page2[0].MultiLine_Field[3].TextField2[5]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field2_2
+      pdf_field_name: JV-180[0].Page3[0].MultiLine_Field[0].TextField2[22]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+  your_name_ft:
+    title: Your Name Ft
+    fields:
+    - name: your_name_ft
+      pdf_field_name: JV-180[0].Page3[0].YourName_ft[0]
+      type: text
+      label: Your Name Ft
+      required: false
+      width: full
+  item11_chd_yuth:
+    title: Item11 Chd Yuth
+    fields:
+    - name: item11chd_yuth
+      pdf_field_name: JV-180[0].Page3[0].item11ChdYuth[0]
+      type: text
+      label: Item11 Chd Yuth
+      required: false
+      width: full
+  item11_chld_yuth_attny:
+    title: Item11 Chld Yuth Attny
+    fields:
+    - name: item11chld_yuth_attny
+      pdf_field_name: JV-180[0].Page3[0].item11ChldYuthAttny[0]
+      type: text
+      label: Item11 Chld Yuth Attny
+      required: false
+      width: full
+  item11_other:
+    title: Item11 Other
+    fields:
+    - name: item11other
+      pdf_field_name: JV-180[0].Page3[0].item11Other[0]
+      type: text
+      label: Item11 Other
+      required: false
+      width: full
+  item11_dis_attny:
+    title: Item11 Dis Attny
+    fields:
+    - name: item11dis_attny
+      pdf_field_name: JV-180[0].Page3[0].item11DisAttny[0]
+      type: text
+      label: Item11 Dis Attny
+      required: false
+      width: full
+  item11_cty_cnsl:
+    title: Item11 Cty Cnsl
+    fields:
+    - name: item11cty_cnsl
+      pdf_field_name: JV-180[0].Page3[0].item11CtyCnsl[0]
+      type: text
+      label: Item11 Cty Cnsl
+      required: false
+      width: full
+  item11_attny_prnt_legl_guadn:
+    title: Item11 Attny Prnt Legl Guadn
+    fields:
+    - name: item11attny_prnt_legl_guadn2
+      pdf_field_name: JV-180[0].Page3[0].item11AttnyPrntLeglGuadn2[0]
+      type: text
+      label: Item11 Attny Prnt Legl Guadn
+      required: false
+      width: full
+    - name: item11attny_prnt_legl_guadn
+      pdf_field_name: JV-180[0].Page3[0].item11AttnyPrntLeglGuadn[0]
+      type: text
+      label: Item11 Attny Prnt Legl Guadn
+      required: false
+      width: full
+  item11_sibl_attny:
+    title: Item11 Sibl Attny
+    fields:
+    - name: item11sibl_attny
+      pdf_field_name: JV-180[0].Page3[0].item11SiblAttny[0]
+      type: text
+      label: Item11 Sibl Attny
+      required: false
+      width: full
+  item11_sibl_caregver:
+    title: Item11 Sibl Caregver
+    fields:
+    - name: item11sibl_caregver
+      pdf_field_name: JV-180[0].Page3[0].item11SiblCaregver[0]
+      type: text
+      label: Item11 Sibl Caregver
+      required: false
+      width: full
+  item11_sibling:
+    title: Item11 Sibling
+    fields:
+    - name: item11sibling
+      pdf_field_name: JV-180[0].Page3[0].item11Sibling[0]
+      type: text
+      label: Item11 Sibling
+      required: false
+      width: full
+  item11_indn_custn:
+    title: Item11 Indn Custn
+    fields:
+    - name: item11indn_custn
+      pdf_field_name: JV-180[0].Page3[0].item11IndnCustn[0]
+      type: text
+      label: Item11 Indn Custn
+      required: false
+      width: full
+  item11_indn_tribe:
+    title: Item11 Indn Tribe
+    fields:
+    - name: item11indn_tribe
+      pdf_field_name: JV-180[0].Page3[0].item11IndnTribe[0]
+      type: text
+      label: Item11 Indn Tribe
+      required: false
+      width: full
+  item11_edu_rght_hlder:
+    title: Item11 Edu Rght Hlder
+    fields:
+    - name: item11edu_rght_hlder
+      pdf_field_name: JV-180[0].Page3[0].item11EduRghtHlder[0]
+      type: text
+      label: Item11 Edu Rght Hlder
+      required: false
+      width: full
+  item11_casa_vlnteer:
+    title: Item11 Casa Vlnteer
+    fields:
+    - name: item11casa_vlnteer
+      pdf_field_name: JV-180[0].Page3[0].item11CASAVlnteer[0]
+      type: text
+      label: Item11 Casa Vlnteer
+      required: false
+      width: full
+  item11_pre_adpt_parent:
+    title: Item11 Pre Adpt Parent
+    fields:
+    - name: item11pre_adpt_parent
+      pdf_field_name: JV-180[0].Page3[0].item11PreAdptParent[0]
+      type: currency
+      label: Item11 Pre Adpt Parent
+      required: false
+      width: third
+  item11_care_gver_fst_parent:
+    title: Item11 Care Gver Fst Parent
+    fields:
+    - name: item11care_gver_fst_parent
+      pdf_field_name: JV-180[0].Page3[0].item11CareGverFstParent[0]
+      type: currency
+      label: Item11 Care Gver Fst Parent
+      required: false
+      width: third
+  item11_pbt_officer:
+    title: Item11 Pbt Officer
+    fields:
+    - name: item11pbt_officer
+      pdf_field_name: JV-180[0].Page3[0].item11PbtOfficer[0]
+      type: text
+      label: Item11 Pbt Officer
+      required: false
+      width: full
+  item11_s_worker:
+    title: Item11 S Worker
+    fields:
+    - name: item11s_worker
+      pdf_field_name: JV-180[0].Page3[0].item11SWorker[0]
+      type: text
+      label: Item11 S Worker
+      required: false
+      width: full
+  item11_legl_guadn:
+    title: Item11 Legl Guadn
+    fields:
+    - name: item11legl_guadn2
+      pdf_field_name: JV-180[0].Page3[0].item11LeglGuadn2[0]
+      type: text
+      label: Item11 Legl Guadn
+      required: false
+      width: full
+    - name: item11legl_guadn
+      pdf_field_name: JV-180[0].Page3[0].item11LeglGuadn[0]
+      type: text
+      label: Item11 Legl Guadn
+      required: false
+      width: full
+  item11parent:
+    title: Item11parent
+    fields:
+    - name: item11parent2
+      pdf_field_name: JV-180[0].Page3[0].item11parent2[0]
+      type: currency
+      label: Item11parent
+      required: false
+      width: third
+    - name: item11parent
+      pdf_field_name: JV-180[0].Page3[0].item11parent[0]
+      type: currency
+      label: Item11parent
+      required: false
+      width: third
+  print:
+    title: Print
+    fields:
+    - name: print
+      pdf_field_name: JV-180[0].Page3[0].#area[8].Print[0]
+      type: checkbox
+      label: Print
+      required: false
+      width: full
+  save:
+    title: Save
+    fields:
+    - name: save
+      pdf_field_name: JV-180[0].Page3[0].#area[8].Save[0]
+      type: checkbox
+      label: Save
+      required: false
+      width: full
+  reset:
+    title: Reset
+    fields:
+    - name: reset
+      pdf_field_name: JV-180[0].Page3[0].#area[8].Reset[0]
+      type: checkbox
+      label: Reset
+      required: false
+      width: full
+  warning:
+    title: Warning
+    fields:
+    - name: warning
+      pdf_field_name: JV-180[0].Page3[0].#area[8].Warning[0]
+      type: checkbox
+      label: Warning
+      required: false
+      width: full

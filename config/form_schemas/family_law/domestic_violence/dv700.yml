@@ -1,0 +1,413 @@
+---
+form:
+  code: DV-700
+  title: DV 700 Form
+  description: ''
+  category: family_law/domestic_violence
+  pdf_filename: dv700.pdf
+  fillable: true
+  instructions: ''
+sections:
+  court_info_ft:
+    title: Court Info Ft
+    fields:
+    - name: court_info_ft
+      pdf_field_name: DV-700[0].Page1[0].CourtInfo_ft[0]
+      type: text
+      label: Court Info Ft
+      required: false
+      width: full
+  case_number_ft:
+    title: Case Number Ft
+    fields:
+    - name: case_number_ft
+      pdf_field_name: DV-700[0].Page1[0].CaseNumber_ft[0]
+      type: text
+      label: Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+    - name: case_number_ft_2
+      pdf_field_name: DV-700[0].Page2[0].CaseNumber_ft[0]
+      type: text
+      label: Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+    - name: case_number_ft_2
+      pdf_field_name: DV-700[0].Page3[0].CaseNumber_ft[0]
+      type: text
+      label: Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+    - name: case_number_ft_2
+      pdf_field_name: DV-700[0].Page4[0].CaseNumber_ft[0]
+      type: text
+      label: Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+  instructions:
+    title: Instructions
+    fields:
+    - name: button1
+      pdf_field_name: DV-700[0].Page1[0].instructions[0].Button1[0]
+      type: checkbox
+      label: Button
+      required: false
+      width: full
+  list:
+    title: List
+    fields:
+    - name: your_name_item1
+      pdf_field_name: DV-700[0].Page1[0].List1[0].Li1[0].YourName_item1[0]
+      type: text
+      label: Your Name Item
+      required: false
+      width: full
+    - name: tf59
+      pdf_field_name: DV-700[0].Page1[0].List1[0].Li1[0].TF59[0]
+      type: text
+      label: Tf
+      required: false
+      width: full
+    - name: city_tf
+      pdf_field_name: DV-700[0].Page1[0].List1[0].Li1[0].city_tf[0]
+      type: address
+      label: City Tf
+      required: false
+      width: full
+    - name: tf77
+      pdf_field_name: DV-700[0].Page1[0].List1[0].Li1[0].TF77[0]
+      type: text
+      label: Tf
+      required: false
+      width: full
+    - name: tf78
+      pdf_field_name: DV-700[0].Page1[0].List1[0].Li1[0].TF78[0]
+      type: text
+      label: Tf
+      required: false
+      width: full
+    - name: tf142
+      pdf_field_name: DV-700[0].Page1[0].List1[0].Li1[0].TF142[0]
+      type: text
+      label: Tf
+      required: false
+      width: full
+    - name: tf167
+      pdf_field_name: DV-700[0].Page1[0].List1[0].Li1[0].TF167[0]
+      type: text
+      label: Tf
+      required: false
+      width: full
+    - name: t173
+      pdf_field_name: DV-700[0].Page1[0].List1[0].Li1[0].T173[0]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: name_tf
+      pdf_field_name: DV-700[0].Page1[0].List1[0].Li1[0].name_tf[0]
+      type: text
+      label: Name Tf
+      required: false
+      width: full
+    - name: bar_no
+      pdf_field_name: DV-700[0].Page1[0].List1[0].Li1[0].bar_no[0]
+      type: text
+      label: Bar No
+      required: false
+      width: full
+    - name: firm_tf
+      pdf_field_name: DV-700[0].Page1[0].List1[0].Li1[0].firm_tf[0]
+      type: text
+      label: Firm Tf
+      required: false
+      width: full
+    - name: r_pname_item2
+      pdf_field_name: DV-700[0].Page1[0].List2[0].Li1[0].RPname_item2[0]
+      type: text
+      label: R Pname Item
+      required: false
+      width: full
+    - name: date_field3a
+      pdf_field_name: DV-700[0].Page2[0].List3[0].Li1[0].DateField3a[0]
+      type: date
+      label: Date Field3a
+      required: false
+      width: half
+    - name: item3b_yes_no
+      pdf_field_name: DV-700[0].Page2[0].List3[0].Li2[0].item3bYesNo[0]
+      type: text
+      label: Item3b Yes No
+      required: false
+      width: full
+    - name: item3b_yes_no_2
+      pdf_field_name: DV-700[0].Page2[0].List3[0].Li2[0].item3bYesNo[1]
+      type: text
+      label: Item3b Yes No
+      required: false
+      width: full
+    - name: fieldhowmany3b
+      pdf_field_name: DV-700[0].Page2[0].List3[0].Li2[0].fieldhowmany3b[0]
+      type: text
+      label: Fieldhowmany3b
+      required: false
+      width: full
+    - name: item3c
+      pdf_field_name: DV-700[0].Page2[0].List3[0].Li3[0].item3c[0]
+      type: text
+      label: Item3c
+      required: false
+      width: full
+    - name: item3c_2
+      pdf_field_name: DV-700[0].Page2[0].List3[0].Li3[0].item3c[1]
+      type: text
+      label: Item3c
+      required: false
+      width: full
+    - name: item3c_2
+      pdf_field_name: DV-700[0].Page2[0].List3[0].Li3[0].item3c[2]
+      type: text
+      label: Item3c
+      required: false
+      width: full
+    - name: fieldyears3c
+      pdf_field_name: DV-700[0].Page2[0].List3[0].Li3[0].fieldyears3c[0]
+      type: text
+      label: Fieldyears3c
+      required: false
+      width: full
+    - name: check_box_right_caption4
+      pdf_field_name: DV-700[0].Page2[0].List4[0].Li1[0].CheckBoxRightCaption4[0]
+      type: checkbox
+      label: Check Box Right Caption
+      required: false
+      width: full
+    - name: text_field12
+      pdf_field_name: DV-700[0].Page2[0].List4[0].Li1[0].TextField12[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: button1_2
+      pdf_field_name: DV-700[0].Page2[0].List4[0].Li1[0].Button1[0]
+      type: checkbox
+      label: Button
+      required: false
+      width: full
+    - name: cblawyer5
+      pdf_field_name: DV-700[0].Page4[0].List5[0].Li1[0].cblawyer5[0]
+      type: text
+      label: Cblawyer
+      required: false
+      width: full
+    - name: sig_date
+      pdf_field_name: DV-700[0].Page4[0].List6[0].Li1[0].SigDate[0]
+      type: date
+      label: Sig Date
+      required: false
+      width: half
+    - name: your_name_tf
+      pdf_field_name: DV-700[0].Page4[0].List6[0].Li1[0].YourName_tf[0]
+      type: text
+      label: Your Name Tf
+      required: false
+      width: full
+    - name: sig_date_2
+      pdf_field_name: DV-700[0].Page4[0].List7[0].Li1[0].SigDate[0]
+      type: date
+      label: Sig Date
+      required: false
+      width: half
+    - name: tf14
+      pdf_field_name: DV-700[0].Page4[0].List7[0].Li1[0].TF14[0]
+      type: text
+      label: Tf
+      required: false
+      width: full
+  list4_cont:
+    title: List4 Cont
+    fields:
+    - name: check_box_right_caption3
+      pdf_field_name: DV-700[0].Page3[0].List4Cont[0].Li1[0].CheckBoxRightCaption3[0]
+      type: checkbox
+      label: Check Box Right Caption
+      required: false
+      width: full
+    - name: date_field1
+      pdf_field_name: DV-700[0].Page3[0].List4Cont[0].Li1[0].List[0].Li1[0].DateField1[0]
+      type: date
+      label: Date Field
+      required: false
+      width: half
+    - name: text_field2
+      pdf_field_name: DV-700[0].Page3[0].List4Cont[0].Li1[0].List[0].Li1[0].TextField2[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field9
+      pdf_field_name: DV-700[0].Page3[0].List4Cont[0].Li1[0].List[0].Li1[0].TextField9[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: yes_no4b_cb
+      pdf_field_name: DV-700[0].Page3[0].List4Cont[0].Li1[0].List[0].Li1[0].YesNo4b_cb[0]
+      type: text
+      label: Yes No4b Cb
+      required: false
+      width: full
+    - name: yes_no4b_cb_2
+      pdf_field_name: DV-700[0].Page3[0].List4Cont[0].Li1[0].List[0].Li1[0].YesNo4b_cb[1]
+      type: text
+      label: Yes No4b Cb
+      required: false
+      width: full
+    - name: yes_no4b_cb_2
+      pdf_field_name: DV-700[0].Page3[0].List4Cont[0].Li1[0].List[0].Li1[0].YesNo4b_cb[2]
+      type: text
+      label: Yes No4b Cb
+      required: false
+      width: full
+    - name: yes_no4b_cb_2
+      pdf_field_name: DV-700[0].Page3[0].List4Cont[0].Li1[0].List[0].Li1[0].YesNo4b_cb[3]
+      type: text
+      label: Yes No4b Cb
+      required: false
+      width: full
+    - name: text_field11
+      pdf_field_name: DV-700[0].Page3[0].List4Cont[0].Li1[0].List[0].Li1[0].TextField11[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field17
+      pdf_field_name: DV-700[0].Page3[0].List4Cont[0].Li1[0].List[0].Li1[0].TextField17[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: date_field2
+      pdf_field_name: DV-700[0].Page3[0].List4Cont[0].Li1[0].List[0].Li2[0].DateField2[0]
+      type: date
+      label: Date Field
+      required: false
+      width: half
+    - name: text_field19
+      pdf_field_name: DV-700[0].Page3[0].List4Cont[0].Li1[0].List[0].Li2[0].TextField19[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field20
+      pdf_field_name: DV-700[0].Page3[0].List4Cont[0].Li1[0].List[0].Li2[0].TextField20[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: yes_no4b2_cb
+      pdf_field_name: DV-700[0].Page3[0].List4Cont[0].Li1[0].List[0].Li2[0].YesNo4b2_cb[0]
+      type: text
+      label: Yes No4b2 Cb
+      required: false
+      width: full
+    - name: yes_no4b2_cb_2
+      pdf_field_name: DV-700[0].Page3[0].List4Cont[0].Li1[0].List[0].Li2[0].YesNo4b2_cb[1]
+      type: text
+      label: Yes No4b2 Cb
+      required: false
+      width: full
+    - name: yes_no4b2_cb_2
+      pdf_field_name: DV-700[0].Page3[0].List4Cont[0].Li1[0].List[0].Li2[0].YesNo4b2_cb[2]
+      type: text
+      label: Yes No4b2 Cb
+      required: false
+      width: full
+    - name: yes_no4b2_cb_2
+      pdf_field_name: DV-700[0].Page3[0].List4Cont[0].Li1[0].List[0].Li2[0].YesNo4b2_cb[3]
+      type: text
+      label: Yes No4b2 Cb
+      required: false
+      width: full
+    - name: text_field21
+      pdf_field_name: DV-700[0].Page3[0].List4Cont[0].Li1[0].List[0].Li2[0].TextField21[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field27
+      pdf_field_name: DV-700[0].Page3[0].List4Cont[0].Li1[0].List[0].Li2[0].TextField27[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: check_box_right_caption5
+      pdf_field_name: DV-700[0].Page3[0].List4Cont[0].Li2[0].CheckBoxRightCaption5[0]
+      type: checkbox
+      label: Check Box Right Caption
+      required: false
+      width: full
+    - name: text_field26
+      pdf_field_name: DV-700[0].Page3[0].List4Cont[0].Li2[0].TextField26[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: check_box_right_caption8
+      pdf_field_name: DV-700[0].Page3[0].List4Cont[0].Li2[0].CheckBoxRightCaption8[0]
+      type: checkbox
+      label: Check Box Right Caption
+      required: false
+      width: full
+  last_page:
+    title: Last Page
+    fields:
+    - name: print
+      pdf_field_name: DV-700[0].#pageSet[0].LastPage[0].Footer[0].Print[0]
+      type: checkbox
+      label: Print
+      required: false
+      width: full
+    - name: save
+      pdf_field_name: DV-700[0].#pageSet[0].LastPage[0].Footer[0].Save[0]
+      type: checkbox
+      label: Save
+      required: false
+      width: full
+    - name: reset
+      pdf_field_name: DV-700[0].#pageSet[0].LastPage[0].Footer[0].Reset[0]
+      type: checkbox
+      label: Reset
+      required: false
+      width: full
+    - name: warning
+      pdf_field_name: DV-700[0].#pageSet[0].LastPage[0].Footer[0].Warning[0]
+      type: checkbox
+      label: Warning
+      required: false
+      width: full
+  next_steps:
+    title: Next Steps
+    fields:
+    - name: dv710
+      pdf_field_name: DV-700[0].Page4[0].NextSteps[0].dv710[0]
+      type: checkbox
+      label: Dv
+      required: false
+      width: full
+    - name: ser001
+      pdf_field_name: DV-700[0].Page4[0].NextSteps[0].ser001[0]
+      type: checkbox
+      label: Ser
+      required: false
+      width: full
+    - name: button1_2
+      pdf_field_name: DV-700[0].Page4[0].NextSteps[0].Button1[0]
+      type: checkbox
+      label: Button
+      required: false
+      width: full

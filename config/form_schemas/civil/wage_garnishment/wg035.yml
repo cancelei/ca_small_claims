@@ -1,0 +1,143 @@
+---
+form:
+  code: WG-035
+  title: WG 035 Form
+  description: ''
+  category: civil/wage_garnishment
+  pdf_filename: wg035.pdf
+  fillable: true
+  instructions: ''
+sections:
+  general:
+    title: General
+    fields:
+    - name: info2
+      pdf_field_name: Atty.Info2
+      type: text
+      label: Info
+      required: false
+      width: full
+    - name: info3
+      pdf_field_name: Atty.Info3
+      type: text
+      label: Info
+      required: false
+      width: full
+    - name: info4
+      pdf_field_name: Atty.Info4
+      type: text
+      label: Info
+      required: false
+      width: full
+    - name: info1
+      pdf_field_name: Atty.Info1
+      type: text
+      label: Info
+      required: false
+      width: full
+    - name: tel
+      pdf_field_name: Tel
+      type: tel
+      label: Tel
+      required: false
+      width: half
+    - name: fax
+      pdf_field_name: Fax
+      type: tel
+      label: Fax
+      required: false
+      width: half
+    - name: for
+      pdf_field_name: Attorney.for
+      type: text
+      label: For
+      required: false
+      width: full
+    - name: county
+      pdf_field_name: Court.County
+      type: number
+      label: County
+      required: false
+      width: third
+    - name: street
+      pdf_field_name: Court.street
+      type: address
+      label: Street
+      required: false
+      width: full
+    - name: mailing
+      pdf_field_name: Court.mailing
+      type: address
+      label: Mailing
+      required: false
+      width: full
+    - name: branch
+      pdf_field_name: Court.branch
+      type: text
+      label: Branch
+      required: false
+      width: full
+    - name: plaintiff
+      pdf_field_name: Petitioner.plaintiff
+      type: text
+      label: Plaintiff
+      required: false
+      width: full
+    - name: defendant
+      pdf_field_name: Respondent.Defendant
+      type: text
+      label: Defendant
+      required: false
+      width: full
+    - name: email
+      pdf_field_name: email
+      type: email
+      label: Email
+      required: false
+      width: half
+    - name: case_number
+      pdf_field_name: CaseNumber
+      type: text
+      label: Case Number
+      required: false
+      width: full
+      shared_key: case:number
+    - name: ssn
+      pdf_field_name: SSN
+      type: text
+      label: Ssn
+      required: false
+      width: full
+    - name: received
+      pdf_field_name: Date.received
+      type: date
+      label: Received
+      required: false
+      width: half
+  city:
+    title: City
+    fields:
+    - name: zip
+      pdf_field_name: Court.City.zip
+      type: address
+      label: Zip
+      required: false
+      width: full
+  file:
+    title: File
+    fields:
+    - name: number
+      pdf_field_name: Levy.file.number
+      type: text
+      label: Number
+      required: false
+      width: full
+  debtor:
+    title: Debtor
+    fields:
+    - name: name
+      pdf_field_name: judgment.debtor.name
+      type: currency
+      label: Name
+      required: false
+      width: third

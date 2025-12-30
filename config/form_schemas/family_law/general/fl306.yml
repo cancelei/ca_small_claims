@@ -1,0 +1,410 @@
+---
+form:
+  code: FL-306
+  title: FL 306 Form
+  description: ''
+  category: family_law/general
+  pdf_filename: fl306.pdf
+  fillable: true
+  instructions: ''
+sections:
+  page_area:
+    title: Page Area
+    fields:
+    - name: button1
+      pdf_field_name: FL-306[0].#pageSet[0].PageArea1[0].footersub[0].Button1[0]
+      type: checkbox
+      label: Button
+      required: false
+      width: full
+  print:
+    title: Print
+    fields:
+    - name: print
+      pdf_field_name: FL-306[0].#pageSet[0].Page2[0].#area[0].Print[0]
+      type: checkbox
+      label: Print
+      required: false
+      width: full
+  save:
+    title: Save
+    fields:
+    - name: save
+      pdf_field_name: FL-306[0].#pageSet[0].Page2[0].#area[0].Save[0]
+      type: checkbox
+      label: Save
+      required: false
+      width: full
+  reset:
+    title: Reset
+    fields:
+    - name: reset
+      pdf_field_name: FL-306[0].#pageSet[0].Page2[0].#area[0].Reset[0]
+      type: checkbox
+      label: Reset
+      required: false
+      width: full
+  add_info:
+    title: Add Info
+    fields:
+    - name: bar_no_ft
+      pdf_field_name: FL-306[0].Page1[0].AddInfo[0].BarNo_ft[0]
+      type: text
+      label: Bar No Ft
+      required: false
+      width: full
+    - name: atty_name_ft
+      pdf_field_name: FL-306[0].Page1[0].AddInfo[0].AttyName_ft[0]
+      type: text
+      label: Atty Name Ft
+      required: false
+      width: full
+    - name: atty_firm_ft
+      pdf_field_name: FL-306[0].Page1[0].AddInfo[0].AttyFirm_ft[0]
+      type: text
+      label: Atty Firm Ft
+      required: false
+      width: full
+    - name: atty_street_ft
+      pdf_field_name: FL-306[0].Page1[0].AddInfo[0].AttyStreet_ft[0]
+      type: address
+      label: Atty Street Ft
+      required: false
+      width: full
+    - name: atty_city_ft
+      pdf_field_name: FL-306[0].Page1[0].AddInfo[0].AttyCity_ft[0]
+      type: address
+      label: Atty City Ft
+      required: false
+      width: full
+    - name: atty_state_ft
+      pdf_field_name: FL-306[0].Page1[0].AddInfo[0].AttyState_ft[0]
+      type: address
+      label: Atty State Ft
+      required: false
+      width: full
+    - name: atty_zip_ft
+      pdf_field_name: FL-306[0].Page1[0].AddInfo[0].AttyZip_ft[0]
+      type: address
+      label: Atty Zip Ft
+      required: false
+      width: full
+    - name: phone_ft
+      pdf_field_name: FL-306[0].Page1[0].AddInfo[0].Phone_ft[0]
+      type: tel
+      label: Phone Ft
+      required: false
+      width: half
+    - name: fax_ft
+      pdf_field_name: FL-306[0].Page1[0].AddInfo[0].Fax_ft[0]
+      type: tel
+      label: Fax Ft
+      required: false
+      width: half
+    - name: email_ft
+      pdf_field_name: FL-306[0].Page1[0].AddInfo[0].Email_ft[0]
+      type: email
+      label: Email Ft
+      required: false
+      width: half
+    - name: atty_for_ft
+      pdf_field_name: FL-306[0].Page1[0].AddInfo[0].AttyFor_ft[0]
+      type: text
+      label: Atty For Ft
+      required: false
+      width: full
+  court_info:
+    title: Court Info
+    fields:
+    - name: crt_county_ft
+      pdf_field_name: FL-306[0].Page1[0].CourtInfo[0].CrtCounty_ft[0]
+      type: number
+      label: Crt County Ft
+      required: false
+      width: third
+    - name: branch_ft
+      pdf_field_name: FL-306[0].Page1[0].CourtInfo[0].Branch_ft[0]
+      type: text
+      label: Branch Ft
+      required: false
+      width: full
+    - name: city_zip_ft
+      pdf_field_name: FL-306[0].Page1[0].CourtInfo[0].CityZip_ft[0]
+      type: address
+      label: City Zip Ft
+      required: false
+      width: full
+    - name: street_ft
+      pdf_field_name: FL-306[0].Page1[0].CourtInfo[0].Street_ft[0]
+      type: address
+      label: Street Ft
+      required: false
+      width: full
+    - name: mailing_add_ft
+      pdf_field_name: FL-306[0].Page1[0].CourtInfo[0].MailingAdd_ft[0]
+      type: address
+      label: Mailing Add Ft
+      required: false
+      width: full
+  title_party_name:
+    title: Title Party Name
+    fields:
+    - name: petitioner_ft
+      pdf_field_name: FL-306[0].Page1[0].TitlePartyName[0].Petitioner_ft[0]
+      type: text
+      label: Petitioner Ft
+      required: false
+      width: full
+      shared_key: petitioner:name
+    - name: respondent_ft
+      pdf_field_name: FL-306[0].Page1[0].TitlePartyName[0].Respondent_ft[0]
+      type: text
+      label: Respondent Ft
+      required: false
+      width: full
+      shared_key: respondent:name
+    - name: other_parent_party_ft
+      pdf_field_name: FL-306[0].Page1[0].TitlePartyName[0].OtherParentParty_ft[0]
+      type: currency
+      label: Other Parent Party Ft
+      required: false
+      width: third
+  case_number:
+    title: Case Number
+    fields:
+    - name: case_number_ft
+      pdf_field_name: FL-306[0].Page1[0].CaseNumber[0].CaseNumber_ft[0]
+      type: text
+      label: Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+  form_fl304_info:
+    title: Form Fl304 Info
+    fields:
+    - name: form_fl304info
+      pdf_field_name: FL-306[0].Page1[0].formFL304Info[0]
+      type: checkbox
+      label: Form Fl304 Info
+      required: false
+      width: full
+  form_dv115_info:
+    title: Form Dv115 Info
+    fields:
+    - name: form_dv115info
+      pdf_field_name: FL-306[0].Page1[0].formDV115Info[0]
+      type: checkbox
+      label: Form Dv115 Info
+      required: false
+      width: full
+  list:
+    title: List
+    fields:
+    - name: t58
+      pdf_field_name: FL-306[0].Page1[0].List1[0].T58[0]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: rfo_cb1
+      pdf_field_name: FL-306[0].Page1[0].List1[0].Li1[0].RFO_cb1[0]
+      type: text
+      label: Rfo Cb
+      required: false
+      width: full
+    - name: rfo_cb2
+      pdf_field_name: FL-306[0].Page1[0].List1[0].Li2[0].RFO_cb2[0]
+      type: text
+      label: Rfo Cb
+      required: false
+      width: full
+    - name: item2abc
+      pdf_field_name: FL-306[0].Page1[0].List2[0].Li1[0].item2abc[0]
+      type: text
+      label: Item2abc
+      required: false
+      width: full
+    - name: specify_rfo_ft
+      pdf_field_name: FL-306[0].Page1[0].List2[0].Li1[0].SpecifyRFO_ft[0]
+      type: text
+      label: Specify Rfo Ft
+      required: false
+      width: full
+    - name: item2abc_2
+      pdf_field_name: FL-306[0].Page1[0].List2[0].Li2[0].item2abc[0]
+      type: text
+      label: Item2abc
+      required: false
+      width: full
+    - name: contempt_cb
+      pdf_field_name: FL-306[0].Page1[0].List2[0].Li2[0].Contempt_cb[0]
+      type: text
+      label: Contempt Cb
+      required: false
+      width: full
+    - name: seek_work_cb
+      pdf_field_name: FL-306[0].Page1[0].List2[0].Li2[0].SeekWork_cb[0]
+      type: text
+      label: Seek Work Cb
+      required: false
+      width: full
+    - name: item2abc_2
+      pdf_field_name: FL-306[0].Page1[0].List2[0].Li3[0].item2abc[0]
+      type: text
+      label: Item2abc
+      required: false
+      width: full
+    - name: nameof_osc_ft
+      pdf_field_name: FL-306[0].Page1[0].List2[0].Li3[0].NameofOSC_ft[0]
+      type: text
+      label: Nameof Osc Ft
+      required: false
+      width: full
+    - name: filing_date_dt
+      pdf_field_name: FL-306[0].Page1[0].List3[0].Li1[0].FilingDate_dt[0]
+      type: date
+      label: Filing Date Dt
+      required: false
+      width: half
+      shared_key: filing:date
+    - name: current_hearing_date_ft
+      pdf_field_name: FL-306[0].Page1[0].List4[0].Li1[0].CurrentHearingDate_ft[0]
+      type: date
+      label: Current Hearing Date Ft
+      required: false
+      width: half
+    - name: noservicebeforehearing_cb
+      pdf_field_name: FL-306[0].Page1[0].List6[0].Li1[0].Noservicebeforehearing_cb[0]
+      type: text
+      label: Noservicebeforehearing Cb
+      required: false
+      width: full
+    - name: nameof_osc_ft_2
+      pdf_field_name: FL-306[0].Page1[0].List6[0].Li1[0].NameofOSC_ft[0]
+      type: text
+      label: Nameof Osc Ft
+      required: false
+      width: full
+    - name: other_specify_cb
+      pdf_field_name: FL-306[0].Page1[0].List6[0].Li2[0].Other_specify_cb[0]
+      type: text
+      label: Other Specify Cb
+      required: false
+      width: full
+    - name: other_reason_ft
+      pdf_field_name: FL-306[0].Page1[0].List6[0].Li2[0].OtherReason_ft[0]
+      type: text
+      label: Other Reason Ft
+      required: false
+      width: full
+    - name: other_reason_ft_cont
+      pdf_field_name: FL-306[0].Page1[0].List6[0].Li2[0].OtherReason_ftCont[0]
+      type: text
+      label: Other Reason Ft Cont
+      required: false
+      width: full
+    - name: other_specify_cb_2
+      pdf_field_name: FL-306[0].Page1[0].List6[0].Li3[0].Other_specify_cb[0]
+      type: text
+      label: Other Specify Cb
+      required: false
+      width: full
+    - name: other_reason_ft_2
+      pdf_field_name: FL-306[0].Page1[0].List6[0].Li3[0].OtherReason_ft[0]
+      type: text
+      label: Other Reason Ft
+      required: false
+      width: full
+    - name: other_reason_ft_cont_2
+      pdf_field_name: FL-306[0].Page1[0].List6[0].Li3[0].OtherReason_ftCont[0]
+      type: text
+      label: Other Reason Ft Cont
+      required: false
+      width: full
+    - name: noservicebeforehearing_cb_2
+      pdf_field_name: FL-306[0].Page1[0].List7[0].Li1[0].Noservicebeforehearing_cb[0]
+      type: text
+      label: Noservicebeforehearing Cb
+      required: false
+      width: full
+    - name: mediation_referral_cb
+      pdf_field_name: FL-306[0].Page1[0].List7[0].Li2[0].MediationReferral_cb[0]
+      type: text
+      label: Mediation Referral Cb
+      required: false
+      width: full
+    - name: other_specify_cb_2
+      pdf_field_name: FL-306[0].Page1[0].List7[0].Li3[0].Other_specify_cb[0]
+      type: text
+      label: Other Specify Cb
+      required: false
+      width: full
+    - name: good_cause_where_cb
+      pdf_field_name: FL-306[0].Page1[0].List7[0].Li3[0].GoodCauseWhere_cb[0]
+      type: text
+      label: Good Cause Where Cb
+      required: false
+      width: full
+    - name: checkbox
+      pdf_field_name: FL-306[0].Page1[0].List7[0].Li3[0].Checkbox[0]
+      type: checkbox
+      label: Checkbox
+      required: false
+      width: full
+    - name: mc025
+      pdf_field_name: FL-306[0].Page1[0].List7[0].Li3[0].MC025[0]
+      type: checkbox
+      label: Mc
+      required: false
+      width: full
+    - name: other_reason_ft_2
+      pdf_field_name: FL-306[0].Page1[0].List7[0].Li3[0].OtherReason_ft[0]
+      type: text
+      label: Other Reason Ft
+      required: false
+      width: full
+  captionsub:
+    title: Captionsub
+    fields:
+    - name: petitioner_ft_2
+      pdf_field_name: FL-306[0].Page2[0].Captionsub[0].TitlePartyName[0].Petitioner_ft[0]
+      type: text
+      label: Petitioner Ft
+      required: false
+      width: full
+      shared_key: petitioner:name
+    - name: respondent_ft_2
+      pdf_field_name: FL-306[0].Page2[0].Captionsub[0].TitlePartyName[0].Respondent_ft[0]
+      type: text
+      label: Respondent Ft
+      required: false
+      width: full
+      shared_key: respondent:name
+    - name: other_parent_party_ft_2
+      pdf_field_name: FL-306[0].Page2[0].Captionsub[0].TitlePartyName[0].OtherParentParty_ft[0]
+      type: currency
+      label: Other Parent Party Ft
+      required: false
+      width: third
+    - name: case_number_ft_2
+      pdf_field_name: FL-306[0].Page2[0].Captionsub[0].CaseNumber[0].CaseNumber_ft[0]
+      type: text
+      label: Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+  signsub:
+    title: Signsub
+    fields:
+    - name: date_time_field1
+      pdf_field_name: FL-306[0].Page2[0].Signsub[0].DateTimeField1[0]
+      type: date
+      label: Date Time Field
+      required: false
+      width: half
+    - name: your_name_ft
+      pdf_field_name: FL-306[0].Page2[0].Signsub[0].YourName_ft[0]
+      type: text
+      label: Your Name Ft
+      required: false
+      width: full

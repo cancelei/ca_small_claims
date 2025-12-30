@@ -1,0 +1,172 @@
+---
+form:
+  code: JV-692
+  title: JV 692 Form
+  description: ''
+  category: juvenile/general
+  pdf_filename: jv692.pdf
+  fillable: true
+  instructions: ''
+sections:
+  page_area:
+    title: Page Area
+    fields:
+    - name: print
+      pdf_field_name: JV-692[0].#pageSet[0].PageArea1[0].FooterButtons[0].Print[0]
+      type: checkbox
+      label: Print
+      required: false
+      width: full
+    - name: save
+      pdf_field_name: JV-692[0].#pageSet[0].PageArea1[0].FooterButtons[0].Save[0]
+      type: checkbox
+      label: Save
+      required: false
+      width: full
+    - name: reset
+      pdf_field_name: JV-692[0].#pageSet[0].PageArea1[0].FooterButtons[0].Reset[0]
+      type: checkbox
+      label: Reset
+      required: false
+      width: full
+    - name: warning
+      pdf_field_name: JV-692[0].#pageSet[0].PageArea1[0].FooterButtons[0].Warning[0]
+      type: checkbox
+      label: Warning
+      required: false
+      width: full
+  court:
+    title: Court
+    fields:
+    - name: crt_mailing_add
+      pdf_field_name: JV-692[0].Page1[0].Court[0].CourtSub[0].CrtMailingAdd[0]
+      type: address
+      label: Crt Mailing Add
+      required: false
+      width: full
+    - name: crt_mailing
+      pdf_field_name: JV-692[0].Page1[0].Court[0].CourtSub[0].CrtMailing[0]
+      type: address
+      label: Crt Mailing
+      required: false
+      width: full
+    - name: crt_city_zip
+      pdf_field_name: JV-692[0].Page1[0].Court[0].CourtSub[0].CrtCityZip[0]
+      type: address
+      label: Crt City Zip
+      required: false
+      width: full
+    - name: crt_branch
+      pdf_field_name: JV-692[0].Page1[0].Court[0].CourtSub[0].CrtBranch[0]
+      type: text
+      label: Crt Branch
+      required: false
+      width: full
+  sheriff:
+    title: Sheriff
+    fields:
+    - name: crt_mailing_add_2
+      pdf_field_name: JV-692[0].Page1[0].Sheriff[0].SherriffSub[0].CrtMailingAdd[0]
+      type: address
+      label: Crt Mailing Add
+      required: false
+      width: full
+    - name: crt_city_zip_2
+      pdf_field_name: JV-692[0].Page1[0].Sheriff[0].SherriffSub[0].CrtCityZip[0]
+      type: address
+      label: Crt City Zip
+      required: false
+      width: full
+    - name: crt_mailing_add_2
+      pdf_field_name: JV-692[0].Page1[0].Sheriff[0].SherriffSub[0].CrtMailingAdd[1]
+      type: address
+      label: Crt Mailing Add
+      required: false
+      width: full
+  notify_sub:
+    title: Notify Sub
+    fields:
+    - name: choice1
+      pdf_field_name: JV-692[0].Page1[0].NotifySub[0].Choice1[0]
+      type: text
+      label: Choice
+      required: false
+      width: full
+    - name: choice2
+      pdf_field_name: JV-692[0].Page1[0].NotifySub[0].Choice2[0]
+      type: text
+      label: Choice
+      required: false
+      width: full
+    - name: choice3
+      pdf_field_name: JV-692[0].Page1[0].NotifySub[0].Choice3[0]
+      type: text
+      label: Choice
+      required: false
+      width: full
+  court_order:
+    title: Court Order
+    fields:
+    - name: wardship_prob
+      pdf_field_name: JV-692[0].Page1[0].CourtOrder[0].WardshipProb[0]
+      type: text
+      label: Wardship Prob
+      required: false
+      width: full
+    - name: wardship_prob_2
+      pdf_field_name: JV-692[0].Page1[0].CourtOrder[0].WardshipProb[1]
+      type: text
+      label: Wardship Prob
+      required: false
+      width: full
+    - name: wardship_prob_2
+      pdf_field_name: JV-692[0].Page1[0].CourtOrder[0].WardshipProb[2]
+      type: text
+      label: Wardship Prob
+      required: false
+      width: full
+    - name: check_box6
+      pdf_field_name: JV-692[0].Page1[0].CourtOrder[0].CheckBox6[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: fill_text1
+      pdf_field_name: JV-692[0].Page1[0].CourtOrder[0].FillText1[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: sig_date
+      pdf_field_name: JV-692[0].Page1[0].CourtOrder[0].SigDate[0]
+      type: date
+      label: Sig Date
+      required: false
+      width: half
+    - name: clerk
+      pdf_field_name: JV-692[0].Page1[0].CourtOrder[0].clerk[0]
+      type: text
+      label: Clerk
+      required: false
+      width: full
+  attention_sub:
+    title: Attention Sub
+    fields:
+    - name: party1
+      pdf_field_name: JV-692[0].Page1[0].AttentionSub[0].Party1[0]
+      type: text
+      label: Party
+      required: false
+      width: full
+    - name: dob
+      pdf_field_name: JV-692[0].Page1[0].AttentionSub[0].DOB[0]
+      type: date
+      label: Dob
+      required: false
+      width: half
+    - name: t60
+      pdf_field_name: JV-692[0].Page1[0].AttentionSub[0].T60[0]
+      type: text
+      label: T
+      required: false
+      width: full

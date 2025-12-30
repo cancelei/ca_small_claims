@@ -1,0 +1,275 @@
+---
+form:
+  code: JV-450
+  title: JV 450 Form
+  description: ''
+  category: juvenile/general
+  pdf_filename: jv450.pdf
+  fillable: true
+  instructions: ''
+sections:
+  general:
+    title: General
+    fields:
+    - name: privacy_notice_header
+      pdf_field_name: Privacy Notice header
+      type: text
+      label: Privacy Notice Header
+      required: false
+      width: full
+    - name: court_city_zip
+      pdf_field_name: CourtCityZip
+      type: address
+      label: Court City Zip
+      required: false
+      width: full
+    - name: court_branch
+      pdf_field_name: CourtBranch
+      type: text
+      label: Court Branch
+      required: false
+      width: full
+    - name: name
+      pdf_field_name: Case.Name
+      type: text
+      label: Name
+      required: false
+      width: full
+    - name: case
+      pdf_field_name: Case
+      type: text
+      label: Case
+      required: false
+      width: full
+    - name: case_number
+      pdf_field_name: CaseNumber
+      type: text
+      label: Case Number
+      required: false
+      width: full
+      shared_key: case:number
+    - name: check_box00
+      pdf_field_name: CheckBox00.2
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box00_2
+      pdf_field_name: CheckBox00.1
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box00_2
+      pdf_field_name: CheckBox00.3
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: time
+      pdf_field_name: 01hearing.time
+      type: text
+      label: Time
+      required: false
+      width: full
+    - name: check_box11
+      pdf_field_name: CheckBox11
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box01
+      pdf_field_name: CheckBox01.2
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box01_2
+      pdf_field_name: CheckBox01.3
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box01_2
+      pdf_field_name: CheckBox01.1
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: a
+      pdf_field_name: CheckBox02.a
+      type: checkbox
+      label: A
+      required: false
+      width: full
+    - name: c
+      pdf_field_name: CheckBox02.c
+      type: checkbox
+      label: C
+      required: false
+      width: full
+    - name: b
+      pdf_field_name: CheckBox02.b
+      type: checkbox
+      label: B
+      required: false
+      width: full
+    - name: institution
+      pdf_field_name: 04.institution
+      type: text
+      label: Institution
+      required: false
+      width: full
+    - name: c_2
+      pdf_field_name: CheckBox04.c
+      type: checkbox
+      label: C
+      required: false
+      width: full
+    - name: b_2
+      pdf_field_name: CheckBox04.b
+      type: checkbox
+      label: B
+      required: false
+      width: full
+    - name: d
+      pdf_field_name: CheckBox04.d
+      type: checkbox
+      label: D
+      required: false
+      width: full
+    - name: date_2
+      pdf_field_name: Date
+      type: date
+      label: Date
+      required: false
+      width: half
+    - name: attorney01
+      pdf_field_name: Attorney01
+      type: text
+      label: Attorney
+      required: false
+      width: full
+    - name: attorney02
+      pdf_field_name: Attorney02
+      type: text
+      label: Attorney
+      required: false
+      width: full
+    - name: attorney03
+      pdf_field_name: Attorney03
+      type: text
+      label: Attorney
+      required: false
+      width: full
+    - name: attorney04
+      pdf_field_name: Attorney04
+      type: text
+      label: Attorney
+      required: false
+      width: full
+    - name: telephone
+      pdf_field_name: Telephone
+      type: tel
+      label: Telephone
+      required: false
+      width: half
+    - name: fax
+      pdf_field_name: Fax
+      type: tel
+      label: Fax
+      required: false
+      width: half
+    - name: email
+      pdf_field_name: Email
+      type: email
+      label: Email
+      required: false
+      width: half
+    - name: client_name
+      pdf_field_name: ClientName
+      type: text
+      label: Client Name
+      required: false
+      width: full
+    - name: court_county
+      pdf_field_name: CourtCounty
+      type: number
+      label: Court County
+      required: false
+      width: third
+    - name: court_street
+      pdf_field_name: CourtStreet
+      type: address
+      label: Court Street
+      required: false
+      width: full
+    - name: court_mail
+      pdf_field_name: CourtMail
+      type: text
+      label: Court Mail
+      required: false
+      width: full
+  hearing:
+    title: Hearing
+    fields:
+    - name: department
+      pdf_field_name: 01.hearing.department
+      type: text
+      label: Department
+      required: false
+      width: full
+    - name: room
+      pdf_field_name: 01.hearing.room
+      type: text
+      label: Room
+      required: false
+      width: full
+    - name: tel
+      pdf_field_name: 01.hearing.tel
+      type: tel
+      label: Tel
+      required: false
+      width: half
+    - name: date
+      pdf_field_name: 01.hearing.date
+      type: date
+      label: Date
+      required: false
+      width: half
+  childrens:
+    title: Childrens
+    fields:
+    - name: names
+      pdf_field_name: 01.childrens.names
+      type: text
+      label: Names
+      required: false
+      width: full
+  other:
+    title: Other
+    fields:
+    - name: address
+      pdf_field_name: 01.other.address
+      type: address
+      label: Address
+      required: false
+      width: full
+  c:
+    title: C
+    fields:
+    - name: other
+      pdf_field_name: 02.c.other
+      type: text
+      label: Other
+      required: false
+      width: full
+  name:
+    title: Name
+    fields:
+    - name: id
+      pdf_field_name: 04.name.id
+      type: text
+      label: Id
+      required: false
+      width: full

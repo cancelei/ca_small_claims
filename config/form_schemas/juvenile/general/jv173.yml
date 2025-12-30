@@ -1,0 +1,792 @@
+---
+form:
+  code: JV-173
+  title: JV 173 Form
+  description: ''
+  category: juvenile/general
+  pdf_filename: jv173.pdf
+  fillable: true
+  instructions: ''
+sections:
+  courtinfo:
+    title: Courtinfo
+    fields:
+    - name: court_info
+      pdf_field_name: JV-173[0].Page1[0].courtinfo[0].CourtInfo[0]
+      type: text
+      label: Court Info
+      required: false
+      width: full
+    - name: name
+      pdf_field_name: JV-173[0].Page1[0].courtinfo[0].name[0]
+      type: text
+      label: Name
+      required: false
+      width: full
+      shared_key: court:name
+    - name: namedob
+      pdf_field_name: JV-173[0].Page1[0].courtinfo[0].namedob[0]
+      type: text
+      label: Namedob
+      required: false
+      width: full
+      shared_key: court:name
+    - name: case_number
+      pdf_field_name: JV-173[0].Page1[0].courtinfo[0].CaseNumber[0]
+      type: text
+      label: Case Number
+      required: false
+      width: full
+      shared_key: case:number
+  item:
+    title: Item
+    fields:
+    - name: sig_date
+      pdf_field_name: JV-173[0].Page1[0].item1[0].SigDate[0]
+      type: date
+      label: Sig Date
+      required: false
+      width: half
+    - name: attime1
+      pdf_field_name: JV-173[0].Page1[0].item1[0].attime1[0]
+      type: text
+      label: Attime
+      required: false
+      width: full
+    - name: full_name
+      pdf_field_name: JV-173[0].Page1[0].item1[0].FullName[0]
+      type: text
+      label: Full Name
+      required: false
+      width: full
+    - name: text_field6
+      pdf_field_name: JV-173[0].Page1[0].item1[0].TextField6[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+  full_name:
+    title: Full Name
+    fields:
+    - name: full_name_2
+      pdf_field_name: JV-173[0].Page1[0].FullName[0]
+      type: text
+      label: Full Name
+      required: false
+      width: full
+  parent2a:
+    title: Parent2a
+    fields:
+    - name: parent2a
+      pdf_field_name: JV-173[0].Page1[0].parent2a[0]
+      type: currency
+      label: Parent2a
+      required: false
+      width: third
+  inperson:
+    title: Inperson
+    fields:
+    - name: inperson2
+      pdf_field_name: JV-173[0].Page1[0].inperson2[0]
+      type: text
+      label: Inperson
+      required: false
+      width: full
+  byphone:
+    title: Byphone
+    fields:
+    - name: byphone2
+      pdf_field_name: JV-173[0].Page1[0].byphone2[0]
+      type: tel
+      label: Byphone
+      required: false
+      width: half
+  specify:
+    title: Specify
+    fields:
+    - name: specify2
+      pdf_field_name: JV-173[0].Page1[0].specify2[0]
+      type: text
+      label: Specify
+      required: false
+      width: full
+  date2a:
+    title: Date2a
+    fields:
+    - name: date2a
+      pdf_field_name: JV-173[0].Page1[0].date2a[0]
+      type: date
+      label: Date2a
+      required: false
+      width: half
+  parentlegal2:
+    title: Parentlegal2\
+    fields:
+    - name: b
+      pdf_field_name: JV-173[0].Page1[0].parentlegal2\.b[0]
+      type: currency
+      label: B
+      required: false
+      width: third
+  inperson2b:
+    title: Inperson2b
+    fields:
+    - name: inperson2b
+      pdf_field_name: JV-173[0].Page1[0].inperson2b[0]
+      type: text
+      label: Inperson2b
+      required: false
+      width: full
+  byphone2:
+    title: Byphone2\
+    fields:
+    - name: byphone2_2
+      pdf_field_name: JV-173[0].Page1[0].byphone2\.2[0]
+      type: tel
+      label: Byphone2\
+      required: false
+      width: half
+    - name: c
+      pdf_field_name: JV-173[0].Page1[0].byphone2\.c[0]
+      type: tel
+      label: C
+      required: false
+      width: half
+    - name: d
+      pdf_field_name: JV-173[0].Page1[0].byphone2\.d[0]
+      type: tel
+      label: D
+      required: false
+      width: half
+  specify2:
+    title: Specify2\
+    fields:
+    - name: b2
+      pdf_field_name: JV-173[0].Page1[0].specify2\.b2[0]
+      type: text
+      label: B
+      required: false
+      width: full
+    - name: c_2
+      pdf_field_name: JV-173[0].Page1[0].specify2\.c[0]
+      type: text
+      label: C
+      required: false
+      width: full
+    - name: d_2
+      pdf_field_name: JV-173[0].Page1[0].specify2\.d\.d[0]
+      type: text
+      label: D
+      required: false
+      width: full
+    - name: e
+      pdf_field_name: JV-173[0].Page1[0].specify2\.e[0]
+      type: text
+      label: E
+      required: false
+      width: full
+  name2b:
+    title: Name2b
+    fields:
+    - name: name2b
+      pdf_field_name: JV-173[0].Page1[0].name2b[0]
+      type: text
+      label: Name2b
+      required: false
+      width: full
+  date2:
+    title: Date2\
+    fields:
+    - name: b_2
+      pdf_field_name: JV-173[0].Page1[0].date2\.b[0]
+      type: date
+      label: B
+      required: false
+      width: half
+    - name: c_2
+      pdf_field_name: JV-173[0].Page1[0].date2\.c[0]
+      type: date
+      label: C
+      required: false
+      width: half
+  attorney2:
+    title: Attorney2\
+    fields:
+    - name: c_2
+      pdf_field_name: JV-173[0].Page1[0].attorney2\.c[0]
+      type: text
+      label: C
+      required: false
+      width: full
+  inperson2:
+    title: Inperson2\
+    fields:
+    - name: c1
+      pdf_field_name: JV-173[0].Page1[0].inperson2\.c1[0]
+      type: text
+      label: C
+      required: false
+      width: full
+    - name: d_2
+      pdf_field_name: JV-173[0].Page1[0].inperson2\.d[0]
+      type: text
+      label: D
+      required: false
+      width: full
+  name2c:
+    title: Name2c
+    fields:
+    - name: name2c
+      pdf_field_name: JV-173[0].Page1[0].name2c[0]
+      type: text
+      label: Name2c
+      required: false
+      width: full
+  attorny:
+    title: Attorny\
+    fields:
+    - name: d_2
+      pdf_field_name: JV-173[0].Page1[0].attorny\.d[0]
+      type: text
+      label: D
+      required: false
+      width: full
+  date:
+    title: Date\
+    fields:
+    - name: d_2
+      pdf_field_name: JV-173[0].Page1[0].date\.d[0]
+      type: date
+      label: D
+      required: false
+      width: half
+  name2:
+    title: Name2\
+    fields:
+    - name: d_2
+      pdf_field_name: JV-173[0].Page1[0].name2\.d[0]
+      type: text
+      label: D
+      required: false
+      width: full
+  name:
+    title: Name\
+    fields:
+    - name: e_2
+      pdf_field_name: JV-173[0].Page1[0].name\.2\.e[0]
+      type: text
+      label: E
+      required: false
+      width: full
+  child2e:
+    title: Child2e
+    fields:
+    - name: child2e
+      pdf_field_name: JV-173[0].Page1[0].child2e[0]
+      type: text
+      label: Child2e
+      required: false
+      width: full
+  sig_date:
+    title: Sig Date
+    fields:
+    - name: sig_date_2
+      pdf_field_name: JV-173[0].Page1[0].SigDate[0]
+      type: date
+      label: Sig Date
+      required: false
+      width: half
+  inpersoncb:
+    title: Inpersoncb
+    fields:
+    - name: inpersoncb1
+      pdf_field_name: JV-173[0].Page1[0].inpersoncb1[0]
+      type: text
+      label: Inpersoncb
+      required: false
+      width: full
+  check_box_right_caption:
+    title: Check Box Right Caption
+    fields:
+    - name: check_box_right_caption
+      pdf_field_name: JV-173[0].Page1[0].CheckBoxRightCaption[0]
+      type: checkbox
+      label: Check Box Right Caption
+      required: false
+      width: full
+  headerpg:
+    title: Headerpg
+    fields:
+    - name: case_number_2
+      pdf_field_name: JV-173[0].Page2[0].headerpg2[0].PxCaption[0].CaseNumber[0]
+      type: text
+      label: Case Number
+      required: false
+      width: full
+      shared_key: case:number
+  item1fo:
+    title: Item1fo
+    fields:
+    - name: h
+      pdf_field_name: JV-173[0].Page2[0].item1fo[0].attoney2\.h[0]
+      type: text
+      label: H
+      required: false
+      width: full
+    - name: h_2
+      pdf_field_name: JV-173[0].Page2[0].item1fo[0].inperson2\.h\.1[0]
+      type: text
+      label: H\
+      required: false
+      width: full
+    - name: i
+      pdf_field_name: JV-173[0].Page2[0].item1fo[0].inperson2\.i\.1[0]
+      type: text
+      label: I\
+      required: false
+      width: full
+    - name: l
+      pdf_field_name: JV-173[0].Page2[0].item1fo[0].inperson2\.l[0]
+      type: text
+      label: L
+      required: false
+      width: full
+    - name: m
+      pdf_field_name: JV-173[0].Page2[0].item1fo[0].inperson2\.m\.1[0]
+      type: text
+      label: M\
+      required: false
+      width: full
+    - name: "n"
+      pdf_field_name: JV-173[0].Page2[0].item1fo[0].inperson2\.n\.1[0]
+      type: text
+      label: N\
+      required: false
+      width: full
+    - name: g
+      pdf_field_name: JV-173[0].Page2[0].item1fo[0].inperson2\.g\.1[0]
+      type: text
+      label: G\
+      required: false
+      width: full
+    - name: f
+      pdf_field_name: JV-173[0].Page2[0].item1fo[0].inperson2\.f[0]
+      type: text
+      label: F
+      required: false
+      width: full
+    - name: o
+      pdf_field_name: JV-173[0].Page2[0].item1fo[0].inperson2\.o\.1[0]
+      type: text
+      label: O\
+      required: false
+      width: full
+    - name: h_2
+      pdf_field_name: JV-173[0].Page2[0].item1fo[0].byphone2\.h\.2[0]
+      type: tel
+      label: H\
+      required: false
+      width: half
+    - name: l_2
+      pdf_field_name: JV-173[0].Page2[0].item1fo[0].byphone2\.l\.2[0]
+      type: tel
+      label: L\
+      required: false
+      width: half
+    - name: m_2
+      pdf_field_name: JV-173[0].Page2[0].item1fo[0].byphone2\.m\.2[0]
+      type: tel
+      label: M\
+      required: false
+      width: half
+    - name: n_2
+      pdf_field_name: JV-173[0].Page2[0].item1fo[0].byphone2\.n\.2[0]
+      type: tel
+      label: N\
+      required: false
+      width: half
+    - name: g_2
+      pdf_field_name: JV-173[0].Page2[0].item1fo[0].byphone2\.g\.2[0]
+      type: tel
+      label: G\
+      required: false
+      width: half
+    - name: f_2
+      pdf_field_name: JV-173[0].Page2[0].item1fo[0].byphone2\.f\.2[0]
+      type: tel
+      label: F\
+      required: false
+      width: half
+    - name: specify2_2
+      pdf_field_name: JV-173[0].Page2[0].item1fo[0].specify2\.2[0]
+      type: text
+      label: Specify2\
+      required: false
+      width: full
+    - name: i_2
+      pdf_field_name: JV-173[0].Page2[0].item1fo[0].specify2\.i[0]
+      type: text
+      label: I
+      required: false
+      width: full
+    - name: j
+      pdf_field_name: JV-173[0].Page2[0].item1fo[0].specify2\.j\.2[0]
+      type: text
+      label: J\
+      required: false
+      width: full
+    - name: k
+      pdf_field_name: JV-173[0].Page2[0].item1fo[0].specify2\.k[0]
+      type: text
+      label: K
+      required: false
+      width: full
+    - name: l_2
+      pdf_field_name: JV-173[0].Page2[0].item1fo[0].specify2\.l\.2[0]
+      type: text
+      label: L\
+      required: false
+      width: full
+    - name: m_2
+      pdf_field_name: JV-173[0].Page2[0].item1fo[0].specify2\.m\.2[0]
+      type: text
+      label: M\
+      required: false
+      width: full
+    - name: n_2
+      pdf_field_name: JV-173[0].Page2[0].item1fo[0].specify2\.n\.2[0]
+      type: text
+      label: N\
+      required: false
+      width: full
+    - name: g_2
+      pdf_field_name: JV-173[0].Page2[0].item1fo[0].specify2\.g\.2[0]
+      type: text
+      label: G\
+      required: false
+      width: full
+    - name: f_2
+      pdf_field_name: JV-173[0].Page2[0].item1fo[0].specify2\.f\.2[0]
+      type: text
+      label: F\
+      required: false
+      width: full
+    - name: o_2
+      pdf_field_name: JV-173[0].Page2[0].item1fo[0].specify2\.o\.2[0]
+      type: text
+      label: O\
+      required: false
+      width: full
+    - name: i_2
+      pdf_field_name: JV-173[0].Page2[0].item1fo[0].name2\.i[0]
+      type: text
+      label: I
+      required: false
+      width: full
+    - name: j_2
+      pdf_field_name: JV-173[0].Page2[0].item1fo[0].name2\.j[0]
+      type: text
+      label: J
+      required: false
+      width: full
+    - name: k_2
+      pdf_field_name: JV-173[0].Page2[0].item1fo[0].name2\.k[0]
+      type: text
+      label: K
+      required: false
+      width: full
+    - name: l_2
+      pdf_field_name: JV-173[0].Page2[0].item1fo[0].name2\.l[0]
+      type: text
+      label: L
+      required: false
+      width: full
+    - name: m_2
+      pdf_field_name: JV-173[0].Page2[0].item1fo[0].name2\.m[0]
+      type: text
+      label: M
+      required: false
+      width: full
+    - name: n_2
+      pdf_field_name: JV-173[0].Page2[0].item1fo[0].name2\.n[0]
+      type: text
+      label: "N"
+      required: false
+      width: full
+    - name: g_2
+      pdf_field_name: JV-173[0].Page2[0].item1fo[0].name2\.g[0]
+      type: text
+      label: G
+      required: false
+      width: full
+    - name: h_2
+      pdf_field_name: JV-173[0].Page2[0].item1fo[0].name2\.h[0]
+      type: text
+      label: H
+      required: false
+      width: full
+    - name: i_2
+      pdf_field_name: JV-173[0].Page2[0].item1fo[0].thecourt2\.i[0]
+      type: text
+      label: I
+      required: false
+      width: full
+    - name: i_2
+      pdf_field_name: JV-173[0].Page2[0].item1fo[0].date2\.i[0]
+      type: date
+      label: I
+      required: false
+      width: half
+    - name: j_2
+      pdf_field_name: JV-173[0].Page2[0].item1fo[0].date2\.j[0]
+      type: date
+      label: J
+      required: false
+      width: half
+    - name: k_2
+      pdf_field_name: JV-173[0].Page2[0].item1fo[0].date2\.k[0]
+      type: date
+      label: K
+      required: false
+      width: half
+    - name: l_2
+      pdf_field_name: JV-173[0].Page2[0].item1fo[0].date2\.l[0]
+      type: date
+      label: L
+      required: false
+      width: half
+    - name: m_2
+      pdf_field_name: JV-173[0].Page2[0].item1fo[0].date2\.m[0]
+      type: date
+      label: M
+      required: false
+      width: half
+    - name: n_2
+      pdf_field_name: JV-173[0].Page2[0].item1fo[0].date2\.n[0]
+      type: date
+      label: "N"
+      required: false
+      width: half
+    - name: g_2
+      pdf_field_name: JV-173[0].Page2[0].item1fo[0].date2\.g[0]
+      type: date
+      label: G
+      required: false
+      width: half
+    - name: f_2
+      pdf_field_name: JV-173[0].Page2[0].item1fo[0].date2\.f[0]
+      type: date
+      label: F
+      required: false
+      width: half
+    - name: byphone
+      pdf_field_name: JV-173[0].Page2[0].item1fo[0].byphone\.2[0]
+      type: tel
+      label: Byphone\
+      required: false
+      width: half
+    - name: j_2
+      pdf_field_name: JV-173[0].Page2[0].item1fo[0].byphone\.j\.2[0]
+      type: tel
+      label: J\
+      required: false
+      width: half
+    - name: k_2
+      pdf_field_name: JV-173[0].Page2[0].item1fo[0].byphone\.k\.2[0]
+      type: tel
+      label: K\
+      required: false
+      width: half
+    - name: j_2
+      pdf_field_name: JV-173[0].Page2[0].item1fo[0].theeducation2\.j[0]
+      type: text
+      label: J
+      required: false
+      width: full
+    - name: j_2
+      pdf_field_name: JV-173[0].Page2[0].item1fo[0].inperosn2\.j[0]
+      type: text
+      label: J
+      required: false
+      width: full
+    - name: k_2
+      pdf_field_name: JV-173[0].Page2[0].item1fo[0].attorney2\.k[0]
+      type: text
+      label: K
+      required: false
+      width: full
+    - name: n_2
+      pdf_field_name: JV-173[0].Page2[0].item1fo[0].attorney2\.n[0]
+      type: text
+      label: "N"
+      required: false
+      width: full
+    - name: k_2
+      pdf_field_name: JV-173[0].Page2[0].item1fo[0].inperson\.2\.k\.1[0]
+      type: text
+      label: K\
+      required: false
+      width: full
+    - name: l_2
+      pdf_field_name: JV-173[0].Page2[0].item1fo[0].distric2\.l[0]
+      type: text
+      label: L
+      required: false
+      width: full
+    - name: m_2
+      pdf_field_name: JV-173[0].Page2[0].item1fo[0].defacto2\.m[0]
+      type: text
+      label: M
+      required: false
+      width: full
+    - name: g_2
+      pdf_field_name: JV-173[0].Page2[0].item1fo[0].indianchild2\.g[0]
+      type: text
+      label: G
+      required: false
+      width: full
+    - name: f_2
+      pdf_field_name: JV-173[0].Page2[0].item1fo[0].attoneyname2\.f[0]
+      type: text
+      label: F
+      required: false
+      width: full
+    - name: f_2
+      pdf_field_name: JV-173[0].Page2[0].item1fo[0].cbattoney2\.f[0]
+      type: text
+      label: F
+      required: false
+      width: full
+    - name: h_2
+      pdf_field_name: JV-173[0].Page2[0].item1fo[0].date\.2\.h[0]
+      type: date
+      label: H
+      required: false
+      width: half
+    - name: o_2
+      pdf_field_name: JV-173[0].Page2[0].item1fo[0].name\.2\.o[0]
+      type: text
+      label: O
+      required: false
+      width: full
+    - name: o_2
+      pdf_field_name: JV-173[0].Page2[0].item1fo[0].other2\.o[0]
+      type: text
+      label: O
+      required: false
+      width: full
+    - name: sig_date_2
+      pdf_field_name: JV-173[0].Page2[0].item1fo[0].SigDate[0]
+      type: date
+      label: Sig Date
+      required: false
+      width: half
+    - name: check_box_right_caption_2
+      pdf_field_name: JV-173[0].Page2[0].item1fo[0].CheckBoxRightCaption[0]
+      type: checkbox
+      label: Check Box Right Caption
+      required: false
+      width: full
+    - name: full_name_2
+      pdf_field_name: JV-173[0].Page2[0].item1fo[0].FullName[0]
+      type: text
+      label: Full Name
+      required: false
+      width: full
+  footerpg:
+    title: Footerpg
+    fields:
+    - name: print
+      pdf_field_name: JV-173[0].Page3[0].footerpg3[0].PxFooter[0].FooterButtons[0].Print[0]
+      type: checkbox
+      label: Print
+      required: false
+      width: full
+    - name: save
+      pdf_field_name: JV-173[0].Page3[0].footerpg3[0].PxFooter[0].FooterButtons[0].Save[0]
+      type: checkbox
+      label: Save
+      required: false
+      width: full
+    - name: reset
+      pdf_field_name: JV-173[0].Page3[0].footerpg3[0].PxFooter[0].FooterButtons[0].Reset[0]
+      type: checkbox
+      label: Reset
+      required: false
+      width: full
+    - name: warning
+      pdf_field_name: JV-173[0].Page3[0].footerpg3[0].PxFooter[0].FooterButtons[0].Warning[0]
+      type: checkbox
+      label: Warning
+      required: false
+      width: full
+  signaturesub:
+    title: Signaturesub
+    fields:
+    - name: sig_date_2
+      pdf_field_name: JV-173[0].Page3[0].signaturesub[0].SigDate[0]
+      type: signature
+      label: Sig Date
+      required: false
+      width: full
+    - name: sig_name
+      pdf_field_name: JV-173[0].Page3[0].signaturesub[0].SigName[0]
+      type: signature
+      label: Sig Name
+      required: false
+      width: full
+  item1p:
+    title: Item1p
+    fields:
+    - name: p
+      pdf_field_name: JV-173[0].Page3[0].item1p[0].name2\.p[0]
+      type: text
+      label: P
+      required: false
+      width: full
+    - name: p_2
+      pdf_field_name: JV-173[0].Page3[0].item1p[0].other2\.p[0]
+      type: text
+      label: P
+      required: false
+      width: full
+    - name: sig_date_2
+      pdf_field_name: JV-173[0].Page3[0].item1p[0].SigDate[0]
+      type: date
+      label: Sig Date
+      required: false
+      width: half
+    - name: p_2
+      pdf_field_name: JV-173[0].Page3[0].item1p[0].inperson2\.p\.1[0]
+      type: text
+      label: P\
+      required: false
+      width: full
+    - name: check_box_right_caption_2
+      pdf_field_name: JV-173[0].Page3[0].item1p[0].CheckBoxRightCaption[0]
+      type: checkbox
+      label: Check Box Right Caption
+      required: false
+      width: full
+    - name: p_2
+      pdf_field_name: JV-173[0].Page3[0].item1p[0].specify2\.p\.2[0]
+      type: text
+      label: P\
+      required: false
+      width: full
+    - name: full_name_2
+      pdf_field_name: JV-173[0].Page3[0].item1p[0].FullName[0]
+      type: text
+      label: Full Name
+      required: false
+      width: full
+  px_caption:
+    title: Px Caption
+    fields:
+    - name: case_number_2
+      pdf_field_name: JV-173[0].Page3[0].PxCaption[0].CaseNumber[0]
+      type: text
+      label: Case Number
+      required: false
+      width: full
+      shared_key: case:number

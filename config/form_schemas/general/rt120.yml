@@ -1,0 +1,263 @@
+---
+form:
+  code: RT-120
+  title: RT 120 Form
+  description: ''
+  category: general
+  pdf_filename: rt120.pdf
+  fillable: true
+  instructions: ''
+sections:
+  right_caption:
+    title: Right Caption
+    fields:
+    - name: court_info
+      pdf_field_name: RT-120[0].Page1[0].rightCaption[0].County[0].CourtInfo[0]
+      type: number
+      label: Court Info
+      required: false
+      width: third
+    - name: case_number
+      pdf_field_name: RT-120[0].Page1[0].rightCaption[0].CN[0].caseNumber[0]
+      type: text
+      label: Case Number
+      required: false
+      width: full
+      shared_key: case:number
+  list:
+    title: List
+    fields:
+    - name: protected_full_name_ft
+      pdf_field_name: RT-120[0].Page1[0].List1[0].li1[0].ProtectedFullName_ft[0]
+      type: text
+      label: Protected Full Name Ft
+      required: false
+      width: full
+    - name: petitioner_street_ft
+      pdf_field_name: RT-120[0].Page1[0].List1[0].li1[0].PetitionerStreet_ft[0]
+      type: address
+      label: Petitioner Street Ft
+      required: false
+      width: full
+      shared_key: petitioner:street
+    - name: restrained_full_name_ft
+      pdf_field_name: RT-120[0].Page1[0].List2[0].lia[0].RestrainedFullName_ft[0]
+      type: text
+      label: Restrained Full Name Ft
+      required: false
+      width: full
+    - name: restrained_lawyer_name_ft
+      pdf_field_name: RT-120[0].Page1[0].List2[0].lib[0].RestrainedLawyerName_ft[0]
+      type: text
+      label: Restrained Lawyer Name Ft
+      required: false
+      width: full
+    - name: restrained_lawyer_bar_no
+      pdf_field_name: RT-120[0].Page1[0].List2[0].lib[0].RestrainedLawyerBar_no[0]
+      type: text
+      label: Restrained Lawyer Bar No
+      required: false
+      width: full
+    - name: restrained_lawyer_firm_ft
+      pdf_field_name: RT-120[0].Page1[0].List2[0].lib[0].RestrainedLawyerFirm_ft[0]
+      type: text
+      label: Restrained Lawyer Firm Ft
+      required: false
+      width: full
+    - name: restrained_street_ft
+      pdf_field_name: RT-120[0].Page1[0].List2[0].lic[0].RestrainedStreet_ft[0]
+      type: address
+      label: Restrained Street Ft
+      required: false
+      width: full
+    - name: restrained_city_ft
+      pdf_field_name: RT-120[0].Page1[0].List2[0].lic[0].RestrainedCity_ft[0]
+      type: address
+      label: Restrained City Ft
+      required: false
+      width: full
+    - name: restrained_state_ft
+      pdf_field_name: RT-120[0].Page1[0].List2[0].lic[0].RestrainedState_ft[0]
+      type: address
+      label: Restrained State Ft
+      required: false
+      width: full
+    - name: restrained_zip_ft
+      pdf_field_name: RT-120[0].Page1[0].List2[0].lic[0].RestrainedZip_ft[0]
+      type: address
+      label: Restrained Zip Ft
+      required: false
+      width: full
+    - name: restrained_phone_ft
+      pdf_field_name: RT-120[0].Page1[0].List2[0].lic[0].RestrainedPhone_ft[0]
+      type: tel
+      label: Restrained Phone Ft
+      required: false
+      width: half
+    - name: restrained_fax_ft
+      pdf_field_name: RT-120[0].Page1[0].List2[0].lic[0].RestrainedFax_ft[0]
+      type: tel
+      label: Restrained Fax Ft
+      required: false
+      width: half
+    - name: restrained_e_mail_ft
+      pdf_field_name: RT-120[0].Page1[0].List2[0].lic[0].RestrainedE-Mail_ft[0]
+      type: email
+      label: Restrained E Mail Ft
+      required: false
+      width: half
+    - name: other_protected_cb
+      pdf_field_name: RT-120[0].Page1[0].List3[0].OtherProtected_cb[0]
+      type: text
+      label: Other Protected Cb
+      required: false
+      width: full
+    - name: other_orders_agree_cb
+      pdf_field_name: RT-120[0].Page2[0].List4[0].lia[0].OtherOrdersAgree_cb[0]
+      type: text
+      label: Other Orders Agree Cb
+      required: false
+      width: full
+    - name: other_orders_agree_cb_2
+      pdf_field_name: RT-120[0].Page2[0].List4[0].lib[0].OtherOrdersAgree_cb[0]
+      type: text
+      label: Other Orders Agree Cb
+      required: false
+      width: full
+    - name: disagree_cb
+      pdf_field_name: RT-120[0].Page2[0].List5[0].Disagree_cb[0]
+      type: text
+      label: Disagree Cb
+      required: false
+      width: full
+    - name: multiline_check_box
+      pdf_field_name: RT-120[0].Page2[0].List5[0].lia[0].MultilineCheckBox[0]
+      type: checkbox
+      label: Multiline Check Box
+      required: false
+      width: full
+    - name: disagree_oth_reason
+      pdf_field_name: RT-120[0].Page2[0].List5[0].lib[0].disagreeOthReason[0]
+      type: text
+      label: Disagree Oth Reason
+      required: false
+      width: full
+    - name: disagree_of
+      pdf_field_name: RT-120[0].Page2[0].List5[0].lib[0].DisagreeOF[0]
+      type: text
+      label: Disagree Of
+      required: false
+      width: full
+    - name: disagree_reason
+      pdf_field_name: RT-120[0].Page2[0].List5[0].lib[0].disagreeReason[0]
+      type: text
+      label: Disagree Reason
+      required: false
+      width: full
+    - name: no_fee_cb
+      pdf_field_name: RT-120[0].Page3[0].#area[0].List6[0].li1[0].NoFee_cb[0]
+      type: currency
+      label: No Fee Cb
+      required: false
+      width: third
+    - name: pages_att
+      pdf_field_name: RT-120[0].Page3[0].#area[0].List7[0].li1[0].PagesAtt[0]
+      type: text
+      label: Pages Att
+      required: false
+      width: full
+  hearing_info:
+    title: Hearing Info
+    fields:
+    - name: hearing_date_dt
+      pdf_field_name: RT-120[0].Page1[0].hearingInfo[0].HearingDate_dt[0]
+      type: date
+      label: Hearing Date Dt
+      required: false
+      width: half
+    - name: hearing_time_dt
+      pdf_field_name: RT-120[0].Page1[0].hearingInfo[0].HearingTime_dt[0]
+      type: text
+      label: Hearing Time Dt
+      required: false
+      width: full
+    - name: hearing_dept_ft
+      pdf_field_name: RT-120[0].Page1[0].hearingInfo[0].HearingDept_ft[0]
+      type: text
+      label: Hearing Dept Ft
+      required: false
+      width: full
+    - name: hearing_room_ft
+      pdf_field_name: RT-120[0].Page1[0].hearingInfo[0].HearingRoom_ft[0]
+      type: text
+      label: Hearing Room Ft
+      required: false
+      width: full
+  px_caption:
+    title: Px Caption
+    fields:
+    - name: case_number_2
+      pdf_field_name: RT-120[0].Page2[0].PxCaption[0].caseNumber[0]
+      type: text
+      label: Case Number
+      required: false
+      width: full
+      shared_key: case:number
+  mp_last:
+    title: Mp Last
+    fields:
+    - name: print
+      pdf_field_name: RT-120[0].#pageSet[0].MPLast[0].Print[0]
+      type: checkbox
+      label: Print
+      required: false
+      width: full
+    - name: save
+      pdf_field_name: RT-120[0].#pageSet[0].MPLast[0].Save[0]
+      type: checkbox
+      label: Save
+      required: false
+      width: full
+    - name: reset
+      pdf_field_name: RT-120[0].#pageSet[0].MPLast[0].Reset[0]
+      type: checkbox
+      label: Reset
+      required: false
+      width: full
+  p_x_caption:
+    title: P X Caption
+    fields:
+    - name: case_number_2
+      pdf_field_name: RT-120[0].Page3[0].#area[0].pXCaption[0].caseNumber[0]
+      type: text
+      label: Case Number
+      required: false
+      width: full
+      shared_key: case:number
+  sign_date:
+    title: Sign Date
+    fields:
+    - name: atty_sig_date
+      pdf_field_name: RT-120[0].Page3[0].#area[0].SignDate[0].attySig[0].attySigDate[0]
+      type: signature
+      label: Atty Sig Date
+      required: false
+      width: full
+    - name: atty_name
+      pdf_field_name: RT-120[0].Page3[0].#area[0].SignDate[0].attySig[0].attyName[0]
+      type: signature
+      label: Atty Name
+      required: false
+      width: full
+    - name: pop_sig_date
+      pdf_field_name: RT-120[0].Page3[0].#area[0].SignDate[0].Dec[0].popSigDate[0]
+      type: date
+      label: Pop Sig Date
+      required: false
+      width: half
+    - name: party_nam
+      pdf_field_name: RT-120[0].Page3[0].#area[0].SignDate[0].Dec[0].PartyNam[0]
+      type: date
+      label: Party Nam
+      required: false
+      width: half

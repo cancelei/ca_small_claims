@@ -1,0 +1,28 @@
+---
+form:
+  code: DV-505INFO
+  title: DV 505INFO Form
+  description: ''
+  category: family_law/domestic_violence
+  pdf_filename: dv505info.pdf
+  fillable: true
+  instructions: ''
+sections:
+  print:
+    title: Print
+    fields:
+    - name: print
+      pdf_field_name: DV-505-INFO[0].#pageSet[0].Page3[0].Print[0]
+      type: checkbox
+      label: Print
+      required: false
+      width: full
+  save:
+    title: Save
+    fields:
+    - name: save
+      pdf_field_name: DV-505-INFO[0].#pageSet[0].Page3[0].Save[0]
+      type: checkbox
+      label: Save
+      required: false
+      width: full

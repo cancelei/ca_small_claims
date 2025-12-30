@@ -1,0 +1,164 @@
+---
+form:
+  code: JV-297
+  title: JV 297 Form
+  description: ''
+  category: juvenile/general
+  pdf_filename: jv297.pdf
+  fillable: true
+  instructions: ''
+sections:
+  p1_right_caption_sf:
+    title: P1 Right Caption Sf
+    fields:
+    - name: court_info_ft
+      pdf_field_name: topmostSubform[0].Page1[0].P1RightCaption_sf[0].CourtInfo_ft[0]
+      type: text
+      label: Court Info Ft
+      required: false
+      width: full
+    - name: tc_case_number_ft
+      pdf_field_name: topmostSubform[0].Page1[0].P1RightCaption_sf[0].#area[0].TCCaseNumber_ft[0]
+      type: text
+      label: Tc Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+  appellant_name:
+    title: Appellant Name
+    fields:
+    - name: appellant_name
+      pdf_field_name: topmostSubform[0].Page1[0].AppellantName[0]
+      type: text
+      label: Appellant Name
+      required: false
+      width: full
+    - name: appellant_name_2
+      pdf_field_name: topmostSubform[0].Page1[0].AppellantName[1]
+      type: text
+      label: Appellant Name
+      required: false
+      width: full
+    - name: appellant_name_2
+      pdf_field_name: topmostSubform[0].Page1[0].AppellantName[2]
+      type: text
+      label: Appellant Name
+      required: false
+      width: full
+    - name: appellant_name_2
+      pdf_field_name: topmostSubform[0].Page1[0].AppellantName[3]
+      type: text
+      label: Appellant Name
+      required: false
+      width: full
+  text_field:
+    title: Text Field
+    fields:
+    - name: text_field2
+      pdf_field_name: topmostSubform[0].Page1[0].TextField2[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+  does_cb:
+    title: Does Cb
+    fields:
+    - name: does_cb
+      pdf_field_name: topmostSubform[0].Page1[0].does_cb[0]
+      type: text
+      label: Does Cb
+      required: false
+      width: full
+    - name: does_cb_2
+      pdf_field_name: topmostSubform[0].Page1[0].does_cb[1]
+      type: text
+      label: Does Cb
+      required: false
+      width: full
+  party_signature_dt:
+    title: Party Signature Dt
+    fields:
+    - name: party_signature_dt
+      pdf_field_name: topmostSubform[0].Page1[0].PartySignature_dt[0]
+      type: signature
+      label: Party Signature Dt
+      required: false
+      width: full
+  appeal_define_cb:
+    title: Appeal Define Cb
+    fields:
+    - name: appeal_define_cb
+      pdf_field_name: topmostSubform[0].Page1[0].AppealDefine_cb[0]
+      type: text
+      label: Appeal Define Cb
+      required: false
+      width: full
+    - name: appeal_define_cb_2
+      pdf_field_name: topmostSubform[0].Page1[0].AppealDefine_cb[1]
+      type: text
+      label: Appeal Define Cb
+      required: false
+      width: full
+    - name: appeal_define_cb_2
+      pdf_field_name: topmostSubform[0].Page1[0].AppealDefine_cb[2]
+      type: text
+      label: Appeal Define Cb
+      required: false
+      width: full
+  general:
+    title: General
+    fields:
+    - name: field
+      pdf_field_name: topmostSubform[0].Page1[0].#field[11]
+      type: text
+      label: "#Field"
+      required: false
+      width: full
+    - name: field_2
+      pdf_field_name: topmostSubform[0].Page1[0].#field[12]
+      type: text
+      label: "#Field"
+      required: false
+      width: full
+    - name: field_2
+      pdf_field_name: topmostSubform[0].Page1[0].#field[13]
+      type: text
+      label: "#Field"
+      required: false
+      width: full
+  print:
+    title: Print
+    fields:
+    - name: print
+      pdf_field_name: topmostSubform[0].#area[0].Print[0]
+      type: checkbox
+      label: Print
+      required: false
+      width: full
+  save:
+    title: Save
+    fields:
+    - name: save
+      pdf_field_name: topmostSubform[0].#area[0].Save[0]
+      type: checkbox
+      label: Save
+      required: false
+      width: full
+  reset:
+    title: Reset
+    fields:
+    - name: reset
+      pdf_field_name: topmostSubform[0].#area[0].Reset[0]
+      type: checkbox
+      label: Reset
+      required: false
+      width: full
+  warning:
+    title: Warning
+    fields:
+    - name: warning
+      pdf_field_name: topmostSubform[0].#area[0].Warning[0]
+      type: checkbox
+      label: Warning
+      required: false
+      width: full

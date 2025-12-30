@@ -31,6 +31,7 @@ Rails.application.routes.draw do
     member do
       get :preview
       get :download
+      post :toggle_wizard
     end
   end
 

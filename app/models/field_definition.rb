@@ -1,27 +1,25 @@
 # frozen_string_literal: true
 
 class FieldDefinition < ApplicationRecord
+  include ConditionalSupport
+
   belongs_to :form_definition
 
   validates :name, presence: true, uniqueness: { scope: :form_definition_id }
   validates :pdf_field_name, presence: true
   validates :field_type, presence: true, inclusion: { in: %w[
-    text textarea tel email date currency
+    text textarea tel email date currency number
     checkbox checkbox_group radio select
-    signature repeating_group address
+    signature repeating_group address hidden readonly
   ] }
 
   scope :required, -> { where(required: true) }
   scope :in_section, ->(section) { where(section: section) }
-  scope :by_position, -> { order(:section, :position) }
+  scope :by_position, -> { order(:position) }
   scope :on_page, ->(page) { where(page_number: page) }
 
   def repeatable?
     repeating_group.present?
-  end
-
-  def conditional?
-    conditions.present? && conditions.any?
   end
 
   def has_options?

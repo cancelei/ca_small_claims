@@ -1,0 +1,1311 @@
+---
+form:
+  code: FL-311
+  title: FL 311 Form
+  description: ''
+  category: family_law/general
+  pdf_filename: fl311.pdf
+  fillable: true
+  instructions: ''
+sections:
+  px_caption_sf:
+    title: Px Caption Sf
+    fields:
+    - name: petitioner_ft
+      pdf_field_name: FL-311[0].Page1[0].PxCaption_sf[0].PartySub[0].Parties[0].Petitioner_ft[0]
+      type: text
+      label: Petitioner Ft
+      required: false
+      width: full
+    - name: respondent_ft
+      pdf_field_name: FL-311[0].Page1[0].PxCaption_sf[0].PartySub[0].Parties[0].Respondent_ft[0]
+      type: text
+      label: Respondent Ft
+      required: false
+      width: full
+    - name: other_parent_party_ft
+      pdf_field_name: FL-311[0].Page1[0].PxCaption_sf[0].PartySub[0].Parties[0].OtherParentParty_ft[0]
+      type: currency
+      label: Other Parent Party Ft
+      required: false
+      width: third
+    - name: case_number_ft
+      pdf_field_name: FL-311[0].Page1[0].PxCaption_sf[0].CaseSub[0].CaseNumber[0].CaseNumber_ft[0]
+      type: text
+      label: Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+    - name: petitioner_ft_2
+      pdf_field_name: FL-311[0].Page2[0].PxCaption_sf[0].PartySub[0].Parties[0].Petitioner_ft[0]
+      type: text
+      label: Petitioner Ft
+      required: false
+      width: full
+    - name: respondent_ft_2
+      pdf_field_name: FL-311[0].Page2[0].PxCaption_sf[0].PartySub[0].Parties[0].Respondent_ft[0]
+      type: text
+      label: Respondent Ft
+      required: false
+      width: full
+    - name: other_parent_party_ft_2
+      pdf_field_name: FL-311[0].Page2[0].PxCaption_sf[0].PartySub[0].Parties[0].OtherParentParty_ft[0]
+      type: currency
+      label: Other Parent Party Ft
+      required: false
+      width: third
+    - name: case_number_ft_2
+      pdf_field_name: FL-311[0].Page2[0].PxCaption_sf[0].CaseSub[0].CaseNumber[0].CaseNumber_ft[0]
+      type: text
+      label: Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+    - name: petitioner_ft_2
+      pdf_field_name: FL-311[0].Page4[0].PxCaption_sf[0].PartySub[0].Parties[0].Petitioner_ft[0]
+      type: text
+      label: Petitioner Ft
+      required: false
+      width: full
+    - name: respondent_ft_2
+      pdf_field_name: FL-311[0].Page4[0].PxCaption_sf[0].PartySub[0].Parties[0].Respondent_ft[0]
+      type: text
+      label: Respondent Ft
+      required: false
+      width: full
+    - name: other_parent_party_ft_2
+      pdf_field_name: FL-311[0].Page4[0].PxCaption_sf[0].PartySub[0].Parties[0].OtherParentParty_ft[0]
+      type: currency
+      label: Other Parent Party Ft
+      required: false
+      width: third
+    - name: case_number_ft_2
+      pdf_field_name: FL-311[0].Page4[0].PxCaption_sf[0].CaseSub[0].CaseNumber[0].CaseNumber_ft[0]
+      type: text
+      label: Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+  title_sub:
+    title: Title Sub
+    fields:
+    - name: petition_cb
+      pdf_field_name: FL-311[0].Page1[0].TitleSub[0].Petition_cb[0]
+      type: text
+      label: Petition Cb
+      required: false
+      width: full
+    - name: response_cb
+      pdf_field_name: FL-311[0].Page1[0].TitleSub[0].Response_cb[0]
+      type: text
+      label: Response Cb
+      required: false
+      width: full
+    - name: request_for_order_cb
+      pdf_field_name: FL-311[0].Page1[0].TitleSub[0].RequestForOrder_cb[0]
+      type: text
+      label: Request For Order Cb
+      required: false
+      width: full
+    - name: responsive_dec_cb
+      pdf_field_name: FL-311[0].Page1[0].TitleSub[0].ResponsiveDec_cb[0]
+      type: text
+      label: Responsive Dec Cb
+      required: false
+      width: full
+    - name: specify_ft
+      pdf_field_name: FL-311[0].Page1[0].TitleSub[0].Other_group[0].Specify_ft[0]
+      type: text
+      label: Specify Ft
+      required: false
+      width: full
+    - name: other_cb
+      pdf_field_name: FL-311[0].Page1[0].TitleSub[0].Other_group[0].Other_cb[0]
+      type: text
+      label: Other Cb
+      required: false
+      width: full
+  list:
+    title: List
+    fields:
+    - name: custody_cb
+      pdf_field_name: FL-311[0].Page1[0].List1[0].Li1[0].Custody_cb[0]
+      type: text
+      label: Custody Cb
+      required: false
+      width: full
+    - name: check_box1
+      pdf_field_name: FL-311[0].Page1[0].List1[0].Li1[0].CheckBox1[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: child1name_ft
+      pdf_field_name: FL-311[0].Page1[0].List1[0].Li1[0].Table1[0].Child1_group[0].Child1Name_ft[0]
+      type: text
+      label: Child1 Name Ft
+      required: false
+      width: full
+    - name: child1dob_ft
+      pdf_field_name: FL-311[0].Page1[0].List1[0].Li1[0].Table1[0].Child1_group[0].Child1DOB_ft[0]
+      type: text
+      label: Child1 Dob Ft
+      required: false
+      width: full
+    - name: child1legal_custody_ft
+      pdf_field_name: FL-311[0].Page1[0].List1[0].Li1[0].Table1[0].Child1_group[0].Child1LegalCustody_ft[0]
+      type: text
+      label: Child1 Legal Custody Ft
+      required: false
+      width: full
+    - name: child1physical_custody_ft
+      pdf_field_name: FL-311[0].Page1[0].List1[0].Li1[0].Table1[0].Child1_group[0].Child1PhysicalCustody_ft[0]
+      type: text
+      label: Child1 Physical Custody Ft
+      required: false
+      width: full
+    - name: child2name_ft
+      pdf_field_name: FL-311[0].Page1[0].List1[0].Li1[0].Table1[0].Child2_group[0].Child2Name_ft[0]
+      type: text
+      label: Child2 Name Ft
+      required: false
+      width: full
+    - name: child2dob_ft
+      pdf_field_name: FL-311[0].Page1[0].List1[0].Li1[0].Table1[0].Child2_group[0].Child2DOB_ft[0]
+      type: text
+      label: Child2 Dob Ft
+      required: false
+      width: full
+    - name: child2legal_custody_ft
+      pdf_field_name: FL-311[0].Page1[0].List1[0].Li1[0].Table1[0].Child2_group[0].Child2LegalCustody_ft[0]
+      type: text
+      label: Child2 Legal Custody Ft
+      required: false
+      width: full
+    - name: child2physical_custody_ft
+      pdf_field_name: FL-311[0].Page1[0].List1[0].Li1[0].Table1[0].Child2_group[0].Child2PhysicalCustody_ft[0]
+      type: text
+      label: Child2 Physical Custody Ft
+      required: false
+      width: full
+    - name: child3name_ft
+      pdf_field_name: FL-311[0].Page1[0].List1[0].Li1[0].Table1[0].Row3[0].Child3Name_ft[0]
+      type: text
+      label: Child3 Name Ft
+      required: false
+      width: full
+    - name: child2dob_ft_2
+      pdf_field_name: FL-311[0].Page1[0].List1[0].Li1[0].Table1[0].Row3[0].Child2DOB_ft[0]
+      type: text
+      label: Child2 Dob Ft
+      required: false
+      width: full
+    - name: child3legal_custody_ft
+      pdf_field_name: FL-311[0].Page1[0].List1[0].Li1[0].Table1[0].Row3[0].Child3LegalCustody_ft[0]
+      type: text
+      label: Child3 Legal Custody Ft
+      required: false
+      width: full
+    - name: child2physical_custody_ft_2
+      pdf_field_name: FL-311[0].Page1[0].List1[0].Li1[0].Table1[0].Row3[0].Child2PhysicalCustody_ft[0]
+      type: text
+      label: Child2 Physical Custody Ft
+      required: false
+      width: full
+    - name: child4name_ft
+      pdf_field_name: FL-311[0].Page1[0].List1[0].Li1[0].Table1[0].Row4[0].Child4Name_ft[0]
+      type: text
+      label: Child4 Name Ft
+      required: false
+      width: full
+    - name: child4dob_ft
+      pdf_field_name: FL-311[0].Page1[0].List1[0].Li1[0].Table1[0].Row4[0].Child4DOB_ft[0]
+      type: text
+      label: Child4 Dob Ft
+      required: false
+      width: full
+    - name: child4legal_custody_ft
+      pdf_field_name: FL-311[0].Page1[0].List1[0].Li1[0].Table1[0].Row4[0].Child4LegalCustody_ft[0]
+      type: text
+      label: Child4 Legal Custody Ft
+      required: false
+      width: full
+    - name: child4physical_custody_ft
+      pdf_field_name: FL-311[0].Page1[0].List1[0].Li1[0].Table1[0].Row4[0].Child4PhysicalCustody_ft[0]
+      type: text
+      label: Child4 Physical Custody Ft
+      required: false
+      width: full
+    - name: child5name_ft
+      pdf_field_name: FL-311[0].Page1[0].List1[0].Li1[0].Table1[0].Row5[0].Child5Name_ft[0]
+      type: text
+      label: Child5 Name Ft
+      required: false
+      width: full
+    - name: child5dob_ft
+      pdf_field_name: FL-311[0].Page1[0].List1[0].Li1[0].Table1[0].Row5[0].Child5DOB_ft[0]
+      type: text
+      label: Child5 Dob Ft
+      required: false
+      width: full
+    - name: child5legal_custody_ft
+      pdf_field_name: FL-311[0].Page1[0].List1[0].Li1[0].Table1[0].Row5[0].Child5LegalCustody_ft[0]
+      type: text
+      label: Child5 Legal Custody Ft
+      required: false
+      width: full
+    - name: child5physical_custody_ft
+      pdf_field_name: FL-311[0].Page1[0].List1[0].Li1[0].Table1[0].Row5[0].Child5PhysicalCustody_ft[0]
+      type: text
+      label: Child5 Physical Custody Ft
+      required: false
+      width: full
+    - name: child6name_ft
+      pdf_field_name: FL-311[0].Page1[0].List1[0].Li1[0].Table1[0].Row6[0].Child6Name_ft[0]
+      type: text
+      label: Child6 Name Ft
+      required: false
+      width: full
+    - name: child6dob_ft
+      pdf_field_name: FL-311[0].Page1[0].List1[0].Li1[0].Table1[0].Row6[0].Child6DOB_ft[0]
+      type: text
+      label: Child6 Dob Ft
+      required: false
+      width: full
+    - name: child6legal_custody_ft
+      pdf_field_name: FL-311[0].Page1[0].List1[0].Li1[0].Table1[0].Row6[0].Child6LegalCustody_ft[0]
+      type: text
+      label: Child6 Legal Custody Ft
+      required: false
+      width: full
+    - name: child6physical_custody_ft
+      pdf_field_name: FL-311[0].Page1[0].List1[0].Li1[0].Table1[0].Row6[0].Child6PhysicalCustody_ft[0]
+      type: text
+      label: Child6 Physical Custody Ft
+      required: false
+      width: full
+    - name: custody_with_allegations_of_abuse_cb
+      pdf_field_name: FL-311[0].Page1[0].List1[0].Li2[0].List[0].CustodyWithAllegationsOfAbuse_cb[0]
+      type: text
+      label: Custody With Allegations Of Abuse Cb
+      required: false
+      width: full
+    - name: abuse_allegations_about_petitioner_cb
+      pdf_field_name: FL-311[0].Page1[0].List1[0].Li2[0].List[0].Li1[0].AbuseAllegationsAboutPetitioner_cb[0]
+      type: text
+      label: Abuse Allegations About Petitioner Cb
+      required: false
+      width: full
+    - name: abuse_allegations_about_respondent_cb
+      pdf_field_name: FL-311[0].Page1[0].List1[0].Li2[0].List[0].Li1[0].AbuseAllegationsAboutRespondent_cb[0]
+      type: text
+      label: Abuse Allegations About Respondent Cb
+      required: false
+      width: full
+    - name: abuse_allegations_about_other_parent_or_party_cb
+      pdf_field_name: FL-311[0].Page1[0].List1[0].Li2[0].List[0].Li1[0].AbuseAllegationsAboutOtherParentOrParty_cb[0]
+      type: currency
+      label: Abuse Allegations About Other Parent Or Party Cb
+      required: false
+      width: third
+    - name: substance_abuse_allegations_about_petitioner_cb
+      pdf_field_name: FL-311[0].Page1[0].List1[0].Li2[0].List[0].Li2[0].SubstanceAbuseAllegationsAboutPetitioner_cb[0]
+      type: text
+      label: Substance Abuse Allegations About Petitioner Cb
+      required: false
+      width: full
+    - name: substance_abuse_allegations_about_respondent_cb
+      pdf_field_name: FL-311[0].Page1[0].List1[0].Li2[0].List[0].Li2[0].SubstanceAbuseAllegationsAboutRespondent_cb[0]
+      type: text
+      label: Substance Abuse Allegations About Respondent Cb
+      required: false
+      width: full
+    - name: substance_abuse_allegations_about_other_parent_or_party_cb
+      pdf_field_name: FL-311[0].Page1[0].List1[0].Li2[0].List[0].Li2[0].SubstanceAbuseAllegationsAboutOtherParentOrParty_cb[0]
+      type: currency
+      label: Substance Abuse Allegations About Other Parent Or Party Cb
+      required: false
+      width: third
+    - name: request_that_court_not_order_custody_to_person_with_allegations_of_abuse_or_substance_abuse_cb
+      pdf_field_name: FL-311[0].Page1[0].List1[0].Li2[0].List[0].Li3[0].RequestThatCourtNotOrderCustodyToPersonWithAllegationsOfAbuseOrSubstanceAbuse_cb[0]
+      type: text
+      label: Request That Court Not Order Custody To Person With Allegations Of Abuse
+        Or Substance Abuse Cb
+      required: false
+      width: full
+    - name: request_that_court_make_child_custody_orders_in_item1a_cb
+      pdf_field_name: FL-311[0].Page1[0].List1[0].Li2[0].List[0].Li4[0].RequestThatCourtMakeChildCustodyOrdersInItem1a_cb[0]
+      type: text
+      label: Request That Court Make Child Custody Orders In Item1a Cb
+      required: false
+      width: full
+    - name: reasons_specified_here_cb
+      pdf_field_name: FL-311[0].Page1[0].List1[0].Li2[0].List[0].Li4[0].ReasonsSpecifiedHere_cb[0]
+      type: text
+      label: Reasons Specified Here Cb
+      required: false
+      width: full
+    - name: specify_other_cb
+      pdf_field_name: FL-311[0].Page1[0].List1[0].Li2[0].List[0].Li4[0].SpecifyOther_cb[0]
+      type: text
+      label: Specify Other Cb
+      required: false
+      width: full
+    - name: other_cb_2
+      pdf_field_name: FL-311[0].Page1[0].List1[0].Li2[0].List[0].Li4[0].Other_cb[0]
+      type: text
+      label: Other Cb
+      required: false
+      width: full
+    - name: specify_reasonsfor_orders_ft
+      pdf_field_name: FL-311[0].Page1[0].List1[0].Li2[0].List[0].Li4[0].SpecifyReasonsforOrders_ft[0]
+      type: text
+      label: Specify Reasonsfor Orders Ft
+      required: false
+      width: full
+    - name: pick_up_address_ft
+      pdf_field_name: FL-311[0].Page1[0].List1[0].Li2[0].List[0].Li4[0].Pick_Up_Address_ft[0]
+      type: address
+      label: Pick Up Address Ft
+      required: false
+      width: full
+    - name: reasonable_right_of_visitation_cb
+      pdf_field_name: FL-311[0].Page1[0].List2[0].Li1[0].ReasonableRightOfVisitation_cb[0]
+      type: text
+      label: Reasonable Right Of Visitation Cb
+      required: false
+      width: full
+    - name: visitation_cb
+      pdf_field_name: FL-311[0].Page1[0].List2[0].Li1[0].Visitation_cb[0]
+      type: text
+      label: Visitation Cb
+      required: false
+      width: full
+    - name: date_of_attachment_tf
+      pdf_field_name: FL-311[0].Page1[0].List2[0].Li2[0].DateOfAttachment_tf[0]
+      type: date
+      label: Date Of Attachment Tf
+      required: false
+      width: half
+    - name: specify_number_pages_attached_ft
+      pdf_field_name: FL-311[0].Page1[0].List2[0].Li2[0].SpecifyNumberPagesAttached_ft[0]
+      type: text
+      label: Specify Number Pages Attached Ft
+      required: false
+      width: full
+    - name: see_attached_document_for_visitation_plan_cb
+      pdf_field_name: FL-311[0].Page1[0].List2[0].Li2[0].SeeAttachedDocumentForVisitationPlan_cb[0]
+      type: text
+      label: See Attached Document For Visitation Plan Cb
+      required: false
+      width: full
+    - name: parties_will_go_to_mediation_cb
+      pdf_field_name: FL-311[0].Page1[0].List2[0].Li3[0].PartiesWillGoToMediation_cb[0]
+      type: text
+      label: Parties Will Go To Mediation Cb
+      required: false
+      width: full
+    - name: location_of_mediation_or_ccrc_tf
+      pdf_field_name: FL-311[0].Page1[0].List2[0].Li3[0].LocationOfMediationOrCCRC_tf[0]
+      type: address
+      label: Location Of Mediation Or Ccrc Tf
+      required: false
+      width: full
+    - name: check_box2d
+      pdf_field_name: FL-311[0].Page1[0].List2[0].Li4[0].CheckBox2d[0]
+      type: checkbox
+      label: Check Box2d
+      required: false
+      width: full
+    - name: visits_with_allegations_of_abuse_cb
+      pdf_field_name: FL-311[0].Page2[0].List3[0].Li1[0].VisitsWithAllegationsOfAbuse_cb[0]
+      type: text
+      label: Visits With Allegations Of Abuse Cb
+      required: false
+      width: full
+    - name: supervised_visitation_cb
+      pdf_field_name: FL-311[0].Page2[0].List3[0].Li1[0].SupervisedVisitation_cb[0]
+      type: text
+      label: Supervised Visitation Cb
+      required: false
+      width: full
+    - name: petitioner_cb
+      pdf_field_name: FL-311[0].Page2[0].List3[0].Li1[0].Petitioner_cb[0]
+      type: text
+      label: Petitioner Cb
+      required: false
+      width: full
+    - name: respondent_cb
+      pdf_field_name: FL-311[0].Page2[0].List3[0].Li1[0].Respondent_cb[0]
+      type: text
+      label: Respondent Cb
+      required: false
+      width: full
+    - name: other_parent_party_cb
+      pdf_field_name: FL-311[0].Page2[0].List3[0].Li1[0].OtherParentParty_cb[0]
+      type: currency
+      label: Other Parent Party Cb
+      required: false
+      width: third
+    - name: domestic_violence_child_abuse_or_neglect_cb
+      pdf_field_name: FL-311[0].Page2[0].List3[0].Li1[0].DomesticViolenceChildAbuseOrNeglect_cb[0]
+      type: text
+      label: Domestic Violence Child Abuse Or Neglect Cb
+      required: false
+      width: full
+    - name: domestic_violence_child_abuse_or_neglect_cb_2
+      pdf_field_name: FL-311[0].Page2[0].List3[0].Li1[0].DomesticViolenceChildAbuseOrNeglect_cb[1]
+      type: text
+      label: Domestic Violence Child Abuse Or Neglect Cb
+      required: false
+      width: full
+    - name: other_parenting_concerns_cb
+      pdf_field_name: FL-311[0].Page2[0].List3[0].Li1[0].OtherParentingConcerns_cb[0]
+      type: currency
+      label: Other Parenting Concerns Cb
+      required: false
+      width: third
+    - name: other_parenting_concerns
+      pdf_field_name: FL-311[0].Page2[0].List3[0].Li1[0].OtherParentingConcerns[0]
+      type: currency
+      label: Other Parenting Concerns
+      required: false
+      width: third
+    - name: reasons_specified_here_cb_2
+      pdf_field_name: FL-311[0].Page2[0].List3[0].Li2[0].ReasonsSpecifiedHere_cb[0]
+      type: text
+      label: Reasons Specified Here Cb
+      required: false
+      width: full
+    - name: check_box1_2
+      pdf_field_name: FL-311[0].Page2[0].List3[0].Li2[0].CheckBox1[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box61_2
+      pdf_field_name: FL-311[0].Page2[0].List3[0].Li2[0].CheckBox61[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: pick_up_address_ft_2
+      pdf_field_name: FL-311[0].Page2[0].List3[0].Li2[0].Pick_Up_Address_ft[0]
+      type: address
+      label: Pick Up Address Ft
+      required: false
+      width: full
+    - name: specify_reasonsfor_orders_ft_2
+      pdf_field_name: FL-311[0].Page2[0].List3[0].Li2[0].SpecifyReasonsforOrders_ft[0]
+      type: text
+      label: Specify Reasonsfor Orders Ft
+      required: false
+      width: full
+    - name: transportation_for_visitation_and_place_of_exchange_cb
+      pdf_field_name: FL-311[0].Page3[0].List4[0].Li1[0].TransportationForVisitationAndPlaceOfExchange_cb[0]
+      type: text
+      label: Transportation For Visitation And Place Of Exchange Cb
+      required: false
+      width: full
+    - name: check_box61_2
+      pdf_field_name: FL-311[0].Page3[0].List4[0].Li2[0].CheckBox61[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: transport_to_visits_provided_by_name_ft
+      pdf_field_name: FL-311[0].Page3[0].List4[0].Li2[0].TransportToVisitsProvidedBy_Name_ft[0]
+      type: text
+      label: Transport To Visits Provided By Name Ft
+      required: false
+      width: full
+    - name: check_box61_2
+      pdf_field_name: FL-311[0].Page3[0].List4[0].Li3[0].CheckBox61[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: transport_form_visits_provided_by_name_ft
+      pdf_field_name: FL-311[0].Page3[0].List4[0].Li3[0].TransportFormVisitsProvidedBy_Name_ft[0]
+      type: text
+      label: Transport Form Visits Provided By Name Ft
+      required: false
+      width: full
+    - name: check_box61_2
+      pdf_field_name: FL-311[0].Page3[0].List4[0].Li4[0].CheckBox61[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: drop_off_address_begin_visits_ft
+      pdf_field_name: FL-311[0].Page3[0].List4[0].Li4[0].Drop_Off_Address_Begin_Visits_ft[0]
+      type: address
+      label: Drop Off Address Begin Visits Ft
+      required: false
+      width: full
+    - name: check_box61_2
+      pdf_field_name: FL-311[0].Page3[0].List4[0].Li5[0].CheckBox61[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: pick_up_address_ft_2
+      pdf_field_name: FL-311[0].Page3[0].List4[0].Li5[0].Pick_Up_Address_ft[0]
+      type: address
+      label: Pick Up Address Ft
+      required: false
+      width: full
+    - name: check_box61_2
+      pdf_field_name: FL-311[0].Page3[0].List4[0].Li6[0].CheckBox61[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box61_2
+      pdf_field_name: FL-311[0].Page3[0].List4[0].Li7[0].CheckBox61[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: other_transportation_issues_ft
+      pdf_field_name: FL-311[0].Page3[0].List4[0].Li7[0].OtherTransportationIssues_ft[0]
+      type: text
+      label: Other Transportation Issues Ft
+      required: false
+      width: full
+    - name: check_box61_2
+      pdf_field_name: FL-311[0].Page4[0].List10[0].Li1[0].CheckBox61[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: other_additional_orders_requested_ft
+      pdf_field_name: FL-311[0].Page4[0].List10[0].Li1[0].OtherAdditionalOrdersRequested_ft[0]
+      type: text
+      label: Other Additional Orders Requested Ft
+      required: false
+      width: full
+    - name: check_box61_2
+      pdf_field_name: FL-311[0].Page4[0].List8[0].Li1[0].CheckBox61[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: addl_prov_where8_cb
+      pdf_field_name: FL-311[0].Page4[0].List8[0].Li1[0].AddlProvWhere8_cb[0]
+      type: text
+      label: Addl Prov Where8 Cb
+      required: false
+      width: full
+    - name: addl_prov_where8_cb_2
+      pdf_field_name: FL-311[0].Page4[0].List8[0].Li1[0].AddlProvWhere8_cb[1]
+      type: text
+      label: Addl Prov Where8 Cb
+      required: false
+      width: full
+    - name: additional_custody_orders_requested_ft
+      pdf_field_name: FL-311[0].Page4[0].List8[0].Li1[0].AdditionalCustodyOrdersRequested_ft[0]
+      type: text
+      label: Additional Custody Orders Requested Ft
+      required: false
+      width: full
+    - name: check_box61_2
+      pdf_field_name: FL-311[0].Page4[0].List9[0].Li1[0].CheckBox61[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: addl_prov_where9_cb
+      pdf_field_name: FL-311[0].Page4[0].List9[0].Li1[0].AddlProvWhere9_cb[0]
+      type: text
+      label: Addl Prov Where9 Cb
+      required: false
+      width: full
+    - name: addl_prov_where9_cb_2
+      pdf_field_name: FL-311[0].Page4[0].List9[0].Li1[0].AddlProvWhere9_cb[1]
+      type: text
+      label: Addl Prov Where9 Cb
+      required: false
+      width: full
+    - name: joint_legal_custody_orders_requested_ft
+      pdf_field_name: FL-311[0].Page4[0].List9[0].Li1[0].JointLegalCustodyOrdersRequested_ft[0]
+      type: text
+      label: Joint Legal Custody Orders Requested Ft
+      required: false
+      width: full
+    - name: check_box61_2
+      pdf_field_name: FL-311[0].Page4[0].List7[0].Li1[0].CheckBox61[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: child_holiday_sched7_cb
+      pdf_field_name: FL-311[0].Page4[0].List7[0].Li1[0].ChildHolidaySched7_cb[0]
+      type: text
+      label: Child Holiday Sched7 Cb
+      required: false
+      width: full
+    - name: child_holiday_sched7_cb_2
+      pdf_field_name: FL-311[0].Page4[0].List7[0].Li1[0].ChildHolidaySched7_cb[1]
+      type: text
+      label: Child Holiday Sched7 Cb
+      required: false
+      width: full
+    - name: specify_holiday_schedule_here_ft
+      pdf_field_name: FL-311[0].Page4[0].List7[0].Li1[0].SpecifyHolidayScheduleHere_ft[0]
+      type: text
+      label: Specify Holiday Schedule Here Ft
+      required: false
+      width: full
+    - name: child_abduction_prevention_cb
+      pdf_field_name: FL-311[0].Page4[0].List6[0].Li1[0].ChildAbductionPrevention_cb[0]
+      type: text
+      label: Child Abduction Prevention Cb
+      required: false
+      width: full
+    - name: travel_with_children_cb
+      pdf_field_name: FL-311[0].Page4[0].List5[0].Li1[0].TravelWithChildren_cb[0]
+      type: text
+      label: Travel With Children Cb
+      required: false
+      width: full
+    - name: petitioner_travel_with_children_cb
+      pdf_field_name: FL-311[0].Page4[0].List5[0].Li1[0].PetitionerTravelWithChildren_cb[0]
+      type: text
+      label: Petitioner Travel With Children Cb
+      required: false
+      width: full
+    - name: respondent_travel_with_children_cb
+      pdf_field_name: FL-311[0].Page4[0].List5[0].Li1[0].RespondentTravelWithChildren_cb[0]
+      type: text
+      label: Respondent Travel With Children Cb
+      required: false
+      width: full
+    - name: other_parentor_party_travel_with_children_cb
+      pdf_field_name: FL-311[0].Page4[0].List5[0].Li1[0].OtherParentorPartyTravelWithChildren_cb[0]
+      type: currency
+      label: Other Parentor Party Travel With Children Cb
+      required: false
+      width: third
+    - name: check_box61_2
+      pdf_field_name: FL-311[0].Page4[0].List5[0].Li1[0].CheckBox61[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box61_2
+      pdf_field_name: FL-311[0].Page4[0].List5[0].Li2[0].CheckBox61[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: transport_to_visits_provided_by_name_ft_2
+      pdf_field_name: FL-311[0].Page4[0].List5[0].Li2[0].TransportToVisitsProvidedBy_Name_ft[0]
+      type: text
+      label: Transport To Visits Provided By Name Ft
+      required: false
+      width: full
+    - name: check_box61_2
+      pdf_field_name: FL-311[0].Page4[0].List5[0].Li3[0].CheckBox61[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: transport_form_visits_provided_by_name_ft_2
+      pdf_field_name: FL-311[0].Page4[0].List5[0].Li3[0].TransportFormVisitsProvidedBy_Name_ft[0]
+      type: text
+      label: Transport Form Visits Provided By Name Ft
+      required: false
+      width: full
+  list2continue:
+    title: List2continue
+    fields:
+    - name: check_box2e
+      pdf_field_name: FL-311[0].Page2[0].List2continue[0].Li1[0].CheckBox2e[0]
+      type: checkbox
+      label: Check Box2e
+      required: false
+      width: full
+    - name: petitioner_visits_cb
+      pdf_field_name: FL-311[0].Page2[0].List2continue[0].Li1[0].PetitionerVisits_cb[0]
+      type: text
+      label: Petitioner Visits Cb
+      required: false
+      width: full
+    - name: respondent_visits_cb
+      pdf_field_name: FL-311[0].Page2[0].List2continue[0].Li1[0].RespondentVisits_cb[0]
+      type: text
+      label: Respondent Visits Cb
+      required: false
+      width: full
+    - name: other_parent_party_visits_cb
+      pdf_field_name: FL-311[0].Page2[0].List2continue[0].Li1[0].OtherParentPartyVisits_cb[0]
+      type: currency
+      label: Other Parent Party Visits Cb
+      required: false
+      width: third
+    - name: check_box_weekends
+      pdf_field_name: FL-311[0].Page2[0].List2continue[0].Li1[0].CheckBoxWeekends[0]
+      type: checkbox
+      label: Check Box Weekends
+      required: false
+      width: full
+    - name: weekend_visits_starting_date_ft
+      pdf_field_name: FL-311[0].Page2[0].List2continue[0].Li1[0].WeekendVisitsStartingDate_ft[0]
+      type: date
+      label: Weekend Visits Starting Date Ft
+      required: false
+      width: half
+    - name: first_weekend_cb
+      pdf_field_name: FL-311[0].Page2[0].List2continue[0].Li1[0].FirstWeekend_cb[0]
+      type: text
+      label: First Weekend Cb
+      required: false
+      width: full
+    - name: second_weekend_visits_cb
+      pdf_field_name: FL-311[0].Page2[0].List2continue[0].Li1[0].SecondWeekendVisits_cb[0]
+      type: text
+      label: Second Weekend Visits Cb
+      required: false
+      width: full
+    - name: third_weekend_visits_cb
+      pdf_field_name: FL-311[0].Page2[0].List2continue[0].Li1[0].ThirdWeekendVisits_cb[0]
+      type: text
+      label: Third Weekend Visits Cb
+      required: false
+      width: full
+    - name: fourth_weekend_box_cb
+      pdf_field_name: FL-311[0].Page2[0].List2continue[0].Li1[0].FourthWeekendBox_cb[0]
+      type: text
+      label: Fourth Weekend Box Cb
+      required: false
+      width: full
+    - name: fifth_weekend_visits_cb
+      pdf_field_name: FL-311[0].Page2[0].List2continue[0].Li1[0].FifthWeekendVisits_cb[0]
+      type: text
+      label: Fifth Weekend Visits Cb
+      required: false
+      width: full
+    - name: day_of_week_visists_start_ft
+      pdf_field_name: FL-311[0].Page2[0].List2continue[0].Li1[0].DayOfWeekVisistsStart_ft[0]
+      type: text
+      label: Day Of Week Visists Start Ft
+      required: false
+      width: full
+    - name: time_visits_start_ft
+      pdf_field_name: FL-311[0].Page2[0].List2continue[0].Li1[0].TimeVisitsStart_ft[0]
+      type: text
+      label: Time Visits Start Ft
+      required: false
+      width: full
+    - name: time_of_day_cb1
+      pdf_field_name: FL-311[0].Page2[0].List2continue[0].Li1[0].TimeOfDay_cb1[0]
+      type: text
+      label: Time Of Day Cb
+      required: false
+      width: full
+    - name: time_of_day_cb1_2
+      pdf_field_name: FL-311[0].Page2[0].List2continue[0].Li1[0].TimeOfDay_cb1[1]
+      type: text
+      label: Time Of Day Cb
+      required: false
+      width: full
+    - name: school_time_cb
+      pdf_field_name: FL-311[0].Page2[0].List2continue[0].Li1[0].SchoolTime_cb[0]
+      type: text
+      label: School Time Cb
+      required: false
+      width: full
+    - name: school_time_cb_2
+      pdf_field_name: FL-311[0].Page2[0].List2continue[0].Li1[0].SchoolTime_cb[1]
+      type: text
+      label: School Time Cb
+      required: false
+      width: full
+    - name: day_of_week_visits_end_ft
+      pdf_field_name: FL-311[0].Page2[0].List2continue[0].Li1[0].DayOfWeekVisitsEnd_ft[0]
+      type: text
+      label: Day Of Week Visits End Ft
+      required: false
+      width: full
+    - name: time_visits_end_ft
+      pdf_field_name: FL-311[0].Page2[0].List2continue[0].Li1[0].TimeVisitsEnd_ft[0]
+      type: text
+      label: Time Visits End Ft
+      required: false
+      width: full
+    - name: time_of_day1_cb2
+      pdf_field_name: FL-311[0].Page2[0].List2continue[0].Li1[0].TimeOfDay1_cb2[0]
+      type: text
+      label: Time Of Day1 Cb
+      required: false
+      width: full
+    - name: time_of_day1_cb2_2
+      pdf_field_name: FL-311[0].Page2[0].List2continue[0].Li1[0].TimeOfDay1_cb2[1]
+      type: text
+      label: Time Of Day1 Cb
+      required: false
+      width: full
+    - name: school_time1_cb
+      pdf_field_name: FL-311[0].Page2[0].List2continue[0].Li1[0].SchoolTime1_cb[0]
+      type: text
+      label: School Time1 Cb
+      required: false
+      width: full
+    - name: school_time1_cb_2
+      pdf_field_name: FL-311[0].Page2[0].List2continue[0].Li1[0].SchoolTime1_cb[1]
+      type: text
+      label: School Time1 Cb
+      required: false
+      width: full
+    - name: check_box1a
+      pdf_field_name: FL-311[0].Page2[0].List2continue[0].Li1[0].CheckBox1a[0]
+      type: checkbox
+      label: Check Box1a
+      required: false
+      width: full
+    - name: check_box1apetitioner
+      pdf_field_name: FL-311[0].Page2[0].List2continue[0].Li1[0].CheckBox1apetitioner[0]
+      type: checkbox
+      label: Check Box1apetitioner
+      required: false
+      width: full
+    - name: check_box_resp
+      pdf_field_name: FL-311[0].Page2[0].List2continue[0].Li1[0].CheckBoxResp[0]
+      type: checkbox
+      label: Check Box Resp
+      required: false
+      width: full
+    - name: check_box61
+      pdf_field_name: FL-311[0].Page2[0].List2continue[0].Li1[0].CheckBox61[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: date_fifth_weekend_viists_start_dt
+      pdf_field_name: FL-311[0].Page2[0].List2continue[0].Li1[0].DateFifthWeekendViistsStart_dt[0]
+      type: date
+      label: Date Fifth Weekend Viists Start Dt
+      required: false
+      width: half
+    - name: check_box1b
+      pdf_field_name: FL-311[0].Page2[0].List2continue[0].Li1[0].CheckBox1b[0]
+      type: checkbox
+      label: Check Box1b
+      required: false
+      width: full
+    - name: check_box1bpetitioner
+      pdf_field_name: FL-311[0].Page2[0].List2continue[0].Li1[0].CheckBox1bpetitioner[0]
+      type: checkbox
+      label: Check Box1bpetitioner
+      required: false
+      width: full
+    - name: check_box1brespondent
+      pdf_field_name: FL-311[0].Page2[0].List2continue[0].Li1[0].CheckBox1brespondent[0]
+      type: checkbox
+      label: Check Box1brespondent
+      required: false
+      width: full
+    - name: check_box1otherparent
+      pdf_field_name: FL-311[0].Page2[0].List2continue[0].Li1[0].CheckBox1otherparent[0]
+      type: currency
+      label: Check Box1otherparent
+      required: false
+      width: third
+    - name: weekends_odd_cb
+      pdf_field_name: FL-311[0].Page2[0].List2continue[0].Li1[0].WeekendsOdd_cb[0]
+      type: text
+      label: Weekends Odd Cb
+      required: false
+      width: full
+    - name: weekends_even_cb
+      pdf_field_name: FL-311[0].Page2[0].List2continue[0].Li1[0].WeekendsEven_cb[0]
+      type: text
+      label: Weekends Even Cb
+      required: false
+      width: full
+    - name: check_box_alternate_weekends
+      pdf_field_name: FL-311[0].Page2[0].List2continue[0].Li2[0].CheckBoxAlternateWeekends[0]
+      type: checkbox
+      label: Check Box Alternate Weekends
+      required: false
+      width: full
+    - name: date_alternate_weekends_start_ft
+      pdf_field_name: FL-311[0].Page2[0].List2continue[0].Li2[0].DateAlternateWeekendsStart_ft[0]
+      type: date
+      label: Date Alternate Weekends Start Ft
+      required: false
+      width: half
+    - name: day_of_week_visits_start_ft
+      pdf_field_name: FL-311[0].Page2[0].List2continue[0].Li2[0].DayOfWeekVisitsStart_ft[0]
+      type: text
+      label: Day Of Week Visits Start Ft
+      required: false
+      width: full
+    - name: time_alternating_weekend_visits_start_ft
+      pdf_field_name: FL-311[0].Page2[0].List2continue[0].Li2[0].TimeAlternatingWeekendVisitsStart_ft[0]
+      type: text
+      label: Time Alternating Weekend Visits Start Ft
+      required: false
+      width: full
+    - name: time_of_day2_cb1
+      pdf_field_name: FL-311[0].Page2[0].List2continue[0].Li2[0].TimeOfDay2_cb1[0]
+      type: text
+      label: Time Of Day2 Cb
+      required: false
+      width: full
+    - name: day_of_week_alternate_weekends_end_ft
+      pdf_field_name: FL-311[0].Page2[0].List2continue[0].Li2[0].DayOfWeekAlternateWeekendsEnd_ft[0]
+      type: text
+      label: Day Of Week Alternate Weekends End Ft
+      required: false
+      width: full
+    - name: time_alternate_weekend_visits_end_ft
+      pdf_field_name: FL-311[0].Page2[0].List2continue[0].Li2[0].TimeAlternateWeekendVisitsEnd_ft[0]
+      type: text
+      label: Time Alternate Weekend Visits End Ft
+      required: false
+      width: full
+    - name: time_of_day2_cb1_2
+      pdf_field_name: FL-311[0].Page2[0].List2continue[0].Li2[0].TimeOfDay2_cb1[1]
+      type: text
+      label: Time Of Day2 Cb
+      required: false
+      width: full
+    - name: school_time2_cb
+      pdf_field_name: FL-311[0].Page2[0].List2continue[0].Li2[0].SchoolTime2_cb[0]
+      type: text
+      label: School Time2 Cb
+      required: false
+      width: full
+    - name: school_time2_cb_2
+      pdf_field_name: FL-311[0].Page2[0].List2continue[0].Li2[0].SchoolTime2_cb[1]
+      type: text
+      label: School Time2 Cb
+      required: false
+      width: full
+    - name: time_of_day3_cb
+      pdf_field_name: FL-311[0].Page2[0].List2continue[0].Li2[0].TimeOfDay3_cb[0]
+      type: text
+      label: Time Of Day3 Cb
+      required: false
+      width: full
+    - name: time_of_day3_cb_2
+      pdf_field_name: FL-311[0].Page2[0].List2continue[0].Li2[0].TimeOfDay3_cb[1]
+      type: text
+      label: Time Of Day3 Cb
+      required: false
+      width: full
+    - name: school_time3_cb
+      pdf_field_name: FL-311[0].Page2[0].List2continue[0].Li2[0].SchoolTime3_cb[0]
+      type: text
+      label: School Time3 Cb
+      required: false
+      width: full
+    - name: school_time3_cb_2
+      pdf_field_name: FL-311[0].Page2[0].List2continue[0].Li2[0].SchoolTime3_cb[1]
+      type: text
+      label: School Time3 Cb
+      required: false
+      width: full
+    - name: check_box61_2
+      pdf_field_name: FL-311[0].Page2[0].List2continue[0].Li3[0].CheckBox61[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: date_weekday_visits_start_dt
+      pdf_field_name: FL-311[0].Page2[0].List2continue[0].Li3[0].DateWeekdayVisitsStart_dt[0]
+      type: date
+      label: Date Weekday Visits Start Dt
+      required: false
+      width: half
+    - name: day_of_week_weekday_visits_start_ft
+      pdf_field_name: FL-311[0].Page2[0].List2continue[0].Li3[0].DayOfWeekWeekdayVisitsStart_ft[0]
+      type: text
+      label: Day Of Week Weekday Visits Start Ft
+      required: false
+      width: full
+    - name: time_weekday_visits_start_ft
+      pdf_field_name: FL-311[0].Page2[0].List2continue[0].Li3[0].TimeWeekdayVisitsStart_ft[0]
+      type: text
+      label: Time Weekday Visits Start Ft
+      required: false
+      width: full
+    - name: time_of_day4_cb
+      pdf_field_name: FL-311[0].Page2[0].List2continue[0].Li3[0].TimeOfDay4_cb[0]
+      type: text
+      label: Time Of Day4 Cb
+      required: false
+      width: full
+    - name: time_of_day4_cb_2
+      pdf_field_name: FL-311[0].Page2[0].List2continue[0].Li3[0].TimeOfDay4_cb[1]
+      type: text
+      label: Time Of Day4 Cb
+      required: false
+      width: full
+    - name: school_time4_cb
+      pdf_field_name: FL-311[0].Page2[0].List2continue[0].Li3[0].SchoolTime4_cb[0]
+      type: text
+      label: School Time4 Cb
+      required: false
+      width: full
+    - name: school_time4_cb_2
+      pdf_field_name: FL-311[0].Page2[0].List2continue[0].Li3[0].SchoolTime4_cb[1]
+      type: text
+      label: School Time4 Cb
+      required: false
+      width: full
+    - name: day_of_week_weekday_visits_end_ft
+      pdf_field_name: FL-311[0].Page2[0].List2continue[0].Li3[0].DayOfWeekWeekdayVisitsEnd_ft[0]
+      type: text
+      label: Day Of Week Weekday Visits End Ft
+      required: false
+      width: full
+    - name: time_weekday_visits_end_ft
+      pdf_field_name: FL-311[0].Page2[0].List2continue[0].Li3[0].TimeWeekdayVisitsEnd_ft[0]
+      type: text
+      label: Time Weekday Visits End Ft
+      required: false
+      width: full
+    - name: time_of_day5_cb
+      pdf_field_name: FL-311[0].Page2[0].List2continue[0].Li3[0].TimeOfDay5_cb[0]
+      type: text
+      label: Time Of Day5 Cb
+      required: false
+      width: full
+    - name: time_of_day5_cb_2
+      pdf_field_name: FL-311[0].Page2[0].List2continue[0].Li3[0].TimeOfDay5_cb[1]
+      type: text
+      label: Time Of Day5 Cb
+      required: false
+      width: full
+    - name: school_time5_cb
+      pdf_field_name: FL-311[0].Page2[0].List2continue[0].Li3[0].SchoolTime5_cb[0]
+      type: text
+      label: School Time5 Cb
+      required: false
+      width: full
+    - name: school_time5_cb_2
+      pdf_field_name: FL-311[0].Page2[0].List2continue[0].Li3[0].SchoolTime5_cb[1]
+      type: text
+      label: School Time5 Cb
+      required: false
+      width: full
+    - name: other_vists_cb
+      pdf_field_name: FL-311[0].Page2[0].List2continue[0].Li4[0].OtherVists_cb[0]
+      type: text
+      label: Other Vists Cb
+      required: false
+      width: full
+    - name: checkbox1
+      pdf_field_name: FL-311[0].Page2[0].List2continue[0].Li4[0].checkbox1[0]
+      type: checkbox
+      label: Checkbox
+      required: false
+      width: full
+    - name: checkbox2
+      pdf_field_name: FL-311[0].Page2[0].List2continue[0].Li4[0].Checkbox2[0]
+      type: checkbox
+      label: Checkbox
+      required: false
+      width: full
+    - name: other_visitation_info_tf
+      pdf_field_name: FL-311[0].Page2[0].List2continue[0].Li4[0].OtherVisitationInfo_tf[0]
+      type: text
+      label: Other Visitation Info Tf
+      required: false
+      width: full
+  party_sub:
+    title: Party Sub
+    fields:
+    - name: petitioner_ft_2
+      pdf_field_name: FL-311[0].Page3[0].PartySub[0].Parties[0].Petitioner_ft[0]
+      type: text
+      label: Petitioner Ft
+      required: false
+      width: full
+    - name: respondent_ft_2
+      pdf_field_name: FL-311[0].Page3[0].PartySub[0].Parties[0].Respondent_ft[0]
+      type: text
+      label: Respondent Ft
+      required: false
+      width: full
+    - name: other_parent_party_ft_2
+      pdf_field_name: FL-311[0].Page3[0].PartySub[0].Parties[0].OtherParentParty_ft[0]
+      type: currency
+      label: Other Parent Party Ft
+      required: false
+      width: third
+  case_sub:
+    title: Case Sub
+    fields:
+    - name: case_number_ft_2
+      pdf_field_name: FL-311[0].Page3[0].CaseSub[0].CaseNumber[0].CaseNumber_ft[0]
+      type: text
+      label: Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+  list3_continue:
+    title: List3 Continue
+    fields:
+    - name: nameof_supervisor_ft
+      pdf_field_name: FL-311[0].Page3[0].List3Continue[0].Li1[0].NameofSupervisor_ft[0]
+      type: text
+      label: Nameof Supervisor Ft
+      required: false
+      width: full
+    - name: check_box61_2
+      pdf_field_name: FL-311[0].Page3[0].List3Continue[0].Li1[0].List[0].Lii[0].CheckBox61[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box61_2
+      pdf_field_name: FL-311[0].Page3[0].List3Continue[0].Li1[0].List[0].Liii[0].CheckBox61[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: specify_other_places_ft
+      pdf_field_name: FL-311[0].Page3[0].List3Continue[0].Li1[0].List[0].Liiii[0].SpecifyOtherPlaces_ft[0]
+      type: text
+      label: Specify Other Places Ft
+      required: false
+      width: full
+    - name: percent_paid_by_petitioner_no
+      pdf_field_name: FL-311[0].Page3[0].List3Continue[0].Li1[0].PercentPaidByPetitioner_no[0]
+      type: text
+      label: Percent Paid By Petitioner No
+      required: false
+      width: full
+    - name: percent_paid_by_respondent_no
+      pdf_field_name: FL-311[0].Page3[0].List3Continue[0].Li1[0].PercentPaidByRespondent_no[0]
+      type: text
+      label: Percent Paid By Respondent No
+      required: false
+      width: full
+    - name: percent_paid_by_other_parent_party_no
+      pdf_field_name: FL-311[0].Page3[0].List3Continue[0].Li1[0].PercentPaidByOtherParentParty_no[0]
+      type: currency
+      label: Percent Paid By Other Parent Party No
+      required: false
+      width: third
+    - name: unsupervised_visitation_cb
+      pdf_field_name: FL-311[0].Page3[0].List3Continue[0].Li2[0].List[0].UnsupervisedVisitation_cb[0]
+      type: text
+      label: Unsupervised Visitation Cb
+      required: false
+      width: full
+    - name: abuse_allegations_about_petitioner_cb_2
+      pdf_field_name: FL-311[0].Page3[0].List3Continue[0].Li2[0].List[0].Li1[0].AbuseAllegationsAboutPetitioner_cb[0]
+      type: text
+      label: Abuse Allegations About Petitioner Cb
+      required: false
+      width: full
+    - name: abuse_allegations_about_respondent_cb_2
+      pdf_field_name: FL-311[0].Page3[0].List3Continue[0].Li2[0].List[0].Li1[0].AbuseAllegationsAboutRespondent_cb[0]
+      type: text
+      label: Abuse Allegations About Respondent Cb
+      required: false
+      width: full
+    - name: abuse_allegations_about_other_parent_or_party_cb_2
+      pdf_field_name: FL-311[0].Page3[0].List3Continue[0].Li2[0].List[0].Li1[0].AbuseAllegationsAboutOtherParentOrParty_cb[0]
+      type: currency
+      label: Abuse Allegations About Other Parent Or Party Cb
+      required: false
+      width: third
+    - name: substance_abuse_allegations_about_petitioner_cb_2
+      pdf_field_name: FL-311[0].Page3[0].List3Continue[0].Li2[0].List[0].Li2[0].SubstanceAbuseAllegationsAboutPetitioner_cb[0]
+      type: text
+      label: Substance Abuse Allegations About Petitioner Cb
+      required: false
+      width: full
+    - name: substance_abuse_allegations_about_respondent_cb_2
+      pdf_field_name: FL-311[0].Page3[0].List3Continue[0].Li2[0].List[0].Li2[0].SubstanceAbuseAllegationsAboutRespondent_cb[0]
+      type: text
+      label: Substance Abuse Allegations About Respondent Cb
+      required: false
+      width: full
+    - name: substance_abuse_allegations_about_other_parent_or_party_cb_2
+      pdf_field_name: FL-311[0].Page3[0].List3Continue[0].Li2[0].List[0].Li2[0].SubstanceAbuseAllegationsAboutOtherParentOrParty_cb[0]
+      type: currency
+      label: Substance Abuse Allegations About Other Parent Or Party Cb
+      required: false
+      width: third
+    - name: allegations_about_petitioner_cb
+      pdf_field_name: FL-311[0].Page3[0].List3Continue[0].Li2[0].List[0].Li3[0].AllegationsAboutPetitioner_cb[0]
+      type: text
+      label: Allegations About Petitioner Cb
+      required: false
+      width: full
+    - name: allegations_about_respondent_cb
+      pdf_field_name: FL-311[0].Page3[0].List3Continue[0].Li2[0].List[0].Li3[0].AllegationsAboutRespondent_cb[0]
+      type: text
+      label: Allegations About Respondent Cb
+      required: false
+      width: full
+    - name: allegations_about_other_cb
+      pdf_field_name: FL-311[0].Page3[0].List3Continue[0].Li2[0].List[0].Li3[0].AllegationsAboutOther_cb[0]
+      type: text
+      label: Allegations About Other Cb
+      required: false
+      width: full
+    - name: reasons_specified_here_cb_2
+      pdf_field_name: FL-311[0].Page3[0].List3Continue[0].Li2[0].List[0].Li4[0].ReasonsSpecifiedHere_cb[0]
+      type: text
+      label: Reasons Specified Here Cb
+      required: false
+      width: full
+    - name: check_box1_2
+      pdf_field_name: FL-311[0].Page3[0].List3Continue[0].Li2[0].List[0].Li4[0].CheckBox1[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box61_2
+      pdf_field_name: FL-311[0].Page3[0].List3Continue[0].Li2[0].List[0].Li4[0].CheckBox61[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: pick_up_address_ft_2
+      pdf_field_name: FL-311[0].Page3[0].List3Continue[0].Li2[0].List[0].Li4[0].Pick_Up_Address_ft[0]
+      type: address
+      label: Pick Up Address Ft
+      required: false
+      width: full
+    - name: specify_reasonsfor_orders_ft_2
+      pdf_field_name: FL-311[0].Page3[0].List3Continue[0].Li2[0].List[0].Li4[0].SpecifyReasonsforOrders_ft[0]
+      type: text
+      label: Specify Reasonsfor Orders Ft
+      required: false
+      width: full
+  footer_buttons:
+    title: Footer Buttons
+    fields:
+    - name: print
+      pdf_field_name: FL-311[0].#pageSet[0].Page4[0].FooterButtons[0].Print[0]
+      type: checkbox
+      label: Print
+      required: false
+      width: full
+    - name: save
+      pdf_field_name: FL-311[0].#pageSet[0].Page4[0].FooterButtons[0].Save[0]
+      type: checkbox
+      label: Save
+      required: false
+      width: full
+    - name: reset
+      pdf_field_name: FL-311[0].#pageSet[0].Page4[0].FooterButtons[0].Reset[0]
+      type: checkbox
+      label: Reset
+      required: false
+      width: full
+    - name: warning
+      pdf_field_name: FL-311[0].#pageSet[0].Page4[0].FooterButtons[0].Warning[0]
+      type: checkbox
+      label: Warning
+      required: false
+      width: full

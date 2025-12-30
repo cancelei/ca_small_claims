@@ -1,0 +1,311 @@
+---
+form:
+  code: JV-226
+  title: JV 226 Form
+  description: ''
+  category: juvenile/general
+  pdf_filename: jv226.pdf
+  fillable: true
+  instructions: ''
+sections:
+  general:
+    title: General
+    fields:
+    - name: court
+      pdf_field_name: Court
+      type: text
+      label: Court
+      required: false
+      width: full
+    - name: name
+      pdf_field_name: childs.name
+      type: text
+      label: Name
+      required: false
+      width: full
+    - name: childs
+      pdf_field_name: childs
+      type: text
+      label: Childs
+      required: false
+      width: full
+    - name: dob
+      pdf_field_name: Childs.DOB
+      type: date
+      label: Dob
+      required: false
+      width: half
+    - name: choice
+      pdf_field_name: 01.choice
+      type: text
+      label: Choice
+      required: false
+      width: full
+    - name: '01'
+      pdf_field_name: '01'
+      type: text
+      label: ''
+      required: false
+      width: full
+    - name: child
+      pdf_field_name: 02.child
+      type: text
+      label: Child
+      required: false
+      width: full
+    - name: line1
+      pdf_field_name: 02.line1
+      type: text
+      label: Line
+      required: false
+      width: full
+    - name: line2
+      pdf_field_name: 02.line2
+      type: text
+      label: Line
+      required: false
+      width: full
+    - name: line3
+      pdf_field_name: 02.line3
+      type: text
+      label: Line
+      required: false
+      width: full
+    - name: line4
+      pdf_field_name: 02.line4
+      type: text
+      label: Line
+      required: false
+      width: full
+    - name: line5
+      pdf_field_name: 02.line5
+      type: text
+      label: Line
+      required: false
+      width: full
+    - name: me
+      pdf_field_name: 02.me
+      type: text
+      label: Me
+      required: false
+      width: full
+    - name: check
+      pdf_field_name: 03.check
+      type: text
+      label: Check
+      required: false
+      width: full
+    - name: a
+      pdf_field_name: 03.a
+      type: text
+      label: A
+      required: false
+      width: full
+    - name: b
+      pdf_field_name: 03.b
+      type: text
+      label: B
+      required: false
+      width: full
+    - name: d
+      pdf_field_name: 03.d
+      type: text
+      label: D
+      required: false
+      width: full
+    - name: e
+      pdf_field_name: 03.e
+      type: text
+      label: E
+      required: false
+      width: full
+    - name: f
+      pdf_field_name: 03.f
+      type: text
+      label: F
+      required: false
+      width: full
+    - name: g
+      pdf_field_name: 03.g
+      type: text
+      label: G
+      required: false
+      width: full
+    - name: c
+      pdf_field_name: 03.c
+      type: text
+      label: C
+      required: false
+      width: full
+    - name: case_number
+      pdf_field_name: CaseNumber
+      type: text
+      label: Case Number
+      required: false
+      width: full
+      shared_key: case:number
+    - name: check_2
+      pdf_field_name: 04.check
+      type: text
+      label: Check
+      required: false
+      width: full
+    - name: b_2
+      pdf_field_name: 04.b
+      type: text
+      label: B
+      required: false
+      width: full
+    - name: c_2
+      pdf_field_name: 04.c
+      type: text
+      label: C
+      required: false
+      width: full
+    - name: d_2
+      pdf_field_name: 04.d
+      type: text
+      label: D
+      required: false
+      width: full
+    - name: e_2
+      pdf_field_name: 04.e
+      type: text
+      label: E
+      required: false
+      width: full
+    - name: a_2
+      pdf_field_name: 04.a
+      type: text
+      label: A
+      required: false
+      width: full
+    - name: f_2
+      pdf_field_name: 04.f
+      type: text
+      label: F
+      required: false
+      width: full
+    - name: check_2
+      pdf_field_name: 05.check
+      type: text
+      label: Check
+      required: false
+      width: full
+    - name: b_2
+      pdf_field_name: 05.b
+      type: text
+      label: B
+      required: false
+      width: full
+    - name: d_2
+      pdf_field_name: 05.d
+      type: text
+      label: D
+      required: false
+      width: full
+    - name: a_2
+      pdf_field_name: 05.a
+      type: text
+      label: A
+      required: false
+      width: full
+    - name: c_2
+      pdf_field_name: 05.c
+      type: text
+      label: C
+      required: false
+      width: full
+    - name: agency
+      pdf_field_name: 06.agency
+      type: text
+      label: Agency
+      required: false
+      width: full
+    - name: my
+      pdf_field_name: 06.my
+      type: text
+      label: My
+      required: false
+      width: full
+    - name: childs_2
+      pdf_field_name: 06.childs
+      type: text
+      label: Childs
+      required: false
+      width: full
+    - name: my_2
+      pdf_field_name: 07.my
+      type: text
+      label: My
+      required: false
+      width: full
+    - name: childs_2
+      pdf_field_name: 07.childs
+      type: text
+      label: Childs
+      required: false
+      width: full
+    - name: b_2
+      pdf_field_name: '08.b'
+      type: text
+      label: B
+      required: false
+      width: full
+    - name: c_2
+      pdf_field_name: '08.c'
+      type: text
+      label: C
+      required: false
+      width: full
+    - name: a_2
+      pdf_field_name: '08.a'
+      type: text
+      label: A
+      required: false
+      width: full
+    - name: d_2
+      pdf_field_name: '08.d'
+      type: text
+      label: D
+      required: false
+      width: full
+    - name: line2_2
+      pdf_field_name: '09.line2'
+      type: text
+      label: Line
+      required: false
+      width: full
+    - name: line1_2
+      pdf_field_name: '09.line1'
+      type: text
+      label: Line
+      required: false
+      width: full
+    - name: date1
+      pdf_field_name: Signature.date1
+      type: signature
+      label: Date
+      required: false
+      width: full
+    - name: name1
+      pdf_field_name: Signature.name1
+      type: signature
+      label: Name
+      required: false
+      width: full
+  h:
+    title: H
+    fields:
+    - name: check_2
+      pdf_field_name: 03.h.check
+      type: text
+      label: Check
+      required: false
+      width: full
+    - name: text
+      pdf_field_name: 03.h.text
+      type: text
+      label: Text
+      required: false
+      width: full

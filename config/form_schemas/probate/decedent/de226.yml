@@ -1,0 +1,332 @@
+---
+form:
+  code: DE-226
+  title: DE 226 Form
+  description: ''
+  category: probate/decedent
+  pdf_filename: de226.pdf
+  fillable: true
+  instructions: ''
+sections:
+  t:
+    title: T
+    fields:
+    - name: t206
+      pdf_field_name: topmostSubform[0].Page1[0].T206[0]
+      type: text
+      label: T
+      required: false
+      width: full
+  fill_text:
+    title: Fill Text
+    fields:
+    - name: fill_text103
+      pdf_field_name: topmostSubform[0].Page1[0].FillText103[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text102
+      pdf_field_name: topmostSubform[0].Page1[0].FillText102[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text100
+      pdf_field_name: topmostSubform[0].Page1[0].FillText100[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text101
+      pdf_field_name: topmostSubform[0].Page1[0].FillText101[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text99
+      pdf_field_name: topmostSubform[0].Page1[0].FillText99[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text98
+      pdf_field_name: topmostSubform[0].Page1[0].FillText98[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text97
+      pdf_field_name: topmostSubform[0].Page1[0].FillText97[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text96
+      pdf_field_name: topmostSubform[0].Page1[0].FillText96[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text95
+      pdf_field_name: topmostSubform[0].Page1[0].FillText95[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text141
+      pdf_field_name: topmostSubform[0].Page1[0].FillText141[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text140
+      pdf_field_name: topmostSubform[0].Page1[0].FillText140[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+  check_box:
+    title: Check Box
+    fields:
+    - name: check_box17
+      pdf_field_name: topmostSubform[0].Page1[0].CheckBox17[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box17_2
+      pdf_field_name: topmostSubform[0].Page1[0].CheckBox17[1]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box18
+      pdf_field_name: topmostSubform[0].Page1[0].CheckBox18[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box18_2
+      pdf_field_name: topmostSubform[0].Page1[0].CheckBox18[1]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box14
+      pdf_field_name: topmostSubform[0].Page1[0].CheckBox14[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box14_2
+      pdf_field_name: topmostSubform[0].Page1[0].CheckBox14[1]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box11
+      pdf_field_name: topmostSubform[0].Page1[0].CheckBox11[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box10
+      pdf_field_name: topmostSubform[0].Page1[0].CheckBox10[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box9
+      pdf_field_name: topmostSubform[0].Page1[0].CheckBox9[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box7
+      pdf_field_name: topmostSubform[0].Page1[0].CheckBox7[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box8
+      pdf_field_name: topmostSubform[0].Page1[0].CheckBox8[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box6
+      pdf_field_name: topmostSubform[0].Page1[0].CheckBox6[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box5
+      pdf_field_name: topmostSubform[0].Page1[0].CheckBox5[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box4
+      pdf_field_name: topmostSubform[0].Page1[0].CheckBox4[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box1
+      pdf_field_name: topmostSubform[0].Page1[0].CheckBox1[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box3
+      pdf_field_name: topmostSubform[0].Page1[0].CheckBox3[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box2
+      pdf_field_name: topmostSubform[0].Page1[0].CheckBox2[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box19
+      pdf_field_name: topmostSubform[0].Page1[0].CheckBox19[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+  p1_header_sf:
+    title: P1 Header Sf
+    fields:
+    - name: add2_ft
+      pdf_field_name: topmostSubform[0].Page1[0].P1Header_sf[0].AttyPartyInfo_sf[0].Add2_ft[0]
+      type: text
+      label: Add2 Ft
+      required: false
+      width: full
+    - name: add1_ft
+      pdf_field_name: topmostSubform[0].Page1[0].P1Header_sf[0].AttyPartyInfo_sf[0].Add1_ft[0]
+      type: text
+      label: Add1 Ft
+      required: false
+      width: full
+    - name: add5_ft
+      pdf_field_name: topmostSubform[0].Page1[0].P1Header_sf[0].AttyPartyInfo_sf[0].Add5_ft[0]
+      type: text
+      label: Add5 Ft
+      required: false
+      width: full
+    - name: add4_ft
+      pdf_field_name: topmostSubform[0].Page1[0].P1Header_sf[0].AttyPartyInfo_sf[0].Add4_ft[0]
+      type: text
+      label: Add4 Ft
+      required: false
+      width: full
+    - name: add3_ft
+      pdf_field_name: topmostSubform[0].Page1[0].P1Header_sf[0].AttyPartyInfo_sf[0].Add3_ft[0]
+      type: text
+      label: Add3 Ft
+      required: false
+      width: full
+    - name: tel_ft
+      pdf_field_name: topmostSubform[0].Page1[0].P1Header_sf[0].AttyPartyInfo_sf[0].Tel_ft[0]
+      type: tel
+      label: Tel Ft
+      required: false
+      width: half
+    - name: e_mail_ft
+      pdf_field_name: topmostSubform[0].Page1[0].P1Header_sf[0].AttyPartyInfo_sf[0].EMail_ft[0]
+      type: email
+      label: E Mail Ft
+      required: false
+      width: half
+    - name: fax_ft
+      pdf_field_name: topmostSubform[0].Page1[0].P1Header_sf[0].AttyPartyInfo_sf[0].Fax_ft[0]
+      type: tel
+      label: Fax Ft
+      required: false
+      width: half
+    - name: e_mail_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].P1Header_sf[0].AttyPartyInfo_sf[0].EMail_ft[1]
+      type: email
+      label: E Mail Ft
+      required: false
+      width: half
+    - name: crt_street_add_ft
+      pdf_field_name: topmostSubform[0].Page1[0].P1Header_sf[0].CrtInfo_sf[0].CrtStreetAdd_ft[0]
+      type: address
+      label: Crt Street Add Ft
+      required: false
+      width: full
+    - name: crt_mail_ft
+      pdf_field_name: topmostSubform[0].Page1[0].P1Header_sf[0].CrtInfo_sf[0].CrtMail_ft[0]
+      type: text
+      label: Crt Mail Ft
+      required: false
+      width: full
+    - name: crt_city_zip_ft
+      pdf_field_name: topmostSubform[0].Page1[0].P1Header_sf[0].CrtInfo_sf[0].CrtCityZip_ft[0]
+      type: address
+      label: Crt City Zip Ft
+      required: false
+      width: full
+    - name: crt_branch
+      pdf_field_name: topmostSubform[0].Page1[0].P1Header_sf[0].CrtInfo_sf[0].CrtBranch[0]
+      type: text
+      label: Crt Branch
+      required: false
+      width: full
+    - name: crtname_ft
+      pdf_field_name: topmostSubform[0].Page1[0].P1Header_sf[0].CrtInfo_sf[0].Crtname_ft[0]
+      type: text
+      label: Crtname Ft
+      required: false
+      width: full
+    - name: party_ft
+      pdf_field_name: topmostSubform[0].Page1[0].P1Header_sf[0].Party_sf[0].Party_ft[0]
+      type: text
+      label: Party Ft
+      required: false
+      width: full
+    - name: case_number_ft
+      pdf_field_name: topmostSubform[0].Page1[0].P1Header_sf[0].CaseNumber_sf_sf[0].CaseNumber_ft[0]
+      type: text
+      label: Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+    - name: check_box21
+      pdf_field_name: topmostSubform[0].Page1[0].P1Header_sf[0].Title_sf[0].#area[0].CheckBox21[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box21_2
+      pdf_field_name: topmostSubform[0].Page1[0].P1Header_sf[0].Title_sf[0].#area[0].CheckBox21[1]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+  btn_footer_gp:
+    title: Btn Footer Gp
+    fields:
+    - name: print_bt
+      pdf_field_name: topmostSubform[0].Page1[0].BtnFooter_gp[0].Print_bt[0]
+      type: checkbox
+      label: Print Bt
+      required: false
+      width: full
+    - name: save_bt
+      pdf_field_name: topmostSubform[0].Page1[0].BtnFooter_gp[0].Save_bt[0]
+      type: checkbox
+      label: Save Bt
+      required: false
+      width: full
+    - name: reset_bt
+      pdf_field_name: topmostSubform[0].Page1[0].BtnFooter_gp[0].Reset_bt[0]
+      type: checkbox
+      label: Reset Bt
+      required: false
+      width: full

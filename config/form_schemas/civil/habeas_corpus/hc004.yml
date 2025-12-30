@@ -1,0 +1,182 @@
+---
+form:
+  code: HC-004
+  title: HC 004 Form
+  description: ''
+  category: civil/habeas_corpus
+  pdf_filename: hc004.pdf
+  fillable: true
+  instructions: ''
+sections:
+  mp:
+    title: Mp
+    fields:
+    - name: print
+      pdf_field_name: HC-004[0].#pageSet[0].MP1[0].Print[0]
+      type: checkbox
+      label: Print
+      required: false
+      width: full
+    - name: save
+      pdf_field_name: HC-004[0].#pageSet[0].MP1[0].Save[0]
+      type: checkbox
+      label: Save
+      required: false
+      width: full
+    - name: reset
+      pdf_field_name: HC-004[0].#pageSet[0].MP1[0].Reset[0]
+      type: checkbox
+      label: Reset
+      required: false
+      width: full
+  p1_caption:
+    title: P1 Caption
+    fields:
+    - name: case_number
+      pdf_field_name: HC-004[0].Page1[0].p1Caption[0].captionSub[0].CaseNumber[0].CaseNumber[0]
+      type: text
+      label: Case Number
+      required: false
+      width: full
+      shared_key: case:number
+    - name: bar_no
+      pdf_field_name: HC-004[0].Page1[0].p1Caption[0].AttyInfo[0].BarNo[0]
+      type: text
+      label: Bar No
+      required: false
+      width: full
+    - name: atty_name
+      pdf_field_name: HC-004[0].Page1[0].p1Caption[0].AttyInfo[0].AttyName[0]
+      type: text
+      label: Atty Name
+      required: false
+      width: full
+    - name: atty_firm
+      pdf_field_name: HC-004[0].Page1[0].p1Caption[0].AttyInfo[0].AttyFirm[0]
+      type: text
+      label: Atty Firm
+      required: false
+      width: full
+    - name: atty_street
+      pdf_field_name: HC-004[0].Page1[0].p1Caption[0].AttyInfo[0].AttyStreet[0]
+      type: address
+      label: Atty Street
+      required: false
+      width: full
+    - name: atty_city
+      pdf_field_name: HC-004[0].Page1[0].p1Caption[0].AttyInfo[0].AttyCity[0]
+      type: address
+      label: Atty City
+      required: false
+      width: full
+    - name: atty_state
+      pdf_field_name: HC-004[0].Page1[0].p1Caption[0].AttyInfo[0].AttyState[0]
+      type: address
+      label: Atty State
+      required: false
+      width: full
+    - name: atty_zip
+      pdf_field_name: HC-004[0].Page1[0].p1Caption[0].AttyInfo[0].AttyZip[0]
+      type: address
+      label: Atty Zip
+      required: false
+      width: full
+    - name: phone
+      pdf_field_name: HC-004[0].Page1[0].p1Caption[0].AttyInfo[0].Phone[0]
+      type: tel
+      label: Phone
+      required: false
+      width: half
+    - name: fax
+      pdf_field_name: HC-004[0].Page1[0].p1Caption[0].AttyInfo[0].Fax[0]
+      type: tel
+      label: Fax
+      required: false
+      width: half
+    - name: email
+      pdf_field_name: HC-004[0].Page1[0].p1Caption[0].AttyInfo[0].Email[0]
+      type: email
+      label: Email
+      required: false
+      width: half
+    - name: atty_for
+      pdf_field_name: HC-004[0].Page1[0].p1Caption[0].AttyInfo[0].AttyFor[0]
+      type: text
+      label: Atty For
+      required: false
+      width: full
+    - name: crt_county
+      pdf_field_name: HC-004[0].Page1[0].p1Caption[0].CourtInfo[0].CrtCounty[0]
+      type: number
+      label: Crt County
+      required: false
+      width: third
+    - name: fl100129
+      pdf_field_name: HC-004[0].Page1[0].p1Caption[0].TitlePartyName[0].fl100129[0]
+      type: text
+      label: Fl
+      required: false
+      width: full
+    - name: def_name
+      pdf_field_name: HC-004[0].Page1[0].p1Caption[0].TitlePartyName[0].defName[0]
+      type: text
+      label: Def Name
+      required: false
+      width: full
+    - name: def_dob
+      pdf_field_name: HC-004[0].Page1[0].p1Caption[0].TitlePartyName[0].defDOB[0]
+      type: text
+      label: Def Dob
+      required: false
+      width: full
+    - name: cdc_no
+      pdf_field_name: HC-004[0].Page1[0].p1Caption[0].TitlePartyName[0].CDCNo[0]
+      type: text
+      label: Cdc No
+      required: false
+      width: full
+  pet_name:
+    title: Pet Name
+    fields:
+    - name: pet_name
+      pdf_field_name: HC-004[0].Page1[0].petName[0]
+      type: text
+      label: Pet Name
+      required: false
+      width: full
+  pet_county:
+    title: Pet County
+    fields:
+    - name: pet_county
+      pdf_field_name: HC-004[0].Page1[0].petCounty[0]
+      type: number
+      label: Pet County
+      required: false
+      width: third
+  pet_f_ile_date:
+    title: Pet F Ile Date
+    fields:
+    - name: pet_f_ile_date
+      pdf_field_name: HC-004[0].Page1[0].petFIleDate[0]
+      type: date
+      label: Pet F Ile Date
+      required: false
+      width: half
+  sig_date:
+    title: Sig Date
+    fields:
+    - name: sig_date
+      pdf_field_name: HC-004[0].Page1[0].sigDate[0]
+      type: date
+      label: Sig Date
+      required: false
+      width: half
+  sig_name:
+    title: Sig Name
+    fields:
+    - name: sig_name
+      pdf_field_name: HC-004[0].Page1[0].sigName[0]
+      type: text
+      label: Sig Name
+      required: false
+      width: full

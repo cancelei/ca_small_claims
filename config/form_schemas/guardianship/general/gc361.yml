@@ -1,0 +1,791 @@
+---
+form:
+  code: GC-361
+  title: GC 361 Form
+  description: ''
+  category: guardianship/general
+  pdf_filename: gc361.pdf
+  fillable: true
+  instructions: ''
+sections:
+  caption_p1_sf:
+    title: Caption P1 Sf
+    fields:
+    - name: e_mail
+      pdf_field_name: form1[0].Page1[0].CaptionP1_sf[0].AttyInfo[0].E-mail[0]
+      type: email
+      label: E Mail
+      required: false
+      width: half
+    - name: telephone
+      pdf_field_name: form1[0].Page1[0].CaptionP1_sf[0].AttyInfo[0].Telephone[0]
+      type: tel
+      label: Telephone
+      required: false
+      width: half
+    - name: fax_no
+      pdf_field_name: form1[0].Page1[0].CaptionP1_sf[0].AttyInfo[0].FaxNo[0]
+      type: tel
+      label: Fax No
+      required: false
+      width: half
+    - name: party_represented
+      pdf_field_name: form1[0].Page1[0].CaptionP1_sf[0].AttyInfo[0].PartyRepresented[0]
+      type: text
+      label: Party Represented
+      required: false
+      width: full
+    - name: telephone_2
+      pdf_field_name: form1[0].Page1[0].CaptionP1_sf[0].AttyInfo[0].Telephone[1]
+      type: tel
+      label: Telephone
+      required: false
+      width: half
+    - name: name
+      pdf_field_name: form1[0].Page1[0].CaptionP1_sf[0].AttyInfo[0].Name[0]
+      type: text
+      label: Name
+      required: false
+      width: full
+    - name: firm_name
+      pdf_field_name: form1[0].Page1[0].CaptionP1_sf[0].AttyInfo[0].FirmName[0]
+      type: text
+      label: Firm Name
+      required: false
+      width: full
+    - name: street_add
+      pdf_field_name: form1[0].Page1[0].CaptionP1_sf[0].AttyInfo[0].StreetAdd[0]
+      type: address
+      label: Street Add
+      required: false
+      width: full
+    - name: city
+      pdf_field_name: form1[0].Page1[0].CaptionP1_sf[0].AttyInfo[0].City[0]
+      type: address
+      label: City
+      required: false
+      width: full
+    - name: state
+      pdf_field_name: form1[0].Page1[0].CaptionP1_sf[0].AttyInfo[0].State[0]
+      type: address
+      label: State
+      required: false
+      width: full
+    - name: city_2
+      pdf_field_name: form1[0].Page1[0].CaptionP1_sf[0].AttyInfo[0].City[1]
+      type: address
+      label: City
+      required: false
+      width: full
+    - name: estate_checkbox
+      pdf_field_name: form1[0].Page1[0].CaptionP1_sf[0].CaseNameConship[0].EstateCheckbox[0]
+      type: address
+      label: Estate Checkbox
+      required: false
+      width: full
+    - name: nameof_cons_ft
+      pdf_field_name: form1[0].Page1[0].CaptionP1_sf[0].CaseNameConship[0].NameofCons_ft[0]
+      type: text
+      label: Nameof Cons Ft
+      required: false
+      width: full
+    - name: person_cb
+      pdf_field_name: form1[0].Page1[0].CaptionP1_sf[0].CaseNameConship[0].Person_cb[0]
+      type: text
+      label: Person Cb
+      required: false
+      width: full
+    - name: jurisd_ft
+      pdf_field_name: form1[0].Page1[0].CaptionP1_sf[0].OtherStateInfo[0].Jurisd-ft[0]
+      type: address
+      label: Jurisd Ft
+      required: false
+      width: full
+    - name: court_ft
+      pdf_field_name: form1[0].Page1[0].CaptionP1_sf[0].OtherStateInfo[0].Court-ft[0]
+      type: address
+      label: Court Ft
+      required: false
+      width: full
+    - name: dept_ft
+      pdf_field_name: form1[0].Page1[0].CaptionP1_sf[0].OtherStateInfo[0].Dept-ft[0]
+      type: address
+      label: Dept Ft
+      required: false
+      width: full
+    - name: case_name_ft
+      pdf_field_name: form1[0].Page1[0].CaptionP1_sf[0].OtherStateInfo[0].CaseName-ft[0]
+      type: address
+      label: Case Name Ft
+      required: false
+      width: full
+    - name: case_no_ft
+      pdf_field_name: form1[0].Page1[0].CaptionP1_sf[0].OtherStateInfo[0].CaseNo-ft[0]
+      type: address
+      label: Case No Ft
+      required: false
+      width: full
+  registrant_name_ft:
+    title: Registrant Name Ft
+    fields:
+    - name: registrant_name_ft
+      pdf_field_name: form1[0].Page1[0].RegistrantName-ft[0]
+      type: text
+      label: Registrant Name Ft
+      required: false
+      width: full
+  fid_capacity_ft:
+    title: Fid Capacity Ft
+    fields:
+    - name: fid_capacity_ft
+      pdf_field_name: form1[0].Page1[0].FidCapacity-ft[0]
+      type: address
+      label: Fid Capacity Ft
+      required: false
+      width: full
+  reg_date_ft:
+    title: Reg Date Ft
+    fields:
+    - name: reg_date_ft
+      pdf_field_name: form1[0].Page1[0].RegDate-ft[0]
+      type: date
+      label: Reg Date Ft
+      required: false
+      width: half
+  court_name_ft:
+    title: Court Name Ft
+    fields:
+    - name: court_name_ft
+      pdf_field_name: form1[0].Page1[0].CourtName-ft[0]
+      type: text
+      label: Court Name Ft
+      required: false
+      width: full
+      shared_key: court:name
+  res_bus_add_ft:
+    title: Res Bus Add Ft
+    fields:
+    - name: res_bus_add_ft
+      pdf_field_name: form1[0].Page2[0].ResBusAdd-ft[0]
+      type: text
+      label: Res Bus Add Ft
+      required: false
+      width: full
+  usps_cb:
+    title: Usps Cb
+    fields:
+    - name: usps_cb
+      pdf_field_name: form1[0].Page2[0].USPS_cb[0]
+      type: text
+      label: Usps Cb
+      required: false
+      width: full
+  mail_collect_cb:
+    title: Mail Collect Cb
+    fields:
+    - name: mail_collect_cb
+      pdf_field_name: form1[0].Page2[0].MailCollect_cb[0]
+      type: text
+      label: Mail Collect Cb
+      required: false
+      width: full
+  date_mailed_ft:
+    title: Date Mailed Ft
+    fields:
+    - name: date_mailed_ft
+      pdf_field_name: form1[0].Page2[0].DateMailed-ft[0]
+      type: date
+      label: Date Mailed Ft
+      required: false
+      width: half
+  place_mailed_ft:
+    title: Place Mailed Ft
+    fields:
+    - name: place_mailed_ft
+      pdf_field_name: form1[0].Page2[0].PlaceMailed-ft[0]
+      type: email
+      label: Place Mailed Ft
+      required: false
+      width: half
+  date_ft:
+    title: Date Ft
+    fields:
+    - name: date_ft
+      pdf_field_name: form1[0].Page2[0].Date-ft[0]
+      type: date
+      label: Date Ft
+      required: false
+      width: half
+  name_ft:
+    title: Name Ft
+    fields:
+    - name: name_ft
+      pdf_field_name: form1[0].Page2[0].Name-ft[0]
+      type: text
+      label: Name Ft
+      required: false
+      width: full
+  name1pt_ft:
+    title: Name1pt Ft
+    fields:
+    - name: name1pt_ft
+      pdf_field_name: form1[0].Page2[0].Name1pt-ft[0]
+      type: text
+      label: Name1pt Ft
+      required: false
+      width: full
+  address1p2_ft:
+    title: Address1p2 Ft
+    fields:
+    - name: address1p2_ft
+      pdf_field_name: form1[0].Page2[0].Address1p2-ft[0]
+      type: address
+      label: Address1p2 Ft
+      required: false
+      width: full
+  name2p2_ft:
+    title: Name2p2 Ft
+    fields:
+    - name: name2p2_ft
+      pdf_field_name: form1[0].Page2[0].Name2p2-ft[0]
+      type: text
+      label: Name2p2 Ft
+      required: false
+      width: full
+  address2p2_ft:
+    title: Address2p2 Ft
+    fields:
+    - name: address2p2_ft
+      pdf_field_name: form1[0].Page2[0].Address2p2-ft[0]
+      type: address
+      label: Address2p2 Ft
+      required: false
+      width: full
+  caption_px_sf:
+    title: Caption Px Sf
+    fields:
+    - name: estate_checkbox_2
+      pdf_field_name: form1[0].Page2[0].CaptionPx_sf[0].EstateCheckbox[0]
+      type: address
+      label: Estate Checkbox
+      required: false
+      width: full
+    - name: nameof_cons_ft_2
+      pdf_field_name: form1[0].Page2[0].CaptionPx_sf[0].NameofCons_ft[0]
+      type: text
+      label: Nameof Cons Ft
+      required: false
+      width: full
+    - name: person_cb_2
+      pdf_field_name: form1[0].Page2[0].CaptionPx_sf[0].Person_cb[0]
+      type: text
+      label: Person Cb
+      required: false
+      width: full
+    - name: estate_checkbox_2
+      pdf_field_name: form1[0].Page3[0].CaptionPx_sf[0].EstateCheckbox[0]
+      type: address
+      label: Estate Checkbox
+      required: false
+      width: full
+    - name: nameof_cons_ft_2
+      pdf_field_name: form1[0].Page3[0].CaptionPx_sf[0].NameofCons_ft[0]
+      type: text
+      label: Nameof Cons Ft
+      required: false
+      width: full
+    - name: person_cb_2
+      pdf_field_name: form1[0].Page3[0].CaptionPx_sf[0].Person_cb[0]
+      type: text
+      label: Person Cb
+      required: false
+      width: full
+  name1p3_ft:
+    title: Name1p3 Ft
+    fields:
+    - name: name1p3_ft
+      pdf_field_name: form1[0].Page3[0].Name1p3-ft[0]
+      type: text
+      label: Name1p3 Ft
+      required: false
+      width: full
+  address1p3_ft:
+    title: Address1p3 Ft
+    fields:
+    - name: address1p3_ft
+      pdf_field_name: form1[0].Page3[0].Address1p3-ft[0]
+      type: address
+      label: Address1p3 Ft
+      required: false
+      width: full
+  name2p3_ft:
+    title: Name2p3 Ft
+    fields:
+    - name: name2p3_ft
+      pdf_field_name: form1[0].Page3[0].Name2p3-ft[0]
+      type: text
+      label: Name2p3 Ft
+      required: false
+      width: full
+  address2p3_ft:
+    title: Address2p3 Ft
+    fields:
+    - name: address2p3_ft
+      pdf_field_name: form1[0].Page3[0].Address2p3-ft[0]
+      type: address
+      label: Address2p3 Ft
+      required: false
+      width: full
+  name3p3_ft:
+    title: Name3p3 Ft
+    fields:
+    - name: name3p3_ft
+      pdf_field_name: form1[0].Page3[0].Name3p3-ft[0]
+      type: text
+      label: Name3p3 Ft
+      required: false
+      width: full
+  address3p3_ft:
+    title: Address3p3 Ft
+    fields:
+    - name: address3p3_ft
+      pdf_field_name: form1[0].Page3[0].Address3p3-ft[0]
+      type: address
+      label: Address3p3 Ft
+      required: false
+      width: full
+  name4p3_ft:
+    title: Name4p3 Ft
+    fields:
+    - name: name4p3_ft
+      pdf_field_name: form1[0].Page3[0].Name4p3-ft[0]
+      type: text
+      label: Name4p3 Ft
+      required: false
+      width: full
+  address4p3_ft:
+    title: Address4p3 Ft
+    fields:
+    - name: address4p3_ft
+      pdf_field_name: form1[0].Page3[0].Address4p3-ft[0]
+      type: address
+      label: Address4p3 Ft
+      required: false
+      width: full
+  name5p3_ft:
+    title: Name5p3 Ft
+    fields:
+    - name: name5p3_ft
+      pdf_field_name: form1[0].Page3[0].Name5p3-ft[0]
+      type: text
+      label: Name5p3 Ft
+      required: false
+      width: full
+  address5p3_ft:
+    title: Address5p3 Ft
+    fields:
+    - name: address5p3_ft
+      pdf_field_name: form1[0].Page3[0].Address5p3-ft[0]
+      type: address
+      label: Address5p3 Ft
+      required: false
+      width: full
+  name6p3_ft:
+    title: Name6p3 Ft
+    fields:
+    - name: name6p3_ft
+      pdf_field_name: form1[0].Page3[0].Name6p3-ft[0]
+      type: text
+      label: Name6p3 Ft
+      required: false
+      width: full
+  address6p3_ft:
+    title: Address6p3 Ft
+    fields:
+    - name: address6p3_ft
+      pdf_field_name: form1[0].Page3[0].Address6p3-ft[0]
+      type: address
+      label: Address6p3 Ft
+      required: false
+      width: full
+  name7p3_ft:
+    title: Name7p3 Ft
+    fields:
+    - name: name7p3_ft
+      pdf_field_name: form1[0].Page3[0].Name7p3-ft[0]
+      type: text
+      label: Name7p3 Ft
+      required: false
+      width: full
+  address7p3_ft:
+    title: Address7p3 Ft
+    fields:
+    - name: address7p3_ft
+      pdf_field_name: form1[0].Page3[0].Address7p3-ft[0]
+      type: address
+      label: Address7p3 Ft
+      required: false
+      width: full
+  name8p3_ft:
+    title: Name8p3 Ft
+    fields:
+    - name: name8p3_ft
+      pdf_field_name: form1[0].Page3[0].Name8p3-ft[0]
+      type: text
+      label: Name8p3 Ft
+      required: false
+      width: full
+  address8p3_ft:
+    title: Address8p3 Ft
+    fields:
+    - name: address8p3_ft
+      pdf_field_name: form1[0].Page3[0].Address8p3-ft[0]
+      type: address
+      label: Address8p3 Ft
+      required: false
+      width: full
+  name9p3_ft:
+    title: Name9p3 Ft
+    fields:
+    - name: name9p3_ft
+      pdf_field_name: form1[0].Page3[0].Name9p3-ft[0]
+      type: text
+      label: Name9p3 Ft
+      required: false
+      width: full
+  address9p3_ft:
+    title: Address9p3 Ft
+    fields:
+    - name: address9p3_ft
+      pdf_field_name: form1[0].Page3[0].Address9p3-ft[0]
+      type: address
+      label: Address9p3 Ft
+      required: false
+      width: full
+  name10p3_ft:
+    title: Name10p3 Ft
+    fields:
+    - name: name10p3_ft
+      pdf_field_name: form1[0].Page3[0].Name10p3-ft[0]
+      type: text
+      label: Name10p3 Ft
+      required: false
+      width: full
+  address10p3_ft:
+    title: Address10p3 Ft
+    fields:
+    - name: address10p3_ft
+      pdf_field_name: form1[0].Page3[0].Address10p3-ft[0]
+      type: address
+      label: Address10p3 Ft
+      required: false
+      width: full
+  name11p3_ft:
+    title: Name11p3 Ft
+    fields:
+    - name: name11p3_ft
+      pdf_field_name: form1[0].Page3[0].Name11p3-ft[0]
+      type: text
+      label: Name11p3 Ft
+      required: false
+      width: full
+  address11p3_ft:
+    title: Address11p3 Ft
+    fields:
+    - name: address11p3_ft
+      pdf_field_name: form1[0].Page3[0].Address11p3-ft[0]
+      type: address
+      label: Address11p3 Ft
+      required: false
+      width: full
+  name12p3_ft:
+    title: Name12p3 Ft
+    fields:
+    - name: name12p3_ft
+      pdf_field_name: form1[0].Page3[0].Name12p3-ft[0]
+      type: text
+      label: Name12p3 Ft
+      required: false
+      width: full
+  address12p3_ft:
+    title: Address12p3 Ft
+    fields:
+    - name: address12p3_ft
+      pdf_field_name: form1[0].Page3[0].Address12p3-ft[0]
+      type: address
+      label: Address12p3 Ft
+      required: false
+      width: full
+  addl_persons_of_cb:
+    title: Addl Persons Of Cb
+    fields:
+    - name: addl_persons_of_cb
+      pdf_field_name: form1[0].Page3[0].#area[0].AddlPersons_OF_cb[0]
+      type: text
+      label: Addl Persons Of Cb
+      required: false
+      width: full
+    - name: addl_persons_of_cb_2
+      pdf_field_name: form1[0].Page4[0].AddlPersons_OF_cb[0]
+      type: text
+      label: Addl Persons Of Cb
+      required: false
+      width: full
+  name1p4_ft:
+    title: Name1p4 Ft
+    fields:
+    - name: name1p4_ft
+      pdf_field_name: form1[0].Page4[0].Name1p4-ft[0]
+      type: text
+      label: Name1p4 Ft
+      required: false
+      width: full
+  address1p4_ft:
+    title: Address1p4 Ft
+    fields:
+    - name: address1p4_ft
+      pdf_field_name: form1[0].Page4[0].Address1p4-ft[0]
+      type: address
+      label: Address1p4 Ft
+      required: false
+      width: full
+  name2p4_ft:
+    title: Name2p4 Ft
+    fields:
+    - name: name2p4_ft
+      pdf_field_name: form1[0].Page4[0].Name2p4-ft[0]
+      type: text
+      label: Name2p4 Ft
+      required: false
+      width: full
+  address2p4_ft:
+    title: Address2p4 Ft
+    fields:
+    - name: address2p4_ft
+      pdf_field_name: form1[0].Page4[0].Address2p4-ft[0]
+      type: address
+      label: Address2p4 Ft
+      required: false
+      width: full
+  name3p4_ft:
+    title: Name3p4 Ft
+    fields:
+    - name: name3p4_ft
+      pdf_field_name: form1[0].Page4[0].Name3p4-ft[0]
+      type: text
+      label: Name3p4 Ft
+      required: false
+      width: full
+  address3p4_ft:
+    title: Address3p4 Ft
+    fields:
+    - name: address3p4_ft
+      pdf_field_name: form1[0].Page4[0].Address3p4-ft[0]
+      type: address
+      label: Address3p4 Ft
+      required: false
+      width: full
+  name4p4_ft:
+    title: Name4p4 Ft
+    fields:
+    - name: name4p4_ft
+      pdf_field_name: form1[0].Page4[0].Name4p4-ft[0]
+      type: text
+      label: Name4p4 Ft
+      required: false
+      width: full
+  address4p4_ft:
+    title: Address4p4 Ft
+    fields:
+    - name: address4p4_ft
+      pdf_field_name: form1[0].Page4[0].Address4p4-ft[0]
+      type: address
+      label: Address4p4 Ft
+      required: false
+      width: full
+  name5p4_ft:
+    title: Name5p4 Ft
+    fields:
+    - name: name5p4_ft
+      pdf_field_name: form1[0].Page4[0].Name5p4-ft[0]
+      type: text
+      label: Name5p4 Ft
+      required: false
+      width: full
+  address5p4_ft:
+    title: Address5p4 Ft
+    fields:
+    - name: address5p4_ft
+      pdf_field_name: form1[0].Page4[0].Address5p4-ft[0]
+      type: address
+      label: Address5p4 Ft
+      required: false
+      width: full
+  name6p4_ft:
+    title: Name6p4 Ft
+    fields:
+    - name: name6p4_ft
+      pdf_field_name: form1[0].Page4[0].Name6p4-ft[0]
+      type: text
+      label: Name6p4 Ft
+      required: false
+      width: full
+  address6p4_ft:
+    title: Address6p4 Ft
+    fields:
+    - name: address6p4_ft
+      pdf_field_name: form1[0].Page4[0].Address6p4-ft[0]
+      type: address
+      label: Address6p4 Ft
+      required: false
+      width: full
+  name7p4_ft:
+    title: Name7p4 Ft
+    fields:
+    - name: name7p4_ft
+      pdf_field_name: form1[0].Page4[0].Name7p4-ft[0]
+      type: text
+      label: Name7p4 Ft
+      required: false
+      width: full
+  address7p4_ft:
+    title: Address7p4 Ft
+    fields:
+    - name: address7p4_ft
+      pdf_field_name: form1[0].Page4[0].Address7p4-ft[0]
+      type: address
+      label: Address7p4 Ft
+      required: false
+      width: full
+  name8p4_ft:
+    title: Name8p4 Ft
+    fields:
+    - name: name8p4_ft
+      pdf_field_name: form1[0].Page4[0].Name8p4-ft[0]
+      type: text
+      label: Name8p4 Ft
+      required: false
+      width: full
+  address8p4_ft:
+    title: Address8p4 Ft
+    fields:
+    - name: address8p4_ft
+      pdf_field_name: form1[0].Page4[0].Address8p4-ft[0]
+      type: address
+      label: Address8p4 Ft
+      required: false
+      width: full
+  name9p4_ft:
+    title: Name9p4 Ft
+    fields:
+    - name: name9p4_ft
+      pdf_field_name: form1[0].Page4[0].Name9p4-ft[0]
+      type: text
+      label: Name9p4 Ft
+      required: false
+      width: full
+  address9p4_ft:
+    title: Address9p4 Ft
+    fields:
+    - name: address9p4_ft
+      pdf_field_name: form1[0].Page4[0].Address9p4-ft[0]
+      type: address
+      label: Address9p4 Ft
+      required: false
+      width: full
+  name10p4_ft:
+    title: Name10p4 Ft
+    fields:
+    - name: name10p4_ft
+      pdf_field_name: form1[0].Page4[0].Name10p4-ft[0]
+      type: text
+      label: Name10p4 Ft
+      required: false
+      width: full
+  address10p4_ft:
+    title: Address10p4 Ft
+    fields:
+    - name: address10p4_ft
+      pdf_field_name: form1[0].Page4[0].Address10p4-ft[0]
+      type: address
+      label: Address10p4 Ft
+      required: false
+      width: full
+  name11p4_ft:
+    title: Name11p4 Ft
+    fields:
+    - name: name11p4_ft
+      pdf_field_name: form1[0].Page4[0].Name11p4-ft[0]
+      type: text
+      label: Name11p4 Ft
+      required: false
+      width: full
+    - name: name11p4_ft_2
+      pdf_field_name: form1[0].Page4[0].Name11p4-ft[1]
+      type: text
+      label: Name11p4 Ft
+      required: false
+      width: full
+  address11p4_ft:
+    title: Address11p4 Ft
+    fields:
+    - name: address11p4_ft
+      pdf_field_name: form1[0].Page4[0].Address11p4-ft[0]
+      type: address
+      label: Address11p4 Ft
+      required: false
+      width: full
+    - name: address11p4_ft_2
+      pdf_field_name: form1[0].Page4[0].Address11p4-ft[1]
+      type: address
+      label: Address11p4 Ft
+      required: false
+      width: full
+  footer_px_sf:
+    title: Footer Px Sf
+    fields:
+    - name: estate_checkbox_2
+      pdf_field_name: form1[0].Page4[0].FooterPx_sf[1].EstateCheckbox[0]
+      type: address
+      label: Estate Checkbox
+      required: false
+      width: full
+    - name: nameof_cons_ft_2
+      pdf_field_name: form1[0].Page4[0].FooterPx_sf[1].NameofCons_ft[0]
+      type: text
+      label: Nameof Cons Ft
+      required: false
+      width: full
+    - name: person_cb_2
+      pdf_field_name: form1[0].Page4[0].FooterPx_sf[1].Person_cb[0]
+      type: text
+      label: Person Cb
+      required: false
+      width: full
+  print_bt:
+    title: Print Bt
+    fields:
+    - name: print_bt
+      pdf_field_name: form1[0].Page4[0].Print_bt[0]
+      type: checkbox
+      label: Print Bt
+      required: false
+      width: full
+  save_bt:
+    title: Save Bt
+    fields:
+    - name: save_bt
+      pdf_field_name: form1[0].Page4[0].Save_bt[0]
+      type: checkbox
+      label: Save Bt
+      required: false
+      width: full
+  reset_bt:
+    title: Reset Bt
+    fields:
+    - name: reset_bt
+      pdf_field_name: form1[0].Page4[0].Reset_bt[0]
+      type: checkbox
+      label: Reset Bt
+      required: false
+      width: full

@@ -1,0 +1,146 @@
+---
+form:
+  code: JV-456
+  title: JV 456 Form
+  description: ''
+  category: juvenile/general
+  pdf_filename: jv456.pdf
+  fillable: true
+  instructions: ''
+sections:
+  general:
+    title: General
+    fields:
+    - name: child_name
+      pdf_field_name: ChildName
+      type: text
+      label: Child Name
+      required: false
+      width: full
+    - name: case_number
+      pdf_field_name: CaseNumber
+      type: text
+      label: Case Number
+      required: false
+      width: full
+      shared_key: case:number
+    - name: mother
+      pdf_field_name: CheckBox.02.mother
+      type: checkbox
+      label: Mother
+      required: false
+      width: full
+    - name: other
+      pdf_field_name: CheckBox.02.other
+      type: checkbox
+      label: Other
+      required: false
+      width: full
+    - name: b
+      pdf_field_name: CheckBox.2.b
+      type: checkbox
+      label: B
+      required: false
+      width: full
+    - name: c
+      pdf_field_name: CheckBox.2.c
+      type: checkbox
+      label: C
+      required: false
+      width: full
+    - name: check_box
+      pdf_field_name: CheckBox.03.0
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: mother_2
+      pdf_field_name: CheckBox.03.mother
+      type: checkbox
+      label: Mother
+      required: false
+      width: full
+    - name: other_2
+      pdf_field_name: CheckBox.03.other
+      type: checkbox
+      label: Other
+      required: false
+      width: full
+    - name: check_box_2
+      pdf_field_name: CheckBox.04
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: fill_text
+      pdf_field_name: FillText.02.0
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text_2
+      pdf_field_name: FillText.03.0
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+  biological:
+    title: Biological
+    fields:
+    - name: father
+      pdf_field_name: CheckBox.02.biological.father
+      type: checkbox
+      label: Father
+      required: false
+      width: full
+    - name: father_2
+      pdf_field_name: CheckBox.03.biological.father
+      type: checkbox
+      label: Father
+      required: false
+      width: full
+  legal:
+    title: Legal
+    fields:
+    - name: guardian
+      pdf_field_name: CheckBox.02.legal.guardian
+      type: checkbox
+      label: Guardian
+      required: false
+      width: full
+    - name: guardian_2
+      pdf_field_name: CheckBox.03.legal.guardian
+      type: checkbox
+      label: Guardian
+      required: false
+      width: full
+  presumed:
+    title: Presumed
+    fields:
+    - name: father_2
+      pdf_field_name: CheckBox.02.presumed.father
+      type: checkbox
+      label: Father
+      required: false
+      width: full
+    - name: father_2
+      pdf_field_name: CheckBox.03.presumed.father
+      type: checkbox
+      label: Father
+      required: false
+      width: full
+  indian:
+    title: Indian
+    fields:
+    - name: custodian
+      pdf_field_name: CheckBox.02.indian.custodian
+      type: checkbox
+      label: Custodian
+      required: false
+      width: full
+    - name: custodian_2
+      pdf_field_name: CheckBox.03.indian.custodian
+      type: checkbox
+      label: Custodian
+      required: false
+      width: full

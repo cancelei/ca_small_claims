@@ -1,0 +1,284 @@
+---
+form:
+  code: FL-130
+  title: FL 130 Form
+  description: ''
+  category: family_law/general
+  pdf_filename: fl130.pdf
+  fillable: true
+  instructions: ''
+sections:
+  p1_footer:
+    title: P1 Footer
+    fields:
+    - name: button1
+      pdf_field_name: FL-130[0].#pageSet[0].Page1[0].P1Footer[0].Button1[0]
+      type: checkbox
+      label: Button
+      required: false
+      width: full
+    - name: print
+      pdf_field_name: FL-130[0].#pageSet[0].Page1[0].P1Footer[0].#area[0].Print[0]
+      type: checkbox
+      label: Print
+      required: false
+      width: full
+    - name: save
+      pdf_field_name: FL-130[0].#pageSet[0].Page1[0].P1Footer[0].#area[0].Save[0]
+      type: checkbox
+      label: Save
+      required: false
+      width: full
+    - name: reset
+      pdf_field_name: FL-130[0].#pageSet[0].Page1[0].P1Footer[0].#area[0].Reset[0]
+      type: checkbox
+      label: Reset
+      required: false
+      width: full
+    - name: warning
+      pdf_field_name: FL-130[0].#pageSet[0].Page1[0].P1Footer[0].#area[0].Warning[0]
+      type: checkbox
+      label: Warning
+      required: false
+      width: full
+  cn:
+    title: Cn
+    fields:
+    - name: case_number
+      pdf_field_name: FL-130[0].Page1[0].CN[0].CaseNumber[0].CaseNumber[0]
+      type: text
+      label: Case Number
+      required: false
+      width: full
+      shared_key: case:number
+  pa:
+    title: Pa
+    fields:
+    - name: state_bar_no
+      pdf_field_name: FL-130[0].Page1[0].PA[0].PartyAtty[0].StateBarNo[0]
+      type: address
+      label: State Bar No
+      required: false
+      width: full
+    - name: name
+      pdf_field_name: FL-130[0].Page1[0].PA[0].PartyAtty[0].Name[0]
+      type: text
+      label: Name
+      required: false
+      width: full
+    - name: atty_firm
+      pdf_field_name: FL-130[0].Page1[0].PA[0].PartyAtty[0].AttyFirm[0]
+      type: text
+      label: Atty Firm
+      required: false
+      width: full
+    - name: street
+      pdf_field_name: FL-130[0].Page1[0].PA[0].PartyAtty[0].Street[0]
+      type: address
+      label: Street
+      required: false
+      width: full
+    - name: city
+      pdf_field_name: FL-130[0].Page1[0].PA[0].PartyAtty[0].City[0]
+      type: address
+      label: City
+      required: false
+      width: full
+    - name: state
+      pdf_field_name: FL-130[0].Page1[0].PA[0].PartyAtty[0].State[0]
+      type: address
+      label: State
+      required: false
+      width: full
+    - name: zip
+      pdf_field_name: FL-130[0].Page1[0].PA[0].PartyAtty[0].Zip[0]
+      type: address
+      label: Zip
+      required: false
+      width: full
+    - name: phone
+      pdf_field_name: FL-130[0].Page1[0].PA[0].PartyAtty[0].Phone[0]
+      type: tel
+      label: Phone
+      required: false
+      width: half
+    - name: fax
+      pdf_field_name: FL-130[0].Page1[0].PA[0].PartyAtty[0].Fax[0]
+      type: tel
+      label: Fax
+      required: false
+      width: half
+    - name: email
+      pdf_field_name: FL-130[0].Page1[0].PA[0].PartyAtty[0].Email[0]
+      type: email
+      label: Email
+      required: false
+      width: half
+    - name: atty_for
+      pdf_field_name: FL-130[0].Page1[0].PA[0].PartyAtty[0].AttyFor[0]
+      type: text
+      label: Atty For
+      required: false
+      width: full
+  ci:
+    title: Ci
+    fields:
+    - name: crt_county
+      pdf_field_name: FL-130[0].Page1[0].CI[0].CourtInfo[0].CrtCounty[0]
+      type: number
+      label: Crt County
+      required: false
+      width: third
+    - name: crt_street
+      pdf_field_name: FL-130[0].Page1[0].CI[0].CourtInfo[0].CrtStreet[0]
+      type: address
+      label: Crt Street
+      required: false
+      width: full
+    - name: crt_mailing_add
+      pdf_field_name: FL-130[0].Page1[0].CI[0].CourtInfo[0].CrtMailingAdd[0]
+      type: address
+      label: Crt Mailing Add
+      required: false
+      width: full
+    - name: crt_city_zip
+      pdf_field_name: FL-130[0].Page1[0].CI[0].CourtInfo[0].CrtCityZip[0]
+      type: address
+      label: Crt City Zip
+      required: false
+      width: full
+    - name: crt_branch
+      pdf_field_name: FL-130[0].Page1[0].CI[0].CourtInfo[0].CrtBranch[0]
+      type: text
+      label: Crt Branch
+      required: false
+      width: full
+  tpn:
+    title: Tpn
+    fields:
+    - name: party1
+      pdf_field_name: FL-130[0].Page1[0].TPN[0].TitlePartyName[0].Party1[0]
+      type: text
+      label: Party
+      required: false
+      width: full
+    - name: party2
+      pdf_field_name: FL-130[0].Page1[0].TPN[0].TitlePartyName[0].Party2[0]
+      type: text
+      label: Party
+      required: false
+      width: full
+  list:
+    title: List
+    fields:
+    - name: check_boxappear
+      pdf_field_name: FL-130[0].Page1[0].List1[0].LI1[0].CheckBoxappear[0]
+      type: checkbox
+      label: Check Boxappear
+      required: false
+      width: full
+    - name: check_boxappear_2
+      pdf_field_name: FL-130[0].Page1[0].List1[0].LI2[0].CheckBoxappear[0]
+      type: checkbox
+      label: Check Boxappear
+      required: false
+      width: full
+    - name: check_boxappear_2
+      pdf_field_name: FL-130[0].Page1[0].List1[0].LI3[0].CheckBoxappear[0]
+      type: checkbox
+      label: Check Boxappear
+      required: false
+      width: full
+    - name: check_box1
+      pdf_field_name: FL-130[0].Page1[0].List2[0].LI1[0].CheckBox1[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box2
+      pdf_field_name: FL-130[0].Page1[0].List2[0].LI2[0].CheckBox2[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box3
+      pdf_field_name: FL-130[0].Page1[0].List2[0].LI3[0].CheckBox3[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box4
+      pdf_field_name: FL-130[0].Page1[0].List2[0].LI4[0].CheckBox4[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box5
+      pdf_field_name: FL-130[0].Page1[0].List2[0].LI5[0].CheckBox5[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box1_2
+      pdf_field_name: FL-130[0].Page1[0].List2[0].LI6[0].CheckBox1[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: text3
+      pdf_field_name: FL-130[0].Page1[0].List3[0].LI1[0].Text3[0]
+      type: text
+      label: Text
+      required: false
+      width: full
+  sign_sub:
+    title: Sign Sub
+    fields:
+    - name: sig_date
+      pdf_field_name: FL-130[0].Page1[0].SignSub[0].Sign[0].SigDate[0]
+      type: signature
+      label: Sig Date
+      required: false
+      width: full
+    - name: sig_name
+      pdf_field_name: FL-130[0].Page1[0].SignSub[0].Sign[0].SigName[0]
+      type: signature
+      label: Sig Name
+      required: false
+      width: full
+    - name: sig_date1
+      pdf_field_name: FL-130[0].Page1[0].SignSub[0].Sign1[0].SigDate1[0]
+      type: date
+      label: Sig Date
+      required: false
+      width: half
+    - name: sig_name1
+      pdf_field_name: FL-130[0].Page1[0].SignSub[0].Sign1[0].SigName1[0]
+      type: text
+      label: Sig Name
+      required: false
+      width: full
+    - name: sig_date2
+      pdf_field_name: FL-130[0].Page1[0].SignSub[0].Sign2[0].SigDate2[0]
+      type: date
+      label: Sig Date
+      required: false
+      width: half
+    - name: sig_name2
+      pdf_field_name: FL-130[0].Page1[0].SignSub[0].Sign2[0].SigName2[0]
+      type: text
+      label: Sig Name
+      required: false
+      width: full
+    - name: sig_date3
+      pdf_field_name: FL-130[0].Page1[0].SignSub[0].Sign3[0].SigDate3[0]
+      type: date
+      label: Sig Date
+      required: false
+      width: half
+    - name: sig_name3
+      pdf_field_name: FL-130[0].Page1[0].SignSub[0].Sign3[0].SigName3[0]
+      type: text
+      label: Sig Name
+      required: false
+      width: full

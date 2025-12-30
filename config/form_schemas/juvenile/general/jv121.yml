@@ -1,0 +1,117 @@
+---
+form:
+  code: JV-121
+  title: JV 121 Form
+  description: ''
+  category: juvenile/general
+  pdf_filename: jv121.pdf
+  fillable: true
+  instructions: ''
+sections:
+  page_area:
+    title: Page Area
+    fields:
+    - name: print
+      pdf_field_name: JV-121[0].#pageSet[0].PageArea1[0].FooterButtons[0].Print[0]
+      type: checkbox
+      label: Print
+      required: false
+      width: full
+    - name: save
+      pdf_field_name: JV-121[0].#pageSet[0].PageArea1[0].FooterButtons[0].Save[0]
+      type: checkbox
+      label: Save
+      required: false
+      width: full
+    - name: reset
+      pdf_field_name: JV-121[0].#pageSet[0].PageArea1[0].FooterButtons[0].Reset[0]
+      type: checkbox
+      label: Reset
+      required: false
+      width: full
+    - name: warning
+      pdf_field_name: JV-121[0].#pageSet[0].PageArea1[0].FooterButtons[0].Warning[0]
+      type: checkbox
+      label: Warning
+      required: false
+      width: full
+  p2_header_gp:
+    title: P2 Header Gp
+    fields:
+    - name: case_name_ft
+      pdf_field_name: JV-121[0].Page1[0].P2Header_gp[0].NameSub[0].CaseNumber[0].CaseName_ft[0]
+      type: text
+      label: Case Name Ft
+      required: false
+      width: full
+      shared_key: case:number
+    - name: case_number_ft
+      pdf_field_name: JV-121[0].Page1[0].P2Header_gp[0].CaseSub[0].CaseNumber[0].CaseNumber_ft[0]
+      type: text
+      label: Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+  list:
+    title: List
+    fields:
+    - name: check_box1
+      pdf_field_name: JV-121[0].Page1[0].List1[0].Li1[0].#area[0].CheckBox1[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box2
+      pdf_field_name: JV-121[0].Page1[0].List1[0].Li1[0].#area[1].CheckBox2[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box3
+      pdf_field_name: JV-121[0].Page1[0].List1[0].Li1[0].#area[2].CheckBox3[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box4
+      pdf_field_name: JV-121[0].Page1[0].List1[0].Li1[0].#area[3].CheckBox4[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box1_2
+      pdf_field_name: JV-121[0].Page1[0].List2[0].Li2[0].#area[0].CheckBox1[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box2_2
+      pdf_field_name: JV-121[0].Page1[0].List2[0].Li2[0].#area[1].CheckBox2[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: fill_text7
+      pdf_field_name: JV-121[0].Page1[0].List2[0].Li2[0].FillText7[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+  page:
+    title: Page
+    fields:
+    - name: page
+      pdf_field_name: JV-121[0].Page1[0].Page[0]
+      type: text
+      label: Page
+      required: false
+      width: full
+  general:
+    title: General
+    fields:
+    - name: page1
+      pdf_field_name: JV-121[0].Page1[0].Page1[0]
+      type: text
+      label: Page
+      required: false
+      width: full

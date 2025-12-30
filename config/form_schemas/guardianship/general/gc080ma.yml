@@ -1,0 +1,431 @@
+---
+form:
+  code: GC-080MA
+  title: GC 080MA Form
+  description: ''
+  category: guardianship/general
+  pdf_filename: gc080ma.pdf
+  fillable: true
+  instructions: ''
+sections:
+  mp:
+    title: Mp
+    fields:
+    - name: print
+      pdf_field_name: GC-080MA[0].#pageSet[0].MP1[0].#area[0].Print[0]
+      type: checkbox
+      label: Print
+      required: false
+      width: full
+    - name: save
+      pdf_field_name: GC-080MA[0].#pageSet[0].MP1[0].#area[0].Save[0]
+      type: checkbox
+      label: Save
+      required: false
+      width: full
+    - name: reset
+      pdf_field_name: GC-080MA[0].#pageSet[0].MP1[0].#area[0].Reset[0]
+      type: checkbox
+      label: Reset
+      required: false
+      width: full
+  px_caption:
+    title: Px Caption
+    fields:
+    - name: case_number
+      pdf_field_name: GC-080MA[0].Page1[0].PxCaption[0].CaseNumber[0].CaseNumber[0]
+      type: text
+      label: Case Number
+      required: false
+      width: full
+      shared_key: case:number
+    - name: cgcb
+      pdf_field_name: GC-080MA[0].Page1[0].PxCaption[0].TitlePartyName[0].Cship[0].CGCB[0]
+      type: text
+      label: Cgcb
+      required: false
+      width: full
+    - name: cgcb_2
+      pdf_field_name: GC-080MA[0].Page1[0].PxCaption[0].TitlePartyName[0].Gship[0].CGCB[0]
+      type: text
+      label: Cgcb
+      required: false
+      width: full
+    - name: check_box3
+      pdf_field_name: GC-080MA[0].Page1[0].PxCaption[0].TitlePartyName[0].AndEstate[0].CheckBox3[0]
+      type: address
+      label: Check Box
+      required: false
+      width: full
+    - name: party1
+      pdf_field_name: GC-080MA[0].Page1[0].PxCaption[0].TitlePartyName[0].Party1[0]
+      type: text
+      label: Party
+      required: false
+      width: full
+    - name: cgcb_2
+      pdf_field_name: GC-080MA[0].Page1[0].PxCaption[0].TitlePartyName[0].ConWard[0].Conservatee[0].CGCB[0]
+      type: text
+      label: Cgcb
+      required: false
+      width: full
+    - name: cgcb_2
+      pdf_field_name: GC-080MA[0].Page1[0].PxCaption[0].TitlePartyName[0].ConWard[0].Ward[0].CGCB[0]
+      type: text
+      label: Cgcb
+      required: false
+      width: full
+  table_notice:
+    title: Table Notice
+    fields:
+    - name: num1
+      pdf_field_name: GC-080MA[0].Page1[0].TableNotice[0].row1[0].Num1[0]
+      type: text
+      label: Num
+      required: false
+      width: full
+    - name: name1
+      pdf_field_name: GC-080MA[0].Page1[0].TableNotice[0].row1[0].Name1[0]
+      type: text
+      label: Name
+      required: false
+      width: full
+    - name: rel1
+      pdf_field_name: GC-080MA[0].Page1[0].TableNotice[0].row1[0].Rel1[0]
+      type: text
+      label: Rel
+      required: false
+      width: full
+    - name: add1
+      pdf_field_name: GC-080MA[0].Page1[0].TableNotice[0].row1[0].Add1[0]
+      type: text
+      label: Add
+      required: false
+      width: full
+    - name: num2
+      pdf_field_name: GC-080MA[0].Page1[0].TableNotice[0].row2[0].Num2[0]
+      type: text
+      label: Num
+      required: false
+      width: full
+    - name: name2
+      pdf_field_name: GC-080MA[0].Page1[0].TableNotice[0].row2[0].Name2[0]
+      type: text
+      label: Name
+      required: false
+      width: full
+    - name: rel2
+      pdf_field_name: GC-080MA[0].Page1[0].TableNotice[0].row2[0].Rel2[0]
+      type: text
+      label: Rel
+      required: false
+      width: full
+    - name: add2
+      pdf_field_name: GC-080MA[0].Page1[0].TableNotice[0].row2[0].Add2[0]
+      type: text
+      label: Add
+      required: false
+      width: full
+    - name: num3
+      pdf_field_name: GC-080MA[0].Page1[0].TableNotice[0].row3[0].Num3[0]
+      type: text
+      label: Num
+      required: false
+      width: full
+    - name: name3
+      pdf_field_name: GC-080MA[0].Page1[0].TableNotice[0].row3[0].Name3[0]
+      type: text
+      label: Name
+      required: false
+      width: full
+    - name: rel3
+      pdf_field_name: GC-080MA[0].Page1[0].TableNotice[0].row3[0].Rel3[0]
+      type: text
+      label: Rel
+      required: false
+      width: full
+    - name: add3
+      pdf_field_name: GC-080MA[0].Page1[0].TableNotice[0].row3[0].Add3[0]
+      type: text
+      label: Add
+      required: false
+      width: full
+    - name: num4
+      pdf_field_name: GC-080MA[0].Page1[0].TableNotice[0].row4[0].Num4[0]
+      type: text
+      label: Num
+      required: false
+      width: full
+    - name: name4
+      pdf_field_name: GC-080MA[0].Page1[0].TableNotice[0].row4[0].Name4[0]
+      type: text
+      label: Name
+      required: false
+      width: full
+    - name: rel4
+      pdf_field_name: GC-080MA[0].Page1[0].TableNotice[0].row4[0].Rel4[0]
+      type: text
+      label: Rel
+      required: false
+      width: full
+    - name: add4
+      pdf_field_name: GC-080MA[0].Page1[0].TableNotice[0].row4[0].Add4[0]
+      type: text
+      label: Add
+      required: false
+      width: full
+    - name: num5
+      pdf_field_name: GC-080MA[0].Page1[0].TableNotice[0].row5[0].Num5[0]
+      type: text
+      label: Num
+      required: false
+      width: full
+    - name: name5
+      pdf_field_name: GC-080MA[0].Page1[0].TableNotice[0].row5[0].Name5[0]
+      type: text
+      label: Name
+      required: false
+      width: full
+    - name: rel5
+      pdf_field_name: GC-080MA[0].Page1[0].TableNotice[0].row5[0].Rel5[0]
+      type: text
+      label: Rel
+      required: false
+      width: full
+    - name: add5
+      pdf_field_name: GC-080MA[0].Page1[0].TableNotice[0].row5[0].Add5[0]
+      type: text
+      label: Add
+      required: false
+      width: full
+    - name: num6
+      pdf_field_name: GC-080MA[0].Page1[0].TableNotice[0].row6[0].Num6[0]
+      type: text
+      label: Num
+      required: false
+      width: full
+    - name: name6
+      pdf_field_name: GC-080MA[0].Page1[0].TableNotice[0].row6[0].Name6[0]
+      type: text
+      label: Name
+      required: false
+      width: full
+    - name: rel6
+      pdf_field_name: GC-080MA[0].Page1[0].TableNotice[0].row6[0].Rel6[0]
+      type: text
+      label: Rel
+      required: false
+      width: full
+    - name: add6
+      pdf_field_name: GC-080MA[0].Page1[0].TableNotice[0].row6[0].Add6[0]
+      type: text
+      label: Add
+      required: false
+      width: full
+    - name: num7
+      pdf_field_name: GC-080MA[0].Page1[0].TableNotice[0].row7[0].Num7[0]
+      type: text
+      label: Num
+      required: false
+      width: full
+    - name: name7
+      pdf_field_name: GC-080MA[0].Page1[0].TableNotice[0].row7[0].Name7[0]
+      type: text
+      label: Name
+      required: false
+      width: full
+    - name: rel7
+      pdf_field_name: GC-080MA[0].Page1[0].TableNotice[0].row7[0].Rel7[0]
+      type: text
+      label: Rel
+      required: false
+      width: full
+    - name: add7
+      pdf_field_name: GC-080MA[0].Page1[0].TableNotice[0].row7[0].Add7[0]
+      type: text
+      label: Add
+      required: false
+      width: full
+    - name: num8
+      pdf_field_name: GC-080MA[0].Page1[0].TableNotice[0].row8[0].Num8[0]
+      type: text
+      label: Num
+      required: false
+      width: full
+    - name: name8
+      pdf_field_name: GC-080MA[0].Page1[0].TableNotice[0].row8[0].Name8[0]
+      type: text
+      label: Name
+      required: false
+      width: full
+    - name: rel8
+      pdf_field_name: GC-080MA[0].Page1[0].TableNotice[0].row8[0].Rel8[0]
+      type: text
+      label: Rel
+      required: false
+      width: full
+    - name: add8
+      pdf_field_name: GC-080MA[0].Page1[0].TableNotice[0].row8[0].Add8[0]
+      type: text
+      label: Add
+      required: false
+      width: full
+    - name: num9
+      pdf_field_name: GC-080MA[0].Page1[0].TableNotice[0].row9[0].Num9[0]
+      type: text
+      label: Num
+      required: false
+      width: full
+    - name: name9
+      pdf_field_name: GC-080MA[0].Page1[0].TableNotice[0].row9[0].Name9[0]
+      type: text
+      label: Name
+      required: false
+      width: full
+    - name: rel9
+      pdf_field_name: GC-080MA[0].Page1[0].TableNotice[0].row9[0].Rel9[0]
+      type: text
+      label: Rel
+      required: false
+      width: full
+    - name: add9
+      pdf_field_name: GC-080MA[0].Page1[0].TableNotice[0].row9[0].Add9[0]
+      type: text
+      label: Add
+      required: false
+      width: full
+    - name: num10
+      pdf_field_name: GC-080MA[0].Page1[0].TableNotice[0].row10[0].Num10[0]
+      type: text
+      label: Num
+      required: false
+      width: full
+    - name: name10
+      pdf_field_name: GC-080MA[0].Page1[0].TableNotice[0].row10[0].Name10[0]
+      type: text
+      label: Name
+      required: false
+      width: full
+    - name: rel10
+      pdf_field_name: GC-080MA[0].Page1[0].TableNotice[0].row10[0].Rel10[0]
+      type: text
+      label: Rel
+      required: false
+      width: full
+    - name: add10
+      pdf_field_name: GC-080MA[0].Page1[0].TableNotice[0].row10[0].Add10[0]
+      type: text
+      label: Add
+      required: false
+      width: full
+    - name: num11
+      pdf_field_name: GC-080MA[0].Page1[0].TableNotice[0].row11[0].Num11[0]
+      type: text
+      label: Num
+      required: false
+      width: full
+    - name: name11
+      pdf_field_name: GC-080MA[0].Page1[0].TableNotice[0].row11[0].Name11[0]
+      type: text
+      label: Name
+      required: false
+      width: full
+    - name: rel11
+      pdf_field_name: GC-080MA[0].Page1[0].TableNotice[0].row11[0].Rel11[0]
+      type: text
+      label: Rel
+      required: false
+      width: full
+    - name: add11
+      pdf_field_name: GC-080MA[0].Page1[0].TableNotice[0].row11[0].Add11[0]
+      type: text
+      label: Add
+      required: false
+      width: full
+    - name: num12
+      pdf_field_name: GC-080MA[0].Page1[0].TableNotice[0].row12[0].Num12[0]
+      type: text
+      label: Num
+      required: false
+      width: full
+    - name: name12
+      pdf_field_name: GC-080MA[0].Page1[0].TableNotice[0].row12[0].Name12[0]
+      type: text
+      label: Name
+      required: false
+      width: full
+    - name: rel12
+      pdf_field_name: GC-080MA[0].Page1[0].TableNotice[0].row12[0].Rel12[0]
+      type: text
+      label: Rel
+      required: false
+      width: full
+    - name: add12
+      pdf_field_name: GC-080MA[0].Page1[0].TableNotice[0].row12[0].Add12[0]
+      type: text
+      label: Add
+      required: false
+      width: full
+    - name: num13
+      pdf_field_name: GC-080MA[0].Page1[0].TableNotice[0].row13[0].Num13[0]
+      type: text
+      label: Num
+      required: false
+      width: full
+    - name: name13
+      pdf_field_name: GC-080MA[0].Page1[0].TableNotice[0].row13[0].Name13[0]
+      type: text
+      label: Name
+      required: false
+      width: full
+    - name: rel13
+      pdf_field_name: GC-080MA[0].Page1[0].TableNotice[0].row13[0].Rel13[0]
+      type: text
+      label: Rel
+      required: false
+      width: full
+    - name: add13
+      pdf_field_name: GC-080MA[0].Page1[0].TableNotice[0].row13[0].Add13[0]
+      type: text
+      label: Add
+      required: false
+      width: full
+    - name: num14
+      pdf_field_name: GC-080MA[0].Page1[0].TableNotice[0].row14[0].Num14[0]
+      type: text
+      label: Num
+      required: false
+      width: full
+    - name: name14
+      pdf_field_name: GC-080MA[0].Page1[0].TableNotice[0].row14[0].Name14[0]
+      type: text
+      label: Name
+      required: false
+      width: full
+    - name: rel14
+      pdf_field_name: GC-080MA[0].Page1[0].TableNotice[0].row14[0].Rel14[0]
+      type: text
+      label: Rel
+      required: false
+      width: full
+    - name: add14
+      pdf_field_name: GC-080MA[0].Page1[0].TableNotice[0].row14[0].Add14[0]
+      type: text
+      label: Add
+      required: false
+      width: full
+  pxofy:
+    title: Pxofy
+    fields:
+    - name: pagex
+      pdf_field_name: GC-080MA[0].Page1[0].Pxofy[0].pagex[0]
+      type: text
+      label: Pagex
+      required: false
+      width: full
+    - name: pagey
+      pdf_field_name: GC-080MA[0].Page1[0].Pxofy[0].pagey[0]
+      type: text
+      label: Pagey
+      required: false
+      width: full

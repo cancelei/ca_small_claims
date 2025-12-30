@@ -1,0 +1,134 @@
+---
+form:
+  code: JV-238
+  title: JV 238 Form
+  description: ''
+  category: juvenile/general
+  pdf_filename: jv238.pdf
+  fillable: true
+  instructions: ''
+sections:
+  page_area:
+    title: Page Area
+    fields:
+    - name: print
+      pdf_field_name: JV-238[0].#pageSet[0].PageArea1[0].FooterButtons[0].Print[0]
+      type: checkbox
+      label: Print
+      required: false
+      width: full
+    - name: save
+      pdf_field_name: JV-238[0].#pageSet[0].PageArea1[0].FooterButtons[0].Save[0]
+      type: checkbox
+      label: Save
+      required: false
+      width: full
+    - name: reset
+      pdf_field_name: JV-238[0].#pageSet[0].PageArea1[0].FooterButtons[0].Reset[0]
+      type: checkbox
+      label: Reset
+      required: false
+      width: full
+    - name: warning
+      pdf_field_name: JV-238[0].#pageSet[0].PageArea1[0].FooterButtons[0].Warning[0]
+      type: checkbox
+      label: Warning
+      required: false
+      width: full
+    - name: court_link
+      pdf_field_name: JV-238[0].#pageSet[0].PageArea1[0].Footer[0].CourtLink[0]
+      type: checkbox
+      label: Court Link
+      required: false
+      width: full
+  stamp_box:
+    title: Stamp Box
+    fields:
+    - name: court_info_tf
+      pdf_field_name: JV-238[0].Page1[0].StampBox[0].CourtInfo_tf[0]
+      type: text
+      label: Court Info Tf
+      required: false
+      width: full
+    - name: childs_name_tf
+      pdf_field_name: JV-238[0].Page1[0].StampBox[0].ChildsName_tf[0]
+      type: text
+      label: Childs Name Tf
+      required: false
+      width: full
+    - name: dob
+      pdf_field_name: JV-238[0].Page1[0].StampBox[0].dob[0]
+      type: date
+      label: Dob
+      required: false
+      width: half
+    - name: case_number_tf
+      pdf_field_name: JV-238[0].Page1[0].StampBox[0].CaseNumber_tf[0]
+      type: text
+      label: Case Number Tf
+      required: false
+      width: full
+      shared_key: case:number
+  item:
+    title: Item
+    fields:
+    - name: date_field1
+      pdf_field_name: JV-238[0].Page1[0].Item1[0].lgBubble1[0].DateField1[0]
+      type: date
+      label: Date Field
+      required: false
+      width: half
+    - name: notice_cb2
+      pdf_field_name: JV-238[0].Page1[0].item2[0].lgBubble2[0].notice_cb2[0]
+      type: text
+      label: Notice Cb
+      required: false
+      width: full
+    - name: notice_cb2_2
+      pdf_field_name: JV-238[0].Page1[0].item2[0].lgBubble2[0].notice_cb2[1]
+      type: text
+      label: Notice Cb
+      required: false
+      width: full
+  hearingbox:
+    title: Hearingbox
+    fields:
+    - name: hearing_date_dt
+      pdf_field_name: JV-238[0].Page1[0].hearingbox[0].HearingDateInfo_gp[0].HearingDate_dt[0]
+      type: date
+      label: Hearing Date Dt
+      required: false
+      width: half
+    - name: hearing_time_dt
+      pdf_field_name: JV-238[0].Page1[0].hearingbox[0].HearingDateInfo_gp[0].HearingTime_dt[0]
+      type: date
+      label: Hearing Time Dt
+      required: false
+      width: half
+    - name: hearing_dept_ft
+      pdf_field_name: JV-238[0].Page1[0].hearingbox[0].HearingDateInfo_gp[0].HearingDept_ft[0]
+      type: date
+      label: Hearing Dept Ft
+      required: false
+      width: half
+    - name: hearing_rm_ft
+      pdf_field_name: JV-238[0].Page1[0].hearingbox[0].HearingDateInfo_gp[0].HearingRm_ft[0]
+      type: date
+      label: Hearing Rm Ft
+      required: false
+      width: half
+    - name: hearing_court_ft
+      pdf_field_name: JV-238[0].Page1[0].hearingbox[0].HearingDateInfo_gp[0].HearingAdd_gp[0].HearingCourt_ft[0]
+      type: date
+      label: Hearing Court Ft
+      required: false
+      width: half
+  signature_date:
+    title: Signature Date
+    fields:
+    - name: sig_date
+      pdf_field_name: JV-238[0].Page1[0].signatureDate[0].SignSub[0].SigDate[0]
+      type: signature
+      label: Sig Date
+      required: false
+      width: full

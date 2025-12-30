@@ -1,0 +1,540 @@
+---
+form:
+  code: DE-125
+  title: DE 125 Form
+  description: ''
+  category: probate/decedent
+  pdf_filename: de125.pdf
+  fillable: true
+  instructions: ''
+sections:
+  notice:
+    title: Notice
+    fields:
+    - name: notice
+      pdf_field_name: DE-125[0].Page1[0].#area[0].notice[0]
+      type: text
+      label: Notice
+      required: false
+      width: full
+    - name: notice_2
+      pdf_field_name: DE-125[0].Page1[0].#area[1].notice[1]
+      type: text
+      label: Notice
+      required: false
+      width: full
+    - name: notice_2
+      pdf_field_name: DE-125[0].Page1[0].notice[2]
+      type: text
+      label: Notice
+      required: false
+      width: full
+  text:
+    title: Text\
+    fields:
+    - name: '1'
+      pdf_field_name: DE-125[0].Page1[0].TEXT\.1\.15[0]
+      type: text
+      label: 1\
+      required: false
+      width: full
+    - name: '1_2'
+      pdf_field_name: DE-125[0].Page1[0].TEXT\.1\.15[1]
+      type: text
+      label: 1\
+      required: false
+      width: full
+    - name: '2'
+      pdf_field_name: DE-125[0].Page2[0].TEXT\.2\.6[0]
+      type: text
+      label: 2\
+      required: false
+      width: full
+    - name: '2_2'
+      pdf_field_name: DE-125[0].Page2[0].TEXT\.2\.13[0]
+      type: text
+      label: 2\
+      required: false
+      width: full
+    - name: '1_2'
+      pdf_field_name: DE-125[0].Page2[0].TEXT\.1\.15[0]
+      type: text
+      label: 1\
+      required: false
+      width: full
+    - name: '1_2'
+      pdf_field_name: DE-125[0].Page2[0].TEXT\.1\.15[1]
+      type: text
+      label: 1\
+      required: false
+      width: full
+  under:
+    title: Under
+    fields:
+    - name: under
+      pdf_field_name: DE-125[0].Page1[0].#area[2].under[0]
+      type: text
+      label: Under
+      required: false
+      width: full
+    - name: under_2
+      pdf_field_name: DE-125[0].Page1[0].#area[3].under[1]
+      type: text
+      label: Under
+      required: false
+      width: full
+    - name: under_2
+      pdf_field_name: DE-125[0].Page1[0].#area[4].under[2]
+      type: text
+      label: Under
+      required: false
+      width: full
+    - name: under_2
+      pdf_field_name: DE-125[0].Page1[0].#area[5].under[3]
+      type: text
+      label: Under
+      required: false
+      width: full
+    - name: under_2
+      pdf_field_name: DE-125[0].Page1[0].#area[6].under[4]
+      type: text
+      label: Under
+      required: false
+      width: full
+    - name: under_2
+      pdf_field_name: DE-125[0].Page1[0].#area[7].under[5]
+      type: text
+      label: Under
+      required: false
+      width: full
+    - name: under_2
+      pdf_field_name: DE-125[0].Page1[0].#area[8].under[6]
+      type: text
+      label: Under
+      required: false
+      width: full
+  date_field:
+    title: Date Field
+    fields:
+    - name: date_field1
+      pdf_field_name: DE-125[0].Page1[0].DateField1[0]
+      type: date
+      label: Date Field
+      required: false
+      width: half
+    - name: date_field1_2
+      pdf_field_name: DE-125[0].Page1[0].DateField1[1]
+      type: date
+      label: Date Field
+      required: false
+      width: half
+    - name: date_field5
+      pdf_field_name: DE-125[0].Page2[0].DateField5[0]
+      type: date
+      label: Date Field
+      required: false
+      width: half
+    - name: date_field5_2
+      pdf_field_name: DE-125[0].Page2[0].DateField5[1]
+      type: date
+      label: Date Field
+      required: false
+      width: half
+    - name: date_field5_2
+      pdf_field_name: DE-125[0].Page2[0].DateField5[2]
+      type: date
+      label: Date Field
+      required: false
+      width: half
+    - name: date_field6
+      pdf_field_name: DE-125[0].Page2[0].DateField6[0]
+      type: date
+      label: Date Field
+      required: false
+      width: half
+  text_field:
+    title: Text Field
+    fields:
+    - name: text_field2
+      pdf_field_name: DE-125[0].Page1[0].TextField2[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field2_2
+      pdf_field_name: DE-125[0].Page1[0].TextField2[1]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field2_2
+      pdf_field_name: DE-125[0].Page1[0].TextField2[2]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field2_2
+      pdf_field_name: DE-125[0].Page1[0].TextField2[3]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field2_2
+      pdf_field_name: DE-125[0].Page1[0].TextField2[4]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field2_2
+      pdf_field_name: DE-125[0].Page2[0].TextField2[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field2_2
+      pdf_field_name: DE-125[0].Page2[0].TextField2[1]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field2_2
+      pdf_field_name: DE-125[0].Page2[0].TextField2[2]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field2_2
+      pdf_field_name: DE-125[0].Page2[0].TextField2[3]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field2_2
+      pdf_field_name: DE-125[0].Page2[0].TextField2[4]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field2_2
+      pdf_field_name: DE-125[0].Page2[0].TextField2[5]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field2_2
+      pdf_field_name: DE-125[0].Page2[0].TextField2[6]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field2_2
+      pdf_field_name: DE-125[0].Page2[0].TextField2[7]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field2_2
+      pdf_field_name: DE-125[0].Page2[0].TextField2[8]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field2_2
+      pdf_field_name: DE-125[0].Page2[0].TextField2[9]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field2_2
+      pdf_field_name: DE-125[0].Page2[0].TextField2[10]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+  party_ft:
+    title: Party Ft
+    fields:
+    - name: party_ft
+      pdf_field_name: DE-125[0].Page1[0].Party_ft[0]
+      type: text
+      label: Party Ft
+      required: false
+      width: full
+    - name: party_ft_2
+      pdf_field_name: DE-125[0].Page2[0].#subform[0].Party_ft[0]
+      type: text
+      label: Party Ft
+      required: false
+      width: full
+  case_number_ft:
+    title: Case Number Ft
+    fields:
+    - name: case_number_ft
+      pdf_field_name: DE-125[0].Page1[0].#subform[0].CaseNumber_ft[0]
+      type: text
+      label: Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+    - name: case_number_ft_2
+      pdf_field_name: DE-125[0].Page2[0].#subform[0].CaseNumber_ft[0]
+      type: text
+      label: Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+  twob:
+    title: Twob
+    fields:
+    - name: twob
+      pdf_field_name: DE-125[0].Page2[0].#area[0].twob[0]
+      type: text
+      label: Twob
+      required: false
+      width: full
+    - name: twob_2
+      pdf_field_name: DE-125[0].Page2[0].#area[1].twob[1]
+      type: text
+      label: Twob
+      required: false
+      width: full
+  threeabc:
+    title: Threeabc
+    fields:
+    - name: threeabc
+      pdf_field_name: DE-125[0].Page2[0].#area[2].threeabc[0]
+      type: text
+      label: Threeabc
+      required: false
+      width: full
+    - name: threeabc_2
+      pdf_field_name: DE-125[0].Page2[0].#area[6].threeabc[1]
+      type: text
+      label: Threeabc
+      required: false
+      width: full
+    - name: threeabc_2
+      pdf_field_name: DE-125[0].Page2[0].threeabc[2]
+      type: text
+      label: Threeabc
+      required: false
+      width: full
+    - name: threeabc_2
+      pdf_field_name: DE-125[0].Page2[0].#area[19].threeabc[3]
+      type: text
+      label: Threeabc
+      required: false
+      width: full
+    - name: threeabc_2
+      pdf_field_name: DE-125[0].Page2[0].threeabc[4]
+      type: text
+      label: Threeabc
+      required: false
+      width: full
+  bonetofive:
+    title: Bonetofive
+    fields:
+    - name: bonetofive
+      pdf_field_name: DE-125[0].Page2[0].#area[3].Bonetofive[0]
+      type: text
+      label: Bonetofive
+      required: false
+      width: full
+    - name: bonetofive_2
+      pdf_field_name: DE-125[0].Page2[0].#area[4].Bonetofive[1]
+      type: text
+      label: Bonetofive
+      required: false
+      width: full
+  btofive:
+    title: Btofive
+    fields:
+    - name: btofive
+      pdf_field_name: DE-125[0].Page2[0].#area[5].Btofive[0]
+      type: text
+      label: Btofive
+      required: false
+      width: full
+  cthreefour:
+    title: Cthreefour
+    fields:
+    - name: cthreefour
+      pdf_field_name: DE-125[0].Page2[0].#area[7].Cthreefour[0]
+      type: text
+      label: Cthreefour
+      required: false
+      width: full
+    - name: cthreefour_2
+      pdf_field_name: DE-125[0].Page2[0].#area[8].Cthreefour[1]
+      type: text
+      label: Cthreefour
+      required: false
+      width: full
+  four:
+    title: Four
+    fields:
+    - name: four
+      pdf_field_name: DE-125[0].Page2[0].#area[9].four[0]
+      type: text
+      label: Four
+      required: false
+      width: full
+    - name: four_2
+      pdf_field_name: DE-125[0].Page2[0].four[1]
+      type: text
+      label: Four
+      required: false
+      width: full
+    - name: four_2
+      pdf_field_name: DE-125[0].Page2[0].four[2]
+      type: text
+      label: Four
+      required: false
+      width: full
+  fourb:
+    title: Fourb
+    fields:
+    - name: fourb
+      pdf_field_name: DE-125[0].Page2[0].#area[10].fourb[0]
+      type: text
+      label: Fourb
+      required: false
+      width: full
+    - name: fourb_2
+      pdf_field_name: DE-125[0].Page2[0].#area[11].fourb[1]
+      type: text
+      label: Fourb
+      required: false
+      width: full
+    - name: fourb_2
+      pdf_field_name: DE-125[0].Page2[0].#area[12].fourb[2]
+      type: text
+      label: Fourb
+      required: false
+      width: full
+    - name: fourb_2
+      pdf_field_name: DE-125[0].Page2[0].#area[13].fourb[3]
+      type: text
+      label: Fourb
+      required: false
+      width: full
+    - name: fourb_2
+      pdf_field_name: DE-125[0].Page2[0].#area[14].fourb[4]
+      type: text
+      label: Fourb
+      required: false
+      width: full
+    - name: fourb_2
+      pdf_field_name: DE-125[0].Page2[0].#area[15].fourb[5]
+      type: text
+      label: Fourb
+      required: false
+      width: full
+    - name: fourb_2
+      pdf_field_name: DE-125[0].Page2[0].#area[16].fourb[6]
+      type: text
+      label: Fourb
+      required: false
+      width: full
+  six:
+    title: Six
+    fields:
+    - name: six
+      pdf_field_name: DE-125[0].Page2[0].#area[17].six[0]
+      type: text
+      label: Six
+      required: false
+      width: full
+  seven:
+    title: Seven
+    fields:
+    - name: seven
+      pdf_field_name: DE-125[0].Page2[0].#area[18].seven[0]
+      type: text
+      label: Seven
+      required: false
+      width: full
+  decimal_field:
+    title: Decimal Field
+    fields:
+    - name: decimal_field1
+      pdf_field_name: DE-125[0].Page2[0].DecimalField1[0]
+      type: text
+      label: Decimal Field
+      required: false
+      width: full
+  fivebtod:
+    title: Fivebtod
+    fields:
+    - name: fivebtod
+      pdf_field_name: DE-125[0].Page2[0].#area[20].fivebtod[0]
+      type: text
+      label: Fivebtod
+      required: false
+      width: full
+    - name: fivebtod_2
+      pdf_field_name: DE-125[0].Page2[0].#area[21].fivebtod[1]
+      type: text
+      label: Fivebtod
+      required: false
+      width: full
+    - name: fivebtod_2
+      pdf_field_name: DE-125[0].Page2[0].#area[22].fivebtod[2]
+      type: text
+      label: Fivebtod
+      required: false
+      width: full
+  fivedone:
+    title: Fivedone
+    fields:
+    - name: fivedone
+      pdf_field_name: DE-125[0].Page2[0].#area[23].fivedone[0]
+      type: text
+      label: Fivedone
+      required: false
+      width: full
+  sig_date:
+    title: Sig Date
+    fields:
+    - name: sig_date
+      pdf_field_name: DE-125[0].Page2[0].SigDate[0]
+      type: date
+      label: Sig Date
+      required: false
+      width: half
+  print:
+    title: Print
+    fields:
+    - name: print
+      pdf_field_name: DE-125[0].Page2[0].#area[24].Print[0]
+      type: checkbox
+      label: Print
+      required: false
+      width: full
+  save:
+    title: Save
+    fields:
+    - name: save
+      pdf_field_name: DE-125[0].Page2[0].#area[24].Save[0]
+      type: checkbox
+      label: Save
+      required: false
+      width: full
+  reset:
+    title: Reset
+    fields:
+    - name: reset
+      pdf_field_name: DE-125[0].Page2[0].#area[24].Reset[0]
+      type: checkbox
+      label: Reset
+      required: false
+      width: full
+  warning:
+    title: Warning
+    fields:
+    - name: warning
+      pdf_field_name: DE-125[0].Page2[0].#area[24].Warning[0]
+      type: checkbox
+      label: Warning
+      required: false
+      width: full

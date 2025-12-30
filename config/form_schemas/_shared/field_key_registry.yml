@@ -1,0 +1,416 @@
+# Shared Field Key Registry
+# This file defines namespaced shared keys that enable data sharing across forms.
+# When a field has a shared_key that matches a key here, values auto-populate.
+#
+# Namespace Format: category:field_name
+#   Examples: plaintiff:name, court:name, case:number
+#
+# Usage in form schemas:
+#   - name: plaintiff_name
+#     shared_key: "plaintiff:name"  # Must match a key below
+#
+# Last Updated: December 28, 2025
+
+shared_keys:
+  # ============================================================================
+  # COURT INFORMATION
+  # Common across all form types
+  # ============================================================================
+  court:
+    name:
+      type: text
+      label: "Court Name"
+      placeholder: "Superior Court of California, County of..."
+      description: "Full name of the court where the case is filed"
+
+    address:
+      type: textarea
+      label: "Court Address"
+      description: "Complete mailing address of the court"
+
+    branch:
+      type: text
+      label: "Branch Name"
+      description: "Specific branch or division of the court"
+
+    county:
+      type: text
+      label: "County"
+      description: "California county where court is located"
+
+  # ============================================================================
+  # CASE INFORMATION
+  # ============================================================================
+  case:
+    number:
+      type: text
+      label: "Case Number"
+      placeholder: "Leave blank if new case"
+      description: "Court-assigned case number"
+
+    type:
+      type: select
+      label: "Case Type"
+      description: "Category of legal matter"
+
+  # ============================================================================
+  # PLAINTIFF / PETITIONER
+  # Used in Small Claims (plaintiff) and Family Law (petitioner)
+  # ============================================================================
+  plaintiff:
+    name:
+      type: text
+      label: "Plaintiff's Full Legal Name"
+      placeholder: "First Middle Last"
+      required: true
+
+    street:
+      type: text
+      label: "Street Address"
+
+    city:
+      type: text
+      label: "City"
+
+    state:
+      type: select
+      label: "State"
+      default: "CA"
+
+    zip:
+      type: text
+      label: "ZIP Code"
+      pattern: "^\\d{5}(-\\d{4})?$"
+
+    phone:
+      type: tel
+      label: "Phone Number"
+      placeholder: "(555) 555-5555"
+
+    email:
+      type: email
+      label: "Email Address"
+
+  petitioner:
+    name:
+      type: text
+      label: "Petitioner's Full Legal Name"
+      placeholder: "First Middle Last"
+      required: true
+      description: "Person filing the petition (Family Law, DV, etc.)"
+
+    street:
+      type: text
+      label: "Street Address"
+
+    city:
+      type: text
+      label: "City"
+
+    state:
+      type: select
+      label: "State"
+      default: "CA"
+
+    zip:
+      type: text
+      label: "ZIP Code"
+      pattern: "^\\d{5}(-\\d{4})?$"
+
+    phone:
+      type: tel
+      label: "Phone Number"
+
+    email:
+      type: email
+      label: "Email Address"
+
+    bar_number:
+      type: text
+      label: "State Bar Number"
+      description: "If petitioner is an attorney"
+
+  # ============================================================================
+  # DEFENDANT / RESPONDENT
+  # Used in Small Claims (defendant) and Family Law (respondent)
+  # ============================================================================
+  defendant:
+    name:
+      type: text
+      label: "Defendant's Full Legal Name"
+      placeholder: "First Middle Last OR Business Name"
+      required: true
+
+    street:
+      type: text
+      label: "Street Address"
+
+    city:
+      type: text
+      label: "City"
+
+    state:
+      type: select
+      label: "State"
+
+    zip:
+      type: text
+      label: "ZIP Code"
+
+    phone:
+      type: tel
+      label: "Phone Number"
+
+  respondent:
+    name:
+      type: text
+      label: "Respondent's Full Legal Name"
+      placeholder: "First Middle Last"
+      required: true
+      description: "Person responding to petition"
+
+    street:
+      type: text
+      label: "Street Address"
+
+    city:
+      type: text
+      label: "City"
+
+    state:
+      type: select
+      label: "State"
+
+    zip:
+      type: text
+      label: "ZIP Code"
+
+    phone:
+      type: tel
+      label: "Phone Number"
+
+    email:
+      type: email
+      label: "Email Address"
+
+  # ============================================================================
+  # PROTECTED PERSON (Restraining Orders)
+  # Used in DV, CH, EA, GV, WV, SV forms
+  # ============================================================================
+  protected_person:
+    name:
+      type: text
+      label: "Protected Person's Full Legal Name"
+      required: true
+      description: "Person seeking protection"
+
+    street:
+      type: text
+      label: "Street Address"
+      help_text: "Address may be kept confidential"
+
+    city:
+      type: text
+      label: "City"
+
+    state:
+      type: select
+      label: "State"
+      default: "CA"
+
+    zip:
+      type: text
+      label: "ZIP Code"
+
+    phone:
+      type: tel
+      label: "Phone Number"
+      help_text: "Safe phone number to reach you"
+
+    email:
+      type: email
+      label: "Email Address"
+
+    confidential_address:
+      type: checkbox
+      label: "Keep my address confidential"
+      description: "Address will not be disclosed to restrained person"
+
+  restrained_person:
+    name:
+      type: text
+      label: "Restrained Person's Full Legal Name"
+      required: true
+      description: "Person to be restrained"
+
+    street:
+      type: text
+      label: "Street Address"
+      description: "Last known address"
+
+    city:
+      type: text
+      label: "City"
+
+    state:
+      type: select
+      label: "State"
+
+    zip:
+      type: text
+      label: "ZIP Code"
+
+    description:
+      type: textarea
+      label: "Physical Description"
+      description: "Height, weight, hair color, eye color, etc."
+
+  # ============================================================================
+  # ATTORNEY INFORMATION
+  # ============================================================================
+  attorney:
+    name:
+      type: text
+      label: "Attorney's Name"
+
+    bar_number:
+      type: text
+      label: "State Bar Number"
+
+    firm:
+      type: text
+      label: "Law Firm Name"
+
+    street:
+      type: text
+      label: "Street Address"
+
+    city:
+      type: text
+      label: "City"
+
+    state:
+      type: select
+      label: "State"
+      default: "CA"
+
+    zip:
+      type: text
+      label: "ZIP Code"
+
+    phone:
+      type: tel
+      label: "Phone Number"
+
+    fax:
+      type: tel
+      label: "Fax Number"
+
+    email:
+      type: email
+      label: "Email Address"
+
+  # ============================================================================
+  # FILING INFORMATION
+  # ============================================================================
+  filing:
+    date:
+      type: date
+      label: "Filing Date"
+      description: "Date form is filed with the court"
+
+    fee:
+      type: currency
+      label: "Filing Fee"
+
+    fee_waiver:
+      type: checkbox
+      label: "Fee Waiver Granted"
+
+  # ============================================================================
+  # HEARING INFORMATION
+  # ============================================================================
+  hearing:
+    date:
+      type: date
+      label: "Hearing Date"
+
+    time:
+      type: text
+      label: "Hearing Time"
+      placeholder: "9:00 AM"
+
+    department:
+      type: text
+      label: "Department"
+
+    room:
+      type: text
+      label: "Room Number"
+
+  # ============================================================================
+  # CHILDREN INFORMATION (Family Law)
+  # ============================================================================
+  children:
+    count:
+      type: number
+      label: "Number of Children"
+      min: 0
+      max: 20
+
+    names:
+      type: textarea
+      label: "Children's Names and Ages"
+      description: "List all minor children"
+
+  # ============================================================================
+  # MARRIAGE INFORMATION (Family Law)
+  # ============================================================================
+  marriage:
+    date:
+      type: date
+      label: "Date of Marriage"
+
+    separation_date:
+      type: date
+      label: "Date of Separation"
+
+    location:
+      type: text
+      label: "Place of Marriage"
+
+  # ============================================================================
+  # SERVICE INFORMATION
+  # ============================================================================
+  service:
+    date:
+      type: date
+      label: "Date of Service"
+
+    method:
+      type: select
+      label: "Method of Service"
+      options:
+        - { value: "personal", label: "Personal Service" }
+        - { value: "substituted", label: "Substituted Service" }
+        - { value: "mail", label: "Service by Mail" }
+        - { value: "publication", label: "Service by Publication" }
+
+    server_name:
+      type: text
+      label: "Server's Name"
+
+    server_address:
+      type: textarea
+      label: "Server's Address"
+
+# ============================================================================
+# KEY COLLISION WARNINGS
+# These combinations should be avoided to prevent data conflicts
+# ============================================================================
+collision_warnings:
+  - description: "Don't use both plaintiff and petitioner for same form"
+    keys: ["plaintiff:name", "petitioner:name"]
+
+  - description: "Don't use both defendant and respondent for same form"
+    keys: ["defendant:name", "respondent:name"]

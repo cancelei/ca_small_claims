@@ -1,0 +1,369 @@
+---
+form:
+  code: CM-181
+  title: CM 181 Form
+  description: ''
+  category: general
+  pdf_filename: cm181.pdf
+  fillable: true
+  instructions: ''
+sections:
+  p1_caption:
+    title: P1 Caption
+    fields:
+    - name: case_number
+      pdf_field_name: CM-181[0].Page1[0].P1Caption[0].CaptionSub[0].CaseNumber[0].CaseNumber[0]
+      type: text
+      label: Case Number
+      required: false
+      width: full
+      shared_key: case:number
+    - name: dept
+      pdf_field_name: CM-181[0].Page1[0].P1Caption[0].CaptionSub[0].Info1[0].Dept[0]
+      type: text
+      label: Dept
+      required: false
+      width: full
+    - name: judge
+      pdf_field_name: CM-181[0].Page1[0].P1Caption[0].CaptionSub[0].Info2[0].Judge[0]
+      type: text
+      label: Judge
+      required: false
+      width: full
+    - name: add1
+      pdf_field_name: CM-181[0].Page1[0].P1Caption[0].AttyPartyInfo[0].Add1[0]
+      type: text
+      label: Add
+      required: false
+      width: full
+    - name: phone
+      pdf_field_name: CM-181[0].Page1[0].P1Caption[0].AttyPartyInfo[0].Phone[0]
+      type: tel
+      label: Phone
+      required: false
+      width: half
+    - name: fax
+      pdf_field_name: CM-181[0].Page1[0].P1Caption[0].AttyPartyInfo[0].Fax[0]
+      type: tel
+      label: Fax
+      required: false
+      width: half
+    - name: email
+      pdf_field_name: CM-181[0].Page1[0].P1Caption[0].AttyPartyInfo[0].Email[0]
+      type: email
+      label: Email
+      required: false
+      width: half
+    - name: atty_for
+      pdf_field_name: CM-181[0].Page1[0].P1Caption[0].AttyPartyInfo[0].AttyFor[0]
+      type: text
+      label: Atty For
+      required: false
+      width: full
+    - name: crt_county
+      pdf_field_name: CM-181[0].Page1[0].P1Caption[0].CourtInfo[0].CrtCounty[0]
+      type: number
+      label: Crt County
+      required: false
+      width: third
+    - name: crt_street
+      pdf_field_name: CM-181[0].Page1[0].P1Caption[0].CourtInfo[0].CrtStreet[0]
+      type: address
+      label: Crt Street
+      required: false
+      width: full
+    - name: crt_mailing_add
+      pdf_field_name: CM-181[0].Page1[0].P1Caption[0].CourtInfo[0].CrtMailingAdd[0]
+      type: address
+      label: Crt Mailing Add
+      required: false
+      width: full
+    - name: crt_city_zip
+      pdf_field_name: CM-181[0].Page1[0].P1Caption[0].CourtInfo[0].CrtCityZip[0]
+      type: address
+      label: Crt City Zip
+      required: false
+      width: full
+    - name: crt_branch
+      pdf_field_name: CM-181[0].Page1[0].P1Caption[0].CourtInfo[0].CrtBranch[0]
+      type: text
+      label: Crt Branch
+      required: false
+      width: full
+    - name: party1
+      pdf_field_name: CM-181[0].Page1[0].P1Caption[0].TitlePartyName[0].Party1[0]
+      type: text
+      label: Party
+      required: false
+      width: full
+    - name: party2
+      pdf_field_name: CM-181[0].Page1[0].P1Caption[0].TitlePartyName[0].Party2[0]
+      type: text
+      label: Party
+      required: false
+      width: full
+  list:
+    title: List
+    fields:
+    - name: date_field3
+      pdf_field_name: CM-181[0].Page1[0].List1[0].item1[0].DateField3[0]
+      type: date
+      label: Date Field
+      required: false
+      width: half
+    - name: conditional
+      pdf_field_name: CM-181[0].Page1[0].List2[0].Lia[0].conditional[0]
+      type: text
+      label: Conditional
+      required: false
+      width: full
+    - name: conditional_2
+      pdf_field_name: CM-181[0].Page1[0].List2[0].Lia[0].conditional[1]
+      type: text
+      label: Conditional
+      required: false
+      width: full
+    - name: conditional_2
+      pdf_field_name: CM-181[0].Page1[0].List2[0].Lib[0].conditional[0]
+      type: text
+      label: Conditional
+      required: false
+      width: full
+    - name: fill_text11
+      pdf_field_name: CM-181[0].Page1[0].List2[0].Lib[0].FillText11[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: ch1
+      pdf_field_name: CM-181[0].Page1[0].List3[0].Ch1[0]
+      type: text
+      label: Ch
+      required: false
+      width: full
+    - name: partystatement1
+      pdf_field_name: CM-181[0].Page1[0].List3[0].Lia[0].partystatement1[0]
+      type: address
+      label: Partystatement
+      required: false
+      width: full
+    - name: partystatement1_2
+      pdf_field_name: CM-181[0].Page1[0].List3[0].Lib[0].partystatement1[0]
+      type: address
+      label: Partystatement
+      required: false
+      width: full
+    - name: ch56
+      pdf_field_name: CM-181[0].Page1[0].List4[0].item4[0].Ch56[0]
+      type: text
+      label: Ch
+      required: false
+      width: full
+    - name: fill_text15
+      pdf_field_name: CM-181[0].Page1[0].List4[0].item4[0].FillText15[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: ch4
+      pdf_field_name: CM-181[0].Page1[0].List5[0].Lia[0].Ch4[0]
+      type: text
+      label: Ch
+      required: false
+      width: full
+    - name: ch4_2
+      pdf_field_name: CM-181[0].Page1[0].List5[0].Lib[0].Ch4[0]
+      type: text
+      label: Ch
+      required: false
+      width: full
+    - name: fill_text11_2
+      pdf_field_name: CM-181[0].Page1[0].List5[0].Lib[0].FillText11[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: field20
+      pdf_field_name: CM-181[0].Page2[0].List1[0].item1[0].Field20[0]
+      type: text
+      label: Field
+      required: false
+      width: full
+    - name: ch25
+      pdf_field_name: CM-181[0].Page2[0].List2[0].Lia[0].Ch25[0]
+      type: text
+      label: Ch
+      required: false
+      width: full
+    - name: ch25_2
+      pdf_field_name: CM-181[0].Page2[0].List2[0].Lib[0].Ch25[0]
+      type: text
+      label: Ch
+      required: false
+      width: full
+    - name: date_field16
+      pdf_field_name: CM-181[0].Page2[0].List3[0].Lia[0].DateField16[0]
+      type: date
+      label: Date Field
+      required: false
+      width: half
+    - name: field22
+      pdf_field_name: CM-181[0].Page2[0].List3[0].Lib[0].Field22[0]
+      type: text
+      label: Field
+      required: false
+      width: full
+    - name: text_field1
+      pdf_field_name: CM-181[0].Page2[0].List4[0].Lia[0].TextField1[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field2
+      pdf_field_name: CM-181[0].Page2[0].List4[0].Lia[0].TextField2[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field3
+      pdf_field_name: CM-181[0].Page2[0].List4[0].Lia[0].TextField3[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field4
+      pdf_field_name: CM-181[0].Page2[0].List4[0].Lia[0].TextField4[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field5
+      pdf_field_name: CM-181[0].Page2[0].List4[0].Lib[0].TextField5[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6
+      pdf_field_name: CM-181[0].Page2[0].List4[0].Lib[0].TextField6[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field7
+      pdf_field_name: CM-181[0].Page2[0].List4[0].Lib[0].TextField7[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field8
+      pdf_field_name: CM-181[0].Page2[0].List4[0].Lib[0].TextField8[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field9
+      pdf_field_name: CM-181[0].Page2[0].List4[0].Lic[0].TextField9[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field10
+      pdf_field_name: CM-181[0].Page2[0].List4[0].Lic[0].TextField10[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field11
+      pdf_field_name: CM-181[0].Page2[0].List4[0].Lic[0].TextField11[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field12
+      pdf_field_name: CM-181[0].Page2[0].List4[0].Lic[0].TextField12[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field13
+      pdf_field_name: CM-181[0].Page2[0].List4[0].Lid[0].TextField13[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field14
+      pdf_field_name: CM-181[0].Page2[0].List4[0].Lid[0].TextField14[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field15
+      pdf_field_name: CM-181[0].Page2[0].List4[0].Lid[0].TextField15[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field16
+      pdf_field_name: CM-181[0].Page2[0].List4[0].Lid[0].TextField16[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: rb2choices
+      pdf_field_name: CM-181[0].Page2[0].List4[0].RB2Choices[0]
+      type: text
+      label: Rb2 Choices
+      required: false
+      width: full
+  po_p_dec:
+    title: Po P Dec
+    fields:
+    - name: sig_date
+      pdf_field_name: CM-181[0].Page1[0].PoPDec[0].SigDate[0]
+      type: date
+      label: Sig Date
+      required: false
+      width: half
+    - name: print_name
+      pdf_field_name: CM-181[0].Page1[0].PoPDec[0].PrintName[0]
+      type: text
+      label: Print Name
+      required: false
+      width: full
+  px_caption:
+    title: Px Caption
+    fields:
+    - name: party1_2
+      pdf_field_name: CM-181[0].Page2[0].PxCaption[0].TitlePartyName[0].Party1[0]
+      type: text
+      label: Party
+      required: false
+      width: full
+    - name: party2_2
+      pdf_field_name: CM-181[0].Page2[0].PxCaption[0].TitlePartyName[0].Party2[0]
+      type: text
+      label: Party
+      required: false
+      width: full
+    - name: case_number_2
+      pdf_field_name: CM-181[0].Page2[0].PxCaption[0].CaseNumber[0].CaseNumber[0]
+      type: text
+      label: Case Number
+      required: false
+      width: full
+      shared_key: case:number
+  sign:
+    title: Sign
+    fields:
+    - name: sig_date2
+      pdf_field_name: CM-181[0].Page2[0].Sign[0].SigDate2[0]
+      type: signature
+      label: Sig Date
+      required: false
+      width: full
+    - name: sig_name2
+      pdf_field_name: CM-181[0].Page2[0].Sign[0].SigName2[0]
+      type: signature
+      label: Sig Name
+      required: false
+      width: full

@@ -1,0 +1,310 @@
+---
+form:
+  code: JV-281
+  title: JV 281 Form
+  description: ''
+  category: juvenile/general
+  pdf_filename: jv281.pdf
+  fillable: true
+  instructions: ''
+sections:
+  other_specify_tf:
+    title: Other Specify Tf
+    fields:
+    - name: other_specify_tf
+      pdf_field_name: JV-281[0].Page1[0].OtherSpecify_tf[0]
+      type: text
+      label: Other Specify Tf
+      required: false
+      width: full
+    - name: other_specify_tf_2
+      pdf_field_name: JV-281[0].Page1[0].OtherSpecify_tf[1]
+      type: text
+      label: Other Specify Tf
+      required: false
+      width: full
+  text_field:
+    title: Text Field
+    fields:
+    - name: text_field2
+      pdf_field_name: JV-281[0].Page1[0].TextField2[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field2_2
+      pdf_field_name: JV-281[0].Page1[0].TextField2[1]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+  hearing_info:
+    title: Hearing Info
+    fields:
+    - name: text_field2_2
+      pdf_field_name: JV-281[0].Page1[0].HearingInfo[0].TextField2[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field2_2
+      pdf_field_name: JV-281[0].Page1[0].HearingInfo[0].TextField2[1]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+  date_time_field:
+    title: Date Time Field
+    fields:
+    - name: date_time_field2
+      pdf_field_name: JV-281[0].Page1[0].DateTimeField2[0]
+      type: date
+      label: Date Time Field
+      required: false
+      width: half
+    - name: date_time_field1
+      pdf_field_name: JV-281[0].#subform[1].DateTimeField1[0]
+      type: date
+      label: Date Time Field
+      required: false
+      width: half
+  check_box:
+    title: Check Box
+    fields:
+    - name: check_box61
+      pdf_field_name: JV-281[0].Page1[0].#area[1].CheckBox61[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box61_2
+      pdf_field_name: JV-281[0].Page1[0].#area[2].CheckBox61[1]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box61_2
+      pdf_field_name: JV-281[0].Page1[0].#area[3].CheckBox61[2]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box61_2
+      pdf_field_name: JV-281[0].Page1[0].#area[4].CheckBox61[3]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box61_2
+      pdf_field_name: JV-281[0].Page1[0].#area[5].CheckBox61[4]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box61_2
+      pdf_field_name: JV-281[0].Page1[0].#area[6].CheckBox61[5]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box61_2
+      pdf_field_name: JV-281[0].Page1[0].#area[7].CheckBox61[6]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box61_2
+      pdf_field_name: JV-281[0].Page1[0].#area[8].CheckBox61[7]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box19
+      pdf_field_name: JV-281[0].Page1[0].#area[10].CheckBox19[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+  t:
+    title: T
+    fields:
+    - name: t96
+      pdf_field_name: JV-281[0].Page1[0].T96[5]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t96_2
+      pdf_field_name: JV-281[0].Page1[0].T96[6]
+      type: text
+      label: T
+      required: false
+      width: full
+  std_p1_header_sf:
+    title: Std P1 Header Sf
+    fields:
+    - name: crt_county_ft
+      pdf_field_name: JV-281[0].Page1[0].StdP1Header_sf[0].CourtInfo[0].CrtCounty_ft[0]
+      type: number
+      label: Crt County Ft
+      required: false
+      width: third
+    - name: branch_ft
+      pdf_field_name: JV-281[0].Page1[0].StdP1Header_sf[0].CourtInfo[0].Branch_ft[0]
+      type: text
+      label: Branch Ft
+      required: false
+      width: full
+    - name: city_zip_ft
+      pdf_field_name: JV-281[0].Page1[0].StdP1Header_sf[0].CourtInfo[0].CityZip_ft[0]
+      type: address
+      label: City Zip Ft
+      required: false
+      width: full
+    - name: street_ft
+      pdf_field_name: JV-281[0].Page1[0].StdP1Header_sf[0].CourtInfo[0].Street_ft[0]
+      type: address
+      label: Street Ft
+      required: false
+      width: full
+    - name: mailing_add_ft
+      pdf_field_name: JV-281[0].Page1[0].StdP1Header_sf[0].CourtInfo[0].MailingAdd_ft[0]
+      type: address
+      label: Mailing Add Ft
+      required: false
+      width: full
+    - name: nonminors_name_ft
+      pdf_field_name: JV-281[0].Page1[0].StdP1Header_sf[0].TitlePartyName[0].NonminorsName_ft[0]
+      type: text
+      label: Nonminors Name Ft
+      required: false
+      width: full
+    - name: case_number_ft
+      pdf_field_name: JV-281[0].Page1[0].StdP1Header_sf[0].CaseNumber[0].CaseNumber_ft[0]
+      type: text
+      label: Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+    - name: check_box61_2
+      pdf_field_name: JV-281[0].Page1[0].StdP1Header_sf[0].FormTitle[0].#area[0].CheckBox61[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box61_2
+      pdf_field_name: JV-281[0].Page1[0].StdP1Header_sf[0].FormTitle[0].#area[1].CheckBox61[1]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: phone
+      pdf_field_name: JV-281[0].Page1[0].StdP1Header_sf[0].AttyPartyInfo[0].Phone[0]
+      type: tel
+      label: Phone
+      required: false
+      width: half
+    - name: fax
+      pdf_field_name: JV-281[0].Page1[0].StdP1Header_sf[0].AttyPartyInfo[0].Fax[0]
+      type: tel
+      label: Fax
+      required: false
+      width: half
+    - name: email
+      pdf_field_name: JV-281[0].Page1[0].StdP1Header_sf[0].AttyPartyInfo[0].Email[0]
+      type: email
+      label: Email
+      required: false
+      width: half
+    - name: atty_for
+      pdf_field_name: JV-281[0].Page1[0].StdP1Header_sf[0].AttyPartyInfo[0].AttyFor[0]
+      type: text
+      label: Atty For
+      required: false
+      width: full
+    - name: add1
+      pdf_field_name: JV-281[0].Page1[0].StdP1Header_sf[0].AttyPartyInfo[0].Add1[0]
+      type: text
+      label: Add
+      required: false
+      width: full
+  radio_button_list:
+    title: Radio Button List
+    fields:
+    - name: radio_button_list
+      pdf_field_name: JV-281[0].Page1[0].#area[9].RadioButtonList[0]
+      type: text
+      label: Radio Button List
+      required: false
+      width: full
+  general:
+    title: General
+    fields:
+    - name: area
+      pdf_field_name: JV-281[0].Page1[0].#area[9]
+      type: text
+      label: "#Area"
+      required: false
+      width: full
+  p2_header_gp:
+    title: P2 Header Gp
+    fields:
+    - name: case_number_ft_2
+      pdf_field_name: JV-281[0].#subform[1].P2Header_gp[0].CaseNumber[0].CaseNumber_ft[0]
+      type: text
+      label: Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+    - name: nonminors_name_ft_2
+      pdf_field_name: JV-281[0].#subform[1].P2Header_gp[0].CaseNumber[1].NonminorsName_ft[0]
+      type: text
+      label: Nonminors Name Ft
+      required: false
+      width: full
+      shared_key: case:number
+  your_name_ft:
+    title: Your Name Ft
+    fields:
+    - name: your_name_ft
+      pdf_field_name: JV-281[0].#subform[1].YourName_ft[0]
+      type: text
+      label: Your Name Ft
+      required: false
+      width: full
+  print:
+    title: Print
+    fields:
+    - name: print
+      pdf_field_name: JV-281[0].#subform[1].#area[4].Print[0]
+      type: checkbox
+      label: Print
+      required: false
+      width: full
+  save:
+    title: Save
+    fields:
+    - name: save
+      pdf_field_name: JV-281[0].#subform[1].#area[4].Save[0]
+      type: checkbox
+      label: Save
+      required: false
+      width: full
+  reset:
+    title: Reset
+    fields:
+    - name: reset
+      pdf_field_name: JV-281[0].#subform[1].#area[4].Reset[0]
+      type: checkbox
+      label: Reset
+      required: false
+      width: full
+  warning:
+    title: Warning
+    fields:
+    - name: warning
+      pdf_field_name: JV-281[0].#subform[1].#area[4].Warning[0]
+      type: checkbox
+      label: Warning
+      required: false
+      width: full

@@ -1,0 +1,23 @@
+<%# Address Field - Multi-line address input %>
+<div class="form-control w-full mb-4">
+  <label class="label">
+    <span class="label-text font-medium"><%= field.label || field.name.titleize %></span>
+    <% if field.required %>
+      <span class="label-text-alt text-error">*</span>
+    <% end %>
+  </label>
+
+  <%= form.text_area field.name,
+    value: submission.field_value(field.name),
+    placeholder: field.placeholder || "Enter address...",
+    required: field.required,
+    rows: 3,
+    class: "textarea textarea-bordered w-full",
+    data: { action: "input->form#fieldChanged" } %>
+
+  <% if field.help_text.present? %>
+    <label class="label w-full text-wrap">
+      <span class="label-text-alt text-base-content/70"><%= field.help_text %></span>
+    </label>
+  <% end %>
+</div>

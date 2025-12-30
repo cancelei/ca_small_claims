@@ -1,0 +1,371 @@
+---
+form:
+  code: FL-341E
+  title: FL 341E Form
+  description: ''
+  category: family_law/general
+  pdf_filename: fl341e.pdf
+  fillable: true
+  instructions: ''
+sections:
+  specific_issues_ft:
+    title: Specific Issues Ft
+    fields:
+    - name: specific_issues_ft
+      pdf_field_name: topmostSubform[0].Page1[0].SpecificIssues_ft[0]
+      type: text
+      label: Specific Issues Ft
+      required: false
+      width: full
+  second_page_top_caption:
+    title: Second Page Top Caption
+    fields:
+    - name: case_number
+      pdf_field_name: topmostSubform[0].Page1[0].SecondPageTopCaption[0].CaseNumber[0]
+      type: text
+      label: Case Number
+      required: false
+      width: full
+      shared_key: case:number
+    - name: petitioner_ft
+      pdf_field_name: topmostSubform[0].Page1[0].SecondPageTopCaption[0].Petitioner_ft[0]
+      type: text
+      label: Petitioner Ft
+      required: false
+      width: full
+    - name: respondent_ft
+      pdf_field_name: topmostSubform[0].Page1[0].SecondPageTopCaption[0].Respondent_ft[0]
+      type: text
+      label: Respondent Ft
+      required: false
+      width: full
+    - name: other_parent_ft
+      pdf_field_name: topmostSubform[0].Page1[0].SecondPageTopCaption[0].OtherParent_ft[0]
+      type: currency
+      label: Other Parent Ft
+      required: false
+      width: third
+  caption_cb:
+    title: Caption Cb
+    fields:
+    - name: petition_cb
+      pdf_field_name: topmostSubform[0].Page1[0].caption_cb[0].Petition_cb[0]
+      type: text
+      label: Petition Cb
+      required: false
+      width: full
+    - name: response_cb
+      pdf_field_name: topmostSubform[0].Page1[0].caption_cb[1].Response_cb[0]
+      type: text
+      label: Response Cb
+      required: false
+      width: full
+    - name: stip_ord_custody_visitation_cb
+      pdf_field_name: topmostSubform[0].Page1[0].caption_cb[2].StipOrdCustodyVisitation_cb[0]
+      type: text
+      label: Stip Ord Custody Visitation Cb
+      required: false
+      width: full
+    - name: resp_decl_rfo_cb
+      pdf_field_name: topmostSubform[0].Page1[0].caption_cb[3].RespDeclRFO_cb[0]
+      type: text
+      label: Resp Decl Rfo Cb
+      required: false
+      width: full
+    - name: request_for_order_cb
+      pdf_field_name: topmostSubform[0].Page1[0].caption_cb[4].RequestForOrder_cb[0]
+      type: text
+      label: Request For Order Cb
+      required: false
+      width: full
+    - name: petitioner_cb_2
+      pdf_field_name: topmostSubform[0].Page1[0].caption_cb[5].petitioner_cb[1]
+      type: text
+      label: Petitioner Cb
+      required: false
+      width: full
+    - name: respondent_cb
+      pdf_field_name: topmostSubform[0].Page1[0].caption_cb[6].Respondent_cb[0]
+      type: text
+      label: Respondent Cb
+      required: false
+      width: full
+    - name: respondent_cb_2
+      pdf_field_name: topmostSubform[0].Page1[0].caption_cb[7].Respondent_cb[1]
+      type: text
+      label: Respondent Cb
+      required: false
+      width: full
+  findings_order_cb:
+    title: Findings Order Cb
+    fields:
+    - name: findings_order_cb
+      pdf_field_name: topmostSubform[0].Page1[0].FindingsOrder_cb[0]
+      type: text
+      label: Findings Order Cb
+      required: false
+      width: full
+  enrollment_or_leaving_school_cb:
+    title: Enrollment Or Leaving School Cb
+    fields:
+    - name: enrollment_or_leaving_school_cb
+      pdf_field_name: topmostSubform[0].Page1[0].EnrollmentOrLeavingSchool_cb[0]
+      type: text
+      label: Enrollment Or Leaving School Cb
+      required: false
+      width: full
+  travel_out_country_state_cb:
+    title: Travel Out Country State Cb
+    fields:
+    - name: travel_out_country_state_cb
+      pdf_field_name: topmostSubform[0].Page1[0].TravelOutCountryState_cb[0]
+      type: address
+      label: Travel Out Country State Cb
+      required: false
+      width: full
+  activities_cb:
+    title: Activities Cb
+    fields:
+    - name: activities_cb
+      pdf_field_name: topmostSubform[0].Page1[0].Activities_cb[0]
+      type: text
+      label: Activities Cb
+      required: false
+      width: full
+  begin_or_end_counseling_cb:
+    title: Begin Or End Counseling Cb
+    fields:
+    - name: begin_or_end_counseling_cb
+      pdf_field_name: topmostSubform[0].Page1[0].BeginOrEndCounseling_cb[0]
+      type: text
+      label: Begin Or End Counseling Cb
+      required: false
+      width: full
+  other_decisions_ft:
+    title: Other Decisions Ft
+    fields:
+    - name: other_decisions_ft
+      pdf_field_name: topmostSubform[0].Page1[0].OtherDecisions_ft[0]
+      type: text
+      label: Other Decisions Ft
+      required: false
+      width: full
+  selection_of_doctor_cb:
+    title: Selection Of Doctor Cb
+    fields:
+    - name: selection_of_doctor_cb
+      pdf_field_name: topmostSubform[0].Page1[0].SelectionOfDoctor_cb[0]
+      type: text
+      label: Selection Of Doctor Cb
+      required: false
+      width: full
+  other_conseq_specify_cb:
+    title: Other Conseq Specify Cb
+    fields:
+    - name: other_conseq_specify_cb
+      pdf_field_name: topmostSubform[0].Page1[0].OtherConseqSpecify_cb[0]
+      type: text
+      label: Other Conseq Specify Cb
+      required: false
+      width: full
+  special_decisions_cb:
+    title: Special Decisions Cb
+    fields:
+    - name: special_decisions_cb
+      pdf_field_name: topmostSubform[0].Page1[0].#area[6].SpecialDecisions_cb[0]
+      type: text
+      label: Special Decisions Cb
+      required: false
+      width: full
+  petitioner_cb:
+    title: Petitioner Cb
+    fields:
+    - name: petitioner_cb
+      pdf_field_name: topmostSubform[0].Page1[0].#area[7].petitioner_cb[0]
+      type: text
+      label: Petitioner Cb
+      required: false
+      width: full
+  other_parent_or_party_cb:
+    title: Other Parent Or Party Cb
+    fields:
+    - name: other_parent_or_party_cb
+      pdf_field_name: topmostSubform[0].Page1[0].#area[8].OtherParentOrParty_cb[0]
+      type: currency
+      label: Other Parent Or Party Cb
+      required: false
+      width: third
+  each_notifies_cb:
+    title: Each Notifies Cb
+    fields:
+    - name: each_notifies_cb
+      pdf_field_name: topmostSubform[0].Page1[0].#area[9].EachNotifies_cb[0]
+      type: text
+      label: Each Notifies Cb
+      required: false
+      width: full
+  days_notice_ft:
+    title: Days Notice Ft
+    fields:
+    - name: days_notice_ft
+      pdf_field_name: topmostSubform[0].Page1[0].#area[9].DaysNotice_ft[0]
+      type: text
+      label: Days Notice Ft
+      required: false
+      width: full
+  each_party_authorized_to_take_action_cb:
+    title: Each Party Authorized To Take Action Cb
+    fields:
+    - name: each_party_authorized_to_take_action_cb
+      pdf_field_name: topmostSubform[0].Page1[0].#area[10].EachPartyAuthorizedToTakeAction_cb[0]
+      type: text
+      label: Each Party Authorized To Take Action Cb
+      required: false
+      width: full
+  required_to_administer_cb:
+    title: Required To Administer Cb
+    fields:
+    - name: required_to_administer_cb
+      pdf_field_name: topmostSubform[0].Page1[0].#area[11].RequiredToAdminister_cb[0]
+      type: text
+      label: Required To Administer Cb
+      required: false
+      width: full
+  health_care_notification_cb:
+    title: Health Care Notification Cb
+    fields:
+    - name: health_care_notification_cb
+      pdf_field_name: topmostSubform[0].Page1[0].#area[12].HealthCareNotification_cb[0]
+      type: text
+      label: Health Care Notification Cb
+      required: false
+      width: full
+  school_notification_cb:
+    title: School Notification Cb
+    fields:
+    - name: school_notification_cb
+      pdf_field_name: topmostSubform[0].Page1[0].#area[13].SchoolNotification_cb[0]
+      type: text
+      label: School Notification Cb
+      required: false
+      width: full
+  not_change_child_sur_name_cb:
+    title: Not Change Child Sur Name Cb
+    fields:
+    - name: not_change_child_sur_name_cb
+      pdf_field_name: topmostSubform[0].Page1[0].#area[14].NotChangeChildSurName_cb[0]
+      type: text
+      label: Not Change Child Sur Name Cb
+      required: false
+      width: full
+  other_specify_ft:
+    title: Other Specify Ft
+    fields:
+    - name: other_specify_ft
+      pdf_field_name: topmostSubform[0].Page1[0].#area[15].OtherSpecify_ft[0]
+      type: text
+      label: Other Specify Ft
+      required: false
+      width: full
+  other_specify_cb:
+    title: Other Specify Cb
+    fields:
+    - name: other_specify_cb
+      pdf_field_name: topmostSubform[0].Page1[0].#area[15].OtherSpecify_cb[0]
+      type: text
+      label: Other Specify Cb
+      required: false
+      width: full
+    - name: other_specify_cb_2
+      pdf_field_name: topmostSubform[0].Page1[0].#area[19].OtherSpecify_cb[1]
+      type: text
+      label: Other Specify Cb
+      required: false
+      width: full
+    - name: other_specify_cb_2
+      pdf_field_name: topmostSubform[0].Page1[0].OtherSpecify_cb[2]
+      type: text
+      label: Other Specify Cb
+      required: false
+      width: full
+  respondent_cb:
+    title: Respondent Cb
+    fields:
+    - name: respondent_cb_2
+      pdf_field_name: topmostSubform[0].Page1[0].Respondent_cb[2]
+      type: text
+      label: Respondent Cb
+      required: false
+      width: full
+  other_consequences_ft:
+    title: Other Consequences Ft
+    fields:
+    - name: other_consequences_ft
+      pdf_field_name: topmostSubform[0].Page1[0].OtherConsequences_ft[0]
+      type: text
+      label: Other Consequences Ft
+      required: false
+      width: full
+  participation_in_religious_activities_cb:
+    title: Participation In Religious Activities Cb
+    fields:
+    - name: participation_in_religious_activities_cb
+      pdf_field_name: topmostSubform[0].Page1[0].ParticipationInReligiousActivities_cb[0]
+      type: text
+      label: Participation In Religious Activities Cb
+      required: false
+      width: full
+  juvenile_custody_order_judgment:
+    title: Juvenile Custody Order Judgment
+    fields:
+    - name: juvenile_custody_order_judgment
+      pdf_field_name: topmostSubform[0].Page1[0].JuvenileCustodyOrder_Judgment[0]
+      type: text
+      label: Juvenile Custody Order Judgment
+      required: false
+      width: full
+  specify_other_attachment_ft:
+    title: Specify Other Attachment Ft
+    fields:
+    - name: specify_other_attachment_ft
+      pdf_field_name: topmostSubform[0].Page1[0].SpecifyOtherAttachment_ft[0]
+      type: text
+      label: Specify Other Attachment Ft
+      required: false
+      width: full
+  print_bt:
+    title: Print Bt
+    fields:
+    - name: print_bt
+      pdf_field_name: topmostSubform[0].Page1[0].Print_bt[0]
+      type: checkbox
+      label: Print Bt
+      required: false
+      width: full
+  save_bt:
+    title: Save Bt
+    fields:
+    - name: save_bt
+      pdf_field_name: topmostSubform[0].Page1[0].Save_bt[0]
+      type: checkbox
+      label: Save Bt
+      required: false
+      width: full
+  reset_bt:
+    title: Reset Bt
+    fields:
+    - name: reset_bt
+      pdf_field_name: topmostSubform[0].Page1[0].Reset_bt[0]
+      type: checkbox
+      label: Reset Bt
+      required: false
+      width: full
+  t:
+    title: T
+    fields:
+    - name: t23
+      pdf_field_name: topmostSubform[0].Page1[0].T23[0]
+      type: checkbox
+      label: T
+      required: false
+      width: full

@@ -1,0 +1,593 @@
+---
+form:
+  code: EJ-159
+  title: EJ 159 Form
+  description: ''
+  category: civil/enforcement
+  pdf_filename: ej159.pdf
+  fillable: true
+  instructions: ''
+sections:
+  p1_caption:
+    title: P1 Caption
+    fields:
+    - name: levy_ofcr_i_info
+      pdf_field_name: EJ-159[0].Page1[0].p1Caption[0].captionSub[0].LevyOfcrInfo_sf[0].LevyOfcrIInfo[0]
+      type: text
+      label: Levy Ofcr I Info
+      required: false
+      width: full
+    - name: levy_ofcr_file_no
+      pdf_field_name: EJ-159[0].Page1[0].p1Caption[0].captionSub[0].CaseFileNos_sf[0].LevyOfcrFileNo[0]
+      type: text
+      label: Levy Ofcr File No
+      required: false
+      width: full
+    - name: case_number
+      pdf_field_name: EJ-159[0].Page1[0].p1Caption[0].captionSub[0].casenumber[0].caseNumber[0]
+      type: text
+      label: Case Number
+      required: false
+      width: full
+      shared_key: case:number
+    - name: name
+      pdf_field_name: EJ-159[0].Page1[0].p1Caption[0].AttyPartyInfo_sf[0].Name[0]
+      type: text
+      label: Name
+      required: false
+      width: full
+    - name: atty_firm
+      pdf_field_name: EJ-159[0].Page1[0].p1Caption[0].AttyPartyInfo_sf[0].AttyFirm[0]
+      type: text
+      label: Atty Firm
+      required: false
+      width: full
+    - name: street
+      pdf_field_name: EJ-159[0].Page1[0].p1Caption[0].AttyPartyInfo_sf[0].Street[0]
+      type: address
+      label: Street
+      required: false
+      width: full
+    - name: city
+      pdf_field_name: EJ-159[0].Page1[0].p1Caption[0].AttyPartyInfo_sf[0].City[0]
+      type: address
+      label: City
+      required: false
+      width: full
+    - name: state
+      pdf_field_name: EJ-159[0].Page1[0].p1Caption[0].AttyPartyInfo_sf[0].State[0]
+      type: address
+      label: State
+      required: false
+      width: full
+    - name: zip
+      pdf_field_name: EJ-159[0].Page1[0].p1Caption[0].AttyPartyInfo_sf[0].Zip[0]
+      type: address
+      label: Zip
+      required: false
+      width: full
+    - name: tel_ft
+      pdf_field_name: EJ-159[0].Page1[0].p1Caption[0].AttyPartyInfo_sf[0].Tel_ft[0]
+      type: tel
+      label: Tel Ft
+      required: false
+      width: half
+    - name: fax_ft
+      pdf_field_name: EJ-159[0].Page1[0].p1Caption[0].AttyPartyInfo_sf[0].Fax_ft[0]
+      type: tel
+      label: Fax Ft
+      required: false
+      width: half
+    - name: email
+      pdf_field_name: EJ-159[0].Page1[0].p1Caption[0].AttyPartyInfo_sf[0].email[0]
+      type: email
+      label: Email
+      required: false
+      width: half
+    - name: atty_def
+      pdf_field_name: EJ-159[0].Page1[0].p1Caption[0].AttyPartyInfo_sf[0].attyDef[0]
+      type: text
+      label: Atty Def
+      required: false
+      width: full
+    - name: atty_def_2
+      pdf_field_name: EJ-159[0].Page1[0].p1Caption[0].AttyPartyInfo_sf[0].attyDef[1]
+      type: text
+      label: Atty Def
+      required: false
+      width: full
+    - name: atty_def_2
+      pdf_field_name: EJ-159[0].Page1[0].p1Caption[0].AttyPartyInfo_sf[0].attyDef[2]
+      type: text
+      label: Atty Def
+      required: false
+      width: full
+    - name: atty_def_2
+      pdf_field_name: EJ-159[0].Page1[0].p1Caption[0].AttyPartyInfo_sf[0].attyDef[3]
+      type: text
+      label: Atty Def
+      required: false
+      width: full
+    - name: crt_county
+      pdf_field_name: EJ-159[0].Page1[0].p1Caption[0].CourtInfo[0].CrtCounty[0]
+      type: number
+      label: Crt County
+      required: false
+      width: third
+    - name: crt_street
+      pdf_field_name: EJ-159[0].Page1[0].p1Caption[0].CourtInfo[0].CrtStreet[0]
+      type: address
+      label: Crt Street
+      required: false
+      width: full
+    - name: crt_mailing_add
+      pdf_field_name: EJ-159[0].Page1[0].p1Caption[0].CourtInfo[0].CrtMailingAdd[0]
+      type: address
+      label: Crt Mailing Add
+      required: false
+      width: full
+    - name: crt_branch
+      pdf_field_name: EJ-159[0].Page1[0].p1Caption[0].CourtInfo[0].CrtBranch[0]
+      type: text
+      label: Crt Branch
+      required: false
+      width: full
+    - name: crt_city_zip
+      pdf_field_name: EJ-159[0].Page1[0].p1Caption[0].CourtInfo[0].CrtCityZip[0]
+      type: address
+      label: Crt City Zip
+      required: false
+      width: full
+    - name: party1
+      pdf_field_name: EJ-159[0].Page1[0].p1Caption[0].Party_sf[0].Party1[0]
+      type: text
+      label: Party
+      required: false
+      width: full
+    - name: party2
+      pdf_field_name: EJ-159[0].Page1[0].p1Caption[0].Party_sf[0].Party2[0]
+      type: text
+      label: Party
+      required: false
+      width: full
+  list:
+    title: List
+    fields:
+    - name: petitioner_cb
+      pdf_field_name: EJ-159[0].Page1[0].List1[0].LI1[0].petitioner_cb[0]
+      type: text
+      label: Petitioner Cb
+      required: false
+      width: full
+    - name: judgment_debtor_name1
+      pdf_field_name: EJ-159[0].Page1[0].List1[0].LI1[0].JudgmentDebtorName1[0]
+      type: currency
+      label: Judgment Debtor Name
+      required: false
+      width: third
+    - name: petitioner_cb_2
+      pdf_field_name: EJ-159[0].Page1[0].List1[0].LI1[0].petitioner_cb[1]
+      type: text
+      label: Petitioner Cb
+      required: false
+      width: full
+    - name: judgment_debtor_name2
+      pdf_field_name: EJ-159[0].Page1[0].List1[0].LI1[0].JudgmentDebtorName2[0]
+      type: currency
+      label: Judgment Debtor Name
+      required: false
+      width: third
+    - name: ch1
+      pdf_field_name: EJ-159[0].Page1[0].List3[0].Ch1[0]
+      type: text
+      label: Ch
+      required: false
+      width: full
+    - name: application_status
+      pdf_field_name: EJ-159[0].Page1[0].List3[0].LI1[0].CB_3\.ApplicationStatus[0]
+      type: text
+      label: Application Status
+      required: false
+      width: full
+    - name: application_status_2
+      pdf_field_name: EJ-159[0].Page1[0].List3[0].LI2[0].CB_3\.ApplicationStatus[0]
+      type: text
+      label: Application Status
+      required: false
+      width: full
+    - name: application_status_2
+      pdf_field_name: EJ-159[0].Page1[0].List3[0].LI3[0].CB_3\.ApplicationStatus[0]
+      type: text
+      label: Application Status
+      required: false
+      width: full
+    - name: application_status_2
+      pdf_field_name: EJ-159[0].Page1[0].List3[0].LI4[0].CB_3\.ApplicationStatus[0]
+      type: text
+      label: Application Status
+      required: false
+      width: full
+    - name: field1
+      pdf_field_name: EJ-159[0].Page1[0].List3[0].LI4[0].Field1[0]
+      type: text
+      label: Field
+      required: false
+      width: full
+    - name: ch1_2
+      pdf_field_name: EJ-159[0].Page1[0].List4[0].Ch1[0]
+      type: text
+      label: Ch
+      required: false
+      width: full
+    - name: dateof_hearing_dt1
+      pdf_field_name: EJ-159[0].Page1[0].List4[0].LI1[0].DateofHearing_dt1[0]
+      type: date
+      label: Dateof Hearing Dt
+      required: false
+      width: half
+    - name: timeof_hearing_tf1
+      pdf_field_name: EJ-159[0].Page1[0].List4[0].LI1[0].TimeofHearing_tf1[0]
+      type: text
+      label: Timeof Hearing Tf
+      required: false
+      width: full
+    - name: ch3
+      pdf_field_name: EJ-159[0].Page1[0].List4[0].LI1[0].Ch3[0]
+      type: text
+      label: Ch
+      required: false
+      width: full
+    - name: department_no_tf1
+      pdf_field_name: EJ-159[0].Page1[0].List4[0].LI1[0].DepartmentNo_tf1[0]
+      type: text
+      label: Department No Tf
+      required: false
+      width: full
+    - name: ch4
+      pdf_field_name: EJ-159[0].Page1[0].List4[0].LI1[0].Ch4[0]
+      type: text
+      label: Ch
+      required: false
+      width: full
+    - name: courtroom_tf1
+      pdf_field_name: EJ-159[0].Page1[0].List4[0].LI1[0].Courtroom_tf1[0]
+      type: text
+      label: Courtroom Tf
+      required: false
+      width: full
+    - name: court_address
+      pdf_field_name: EJ-159[0].Page1[0].List4[0].LI1[0].CB_4\.CourtAddress[0]
+      type: address
+      label: Court Address
+      required: false
+      width: full
+      shared_key: court:address
+    - name: court_address_2
+      pdf_field_name: EJ-159[0].Page1[0].List4[0].LI1[0].CB_4\.CourtAddress[1]
+      type: address
+      label: Court Address
+      required: false
+      width: full
+      shared_key: court:address
+    - name: otherspecify_tf
+      pdf_field_name: EJ-159[0].Page1[0].List4[0].LI1[0].Otherspecify_tf[0]
+      type: text
+      label: Otherspecify Tf
+      required: false
+      width: full
+    - name: date1
+      pdf_field_name: EJ-159[0].Page1[0].List4[0].LI2[0].Date1[0]
+      type: date
+      label: Date
+      required: false
+      width: half
+    - name: date2
+      pdf_field_name: EJ-159[0].Page1[0].List4[0].LI3[0].Date2[0]
+      type: date
+      label: Date
+      required: false
+      width: half
+    - name: ch1_2
+      pdf_field_name: EJ-159[0].Page1[0].List5[0].LI1[0].Ch1[0]
+      type: text
+      label: Ch
+      required: false
+      width: full
+    - name: ch1_2
+      pdf_field_name: EJ-159[0].Page1[0].List6[0].Ch1[0]
+      type: text
+      label: Ch
+      required: false
+      width: full
+    - name: dateof_hearing_dt2
+      pdf_field_name: EJ-159[0].Page1[0].List6[0].LI1[0].DateofHearing_dt2[0]
+      type: date
+      label: Dateof Hearing Dt
+      required: false
+      width: half
+    - name: timeof_hearing_tf2
+      pdf_field_name: EJ-159[0].Page1[0].List6[0].LI1[0].TimeofHearing_tf2[0]
+      type: text
+      label: Timeof Hearing Tf
+      required: false
+      width: full
+    - name: ch7
+      pdf_field_name: EJ-159[0].Page1[0].List6[0].LI1[0].Ch7[0]
+      type: text
+      label: Ch
+      required: false
+      width: full
+    - name: department_no_tf
+      pdf_field_name: EJ-159[0].Page1[0].List6[0].LI1[0].DepartmentNo_tf[0]
+      type: text
+      label: Department No Tf
+      required: false
+      width: full
+    - name: ch8
+      pdf_field_name: EJ-159[0].Page1[0].List6[0].LI1[0].Ch8[0]
+      type: text
+      label: Ch
+      required: false
+      width: full
+    - name: courtroom_tf
+      pdf_field_name: EJ-159[0].Page1[0].List6[0].LI1[0].Courtroom_tf[0]
+      type: text
+      label: Courtroom Tf
+      required: false
+      width: full
+    - name: ch9
+      pdf_field_name: EJ-159[0].Page1[0].List6[0].LI2[0].Ch9[0]
+      type: text
+      label: Ch
+      required: false
+      width: full
+    - name: ch10
+      pdf_field_name: EJ-159[0].Page1[0].List6[0].LI2[0].Ch10[0]
+      type: text
+      label: Ch
+      required: false
+      width: full
+    - name: ch11
+      pdf_field_name: EJ-159[0].Page1[0].List6[0].LI2[0].Ch11[0]
+      type: text
+      label: Ch
+      required: false
+      width: full
+    - name: ch12
+      pdf_field_name: EJ-159[0].Page1[0].List6[0].LI2[0].Ch12[0]
+      type: text
+      label: Ch
+      required: false
+      width: full
+    - name: ch13
+      pdf_field_name: EJ-159[0].Page1[0].List6[0].LI2[0].Ch13[0]
+      type: text
+      label: Ch
+      required: false
+      width: full
+    - name: specify
+      pdf_field_name: EJ-159[0].Page1[0].List6[0].LI2[0].specify[0]
+      type: text
+      label: Specify
+      required: false
+      width: full
+    - name: cb1
+      pdf_field_name: EJ-159[0].Page2[0].List7[0].CB1[0]
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: ch14
+      pdf_field_name: EJ-159[0].Page2[0].List7[0].LI1[0].Ch14[0]
+      type: text
+      label: Ch
+      required: false
+      width: full
+    - name: ch15
+      pdf_field_name: EJ-159[0].Page2[0].List7[0].LI2[0].Ch15[0]
+      type: text
+      label: Ch
+      required: false
+      width: full
+    - name: text3
+      pdf_field_name: EJ-159[0].Page2[0].List7[0].LI2[0].Text3[0]
+      type: text
+      label: Text
+      required: false
+      width: full
+    - name: date_field3
+      pdf_field_name: EJ-159[0].Page2[0].List7[0].LI2[0].DateField3[0]
+      type: date
+      label: Date Field
+      required: false
+      width: half
+    - name: text4
+      pdf_field_name: EJ-159[0].Page2[0].List7[0].LI2[0].Text4[0]
+      type: text
+      label: Text
+      required: false
+      width: full
+    - name: date_field2
+      pdf_field_name: EJ-159[0].Page2[0].List7[0].LI2[0].DateField2[0]
+      type: date
+      label: Date Field
+      required: false
+      width: half
+    - name: text5
+      pdf_field_name: EJ-159[0].Page2[0].List7[0].LI2[0].Text5[0]
+      type: text
+      label: Text
+      required: false
+      width: full
+    - name: date_field1
+      pdf_field_name: EJ-159[0].Page2[0].List7[0].LI2[0].DateField1[0]
+      type: date
+      label: Date Field
+      required: false
+      width: half
+    - name: ch16
+      pdf_field_name: EJ-159[0].Page2[0].List7[0].LI4[0].Ch16[0]
+      type: text
+      label: Ch
+      required: false
+      width: full
+    - name: d
+      pdf_field_name: EJ-159[0].Page2[0].List7[0].LI4[0].CheckBox7\.d\.[0]
+      type: checkbox
+      label: D\
+      required: false
+      width: full
+    - name: d_2
+      pdf_field_name: EJ-159[0].Page2[0].List7[0].LI4[0].CheckBox7\.d\.[1]
+      type: checkbox
+      label: D\
+      required: false
+      width: full
+    - name: ch17
+      pdf_field_name: EJ-159[0].Page2[0].List7[0].LI5[0].Ch17[0]
+      type: text
+      label: Ch
+      required: false
+      width: full
+    - name: field1_2
+      pdf_field_name: EJ-159[0].Page2[0].List7[0].LI5[0].Field1[0]
+      type: text
+      label: Field
+      required: false
+      width: full
+    - name: ch18
+      pdf_field_name: EJ-159[0].Page2[0].List8[0].LI1[0].Ch18[0]
+      type: text
+      label: Ch
+      required: false
+      width: full
+    - name: numeric_field1
+      pdf_field_name: EJ-159[0].Page2[0].List8[0].LI1[0].NumericField1[0]
+      type: text
+      label: Numeric Field
+      required: false
+      width: full
+    - name: financial_insti
+      pdf_field_name: EJ-159[0].Page2[0].List8[0].LI1[0].FinancialInsti[0]
+      type: text
+      label: Financial Insti
+      required: false
+      width: full
+    - name: ch18_2
+      pdf_field_name: EJ-159[0].Page2[0].List8[0].LI2[0].Ch18[0]
+      type: text
+      label: Ch
+      required: false
+      width: full
+    - name: field2
+      pdf_field_name: EJ-159[0].Page2[0].List8[0].LI2[0].tblFinInst[0].bodyRow1[0].Field2[0]
+      type: text
+      label: Field
+      required: false
+      width: full
+    - name: field3
+      pdf_field_name: EJ-159[0].Page2[0].List8[0].LI2[0].tblFinInst[0].bodyRow1[0].Field3[0]
+      type: text
+      label: Field
+      required: false
+      width: full
+    - name: field4
+      pdf_field_name: EJ-159[0].Page2[0].List8[0].LI2[0].tblFinInst[0].bodyRow1[0].Field4[0]
+      type: text
+      label: Field
+      required: false
+      width: full
+    - name: field5
+      pdf_field_name: EJ-159[0].Page2[0].List8[0].LI2[0].tblFinInst[0].bodyRow2[0].Field5[0]
+      type: text
+      label: Field
+      required: false
+      width: full
+    - name: field6
+      pdf_field_name: EJ-159[0].Page2[0].List8[0].LI2[0].tblFinInst[0].bodyRow2[0].Field6[0]
+      type: text
+      label: Field
+      required: false
+      width: full
+    - name: field7
+      pdf_field_name: EJ-159[0].Page2[0].List8[0].LI2[0].tblFinInst[0].bodyRow2[0].Field7[0]
+      type: text
+      label: Field
+      required: false
+      width: full
+    - name: field8
+      pdf_field_name: EJ-159[0].Page2[0].List8[0].LI2[0].tblFinInst[0].bodyRow3[0].Field8[0]
+      type: text
+      label: Field
+      required: false
+      width: full
+    - name: field9
+      pdf_field_name: EJ-159[0].Page2[0].List8[0].LI2[0].tblFinInst[0].bodyRow3[0].Field9[0]
+      type: text
+      label: Field
+      required: false
+      width: full
+    - name: field10
+      pdf_field_name: EJ-159[0].Page2[0].List8[0].LI2[0].tblFinInst[0].bodyRow3[0].Field10[0]
+      type: text
+      label: Field
+      required: false
+      width: full
+    - name: field11
+      pdf_field_name: EJ-159[0].Page2[0].List9[0].LI1[0].Field11[0]
+      type: text
+      label: Field
+      required: false
+      width: full
+  mp_last:
+    title: Mp Last
+    fields:
+    - name: print
+      pdf_field_name: EJ-159[0].#pageSet[0].MPLast[0].Print[0]
+      type: checkbox
+      label: Print
+      required: false
+      width: full
+    - name: save
+      pdf_field_name: EJ-159[0].#pageSet[0].MPLast[0].Save[0]
+      type: checkbox
+      label: Save
+      required: false
+      width: full
+    - name: reset
+      pdf_field_name: EJ-159[0].#pageSet[0].MPLast[0].Reset[0]
+      type: checkbox
+      label: Reset
+      required: false
+      width: full
+  p_x_caption:
+    title: P X Caption
+    fields:
+    - name: levy_ofcr_file_no_2
+      pdf_field_name: EJ-159[0].Page2[0].pXCaption[0].CaseFileNos_sf[0].LevyOfcrFileNo[0]
+      type: text
+      label: Levy Ofcr File No
+      required: false
+      width: full
+    - name: short_title_ft
+      pdf_field_name: EJ-159[0].Page2[0].pXCaption[0].ShortTitle_ft[0]
+      type: text
+      label: Short Title Ft
+      required: false
+      width: full
+    - name: case_number_2
+      pdf_field_name: EJ-159[0].Page2[0].pXCaption[0].casenumber[0].caseNumber[0]
+      type: text
+      label: Case Number
+      required: false
+      width: full
+      shared_key: case:number
+  sign_sub:
+    title: Sign Sub
+    fields:
+    - name: date
+      pdf_field_name: EJ-159[0].Page2[0].SignSub[0].Date[0]
+      type: date
+      label: Date
+      required: false
+      width: half

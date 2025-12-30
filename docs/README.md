@@ -1,6 +1,6 @@
 # Documentation Index
 
-**Last Updated**: December 25, 2025
+**Last Updated**: December 28, 2025
 
 This directory contains all project documentation organized by category.
 
@@ -38,8 +38,15 @@ New to the project? Start here:
 
 ### Backend Development
 
-- [Service Objects](guides/backend/service-objects.md) - Business logic patterns
+**Form Implementation:**
+
+- [Form Schema Guide](guides/backend/form-schemas.md) - YAML schema format and generation
+- [Form Anti-Patterns](guides/backend/form-anti-patterns.md) - Common mistakes to avoid
+
+**PDF & Services:**
+
 - [PDF Processing](guides/backend/pdf-processing.md) - PDF form handling
+- [Service Objects](guides/backend/service-objects.md) - Business logic patterns
 
 ---
 

@@ -1,0 +1,287 @@
+---
+form:
+  code: JV-213
+  title: JV 213 Form
+  description: ''
+  category: juvenile/general
+  pdf_filename: jv213.pdf
+  fillable: true
+  instructions: ''
+sections:
+  footer_buttons:
+    title: Footer Buttons
+    fields:
+    - name: print
+      pdf_field_name: JV-213[0].#pageSet[0].Page1[0].FooterButtons[0].Print[0]
+      type: checkbox
+      label: Print
+      required: false
+      width: full
+    - name: save
+      pdf_field_name: JV-213[0].#pageSet[0].Page1[0].FooterButtons[0].Save[0]
+      type: checkbox
+      label: Save
+      required: false
+      width: full
+    - name: reset
+      pdf_field_name: JV-213[0].#pageSet[0].Page1[0].FooterButtons[0].Reset[0]
+      type: checkbox
+      label: Reset
+      required: false
+      width: full
+    - name: warning
+      pdf_field_name: JV-213[0].#pageSet[0].Page1[0].FooterButtons[0].Warning[0]
+      type: checkbox
+      label: Warning
+      required: false
+      width: full
+  p1_caption:
+    title: P1 Caption
+    fields:
+    - name: atty_bar_no
+      pdf_field_name: JV-213[0].Page1[0].P1Caption[0].AttyPrtyBorder[0].AttyPartyInfo[0].AttyBarNo[0]
+      type: text
+      label: Atty Bar No
+      required: false
+      width: full
+    - name: name
+      pdf_field_name: JV-213[0].Page1[0].P1Caption[0].AttyPrtyBorder[0].AttyPartyInfo[0].Name[0]
+      type: text
+      label: Name
+      required: false
+      width: full
+    - name: atty_firm
+      pdf_field_name: JV-213[0].Page1[0].P1Caption[0].AttyPrtyBorder[0].AttyPartyInfo[0].AttyFirm[0]
+      type: text
+      label: Atty Firm
+      required: false
+      width: full
+    - name: street
+      pdf_field_name: JV-213[0].Page1[0].P1Caption[0].AttyPrtyBorder[0].AttyPartyInfo[0].Street[0]
+      type: address
+      label: Street
+      required: false
+      width: full
+    - name: city
+      pdf_field_name: JV-213[0].Page1[0].P1Caption[0].AttyPrtyBorder[0].AttyPartyInfo[0].City[0]
+      type: address
+      label: City
+      required: false
+      width: full
+    - name: state
+      pdf_field_name: JV-213[0].Page1[0].P1Caption[0].AttyPrtyBorder[0].AttyPartyInfo[0].State[0]
+      type: address
+      label: State
+      required: false
+      width: full
+    - name: zip
+      pdf_field_name: JV-213[0].Page1[0].P1Caption[0].AttyPrtyBorder[0].AttyPartyInfo[0].Zip[0]
+      type: address
+      label: Zip
+      required: false
+      width: full
+    - name: phone
+      pdf_field_name: JV-213[0].Page1[0].P1Caption[0].AttyPrtyBorder[0].AttyPartyInfo[0].Phone[0]
+      type: tel
+      label: Phone
+      required: false
+      width: half
+    - name: fax
+      pdf_field_name: JV-213[0].Page1[0].P1Caption[0].AttyPrtyBorder[0].AttyPartyInfo[0].Fax[0]
+      type: tel
+      label: Fax
+      required: false
+      width: half
+    - name: email
+      pdf_field_name: JV-213[0].Page1[0].P1Caption[0].AttyPrtyBorder[0].AttyPartyInfo[0].Email[0]
+      type: email
+      label: Email
+      required: false
+      width: half
+    - name: atty_for
+      pdf_field_name: JV-213[0].Page1[0].P1Caption[0].AttyPrtyBorder[0].AttyPartyInfo[0].AttyFor[0]
+      type: text
+      label: Atty For
+      required: false
+      width: full
+    - name: crt_county
+      pdf_field_name: JV-213[0].Page1[0].P1Caption[0].CrtInfBorder[0].CourtInfo[0].CrtCounty[0]
+      type: number
+      label: Crt County
+      required: false
+      width: third
+    - name: crt_street
+      pdf_field_name: JV-213[0].Page1[0].P1Caption[0].CrtInfBorder[0].CourtInfo[0].CrtStreet[0]
+      type: address
+      label: Crt Street
+      required: false
+      width: full
+    - name: crt_mailing_add
+      pdf_field_name: JV-213[0].Page1[0].P1Caption[0].CrtInfBorder[0].CourtInfo[0].CrtMailingAdd[0]
+      type: address
+      label: Crt Mailing Add
+      required: false
+      width: full
+    - name: crt_branch
+      pdf_field_name: JV-213[0].Page1[0].P1Caption[0].CrtInfBorder[0].CourtInfo[0].CrtBranch[0]
+      type: text
+      label: Crt Branch
+      required: false
+      width: full
+    - name: crt_city_zip
+      pdf_field_name: JV-213[0].Page1[0].P1Caption[0].CrtInfBorder[0].CourtInfo[0].CrtCityZip[0]
+      type: address
+      label: Crt City Zip
+      required: false
+      width: full
+    - name: party1
+      pdf_field_name: JV-213[0].Page1[0].P1Caption[0].ChldNmBrdr[0].TitlePartyName[0].Party1[0]
+      type: text
+      label: Party
+      required: false
+      width: full
+    - name: case_number
+      pdf_field_name: JV-213[0].Page1[0].P1Caption[0].CsNmbrBrdr[0].CaseNumber[0].CaseNumber[0]
+      type: text
+      label: Case Number
+      required: false
+      width: full
+      shared_key: case:number
+  item:
+    title: Item
+    fields:
+    - name: referral_date_ft
+      pdf_field_name: JV-213[0].Page1[0].Item1[0].ReferralDate_ft[0]
+      type: date
+      label: Referral Date Ft
+      required: false
+      width: half
+    - name: ref_ct_cty_ft
+      pdf_field_name: JV-213[0].Page1[0].Item1[0].RefCtCty_ft[0]
+      type: text
+      label: Ref Ct Cty Ft
+      required: false
+      width: full
+    - name: dept_num_ft
+      pdf_field_name: JV-213[0].Page1[0].Item1[0].DeptNum_ft[0]
+      type: text
+      label: Dept Num Ft
+      required: false
+      width: full
+    - name: gdnshp_case_num_ft
+      pdf_field_name: JV-213[0].Page1[0].Item1[0].GdnshpCaseNum_ft[0]
+      type: text
+      label: Gdnshp Case Num Ft
+      required: false
+      width: full
+    - name: no_rcpt_cb
+      pdf_field_name: JV-213[0].Page1[0].Item2[0].NoRcpt_sf[0].NoRcpt_cb[0]
+      type: text
+      label: No Rcpt Cb
+      required: false
+      width: full
+    - name: rcpt_no_ptn_cb
+      pdf_field_name: JV-213[0].Page1[0].Item2[0].RcptNoPtn_sf[0].RcptNoPtn_cb[0]
+      type: text
+      label: Rcpt No Ptn Cb
+      required: false
+      width: full
+    - name: no_rcpt_no_ptn_cb
+      pdf_field_name: JV-213[0].Page1[0].Item2[0].NoRcptNoPtn_sf[0].NoRcptNoPtn_cb[0]
+      type: text
+      label: No Rcpt No Ptn Cb
+      required: false
+      width: full
+    - name: prob_ct_ref_cb
+      pdf_field_name: JV-213[0].Page1[0].Item4[0].ProbCtRef_sf[0].ProbCtRef_cb[0]
+      type: text
+      label: Prob Ct Ref Cb
+      required: false
+      width: full
+    - name: sw_rpt_cb
+      pdf_field_name: JV-213[0].Page1[0].Item4[0].SWRpt_sf[0].SWRpt_cb[0]
+      type: text
+      label: Sw Rpt Cb
+      required: false
+      width: full
+    - name: other_cb
+      pdf_field_name: JV-213[0].Page1[0].Item4[0].OtherAtt_sf[0].Other_cb[0]
+      type: text
+      label: Other Cb
+      required: false
+      width: full
+    - name: other_nms_desc_ft
+      pdf_field_name: JV-213[0].Page1[0].Item4[0].OtherAtt_sf[0].OtherNmsDesc_ft[0]
+      type: text
+      label: Other Nms Desc Ft
+      required: false
+      width: full
+    - name: total_p_pin4abc
+      pdf_field_name: JV-213[0].Page1[0].Item4[0].TotalPPin4abc[0]
+      type: text
+      label: Total P Pin4abc
+      required: false
+      width: full
+  sig_block_jo:
+    title: Sig Block Jo
+    fields:
+    - name: sig_date_jo1
+      pdf_field_name: JV-213[0].Page1[0].SigBlockJO1[0].SigDateJO1[0]
+      type: date
+      label: Sig Date Jo
+      required: false
+      width: half
+    - name: sig_date_jo2
+      pdf_field_name: JV-213[0].Page1[0].SigBlockJO2[0].SigDateJO2[0]
+      type: date
+      label: Sig Date Jo
+      required: false
+      width: half
+  item1_jv:
+    title: Item1 Jv
+    fields:
+    - name: child_not_pf300_cb
+      pdf_field_name: JV-213[0].Page1[0].Item1JV[0].Item1aJV[0].ChildNotPF300_cb[0]
+      type: text
+      label: Child Not Pf300 Cb
+      required: false
+      width: full
+    - name: child_pf300_cb
+      pdf_field_name: JV-213[0].Page1[0].Item1JV[0].Item1bJV[0].ChildPF300_cb[0]
+      type: text
+      label: Child Pf300 Cb
+      required: false
+      width: full
+    - name: ptn_ddln_date_ft
+      pdf_field_name: JV-213[0].Page1[0].Item1JV[0].Item1bJV[0].PtnDdlnDate_ft[0]
+      type: date
+      label: Ptn Ddln Date Ft
+      required: false
+      width: half
+  item2_jv:
+    title: Item2 Jv
+    fields:
+    - name: hrg_set_cb
+      pdf_field_name: JV-213[0].Page1[0].Item2JV[0].HrgSet_cb[0]
+      type: text
+      label: Hrg Set Cb
+      required: false
+      width: full
+    - name: hrg_date_dt
+      pdf_field_name: JV-213[0].Page1[0].Item2JV[0].HrgDate_dt[0]
+      type: date
+      label: Hrg Date Dt
+      required: false
+      width: half
+    - name: hrg_time_ft
+      pdf_field_name: JV-213[0].Page1[0].Item2JV[0].HrgTime_ft[0]
+      type: text
+      label: Hrg Time Ft
+      required: false
+      width: full
+    - name: hrg_dept_ft
+      pdf_field_name: JV-213[0].Page1[0].Item2JV[0].HrgDept_ft[0]
+      type: text
+      label: Hrg Dept Ft
+      required: false
+      width: full

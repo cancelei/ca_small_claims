@@ -1,0 +1,199 @@
+---
+form:
+  code: FW-011
+  title: FW 011 Form
+  description: ''
+  category: administrative/fee_waiver
+  pdf_filename: fw011.pdf
+  fillable: true
+  instructions: ''
+sections:
+  general:
+    title: General
+    fields:
+    - name: fill_text58
+      pdf_field_name: FillText58
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text57
+      pdf_field_name: FillText57
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text56
+      pdf_field_name: FillText56
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text55
+      pdf_field_name: FillText55
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text54
+      pdf_field_name: FillText54
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text43
+      pdf_field_name: FillText43
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text42
+      pdf_field_name: FillText42
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: check_box9
+      pdf_field_name: CheckBox9
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: fill_text41
+      pdf_field_name: FillText41
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text40
+      pdf_field_name: FillText40
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: check_box8
+      pdf_field_name: CheckBox8
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: fill_text38
+      pdf_field_name: FillText38
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text37
+      pdf_field_name: FillText37
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: check_box7
+      pdf_field_name: CheckBox7
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: fill_text50
+      pdf_field_name: FillText50
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text48
+      pdf_field_name: FillText48
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: check_box6
+      pdf_field_name: CheckBox6
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: fill_text31
+      pdf_field_name: FillText31
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text30
+      pdf_field_name: FillText30
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text45
+      pdf_field_name: FillText45
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text44
+      pdf_field_name: FillText44
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text59
+      pdf_field_name: FillText59
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text60
+      pdf_field_name: FillText60
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text61
+      pdf_field_name: FillText61
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text62
+      pdf_field_name: FillText62
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text34
+      pdf_field_name: FillText34
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text46
+      pdf_field_name: FillText46
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text47
+      pdf_field_name: FillText47
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: check_box5
+      pdf_field_name: CheckBox5
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box3
+      pdf_field_name: CheckBox3
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: date_ft
+      pdf_field_name: Date_ft
+      type: date
+      label: Date Ft
+      required: false
+      width: half

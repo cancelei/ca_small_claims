@@ -1,0 +1,483 @@
+---
+form:
+  code: FL-936
+  title: FL 936 Form
+  description: ''
+  category: family_law/general
+  pdf_filename: fl936.pdf
+  fillable: true
+  instructions: ''
+sections:
+  p1_caption:
+    title: P1 Caption
+    fields:
+    - name: atty_bar_no
+      pdf_field_name: CIV-010[0].Page1[0].P1Caption[0].AttyPartyInfo[0].AttyBarNo[0]
+      type: text
+      label: Atty Bar No
+      required: false
+      width: full
+    - name: name
+      pdf_field_name: CIV-010[0].Page1[0].P1Caption[0].AttyPartyInfo[0].Name[0]
+      type: text
+      label: Name
+      required: false
+      width: full
+    - name: atty_firm
+      pdf_field_name: CIV-010[0].Page1[0].P1Caption[0].AttyPartyInfo[0].AttyFirm[0]
+      type: text
+      label: Atty Firm
+      required: false
+      width: full
+    - name: street
+      pdf_field_name: CIV-010[0].Page1[0].P1Caption[0].AttyPartyInfo[0].Street[0]
+      type: address
+      label: Street
+      required: false
+      width: full
+    - name: city
+      pdf_field_name: CIV-010[0].Page1[0].P1Caption[0].AttyPartyInfo[0].City[0]
+      type: address
+      label: City
+      required: false
+      width: full
+    - name: state
+      pdf_field_name: CIV-010[0].Page1[0].P1Caption[0].AttyPartyInfo[0].State[0]
+      type: address
+      label: State
+      required: false
+      width: full
+    - name: zip
+      pdf_field_name: CIV-010[0].Page1[0].P1Caption[0].AttyPartyInfo[0].Zip[0]
+      type: address
+      label: Zip
+      required: false
+      width: full
+    - name: phone
+      pdf_field_name: CIV-010[0].Page1[0].P1Caption[0].AttyPartyInfo[0].Phone[0]
+      type: tel
+      label: Phone
+      required: false
+      width: half
+    - name: fax
+      pdf_field_name: CIV-010[0].Page1[0].P1Caption[0].AttyPartyInfo[0].Fax[0]
+      type: tel
+      label: Fax
+      required: false
+      width: half
+    - name: email
+      pdf_field_name: CIV-010[0].Page1[0].P1Caption[0].AttyPartyInfo[0].Email[0]
+      type: email
+      label: Email
+      required: false
+      width: half
+    - name: atty_for
+      pdf_field_name: CIV-010[0].Page1[0].P1Caption[0].AttyPartyInfo[0].AttyFor[0]
+      type: text
+      label: Atty For
+      required: false
+      width: full
+    - name: crt_county
+      pdf_field_name: CIV-010[0].Page1[0].P1Caption[0].CourtInfo[0].CrtCounty[0]
+      type: number
+      label: Crt County
+      required: false
+      width: third
+    - name: street_ft
+      pdf_field_name: CIV-010[0].Page1[0].P1Caption[0].CourtInfo[0].Street_ft[0]
+      type: address
+      label: Street Ft
+      required: false
+      width: full
+    - name: mailing_add_ft
+      pdf_field_name: CIV-010[0].Page1[0].P1Caption[0].CourtInfo[0].MailingAdd_ft[0]
+      type: address
+      label: Mailing Add Ft
+      required: false
+      width: full
+    - name: city_zip_ft
+      pdf_field_name: CIV-010[0].Page1[0].P1Caption[0].CourtInfo[0].CityZip_ft[0]
+      type: address
+      label: City Zip Ft
+      required: false
+      width: full
+    - name: branch_ft
+      pdf_field_name: CIV-010[0].Page1[0].P1Caption[0].CourtInfo[0].Branch_ft[0]
+      type: text
+      label: Branch Ft
+      required: false
+      width: full
+    - name: party1_ft
+      pdf_field_name: CIV-010[0].Page1[0].P1Caption[0].TitlePartyName[0].Party1_ft[0]
+      type: text
+      label: Party1 Ft
+      required: false
+      width: full
+    - name: party2_ft
+      pdf_field_name: CIV-010[0].Page1[0].P1Caption[0].TitlePartyName[0].Party2_ft[0]
+      type: text
+      label: Party2 Ft
+      required: false
+      width: full
+    - name: party3_ft
+      pdf_field_name: CIV-010[0].Page1[0].P1Caption[0].TitlePartyName[0].Party3_ft[0]
+      type: text
+      label: Party3 Ft
+      required: false
+      width: full
+    - name: check_box13
+      pdf_field_name: CIV-010[0].Page1[0].P1Caption[0].FormTitle[0].CheckBox13[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: case_number_ft
+      pdf_field_name: CIV-010[0].Page1[0].P1Caption[0].CaseNumber[0].CaseNumber_ft[0]
+      type: text
+      label: Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+  item:
+    title: Item
+    fields:
+    - name: applicant_nm_ft
+      pdf_field_name: CIV-010[0].Page1[0].Item1[0].ApplicantNm_ft[0]
+      type: text
+      label: Applicant Nm Ft
+      required: false
+      width: full
+    - name: rep_person_nm_ft
+      pdf_field_name: CIV-010[0].Page1[0].Item1[0].RepPersonNm_ft[0]
+      type: text
+      label: Rep Person Nm Ft
+      required: false
+      width: full
+    - name: item2hdr_cb
+      pdf_field_name: CIV-010[0].Page1[0].Item2[0].Item2Hdr[0].Item2Hdr_cb[0]
+      type: text
+      label: Item2 Hdr Cb
+      required: false
+      width: full
+    - name: jud_off_nm_ft2
+      pdf_field_name: CIV-010[0].Page1[0].Item2[0].Item2a[0].JudOffNm_ft2[0]
+      type: text
+      label: Jud Off Nm Ft
+      required: false
+      width: full
+    - name: hrg_date_ft
+      pdf_field_name: CIV-010[0].Page1[0].Item2[0].Item2b[0].HrgDate_ft[0]
+      type: date
+      label: Hrg Date Ft
+      required: false
+      width: half
+    - name: hrg_time_ft
+      pdf_field_name: CIV-010[0].Page1[0].Item2[0].Item2b[0].HrgTime_ft[0]
+      type: text
+      label: Hrg Time Ft
+      required: false
+      width: full
+    - name: dept_cb
+      pdf_field_name: CIV-010[0].Page1[0].Item2[0].Item2b[0].Dept_cb[0]
+      type: text
+      label: Dept Cb
+      required: false
+      width: full
+    - name: dept_ft
+      pdf_field_name: CIV-010[0].Page1[0].Item2[0].Item2b[0].Dept_ft[0]
+      type: text
+      label: Dept Ft
+      required: false
+      width: full
+    - name: room_cb
+      pdf_field_name: CIV-010[0].Page1[0].Item2[0].Item2b[0].Room_cb[0]
+      type: text
+      label: Room Cb
+      required: false
+      width: full
+    - name: room_ft
+      pdf_field_name: CIV-010[0].Page1[0].Item2[0].Item2b[0].Room_ft[0]
+      type: text
+      label: Room Ft
+      required: false
+      width: full
+    - name: applicant_cb
+      pdf_field_name: CIV-010[0].Page1[0].Item2[0].Item2c[0].Item2c1[0].Applicant_cb[0]
+      type: text
+      label: Applicant Cb
+      required: false
+      width: full
+    - name: appl_name_ft
+      pdf_field_name: CIV-010[0].Page1[0].Item2[0].Item2c[0].Item2c1[0].ApplName_ft[0]
+      type: text
+      label: Appl Name Ft
+      required: false
+      width: full
+    - name: app_atty_cb
+      pdf_field_name: CIV-010[0].Page1[0].Item2[0].Item2c[0].Item2c2[0].AppAtty_cb[0]
+      type: text
+      label: App Atty Cb
+      required: false
+      width: full
+    - name: app_atty_nm_ft
+      pdf_field_name: CIV-010[0].Page1[0].Item2[0].Item2c[0].Item2c2[0].AppAttyNm_ft[0]
+      type: text
+      label: App Atty Nm Ft
+      required: false
+      width: full
+    - name: gal_cb
+      pdf_field_name: CIV-010[0].Page1[0].Item2[0].Item2c[0].Item2c3[0].GAL_cb[0]
+      type: text
+      label: Gal Cb
+      required: false
+      width: full
+    - name: gal_atty_cb
+      pdf_field_name: CIV-010[0].Page1[0].Item2[0].Item2c[0].Item2c4[0].GALAtty_cb[0]
+      type: text
+      label: Gal Atty Cb
+      required: false
+      width: full
+    - name: gal_atty_nm_ft
+      pdf_field_name: CIV-010[0].Page1[0].Item2[0].Item2c[0].Item2c4[0].GALAttyNm_ft[0]
+      type: text
+      label: Gal Atty Nm Ft
+      required: false
+      width: full
+    - name: plaintiff_cb
+      pdf_field_name: CIV-010[0].Page1[0].Item2[0].Item2c[0].Item2c5[0].Plaintiff_cb[0]
+      type: text
+      label: Plaintiff Cb
+      required: false
+      width: full
+    - name: party1_ft_2
+      pdf_field_name: CIV-010[0].Page1[0].Item2[0].Item2c[0].Item2c5[0].Party1_ft[0]
+      type: text
+      label: Party1 Ft
+      required: false
+      width: full
+    - name: plaintiff_atty_cb
+      pdf_field_name: CIV-010[0].Page1[0].Item2[0].Item2c[0].Item2c6[0].PlaintiffAtty_cb[0]
+      type: text
+      label: Plaintiff Atty Cb
+      required: false
+      width: full
+    - name: plaintiff_atty_nm_ft
+      pdf_field_name: CIV-010[0].Page1[0].Item2[0].Item2c[0].Item2c6[0].PlaintiffAttyNm_ft[0]
+      type: text
+      label: Plaintiff Atty Nm Ft
+      required: false
+      width: full
+    - name: defendant_cb
+      pdf_field_name: CIV-010[0].Page1[0].Item2[0].Item2c[0].Item2c7[0].Defendant_cb[0]
+      type: text
+      label: Defendant Cb
+      required: false
+      width: full
+    - name: party2_ft_2
+      pdf_field_name: CIV-010[0].Page1[0].Item2[0].Item2c[0].Item2c7[0].Party2_ft[0]
+      type: text
+      label: Party2 Ft
+      required: false
+      width: full
+    - name: deft_atty_cb
+      pdf_field_name: CIV-010[0].Page1[0].Item2[0].Item2c[0].Item2c8[0].DeftAtty_cb[0]
+      type: text
+      label: Deft Atty Cb
+      required: false
+      width: full
+    - name: deft_nm_ft
+      pdf_field_name: CIV-010[0].Page1[0].Item2[0].Item2c[0].Item2c8[0].DeftNm_ft[0]
+      type: text
+      label: Deft Nm Ft
+      required: false
+      width: full
+    - name: other_cb
+      pdf_field_name: CIV-010[0].Page1[0].Item2[0].Item2c[0].Item2c9[0].Other_cb[0]
+      type: text
+      label: Other Cb
+      required: false
+      width: full
+    - name: other_ft
+      pdf_field_name: CIV-010[0].Page1[0].Item2[0].Item2c[0].Item2c9[0].Other_ft[0]
+      type: text
+      label: Other Ft
+      required: false
+      width: full
+    - name: notice_cb
+      pdf_field_name: CIV-010[0].Page1[0].Item3[0].Notice_cb[0]
+      type: text
+      label: Notice Cb
+      required: false
+      width: full
+    - name: minor_cb
+      pdf_field_name: CIV-010[0].Page1[0].Item4[0].Item4a[0].Minor_cb[0]
+      type: text
+      label: Minor Cb
+      required: false
+      width: full
+    - name: dob_ft
+      pdf_field_name: CIV-010[0].Page1[0].Item4[0].Item4a[0].DOB_ft[0]
+      type: text
+      label: Dob Ft
+      required: false
+      width: full
+    - name: pers_no_cap_cb
+      pdf_field_name: CIV-010[0].Page1[0].Item4[0].Item4b[0].PersNoCap_cb[0]
+      type: text
+      label: Pers No Cap Cb
+      required: false
+      width: full
+    - name: persw_cnsrvtr_cb
+      pdf_field_name: CIV-010[0].Page1[0].Item4[0].Item4c[0].PerswCnsrvtr_cb[0]
+      type: text
+      label: Persw Cnsrvtr Cb
+      required: false
+      width: full
+    - name: rep_person_cb
+      pdf_field_name: CIV-010[0].Page1[0].Item5[0].RepPerson_cb[0]
+      type: text
+      label: Rep Person Cb
+      required: false
+      width: full
+    - name: minor_prty_upa_cb
+      pdf_field_name: CIV-010[0].Page1[0].Item5[0].Item5a[0].MinorPrtyUPA_cb[0]
+      type: text
+      label: Minor Prty Upa Cb
+      required: false
+      width: full
+    - name: minor_req_ro_cb
+      pdf_field_name: CIV-010[0].Page1[0].Item5[0].Item5b[0].MinorReqRO_cb[0]
+      type: text
+      label: Minor Req Ro Cb
+      required: false
+      width: full
+    - name: cd
+      pdf_field_name: CIV-010[0].Page1[0].Item5[0].Item5c[0].doesnothavehas5\.cd[0]
+      type: text
+      label: Cd
+      required: false
+      width: full
+    - name: cd_2
+      pdf_field_name: CIV-010[0].Page1[0].Item5[0].Item5d[0].doesnothavehas5\.cd[0]
+      type: text
+      label: Cd
+      required: false
+      width: full
+    - name: gal_name_ft
+      pdf_field_name: CIV-010[0].Page2[0].Item6[0].GALName_ft[0]
+      type: text
+      label: Gal Name Ft
+      required: false
+      width: full
+    - name: rep_person_nm_ft_2
+      pdf_field_name: CIV-010[0].Page2[0].Item6[0].RepPersonNm_ft[0]
+      type: text
+      label: Rep Person Nm Ft
+      required: false
+      width: full
+    - name: isisnot
+      pdf_field_name: CIV-010[0].Page2[0].Item7[0].isisnot\.7[0]
+      type: text
+      label: Isisnot\
+      required: false
+      width: full
+    - name: isisnot_2
+      pdf_field_name: CIV-010[0].Page2[0].Item7[0].isisnot\.7[1]
+      type: text
+      label: Isisnot\
+      required: false
+      width: full
+    - name: other_cb_2
+      pdf_field_name: CIV-010[0].Page2[0].Item9[0].Other_cb[0]
+      type: text
+      label: Other Cb
+      required: false
+      width: full
+    - name: spec_orders_ft
+      pdf_field_name: CIV-010[0].Page2[0].Item9[0].SpecOrders_ft[0]
+      type: text
+      label: Spec Orders Ft
+      required: false
+      width: full
+    - name: ch
+      pdf_field_name: CIV-010[0].Page2[0].Item9[0].ch[0]
+      type: text
+      label: Ch
+      required: false
+      width: full
+    - name: num_pp_att_ft
+      pdf_field_name: CIV-010[0].Page2[0].Item10[0].NumPPAtt_ft[0]
+      type: text
+      label: Num Pp Att Ft
+      required: false
+      width: full
+  p2_caption:
+    title: P2 Caption
+    fields:
+    - name: party1_ft_2
+      pdf_field_name: CIV-010[0].Page2[0].P2Caption[0].TitlePartyName[0].Party1_ft[0]
+      type: text
+      label: Party1 Ft
+      required: false
+      width: full
+    - name: party2_ft_2
+      pdf_field_name: CIV-010[0].Page2[0].P2Caption[0].TitlePartyName[0].Party2_ft[0]
+      type: text
+      label: Party2 Ft
+      required: false
+      width: full
+    - name: party3_ft_2
+      pdf_field_name: CIV-010[0].Page2[0].P2Caption[0].TitlePartyName[0].Party3_ft[0]
+      type: text
+      label: Party3 Ft
+      required: false
+      width: full
+    - name: case_number_ft_2
+      pdf_field_name: CIV-010[0].Page2[0].P2Caption[0].CaseNumber[0].CaseNumber_ft[0]
+      type: text
+      label: Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+  jo_sign_date:
+    title: Jo Sign Date
+    fields:
+    - name: hearing_date
+      pdf_field_name: CIV-010[0].Page2[0].JOSignDate[0].HearingDate[0]
+      type: date
+      label: Hearing Date
+      required: false
+      width: half
+    - name: sig_post_att_cb
+      pdf_field_name: CIV-010[0].Page2[0].JOSignDate[0].SigPostAtt_cb[0]
+      type: date
+      label: Sig Post Att Cb
+      required: false
+      width: half
+  footer_buttons:
+    title: Footer Buttons
+    fields:
+    - name: print
+      pdf_field_name: CIV-010[0].Page2[0].FooterButtons[0].Print[0]
+      type: checkbox
+      label: Print
+      required: false
+      width: full
+    - name: save
+      pdf_field_name: CIV-010[0].Page2[0].FooterButtons[0].Save[0]
+      type: checkbox
+      label: Save
+      required: false
+      width: full
+    - name: reset
+      pdf_field_name: CIV-010[0].Page2[0].FooterButtons[0].Reset[0]
+      type: checkbox
+      label: Reset
+      required: false
+      width: full
+    - name: warning
+      pdf_field_name: CIV-010[0].Page2[0].FooterButtons[0].Warning[0]
+      type: checkbox
+      label: Warning
+      required: false
+      width: full

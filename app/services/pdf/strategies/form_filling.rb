@@ -32,18 +32,11 @@ module Pdf
       end
 
       def pdftk_available?
-        @pdftk_available ||= begin
-          system("which pdftk > /dev/null 2>&1") ||
-            system("which pdftk-java > /dev/null 2>&1")
-        end
+        Utilities::PdftkResolver.available?
       end
 
       def pdftk_path
-        ENV.fetch("PDFTK_PATH") do
-          %w[/usr/bin/pdftk /usr/local/bin/pdftk /usr/bin/pdftk-java].find do |path|
-            File.exist?(path)
-          end || "pdftk"
-        end
+        Utilities::PdftkResolver.path
       end
 
       def fill_with_pdftk(pdf_data)

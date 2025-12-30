@@ -1,0 +1,261 @@
+---
+form:
+  code: DE-166
+  title: DE 166 Form
+  description: ''
+  category: probate/decedent
+  pdf_filename: de166.pdf
+  fillable: true
+  instructions: ''
+sections:
+  p1_caption:
+    title: P1 Caption
+    fields:
+    - name: crt_county
+      pdf_field_name: DE-166[0].Page1[0].P1Caption[0].CourtInfo[0].CrtCounty[0]
+      type: number
+      label: Crt County
+      required: false
+      width: third
+    - name: crt_street
+      pdf_field_name: DE-166[0].Page1[0].P1Caption[0].CourtInfo[0].CrtStreet[0]
+      type: address
+      label: Crt Street
+      required: false
+      width: full
+    - name: crt_mailing_add
+      pdf_field_name: DE-166[0].Page1[0].P1Caption[0].CourtInfo[0].CrtMailingAdd[0]
+      type: address
+      label: Crt Mailing Add
+      required: false
+      width: full
+    - name: crt_branch
+      pdf_field_name: DE-166[0].Page1[0].P1Caption[0].CourtInfo[0].CrtBranch[0]
+      type: text
+      label: Crt Branch
+      required: false
+      width: full
+    - name: crt_city_zip
+      pdf_field_name: DE-166[0].Page1[0].P1Caption[0].CourtInfo[0].CrtCityZip[0]
+      type: address
+      label: Crt City Zip
+      required: false
+      width: full
+    - name: party1
+      pdf_field_name: DE-166[0].Page1[0].P1Caption[0].TitlePartyName[0].Party1[0]
+      type: text
+      label: Party
+      required: false
+      width: full
+    - name: case_number
+      pdf_field_name: DE-166[0].Page1[0].P1Caption[0].CaseNumber[0].CaseNumber[0]
+      type: text
+      label: Case Number
+      required: false
+      width: full
+      shared_key: case:number
+    - name: text_field1
+      pdf_field_name: DE-166[0].Page1[0].P1Caption[0].AttyPartyInfo[0].TextField1[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: phone
+      pdf_field_name: DE-166[0].Page1[0].P1Caption[0].AttyPartyInfo[0].Phone[0]
+      type: tel
+      label: Phone
+      required: false
+      width: half
+    - name: email
+      pdf_field_name: DE-166[0].Page1[0].P1Caption[0].AttyPartyInfo[0].Email[0]
+      type: email
+      label: Email
+      required: false
+      width: half
+  fill_text:
+    title: Fill Text
+    fields:
+    - name: fill_text109
+      pdf_field_name: DE-166[0].Page1[0].FillText109[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text109_2
+      pdf_field_name: DE-166[0].Page1[0].FillText109[1]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text109_2
+      pdf_field_name: DE-166[0].Page2[0].FillText109[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text1081
+      pdf_field_name: DE-166[0].Page2[0].FillText1081[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text1081_2
+      pdf_field_name: DE-166[0].Page2[0].FillText1081[1]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text109_2
+      pdf_field_name: DE-166[0].Page2[0].FillText109[1]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text109_2
+      pdf_field_name: DE-166[0].Page2[0].FillText109[2]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text109_2
+      pdf_field_name: DE-166[0].Page2[0].#subform[2].FillText109[3]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text109_2
+      pdf_field_name: DE-166[0].Page2[0].#subform[3].FillText109[4]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+  px_footer:
+    title: Px Footer
+    fields:
+    - name: print
+      pdf_field_name: DE-166[0].Page2[0].PXFooter[0].#area[0].Print[0]
+      type: checkbox
+      label: Print
+      required: false
+      width: full
+    - name: save
+      pdf_field_name: DE-166[0].Page2[0].PXFooter[0].#area[0].Save[0]
+      type: checkbox
+      label: Save
+      required: false
+      width: full
+    - name: reset
+      pdf_field_name: DE-166[0].Page2[0].PXFooter[0].#area[0].Reset[0]
+      type: checkbox
+      label: Reset
+      required: false
+      width: full
+    - name: warning
+      pdf_field_name: DE-166[0].Page2[0].PXFooter[0].#area[0].Warning[0]
+      type: checkbox
+      label: Warning
+      required: false
+      width: full
+  rb2_choices:
+    title: Rb2 Choices
+    fields:
+    - name: rb2choices3
+      pdf_field_name: DE-166[0].Page2[0].RB2Choices3[0]
+      type: text
+      label: Rb2 Choices
+      required: false
+      width: full
+    - name: rb2choices
+      pdf_field_name: DE-166[0].Page2[0].RB2Choices[0]
+      type: text
+      label: Rb2 Choices
+      required: false
+      width: full
+    - name: rb2choices_2
+      pdf_field_name: DE-166[0].Page2[0].RB2Choices[1]
+      type: text
+      label: Rb2 Choices
+      required: false
+      width: full
+    - name: rb2choices4
+      pdf_field_name: DE-166[0].Page2[0].RB2Choices4[0]
+      type: text
+      label: Rb2 Choices
+      required: false
+      width: full
+    - name: rb2choices5
+      pdf_field_name: DE-166[0].Page2[0].RB2Choices5[0]
+      type: text
+      label: Rb2 Choices
+      required: false
+      width: full
+    - name: rb2choices1
+      pdf_field_name: DE-166[0].Page2[0].RB2Choices1[0]
+      type: text
+      label: Rb2 Choices
+      required: false
+      width: full
+    - name: rb2choices1_2
+      pdf_field_name: DE-166[0].Page2[0].RB2Choices1[1]
+      type: text
+      label: Rb2 Choices
+      required: false
+      width: full
+  sig_date:
+    title: Sig Date
+    fields:
+    - name: sig_date
+      pdf_field_name: DE-166[0].Page2[0].SigDate[0]
+      type: date
+      label: Sig Date
+      required: false
+      width: half
+    - name: sig_date_2
+      pdf_field_name: DE-166[0].Page2[0].SigDate[1]
+      type: date
+      label: Sig Date
+      required: false
+      width: half
+    - name: sig_date_2
+      pdf_field_name: DE-166[0].Page2[0].SigDate[2]
+      type: date
+      label: Sig Date
+      required: false
+      width: half
+  px_caption:
+    title: Px Caption
+    fields:
+    - name: party1_2
+      pdf_field_name: DE-166[0].Page2[0].PxCaption[0].TitlePartyName[0].Party1[0]
+      type: text
+      label: Party
+      required: false
+      width: full
+    - name: case_number_2
+      pdf_field_name: DE-166[0].Page2[0].PxCaption[0].CaseNumber[0].CaseNumber[0]
+      type: text
+      label: Case Number
+      required: false
+      width: full
+      shared_key: case:number
+  sig_name:
+    title: Sig Name
+    fields:
+    - name: sig_name
+      pdf_field_name: DE-166[0].Page2[0].SigName[0]
+      type: text
+      label: Sig Name
+      required: false
+      width: full
+    - name: sig_name_2
+      pdf_field_name: DE-166[0].Page2[0].SigName[1]
+      type: text
+      label: Sig Name
+      required: false
+      width: full
+    - name: sig_name_2
+      pdf_field_name: DE-166[0].Page2[0].SigName[2]
+      type: text
+      label: Sig Name
+      required: false
+      width: full

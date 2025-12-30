@@ -1,0 +1,280 @@
+---
+form:
+  code: CR-164
+  title: CR 164 Form
+  description: ''
+  category: criminal/general
+  pdf_filename: cr164.pdf
+  fillable: true
+  instructions: ''
+sections:
+  p1_caption:
+    title: P1 Caption
+    fields:
+    - name: court_info
+      pdf_field_name: CH-130[0].Page1[0].P1Caption[0].Court[0].courtInfo[0]
+      type: text
+      label: Court Info
+      required: false
+      width: full
+    - name: case_number
+      pdf_field_name: CH-130[0].Page1[0].P1Caption[0].CaseNumber[0].caseNumber[0]
+      type: text
+      label: Case Number
+      required: false
+      width: full
+      shared_key: case:number
+  list:
+    title: List
+    fields:
+    - name: checkbox
+      pdf_field_name: CH-130[0].Page1[0].List1[0].Checkbox[0]
+      type: checkbox
+      label: Checkbox
+      required: false
+      width: full
+    - name: restrained_full_name_ft
+      pdf_field_name: CH-130[0].Page1[0].List2[0].RestrainedFullName_ft[0]
+      type: text
+      label: Restrained Full Name Ft
+      required: false
+      width: full
+    - name: restrained_sex_cb
+      pdf_field_name: CH-130[0].Page1[0].List2[0].RestrainedSex_cb[0]
+      type: text
+      label: Restrained Sex Cb
+      required: false
+      width: full
+    - name: restrained_sex_cb_2
+      pdf_field_name: CH-130[0].Page1[0].List2[0].RestrainedSex_cb[1]
+      type: text
+      label: Restrained Sex Cb
+      required: false
+      width: full
+    - name: restrained_sex_cb_2
+      pdf_field_name: CH-130[0].Page1[0].List2[0].RestrainedSex_cb[2]
+      type: text
+      label: Restrained Sex Cb
+      required: false
+      width: full
+    - name: restrained_race_ft
+      pdf_field_name: CH-130[0].Page1[0].List2[0].RestrainedRace_ft[0]
+      type: text
+      label: Restrained Race Ft
+      required: false
+      width: full
+    - name: restrained_dob_dt
+      pdf_field_name: CH-130[0].Page1[0].List2[0].RestrainedDOB_dt[0]
+      type: text
+      label: Restrained Dob Dt
+      required: false
+      width: full
+    - name: restrained_age
+      pdf_field_name: CH-130[0].Page1[0].List2[0].RestrainedAge[0]
+      type: text
+      label: Restrained Age
+      required: false
+      width: full
+    - name: restrained_height_ft
+      pdf_field_name: CH-130[0].Page1[0].List2[0].RestrainedHeight_ft[0]
+      type: text
+      label: Restrained Height Ft
+      required: false
+      width: full
+    - name: restrained_weight_ft
+      pdf_field_name: CH-130[0].Page1[0].List2[0].RestrainedWeight_ft[0]
+      type: text
+      label: Restrained Weight Ft
+      required: false
+      width: full
+    - name: restrained_hair_ft
+      pdf_field_name: CH-130[0].Page1[0].List2[0].RestrainedHair_ft[0]
+      type: text
+      label: Restrained Hair Ft
+      required: false
+      width: full
+    - name: restrained_eyes_ft
+      pdf_field_name: CH-130[0].Page1[0].List2[0].RestrainedEyes_ft[0]
+      type: text
+      label: Restrained Eyes Ft
+      required: false
+      width: full
+    - name: protected_full_name_ft
+      pdf_field_name: CH-130[0].Page1[0].List3[0].ProtectedFullName_ft[0]
+      type: text
+      label: Protected Full Name Ft
+      required: false
+      width: full
+    - name: protected_street_ft
+      pdf_field_name: CH-130[0].Page1[0].List3[0].ProtectedStreet_ft[0]
+      type: address
+      label: Protected Street Ft
+      required: false
+      width: full
+    - name: check_box19
+      pdf_field_name: CH-130[0].Page1[0].List3[0].CheckBox19[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: addresses
+      pdf_field_name: CH-130[0].Page1[0].List3[0].Addresses[0]
+      type: address
+      label: Addresses
+      required: false
+      width: full
+    - name: county
+      pdf_field_name: CH-130[0].Page1[0].List3[0].county[0]
+      type: number
+      label: County
+      required: false
+      width: third
+    - name: addresses_2
+      pdf_field_name: CH-130[0].Page1[0].List3[0].Addresses[1]
+      type: address
+      label: Addresses
+      required: false
+      width: full
+    - name: miles
+      pdf_field_name: CH-130[0].Page1[0].List3[0].miles[0]
+      type: text
+      label: Miles
+      required: false
+      width: full
+    - name: addresses_2
+      pdf_field_name: CH-130[0].Page1[0].List3[0].addresses[0]
+      type: address
+      label: Addresses
+      required: false
+      width: full
+    - name: expiration_date_dt
+      pdf_field_name: CH-130[0].Page1[0].List4[0].Item4[0].ExpirationDate_dt[0]
+      type: date
+      label: Expiration Date Dt
+      required: false
+      width: half
+    - name: expiration_time_dt
+      pdf_field_name: CH-130[0].Page1[0].List4[0].Item4[0].ExpirationTime_dt[0]
+      type: date
+      label: Expiration Time Dt
+      required: false
+      width: half
+    - name: time_def
+      pdf_field_name: CH-130[0].Page1[0].List4[0].Item4[0].TimeDef[0]
+      type: text
+      label: Time Def
+      required: false
+      width: full
+    - name: time_def_2
+      pdf_field_name: CH-130[0].Page1[0].List4[0].Item4[0].TimeDef[1]
+      type: text
+      label: Time Def
+      required: false
+      width: full
+    - name: time_def_2
+      pdf_field_name: CH-130[0].Page1[0].List4[0].Item4[0].TimeDef[2]
+      type: text
+      label: Time Def
+      required: false
+      width: full
+    - name: hearing_time_dt
+      pdf_field_name: CH-130[0].Page1[0].List5[0].HearingTime_dt[0]
+      type: text
+      label: Hearing Time Dt
+      required: false
+      width: full
+    - name: ft
+      pdf_field_name: CH-130[0].Page1[0].List5[0].Hearing\.dept\.ft[0]
+      type: text
+      label: Ft
+      required: false
+      width: full
+    - name: hearing_judge_name_ft
+      pdf_field_name: CH-130[0].Page1[0].List5[0].HearingJudgeName_ft[0]
+      type: text
+      label: Hearing Judge Name Ft
+      required: false
+      width: full
+    - name: expiration_date_dt_2
+      pdf_field_name: CH-130[0].Page1[0].List5[0].ExpirationDate_dt[0]
+      type: date
+      label: Expiration Date Dt
+      required: false
+      width: half
+    - name: pages_attached_no
+      pdf_field_name: CH-130[0].Page2[0].List8[0].li1[0].PagesAttached_no[0]
+      type: text
+      label: Pages Attached No
+      required: false
+      width: full
+  p2_caption:
+    title: P2 Caption
+    fields:
+    - name: case_number_2
+      pdf_field_name: CH-130[0].Page2[0].P2Caption[0].caseNumber[0]
+      type: text
+      label: Case Number
+      required: false
+      width: full
+      shared_key: case:number
+    - name: case_number_2
+      pdf_field_name: CH-130[0].Page3[0].P2Caption[0].caseNumber[0]
+      type: text
+      label: Case Number
+      required: false
+      width: full
+      shared_key: case:number
+  jo_date:
+    title: Jo Date
+    fields:
+    - name: signature_date_dt
+      pdf_field_name: CH-130[0].Page2[0].JODate[0].SignatureDate_dt[0]
+      type: signature
+      label: Signature Date Dt
+      required: false
+      width: full
+  mp_last:
+    title: Mp Last
+    fields:
+    - name: warning
+      pdf_field_name: CH-130[0].#pageSet[0].MPLast[0].Warning[0]
+      type: checkbox
+      label: Warning
+      required: false
+      width: full
+    - name: print
+      pdf_field_name: CH-130[0].#pageSet[0].MPLast[0].Print[0]
+      type: checkbox
+      label: Print
+      required: false
+      width: full
+    - name: save
+      pdf_field_name: CH-130[0].#pageSet[0].MPLast[0].Save[0]
+      type: checkbox
+      label: Save
+      required: false
+      width: full
+    - name: reset
+      pdf_field_name: CH-130[0].#pageSet[0].MPLast[0].Reset[0]
+      type: checkbox
+      label: Reset
+      required: false
+      width: full
+  certificate_date_dt:
+    title: Certificate Date Dt
+    fields:
+    - name: certificate_date_dt
+      pdf_field_name: CH-130[0].Page3[0].CertificateDate_dt[0]
+      type: date
+      label: Certificate Date Dt
+      required: false
+      width: half
+  clk_by:
+    title: Clk By
+    fields:
+    - name: clk_by
+      pdf_field_name: CH-130[0].Page3[0].CLKBy[0]
+      type: text
+      label: Clk By
+      required: false
+      width: full

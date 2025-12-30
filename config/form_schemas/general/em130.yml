@@ -1,0 +1,434 @@
+---
+form:
+  code: EM-130
+  title: EM 130 Form
+  description: ''
+  category: general
+  pdf_filename: em130.pdf
+  fillable: true
+  instructions: ''
+sections:
+  warning_g_iven:
+    title: Warning G Iven
+    fields:
+    - name: warning_g_iven
+      pdf_field_name: topmostSubform[0].Page1[0].WarningGIven[0]
+      type: text
+      label: Warning G Iven
+      required: false
+      width: full
+  p1_caption:
+    title: P1 Caption
+    fields:
+    - name: atty_bar_no
+      pdf_field_name: topmostSubform[0].Page1[0].p1Caption[0].AttyPartyInfo[0].AttyBarNo[0]
+      type: text
+      label: Atty Bar No
+      required: false
+      width: full
+    - name: name
+      pdf_field_name: topmostSubform[0].Page1[0].p1Caption[0].AttyPartyInfo[0].Name[0]
+      type: text
+      label: Name
+      required: false
+      width: full
+    - name: atty_firm
+      pdf_field_name: topmostSubform[0].Page1[0].p1Caption[0].AttyPartyInfo[0].AttyFirm[0]
+      type: text
+      label: Atty Firm
+      required: false
+      width: full
+    - name: street
+      pdf_field_name: topmostSubform[0].Page1[0].p1Caption[0].AttyPartyInfo[0].Street[0]
+      type: address
+      label: Street
+      required: false
+      width: full
+    - name: city
+      pdf_field_name: topmostSubform[0].Page1[0].p1Caption[0].AttyPartyInfo[0].City[0]
+      type: address
+      label: City
+      required: false
+      width: full
+    - name: state
+      pdf_field_name: topmostSubform[0].Page1[0].p1Caption[0].AttyPartyInfo[0].State[0]
+      type: address
+      label: State
+      required: false
+      width: full
+    - name: zip
+      pdf_field_name: topmostSubform[0].Page1[0].p1Caption[0].AttyPartyInfo[0].Zip[0]
+      type: address
+      label: Zip
+      required: false
+      width: full
+    - name: phone
+      pdf_field_name: topmostSubform[0].Page1[0].p1Caption[0].AttyPartyInfo[0].Phone[0]
+      type: tel
+      label: Phone
+      required: false
+      width: half
+    - name: fax
+      pdf_field_name: topmostSubform[0].Page1[0].p1Caption[0].AttyPartyInfo[0].Fax[0]
+      type: tel
+      label: Fax
+      required: false
+      width: half
+    - name: email
+      pdf_field_name: topmostSubform[0].Page1[0].p1Caption[0].AttyPartyInfo[0].Email[0]
+      type: email
+      label: Email
+      required: false
+      width: half
+    - name: atty_for
+      pdf_field_name: topmostSubform[0].Page1[0].p1Caption[0].AttyPartyInfo[0].AttyFor[0]
+      type: text
+      label: Atty For
+      required: false
+      width: full
+    - name: crt_county
+      pdf_field_name: topmostSubform[0].Page1[0].p1Caption[0].CourtInfo[0].CrtCounty[0]
+      type: number
+      label: Crt County
+      required: false
+      width: third
+    - name: crt_street
+      pdf_field_name: topmostSubform[0].Page1[0].p1Caption[0].CourtInfo[0].CrtStreet[0]
+      type: address
+      label: Crt Street
+      required: false
+      width: full
+    - name: crt_mailing_add
+      pdf_field_name: topmostSubform[0].Page1[0].p1Caption[0].CourtInfo[0].CrtMailingAdd[0]
+      type: address
+      label: Crt Mailing Add
+      required: false
+      width: full
+    - name: crt_city_zip
+      pdf_field_name: topmostSubform[0].Page1[0].p1Caption[0].CourtInfo[0].CrtCityZip[0]
+      type: address
+      label: Crt City Zip
+      required: false
+      width: full
+    - name: crt_branch
+      pdf_field_name: topmostSubform[0].Page1[0].p1Caption[0].CourtInfo[0].CrtBranch[0]
+      type: text
+      label: Crt Branch
+      required: false
+      width: full
+    - name: party1_ft
+      pdf_field_name: topmostSubform[0].Page1[0].p1Caption[0].TitlePartyName[0].Party1_ft[0]
+      type: text
+      label: Party1 Ft
+      required: false
+      width: full
+    - name: case_number
+      pdf_field_name: topmostSubform[0].Page1[0].p1Caption[0].CaseNumber[0].CaseNumber[0]
+      type: text
+      label: Case Number
+      required: false
+      width: full
+      shared_key: case:number
+  date_field:
+    title: Date Field
+    fields:
+    - name: date_field1
+      pdf_field_name: topmostSubform[0].Page1[0].DateField1[0]
+      type: date
+      label: Date Field
+      required: false
+      width: half
+    - name: date_field1_2
+      pdf_field_name: topmostSubform[0].Page1[0].DateField1[1]
+      type: date
+      label: Date Field
+      required: false
+      width: half
+    - name: date_field1_2
+      pdf_field_name: topmostSubform[0].Page1[0].DateField1[2]
+      type: date
+      label: Date Field
+      required: false
+      width: half
+  fill_text:
+    title: Fill Text
+    fields:
+    - name: fill_text1
+      pdf_field_name: topmostSubform[0].Page1[0].FillText1[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text1_2
+      pdf_field_name: topmostSubform[0].Page1[0].FillText1[1]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text1_2
+      pdf_field_name: topmostSubform[0].Page1[0].FillText1[2]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text1_2
+      pdf_field_name: topmostSubform[0].Page1[0].FillText1[3]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+  checkbox:
+    title: Checkbox
+    fields:
+    - name: checkbox
+      pdf_field_name: topmostSubform[0].Page1[0].Checkbox[0]
+      type: checkbox
+      label: Checkbox
+      required: false
+      width: full
+    - name: checkbox_2
+      pdf_field_name: topmostSubform[0].Page1[0].Checkbox[1]
+      type: checkbox
+      label: Checkbox
+      required: false
+      width: full
+  pet_atty_name:
+    title: Pet Atty Name
+    fields:
+    - name: pet_atty_name
+      pdf_field_name: topmostSubform[0].Page1[0].PetAttyName[0]
+      type: text
+      label: Pet Atty Name
+      required: false
+      width: full
+  petitioners_atty:
+    title: Petitioners Atty
+    fields:
+    - name: petitioners_atty
+      pdf_field_name: topmostSubform[0].Page1[0].PetitionersAtty[0]
+      type: text
+      label: Petitioners Atty
+      required: false
+      width: full
+  petitioner:
+    title: Petitioner
+    fields:
+    - name: petitioner
+      pdf_field_name: topmostSubform[0].Page1[0].petitioner[0]
+      type: text
+      label: Petitioner
+      required: false
+      width: full
+  mother_atty_name:
+    title: Mother Atty Name
+    fields:
+    - name: mother_atty_name
+      pdf_field_name: topmostSubform[0].Page1[0].MotherAttyName[0]
+      type: text
+      label: Mother Atty Name
+      required: false
+      width: full
+  mothers_atty:
+    title: Mothers Atty
+    fields:
+    - name: mothers_atty
+      pdf_field_name: topmostSubform[0].Page1[0].MothersAtty[0]
+      type: text
+      label: Mothers Atty
+      required: false
+      width: full
+  mother:
+    title: Mother
+    fields:
+    - name: mother
+      pdf_field_name: topmostSubform[0].Page1[0].Mother[0]
+      type: text
+      label: Mother
+      required: false
+      width: full
+  father_atty_name:
+    title: Father Atty Name
+    fields:
+    - name: father_atty_name
+      pdf_field_name: topmostSubform[0].Page1[0].FatherAttyName[0]
+      type: text
+      label: Father Atty Name
+      required: false
+      width: full
+  father_atty:
+    title: Father Atty
+    fields:
+    - name: father_atty
+      pdf_field_name: topmostSubform[0].Page1[0].FatherAtty[0]
+      type: text
+      label: Father Atty
+      required: false
+      width: full
+  father:
+    title: Father
+    fields:
+    - name: father
+      pdf_field_name: topmostSubform[0].Page1[0].Father[0]
+      type: text
+      label: Father
+      required: false
+      width: full
+  prob_ofcr_name:
+    title: Prob Ofcr Name
+    fields:
+    - name: prob_ofcr_name
+      pdf_field_name: topmostSubform[0].Page1[0].ProbOfcrName[0]
+      type: text
+      label: Prob Ofcr Name
+      required: false
+      width: full
+  prob_ofcr:
+    title: Prob Ofcr
+    fields:
+    - name: prob_ofcr
+      pdf_field_name: topmostSubform[0].Page1[0].ProbOfcr[0]
+      type: text
+      label: Prob Ofcr
+      required: false
+      width: full
+  other_name_rel:
+    title: Other Name Rel
+    fields:
+    - name: other_name_rel
+      pdf_field_name: topmostSubform[0].Page1[0].OtherNameRel[0]
+      type: text
+      label: Other Name Rel
+      required: false
+      width: full
+  other:
+    title: Other
+    fields:
+    - name: other
+      pdf_field_name: topmostSubform[0].Page1[0].Other[0]
+      type: text
+      label: Other
+      required: false
+      width: full
+  dist_atty_name:
+    title: Dist Atty Name
+    fields:
+    - name: dist_atty_name
+      pdf_field_name: topmostSubform[0].Page1[0].DistAttyName[0]
+      type: text
+      label: Dist Atty Name
+      required: false
+      width: full
+  dist_atty:
+    title: Dist Atty
+    fields:
+    - name: dist_atty
+      pdf_field_name: topmostSubform[0].Page1[0].DistAtty[0]
+      type: text
+      label: Dist Atty
+      required: false
+      width: full
+  cty_counsel_name:
+    title: Cty Counsel Name
+    fields:
+    - name: cty_counsel_name
+      pdf_field_name: topmostSubform[0].Page1[0].CtyCounselName[0]
+      type: text
+      label: Cty Counsel Name
+      required: false
+      width: full
+  cty_counsel:
+    title: Cty Counsel
+    fields:
+    - name: cty_counsel
+      pdf_field_name: topmostSubform[0].Page1[0].CtyCounsel[0]
+      type: text
+      label: Cty Counsel
+      required: false
+      width: full
+  soc_worker_name:
+    title: Soc Worker Name
+    fields:
+    - name: soc_worker_name
+      pdf_field_name: topmostSubform[0].Page1[0].SocWorkerName[0]
+      type: text
+      label: Soc Worker Name
+      required: false
+      width: full
+  soc_worker:
+    title: Soc Worker
+    fields:
+    - name: soc_worker
+      pdf_field_name: topmostSubform[0].Page1[0].SocWorker[0]
+      type: text
+      label: Soc Worker
+      required: false
+      width: full
+  notice_g_iven:
+    title: Notice G Iven
+    fields:
+    - name: notice_g_iven
+      pdf_field_name: topmostSubform[0].Page1[0].NoticeGIven[0]
+      type: text
+      label: Notice G Iven
+      required: false
+      width: full
+  warning_mother:
+    title: Warning Mother
+    fields:
+    - name: warning_mother
+      pdf_field_name: topmostSubform[0].Page1[0].WarningMother[0]
+      type: text
+      label: Warning Mother
+      required: false
+      width: full
+  warning_father:
+    title: Warning Father
+    fields:
+    - name: warning_father
+      pdf_field_name: topmostSubform[0].Page1[0].WarningFather[0]
+      type: text
+      label: Warning Father
+      required: false
+      width: full
+  t:
+    title: T
+    fields:
+    - name: t210
+      pdf_field_name: topmostSubform[0].Page1[0].T210[0]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t23
+      pdf_field_name: topmostSubform[0].Page1[0].T23[0]
+      type: checkbox
+      label: T
+      required: false
+      width: full
+  print_bt:
+    title: Print Bt
+    fields:
+    - name: print_bt
+      pdf_field_name: topmostSubform[0].Page1[0].Print_bt[0]
+      type: checkbox
+      label: Print Bt
+      required: false
+      width: full
+  save_bt:
+    title: Save Bt
+    fields:
+    - name: save_bt
+      pdf_field_name: topmostSubform[0].Page1[0].Save_bt[0]
+      type: checkbox
+      label: Save Bt
+      required: false
+      width: full
+  reset_bt:
+    title: Reset Bt
+    fields:
+    - name: reset_bt
+      pdf_field_name: topmostSubform[0].Page1[0].Reset_bt[0]
+      type: checkbox
+      label: Reset Bt
+      required: false
+      width: full

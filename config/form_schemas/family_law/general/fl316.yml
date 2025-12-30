@@ -1,0 +1,164 @@
+---
+form:
+  code: FL-316
+  title: FL 316 Form
+  description: ''
+  category: family_law/general
+  pdf_filename: fl316.pdf
+  fillable: true
+  instructions: ''
+sections:
+  general:
+    title: General
+    fields:
+    - name: privacy_notice_header
+      pdf_field_name: Privacy Notice header
+      type: text
+      label: Privacy Notice Header
+      required: false
+      width: full
+    - name: petitioner
+      pdf_field_name: petitioner
+      type: text
+      label: Petitioner
+      required: false
+      width: full
+    - name: choice1
+      pdf_field_name: 01.choice1
+      type: text
+      label: Choice
+      required: false
+      width: full
+    - name: choice2
+      pdf_field_name: 01.choice2
+      type: text
+      label: Choice
+      required: false
+      width: full
+    - name: c
+      pdf_field_name: 01.c
+      type: text
+      label: C
+      required: false
+      width: full
+    - name: f
+      pdf_field_name: 01.f
+      type: text
+      label: F
+      required: false
+      width: full
+    - name: e
+      pdf_field_name: 01.e
+      type: text
+      label: E
+      required: false
+      width: full
+    - name: respondent
+      pdf_field_name: respondent
+      type: text
+      label: Respondent
+      required: false
+      width: full
+    - name: '02_0'
+      pdf_field_name: '02.0'
+      type: text
+      label: '02'
+      required: false
+      width: full
+    - name: attach
+      pdf_field_name: 02.attach
+      type: text
+      label: Attach
+      required: false
+      width: full
+    - name: specify_2
+      pdf_field_name: 02.specify
+      type: text
+      label: Specify
+      required: false
+      width: full
+    - name: date
+      pdf_field_name: Date
+      type: date
+      label: Date
+      required: false
+      width: half
+    - name: casenumber
+      pdf_field_name: Casenumber
+      type: text
+      label: Casenumber
+      required: false
+      width: full
+      shared_key: case:number
+    - name: name
+      pdf_field_name: Name
+      type: text
+      label: Name
+      required: false
+      width: full
+  a:
+    title: A
+    fields:
+    - name: a
+      pdf_field_name: 01.a.1
+      type: text
+      label: A
+      required: false
+      width: full
+    - name: a_2
+      pdf_field_name: 01.a.2
+      type: text
+      label: A
+      required: false
+      width: full
+    - name: a_2
+      pdf_field_name: 01.a.0
+      type: text
+      label: A
+      required: false
+      width: full
+  b:
+    title: B
+    fields:
+    - name: choice
+      pdf_field_name: 01.b.choice
+      type: text
+      label: Choice
+      required: false
+      width: full
+    - name: b
+      pdf_field_name: 01.b.0
+      type: text
+      label: B
+      required: false
+      width: full
+  d:
+    title: D
+    fields:
+    - name: choice_2
+      pdf_field_name: 01.d.choice
+      type: text
+      label: Choice
+      required: false
+      width: full
+    - name: d
+      pdf_field_name: 01.d.0
+      type: text
+      label: D
+      required: false
+      width: full
+  g:
+    title: G
+    fields:
+    - name: g
+      pdf_field_name: 01.g.0
+      type: text
+      label: G
+      required: false
+      width: full
+    - name: specify
+      pdf_field_name: 01.g.specify
+      type: text
+      label: Specify
+      required: false
+      width: full

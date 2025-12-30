@@ -1,0 +1,639 @@
+---
+form:
+  code: JV-214A
+  title: JV 214A Form
+  description: ''
+  category: juvenile/general
+  pdf_filename: jv214a.pdf
+  fillable: true
+  instructions: ''
+sections:
+  date1a_ff:
+    title: Date1a Ff
+    fields:
+    - name: date1a_ff
+      pdf_field_name: topmostSubform[0].Page1[0].date1a_ff[0]
+      type: date
+      label: Date1a Ff
+      required: false
+      width: half
+  time1a_ff:
+    title: Time1a Ff
+    fields:
+    - name: time1a_ff
+      pdf_field_name: topmostSubform[0].Page1[0].time1a_ff[0]
+      type: text
+      label: Time1a Ff
+      required: false
+      width: full
+  dept1a_ff:
+    title: Dept1a Ff
+    fields:
+    - name: dept1a_ff
+      pdf_field_name: topmostSubform[0].Page1[0].dept1a_ff[0]
+      type: text
+      label: Dept1a Ff
+      required: false
+      width: full
+  div1a_ff:
+    title: Div1a Ff
+    fields:
+    - name: div1a_ff
+      pdf_field_name: topmostSubform[0].Page1[0].div1a_ff[0]
+      type: text
+      label: Div1a Ff
+      required: false
+      width: full
+  room1a_ff:
+    title: Room1a Ff
+    fields:
+    - name: room1a_ff
+      pdf_field_name: topmostSubform[0].Page1[0].room1a_ff[0]
+      type: text
+      label: Room1a Ff
+      required: false
+      width: full
+  address1b_ff:
+    title: Address1b Ff
+    fields:
+    - name: address1b_ff
+      pdf_field_name: topmostSubform[0].Page1[0].address1b_ff[0]
+      type: address
+      label: Address1b Ff
+      required: false
+      width: full
+  datefield:
+    title: Datefield
+    fields:
+    - name: datefield
+      pdf_field_name: topmostSubform[0].Page1[0].datefield[0]
+      type: date
+      label: Datefield
+      required: false
+      width: half
+  field_name1_cb:
+    title: Field Name1 Cb
+    fields:
+    - name: field_name1_cb
+      pdf_field_name: topmostSubform[0].Page1[0].FieldName1_cb[0]
+      type: text
+      label: Field Name1 Cb
+      required: false
+      width: full
+  text_field:
+    title: Text Field
+    fields:
+    - name: text_field1
+      pdf_field_name: topmostSubform[0].Page1[0].TextField1[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+  item2_cb:
+    title: Item2 Cb
+    fields:
+    - name: item2_cb
+      pdf_field_name: topmostSubform[0].Page1[0].item2_cb[0]
+      type: text
+      label: Item2 Cb
+      required: false
+      width: full
+  item2a_cb:
+    title: Item2a Cb
+    fields:
+    - name: item2a_cb
+      pdf_field_name: topmostSubform[0].Page1[0].item2a_cb[0]
+      type: text
+      label: Item2a Cb
+      required: false
+      width: full
+  item2b_cb:
+    title: Item2b Cb
+    fields:
+    - name: item2b_cb
+      pdf_field_name: topmostSubform[0].Page1[0].item2b_cb[0]
+      type: text
+      label: Item2b Cb
+      required: false
+      width: full
+  item2c_cb:
+    title: Item2c Cb
+    fields:
+    - name: item2c_cb
+      pdf_field_name: topmostSubform[0].Page1[0].item2c_cb[0]
+      type: text
+      label: Item2c Cb
+      required: false
+      width: full
+  item2d_cb:
+    title: Item2d Cb
+    fields:
+    - name: item2d_cb
+      pdf_field_name: topmostSubform[0].Page1[0].item2d_cb[0]
+      type: text
+      label: Item2d Cb
+      required: false
+      width: full
+  text_field2d:
+    title: Text Field2d
+    fields:
+    - name: text_field2d
+      pdf_field_name: topmostSubform[0].Page1[0].TextField2d[0]
+      type: text
+      label: Text Field2d
+      required: false
+      width: full
+  item3asw_cb:
+    title: Item3asw Cb
+    fields:
+    - name: item3asw_cb
+      pdf_field_name: topmostSubform[0].Page1[0].item3asw_cb[0]
+      type: text
+      label: Item3asw Cb
+      required: false
+      width: full
+  item3apo_cb:
+    title: Item3apo Cb
+    fields:
+    - name: item3apo_cb
+      pdf_field_name: topmostSubform[0].Page1[0].item3apo_cb[0]
+      type: text
+      label: Item3apo Cb
+      required: false
+      width: full
+  text_field3a_tf:
+    title: Text Field3a Tf
+    fields:
+    - name: text_field3a_tf
+      pdf_field_name: topmostSubform[0].Page1[0].TextField3a_tf[0]
+      type: text
+      label: Text Field3a Tf
+      required: false
+      width: full
+  item3aatty_cb:
+    title: Item3aatty Cb
+    fields:
+    - name: item3aatty_cb
+      pdf_field_name: topmostSubform[0].Page1[0].item3aatty_cb[0]
+      type: text
+      label: Item3aatty Cb
+      required: false
+      width: full
+  text_field3aatty_tf:
+    title: Text Field3aatty Tf
+    fields:
+    - name: text_field3aatty_tf
+      pdf_field_name: topmostSubform[0].Page1[0].TextField3aatty_tf[0]
+      type: text
+      label: Text Field3aatty Tf
+      required: false
+      width: full
+  item3bmo_cb:
+    title: Item3bmo Cb
+    fields:
+    - name: item3bmo_cb
+      pdf_field_name: topmostSubform[0].Page1[0].item3bmo_cb[0]
+      type: text
+      label: Item3bmo Cb
+      required: false
+      width: full
+  item3bfa_cb:
+    title: Item3bfa Cb
+    fields:
+    - name: item3bfa_cb
+      pdf_field_name: topmostSubform[0].Page1[0].item3bfa_cb[0]
+      type: text
+      label: Item3bfa Cb
+      required: false
+      width: full
+  text_field3b_tf:
+    title: Text Field3b Tf
+    fields:
+    - name: text_field3b_tf
+      pdf_field_name: topmostSubform[0].Page1[0].TextField3b_tf[0]
+      type: text
+      label: Text Field3b Tf
+      required: false
+      width: full
+  item3batty_cb:
+    title: Item3batty Cb
+    fields:
+    - name: item3batty_cb
+      pdf_field_name: topmostSubform[0].Page1[0].item3batty_cb[0]
+      type: text
+      label: Item3batty Cb
+      required: false
+      width: full
+  text_field3batty_tf:
+    title: Text Field3batty Tf
+    fields:
+    - name: text_field3batty_tf
+      pdf_field_name: topmostSubform[0].Page1[0].TextField3batty_tf[0]
+      type: text
+      label: Text Field3batty Tf
+      required: false
+      width: full
+  item3blg_cb:
+    title: Item3blg Cb
+    fields:
+    - name: item3blg_cb
+      pdf_field_name: topmostSubform[0].Page1[0].item3blg_cb[0]
+      type: text
+      label: Item3blg Cb
+      required: false
+      width: full
+  item3cmo_cb:
+    title: Item3cmo Cb
+    fields:
+    - name: item3cmo_cb
+      pdf_field_name: topmostSubform[0].Page1[0].item3cmo_cb[0]
+      type: text
+      label: Item3cmo Cb
+      required: false
+      width: full
+  item3cfa_cb:
+    title: Item3cfa Cb
+    fields:
+    - name: item3cfa_cb
+      pdf_field_name: topmostSubform[0].Page1[0].item3cfa_cb[0]
+      type: text
+      label: Item3cfa Cb
+      required: false
+      width: full
+  text_field3c_tf:
+    title: Text Field3c Tf
+    fields:
+    - name: text_field3c_tf
+      pdf_field_name: topmostSubform[0].Page1[0].TextField3c_tf[0]
+      type: text
+      label: Text Field3c Tf
+      required: false
+      width: full
+  item3catty_cb:
+    title: Item3catty Cb
+    fields:
+    - name: item3catty_cb
+      pdf_field_name: topmostSubform[0].Page1[0].item3catty_cb[0]
+      type: text
+      label: Item3catty Cb
+      required: false
+      width: full
+  text_field3catty_tf:
+    title: Text Field3catty Tf
+    fields:
+    - name: text_field3catty_tf
+      pdf_field_name: topmostSubform[0].Page1[0].TextField3catty_tf[0]
+      type: text
+      label: Text Field3catty Tf
+      required: false
+      width: full
+  item3clg_cb:
+    title: Item3clg Cb
+    fields:
+    - name: item3clg_cb
+      pdf_field_name: topmostSubform[0].Page1[0].item3clg_cb[0]
+      type: text
+      label: Item3clg Cb
+      required: false
+      width: full
+  right_caption:
+    title: Right Caption
+    fields:
+    - name: court_info_ft
+      pdf_field_name: topmostSubform[0].Page1[0].RightCaption[0].CourtInfo_ft[0]
+      type: text
+      label: Court Info Ft
+      required: false
+      width: full
+    - name: case_number_ft
+      pdf_field_name: topmostSubform[0].Page1[0].RightCaption[0].CaseNumber_ft[0]
+      type: text
+      label: Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+    - name: child_name_ft
+      pdf_field_name: topmostSubform[0].Page1[0].RightCaption[0].ChildName_ft[0]
+      type: text
+      label: Child Name Ft
+      required: false
+      width: full
+    - name: child_dob_dt
+      pdf_field_name: topmostSubform[0].Page1[0].RightCaption[0].ChildDOB_dt[0]
+      type: text
+      label: Child Dob Dt
+      required: false
+      width: full
+  item3dmo_cb:
+    title: Item3dmo Cb
+    fields:
+    - name: item3dmo_cb
+      pdf_field_name: topmostSubform[0].#subform[1].item3dmo_cb[0]
+      type: text
+      label: Item3dmo Cb
+      required: false
+      width: full
+  item3dfa_cb:
+    title: Item3dfa Cb
+    fields:
+    - name: item3dfa_cb
+      pdf_field_name: topmostSubform[0].#subform[1].item3dfa_cb[0]
+      type: text
+      label: Item3dfa Cb
+      required: false
+      width: full
+  text_field3d_tf:
+    title: Text Field3d Tf
+    fields:
+    - name: text_field3d_tf
+      pdf_field_name: topmostSubform[0].#subform[1].TextField3d_tf[0]
+      type: text
+      label: Text Field3d Tf
+      required: false
+      width: full
+  item3datty_cb:
+    title: Item3datty Cb
+    fields:
+    - name: item3datty_cb
+      pdf_field_name: topmostSubform[0].#subform[1].item3datty_cb[0]
+      type: text
+      label: Item3datty Cb
+      required: false
+      width: full
+  text_field3datty_tf:
+    title: Text Field3datty Tf
+    fields:
+    - name: text_field3datty_tf
+      pdf_field_name: topmostSubform[0].#subform[1].TextField3datty_tf[0]
+      type: text
+      label: Text Field3datty Tf
+      required: false
+      width: full
+  item3dlg_cb:
+    title: Item3dlg Cb
+    fields:
+    - name: item3dlg_cb
+      pdf_field_name: topmostSubform[0].#subform[1].item3dlg_cb[0]
+      type: text
+      label: Item3dlg Cb
+      required: false
+      width: full
+  item3e_cb:
+    title: Item3e Cb
+    fields:
+    - name: item3e_cb
+      pdf_field_name: topmostSubform[0].#subform[1].item3e_cb[0]
+      type: text
+      label: Item3e Cb
+      required: false
+      width: full
+  text_field3e_tf:
+    title: Text Field3e Tf
+    fields:
+    - name: text_field3e_tf
+      pdf_field_name: topmostSubform[0].#subform[1].TextField3e_tf[0]
+      type: text
+      label: Text Field3e Tf
+      required: false
+      width: full
+  item3eatty_cb:
+    title: Item3eatty Cb
+    fields:
+    - name: item3eatty_cb
+      pdf_field_name: topmostSubform[0].#subform[1].item3eatty_cb[0]
+      type: text
+      label: Item3eatty Cb
+      required: false
+      width: full
+  text_field3eatty_tf:
+    title: Text Field3eatty Tf
+    fields:
+    - name: text_field3eatty_tf
+      pdf_field_name: topmostSubform[0].#subform[1].TextField3eatty_tf[0]
+      type: text
+      label: Text Field3eatty Tf
+      required: false
+      width: full
+  item3f_cb:
+    title: Item3f Cb
+    fields:
+    - name: item3f_cb
+      pdf_field_name: topmostSubform[0].#subform[1].item3f_cb[0]
+      type: text
+      label: Item3f Cb
+      required: false
+      width: full
+  text_field3f_tf:
+    title: Text Field3f Tf
+    fields:
+    - name: text_field3f_tf
+      pdf_field_name: topmostSubform[0].#subform[1].TextField3f_tf[0]
+      type: text
+      label: Text Field3f Tf
+      required: false
+      width: full
+  item3fatty_cb:
+    title: Item3fatty Cb
+    fields:
+    - name: item3fatty_cb
+      pdf_field_name: topmostSubform[0].#subform[1].item3fatty_cb[0]
+      type: text
+      label: Item3fatty Cb
+      required: false
+      width: full
+  text_field3fatty_tf:
+    title: Text Field3fatty Tf
+    fields:
+    - name: text_field3fatty_tf
+      pdf_field_name: topmostSubform[0].#subform[1].TextField3fatty_tf[0]
+      type: text
+      label: Text Field3fatty Tf
+      required: false
+      width: full
+  item3g_cb:
+    title: Item3g Cb
+    fields:
+    - name: item3g_cb
+      pdf_field_name: topmostSubform[0].#subform[1].item3g_cb[0]
+      type: text
+      label: Item3g Cb
+      required: false
+      width: full
+  text_field3g_tf:
+    title: Text Field3g Tf
+    fields:
+    - name: text_field3g_tf
+      pdf_field_name: topmostSubform[0].#subform[1].TextField3g_tf[0]
+      type: text
+      label: Text Field3g Tf
+      required: false
+      width: full
+  item3i_cb:
+    title: Item3i Cb
+    fields:
+    - name: item3i_cb
+      pdf_field_name: topmostSubform[0].#subform[1].item3i_cb[0]
+      type: text
+      label: Item3i Cb
+      required: false
+      width: full
+  text_field3i_tf:
+    title: Text Field3i Tf
+    fields:
+    - name: text_field3i_tf
+      pdf_field_name: topmostSubform[0].#subform[1].TextField3i_tf[0]
+      type: text
+      label: Text Field3i Tf
+      required: false
+      width: full
+  item3j_cb:
+    title: Item3j Cb
+    fields:
+    - name: item3j_cb
+      pdf_field_name: topmostSubform[0].#subform[1].item3j_cb[0]
+      type: text
+      label: Item3j Cb
+      required: false
+      width: full
+  text_field3j_tf:
+    title: Text Field3j Tf
+    fields:
+    - name: text_field3j_tf
+      pdf_field_name: topmostSubform[0].#subform[1].TextField3j_tf[0]
+      type: text
+      label: Text Field3j Tf
+      required: false
+      width: full
+  item3k_cb:
+    title: Item3k Cb
+    fields:
+    - name: item3k_cb
+      pdf_field_name: topmostSubform[0].#subform[1].item3k_cb[0]
+      type: text
+      label: Item3k Cb
+      required: false
+      width: full
+  text_field3k_tf:
+    title: Text Field3k Tf
+    fields:
+    - name: text_field3k_tf
+      pdf_field_name: topmostSubform[0].#subform[1].TextField3k_tf[0]
+      type: text
+      label: Text Field3k Tf
+      required: false
+      width: full
+  item3l_cb:
+    title: Item3l Cb
+    fields:
+    - name: item3l_cb
+      pdf_field_name: topmostSubform[0].#subform[1].#area[0].item3l_cb[0]
+      type: text
+      label: Item3l Cb
+      required: false
+      width: full
+  text_field3lother_tf:
+    title: Text Field3lother Tf
+    fields:
+    - name: text_field3lother_tf
+      pdf_field_name: topmostSubform[0].#subform[1].#area[0].TextField3lother_tf[0]
+      type: text
+      label: Text Field3lother Tf
+      required: false
+      width: full
+  text_field3l_tf:
+    title: Text Field3l Tf
+    fields:
+    - name: text_field3l_tf
+      pdf_field_name: topmostSubform[0].#subform[1].TextField3l_tf[0]
+      type: text
+      label: Text Field3l Tf
+      required: false
+      width: full
+  item3h_cb:
+    title: Item3h Cb
+    fields:
+    - name: item3h_cb
+      pdf_field_name: topmostSubform[0].#subform[1].item3h_cb[0]
+      type: text
+      label: Item3h Cb
+      required: false
+      width: full
+  text_field3h_tf:
+    title: Text Field3h Tf
+    fields:
+    - name: text_field3h_tf
+      pdf_field_name: topmostSubform[0].#subform[1].TextField3h_tf[0]
+      type: text
+      label: Text Field3h Tf
+      required: false
+      width: full
+  px_caption:
+    title: Px Caption
+    fields:
+    - name: case_number_ft_2
+      pdf_field_name: topmostSubform[0].#subform[1].PxCaption[0].CaseNumber_ft[0]
+      type: text
+      label: Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+    - name: child_name_ft_2
+      pdf_field_name: topmostSubform[0].#subform[1].PxCaption[0].ChildName_ft[0]
+      type: text
+      label: Child Name Ft
+      required: false
+      width: full
+  party_signature_dt:
+    title: Party Signature Dt
+    fields:
+    - name: party_signature_dt
+      pdf_field_name: topmostSubform[0].#subform[1].PartySignature_dt[0]
+      type: signature
+      label: Party Signature Dt
+      required: false
+      width: full
+  party_name_ft:
+    title: Party Name Ft
+    fields:
+    - name: party_name_ft
+      pdf_field_name: topmostSubform[0].#subform[1].PartyName_ft[0]
+      type: text
+      label: Party Name Ft
+      required: false
+      width: full
+  print_bt:
+    title: Print Bt
+    fields:
+    - name: print_bt
+      pdf_field_name: topmostSubform[0].#subform[1].Print_bt[0]
+      type: checkbox
+      label: Print Bt
+      required: false
+      width: full
+  save_bt:
+    title: Save Bt
+    fields:
+    - name: save_bt
+      pdf_field_name: topmostSubform[0].#subform[1].Save_bt[0]
+      type: checkbox
+      label: Save Bt
+      required: false
+      width: full
+  reset_bt:
+    title: Reset Bt
+    fields:
+    - name: reset_bt
+      pdf_field_name: topmostSubform[0].#subform[1].Reset_bt[0]
+      type: checkbox
+      label: Reset Bt
+      required: false
+      width: full
+  t:
+    title: T
+    fields:
+    - name: t23
+      pdf_field_name: topmostSubform[0].#subform[1].T23[0]
+      type: checkbox
+      label: T
+      required: false
+      width: full

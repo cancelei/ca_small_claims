@@ -1,0 +1,118 @@
+---
+form:
+  code: GC-313
+  title: GC 313 Form
+  description: ''
+  category: guardianship/general
+  pdf_filename: gc313.pdf
+  fillable: true
+  instructions: ''
+sections:
+  rb2_choices:
+    title: Rb2 Choices
+    fields:
+    - name: rb2choices
+      pdf_field_name: GC-313[0].Page1[0].RB2Choices[0]
+      type: text
+      label: Rb2 Choices
+      required: false
+      width: full
+    - name: rb2choices_2
+      pdf_field_name: GC-313[0].Page1[0].RB2Choices[1]
+      type: text
+      label: Rb2 Choices
+      required: false
+      width: full
+    - name: rb2choices_2
+      pdf_field_name: GC-313[0].Page1[0].RB2Choices[2]
+      type: text
+      label: Rb2 Choices
+      required: false
+      width: full
+    - name: rb2choices_2
+      pdf_field_name: GC-313[0].Page1[0].RB2Choices[3]
+      type: text
+      label: Rb2 Choices
+      required: false
+      width: full
+  fill_cb:
+    title: Fill Cb
+    fields:
+    - name: fill_cb
+      pdf_field_name: GC-313[0].Page1[0].fill_cb[0]
+      type: text
+      label: Fill Cb
+      required: false
+      width: full
+    - name: fill_cb_2
+      pdf_field_name: GC-313[0].Page1[0].fill_cb[1]
+      type: text
+      label: Fill Cb
+      required: false
+      width: full
+  px_caption:
+    title: Px Caption
+    fields:
+    - name: party1
+      pdf_field_name: GC-313[0].Page1[0].PxCaption[0].TitlePartyName[0].Party1[0]
+      type: text
+      label: Party
+      required: false
+      width: full
+    - name: case_number
+      pdf_field_name: GC-313[0].Page1[0].PxCaption[0].CaseNumber[0].CaseNumber[0]
+      type: text
+      label: Case Number
+      required: false
+      width: full
+      shared_key: case:number
+    - name: cap_cb
+      pdf_field_name: GC-313[0].Page1[0].PxCaption[0].CaseNumber[0].Cap_cb[0]
+      type: text
+      label: Cap Cb
+      required: false
+      width: full
+      shared_key: case:number
+    - name: cap
+      pdf_field_name: GC-313[0].Page1[0].PxCaption[0].CaseNumber[0].Cap[0]
+      type: text
+      label: Cap
+      required: false
+      width: full
+      shared_key: case:number
+  print:
+    title: Print
+    fields:
+    - name: print
+      pdf_field_name: GC-313[0].Page1[0].#area[0].Print[0]
+      type: checkbox
+      label: Print
+      required: false
+      width: full
+  save:
+    title: Save
+    fields:
+    - name: save
+      pdf_field_name: GC-313[0].Page1[0].#area[0].Save[0]
+      type: checkbox
+      label: Save
+      required: false
+      width: full
+  reset:
+    title: Reset
+    fields:
+    - name: reset
+      pdf_field_name: GC-313[0].Page1[0].#area[0].Reset[0]
+      type: checkbox
+      label: Reset
+      required: false
+      width: full
+  warning:
+    title: Warning
+    fields:
+    - name: warning
+      pdf_field_name: GC-313[0].Page1[0].#area[0].Warning[0]
+      type: checkbox
+      label: Warning
+      required: false
+      width: full

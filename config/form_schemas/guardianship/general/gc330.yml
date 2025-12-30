@@ -1,0 +1,300 @@
+---
+form:
+  code: GC-330
+  title: GC 330 Form
+  description: ''
+  category: guardianship/general
+  pdf_filename: gc330.pdf
+  fillable: true
+  instructions: ''
+sections:
+  p1_header_sf:
+    title: P1 Header Sf
+    fields:
+    - name: crt_county_ft
+      pdf_field_name: GC-330[0].Page1[0].P1Header_sf[0].#subform[2].CourtInfo[0].CrtCounty_ft[0]
+      type: number
+      label: Crt County Ft
+      required: false
+      width: third
+    - name: street_ft
+      pdf_field_name: GC-330[0].Page1[0].P1Header_sf[0].#subform[2].CourtInfo[0].Street_ft[0]
+      type: address
+      label: Street Ft
+      required: false
+      width: full
+    - name: mailing_add_ft
+      pdf_field_name: GC-330[0].Page1[0].P1Header_sf[0].#subform[2].CourtInfo[0].MailingAdd_ft[0]
+      type: address
+      label: Mailing Add Ft
+      required: false
+      width: full
+    - name: city_zip_ft
+      pdf_field_name: GC-330[0].Page1[0].P1Header_sf[0].#subform[2].CourtInfo[0].CityZip_ft[0]
+      type: address
+      label: City Zip Ft
+      required: false
+      width: full
+    - name: branch_ft
+      pdf_field_name: GC-330[0].Page1[0].P1Header_sf[0].#subform[2].CourtInfo[0].Branch_ft[0]
+      type: text
+      label: Branch Ft
+      required: false
+      width: full
+    - name: party1_ft
+      pdf_field_name: GC-330[0].Page1[0].P1Header_sf[0].#subform[6].TitlePartyName[0].Party1_ft[0]
+      type: text
+      label: Party1 Ft
+      required: false
+      width: full
+    - name: title_person_cb
+      pdf_field_name: GC-330[0].Page1[0].P1Header_sf[0].#subform[6].TitlePartyName[0].TitlePerson_cb[0]
+      type: text
+      label: Title Person Cb
+      required: false
+      width: full
+    - name: title_estate_cb
+      pdf_field_name: GC-330[0].Page1[0].P1Header_sf[0].#subform[6].TitlePartyName[0].TitleEstate_cb[0]
+      type: address
+      label: Title Estate Cb
+      required: false
+      width: full
+    - name: conservatee_cb
+      pdf_field_name: GC-330[0].Page1[0].P1Header_sf[0].#subform[6].TitlePartyName[0].ConPropCon[0].Conservatee_cb[0]
+      type: text
+      label: Conservatee Cb
+      required: false
+      width: full
+    - name: prop_conservatee_cb
+      pdf_field_name: GC-330[0].Page1[0].P1Header_sf[0].#subform[6].TitlePartyName[0].ConPropCon[0].PropConservatee_cb[0]
+      type: text
+      label: Prop Conservatee Cb
+      required: false
+      width: full
+    - name: cons_cb
+      pdf_field_name: GC-330[0].Page1[0].P1Header_sf[0].#subform[8].FormTitle_sf[0].CorLC[0].Cons_cb[0]
+      type: text
+      label: Cons Cb
+      required: false
+      width: full
+    - name: ltd_c_cb
+      pdf_field_name: GC-330[0].Page1[0].P1Header_sf[0].#subform[8].FormTitle_sf[0].CorLC[0].LtdC_cb[0]
+      type: text
+      label: Ltd C Cb
+      required: false
+      width: full
+    - name: case_number_ft
+      pdf_field_name: GC-330[0].Page1[0].P1Header_sf[0].#subform[10].CaseNumber[0].CaseNumber_ft[0]
+      type: text
+      label: Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+  intro_nm_ord:
+    title: Intro Nm Ord
+    fields:
+    - name: ci_name_ft
+      pdf_field_name: GC-330[0].Page1[0].IntroNmOrd[0].CIName_ft[0]
+      type: text
+      label: Ci Name Ft
+      required: false
+      width: full
+  item:
+    title: Item
+    fields:
+    - name: gc_310_cb
+      pdf_field_name: GC-330[0].Page1[0].Item1[0].Item1Hdr[0].GC-310_cb[0]
+      type: text
+      label: Gc 310 Cb
+      required: false
+      width: full
+    - name: int1826a1_cb
+      pdf_field_name: GC-330[0].Page1[0].Item1[0].Item1b[0].Int1826a1_cb[0]
+      type: text
+      label: Int1826a1 Cb
+      required: false
+      width: full
+    - name: med_rpts_cb
+      pdf_field_name: GC-330[0].Page1[0].Item1[0].Item1g[0].MedRpts_cb[0]
+      type: text
+      label: Med Rpts Cb
+      required: false
+      width: full
+    - name: except_att1i1_cb
+      pdf_field_name: GC-330[0].Page1[0].Item1[0].ExceptAtt1i1_cb[0]
+      type: text
+      label: Except Att1i1 Cb
+      required: false
+      width: full
+    - name: and_att1i2
+      pdf_field_name: GC-330[0].Page1[0].Item1[0].AndAtt1i2[0]
+      type: text
+      label: And Att1i
+      required: false
+      width: full
+    - name: other_att1j_cb
+      pdf_field_name: GC-330[0].Page1[0].Item1[0].OtherAtt1j_cb[0]
+      type: text
+      label: Other Att1j Cb
+      required: false
+      width: full
+    - name: gc_111_cb
+      pdf_field_name: GC-330[0].Page2[0].Item2[0].Item2Hdr[0].GC-111_cb[0]
+      type: text
+      label: Gc 111 Cb
+      required: false
+      width: full
+    - name: interviews2a_cb
+      pdf_field_name: GC-330[0].Page2[0].Item2[0].Interviews2a[0].Interviews2a_cb[0]
+      type: text
+      label: Interviews2a Cb
+      required: false
+      width: full
+    - name: info2b_cb
+      pdf_field_name: GC-330[0].Page2[0].Item2[0].Info2b[0].Info2b_cb[0]
+      type: text
+      label: Info2b Cb
+      required: false
+      width: full
+    - name: determs2c_cb
+      pdf_field_name: GC-330[0].Page2[0].Item2[0].Determs2c[0].Determs2c_cb[0]
+      type: text
+      label: Determs2c Cb
+      required: false
+      width: full
+    - name: report2d_cb
+      pdf_field_name: GC-330[0].Page2[0].Item2[0].Report2d[0].Report2d_cb[0]
+      type: text
+      label: Report2d Cb
+      required: false
+      width: full
+    - name: rpt_obj_aft_cb
+      pdf_field_name: GC-330[0].Page2[0].Item2[0].RptObjAftHrg2e[0].RptObjAft_cb[0]
+      type: text
+      label: Rpt Obj Aft Cb
+      required: false
+      width: full
+    - name: t_con_inapprop_cb
+      pdf_field_name: GC-330[0].Page2[0].Item2[0].TConInapprop2f[0].TConInapprop_cb[0]
+      type: text
+      label: T Con Inapprop Cb
+      required: false
+      width: full
+    - name: t_con_move2253_cb
+      pdf_field_name: GC-330[0].Page2[0].Item3[0].Item3Hdr[0].TConMove2253_cb[0]
+      type: text
+      label: T Con Move2253 Cb
+      required: false
+      width: full
+    - name: med_rpts3c_cb
+      pdf_field_name: GC-330[0].Page2[0].Item3[0].Item3c[0].MedRpts3c_cb[0]
+      type: text
+      label: Med Rpts3c Cb
+      required: false
+      width: full
+    - name: other_orders3e_cb
+      pdf_field_name: GC-330[0].Page2[0].Item3[0].Item3e[0].OtherOrders3e_cb[0]
+      type: text
+      label: Other Orders3e Cb
+      required: false
+      width: full
+    - name: excl_med_auth_cb
+      pdf_field_name: GC-330[0].Page2[0].Item4[0].Item4Hdr[0].ExclMedAuth_cb[0]
+      type: text
+      label: Excl Med Auth Cb
+      required: false
+      width: full
+    - name: other_orders4d_cb
+      pdf_field_name: GC-330[0].Page2[0].Item4[0].Item4d[0].OtherOrders4d_cb[0]
+      type: text
+      label: Other Orders4d Cb
+      required: false
+      width: full
+    - name: pp_att_cb
+      pdf_field_name: GC-330[0].Page2[0].Item5[0].PPAtt_cb[0]
+      type: text
+      label: Pp Att Cb
+      required: false
+      width: full
+  footer_sub:
+    title: Footer Sub
+    fields:
+    - name: print
+      pdf_field_name: GC-330[0].#pageSet[0].Page2[0].FooterSub[0].FooterButtons[0].Print[0]
+      type: checkbox
+      label: Print
+      required: false
+      width: full
+    - name: save
+      pdf_field_name: GC-330[0].#pageSet[0].Page2[0].FooterSub[0].FooterButtons[0].Save[0]
+      type: checkbox
+      label: Save
+      required: false
+      width: full
+    - name: reset
+      pdf_field_name: GC-330[0].#pageSet[0].Page2[0].FooterSub[0].FooterButtons[0].Reset[0]
+      type: checkbox
+      label: Reset
+      required: false
+      width: full
+    - name: warning
+      pdf_field_name: GC-330[0].#pageSet[0].Page2[0].FooterSub[0].FooterButtons[0].Warning[0]
+      type: checkbox
+      label: Warning
+      required: false
+      width: full
+  p2_header_sf:
+    title: P2 Header Sf
+    fields:
+    - name: party1_ft_2
+      pdf_field_name: GC-330[0].Page2[0].P2Header_sf[0].#subform[0].TitlePartyName[0].Party1_ft[0]
+      type: text
+      label: Party1 Ft
+      required: false
+      width: full
+    - name: title_person_cb_2
+      pdf_field_name: GC-330[0].Page2[0].P2Header_sf[0].#subform[0].TitlePartyName[0].TitlePerson_cb[0]
+      type: text
+      label: Title Person Cb
+      required: false
+      width: full
+    - name: title_estate_cb_2
+      pdf_field_name: GC-330[0].Page2[0].P2Header_sf[0].#subform[0].TitlePartyName[0].TitleEstate_cb[0]
+      type: address
+      label: Title Estate Cb
+      required: false
+      width: full
+    - name: conservatee_cb_2
+      pdf_field_name: GC-330[0].Page2[0].P2Header_sf[0].#subform[0].TitlePartyName[0].ConPropCon[0].Conservatee_cb[0]
+      type: text
+      label: Conservatee Cb
+      required: false
+      width: full
+    - name: prop_conservatee_cb_2
+      pdf_field_name: GC-330[0].Page2[0].P2Header_sf[0].#subform[0].TitlePartyName[0].ConPropCon[0].PropConservatee_cb[0]
+      type: text
+      label: Prop Conservatee Cb
+      required: false
+      width: full
+    - name: case_number_ft_2
+      pdf_field_name: GC-330[0].Page2[0].P2Header_sf[0].#subform[2].CaseNumber[0].CaseNumber_ft[0]
+      type: text
+      label: Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+  sig_block_jo:
+    title: Sig Block Jo
+    fields:
+    - name: sig_date_ft
+      pdf_field_name: GC-330[0].Page2[0].SigBlockJO[0].SigDate_ft[0]
+      type: date
+      label: Sig Date Ft
+      required: false
+      width: half
+    - name: sig_lst_att_cb
+      pdf_field_name: GC-330[0].Page2[0].SigBlockJO[0].SigLstAtt_cb[0]
+      type: text
+      label: Sig Lst Att Cb
+      required: false
+      width: full

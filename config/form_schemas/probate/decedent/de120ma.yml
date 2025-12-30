@@ -1,0 +1,380 @@
+---
+form:
+  code: DE-120MA
+  title: DE 120MA Form
+  description: ''
+  category: probate/decedent
+  pdf_filename: de120ma.pdf
+  fillable: true
+  instructions: ''
+sections:
+  px_caption_probate:
+    title: Px Caption Probate
+    fields:
+    - name: case_number_ft
+      pdf_field_name: DE-120MA[0].Page1[0].#area[0].PxCaptionProbate[0].TitleCaseNo_sf[0].CaseNumber_ft[0]
+      type: text
+      label: Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+    - name: checkbox
+      pdf_field_name: DE-120MA[0].Page1[0].#area[0].PxCaptionProbate[0].TitleCaseNo_sf[0].Checkbox[0]
+      type: checkbox
+      label: Checkbox
+      required: false
+      width: full
+    - name: checkbox_2
+      pdf_field_name: DE-120MA[0].Page1[0].#area[0].PxCaptionProbate[0].TitleCaseNo_sf[0].Checkbox[1]
+      type: checkbox
+      label: Checkbox
+      required: false
+      width: full
+    - name: checkbox_2
+      pdf_field_name: DE-120MA[0].Page1[0].#area[0].PxCaptionProbate[0].TitleCaseNo_sf[0].Checkbox[2]
+      type: checkbox
+      label: Checkbox
+      required: false
+      width: full
+    - name: checkbox_2
+      pdf_field_name: DE-120MA[0].Page1[0].#area[0].PxCaptionProbate[0].TitleCaseNo_sf[0].Checkbox[3]
+      type: checkbox
+      label: Checkbox
+      required: false
+      width: full
+    - name: '1'
+      pdf_field_name: DE-120MA[0].Page1[0].#area[0].PxCaptionProbate[0].TitleCaseNo_sf[0].TEXT\.0\.2\.1\.0\.2\.1\.4\.2\.0\.1\.1\.1\.0\.1\.1\.0\.0\.1\.2\.1\.1\.7\.9\.1\.1\.1\.1\.3\.1\.3\.1\.6\.1\.10[0]
+      type: text
+      label: 1\
+      required: false
+      width: full
+  receipt_date:
+    title: Receipt Date
+    fields:
+    - name: receipt_date
+      pdf_field_name: DE-120MA[0].Page1[0].ReceiptDate[0]
+      type: date
+      label: Receipt Date
+      required: false
+      width: half
+    - name: receipt_date_2
+      pdf_field_name: DE-120MA[0].Page1[0].ReceiptDate[1]
+      type: date
+      label: Receipt Date
+      required: false
+      width: half
+    - name: receipt_date_2
+      pdf_field_name: DE-120MA[0].Page1[0].ReceiptDate[2]
+      type: date
+      label: Receipt Date
+      required: false
+      width: half
+    - name: receipt_date_2
+      pdf_field_name: DE-120MA[0].Page1[0].ReceiptDate[3]
+      type: date
+      label: Receipt Date
+      required: false
+      width: half
+    - name: receipt_date_2
+      pdf_field_name: DE-120MA[0].Page1[0].ReceiptDate[4]
+      type: date
+      label: Receipt Date
+      required: false
+      width: half
+    - name: receipt_date_2
+      pdf_field_name: DE-120MA[0].Page1[0].ReceiptDate[5]
+      type: date
+      label: Receipt Date
+      required: false
+      width: half
+    - name: receipt_date_2
+      pdf_field_name: DE-120MA[0].Page1[0].ReceiptDate[6]
+      type: date
+      label: Receipt Date
+      required: false
+      width: half
+    - name: receipt_date_2
+      pdf_field_name: DE-120MA[0].Page1[0].ReceiptDate[7]
+      type: date
+      label: Receipt Date
+      required: false
+      width: half
+    - name: receipt_date_2
+      pdf_field_name: DE-120MA[0].Page1[0].ReceiptDate[8]
+      type: date
+      label: Receipt Date
+      required: false
+      width: half
+    - name: receipt_date_2
+      pdf_field_name: DE-120MA[0].Page1[0].ReceiptDate[9]
+      type: date
+      label: Receipt Date
+      required: false
+      width: half
+    - name: receipt_date_2
+      pdf_field_name: DE-120MA[0].Page1[0].ReceiptDate[10]
+      type: date
+      label: Receipt Date
+      required: false
+      width: half
+    - name: receipt_date_2
+      pdf_field_name: DE-120MA[0].Page1[0].ReceiptDate[11]
+      type: date
+      label: Receipt Date
+      required: false
+      width: half
+    - name: receipt_date_2
+      pdf_field_name: DE-120MA[0].Page1[0].ReceiptDate[12]
+      type: date
+      label: Receipt Date
+      required: false
+      width: half
+    - name: receipt_date_2
+      pdf_field_name: DE-120MA[0].Page1[0].ReceiptDate[13]
+      type: date
+      label: Receipt Date
+      required: false
+      width: half
+    - name: receipt_date_2
+      pdf_field_name: DE-120MA[0].Page1[0].ReceiptDate[14]
+      type: date
+      label: Receipt Date
+      required: false
+      width: half
+  description:
+    title: Description
+    fields:
+    - name: description
+      pdf_field_name: DE-120MA[0].Page1[0].Description[0]
+      type: text
+      label: Description
+      required: false
+      width: full
+    - name: description_2
+      pdf_field_name: DE-120MA[0].Page1[0].Description[1]
+      type: text
+      label: Description
+      required: false
+      width: full
+    - name: description_2
+      pdf_field_name: DE-120MA[0].Page1[0].Description[2]
+      type: text
+      label: Description
+      required: false
+      width: full
+    - name: description_2
+      pdf_field_name: DE-120MA[0].Page1[0].Description[3]
+      type: text
+      label: Description
+      required: false
+      width: full
+    - name: description_2
+      pdf_field_name: DE-120MA[0].Page1[0].Description[4]
+      type: text
+      label: Description
+      required: false
+      width: full
+    - name: description_2
+      pdf_field_name: DE-120MA[0].Page1[0].Description[5]
+      type: text
+      label: Description
+      required: false
+      width: full
+    - name: description_2
+      pdf_field_name: DE-120MA[0].Page1[0].Description[6]
+      type: text
+      label: Description
+      required: false
+      width: full
+    - name: description_2
+      pdf_field_name: DE-120MA[0].Page1[0].Description[7]
+      type: text
+      label: Description
+      required: false
+      width: full
+    - name: description_2
+      pdf_field_name: DE-120MA[0].Page1[0].Description[8]
+      type: text
+      label: Description
+      required: false
+      width: full
+    - name: description_2
+      pdf_field_name: DE-120MA[0].Page1[0].Description[9]
+      type: text
+      label: Description
+      required: false
+      width: full
+    - name: description_2
+      pdf_field_name: DE-120MA[0].Page1[0].Description[10]
+      type: text
+      label: Description
+      required: false
+      width: full
+    - name: description_2
+      pdf_field_name: DE-120MA[0].Page1[0].Description[11]
+      type: text
+      label: Description
+      required: false
+      width: full
+    - name: description_2
+      pdf_field_name: DE-120MA[0].Page1[0].Description[12]
+      type: text
+      label: Description
+      required: false
+      width: full
+    - name: description_2
+      pdf_field_name: DE-120MA[0].Page1[0].Description[13]
+      type: text
+      label: Description
+      required: false
+      width: full
+    - name: description_2
+      pdf_field_name: DE-120MA[0].Page1[0].Description[14]
+      type: text
+      label: Description
+      required: false
+      width: full
+  fill_text:
+    title: Fill Text
+    fields:
+    - name: fill_text2
+      pdf_field_name: DE-120MA[0].Page1[0].FillText2[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text1
+      pdf_field_name: DE-120MA[0].Page1[0].FillText1[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+  amount:
+    title: Amount
+    fields:
+    - name: amount
+      pdf_field_name: DE-120MA[0].Page1[0].Amount[0]
+      type: currency
+      label: Amount
+      required: false
+      width: third
+    - name: amount_2
+      pdf_field_name: DE-120MA[0].Page1[0].Amount[1]
+      type: currency
+      label: Amount
+      required: false
+      width: third
+    - name: amount_2
+      pdf_field_name: DE-120MA[0].Page1[0].Amount[2]
+      type: currency
+      label: Amount
+      required: false
+      width: third
+    - name: amount_2
+      pdf_field_name: DE-120MA[0].Page1[0].Amount[3]
+      type: currency
+      label: Amount
+      required: false
+      width: third
+    - name: amount_2
+      pdf_field_name: DE-120MA[0].Page1[0].Amount[4]
+      type: currency
+      label: Amount
+      required: false
+      width: third
+    - name: amount_2
+      pdf_field_name: DE-120MA[0].Page1[0].Amount[5]
+      type: currency
+      label: Amount
+      required: false
+      width: third
+    - name: amount_2
+      pdf_field_name: DE-120MA[0].Page1[0].Amount[6]
+      type: currency
+      label: Amount
+      required: false
+      width: third
+    - name: amount_2
+      pdf_field_name: DE-120MA[0].Page1[0].Amount[7]
+      type: currency
+      label: Amount
+      required: false
+      width: third
+    - name: amount_2
+      pdf_field_name: DE-120MA[0].Page1[0].Amount[8]
+      type: currency
+      label: Amount
+      required: false
+      width: third
+    - name: amount_2
+      pdf_field_name: DE-120MA[0].Page1[0].Amount[9]
+      type: currency
+      label: Amount
+      required: false
+      width: third
+    - name: amount_2
+      pdf_field_name: DE-120MA[0].Page1[0].Amount[10]
+      type: currency
+      label: Amount
+      required: false
+      width: third
+    - name: amount_2
+      pdf_field_name: DE-120MA[0].Page1[0].Amount[11]
+      type: currency
+      label: Amount
+      required: false
+      width: third
+    - name: amount_2
+      pdf_field_name: DE-120MA[0].Page1[0].Amount[12]
+      type: currency
+      label: Amount
+      required: false
+      width: third
+    - name: amount_2
+      pdf_field_name: DE-120MA[0].Page1[0].Amount[13]
+      type: currency
+      label: Amount
+      required: false
+      width: third
+    - name: amount_2
+      pdf_field_name: DE-120MA[0].Page1[0].Amount[14]
+      type: currency
+      label: Amount
+      required: false
+      width: third
+  print:
+    title: Print
+    fields:
+    - name: print
+      pdf_field_name: DE-120MA[0].Page1[0].#area[1].Print[0]
+      type: checkbox
+      label: Print
+      required: false
+      width: full
+  save:
+    title: Save
+    fields:
+    - name: save
+      pdf_field_name: DE-120MA[0].Page1[0].#area[1].Save[0]
+      type: checkbox
+      label: Save
+      required: false
+      width: full
+  reset:
+    title: Reset
+    fields:
+    - name: reset
+      pdf_field_name: DE-120MA[0].Page1[0].#area[1].Reset[0]
+      type: checkbox
+      label: Reset
+      required: false
+      width: full
+  warning:
+    title: Warning
+    fields:
+    - name: warning
+      pdf_field_name: DE-120MA[0].Page1[0].#area[1].Warning[0]
+      type: checkbox
+      label: Warning
+      required: false
+      width: full

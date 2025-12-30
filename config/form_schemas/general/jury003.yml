@@ -1,0 +1,364 @@
+---
+form:
+  code: JURY-003
+  title: JURY 003 Form
+  description: ''
+  category: general
+  pdf_filename: jury003.pdf
+  fillable: true
+  instructions: ''
+sections:
+  '11':
+    title: 11\
+    fields:
+    - name: training
+      pdf_field_name: topmostSubform[0].Page1[0]._11\.specialized\.training[0]
+      type: text
+      label: Training
+      required: false
+      width: full
+  fill_text:
+    title: Fill Text
+    fields:
+    - name: fill_text1
+      pdf_field_name: topmostSubform[0].Page1[0].FillText1[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+  atty_state_ft:
+    title: Atty State Ft
+    fields:
+    - name: atty_state_ft
+      pdf_field_name: topmostSubform[0].Page1[0].AttyState_ft[0]
+      type: address
+      label: Atty State Ft
+      required: false
+      width: full
+  text_field:
+    title: Text Field
+    fields:
+    - name: text_field2
+      pdf_field_name: topmostSubform[0].Page1[0].TextField2[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field2_2
+      pdf_field_name: topmostSubform[0].Page1[0].TextField2[1]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field2_2
+      pdf_field_name: topmostSubform[0].Page1[0].TextField2[2]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+  house_apt:
+    title: House Apt
+    fields:
+    - name: house_apt
+      pdf_field_name: topmostSubform[0].Page1[0].HouseApt[0]
+      type: text
+      label: House Apt
+      required: false
+      width: full
+    - name: house_apt_2
+      pdf_field_name: topmostSubform[0].Page1[0].HouseApt[1]
+      type: text
+      label: House Apt
+      required: false
+      width: full
+  own_rent:
+    title: Own Rent
+    fields:
+    - name: own_rent
+      pdf_field_name: topmostSubform[0].Page1[0].OwnRent[0]
+      type: currency
+      label: Own Rent
+      required: false
+      width: third
+    - name: own_rent_2
+      pdf_field_name: topmostSubform[0].Page1[0].OwnRent[1]
+      type: currency
+      label: Own Rent
+      required: false
+      width: third
+  bar_no_ft:
+    title: Bar No Ft
+    fields:
+    - name: bar_no_ft
+      pdf_field_name: topmostSubform[0].Page1[0].BarNo_ft[0]
+      type: text
+      label: Bar No Ft
+      required: false
+      width: full
+    - name: bar_no_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].BarNo_ft[1]
+      type: text
+      label: Bar No Ft
+      required: false
+      width: full
+    - name: bar_no_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].BarNo_ft[2]
+      type: text
+      label: Bar No Ft
+      required: false
+      width: full
+    - name: bar_no_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].BarNo_ft[3]
+      type: text
+      label: Bar No Ft
+      required: false
+      width: full
+    - name: bar_no_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].BarNo_ft[4]
+      type: text
+      label: Bar No Ft
+      required: false
+      width: full
+    - name: bar_no_ft_2
+      pdf_field_name: topmostSubform[0].Page1[0].BarNo_ft[5]
+      type: text
+      label: Bar No Ft
+      required: false
+      width: full
+  eleven:
+    title: Eleven
+    fields:
+    - name: eleven
+      pdf_field_name: topmostSubform[0].Page1[0].Eleven[0]
+      type: text
+      label: Eleven
+      required: false
+      width: full
+    - name: eleven2
+      pdf_field_name: topmostSubform[0].Page1[0].Eleven2[0]
+      type: text
+      label: Eleven
+      required: false
+      width: full
+    - name: eleven3
+      pdf_field_name: topmostSubform[0].Page1[0].Eleven3[0]
+      type: text
+      label: Eleven
+      required: false
+      width: full
+    - name: eleven4
+      pdf_field_name: topmostSubform[0].Page1[0].Eleven4[0]
+      type: text
+      label: Eleven
+      required: false
+      width: full
+    - name: eleven5
+      pdf_field_name: topmostSubform[0].Page1[0].Eleven5[0]
+      type: text
+      label: Eleven
+      required: false
+      width: full
+    - name: eleven6
+      pdf_field_name: topmostSubform[0].Page1[0].Eleven6[0]
+      type: text
+      label: Eleven
+      required: false
+      width: full
+  date_field:
+    title: Date Field
+    fields:
+    - name: date_field1
+      pdf_field_name: topmostSubform[0].Page1[0].DateField1[0]
+      type: date
+      label: Date Field
+      required: false
+      width: half
+  four:
+    title: Four
+    fields:
+    - name: four
+      pdf_field_name: topmostSubform[0].Page1[0].four[0]
+      type: text
+      label: Four
+      required: false
+      width: full
+    - name: four_2
+      pdf_field_name: topmostSubform[0].Page1[0].four[1]
+      type: text
+      label: Four
+      required: false
+      width: full
+  twelve:
+    title: Twelve
+    fields:
+    - name: twelve
+      pdf_field_name: topmostSubform[0].Page1[0].twelve[0]
+      type: text
+      label: Twelve
+      required: false
+      width: full
+    - name: twelve_2
+      pdf_field_name: topmostSubform[0].Page1[0].twelve[1]
+      type: text
+      label: Twelve
+      required: false
+      width: full
+  ten:
+    title: Ten
+    fields:
+    - name: ten
+      pdf_field_name: topmostSubform[0].Page1[0].ten[0]
+      type: text
+      label: Ten
+      required: false
+      width: full
+    - name: ten_2
+      pdf_field_name: topmostSubform[0].Page1[0].ten[1]
+      type: text
+      label: Ten
+      required: false
+      width: full
+  nine:
+    title: Nine
+    fields:
+    - name: nine
+      pdf_field_name: topmostSubform[0].Page1[0].nine[0]
+      type: text
+      label: Nine
+      required: false
+      width: full
+    - name: nine_2
+      pdf_field_name: topmostSubform[0].Page1[0].nine[1]
+      type: text
+      label: Nine
+      required: false
+      width: full
+  seven:
+    title: Seven
+    fields:
+    - name: seven
+      pdf_field_name: topmostSubform[0].Page1[0].seven[0]
+      type: text
+      label: Seven
+      required: false
+      width: full
+    - name: seven_2
+      pdf_field_name: topmostSubform[0].Page1[0].seven[1]
+      type: text
+      label: Seven
+      required: false
+      width: full
+  sevena:
+    title: Sevena
+    fields:
+    - name: sevena
+      pdf_field_name: topmostSubform[0].Page1[0].sevena[0]
+      type: text
+      label: Sevena
+      required: false
+      width: full
+    - name: sevena_2
+      pdf_field_name: topmostSubform[0].Page1[0].sevena[1]
+      type: text
+      label: Sevena
+      required: false
+      width: full
+  sevenb:
+    title: Sevenb
+    fields:
+    - name: sevenb
+      pdf_field_name: topmostSubform[0].Page1[0].sevenb[0]
+      type: text
+      label: Sevenb
+      required: false
+      width: full
+    - name: sevenb_2
+      pdf_field_name: topmostSubform[0].Page1[0].sevenb[1]
+      type: text
+      label: Sevenb
+      required: false
+      width: full
+  six:
+    title: Six
+    fields:
+    - name: six
+      pdf_field_name: topmostSubform[0].Page1[0].Six[0]
+      type: text
+      label: Six
+      required: false
+      width: full
+    - name: six_2
+      pdf_field_name: topmostSubform[0].Page1[0].six[0]
+      type: text
+      label: Six
+      required: false
+      width: full
+  five:
+    title: Five
+    fields:
+    - name: five
+      pdf_field_name: topmostSubform[0].Page1[0].five[0]
+      type: text
+      label: Five
+      required: false
+      width: full
+    - name: five_2
+      pdf_field_name: topmostSubform[0].Page1[0].five[1]
+      type: text
+      label: Five
+      required: false
+      width: full
+  crim:
+    title: Crim
+    fields:
+    - name: crim
+      pdf_field_name: topmostSubform[0].Page1[0].Crim[0]
+      type: text
+      label: Crim
+      required: false
+      width: full
+  civ:
+    title: Civ
+    fields:
+    - name: civ
+      pdf_field_name: topmostSubform[0].Page1[0].Civ[0]
+      type: text
+      label: Civ
+      required: false
+      width: full
+  print_bt:
+    title: Print Bt
+    fields:
+    - name: print_bt
+      pdf_field_name: topmostSubform[0].Page1[0].Print_bt[0]
+      type: checkbox
+      label: Print Bt
+      required: false
+      width: full
+  save_bt:
+    title: Save Bt
+    fields:
+    - name: save_bt
+      pdf_field_name: topmostSubform[0].Page1[0].Save_bt[0]
+      type: checkbox
+      label: Save Bt
+      required: false
+      width: full
+  reset_bt:
+    title: Reset Bt
+    fields:
+    - name: reset_bt
+      pdf_field_name: topmostSubform[0].Page1[0].Reset_bt[0]
+      type: checkbox
+      label: Reset Bt
+      required: false
+      width: full
+  t:
+    title: T
+    fields:
+    - name: t23
+      pdf_field_name: topmostSubform[0].Page1[0].T23[0]
+      type: checkbox
+      label: T
+      required: false
+      width: full

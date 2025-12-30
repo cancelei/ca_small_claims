@@ -1,0 +1,269 @@
+---
+form:
+  code: FL-677
+  title: FL 677 Form
+  description: ''
+  category: family_law/general
+  pdf_filename: fl677.pdf
+  fillable: true
+  instructions: ''
+sections:
+  general:
+    title: General
+    fields:
+    - name: privacy_notice_header
+      pdf_field_name: Privacy Notice header
+      type: text
+      label: Privacy Notice Header
+      required: false
+      width: full
+    - name: telephone
+      pdf_field_name: Telephone
+      type: tel
+      label: Telephone
+      required: false
+      width: half
+    - name: fax
+      pdf_field_name: Fax
+      type: tel
+      label: Fax
+      required: false
+      width: half
+    - name: email
+      pdf_field_name: Email
+      type: email
+      label: Email
+      required: false
+      width: half
+    - name: client_name
+      pdf_field_name: ClientName
+      type: text
+      label: Client Name
+      required: false
+      width: full
+    - name: court_county
+      pdf_field_name: CourtCounty
+      type: number
+      label: Court County
+      required: false
+      width: third
+    - name: court_street
+      pdf_field_name: CourtStreet
+      type: address
+      label: Court Street
+      required: false
+      width: full
+    - name: court_mail
+      pdf_field_name: CourtMail
+      type: text
+      label: Court Mail
+      required: false
+      width: full
+    - name: court_city_zip
+      pdf_field_name: CourtCityZip
+      type: address
+      label: Court City Zip
+      required: false
+      width: full
+    - name: court_branch
+      pdf_field_name: CourtBranch
+      type: text
+      label: Court Branch
+      required: false
+      width: full
+    - name: petitioner
+      pdf_field_name: Petitioner
+      type: text
+      label: Petitioner
+      required: false
+      width: full
+    - name: respondent
+      pdf_field_name: Respondent
+      type: text
+      label: Respondent
+      required: false
+      width: full
+    - name: other_parent
+      pdf_field_name: OtherParent
+      type: currency
+      label: Other Parent
+      required: false
+      width: third
+    - name: entity2
+      pdf_field_name: Gov.Entity2
+      type: text
+      label: Entity
+      required: false
+      width: full
+    - name: entity1
+      pdf_field_name: Gov.Entity1
+      type: text
+      label: Entity
+      required: false
+      width: full
+    - name: entity3
+      pdf_field_name: Gov.Entity3
+      type: text
+      label: Entity
+      required: false
+      width: full
+    - name: case_number
+      pdf_field_name: CaseNumber
+      type: text
+      label: Case Number
+      required: false
+      width: full
+      shared_key: case:number
+    - name: check_box21
+      pdf_field_name: CheckBox21
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: fill_text55
+      pdf_field_name: FillText55
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text54
+      pdf_field_name: FillText54
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: check_box22
+      pdf_field_name: CheckBox22
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: fill_text53
+      pdf_field_name: FillText53
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: check_box27
+      pdf_field_name: CheckBox27
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: fill_text52
+      pdf_field_name: FillText52
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: check_box28
+      pdf_field_name: CheckBox28
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: fill_text51
+      pdf_field_name: FillText51
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: check_box24
+      pdf_field_name: CheckBox24
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: fill_text50
+      pdf_field_name: FillText50
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text49
+      pdf_field_name: FillText49
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: check_box25
+      pdf_field_name: CheckBox25
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: fill_text45
+      pdf_field_name: FillText45
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text97
+      pdf_field_name: FillText97
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text98
+      pdf_field_name: FillText98
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: check_box15
+      pdf_field_name: CheckBox15
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: fill_text41
+      pdf_field_name: FillText41
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: check_box18
+      pdf_field_name: CheckBox18
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box19
+      pdf_field_name: CheckBox19
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box20
+      pdf_field_name: CheckBox20
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: fill_text40
+      pdf_field_name: FillText40
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text39
+      pdf_field_name: FillText39
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text73
+      pdf_field_name: FillText73
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+  officer:
+    title: Officer
+    fields:
+    - name: number
+      pdf_field_name: Levy.officer.file.number
+      type: text
+      label: Number
+      required: false
+      width: full

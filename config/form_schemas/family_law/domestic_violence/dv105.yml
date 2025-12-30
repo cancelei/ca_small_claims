@@ -1,0 +1,1537 @@
+---
+form:
+  code: DV-105
+  title: DV 105 Form
+  description: ''
+  category: family_law/domestic_violence
+  pdf_filename: dv105.pdf
+  fillable: true
+  instructions: ''
+sections:
+  right_caption:
+    title: Right Caption
+    fields:
+    - name: case_number
+      pdf_field_name: DV-105[0].Page1[0].RightCaption[0].CaseNumber[0]
+      type: text
+      label: Case Number
+      required: false
+      width: full
+      shared_key: case:number
+  list:
+    title: List
+    fields:
+    - name: text_field2
+      pdf_field_name: DV-105[0].Page1[0].List1[0].Li1[0].TextField2[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: check_boxitem1relation
+      pdf_field_name: DV-105[0].Page1[0].List1[0].Li1[0].CheckBoxitem1Relation[0]
+      type: checkbox
+      label: Check Boxitem1 Relation
+      required: false
+      width: full
+    - name: check_boxitem1relation_2
+      pdf_field_name: DV-105[0].Page1[0].List1[0].Li1[0].CheckBoxitem1Relation[1]
+      type: checkbox
+      label: Check Boxitem1 Relation
+      required: false
+      width: full
+    - name: check_boxitem1relation_2
+      pdf_field_name: DV-105[0].Page1[0].List1[0].Li1[0].CheckBoxitem1Relation[2]
+      type: checkbox
+      label: Check Boxitem1 Relation
+      required: false
+      width: full
+    - name: text_field
+      pdf_field_name: DV-105[0].Page1[0].List1[0].Li1[0].TextField[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field2_2
+      pdf_field_name: DV-105[0].Page1[0].List2[0].Li1[0].TextField2[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: check_boxitem2relation
+      pdf_field_name: DV-105[0].Page1[0].List2[0].Li1[0].CheckBoxitem2relation[0]
+      type: checkbox
+      label: Check Boxitem2relation
+      required: false
+      width: full
+    - name: check_boxitem2relation_2
+      pdf_field_name: DV-105[0].Page1[0].List2[0].Li1[0].CheckBoxitem2relation[1]
+      type: checkbox
+      label: Check Boxitem2relation
+      required: false
+      width: full
+    - name: check_boxitem2relation_2
+      pdf_field_name: DV-105[0].Page1[0].List2[0].Li1[0].CheckBoxitem2relation[2]
+      type: checkbox
+      label: Check Boxitem2relation
+      required: false
+      width: full
+    - name: text_field_2
+      pdf_field_name: DV-105[0].Page1[0].List2[0].Li1[0].TextField[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field1
+      pdf_field_name: DV-105[0].Page1[0].List3[0].Li1[0].TextField1[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: date_field1
+      pdf_field_name: DV-105[0].Page1[0].List3[0].Li1[0].DateField1[0]
+      type: date
+      label: Date Field
+      required: false
+      width: half
+    - name: check_box_right_caption
+      pdf_field_name: DV-105[0].Page1[0].List3[0].Li1[0].CheckBoxRightCaption[0]
+      type: checkbox
+      label: Check Box Right Caption
+      required: false
+      width: full
+    - name: text_field2_2
+      pdf_field_name: DV-105[0].Page1[0].List3[0].Li1[0].TextField2[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: date_field2
+      pdf_field_name: DV-105[0].Page1[0].List3[0].Li1[0].DateField2[0]
+      type: date
+      label: Date Field
+      required: false
+      width: half
+    - name: text_field3
+      pdf_field_name: DV-105[0].Page1[0].List3[0].Li1[0].TextField3[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: date_field3
+      pdf_field_name: DV-105[0].Page1[0].List3[0].Li1[0].DateField3[0]
+      type: date
+      label: Date Field
+      required: false
+      width: half
+    - name: date_field5
+      pdf_field_name: DV-105[0].Page1[0].List3[0].Li1[0].DateField5[0]
+      type: date
+      label: Date Field
+      required: false
+      width: half
+    - name: text_field34
+      pdf_field_name: DV-105[0].Page1[0].List3[0].Li1[0].TextField34[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: choice1
+      pdf_field_name: DV-105[0].Page1[0].List4[0].Li1[0].Choice1[0]
+      type: text
+      label: Choice
+      required: false
+      width: full
+    - name: choice1_2
+      pdf_field_name: DV-105[0].Page1[0].List4[0].Li1[0].Choice1[1]
+      type: text
+      label: Choice
+      required: false
+      width: full
+    - name: text_field1_2
+      pdf_field_name: DV-105[0].Page1[0].List4[0].Li2[0].TextField1[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field2_2
+      pdf_field_name: DV-105[0].Page1[0].List4[0].Li2[0].TextField2[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: multiline_check_box
+      pdf_field_name: DV-105[0].Page1[0].List4[0].Li2[0].MultilineCheckBox[0]
+      type: checkbox
+      label: Multiline Check Box
+      required: false
+      width: full
+    - name: choice_live1
+      pdf_field_name: DV-105[0].Page1[0].List4[0].Li2[0].ChoiceLive1[0]
+      type: text
+      label: Choice Live
+      required: false
+      width: full
+    - name: choice_live1_2
+      pdf_field_name: DV-105[0].Page1[0].List4[0].Li2[0].ChoiceLive1[1]
+      type: text
+      label: Choice Live
+      required: false
+      width: full
+    - name: choice_live1_2
+      pdf_field_name: DV-105[0].Page1[0].List4[0].Li2[0].ChoiceLive1[2]
+      type: text
+      label: Choice Live
+      required: false
+      width: full
+    - name: text_field3_2
+      pdf_field_name: DV-105[0].Page1[0].List4[0].Li2[0].TextField3[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field4
+      pdf_field_name: DV-105[0].Page1[0].List4[0].Li2[0].TextField4[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field5
+      pdf_field_name: DV-105[0].Page1[0].List4[0].Li2[0].TextField5[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: choice_live2
+      pdf_field_name: DV-105[0].Page1[0].List4[0].Li2[0].ChoiceLive2[0]
+      type: text
+      label: Choice Live
+      required: false
+      width: full
+    - name: choice_live2_2
+      pdf_field_name: DV-105[0].Page1[0].List4[0].Li2[0].ChoiceLive2[1]
+      type: text
+      label: Choice Live
+      required: false
+      width: full
+    - name: choice_live2_2
+      pdf_field_name: DV-105[0].Page1[0].List4[0].Li2[0].ChoiceLive2[2]
+      type: text
+      label: Choice Live
+      required: false
+      width: full
+    - name: text_field6
+      pdf_field_name: DV-105[0].Page1[0].List4[0].Li2[0].TextField6[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field7
+      pdf_field_name: DV-105[0].Page1[0].List4[0].Li2[0].TextField7[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field8
+      pdf_field_name: DV-105[0].Page1[0].List4[0].Li2[0].TextField8[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: choice_live3
+      pdf_field_name: DV-105[0].Page1[0].List4[0].Li2[0].ChoiceLive3[0]
+      type: text
+      label: Choice Live
+      required: false
+      width: full
+    - name: choice_live3_2
+      pdf_field_name: DV-105[0].Page1[0].List4[0].Li2[0].ChoiceLive3[1]
+      type: text
+      label: Choice Live
+      required: false
+      width: full
+    - name: choice_live3_2
+      pdf_field_name: DV-105[0].Page1[0].List4[0].Li2[0].ChoiceLive3[2]
+      type: text
+      label: Choice Live
+      required: false
+      width: full
+    - name: text_field9
+      pdf_field_name: DV-105[0].Page1[0].List4[0].Li2[0].TextField9[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field10
+      pdf_field_name: DV-105[0].Page1[0].List4[0].Li2[0].TextField10[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field11
+      pdf_field_name: DV-105[0].Page1[0].List4[0].Li2[0].TextField11[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: choice_live4
+      pdf_field_name: DV-105[0].Page1[0].List4[0].Li2[0].ChoiceLive4[0]
+      type: text
+      label: Choice Live
+      required: false
+      width: full
+    - name: choice_live4_2
+      pdf_field_name: DV-105[0].Page1[0].List4[0].Li2[0].ChoiceLive4[1]
+      type: text
+      label: Choice Live
+      required: false
+      width: full
+    - name: choice_live4_2
+      pdf_field_name: DV-105[0].Page1[0].List4[0].Li2[0].ChoiceLive4[2]
+      type: text
+      label: Choice Live
+      required: false
+      width: full
+    - name: text_field12
+      pdf_field_name: DV-105[0].Page1[0].List4[0].Li2[0].TextField12[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field13
+      pdf_field_name: DV-105[0].Page1[0].List4[0].Li2[0].TextField13[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field14
+      pdf_field_name: DV-105[0].Page1[0].List4[0].Li2[0].TextField14[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: choice_live5
+      pdf_field_name: DV-105[0].Page1[0].List4[0].Li2[0].ChoiceLive5[0]
+      type: text
+      label: Choice Live
+      required: false
+      width: full
+    - name: choice_live5_2
+      pdf_field_name: DV-105[0].Page1[0].List4[0].Li2[0].ChoiceLive5[1]
+      type: text
+      label: Choice Live
+      required: false
+      width: full
+    - name: choice_live5_2
+      pdf_field_name: DV-105[0].Page1[0].List4[0].Li2[0].ChoiceLive5[2]
+      type: text
+      label: Choice Live
+      required: false
+      width: full
+    - name: text_field15
+      pdf_field_name: DV-105[0].Page1[0].List4[0].Li2[0].TextField15[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field16
+      pdf_field_name: DV-105[0].Page1[0].List4[0].Li2[0].TextField16[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field17
+      pdf_field_name: DV-105[0].Page1[0].List4[0].Li2[0].TextField17[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: choice_live6
+      pdf_field_name: DV-105[0].Page1[0].List4[0].Li2[0].ChoiceLive6[0]
+      type: text
+      label: Choice Live
+      required: false
+      width: full
+    - name: choice_live6_2
+      pdf_field_name: DV-105[0].Page1[0].List4[0].Li2[0].ChoiceLive6[1]
+      type: text
+      label: Choice Live
+      required: false
+      width: full
+    - name: choice_live6_2
+      pdf_field_name: DV-105[0].Page1[0].List4[0].Li2[0].ChoiceLive6[2]
+      type: text
+      label: Choice Live
+      required: false
+      width: full
+    - name: text_field18
+      pdf_field_name: DV-105[0].Page1[0].List4[0].Li2[0].TextField18[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field19
+      pdf_field_name: DV-105[0].Page1[0].List4[0].Li2[0].TextField19[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field20
+      pdf_field_name: DV-105[0].Page1[0].List4[0].Li2[0].TextField20[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: choice_live7
+      pdf_field_name: DV-105[0].Page1[0].List4[0].Li2[0].ChoiceLive7[0]
+      type: text
+      label: Choice Live
+      required: false
+      width: full
+    - name: choice_live7_2
+      pdf_field_name: DV-105[0].Page1[0].List4[0].Li2[0].ChoiceLive7[1]
+      type: text
+      label: Choice Live
+      required: false
+      width: full
+    - name: choice_live7_2
+      pdf_field_name: DV-105[0].Page1[0].List4[0].Li2[0].ChoiceLive7[2]
+      type: text
+      label: Choice Live
+      required: false
+      width: full
+    - name: textfield21
+      pdf_field_name: DV-105[0].Page1[0].List4[0].Li2[0].Textfield21[0]
+      type: text
+      label: Textfield
+      required: false
+      width: full
+    - name: choice_involv1
+      pdf_field_name: DV-105[0].Page2[0].List5[0].Li1[0].ChoiceInvolv1[0]
+      type: text
+      label: Choice Involv
+      required: false
+      width: full
+    - name: choice_involv1_2
+      pdf_field_name: DV-105[0].Page2[0].List5[0].Li1[0].YesSub[0].ChoiceInvolv1[0]
+      type: text
+      label: Choice Involv
+      required: false
+      width: full
+    - name: check_box1
+      pdf_field_name: DV-105[0].Page2[0].List5[0].Li1[0].YesSub[0].CheckBox1[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: text_field1_2
+      pdf_field_name: DV-105[0].Page2[0].List5[0].Li1[0].YesSub[0].TextField1[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: check_box2
+      pdf_field_name: DV-105[0].Page2[0].List5[0].Li1[0].YesSub[0].CheckBox2[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: text_field2_2
+      pdf_field_name: DV-105[0].Page2[0].List5[0].Li1[0].YesSub[0].TextField2[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: check_box3
+      pdf_field_name: DV-105[0].Page2[0].List5[0].Li1[0].YesSub[0].CheckBox3[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: text_field3_2
+      pdf_field_name: DV-105[0].Page2[0].List5[0].Li1[0].YesSub[0].TextField3[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: check_box4
+      pdf_field_name: DV-105[0].Page2[0].List5[0].Li1[0].YesSub[0].CheckBox4[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: text_field4_2
+      pdf_field_name: DV-105[0].Page2[0].List5[0].Li1[0].YesSub[0].TextField4[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: check_box5
+      pdf_field_name: DV-105[0].Page2[0].List5[0].Li1[0].YesSub[0].CheckBox5[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: text_field5_2
+      pdf_field_name: DV-105[0].Page2[0].List5[0].Li1[0].YesSub[0].TextField5[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: check_box6
+      pdf_field_name: DV-105[0].Page2[0].List5[0].Li1[0].YesSub[0].CheckBox6[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: DV-105[0].Page2[0].List5[0].Li1[0].YesSub[0].TextField6[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: choice_custody
+      pdf_field_name: DV-105[0].Page2[0].List5[0].Li2[0].ChoiceCustody[0]
+      type: text
+      label: Choice Custody
+      required: false
+      width: full
+    - name: choice_custody_2
+      pdf_field_name: DV-105[0].Page2[0].List5[0].Li2[0].YesSub[0].ChoiceCustody[0]
+      type: text
+      label: Choice Custody
+      required: false
+      width: full
+    - name: text_field1_2
+      pdf_field_name: DV-105[0].Page2[0].List5[0].Li2[0].YesSub[0].TextField1[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field2_2
+      pdf_field_name: DV-105[0].Page2[0].List5[0].Li2[0].YesSub[0].TextField2[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field2_2
+      pdf_field_name: DV-105[0].Page2[0].List5[0].Li3[0].TextField2[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: partent_lg
+      pdf_field_name: DV-105[0].Page2[0].List5[0].Li3[0].PartentLG[0]
+      type: text
+      label: Partent Lg
+      required: false
+      width: full
+    - name: partent_lg_2
+      pdf_field_name: DV-105[0].Page2[0].List5[0].Li3[0].PartentLG[1]
+      type: text
+      label: Partent Lg
+      required: false
+      width: full
+    - name: item6ny
+      pdf_field_name: DV-105[0].Page3[0].List6[0].Li1[0].item6NY[0]
+      type: text
+      label: Item6 Ny
+      required: false
+      width: full
+    - name: item6ny_2
+      pdf_field_name: DV-105[0].Page3[0].List6[0].Li1[0].item6NY[1]
+      type: text
+      label: Item6 Ny
+      required: false
+      width: full
+    - name: check_box_right_caption1
+      pdf_field_name: DV-105[0].Page3[0].List6[0].Li1[0].CheckBoxRightCaption1[0]
+      type: checkbox
+      label: Check Box Right Caption
+      required: false
+      width: full
+    - name: text_field1_2
+      pdf_field_name: DV-105[0].Page3[0].List6[0].Li1[0].TextField1[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: check_box_right_caption2
+      pdf_field_name: DV-105[0].Page3[0].List6[0].Li1[0].CheckBoxRightCaption2[0]
+      type: checkbox
+      label: Check Box Right Caption
+      required: false
+      width: full
+    - name: check_box_right_caption3
+      pdf_field_name: DV-105[0].Page3[0].List6[0].Li1[0].CheckBoxRightCaption3[0]
+      type: checkbox
+      label: Check Box Right Caption
+      required: false
+      width: full
+    - name: text_field2_2
+      pdf_field_name: DV-105[0].Page3[0].List6[0].Li1[0].TextField2[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: choice_item7
+      pdf_field_name: DV-105[0].Page3[0].List7[0].ChoiceItem7[0]
+      type: text
+      label: Choice Item
+      required: false
+      width: full
+    - name: choice_item7no
+      pdf_field_name: DV-105[0].Page3[0].List7[0].ChoiceItem7No[0]
+      type: text
+      label: Choice Item7 No
+      required: false
+      width: full
+    - name: check_box_right_captionitem7a
+      pdf_field_name: DV-105[0].Page3[0].List7[0].LI1[0].CheckBoxRightCaptionitem7a[0]
+      type: checkbox
+      label: Check Box Right Captionitem7a
+      required: false
+      width: full
+    - name: check_box_right_captionitem7a_2
+      pdf_field_name: DV-105[0].Page3[0].List7[0].LI1[0].CheckBoxRightCaptionitem7a[1]
+      type: checkbox
+      label: Check Box Right Captionitem7a
+      required: false
+      width: full
+    - name: text_field_2
+      pdf_field_name: DV-105[0].Page3[0].List7[0].LI1[0].TextField[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: check_box_right_caption_2
+      pdf_field_name: DV-105[0].Page3[0].List7[0].Li2[0].CheckBoxRightCaption[0]
+      type: checkbox
+      label: Check Box Right Caption
+      required: false
+      width: full
+    - name: check_box_right_captionitem7b
+      pdf_field_name: DV-105[0].Page3[0].List7[0].Li2[0].CheckBoxRightCaptionitem7b[0]
+      type: checkbox
+      label: Check Box Right Captionitem7b
+      required: false
+      width: full
+    - name: check_box_right_caption2_2
+      pdf_field_name: DV-105[0].Page3[0].List7[0].Li2[0].CheckBoxRightCaption2[0]
+      type: checkbox
+      label: Check Box Right Caption
+      required: false
+      width: full
+    - name: check_box_right_caption3_2
+      pdf_field_name: DV-105[0].Page3[0].List7[0].Li2[0].CheckBoxRightCaption3[0]
+      type: checkbox
+      label: Check Box Right Caption
+      required: false
+      width: full
+    - name: text_field_2
+      pdf_field_name: DV-105[0].Page3[0].List7[0].Li2[0].TextField[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: check_box_right_caption3_2
+      pdf_field_name: DV-105[0].Page3[0].List7[0].Li2[0].CheckBoxRightCaption3[1]
+      type: checkbox
+      label: Check Box Right Caption
+      required: false
+      width: full
+    - name: kidnap
+      pdf_field_name: DV-105[0].Page3[0].List8[0].Li1[0].kidnap[0]
+      type: text
+      label: Kidnap
+      required: false
+      width: full
+    - name: kidnap_2
+      pdf_field_name: DV-105[0].Page3[0].List8[0].Li1[0].kidnap[1]
+      type: text
+      label: Kidnap
+      required: false
+      width: full
+    - name: choice_item9yes_no
+      pdf_field_name: DV-105[0].Page4[0].List9[0].Li1[0].ChoiceItem9YesNo[0]
+      type: text
+      label: Choice Item9 Yes No
+      required: false
+      width: full
+    - name: choice_item9yes_no_2
+      pdf_field_name: DV-105[0].Page4[0].List9[0].Li1[0].YesSub[0].ChoiceItem9YesNo[0]
+      type: text
+      label: Choice Item9 Yes No
+      required: false
+      width: full
+    - name: check_box_right_caption_item9
+      pdf_field_name: DV-105[0].Page4[0].List9[0].Li1[0].YesSub[0].CheckBoxRightCaptionItem9[0]
+      type: checkbox
+      label: Check Box Right Caption Item
+      required: false
+      width: full
+    - name: check_box_right_caption_item9_2
+      pdf_field_name: DV-105[0].Page4[0].List9[0].Li1[0].YesSub[0].CheckBoxRightCaptionItem9[1]
+      type: checkbox
+      label: Check Box Right Caption Item
+      required: false
+      width: full
+    - name: check_box_right_caption_item9_2
+      pdf_field_name: DV-105[0].Page4[0].List9[0].Li1[0].YesSub[0].CheckBoxRightCaptionItem9[2]
+      type: checkbox
+      label: Check Box Right Caption Item
+      required: false
+      width: full
+    - name: check_box_right_caption_item9_2
+      pdf_field_name: DV-105[0].Page4[0].List9[0].Li1[0].YesSub[0].CheckBoxRightCaptionItem9[3]
+      type: checkbox
+      label: Check Box Right Caption Item
+      required: false
+      width: full
+    - name: text_field1_2
+      pdf_field_name: DV-105[0].Page4[0].List9[0].Li1[0].YesSub[0].TextField1[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: check_box_right_caption_item9phy_cust
+      pdf_field_name: DV-105[0].Page4[0].List9[0].Li1[0].YesSub[0].CheckBoxRightCaptionItem9PhyCust[0]
+      type: checkbox
+      label: Check Box Right Caption Item9 Phy Cust
+      required: false
+      width: full
+    - name: check_box_right_caption_item9phy_cust_2
+      pdf_field_name: DV-105[0].Page4[0].List9[0].Li1[0].YesSub[0].CheckBoxRightCaptionItem9PhyCust[1]
+      type: checkbox
+      label: Check Box Right Caption Item9 Phy Cust
+      required: false
+      width: full
+    - name: check_box_right_caption_item9phy_cust_2
+      pdf_field_name: DV-105[0].Page4[0].List9[0].Li1[0].YesSub[0].CheckBoxRightCaptionItem9PhyCust[2]
+      type: checkbox
+      label: Check Box Right Caption Item9 Phy Cust
+      required: false
+      width: full
+    - name: check_box_right_caption_item9phy_cust_2
+      pdf_field_name: DV-105[0].Page4[0].List9[0].Li1[0].YesSub[0].CheckBoxRightCaptionItem9PhyCust[3]
+      type: checkbox
+      label: Check Box Right Caption Item9 Phy Cust
+      required: false
+      width: full
+    - name: text_field2_2
+      pdf_field_name: DV-105[0].Page4[0].List9[0].Li1[0].YesSub[0].TextField2[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: choice_item10
+      pdf_field_name: DV-105[0].Page4[0].List10[0].Li1[0].ChoiceItem10[0]
+      type: text
+      label: Choice Item
+      required: false
+      width: full
+    - name: choice_item10_2
+      pdf_field_name: DV-105[0].Page4[0].List10[0].Li1[0].ChoiceItem10[1]
+      type: text
+      label: Choice Item
+      required: false
+      width: full
+    - name: choice_item11
+      pdf_field_name: DV-105[0].Page4[0].List11[0].Li1[0].ChoiceItem11[0]
+      type: text
+      label: Choice Item
+      required: false
+      width: full
+    - name: choice_item11_2
+      pdf_field_name: DV-105[0].Page4[0].List11[0].Li1[0].ChoiceItem11[1]
+      type: text
+      label: Choice Item
+      required: false
+      width: full
+    - name: choice_item12a
+      pdf_field_name: DV-105[0].Page5[0].List12[0].Li1[0].choiceItem12a[0]
+      type: text
+      label: Choice Item12a
+      required: false
+      width: full
+    - name: text_field1_2
+      pdf_field_name: DV-105[0].Page5[0].List12[0].Li1[0].TextField1[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: choice_item12a_2
+      pdf_field_name: DV-105[0].Page5[0].List12[0].Li1[0].choiceItem12a[1]
+      type: text
+      label: Choice Item12a
+      required: false
+      width: full
+    - name: text_field2_2
+      pdf_field_name: DV-105[0].Page5[0].List12[0].Li1[0].TextField2[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: numeric_field1
+      pdf_field_name: DV-105[0].Page5[0].List12[0].Li1[0].NumericField1[0]
+      type: text
+      label: Numeric Field
+      required: false
+      width: full
+    - name: numeric_field2
+      pdf_field_name: DV-105[0].Page5[0].List12[0].Li1[0].NumericField2[0]
+      type: text
+      label: Numeric Field
+      required: false
+      width: full
+    - name: text_field3_2
+      pdf_field_name: DV-105[0].Page5[0].List12[0].Li1[0].TextField3[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: numeric_field3
+      pdf_field_name: DV-105[0].Page5[0].List12[0].Li1[0].NumericField3[0]
+      type: text
+      label: Numeric Field
+      required: false
+      width: full
+    - name: check_box_right_caption_item12b
+      pdf_field_name: DV-105[0].Page5[0].List12[0].Li2[0].CheckBoxRightCaptionItem12b[0]
+      type: checkbox
+      label: Check Box Right Caption Item12b
+      required: false
+      width: full
+    - name: text_field1_2
+      pdf_field_name: DV-105[0].Page5[0].List12[0].Li2[0].TextField1[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: check_box_right_caption_item12b_2
+      pdf_field_name: DV-105[0].Page5[0].List12[0].Li2[0].CheckBoxRightCaptionItem12b[1]
+      type: checkbox
+      label: Check Box Right Caption Item12b
+      required: false
+      width: full
+    - name: text_field2_2
+      pdf_field_name: DV-105[0].Page5[0].List12[0].Li2[0].TextField2[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: check_box_right_caption_item12b_2
+      pdf_field_name: DV-105[0].Page5[0].List12[0].Li2[0].CheckBoxRightCaptionItem12b[2]
+      type: checkbox
+      label: Check Box Right Caption Item12b
+      required: false
+      width: full
+    - name: text_field3_2
+      pdf_field_name: DV-105[0].Page5[0].List12[0].Li2[0].TextField3[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: check_box_right_caption_item12b_2
+      pdf_field_name: DV-105[0].Page5[0].List12[0].Li2[0].CheckBoxRightCaptionItem12b[3]
+      type: checkbox
+      label: Check Box Right Caption Item12b
+      required: false
+      width: full
+    - name: tf1
+      pdf_field_name: DV-105[0].Page5[0].List12[0].Li2[0].tf1[0]
+      type: text
+      label: Tf
+      required: false
+      width: full
+    - name: tf2
+      pdf_field_name: DV-105[0].Page5[0].List12[0].Li2[0].tf2[0]
+      type: text
+      label: Tf
+      required: false
+      width: full
+    - name: tf3
+      pdf_field_name: DV-105[0].Page5[0].List12[0].Li2[0].tf3[0]
+      type: text
+      label: Tf
+      required: false
+      width: full
+    - name: tf4
+      pdf_field_name: DV-105[0].Page5[0].List12[0].Li2[0].tf4[0]
+      type: text
+      label: Tf
+      required: false
+      width: full
+    - name: tf5
+      pdf_field_name: DV-105[0].Page5[0].List12[0].Li2[0].tf5[0]
+      type: text
+      label: Tf
+      required: false
+      width: full
+    - name: tf6
+      pdf_field_name: DV-105[0].Page5[0].List12[0].Li2[0].tf6[0]
+      type: text
+      label: Tf
+      required: false
+      width: full
+    - name: tf7
+      pdf_field_name: DV-105[0].Page5[0].List12[0].Li2[0].tf7[0]
+      type: text
+      label: Tf
+      required: false
+      width: full
+    - name: tf8
+      pdf_field_name: DV-105[0].Page5[0].List12[0].Li2[0].tf8[0]
+      type: text
+      label: Tf
+      required: false
+      width: full
+    - name: tf9
+      pdf_field_name: DV-105[0].Page5[0].List12[0].Li2[0].tf9[0]
+      type: text
+      label: Tf
+      required: false
+      width: full
+    - name: tf10
+      pdf_field_name: DV-105[0].Page5[0].List12[0].Li2[0].tf10[0]
+      type: text
+      label: Tf
+      required: false
+      width: full
+    - name: tf11
+      pdf_field_name: DV-105[0].Page5[0].List12[0].Li2[0].tf11[0]
+      type: text
+      label: Tf
+      required: false
+      width: full
+    - name: tf12
+      pdf_field_name: DV-105[0].Page5[0].List12[0].Li2[0].tf12[0]
+      type: text
+      label: Tf
+      required: false
+      width: full
+    - name: tf13
+      pdf_field_name: DV-105[0].Page5[0].List12[0].Li2[0].tf13[0]
+      type: text
+      label: Tf
+      required: false
+      width: full
+    - name: tf14
+      pdf_field_name: DV-105[0].Page5[0].List12[0].Li2[0].tf14[0]
+      type: text
+      label: Tf
+      required: false
+      width: full
+    - name: tf15
+      pdf_field_name: DV-105[0].Page5[0].List12[0].Li2[0].tf15[0]
+      type: text
+      label: Tf
+      required: false
+      width: full
+    - name: tf16
+      pdf_field_name: DV-105[0].Page5[0].List12[0].Li2[0].tf16[0]
+      type: text
+      label: Tf
+      required: false
+      width: full
+    - name: tf17
+      pdf_field_name: DV-105[0].Page5[0].List12[0].Li2[0].tf17[0]
+      type: text
+      label: Tf
+      required: false
+      width: full
+    - name: tf18
+      pdf_field_name: DV-105[0].Page5[0].List12[0].Li2[0].tf18[0]
+      type: text
+      label: Tf
+      required: false
+      width: full
+    - name: tf19
+      pdf_field_name: DV-105[0].Page5[0].List12[0].Li2[0].tf19[0]
+      type: text
+      label: Tf
+      required: false
+      width: full
+    - name: tf20
+      pdf_field_name: DV-105[0].Page5[0].List12[0].Li2[0].tf20[0]
+      type: text
+      label: Tf
+      required: false
+      width: full
+    - name: tf21
+      pdf_field_name: DV-105[0].Page5[0].List12[0].Li2[0].tf21[0]
+      type: text
+      label: Tf
+      required: false
+      width: full
+    - name: tf22
+      pdf_field_name: DV-105[0].Page5[0].List12[0].Li2[0].tf22[0]
+      type: text
+      label: Tf
+      required: false
+      width: full
+    - name: tf23
+      pdf_field_name: DV-105[0].Page5[0].List12[0].Li2[0].tf23[0]
+      type: text
+      label: Tf
+      required: false
+      width: full
+    - name: tf24
+      pdf_field_name: DV-105[0].Page5[0].List12[0].Li2[0].tf24[0]
+      type: text
+      label: Tf
+      required: false
+      width: full
+    - name: tf25
+      pdf_field_name: DV-105[0].Page5[0].List12[0].Li2[0].tf25[0]
+      type: text
+      label: Tf
+      required: false
+      width: full
+    - name: tf26
+      pdf_field_name: DV-105[0].Page5[0].List12[0].Li2[0].tf26[0]
+      type: text
+      label: Tf
+      required: false
+      width: full
+    - name: tf27
+      pdf_field_name: DV-105[0].Page5[0].List12[0].Li2[0].tf27[0]
+      type: text
+      label: Tf
+      required: false
+      width: full
+    - name: tf28
+      pdf_field_name: DV-105[0].Page5[0].List12[0].Li2[0].tf28[0]
+      type: text
+      label: Tf
+      required: false
+      width: full
+    - name: tf29
+      pdf_field_name: DV-105[0].Page5[0].List12[0].Li2[0].tf29[0]
+      type: text
+      label: Tf
+      required: false
+      width: full
+    - name: tf30
+      pdf_field_name: DV-105[0].Page5[0].List12[0].Li2[0].tf30[0]
+      type: text
+      label: Tf
+      required: false
+      width: full
+    - name: tf31
+      pdf_field_name: DV-105[0].Page5[0].List12[0].Li2[0].tf31[0]
+      type: text
+      label: Tf
+      required: false
+      width: full
+    - name: tf32
+      pdf_field_name: DV-105[0].Page5[0].List12[0].Li2[0].tf32[0]
+      type: text
+      label: Tf
+      required: false
+      width: full
+    - name: tf33
+      pdf_field_name: DV-105[0].Page5[0].List12[0].Li2[0].tf33[0]
+      type: text
+      label: Tf
+      required: false
+      width: full
+    - name: tf34
+      pdf_field_name: DV-105[0].Page5[0].List12[0].Li2[0].tf34[0]
+      type: text
+      label: Tf
+      required: false
+      width: full
+    - name: tf35
+      pdf_field_name: DV-105[0].Page5[0].List12[0].Li2[0].tf35[0]
+      type: text
+      label: Tf
+      required: false
+      width: full
+    - name: tf36
+      pdf_field_name: DV-105[0].Page5[0].List12[0].Li2[0].tf36[0]
+      type: text
+      label: Tf
+      required: false
+      width: full
+    - name: tf37
+      pdf_field_name: DV-105[0].Page5[0].List12[0].Li2[0].tf37[0]
+      type: text
+      label: Tf
+      required: false
+      width: full
+    - name: tf38
+      pdf_field_name: DV-105[0].Page5[0].List12[0].Li2[0].tf38[0]
+      type: text
+      label: Tf
+      required: false
+      width: full
+    - name: tf39
+      pdf_field_name: DV-105[0].Page5[0].List12[0].Li2[0].tf39[0]
+      type: text
+      label: Tf
+      required: false
+      width: full
+    - name: tf40
+      pdf_field_name: DV-105[0].Page5[0].List12[0].Li2[0].tf40[0]
+      type: text
+      label: Tf
+      required: false
+      width: full
+    - name: tf41
+      pdf_field_name: DV-105[0].Page5[0].List12[0].Li2[0].tf41[0]
+      type: text
+      label: Tf
+      required: false
+      width: full
+    - name: tf42
+      pdf_field_name: DV-105[0].Page5[0].List12[0].Li2[0].tf42[0]
+      type: text
+      label: Tf
+      required: false
+      width: full
+    - name: check_box_right_caption12b
+      pdf_field_name: DV-105[0].Page5[0].List12[0].Li2[0].CheckBoxRightCaption12b[0]
+      type: checkbox
+      label: Check Box Right Caption12b
+      required: false
+      width: full
+    - name: check_box_right_caption12b_2
+      pdf_field_name: DV-105[0].Page5[0].List12[0].Li2[0].CheckBoxRightCaption12b[1]
+      type: checkbox
+      label: Check Box Right Caption12b
+      required: false
+      width: full
+    - name: check_box_right_caption12b_2
+      pdf_field_name: DV-105[0].Page5[0].List12[0].Li2[0].CheckBoxRightCaption12b[2]
+      type: checkbox
+      label: Check Box Right Caption12b
+      required: false
+      width: full
+    - name: text_field_2
+      pdf_field_name: DV-105[0].Page5[0].List12[0].Li2[0].TextField[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field33
+      pdf_field_name: DV-105[0].Page5[0].List12[0].Li2[0].TextField33[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: choice_item13a_no_yes
+      pdf_field_name: DV-105[0].Page6[0].List13[0].Li1[0].ChoiceItem13aNoYes[0]
+      type: text
+      label: Choice Item13a No Yes
+      required: false
+      width: full
+    - name: choice_item13a_no_yes_2
+      pdf_field_name: DV-105[0].Page6[0].List13[0].Li1[0].YesSub[0].ChoiceItem13aNoYes[0]
+      type: text
+      label: Choice Item13a No Yes
+      required: false
+      width: full
+    - name: choice_item13a_superv_exch
+      pdf_field_name: DV-105[0].Page6[0].List13[0].Li1[0].YesSub[0].ChoiceItem13aSupervExch[0]
+      type: text
+      label: Choice Item13a Superv Exch
+      required: false
+      width: full
+    - name: text_field1_2
+      pdf_field_name: DV-105[0].Page6[0].List13[0].Li1[0].YesSub[0].TextField1[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: choice_item13a_superv_exch_2
+      pdf_field_name: DV-105[0].Page6[0].List13[0].Li1[0].YesSub[0].ChoiceItem13aSupervExch[1]
+      type: text
+      label: Choice Item13a Superv Exch
+      required: false
+      width: full
+    - name: text_field2_2
+      pdf_field_name: DV-105[0].Page6[0].List13[0].Li1[0].YesSub[0].TextField2[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: numeric_field1_2
+      pdf_field_name: DV-105[0].Page6[0].List13[0].Li1[0].YesSub[0].NumericField1[0]
+      type: text
+      label: Numeric Field
+      required: false
+      width: full
+    - name: numeric_field2_2
+      pdf_field_name: DV-105[0].Page6[0].List13[0].Li1[0].YesSub[0].NumericField2[0]
+      type: text
+      label: Numeric Field
+      required: false
+      width: full
+    - name: text_field3_2
+      pdf_field_name: DV-105[0].Page6[0].List13[0].Li1[0].YesSub[0].TextField3[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: numeric_field3_2
+      pdf_field_name: DV-105[0].Page6[0].List13[0].Li1[0].YesSub[0].NumericField3[0]
+      type: text
+      label: Numeric Field
+      required: false
+      width: full
+    - name: text_field1_2
+      pdf_field_name: DV-105[0].Page6[0].List13[0].Li2[0].TextField1[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: tf1_2
+      pdf_field_name: DV-105[0].Page6[0].List13[0].Li2[0].tf1[0]
+      type: text
+      label: Tf
+      required: false
+      width: full
+    - name: tf2_2
+      pdf_field_name: DV-105[0].Page6[0].List13[0].Li2[0].tf2[0]
+      type: text
+      label: Tf
+      required: false
+      width: full
+    - name: tf3_2
+      pdf_field_name: DV-105[0].Page6[0].List13[0].Li2[0].tf3[0]
+      type: text
+      label: Tf
+      required: false
+      width: full
+    - name: tf4_2
+      pdf_field_name: DV-105[0].Page6[0].List13[0].Li2[0].tf4[0]
+      type: text
+      label: Tf
+      required: false
+      width: full
+    - name: tf5_2
+      pdf_field_name: DV-105[0].Page6[0].List13[0].Li2[0].tf5[0]
+      type: text
+      label: Tf
+      required: false
+      width: full
+    - name: tf6_2
+      pdf_field_name: DV-105[0].Page6[0].List13[0].Li2[0].tf6[0]
+      type: text
+      label: Tf
+      required: false
+      width: full
+    - name: tf7_2
+      pdf_field_name: DV-105[0].Page6[0].List13[0].Li2[0].tf7[0]
+      type: text
+      label: Tf
+      required: false
+      width: full
+    - name: tf8_2
+      pdf_field_name: DV-105[0].Page6[0].List13[0].Li2[0].tf8[0]
+      type: text
+      label: Tf
+      required: false
+      width: full
+    - name: tf9_2
+      pdf_field_name: DV-105[0].Page6[0].List13[0].Li2[0].tf9[0]
+      type: text
+      label: Tf
+      required: false
+      width: full
+    - name: tf10_2
+      pdf_field_name: DV-105[0].Page6[0].List13[0].Li2[0].tf10[0]
+      type: text
+      label: Tf
+      required: false
+      width: full
+    - name: tf11_2
+      pdf_field_name: DV-105[0].Page6[0].List13[0].Li2[0].tf11[0]
+      type: text
+      label: Tf
+      required: false
+      width: full
+    - name: tf12_2
+      pdf_field_name: DV-105[0].Page6[0].List13[0].Li2[0].tf12[0]
+      type: text
+      label: Tf
+      required: false
+      width: full
+    - name: tf13_2
+      pdf_field_name: DV-105[0].Page6[0].List13[0].Li2[0].tf13[0]
+      type: text
+      label: Tf
+      required: false
+      width: full
+    - name: tf14_2
+      pdf_field_name: DV-105[0].Page6[0].List13[0].Li2[0].tf14[0]
+      type: text
+      label: Tf
+      required: false
+      width: full
+    - name: tf15_2
+      pdf_field_name: DV-105[0].Page6[0].List13[0].Li2[0].tf15[0]
+      type: text
+      label: Tf
+      required: false
+      width: full
+    - name: tf16_2
+      pdf_field_name: DV-105[0].Page6[0].List13[0].Li2[0].tf16[0]
+      type: text
+      label: Tf
+      required: false
+      width: full
+    - name: tf17_2
+      pdf_field_name: DV-105[0].Page6[0].List13[0].Li2[0].tf17[0]
+      type: text
+      label: Tf
+      required: false
+      width: full
+    - name: tf18_2
+      pdf_field_name: DV-105[0].Page6[0].List13[0].Li2[0].tf18[0]
+      type: text
+      label: Tf
+      required: false
+      width: full
+    - name: tf19_2
+      pdf_field_name: DV-105[0].Page6[0].List13[0].Li2[0].tf19[0]
+      type: text
+      label: Tf
+      required: false
+      width: full
+    - name: tf20_2
+      pdf_field_name: DV-105[0].Page6[0].List13[0].Li2[0].tf20[0]
+      type: text
+      label: Tf
+      required: false
+      width: full
+    - name: tf21_2
+      pdf_field_name: DV-105[0].Page6[0].List13[0].Li2[0].tf21[0]
+      type: text
+      label: Tf
+      required: false
+      width: full
+    - name: tf22_2
+      pdf_field_name: DV-105[0].Page6[0].List13[0].Li2[0].tf22[0]
+      type: text
+      label: Tf
+      required: false
+      width: full
+    - name: tf23_2
+      pdf_field_name: DV-105[0].Page6[0].List13[0].Li2[0].tf23[0]
+      type: text
+      label: Tf
+      required: false
+      width: full
+    - name: tf24_2
+      pdf_field_name: DV-105[0].Page6[0].List13[0].Li2[0].tf24[0]
+      type: text
+      label: Tf
+      required: false
+      width: full
+    - name: tf25_2
+      pdf_field_name: DV-105[0].Page6[0].List13[0].Li2[0].tf25[0]
+      type: text
+      label: Tf
+      required: false
+      width: full
+    - name: tf26_2
+      pdf_field_name: DV-105[0].Page6[0].List13[0].Li2[0].tf26[0]
+      type: text
+      label: Tf
+      required: false
+      width: full
+    - name: tf27_2
+      pdf_field_name: DV-105[0].Page6[0].List13[0].Li2[0].tf27[0]
+      type: text
+      label: Tf
+      required: false
+      width: full
+    - name: tf28_2
+      pdf_field_name: DV-105[0].Page6[0].List13[0].Li2[0].tf28[0]
+      type: text
+      label: Tf
+      required: false
+      width: full
+    - name: tf29_2
+      pdf_field_name: DV-105[0].Page6[0].List13[0].Li2[0].tf29[0]
+      type: text
+      label: Tf
+      required: false
+      width: full
+    - name: tf30_2
+      pdf_field_name: DV-105[0].Page6[0].List13[0].Li2[0].tf30[0]
+      type: text
+      label: Tf
+      required: false
+      width: full
+    - name: tf31_2
+      pdf_field_name: DV-105[0].Page6[0].List13[0].Li2[0].tf31[0]
+      type: text
+      label: Tf
+      required: false
+      width: full
+    - name: tf32_2
+      pdf_field_name: DV-105[0].Page6[0].List13[0].Li2[0].tf32[0]
+      type: text
+      label: Tf
+      required: false
+      width: full
+    - name: tf33_2
+      pdf_field_name: DV-105[0].Page6[0].List13[0].Li2[0].tf33[0]
+      type: text
+      label: Tf
+      required: false
+      width: full
+    - name: tf34_2
+      pdf_field_name: DV-105[0].Page6[0].List13[0].Li2[0].tf34[0]
+      type: text
+      label: Tf
+      required: false
+      width: full
+    - name: tf35_2
+      pdf_field_name: DV-105[0].Page6[0].List13[0].Li2[0].tf35[0]
+      type: text
+      label: Tf
+      required: false
+      width: full
+    - name: tf36_2
+      pdf_field_name: DV-105[0].Page6[0].List13[0].Li2[0].tf36[0]
+      type: text
+      label: Tf
+      required: false
+      width: full
+    - name: tf37_2
+      pdf_field_name: DV-105[0].Page6[0].List13[0].Li2[0].tf37[0]
+      type: text
+      label: Tf
+      required: false
+      width: full
+    - name: tf38_2
+      pdf_field_name: DV-105[0].Page6[0].List13[0].Li2[0].tf38[0]
+      type: text
+      label: Tf
+      required: false
+      width: full
+    - name: tf39_2
+      pdf_field_name: DV-105[0].Page6[0].List13[0].Li2[0].tf39[0]
+      type: text
+      label: Tf
+      required: false
+      width: full
+    - name: tf40_2
+      pdf_field_name: DV-105[0].Page6[0].List13[0].Li2[0].tf40[0]
+      type: text
+      label: Tf
+      required: false
+      width: full
+    - name: tf41_2
+      pdf_field_name: DV-105[0].Page6[0].List13[0].Li2[0].tf41[0]
+      type: text
+      label: Tf
+      required: false
+      width: full
+    - name: tf42_2
+      pdf_field_name: DV-105[0].Page6[0].List13[0].Li2[0].tf42[0]
+      type: text
+      label: Tf
+      required: false
+      width: full
+    - name: check_box_right_caption12b_2
+      pdf_field_name: DV-105[0].Page6[0].List13[0].Li2[0].CheckBoxRightCaption12b[0]
+      type: checkbox
+      label: Check Box Right Caption12b
+      required: false
+      width: full
+    - name: check_box_right_caption12b_2
+      pdf_field_name: DV-105[0].Page6[0].List13[0].Li2[0].CheckBoxRightCaption12b[1]
+      type: checkbox
+      label: Check Box Right Caption12b
+      required: false
+      width: full
+    - name: check_box_right_caption12b_2
+      pdf_field_name: DV-105[0].Page6[0].List13[0].Li2[0].CheckBoxRightCaption12b[2]
+      type: checkbox
+      label: Check Box Right Caption12b
+      required: false
+      width: full
+    - name: othertf
+      pdf_field_name: DV-105[0].Page6[0].List13[0].Li2[0].othertf[0]
+      type: text
+      label: Othertf
+      required: false
+      width: full
+    - name: text_field2_2
+      pdf_field_name: DV-105[0].Page6[0].List13[0].Li2[0].TextField2[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+  caption:
+    title: Caption
+    fields:
+    - name: case_number_2
+      pdf_field_name: DV-105[0].Page2[0].Caption[0].PxCaption[0].CaseNumber[0]
+      type: text
+      label: Case Number
+      required: false
+      width: full
+      shared_key: case:number
+    - name: case_number_2
+      pdf_field_name: DV-105[0].Page3[0].Caption[0].PxCaption[0].CaseNumber[0]
+      type: text
+      label: Case Number
+      required: false
+      width: full
+      shared_key: case:number
+    - name: case_number_2
+      pdf_field_name: DV-105[0].Page5[0].Caption[0].PxCaption[0].CaseNumber[0]
+      type: text
+      label: Case Number
+      required: false
+      width: full
+      shared_key: case:number
+    - name: case_number_2
+      pdf_field_name: DV-105[0].Page6[0].Caption[0].PxCaption[0].CaseNumber[0]
+      type: text
+      label: Case Number
+      required: false
+      width: full
+      shared_key: case:number
+  captio:
+    title: Captio
+    fields:
+    - name: case_number_2
+      pdf_field_name: DV-105[0].Page4[0].Captio[0].PxCaption[0].CaseNumber[0]
+      type: text
+      label: Case Number
+      required: false
+      width: full
+      shared_key: case:number
+  last_page:
+    title: Last Page
+    fields:
+    - name: print
+      pdf_field_name: DV-105[0].#pageSet[0].LastPage[0].Print[0]
+      type: checkbox
+      label: Print
+      required: false
+      width: full
+    - name: save
+      pdf_field_name: DV-105[0].#pageSet[0].LastPage[0].Save[0]
+      type: checkbox
+      label: Save
+      required: false
+      width: full
+    - name: reset
+      pdf_field_name: DV-105[0].#pageSet[0].LastPage[0].Reset[0]
+      type: checkbox
+      label: Reset
+      required: false
+      width: full
+    - name: warning
+      pdf_field_name: DV-105[0].#pageSet[0].LastPage[0].Warning[0]
+      type: checkbox
+      label: Warning
+      required: false
+      width: full

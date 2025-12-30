@@ -1,0 +1,269 @@
+---
+form:
+  code: FL-342A
+  title: FL 342A Form
+  description: ''
+  category: family_law/general
+  pdf_filename: fl342a.pdf
+  fillable: true
+  instructions: ''
+sections:
+  page1_footer:
+    title: Page1 Footer
+    fields:
+    - name: courts_link
+      pdf_field_name: FL-342A[0].#pageSet[0].Page1[0].Page1Footer[0].CourtsLink[0]
+      type: checkbox
+      label: Courts Link
+      required: false
+      width: full
+    - name: warning
+      pdf_field_name: FL-342A[0].#pageSet[0].Page1[0].Page1Footer[0].FooterButtons[0].Warning[0]
+      type: checkbox
+      label: Warning
+      required: false
+      width: full
+    - name: print
+      pdf_field_name: FL-342A[0].#pageSet[0].Page1[0].Page1Footer[0].FooterButtons[0].Print[0]
+      type: checkbox
+      label: Print
+      required: false
+      width: full
+    - name: save
+      pdf_field_name: FL-342A[0].#pageSet[0].Page1[0].Page1Footer[0].FooterButtons[0].Save[0]
+      type: checkbox
+      label: Save
+      required: false
+      width: full
+    - name: reset
+      pdf_field_name: FL-342A[0].#pageSet[0].Page1[0].Page1Footer[0].FooterButtons[0].Reset[0]
+      type: checkbox
+      label: Reset
+      required: false
+      width: full
+  page1_caption:
+    title: Page1 Caption
+    fields:
+    - name: petitioner_text_field
+      pdf_field_name: FL-342A[0].Page1[0].Page1Caption[0].CaseTitle[0].PetitionerTextField[0]
+      type: text
+      label: Petitioner Text Field
+      required: false
+      width: full
+    - name: respondent_text_field
+      pdf_field_name: FL-342A[0].Page1[0].Page1Caption[0].CaseTitle[0].RespondentTextField[0]
+      type: text
+      label: Respondent Text Field
+      required: false
+      width: full
+    - name: other_party_text_field
+      pdf_field_name: FL-342A[0].Page1[0].Page1Caption[0].CaseTitle[0].OtherPartyTextField[0]
+      type: text
+      label: Other Party Text Field
+      required: false
+      width: full
+    - name: case_number_text_field
+      pdf_field_name: FL-342A[0].Page1[0].Page1Caption[0].CaseNumber[0].CaseNumberTextField[0]
+      type: text
+      label: Case Number Text Field
+      required: false
+      width: full
+      shared_key: case:number
+  attachment_to:
+    title: Attachment To
+    fields:
+    - name: attachment_to_checkbox1
+      pdf_field_name: FL-342A[0].Page1[0].AttachmentTo[0].AttachmentToCheckbox1[0]
+      type: checkbox
+      label: Attachment To Checkbox
+      required: false
+      width: full
+    - name: attachment_to_checkbox2
+      pdf_field_name: FL-342A[0].Page1[0].AttachmentTo[0].AttachmentToCheckbox2[0]
+      type: checkbox
+      label: Attachment To Checkbox
+      required: false
+      width: full
+    - name: attachment_to_text_field
+      pdf_field_name: FL-342A[0].Page1[0].AttachmentTo[0].AttachmentToTextField[0]
+      type: text
+      label: Attachment To Text Field
+      required: false
+      width: full
+  list:
+    title: List
+    fields:
+    - name: item1checkbox1
+      pdf_field_name: FL-342A[0].Page1[0].List1[0].LI1[0].Item1[0].Item1Checkbox1[0]
+      type: checkbox
+      label: Item1 Checkbox
+      required: false
+      width: full
+    - name: item1checkbox2
+      pdf_field_name: FL-342A[0].Page1[0].List1[0].LI1[0].Item1[0].Item1Checkbox2[0]
+      type: checkbox
+      label: Item1 Checkbox
+      required: false
+      width: full
+    - name: item1checkbox2_2
+      pdf_field_name: FL-342A[0].Page1[0].List1[0].LI1[0].Item1[0].Item1Checkbox2[1]
+      type: checkbox
+      label: Item1 Checkbox
+      required: false
+      width: full
+    - name: item1currency_field
+      pdf_field_name: FL-342A[0].Page1[0].List1[0].LI1[0].Item1[0].Item1CurrencyField[0]
+      type: text
+      label: Item1 Currency Field
+      required: false
+      width: full
+    - name: item2checkbox
+      pdf_field_name: FL-342A[0].Page1[0].List2[0].Item2Checkbox[0]
+      type: checkbox
+      label: Item2 Checkbox
+      required: false
+      width: full
+    - name: item2a_currency_field
+      pdf_field_name: FL-342A[0].Page1[0].List2[0].LI1[0].Item2a[0].Item2aCurrencyField[0]
+      type: text
+      label: Item2a Currency Field
+      required: false
+      width: full
+    - name: item2a_checkbox
+      pdf_field_name: FL-342A[0].Page1[0].List2[0].LI1[0].Item2a[0].Item2aCheckbox[0]
+      type: checkbox
+      label: Item2a Checkbox
+      required: false
+      width: full
+    - name: item2a_checkbox_2
+      pdf_field_name: FL-342A[0].Page1[0].List2[0].LI1[0].Item2a[0].Item2aCheckbox[1]
+      type: checkbox
+      label: Item2a Checkbox
+      required: false
+      width: full
+    - name: item2a_checkbox_2
+      pdf_field_name: FL-342A[0].Page1[0].List2[0].LI1[0].Item2a[0].Item2aCheckbox[2]
+      type: checkbox
+      label: Item2a Checkbox
+      required: false
+      width: full
+    - name: item2b_checkbox
+      pdf_field_name: FL-342A[0].Page1[0].List2[0].LI2[0].Item2b[0].Item2bCheckbox[0]
+      type: checkbox
+      label: Item2b Checkbox
+      required: false
+      width: full
+    - name: item2b_checkbox_2
+      pdf_field_name: FL-342A[0].Page1[0].List2[0].LI2[0].Item2b[0].Item2bCheckbox[1]
+      type: checkbox
+      label: Item2b Checkbox
+      required: false
+      width: full
+    - name: item2b_currency_field
+      pdf_field_name: FL-342A[0].Page1[0].List2[0].LI2[0].Item2b[0].Item2bCurrencyField[0]
+      type: text
+      label: Item2b Currency Field
+      required: false
+      width: full
+    - name: item2c_checkbox_area1
+      pdf_field_name: FL-342A[0].Page1[0].List2[0].LI3[0].Item2c[0].Item2cCheckboxArea1[0]
+      type: checkbox
+      label: Item2c Checkbox Area
+      required: false
+      width: full
+    - name: item2c_date_field
+      pdf_field_name: FL-342A[0].Page1[0].List2[0].LI3[0].Item2c[0].Item2cDateField[0]
+      type: date
+      label: Item2c Date Field
+      required: false
+      width: half
+    - name: item2c_checkbox_area1_2
+      pdf_field_name: FL-342A[0].Page1[0].List2[0].LI3[0].Item2c[0].Item2cCheckboxArea1[1]
+      type: checkbox
+      label: Item2c Checkbox Area
+      required: false
+      width: full
+    - name: item2d1checkbox
+      pdf_field_name: FL-342A[0].Page1[0].List2[0].LI4[0].Item2d[0].LI4List1[0].LI1[0].Item2d1[0].Item2d1Checkbox[0]
+      type: checkbox
+      label: Item2d1 Checkbox
+      required: false
+      width: full
+    - name: item2d1currency_field
+      pdf_field_name: FL-342A[0].Page1[0].List2[0].LI4[0].Item2d[0].LI4List1[0].LI1[0].Item2d1[0].Item2d1CurrencyField[0]
+      type: text
+      label: Item2d1 Currency Field
+      required: false
+      width: full
+    - name: item2d2checkbox
+      pdf_field_name: FL-342A[0].Page1[0].List2[0].LI4[0].Item2d[0].LI4List1[0].LI2[0].Item2d2[0].Item2d2Checkbox[0]
+      type: checkbox
+      label: Item2d2 Checkbox
+      required: false
+      width: full
+    - name: item2d3checkbox1
+      pdf_field_name: FL-342A[0].Page1[0].List2[0].LI4[0].Item2d[0].LI4List1[0].LI3[0].Item2d3[0].Item2d3Checkbox1[0]
+      type: checkbox
+      label: Item2d3 Checkbox
+      required: false
+      width: full
+    - name: item2d3checkbox2
+      pdf_field_name: FL-342A[0].Page1[0].List2[0].LI4[0].Item2d[0].LI4List1[0].LI3[0].Item2d3[0].Item2d3Checkbox2[0]
+      type: checkbox
+      label: Item2d3 Checkbox
+      required: false
+      width: full
+    - name: item2d3checkbox2_2
+      pdf_field_name: FL-342A[0].Page1[0].List2[0].LI4[0].Item2d[0].LI4List1[0].LI3[0].Item2d3[0].Item2d3Checkbox2[1]
+      type: checkbox
+      label: Item2d3 Checkbox
+      required: false
+      width: full
+    - name: item2d4checkbox
+      pdf_field_name: FL-342A[0].Page1[0].List2[0].LI4[0].Item2d[0].LI4List1[0].LI4[0].Item2d4[0].Item2d4Checkbox[0]
+      type: checkbox
+      label: Item2d4 Checkbox
+      required: false
+      width: full
+    - name: item2d5checkbox
+      pdf_field_name: FL-342A[0].Page1[0].List2[0].LI4[0].Item2d[0].LI4List1[0].LI5[0].Item2d5[0].Item2d5Checkbox[0]
+      type: checkbox
+      label: Item2d5 Checkbox
+      required: false
+      width: full
+    - name: item2d5a_checkbox
+      pdf_field_name: FL-342A[0].Page1[0].List2[0].LI4[0].Item2d[0].LI4List1[0].LI5[0].Item2d5[0].LI5List1[0].LI1[0].Item2d5a[0].Item2d5aCheckbox[0]
+      type: checkbox
+      label: Item2d5a Checkbox
+      required: false
+      width: full
+    - name: item2d5b_checkbox
+      pdf_field_name: FL-342A[0].Page1[0].List2[0].LI4[0].Item2d[0].LI4List1[0].LI5[0].Item2d5[0].LI5List1[0].LI2[0].Item2d5b[0].Item2d5bCheckbox[0]
+      type: checkbox
+      label: Item2d5b Checkbox
+      required: false
+      width: full
+    - name: item2d5c_checkbox
+      pdf_field_name: FL-342A[0].Page1[0].List2[0].LI4[0].Item2d[0].LI4List1[0].LI5[0].Item2d5[0].LI5List1[0].LI3[0].Item2d5c[0].Item2d5cCheckbox[0]
+      type: checkbox
+      label: Item2d5c Checkbox
+      required: false
+      width: full
+    - name: item2d5c_text_field
+      pdf_field_name: FL-342A[0].Page1[0].List2[0].LI4[0].Item2d[0].LI4List1[0].LI5[0].Item2d5[0].LI5List1[0].LI3[0].Item2d5c[0].Item2d5cTextField[0]
+      type: text
+      label: Item2d5c Text Field
+      required: false
+      width: full
+    - name: item2d5d_checkbox
+      pdf_field_name: FL-342A[0].Page1[0].List2[0].LI4[0].Item2d[0].LI4List1[0].LI5[0].Item2d5[0].LI5List1[0].LI4[0].Item2d5d[0].Item2d5dCheckbox[0]
+      type: checkbox
+      label: Item2d5d Checkbox
+      required: false
+      width: full
+    - name: item2d5d_text_field
+      pdf_field_name: FL-342A[0].Page1[0].List2[0].LI4[0].Item2d[0].LI4List1[0].LI5[0].Item2d5[0].LI5List1[0].LI4[0].Item2d5d[0].Item2d5dTextField[0]
+      type: text
+      label: Item2d5d Text Field
+      required: false
+      width: full

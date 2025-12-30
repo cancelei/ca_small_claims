@@ -1,0 +1,158 @@
+---
+form:
+  code: CD-130
+  title: CD 130 Form
+  description: ''
+  category: general
+  pdf_filename: cd130.pdf
+  fillable: true
+  instructions: ''
+sections:
+  mp:
+    title: Mp
+    fields:
+    - name: print
+      pdf_field_name: CD-130[0].#pageSet[0].MP1[0].footer[0].Print[0]
+      type: checkbox
+      label: Print
+      required: false
+      width: full
+    - name: save
+      pdf_field_name: CD-130[0].#pageSet[0].MP1[0].footer[0].Save[0]
+      type: checkbox
+      label: Save
+      required: false
+      width: full
+    - name: reset
+      pdf_field_name: CD-130[0].#pageSet[0].MP1[0].footer[0].Reset[0]
+      type: checkbox
+      label: Reset
+      required: false
+      width: full
+  p1_caption:
+    title: P1 Caption
+    fields:
+    - name: case_number
+      pdf_field_name: CD-130[0].Page1[0].P1Caption[0].captionSub[0].CaseNumber[0].CaseNumber[0]
+      type: text
+      label: Case Number
+      required: false
+      width: full
+      shared_key: case:number
+    - name: person_info
+      pdf_field_name: CD-130[0].Page1[0].P1Caption[0].AttyPartyInfo[0].personInfo[0]
+      type: text
+      label: Person Info
+      required: false
+      width: full
+    - name: phone
+      pdf_field_name: CD-130[0].Page1[0].P1Caption[0].AttyPartyInfo[0].Phone[0]
+      type: tel
+      label: Phone
+      required: false
+      width: half
+    - name: fax
+      pdf_field_name: CD-130[0].Page1[0].P1Caption[0].AttyPartyInfo[0].Fax[0]
+      type: tel
+      label: Fax
+      required: false
+      width: half
+    - name: email
+      pdf_field_name: CD-130[0].Page1[0].P1Caption[0].AttyPartyInfo[0].Email[0]
+      type: email
+      label: Email
+      required: false
+      width: half
+    - name: atty_for
+      pdf_field_name: CD-130[0].Page1[0].P1Caption[0].AttyPartyInfo[0].attyFor[0]
+      type: text
+      label: Atty For
+      required: false
+      width: full
+    - name: crt_county
+      pdf_field_name: CD-130[0].Page1[0].P1Caption[0].CourtInfo[0].CrtCounty[0]
+      type: number
+      label: Crt County
+      required: false
+      width: third
+    - name: crt_street
+      pdf_field_name: CD-130[0].Page1[0].P1Caption[0].CourtInfo[0].CrtStreet[0]
+      type: address
+      label: Crt Street
+      required: false
+      width: full
+    - name: crt_mailing_add
+      pdf_field_name: CD-130[0].Page1[0].P1Caption[0].CourtInfo[0].CrtMailingAdd[0]
+      type: address
+      label: Crt Mailing Add
+      required: false
+      width: full
+    - name: crt_city_zip
+      pdf_field_name: CD-130[0].Page1[0].P1Caption[0].CourtInfo[0].CrtCityZip[0]
+      type: address
+      label: Crt City Zip
+      required: false
+      width: full
+    - name: crt_branch
+      pdf_field_name: CD-130[0].Page1[0].P1Caption[0].CourtInfo[0].CrtBranch[0]
+      type: text
+      label: Crt Branch
+      required: false
+      width: full
+    - name: party1
+      pdf_field_name: CD-130[0].Page1[0].P1Caption[0].TitlePartyName[0].Party1[0]
+      type: text
+      label: Party
+      required: false
+      width: full
+    - name: party2
+      pdf_field_name: CD-130[0].Page1[0].P1Caption[0].TitlePartyName[0].Party2[0]
+      type: text
+      label: Party
+      required: false
+      width: full
+    - name: choice2
+      pdf_field_name: CD-130[0].Page1[0].P1Caption[0].FormTitle[0].Choice2[0]
+      type: text
+      label: Choice
+      required: false
+      width: full
+    - name: choice3
+      pdf_field_name: CD-130[0].Page1[0].P1Caption[0].FormTitle[0].Choice3[0]
+      type: text
+      label: Choice
+      required: false
+      width: full
+  to_sheriff:
+    title: To Sheriff
+    fields:
+    - name: to_sheriff
+      pdf_field_name: CD-130[0].Page1[0].toSheriff[0]
+      type: text
+      label: To Sheriff
+      required: false
+      width: full
+  you_are_directed:
+    title: You Are Directed
+    fields:
+    - name: fill_text2
+      pdf_field_name: CD-130[0].Page1[0].YouAreDirected[0].List1[0].FillText2[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text3
+      pdf_field_name: CD-130[0].Page1[0].YouAreDirected[0].List2[0].FillText3[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+  sign:
+    title: Sign
+    fields:
+    - name: sig_date1
+      pdf_field_name: CD-130[0].Page1[0].Sign[0].SigDate1[0]
+      type: signature
+      label: Sig Date
+      required: false
+      width: full

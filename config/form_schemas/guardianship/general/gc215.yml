@@ -1,0 +1,354 @@
+---
+form:
+  code: GC-215
+  title: GC 215 Form
+  description: ''
+  category: guardianship/general
+  pdf_filename: gc215.pdf
+  fillable: true
+  instructions: ''
+sections:
+  std_p1_header_sf:
+    title: Std P1 Header Sf
+    fields:
+    - name: bar_no_ft
+      pdf_field_name: GC-215[0].Page1[0].StdP1Header_sf[0].CaptionBox[0].AttyPartyInfo[0].BarNo_ft[0]
+      type: text
+      label: Bar No Ft
+      required: false
+      width: full
+    - name: atty_name_ft
+      pdf_field_name: GC-215[0].Page1[0].StdP1Header_sf[0].CaptionBox[0].AttyPartyInfo[0].AttyName_ft[0]
+      type: text
+      label: Atty Name Ft
+      required: false
+      width: full
+    - name: atty_firm_ft
+      pdf_field_name: GC-215[0].Page1[0].StdP1Header_sf[0].CaptionBox[0].AttyPartyInfo[0].AttyFirm_ft[0]
+      type: text
+      label: Atty Firm Ft
+      required: false
+      width: full
+    - name: atty_street_ft
+      pdf_field_name: GC-215[0].Page1[0].StdP1Header_sf[0].CaptionBox[0].AttyPartyInfo[0].AttyStreet_ft[0]
+      type: address
+      label: Atty Street Ft
+      required: false
+      width: full
+    - name: atty_city_ft
+      pdf_field_name: GC-215[0].Page1[0].StdP1Header_sf[0].CaptionBox[0].AttyPartyInfo[0].AttyCity_ft[0]
+      type: address
+      label: Atty City Ft
+      required: false
+      width: full
+    - name: atty_state_ft
+      pdf_field_name: GC-215[0].Page1[0].StdP1Header_sf[0].CaptionBox[0].AttyPartyInfo[0].AttyState_ft[0]
+      type: address
+      label: Atty State Ft
+      required: false
+      width: full
+    - name: atty_zip_ft
+      pdf_field_name: GC-215[0].Page1[0].StdP1Header_sf[0].CaptionBox[0].AttyPartyInfo[0].AttyZip_ft[0]
+      type: address
+      label: Atty Zip Ft
+      required: false
+      width: full
+    - name: phone_ft
+      pdf_field_name: GC-215[0].Page1[0].StdP1Header_sf[0].CaptionBox[0].AttyPartyInfo[0].Phone_ft[0]
+      type: tel
+      label: Phone Ft
+      required: false
+      width: half
+    - name: fax_ft
+      pdf_field_name: GC-215[0].Page1[0].StdP1Header_sf[0].CaptionBox[0].AttyPartyInfo[0].Fax_ft[0]
+      type: tel
+      label: Fax Ft
+      required: false
+      width: half
+    - name: email_ft
+      pdf_field_name: GC-215[0].Page1[0].StdP1Header_sf[0].CaptionBox[0].AttyPartyInfo[0].Email_ft[0]
+      type: email
+      label: Email Ft
+      required: false
+      width: half
+    - name: atty_for_ft
+      pdf_field_name: GC-215[0].Page1[0].StdP1Header_sf[0].CaptionBox[0].AttyPartyInfo[0].AttyFor_ft[0]
+      type: text
+      label: Atty For Ft
+      required: false
+      width: full
+    - name: crt_county_ft
+      pdf_field_name: GC-215[0].Page1[0].StdP1Header_sf[0].CaptionBox[0].CourtInfo[0].CrtCounty_ft[0]
+      type: number
+      label: Crt County Ft
+      required: false
+      width: third
+    - name: branch_ft
+      pdf_field_name: GC-215[0].Page1[0].StdP1Header_sf[0].CaptionBox[0].CourtInfo[0].Branch_ft[0]
+      type: text
+      label: Branch Ft
+      required: false
+      width: full
+    - name: city_zip_ft
+      pdf_field_name: GC-215[0].Page1[0].StdP1Header_sf[0].CaptionBox[0].CourtInfo[0].CityZip_ft[0]
+      type: address
+      label: City Zip Ft
+      required: false
+      width: full
+    - name: street_ft
+      pdf_field_name: GC-215[0].Page1[0].StdP1Header_sf[0].CaptionBox[0].CourtInfo[0].Street_ft[0]
+      type: address
+      label: Street Ft
+      required: false
+      width: full
+    - name: mailing_add_ft
+      pdf_field_name: GC-215[0].Page1[0].StdP1Header_sf[0].CaptionBox[0].CourtInfo[0].MailingAdd_ft[0]
+      type: address
+      label: Mailing Add Ft
+      required: false
+      width: full
+    - name: case_number_ft
+      pdf_field_name: GC-215[0].Page1[0].StdP1Header_sf[0].CaptionBox[0].CBRight_sf[0].CaseNumber[0].CaseNumber_ft[0]
+      type: text
+      label: Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+    - name: hearing_date
+      pdf_field_name: GC-215[0].Page1[0].StdP1Header_sf[0].CaptionBox[0].CBRight_sf[0].HearingInfo[0].HearingDate[0]
+      type: date
+      label: Hearing Date
+      required: false
+      width: half
+    - name: hearing_dept
+      pdf_field_name: GC-215[0].Page1[0].StdP1Header_sf[0].CaptionBox[0].CBRight_sf[0].HearingInfo[0].HearingDept[0]
+      type: text
+      label: Hearing Dept
+      required: false
+      width: full
+    - name: hearing_time
+      pdf_field_name: GC-215[0].Page1[0].StdP1Header_sf[0].CaptionBox[0].CBRight_sf[0].HearingInfo[0].HearingTime[0]
+      type: text
+      label: Hearing Time
+      required: false
+      width: full
+    - name: cb_person_cb
+      pdf_field_name: GC-215[0].Page1[0].StdP1Header_sf[0].CaptionBox[0].CaseName_sb[0].PersonOf[0].CBPerson_cb[0]
+      type: text
+      label: Cb Person Cb
+      required: false
+      width: full
+    - name: cb_estate_cb
+      pdf_field_name: GC-215[0].Page1[0].StdP1Header_sf[0].CaptionBox[0].CaseName_sb[0].EstateOf[0].CBEstate_cb[0]
+      type: address
+      label: Cb Estate Cb
+      required: false
+      width: full
+    - name: case_name
+      pdf_field_name: GC-215[0].Page1[0].StdP1Header_sf[0].CaptionBox[0].CaseName_sb[0].CaseName[0]
+      type: text
+      label: Case Name
+      required: false
+      width: full
+  item:
+    title: Item
+    fields:
+    - name: obj_name_ft
+      pdf_field_name: GC-215[0].Page1[0].Item1[0].ObjName_ft[0]
+      type: text
+      label: Obj Name Ft
+      required: false
+      width: full
+    - name: ptnr_name_ft
+      pdf_field_name: GC-215[0].Page1[0].Item1[0].PtnrName_ft[0]
+      type: text
+      label: Ptnr Name Ft
+      required: false
+      width: full
+    - name: cb_child2a_cb
+      pdf_field_name: GC-215[0].Page1[0].Item2[0].Child2a[0].CBChild2a_cb[0]
+      type: text
+      label: Cb Child2a Cb
+      required: false
+      width: full
+    - name: child_name2a_ft
+      pdf_field_name: GC-215[0].Page1[0].Item2[0].Child2a[0].ChildName2a_ft[0]
+      type: text
+      label: Child Name2a Ft
+      required: false
+      width: full
+    - name: dob2a
+      pdf_field_name: GC-215[0].Page1[0].Item2[0].Child2a[0].DOB2a[0]
+      type: text
+      label: Dob2a
+      required: false
+      width: full
+    - name: cb_child2b_cb
+      pdf_field_name: GC-215[0].Page1[0].Item2[0].Child2b[0].CBChild2b_cb[0]
+      type: text
+      label: Cb Child2b Cb
+      required: false
+      width: full
+    - name: child_name2b_ft
+      pdf_field_name: GC-215[0].Page1[0].Item2[0].Child2b[0].ChildName2b_ft[0]
+      type: text
+      label: Child Name2b Ft
+      required: false
+      width: full
+    - name: dob2b
+      pdf_field_name: GC-215[0].Page1[0].Item2[0].Child2b[0].DOB2b[0]
+      type: text
+      label: Dob2b
+      required: false
+      width: full
+    - name: cb_more_ch_cb
+      pdf_field_name: GC-215[0].Page1[0].Item2[0].Attach2[0].CBMoreCh_cb[0]
+      type: text
+      label: Cb More Ch Cb
+      required: false
+      width: full
+    - name: ptnr_rel_child_ft
+      pdf_field_name: GC-215[0].Page1[0].Item3[0].PtnrRelChild_ft[0]
+      type: text
+      label: Ptnr Rel Child Ft
+      required: false
+      width: full
+    - name: attach3_cb
+      pdf_field_name: GC-215[0].Page1[0].Item3[0].Attach3[0].Attach3_cb[0]
+      type: text
+      label: Attach3 Cb
+      required: false
+      width: full
+    - name: obj_reasons_cb
+      pdf_field_name: GC-215[0].Page1[0].Item4[0].ObjReasons_cb[0]
+      type: text
+      label: Obj Reasons Cb
+      required: false
+      width: full
+    - name: obj_reasons_ft
+      pdf_field_name: GC-215[0].Page1[0].Item4[0].ObjReasons_ft[0]
+      type: text
+      label: Obj Reasons Ft
+      required: false
+      width: full
+    - name: att4_cb
+      pdf_field_name: GC-215[0].Page1[0].Item4[0].Attach4[0].Att4_cb[0]
+      type: text
+      label: Att4 Cb
+      required: false
+      width: full
+    - name: obj_gdn_cb
+      pdf_field_name: GC-215[0].Page1[0].Item5[0].ObjGdn[0].ObjGdn_cb[0]
+      type: text
+      label: Obj Gdn Cb
+      required: false
+      width: full
+    - name: obj_prop_gdn_ft
+      pdf_field_name: GC-215[0].Page1[0].Item5[0].ObjPropGdn_ft[0]
+      type: text
+      label: Obj Prop Gdn Ft
+      required: false
+      width: full
+    - name: petitioner_cb
+      pdf_field_name: GC-215[0].Page1[0].Item5[0].Attach5[0].petitioner_cb[0]
+      type: text
+      label: Petitioner Cb
+      required: false
+      width: full
+  last_page:
+    title: Last Page
+    fields:
+    - name: print
+      pdf_field_name: GC-215[0].#pageSet[0].LastPage[0].FooterSub[0].FooterButtons[0].Print[0]
+      type: checkbox
+      label: Print
+      required: false
+      width: full
+    - name: save
+      pdf_field_name: GC-215[0].#pageSet[0].LastPage[0].FooterSub[0].FooterButtons[0].Save[0]
+      type: checkbox
+      label: Save
+      required: false
+      width: full
+    - name: reset
+      pdf_field_name: GC-215[0].#pageSet[0].LastPage[0].FooterSub[0].FooterButtons[0].Reset[0]
+      type: checkbox
+      label: Reset
+      required: false
+      width: full
+    - name: warning
+      pdf_field_name: GC-215[0].#pageSet[0].LastPage[0].FooterSub[0].FooterButtons[0].Warning[0]
+      type: checkbox
+      label: Warning
+      required: false
+      width: full
+  page2_sb:
+    title: Page2 Sb
+    fields:
+    - name: case_number_ft_2
+      pdf_field_name: GC-215[0].Page2_sb[0].P2Caption_sb[0].CaseNumber_ft[0]
+      type: text
+      label: Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+    - name: case_name_2
+      pdf_field_name: GC-215[0].Page2_sb[0].P2Caption_sb[0].CaseName[0]
+      type: text
+      label: Case Name
+      required: false
+      width: full
+    - name: obj_other_cb
+      pdf_field_name: GC-215[0].Page2_sb[0].Item6[0].ObjOther[0].ObjOther_cb[0]
+      type: text
+      label: Obj Other Cb
+      required: false
+      width: full
+    - name: obj_other_ft
+      pdf_field_name: GC-215[0].Page2_sb[0].Item6[0].ObjOther[0].ObjOther_ft[0]
+      type: text
+      label: Obj Other Ft
+      required: false
+      width: full
+    - name: attach6_cb
+      pdf_field_name: GC-215[0].Page2_sb[0].Item6[0].Attach6[0].Attach6_cb[0]
+      type: text
+      label: Attach6 Cb
+      required: false
+      width: full
+    - name: sig_atty_date_ft
+      pdf_field_name: GC-215[0].Page2_sb[0].SigAttyDate_ft[0]
+      type: date
+      label: Sig Atty Date Ft
+      required: false
+      width: half
+    - name: sig_atty_name
+      pdf_field_name: GC-215[0].Page2_sb[0].SigAttyName[0]
+      type: text
+      label: Sig Atty Name
+      required: false
+      width: full
+    - name: sig_obj_date
+      pdf_field_name: GC-215[0].Page2_sb[0].SigObjDate[0]
+      type: date
+      label: Sig Obj Date
+      required: false
+      width: half
+    - name: obj1name
+      pdf_field_name: GC-215[0].Page2_sb[0].Obj1Name[0]
+      type: text
+      label: Obj1 Name
+      required: false
+      width: full
+    - name: obj2name
+      pdf_field_name: GC-215[0].Page2_sb[0].Obj2Name[0]
+      type: text
+      label: Obj2 Name
+      required: false
+      width: full
+    - name: sig_last_attach_cb
+      pdf_field_name: GC-215[0].Page2_sb[0].AddlSigLastAttach[0].SigLastAttach_cb[0]
+      type: text
+      label: Sig Last Attach Cb
+      required: false
+      width: full

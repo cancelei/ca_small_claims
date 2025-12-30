@@ -1,0 +1,500 @@
+---
+form:
+  code: CARE-101
+  title: CARE 101 Form
+  description: ''
+  category: civil/care
+  pdf_filename: care101.pdf
+  fillable: true
+  instructions: ''
+sections:
+  footer_sub:
+    title: Footer Sub
+    fields:
+    - name: court_link
+      pdf_field_name: CARE-101[0].#pageSet[0].Page1[0].FooterSub[0].CourtLink[0]
+      type: checkbox
+      label: Court Link
+      required: false
+      width: full
+  last_page:
+    title: Last Page
+    fields:
+    - name: print
+      pdf_field_name: CARE-101[0].#pageSet[0].LastPage[0].FooterButtons[0].Print[0]
+      type: checkbox
+      label: Print
+      required: false
+      width: full
+    - name: save
+      pdf_field_name: CARE-101[0].#pageSet[0].LastPage[0].FooterButtons[0].Save[0]
+      type: checkbox
+      label: Save
+      required: false
+      width: full
+    - name: reset
+      pdf_field_name: CARE-101[0].#pageSet[0].LastPage[0].FooterButtons[0].Reset[0]
+      type: checkbox
+      label: Reset
+      required: false
+      width: full
+    - name: warning
+      pdf_field_name: CARE-101[0].#pageSet[0].LastPage[0].FooterButtons[0].Warning[0]
+      type: checkbox
+      label: Warning
+      required: false
+      width: full
+  p1_caption:
+    title: P1 Caption
+    fields:
+    - name: atty_bar_no
+      pdf_field_name: CARE-101[0].Page1[0].P1Caption[0].AttyPartyInfo[0].AttyBarNo[0]
+      type: text
+      label: Atty Bar No
+      required: false
+      width: full
+    - name: name
+      pdf_field_name: CARE-101[0].Page1[0].P1Caption[0].AttyPartyInfo[0].Name[0]
+      type: text
+      label: Name
+      required: false
+      width: full
+    - name: atty_firm
+      pdf_field_name: CARE-101[0].Page1[0].P1Caption[0].AttyPartyInfo[0].AttyFirm[0]
+      type: text
+      label: Atty Firm
+      required: false
+      width: full
+    - name: street
+      pdf_field_name: CARE-101[0].Page1[0].P1Caption[0].AttyPartyInfo[0].Street[0]
+      type: address
+      label: Street
+      required: false
+      width: full
+    - name: city
+      pdf_field_name: CARE-101[0].Page1[0].P1Caption[0].AttyPartyInfo[0].City[0]
+      type: address
+      label: City
+      required: false
+      width: full
+    - name: state
+      pdf_field_name: CARE-101[0].Page1[0].P1Caption[0].AttyPartyInfo[0].State[0]
+      type: address
+      label: State
+      required: false
+      width: full
+    - name: zip
+      pdf_field_name: CARE-101[0].Page1[0].P1Caption[0].AttyPartyInfo[0].Zip[0]
+      type: address
+      label: Zip
+      required: false
+      width: full
+    - name: phone
+      pdf_field_name: CARE-101[0].Page1[0].P1Caption[0].AttyPartyInfo[0].Phone[0]
+      type: tel
+      label: Phone
+      required: false
+      width: half
+    - name: fax
+      pdf_field_name: CARE-101[0].Page1[0].P1Caption[0].AttyPartyInfo[0].Fax[0]
+      type: tel
+      label: Fax
+      required: false
+      width: half
+    - name: email
+      pdf_field_name: CARE-101[0].Page1[0].P1Caption[0].AttyPartyInfo[0].Email[0]
+      type: email
+      label: Email
+      required: false
+      width: half
+    - name: atty_for
+      pdf_field_name: CARE-101[0].Page1[0].P1Caption[0].AttyPartyInfo[0].AttyFor[0]
+      type: text
+      label: Atty For
+      required: false
+      width: full
+    - name: crt_county
+      pdf_field_name: CARE-101[0].Page1[0].P1Caption[0].CourtInfo[0].CrtCounty[0]
+      type: number
+      label: Crt County
+      required: false
+      width: third
+    - name: crt_street
+      pdf_field_name: CARE-101[0].Page1[0].P1Caption[0].CourtInfo[0].CrtStreet[0]
+      type: address
+      label: Crt Street
+      required: false
+      width: full
+    - name: crt_mailing_add
+      pdf_field_name: CARE-101[0].Page1[0].P1Caption[0].CourtInfo[0].CrtMailingAdd[0]
+      type: address
+      label: Crt Mailing Add
+      required: false
+      width: full
+    - name: crt_branch
+      pdf_field_name: CARE-101[0].Page1[0].P1Caption[0].CourtInfo[0].CrtBranch[0]
+      type: text
+      label: Crt Branch
+      required: false
+      width: full
+    - name: crt_city_zip
+      pdf_field_name: CARE-101[0].Page1[0].P1Caption[0].CourtInfo[0].CrtCityZip[0]
+      type: address
+      label: Crt City Zip
+      required: false
+      width: full
+    - name: party1
+      pdf_field_name: CARE-101[0].Page1[0].P1Caption[0].TitlePartyName[0].Party1[0]
+      type: text
+      label: Party
+      required: false
+      width: full
+    - name: case_number
+      pdf_field_name: CARE-101[0].Page1[0].P1Caption[0].CaseNumber[0].CaseNumber[0]
+      type: text
+      label: Case Number
+      required: false
+      width: full
+      shared_key: case:number
+  list:
+    title: List
+    fields:
+    - name: decl_name
+      pdf_field_name: CARE-101[0].Page1[0].List1[0].Li1[0].DeclName[0]
+      type: text
+      label: Decl Name
+      required: false
+      width: full
+    - name: decl_contact_info
+      pdf_field_name: CARE-101[0].Page1[0].List2[0].Li1[0].DeclContactInfo[0]
+      type: text
+      label: Decl Contact Info
+      required: false
+      width: full
+    - name: item3ab
+      pdf_field_name: CARE-101[0].Page1[0].List3[0].Li1[0].Item3ab[0]
+      type: text
+      label: Item3ab
+      required: false
+      width: full
+    - name: valid_c_alicense3a
+      pdf_field_name: CARE-101[0].Page1[0].List3[0].Li1[0].Item3a12345[0].List1[0].validCAlicense3a[0]
+      type: text
+      label: Valid C Alicense3a
+      required: false
+      width: full
+    - name: valid_c_alicense3a_2
+      pdf_field_name: CARE-101[0].Page1[0].List3[0].Li1[0].Item3a12345[0].List2[0].validCAlicense3a[0]
+      type: text
+      label: Valid C Alicense3a
+      required: false
+      width: full
+    - name: valid_c_alicense3a_2
+      pdf_field_name: CARE-101[0].Page1[0].List3[0].Li1[0].Item3a12345[0].List3[0].validCAlicense3a[0]
+      type: text
+      label: Valid C Alicense3a
+      required: false
+      width: full
+    - name: valid_c_alicense3a_2
+      pdf_field_name: CARE-101[0].Page1[0].List3[0].Li1[0].Item3a12345[0].List4[0].validCAlicense3a[0]
+      type: text
+      label: Valid C Alicense3a
+      required: false
+      width: full
+    - name: valid_c_alicense3a_2
+      pdf_field_name: CARE-101[0].Page1[0].List3[0].Li1[0].Item3a12345[0].List5[0].validCAlicense3a[0]
+      type: text
+      label: Valid C Alicense3a
+      required: false
+      width: full
+    - name: item3ab_2
+      pdf_field_name: CARE-101[0].Page1[0].List3[0].Li2[0].Item3ab[0]
+      type: text
+      label: Item3ab
+      required: false
+      width: full
+    - name: item3b_cb
+      pdf_field_name: CARE-101[0].Page1[0].List3[0].Li2[0].Item3b123[0].Li1[0].item3b_CB[0]
+      type: text
+      label: Item3b Cb
+      required: false
+      width: full
+    - name: employedas1
+      pdf_field_name: CARE-101[0].Page1[0].List3[0].Li2[0].Item3b123[0].Li1[0].PsychCB[0].employedas1[0]
+      type: text
+      label: Employedas
+      required: false
+      width: full
+    - name: employedas1_2
+      pdf_field_name: CARE-101[0].Page1[0].List3[0].Li2[0].Item3b123[0].Li1[0].LCSWCB[0].employedas1[0]
+      type: text
+      label: Employedas
+      required: false
+      width: full
+    - name: item3b_cb_2
+      pdf_field_name: CARE-101[0].Page1[0].List3[0].Li2[0].Item3b123[0].Li2[0].item3b_CB[0]
+      type: text
+      label: Item3b Cb
+      required: false
+      width: full
+    - name: cb3b2
+      pdf_field_name: CARE-101[0].Page1[0].List3[0].Li2[0].Item3b123[0].Li2[0].List3b2abc[0].Li1[0].cb3b2[0]
+      type: text
+      label: Cb3b
+      required: false
+      width: full
+    - name: cb3b2_2
+      pdf_field_name: CARE-101[0].Page1[0].List3[0].Li2[0].Item3b123[0].Li2[0].List3b2abc[0].Li2[0].cb3b2[0]
+      type: text
+      label: Cb3b
+      required: false
+      width: full
+    - name: cb3b2_2
+      pdf_field_name: CARE-101[0].Page1[0].List3[0].Li2[0].Item3b123[0].Li2[0].List3b2abc[0].Li3[0].cb3b2[0]
+      type: text
+      label: Cb3b
+      required: false
+      width: full
+    - name: item3b_cb_2
+      pdf_field_name: CARE-101[0].Page1[0].List3[0].Li2[0].Item3b123[0].Li3[0].item3b_CB[0]
+      type: text
+      label: Item3b Cb
+      required: false
+      width: full
+    - name: party1_2
+      pdf_field_name: CARE-101[0].Page2[0].List4[0].Party1[0]
+      type: text
+      label: Party
+      required: false
+      width: full
+    - name: respondentis4a
+      pdf_field_name: CARE-101[0].Page2[0].List4[0].Is[0].respondentis4a[0]
+      type: text
+      label: Respondentis4a
+      required: false
+      width: full
+    - name: respondentis4a_2
+      pdf_field_name: CARE-101[0].Page2[0].List4[0].IsNot[0].respondentis4a[0]
+      type: text
+      label: Respondentis4a
+      required: false
+      width: full
+    - name: cb5ab
+      pdf_field_name: CARE-101[0].Page2[0].List5[0].Li1[0].cb5ab[0]
+      type: text
+      label: Cb5ab
+      required: false
+      width: full
+    - name: dateofexam
+      pdf_field_name: CARE-101[0].Page2[0].List5[0].Li1[0].dateofexam[0]
+      type: date
+      label: Dateofexam
+      required: false
+      width: half
+    - name: cb5ab_2
+      pdf_field_name: CARE-101[0].Page2[0].List5[0].Li2[0].cb5ab[0]
+      type: text
+      label: Cb5ab
+      required: false
+      width: full
+    - name: attempt_dates
+      pdf_field_name: CARE-101[0].Page2[0].List5[0].Li2[0].AttemptDates[0]
+      type: date
+      label: Attempt Dates
+      required: false
+      width: half
+    - name: item6tf
+      pdf_field_name: CARE-101[0].Page2[0].List6[0].Li1[0].Item6Tf[0]
+      type: text
+      label: Item6 Tf
+      required: false
+      width: full
+    - name: item7a_tf
+      pdf_field_name: CARE-101[0].Page2[0].List7[0].Li1[0].Item7aTf[0]
+      type: text
+      label: Item7a Tf
+      required: false
+      width: full
+    - name: item7b1tf
+      pdf_field_name: CARE-101[0].Page2[0].List7[0].Li2[0].Item7b1Tf[0]
+      type: text
+      label: Item7b1 Tf
+      required: false
+      width: full
+    - name: cb8
+      pdf_field_name: CARE-101[0].Page4[0].List8[0].Li1[0].cb8[0]
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: cb8cb
+      pdf_field_name: CARE-101[0].Page4[0].List8[0].Li1[0].AsFollows[0].cb8CB[0]
+      type: text
+      label: Cb8 Cb
+      required: false
+      width: full
+    - name: cb8cb_2
+      pdf_field_name: CARE-101[0].Page4[0].List8[0].Li1[0].OnAtt8[0].cb8CB[0]
+      type: text
+      label: Cb8 Cb
+      required: false
+      width: full
+    - name: tf8
+      pdf_field_name: CARE-101[0].Page4[0].List8[0].Li1[0].Tf8[0]
+      type: text
+      label: Tf
+      required: false
+      width: full
+  p2_caption:
+    title: P2 Caption
+    fields:
+    - name: party1_2
+      pdf_field_name: CARE-101[0].Page2[0].P2Caption[0].TitlePartyName[0].Party1[0]
+      type: text
+      label: Party
+      required: false
+      width: full
+    - name: case_number_2
+      pdf_field_name: CARE-101[0].Page2[0].P2Caption[0].CaseNumber[0].CaseNumber[0]
+      type: text
+      label: Case Number
+      required: false
+      width: full
+      shared_key: case:number
+  list3_cont:
+    title: List3 Cont
+    fields:
+    - name: item3b_cb_2
+      pdf_field_name: CARE-101[0].Page2[0].List3Cont[0].Li1[0].item3b_CB[0]
+      type: text
+      label: Item3b Cb
+      required: false
+      width: full
+    - name: license3b4cb
+      pdf_field_name: CARE-101[0].Page2[0].List3Cont[0].Li1[0].List3b4abcd[0].Li1[0].license3b4cb[0]
+      type: text
+      label: License3b4cb
+      required: false
+      width: full
+    - name: license3b4cb_2
+      pdf_field_name: CARE-101[0].Page2[0].List3Cont[0].Li1[0].List3b4abcd[0].Li2[0].license3b4cb[0]
+      type: text
+      label: License3b4cb
+      required: false
+      width: full
+    - name: license3b4cb_2
+      pdf_field_name: CARE-101[0].Page2[0].List3Cont[0].Li1[0].List3b4abcd[0].Li3[0].license3b4cb[0]
+      type: text
+      label: License3b4cb
+      required: false
+      width: full
+    - name: license3b4cb_2
+      pdf_field_name: CARE-101[0].Page2[0].List3Cont[0].Li1[0].List3b4abcd[0].Li4[0].license3b4cb[0]
+      type: text
+      label: License3b4cb
+      required: false
+      width: full
+  p3_caption:
+    title: P3 Caption
+    fields:
+    - name: party1_2
+      pdf_field_name: CARE-101[0].Page3[0].P3Caption[0].TitlePartyName[0].Party1[0]
+      type: text
+      label: Party
+      required: false
+      width: full
+    - name: case_number_2
+      pdf_field_name: CARE-101[0].Page3[0].P3Caption[0].CaseNumber[0].CaseNumber[0]
+      type: text
+      label: Case Number
+      required: false
+      width: full
+      shared_key: case:number
+  list7_cont:
+    title: List7 Cont
+    fields:
+    - name: tf7b2
+      pdf_field_name: CARE-101[0].Page3[0].List7Cont[0].Li7bCont[0].List[0].Li1[0].Tf7b2[0]
+      type: text
+      label: Tf7b
+      required: false
+      width: full
+    - name: tf7b3
+      pdf_field_name: CARE-101[0].Page3[0].List7Cont[0].Li7bCont[0].List[0].Li2[0].Tf7b3[0]
+      type: text
+      label: Tf7b
+      required: false
+      width: full
+    - name: tf7c
+      pdf_field_name: CARE-101[0].Page3[0].List7Cont[0].Li7c[0].Tf7c[0]
+      type: text
+      label: Tf7c
+      required: false
+      width: full
+    - name: cb7d1
+      pdf_field_name: CARE-101[0].Page3[0].List7Cont[0].Li7d[0].List[0].List7d1[0].cb7d1[0]
+      type: text
+      label: Cb7d
+      required: false
+      width: full
+    - name: tf7d1
+      pdf_field_name: CARE-101[0].Page3[0].List7Cont[0].Li7d[0].List[0].List7d1[0].Tf7d1[0]
+      type: text
+      label: Tf7d
+      required: false
+      width: full
+    - name: cb7d2
+      pdf_field_name: CARE-101[0].Page3[0].List7Cont[0].Li7d[0].List[0].List7d2[0].cb7d2[0]
+      type: text
+      label: Cb7d
+      required: false
+      width: full
+    - name: tf7d2
+      pdf_field_name: CARE-101[0].Page3[0].List7Cont[0].Li7d[0].List[0].List7d2[0].Tf7d2[0]
+      type: text
+      label: Tf7d
+      required: false
+      width: full
+    - name: tf7e
+      pdf_field_name: CARE-101[0].Page4[0].List7Cont2[0].Li7e[0].Tf7e[0]
+      type: text
+      label: Tf7e
+      required: false
+      width: full
+    - name: tf7f
+      pdf_field_name: CARE-101[0].Page4[0].List7Cont2[0].Li7f[0].Tf7f[0]
+      type: text
+      label: Tf7f
+      required: false
+      width: full
+  p4_caption:
+    title: P4 Caption
+    fields:
+    - name: party1_2
+      pdf_field_name: CARE-101[0].Page4[0].P4Caption[0].TitlePartyName[0].Party1[0]
+      type: text
+      label: Party
+      required: false
+      width: full
+    - name: case_number_2
+      pdf_field_name: CARE-101[0].Page4[0].P4Caption[0].CaseNumber[0].CaseNumber[0]
+      type: text
+      label: Case Number
+      required: false
+      width: full
+      shared_key: case:number
+  pop_decl:
+    title: Pop Decl
+    fields:
+    - name: sig_date
+      pdf_field_name: CARE-101[0].Page4[0].PopDecl[0].SigDate[0]
+      type: date
+      label: Sig Date
+      required: false
+      width: half
+    - name: decl_name_2
+      pdf_field_name: CARE-101[0].Page4[0].PopDecl[0].DeclName[0]
+      type: text
+      label: Decl Name
+      required: false
+      width: full

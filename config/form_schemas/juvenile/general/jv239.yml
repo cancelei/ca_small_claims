@@ -1,0 +1,555 @@
+---
+form:
+  code: JV-239
+  title: JV 239 Form
+  description: ''
+  category: juvenile/general
+  pdf_filename: jv239.pdf
+  fillable: true
+  instructions: ''
+sections:
+  p1_footer:
+    title: P1 Footer
+    fields:
+    - name: court_link
+      pdf_field_name: JV-239[0].#pageSet[0].Page1[0].P1Footer[0].CourtLink[0]
+      type: checkbox
+      label: Court Link
+      required: false
+      width: full
+  last_page:
+    title: Last Page
+    fields:
+    - name: warning
+      pdf_field_name: JV-239[0].#pageSet[0].LastPage[0].PXFooter[0].FooterButtons[0].Warning[0]
+      type: checkbox
+      label: Warning
+      required: false
+      width: full
+    - name: print
+      pdf_field_name: JV-239[0].#pageSet[0].LastPage[0].PXFooter[0].FooterButtons[0].Print[0]
+      type: checkbox
+      label: Print
+      required: false
+      width: full
+    - name: save
+      pdf_field_name: JV-239[0].#pageSet[0].LastPage[0].PXFooter[0].FooterButtons[0].Save[0]
+      type: checkbox
+      label: Save
+      required: false
+      width: full
+    - name: reset
+      pdf_field_name: JV-239[0].#pageSet[0].LastPage[0].PXFooter[0].FooterButtons[0].Reset[0]
+      type: checkbox
+      label: Reset
+      required: false
+      width: full
+  header_sub:
+    title: Header Sub
+    fields:
+    - name: case_number
+      pdf_field_name: JV-239[0].Page1[0].Header_Sub[0].CaseNum[0].CaseNumber[0]
+      type: text
+      label: Case Number
+      required: false
+      width: full
+      shared_key: case:number
+  att_info:
+    title: Att Info
+    fields:
+    - name: atty_bar_no
+      pdf_field_name: JV-239[0].Page1[0].AttInfo[0].AttyBarNo[0]
+      type: text
+      label: Atty Bar No
+      required: false
+      width: full
+    - name: name
+      pdf_field_name: JV-239[0].Page1[0].AttInfo[0].Name[0]
+      type: text
+      label: Name
+      required: false
+      width: full
+    - name: atty_firm
+      pdf_field_name: JV-239[0].Page1[0].AttInfo[0].AttyFirm[0]
+      type: text
+      label: Atty Firm
+      required: false
+      width: full
+    - name: street
+      pdf_field_name: JV-239[0].Page1[0].AttInfo[0].Street[0]
+      type: address
+      label: Street
+      required: false
+      width: full
+    - name: city
+      pdf_field_name: JV-239[0].Page1[0].AttInfo[0].City[0]
+      type: address
+      label: City
+      required: false
+      width: full
+    - name: state
+      pdf_field_name: JV-239[0].Page1[0].AttInfo[0].State[0]
+      type: address
+      label: State
+      required: false
+      width: full
+    - name: zip
+      pdf_field_name: JV-239[0].Page1[0].AttInfo[0].Zip[0]
+      type: address
+      label: Zip
+      required: false
+      width: full
+    - name: phone
+      pdf_field_name: JV-239[0].Page1[0].AttInfo[0].Phone[0]
+      type: tel
+      label: Phone
+      required: false
+      width: half
+    - name: fax
+      pdf_field_name: JV-239[0].Page1[0].AttInfo[0].Fax[0]
+      type: tel
+      label: Fax
+      required: false
+      width: half
+    - name: email
+      pdf_field_name: JV-239[0].Page1[0].AttInfo[0].Email[0]
+      type: email
+      label: Email
+      required: false
+      width: half
+    - name: atty_for
+      pdf_field_name: JV-239[0].Page1[0].AttInfo[0].AttyFor[0]
+      type: text
+      label: Atty For
+      required: false
+      width: full
+  court_info:
+    title: Court Info
+    fields:
+    - name: crt_county
+      pdf_field_name: JV-239[0].Page1[0].CourtInfo[0].CrtCounty[0]
+      type: number
+      label: Crt County
+      required: false
+      width: third
+    - name: crt_street
+      pdf_field_name: JV-239[0].Page1[0].CourtInfo[0].CrtStreet[0]
+      type: address
+      label: Crt Street
+      required: false
+      width: full
+    - name: crt_mailing_add
+      pdf_field_name: JV-239[0].Page1[0].CourtInfo[0].CrtMailingAdd[0]
+      type: address
+      label: Crt Mailing Add
+      required: false
+      width: full
+    - name: crt_city_zip
+      pdf_field_name: JV-239[0].Page1[0].CourtInfo[0].CrtCityZip[0]
+      type: address
+      label: Crt City Zip
+      required: false
+      width: full
+    - name: crt_branch
+      pdf_field_name: JV-239[0].Page1[0].CourtInfo[0].CrtBranch[0]
+      type: text
+      label: Crt Branch
+      required: false
+      width: full
+  childsinfo:
+    title: Childsinfo
+    fields:
+    - name: non_minors_name_ft
+      pdf_field_name: JV-239[0].Page1[0].Childsinfo[0].NonMinorsName_ft[0]
+      type: text
+      label: Non Minors Name Ft
+      required: false
+      width: full
+    - name: non_minors_dob_ft
+      pdf_field_name: JV-239[0].Page1[0].Childsinfo[0].NonMinorsDOB_ft[0]
+      type: text
+      label: Non Minors Dob Ft
+      required: false
+      width: full
+  list:
+    title: List
+    fields:
+    - name: courtreviews1a
+      pdf_field_name: JV-239[0].Page1[0].List1[0].LI1[0].Courtreviews1a[0]
+      type: text
+      label: Courtreviews1a
+      required: false
+      width: full
+    - name: hearingdate_ft
+      pdf_field_name: JV-239[0].Page1[0].List1[0].LI1[0].List[0].Li1[0].hearingdate_ft[0]
+      type: date
+      label: Hearingdate Ft
+      required: false
+      width: half
+    - name: time_ft
+      pdf_field_name: JV-239[0].Page1[0].List1[0].LI1[0].List[0].Li1[0].time_ft[0]
+      type: text
+      label: Time Ft
+      required: false
+      width: full
+    - name: dept_tf
+      pdf_field_name: JV-239[0].Page1[0].List1[0].LI1[0].List[0].Li1[0].dept_tf[0]
+      type: text
+      label: Dept Tf
+      required: false
+      width: full
+    - name: room_tf
+      pdf_field_name: JV-239[0].Page1[0].List1[0].LI1[0].List[0].Li1[0].room_tf[0]
+      type: text
+      label: Room Tf
+      required: false
+      width: full
+    - name: judicialofficer_ft
+      pdf_field_name: JV-239[0].Page1[0].List1[0].LI1[0].List[0].Li2[0].judicialofficer_ft[0]
+      type: text
+      label: Judicialofficer Ft
+      required: false
+      width: full
+    - name: parties_ft
+      pdf_field_name: JV-239[0].Page1[0].List1[0].LI1[0].List[0].Li3[0].parties_ft[0]
+      type: text
+      label: Parties Ft
+      required: false
+      width: full
+    - name: courtreviews1a_2
+      pdf_field_name: JV-239[0].Page1[0].List1[0].LI2[0].Courtreviews1a[0]
+      type: text
+      label: Courtreviews1a
+      required: false
+      width: full
+    - name: courtreviews1a_2
+      pdf_field_name: JV-239[0].Page1[0].List1[0].LI3[0].Courtreviews1a[0]
+      type: text
+      label: Courtreviews1a
+      required: false
+      width: full
+    - name: thecourt_tf
+      pdf_field_name: JV-239[0].Page1[0].List1[0].LI3[0].thecourt_tf[0]
+      type: text
+      label: Thecourt Tf
+      required: false
+      width: full
+    - name: thereport_tf_a
+      pdf_field_name: JV-239[0].Page1[0].List2[0].LI1[0].thereport_tf_a[0]
+      type: text
+      label: Thereport Tf A
+      required: false
+      width: full
+    - name: datethereport
+      pdf_field_name: JV-239[0].Page1[0].List2[0].LI1[0].datethereport[0]
+      type: date
+      label: Datethereport
+      required: false
+      width: half
+    - name: inputonplacement
+      pdf_field_name: JV-239[0].Page1[0].List2[0].LI2[0].inputonplacement[0]
+      type: text
+      label: Inputonplacement
+      required: false
+      width: full
+    - name: input_by_tf
+      pdf_field_name: JV-239[0].Page1[0].List2[0].LI2[0].input_by_tf[0]
+      type: text
+      label: Input By Tf
+      required: false
+      width: full
+    - name: ondate_tf
+      pdf_field_name: JV-239[0].Page1[0].List2[0].LI2[0].ondate_tf[0]
+      type: date
+      label: Ondate Tf
+      required: false
+      width: half
+    - name: inputonplacement_tf
+      pdf_field_name: JV-239[0].Page1[0].List2[0].LI3[0].inputonplacement_tf[0]
+      type: text
+      label: Inputonplacement Tf
+      required: false
+      width: full
+    - name: input_by_tf_2
+      pdf_field_name: JV-239[0].Page1[0].List2[0].LI3[0].input_by_tf[0]
+      type: text
+      label: Input By Tf
+      required: false
+      width: full
+    - name: ondate_tf_2
+      pdf_field_name: JV-239[0].Page1[0].List2[0].LI3[0].ondate_tf[0]
+      type: date
+      label: Ondate Tf
+      required: false
+      width: half
+    - name: casareport
+      pdf_field_name: JV-239[0].Page1[0].List2[0].LI4[0].casareport[0]
+      type: text
+      label: Casareport
+      required: false
+      width: full
+    - name: casa_dated
+      pdf_field_name: JV-239[0].Page1[0].List2[0].LI4[0].casa_dated[0]
+      type: date
+      label: Casa Dated
+      required: false
+      width: half
+    - name: other_tf
+      pdf_field_name: JV-239[0].Page1[0].List2[0].LI5[0].other_tf[0]
+      type: text
+      label: Other Tf
+      required: false
+      width: full
+    - name: other_tf_fill
+      pdf_field_name: JV-239[0].Page1[0].List2[0].LI5[0].other_tf_fill[0]
+      type: text
+      label: Other Tf Fill
+      required: false
+      width: full
+    - name: other_f
+      pdf_field_name: JV-239[0].Page1[0].List2[0].LI6[0].other_F[0]
+      type: text
+      label: Other F
+      required: false
+      width: full
+    - name: other_f_tf
+      pdf_field_name: JV-239[0].Page1[0].List2[0].LI6[0].other_F_tf[0]
+      type: text
+      label: Other F Tf
+      required: false
+      width: full
+    - name: cb3ab
+      pdf_field_name: JV-239[0].Page1[0].List3[0].LI1[0].cb3ab[0]
+      type: text
+      label: Cb3ab
+      required: false
+      width: full
+    - name: placement3a
+      pdf_field_name: JV-239[0].Page1[0].List3[0].LI1[0].List[0].LI1[0].placement3a[0]
+      type: text
+      label: Placement3a
+      required: false
+      width: full
+    - name: placement3b
+      pdf_field_name: JV-239[0].Page1[0].List3[0].LI1[0].List[0].LI2[0].placement3b[0]
+      type: text
+      label: Placement3b
+      required: false
+      width: full
+    - name: thereport_cb_cap
+      pdf_field_name: JV-239[0].Page1[0].List3[0].LI1[0].List[0].LI3[0].thereport_cb_cap[0]
+      type: text
+      label: Thereport Cb Cap
+      required: false
+      width: full
+    - name: notice_cb_cap
+      pdf_field_name: JV-239[0].Page1[0].List3[0].LI1[0].List[0].LI4[0].notice_cb_cap[0]
+      type: text
+      label: Notice Cb Cap
+      required: false
+      width: full
+    - name: cb3ab_2
+      pdf_field_name: JV-239[0].Page1[0].List3[0].LI2[0].cb3ab[0]
+      type: text
+      label: Cb3ab
+      required: false
+      width: full
+    - name: notice_ft
+      pdf_field_name: JV-239[0].Page1[0].List3[0].LI2[0].notice_ft[0]
+      type: text
+      label: Notice Ft
+      required: false
+      width: full
+    - name: thecourt_cbcap
+      pdf_field_name: JV-239[0].Page2[0].List4[0].LI1[0].thecourt_cbcap[0]
+      type: text
+      label: Thecourt Cbcap
+      required: false
+      width: full
+    - name: thecourt_ft
+      pdf_field_name: JV-239[0].Page2[0].List4[0].LI1[0].thecourt_ft[0]
+      type: text
+      label: Thecourt Ft
+      required: false
+      width: full
+    - name: canbemet_cbcap
+      pdf_field_name: JV-239[0].Page2[0].List5[0].LI1[0].canbemet_cbcap[0]
+      type: text
+      label: Canbemet Cbcap
+      required: false
+      width: full
+    - name: canbemet_cbcap_2
+      pdf_field_name: JV-239[0].Page2[0].List5[0].LI2[0].canbemet_cbcap[0]
+      type: text
+      label: Canbemet Cbcap
+      required: false
+      width: full
+    - name: item5b
+      pdf_field_name: JV-239[0].Page2[0].List5[0].LI2[0].item5b[0]
+      type: text
+      label: Item5b
+      required: false
+      width: full
+    - name: item5b_2
+      pdf_field_name: JV-239[0].Page2[0].List5[0].LI2[0].item5b[1]
+      type: text
+      label: Item5b
+      required: false
+      width: full
+    - name: item6
+      pdf_field_name: JV-239[0].Page2[0].List6[0].LI1[0].item6[0]
+      type: text
+      label: Item
+      required: false
+      width: full
+    - name: item6_2
+      pdf_field_name: JV-239[0].Page2[0].List6[0].LI1[0].item6[1]
+      type: text
+      label: Item
+      required: false
+      width: full
+    - name: item7
+      pdf_field_name: JV-239[0].Page2[0].List7[0].LI1[0].item7[0]
+      type: text
+      label: Item
+      required: false
+      width: full
+    - name: item7_2
+      pdf_field_name: JV-239[0].Page2[0].List7[0].LI1[0].item7[1]
+      type: text
+      label: Item
+      required: false
+      width: full
+    - name: date_ft
+      pdf_field_name: JV-239[0].Page2[0].List8[0].LI1[0].date_ft[0]
+      type: date
+      label: Date Ft
+      required: false
+      width: half
+    - name: item8
+      pdf_field_name: JV-239[0].Page2[0].List8[0].LI1[0].Item8[0]
+      type: text
+      label: Item
+      required: false
+      width: full
+    - name: item8_2
+      pdf_field_name: JV-239[0].Page2[0].List8[0].LI1[0].Item8[1]
+      type: text
+      label: Item
+      required: false
+      width: full
+    - name: thecourt_cbcap_2
+      pdf_field_name: JV-239[0].Page2[0].List9[0].LI1[0].thecourt_cbcap[0]
+      type: text
+      label: Thecourt Cbcap
+      required: false
+      width: full
+    - name: theplacement_cbcap
+      pdf_field_name: JV-239[0].Page2[0].List9[0].LI2[0].theplacement_cbcap[0]
+      type: text
+      label: Theplacement Cbcap
+      required: false
+      width: full
+    - name: item9b
+      pdf_field_name: JV-239[0].Page2[0].List9[0].LI2[0].item9b[0]
+      type: text
+      label: Item9b
+      required: false
+      width: full
+    - name: item9b_2
+      pdf_field_name: JV-239[0].Page2[0].List9[0].LI2[0].item9b[1]
+      type: text
+      label: Item9b
+      required: false
+      width: full
+    - name: thechild_cbcap
+      pdf_field_name: JV-239[0].Page2[0].List9[0].LI3[0].thechild_cbcap[0]
+      type: text
+      label: Thechild Cbcap
+      required: false
+      width: full
+    - name: another_cbcap
+      pdf_field_name: JV-239[0].Page2[0].List9[0].LI4[0].another_cbcap[0]
+      type: text
+      label: Another Cbcap
+      required: false
+      width: full
+    - name: other_cbcap
+      pdf_field_name: JV-239[0].Page2[0].List9[0].LI5[0].other_cbcap[0]
+      type: text
+      label: Other Cbcap
+      required: false
+      width: full
+    - name: other_ft
+      pdf_field_name: JV-239[0].Page2[0].List9[0].LI5[0].other_ft[0]
+      type: text
+      label: Other Ft
+      required: false
+      width: full
+    - name: otherorder
+      pdf_field_name: JV-239[0].Page2[0].List10[0].LI1[0].otherorder[0]
+      type: text
+      label: Otherorder
+      required: false
+      width: full
+    - name: otherorders_ft
+      pdf_field_name: JV-239[0].Page2[0].List10[0].LI1[0].otherorders_ft[0]
+      type: text
+      label: Otherorders Ft
+      required: false
+      width: full
+    - name: hearingdate_cbcap
+      pdf_field_name: JV-239[0].Page2[0].List11[0].LI1[0].hearingdate_cbcap[0]
+      type: date
+      label: Hearingdate Cbcap
+      required: false
+      width: half
+    - name: hearing_date_tf
+      pdf_field_name: JV-239[0].Page2[0].List11[0].LI1[0].hearingDate_tf[0]
+      type: date
+      label: Hearing Date Tf
+      required: false
+      width: half
+    - name: time_tf
+      pdf_field_name: JV-239[0].Page2[0].List11[0].LI1[0].time_tf[0]
+      type: text
+      label: Time Tf
+      required: false
+      width: full
+    - name: dept_tf_2
+      pdf_field_name: JV-239[0].Page2[0].List11[0].LI1[0].Dept_tf[0]
+      type: text
+      label: Dept Tf
+      required: false
+      width: full
+    - name: room_tf_2
+      pdf_field_name: JV-239[0].Page2[0].List11[0].LI1[0].room_tf[0]
+      type: text
+      label: Room Tf
+      required: false
+      width: full
+  header:
+    title: Header
+    fields:
+    - name: non_minors_name_ft_2
+      pdf_field_name: JV-239[0].Page2[0].header2[0].NonMinorsName_ft[0]
+      type: text
+      label: Non Minors Name Ft
+      required: false
+      width: full
+    - name: case_number_2
+      pdf_field_name: JV-239[0].Page2[0].header2[0].CaseNumber[0]
+      type: text
+      label: Case Number
+      required: false
+      width: full
+      shared_key: case:number
+  date_tf:
+    title: Date Tf
+    fields:
+    - name: date_tf
+      pdf_field_name: JV-239[0].Page2[0].date_tf[0]
+      type: date
+      label: Date Tf
+      required: false
+      width: half

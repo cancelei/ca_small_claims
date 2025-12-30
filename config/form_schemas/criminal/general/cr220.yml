@@ -1,0 +1,258 @@
+---
+form:
+  code: CR-220
+  title: CR 220 Form
+  description: ''
+  category: criminal/general
+  pdf_filename: cr220.pdf
+  fillable: true
+  instructions: ''
+sections:
+  def_name_enroll:
+    title: Def Name Enroll
+    fields:
+    - name: def_name_enroll
+      pdf_field_name: CR-220[0].Page1[0].DefNameEnroll[0]
+      type: text
+      label: Def Name Enroll
+      required: false
+      width: full
+  enrollment_date:
+    title: Enrollment Date
+    fields:
+    - name: enrollment_date
+      pdf_field_name: CR-220[0].Page1[0].EnrollmentDate[0]
+      type: date
+      label: Enrollment Date
+      required: false
+      width: half
+  fill_text:
+    title: Fill Text
+    fields:
+    - name: fill_text1140
+      pdf_field_name: CR-220[0].Page1[0].FillText1140[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text56
+      pdf_field_name: CR-220[0].Page1[0].FillText56[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text1140_2
+      pdf_field_name: CR-220[0].Page1[0].FillText1140[1]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text56_2
+      pdf_field_name: CR-220[0].Page1[0].FillText56[1]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text56_2
+      pdf_field_name: CR-220[0].Page1[0].FillText56[2]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text1
+      pdf_field_name: CR-220[0].Page1[0].FillText1[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text1_2
+      pdf_field_name: CR-220[0].Page1[0].FillText1[1]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text1_2
+      pdf_field_name: CR-220[0].Page1[0].FillText1[2]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text1_2
+      pdf_field_name: CR-220[0].Page1[0].FillText1[3]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text1140_2
+      pdf_field_name: CR-220[0].Page1[0].FillText1140[2]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text56_2
+      pdf_field_name: CR-220[0].Page1[0].FillText56[3]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text1140_2
+      pdf_field_name: CR-220[0].Page1[0].FillText1140[3]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text56_2
+      pdf_field_name: CR-220[0].Page1[0].FillText56[4]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text56_2
+      pdf_field_name: CR-220[0].Page1[0].FillText56[5]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+  std_p1_header_sf:
+    title: Std P1 Header Sf
+    fields:
+    - name: crt_county
+      pdf_field_name: CR-220[0].Page1[0].StdP1Header_sf[0].CourtInfo[0].CrtCounty[0]
+      type: number
+      label: Crt County
+      required: false
+      width: third
+    - name: crt_branch
+      pdf_field_name: CR-220[0].Page1[0].StdP1Header_sf[0].CourtInfo[0].CrtBranch[0]
+      type: text
+      label: Crt Branch
+      required: false
+      width: full
+    - name: crt_city_zip
+      pdf_field_name: CR-220[0].Page1[0].StdP1Header_sf[0].CourtInfo[0].CrtCityZip[0]
+      type: address
+      label: Crt City Zip
+      required: false
+      width: full
+    - name: crt_street
+      pdf_field_name: CR-220[0].Page1[0].StdP1Header_sf[0].CourtInfo[0].CrtStreet[0]
+      type: address
+      label: Crt Street
+      required: false
+      width: full
+    - name: crt_mailing_add
+      pdf_field_name: CR-220[0].Page1[0].StdP1Header_sf[0].CourtInfo[0].CrtMailingAdd[0]
+      type: address
+      label: Crt Mailing Add
+      required: false
+      width: full
+    - name: def_name
+      pdf_field_name: CR-220[0].Page1[0].StdP1Header_sf[0].DefendantInfo[0].DefName[0]
+      type: text
+      label: Def Name
+      required: false
+      width: full
+      shared_key: defendant:name
+    - name: def_street
+      pdf_field_name: CR-220[0].Page1[0].StdP1Header_sf[0].DefendantInfo[0].DefStreet[0]
+      type: address
+      label: Def Street
+      required: false
+      width: full
+    - name: def_city
+      pdf_field_name: CR-220[0].Page1[0].StdP1Header_sf[0].DefendantInfo[0].DefCity[0]
+      type: address
+      label: Def City
+      required: false
+      width: full
+    - name: def_state
+      pdf_field_name: CR-220[0].Page1[0].StdP1Header_sf[0].DefendantInfo[0].DefState[0]
+      type: address
+      label: Def State
+      required: false
+      width: full
+    - name: def_zip
+      pdf_field_name: CR-220[0].Page1[0].StdP1Header_sf[0].DefendantInfo[0].DefZip[0]
+      type: address
+      label: Def Zip
+      required: false
+      width: full
+    - name: court_order_date
+      pdf_field_name: CR-220[0].Page1[0].StdP1Header_sf[0].CourtOrderDate[0].CourtOrderDate[0]
+      type: date
+      label: Court Order Date
+      required: false
+      width: half
+    - name: petitioner_cb
+      pdf_field_name: CR-220[0].Page1[0].StdP1Header_sf[0].FormTitle[0].petitioner_cb[0]
+      type: text
+      label: Petitioner Cb
+      required: false
+      width: full
+    - name: petitioner_cb_2
+      pdf_field_name: CR-220[0].Page1[0].StdP1Header_sf[0].FormTitle[0].#area[0].petitioner_cb[1]
+      type: text
+      label: Petitioner Cb
+      required: false
+      width: full
+    - name: case_number
+      pdf_field_name: CR-220[0].Page1[0].StdP1Header_sf[0].CaseNumber[0].CaseNumber[0]
+      type: text
+      label: Case Number
+      required: false
+      width: full
+      shared_key: case:number
+  def_name_complete:
+    title: Def Name Complete
+    fields:
+    - name: def_name_complete
+      pdf_field_name: CR-220[0].Page1[0].DefNameComplete[0]
+      type: text
+      label: Def Name Complete
+      required: false
+      width: full
+  completion_date:
+    title: Completion Date
+    fields:
+    - name: completion_date
+      pdf_field_name: CR-220[0].Page1[0].CompletionDate[0]
+      type: date
+      label: Completion Date
+      required: false
+      width: half
+  print_bt:
+    title: Print Bt
+    fields:
+    - name: print_bt
+      pdf_field_name: CR-220[0].#area[0].Print_bt[0]
+      type: checkbox
+      label: Print Bt
+      required: false
+      width: full
+  save_bt:
+    title: Save Bt
+    fields:
+    - name: save_bt
+      pdf_field_name: CR-220[0].#area[0].Save_bt[0]
+      type: checkbox
+      label: Save Bt
+      required: false
+      width: full
+  reset_bt:
+    title: Reset Bt
+    fields:
+    - name: reset_bt
+      pdf_field_name: CR-220[0].#area[0].Reset_bt[0]
+      type: checkbox
+      label: Reset Bt
+      required: false
+      width: full
+  t:
+    title: T
+    fields:
+    - name: t23
+      pdf_field_name: CR-220[0].#area[0].T23[0]
+      type: checkbox
+      label: T
+      required: false
+      width: full

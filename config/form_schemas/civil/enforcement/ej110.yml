@@ -1,0 +1,543 @@
+---
+form:
+  code: EJ-110
+  title: EJ 110 Form
+  description: ''
+  category: civil/enforcement
+  pdf_filename: ej110.pdf
+  fillable: true
+  instructions: ''
+sections:
+  p1_caption:
+    title: P1 Caption
+    fields:
+    - name: case_number
+      pdf_field_name: EJ-110[0].Page1[0].P1Caption[0].captionSub[0].CaseNumber[0].CaseNumber[0]
+      type: text
+      label: Case Number
+      required: false
+      width: full
+      shared_key: case:number
+    - name: text_field1
+      pdf_field_name: EJ-110[0].Page1[0].P1Caption[0].AttyPartyInfo[0].TextField1[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: phone
+      pdf_field_name: EJ-110[0].Page1[0].P1Caption[0].AttyPartyInfo[0].Phone[0]
+      type: tel
+      label: Phone
+      required: false
+      width: half
+    - name: email
+      pdf_field_name: EJ-110[0].Page1[0].P1Caption[0].AttyPartyInfo[0].Email[0]
+      type: email
+      label: Email
+      required: false
+      width: half
+    - name: crt_county
+      pdf_field_name: EJ-110[0].Page1[0].P1Caption[0].CourtInfo[0].CrtCounty[0]
+      type: number
+      label: Crt County
+      required: false
+      width: third
+    - name: crt_street
+      pdf_field_name: EJ-110[0].Page1[0].P1Caption[0].CourtInfo[0].CrtStreet[0]
+      type: address
+      label: Crt Street
+      required: false
+      width: full
+    - name: crt_mailing_add
+      pdf_field_name: EJ-110[0].Page1[0].P1Caption[0].CourtInfo[0].CrtMailingAdd[0]
+      type: address
+      label: Crt Mailing Add
+      required: false
+      width: full
+    - name: crt_city_zip
+      pdf_field_name: EJ-110[0].Page1[0].P1Caption[0].CourtInfo[0].CrtCityZip[0]
+      type: address
+      label: Crt City Zip
+      required: false
+      width: full
+    - name: crt_branch
+      pdf_field_name: EJ-110[0].Page1[0].P1Caption[0].CourtInfo[0].CrtBranch[0]
+      type: text
+      label: Crt Branch
+      required: false
+      width: full
+    - name: party1
+      pdf_field_name: EJ-110[0].Page1[0].P1Caption[0].TitlePartyName[0].Party1[0]
+      type: text
+      label: Party
+      required: false
+      width: full
+    - name: party2
+      pdf_field_name: EJ-110[0].Page1[0].P1Caption[0].TitlePartyName[0].Party2[0]
+      type: text
+      label: Party
+      required: false
+      width: full
+  list:
+    title: List
+    fields:
+    - name: judgment_debtorname1
+      pdf_field_name: EJ-110[0].Page1[0].List1[0].item1[0].JudgmentDebtorname1[0]
+      type: currency
+      label: Judgment Debtorname
+      required: false
+      width: third
+    - name: judgment_debtorname2
+      pdf_field_name: EJ-110[0].Page1[0].List1[0].item1[0].JudgmentDebtorname2[0]
+      type: currency
+      label: Judgment Debtorname
+      required: false
+      width: third
+    - name: judgment_creditor_name
+      pdf_field_name: EJ-110[0].Page1[0].List2[0].Lia[0].SubLia[0].SubLIA1[0].JudgmentCreditorName[0]
+      type: text
+      label: Judgment Creditor Name
+      required: false
+      width: full
+    - name: judgment_creditor_name2
+      pdf_field_name: EJ-110[0].Page1[0].List2[0].Lia[0].SubLia[0].SubLIA1[0].JudgmentCreditorName2[0]
+      type: text
+      label: Judgment Creditor Name
+      required: false
+      width: full
+    - name: amount_judgment
+      pdf_field_name: EJ-110[0].Page1[0].List2[0].Lia[0].SubLia[0].SubLIA2[0].AmountJudgment[0]
+      type: currency
+      label: Amount Judgment
+      required: false
+      width: third
+    - name: sister_statename
+      pdf_field_name: EJ-110[0].Page1[0].List2[0].Lib[0].SubLib[0].SubLIB1[0].SisterStatename[0]
+      type: address
+      label: Sister Statename
+      required: false
+      width: full
+    - name: sisterstatecourtnameandlocation
+      pdf_field_name: EJ-110[0].Page1[0].List2[0].Lib[0].SubLib[0].SubLIb2[0].Sisterstatecourtnameandlocation[0]
+      type: address
+      label: Sisterstatecourtnameandlocation
+      required: false
+      width: full
+      shared_key: court:name
+    - name: sisterstatecourtnameandlocation2
+      pdf_field_name: EJ-110[0].Page1[0].List2[0].Lib[0].SubLib[0].SubLIb2[0].Sisterstatecourtnameandlocation2[0]
+      type: address
+      label: Sisterstatecourtnameandlocation
+      required: false
+      width: full
+      shared_key: court:name
+    - name: on_date_ft
+      pdf_field_name: EJ-110[0].Page1[0].List2[0].Lib[0].SubLib[0].SubLIB3[0].on_date_ft[0]
+      type: date
+      label: On Date Ft
+      required: false
+      width: half
+    - name: titleof_case_case_number
+      pdf_field_name: EJ-110[0].Page1[0].List2[0].Lib[0].SubLib[0].SubLIB4[0].TitleofCaseCaseNumber[0]
+      type: text
+      label: Titleof Case Case Number
+      required: false
+      width: full
+      shared_key: case:number
+    - name: titleof_case_case_number2
+      pdf_field_name: EJ-110[0].Page1[0].List2[0].Lib[0].SubLib[0].SubLIB4[0].TitleofCaseCaseNumber2[0]
+      type: text
+      label: Titleof Case Case Number
+      required: false
+      width: full
+      shared_key: case:number
+    - name: cb1
+      pdf_field_name: EJ-110[0].Page1[0].List4[0].CB1[0]
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: cb2
+      pdf_field_name: EJ-110[0].Page1[0].List4[0].LIA[0].CB2[0]
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: cb113
+      pdf_field_name: EJ-110[0].Page1[0].List4[0].LIB[0].CB113[0]
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: under_fictitious_name
+      pdf_field_name: EJ-110[0].Page1[0].List4[0].LIB[0].UnderFictitiousName[0]
+      type: text
+      label: Under Fictitious Name
+      required: false
+      width: full
+    - name: under_fictitious_name2
+      pdf_field_name: EJ-110[0].Page1[0].List4[0].LIB[0].UnderFictitiousName2[0]
+      type: text
+      label: Under Fictitious Name
+      required: false
+      width: full
+    - name: check_box61
+      pdf_field_name: EJ-110[0].Page1[0].List4[0].LIC[0].CheckBox61[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: onbehalf_of_specify
+      pdf_field_name: EJ-110[0].Page1[0].List4[0].LIC[0].OnbehalfOfSpecify[0]
+      type: text
+      label: Onbehalf Of Specify
+      required: false
+      width: full
+    - name: onbehalf_of_specify2
+      pdf_field_name: EJ-110[0].Page1[0].List4[0].LIC[0].OnbehalfOfSpecify2[0]
+      type: text
+      label: Onbehalf Of Specify
+      required: false
+      width: full
+    - name: cb5
+      pdf_field_name: EJ-110[0].Page1[0].List4[0].Under[0].CB5[0]
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: cb6
+      pdf_field_name: EJ-110[0].Page1[0].List4[0].Under[0].CB6[0]
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: cb7
+      pdf_field_name: EJ-110[0].Page1[0].List4[0].Under[0].CB7[0]
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: cb8
+      pdf_field_name: EJ-110[0].Page1[0].List4[0].Under[0].CB8[0]
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: cb9
+      pdf_field_name: EJ-110[0].Page1[0].List4[0].Under[0].CB9[0]
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: cb10
+      pdf_field_name: EJ-110[0].Page1[0].List4[0].Under[0].CB10[0]
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: cb11
+      pdf_field_name: EJ-110[0].Page1[0].List4[0].Under[0].CB11[0]
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: other
+      pdf_field_name: EJ-110[0].Page1[0].List4[0].Under[0].Other[0]
+      type: text
+      label: Other
+      required: false
+      width: full
+    - name: served_notice
+      pdf_field_name: EJ-110[0].Page2[0].List1[0].ServedNotice[0]
+      type: date
+      label: Served Notice
+      required: false
+      width: half
+    - name: judgmentdebtor_name
+      pdf_field_name: EJ-110[0].Page2[0].List1[0].LIA[0].JudgmentdebtorName[0]
+      type: currency
+      label: Judgmentdebtor Name
+      required: false
+      width: third
+    - name: serving1
+      pdf_field_name: EJ-110[0].Page2[0].List1[0].LIB[0].Serving1[0]
+      type: text
+      label: Serving
+      required: false
+      width: full
+    - name: serving1_2
+      pdf_field_name: EJ-110[0].Page2[0].List1[0].LIB[0].Serving1[1]
+      type: text
+      label: Serving
+      required: false
+      width: full
+    - name: fill_text13
+      pdf_field_name: EJ-110[0].Page2[0].List1[0].LIB[0].FillText13[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: service
+      pdf_field_name: EJ-110[0].Page2[0].List1[0].LIC[0].service[0]
+      type: text
+      label: Service
+      required: false
+      width: full
+    - name: deliveryadd
+      pdf_field_name: EJ-110[0].Page2[0].List1[0].LIC[0].deliveryadd[0]
+      type: text
+      label: Deliveryadd
+      required: false
+      width: full
+    - name: deliveryadd_2
+      pdf_field_name: EJ-110[0].Page2[0].List1[0].LIC[0].deliveryadd[1]
+      type: text
+      label: Deliveryadd
+      required: false
+      width: full
+    - name: date_field1
+      pdf_field_name: EJ-110[0].Page2[0].List1[0].LIC[0].SubListC[0].SubLI1[0].DateField1[0]
+      type: date
+      label: Date Field
+      required: false
+      width: half
+    - name: time
+      pdf_field_name: EJ-110[0].Page2[0].List1[0].LIC[0].SubListC[0].SubLI2[0].Time[0]
+      type: text
+      label: Time
+      required: false
+      width: full
+    - name: addressto
+      pdf_field_name: EJ-110[0].Page2[0].List1[0].LIC[0].SubListC[0].SubLI3[0].Addressto[0]
+      type: address
+      label: Addressto
+      required: false
+      width: full
+    - name: service_2
+      pdf_field_name: EJ-110[0].Page2[0].List1[0].LID[0].service[0]
+      type: text
+      label: Service
+      required: false
+      width: full
+    - name: date_field3
+      pdf_field_name: EJ-110[0].Page2[0].List1[0].LID[0].SubLID[0].SubLID1[0].DateField3[0]
+      type: date
+      label: Date Field
+      required: false
+      width: half
+    - name: mailngaddress
+      pdf_field_name: EJ-110[0].Page2[0].List1[0].LID[0].SubLID[0].SubLID2[0].Mailngaddress[0]
+      type: address
+      label: Mailngaddress
+      required: false
+      width: full
+    - name: manner
+      pdf_field_name: EJ-110[0].Page2[0].List2[0].LIA[0].manner[0]
+      type: text
+      label: Manner
+      required: false
+      width: full
+    - name: manner_2
+      pdf_field_name: EJ-110[0].Page2[0].List2[0].LIB[0].manner[0]
+      type: text
+      label: Manner
+      required: false
+      width: full
+    - name: manner_2
+      pdf_field_name: EJ-110[0].Page2[0].List2[0].LIC[0].manner[0]
+      type: text
+      label: Manner
+      required: false
+      width: full
+    - name: manner_2
+      pdf_field_name: EJ-110[0].Page2[0].List2[0].LID[0].manner[0]
+      type: text
+      label: Manner
+      required: false
+      width: full
+    - name: manner_2
+      pdf_field_name: EJ-110[0].Page2[0].List2[0].LIE[0].manner[0]
+      type: text
+      label: Manner
+      required: false
+      width: full
+    - name: manner_2
+      pdf_field_name: EJ-110[0].Page2[0].List2[0].LIF[0].manner[0]
+      type: text
+      label: Manner
+      required: false
+      width: full
+    - name: text_field98
+      pdf_field_name: EJ-110[0].Page2[0].List2[0].LIF[0].TextField98[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: cb24
+      pdf_field_name: EJ-110[0].Page2[0].List2[0].CB24[0]
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: cb25
+      pdf_field_name: EJ-110[0].Page2[0].List3[0].LIA[0].CB25[0]
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: cb26
+      pdf_field_name: EJ-110[0].Page2[0].List3[0].LIB[0].CB26[0]
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: l3b_specify
+      pdf_field_name: EJ-110[0].Page2[0].List3[0].LIB[0].L3bSpecify[0]
+      type: text
+      label: L3b Specify
+      required: false
+      width: full
+    - name: cb27
+      pdf_field_name: EJ-110[0].Page2[0].List3[0].LIC[0].CB27[0]
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: l3c_specify
+      pdf_field_name: EJ-110[0].Page2[0].List3[0].LIC[0].L3cSpecify[0]
+      type: text
+      label: L3c Specify
+      required: false
+      width: full
+    - name: cb28
+      pdf_field_name: EJ-110[0].Page2[0].List3[0].LIC[0].SUBLISTUnder[0].CB28[0]
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: cb29
+      pdf_field_name: EJ-110[0].Page2[0].List3[0].LIC[0].SUBLISTUnder[0].CB29[0]
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: cb30
+      pdf_field_name: EJ-110[0].Page2[0].List3[0].LIC[0].SUBLISTUnder[0].CB30[0]
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: cb31
+      pdf_field_name: EJ-110[0].Page2[0].List3[0].LIC[0].SUBLISTUnder[0].CB31[0]
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: cb32
+      pdf_field_name: EJ-110[0].Page2[0].List3[0].LIC[0].SUBLISTUnder[0].CB32[0]
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: cb33
+      pdf_field_name: EJ-110[0].Page2[0].List3[0].LIC[0].SUBLISTUnder[0].CB33[0]
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: checkbox22
+      pdf_field_name: EJ-110[0].Page2[0].List3[0].LIC[0].SUBLISTUnder[0].Checkbox22[0]
+      type: checkbox
+      label: Checkbox
+      required: false
+      width: full
+    - name: l3cother
+      pdf_field_name: EJ-110[0].Page2[0].List3[0].LIC[0].SUBLISTUnder[0].L3cother[0]
+      type: text
+      label: L3cother
+      required: false
+      width: full
+    - name: cb34
+      pdf_field_name: EJ-110[0].Page2[0].List6[0].rightSub[0].LIA[0].CB34[0]
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: cb35
+      pdf_field_name: EJ-110[0].Page2[0].List6[0].rightSub[0].LIB[0].CB35[0]
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: cb36
+      pdf_field_name: EJ-110[0].Page2[0].List6[0].rightSub[0].LIC[0].CB36[0]
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: cb37
+      pdf_field_name: EJ-110[0].Page2[0].List6[0].rightSub[0].LIE[0].CB37[0]
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: name_add_county
+      pdf_field_name: EJ-110[0].Page2[0].List6[0].LIF[0].NameAddCounty[0]
+      type: number
+      label: Name Add County
+      required: false
+      width: third
+  dateand_clerksig:
+    title: Dateand Clerksig
+    fields:
+    - name: date
+      pdf_field_name: EJ-110[0].Page1[0].DateandClerksig[0].Date[0]
+      type: signature
+      label: Date
+      required: false
+      width: full
+  mp_last:
+    title: Mp Last
+    fields:
+    - name: print
+      pdf_field_name: EJ-110[0].#pageSet[0].MPLast[0].Print[0]
+      type: checkbox
+      label: Print
+      required: false
+      width: full
+    - name: save
+      pdf_field_name: EJ-110[0].#pageSet[0].MPLast[0].Save[0]
+      type: checkbox
+      label: Save
+      required: false
+      width: full
+    - name: reset
+      pdf_field_name: EJ-110[0].#pageSet[0].MPLast[0].Reset[0]
+      type: checkbox
+      label: Reset
+      required: false
+      width: full
+  l_ist:
+    title: L Ist
+    fields:
+    - name: feefor_service
+      pdf_field_name: EJ-110[0].Page2[0].LIst5[0].item5[0].FeeforService[0]
+      type: currency
+      label: Feefor Service
+      required: false
+      width: third
+  declaration_signatures:
+    title: Declaration Signatures
+    fields:
+    - name: sig_date_left
+      pdf_field_name: EJ-110[0].Page2[0].DeclarationSignatures[0].SigDateLeft[0]
+      type: signature
+      label: Sig Date Left
+      required: false
+      width: full
+    - name: sig_date_right
+      pdf_field_name: EJ-110[0].Page2[0].DeclarationSignatures[0].SigDateRight[0]
+      type: signature
+      label: Sig Date Right
+      required: false
+      width: full

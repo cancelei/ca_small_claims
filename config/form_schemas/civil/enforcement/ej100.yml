@@ -1,0 +1,338 @@
+---
+form:
+  code: EJ-100
+  title: EJ 100 Form
+  description: ''
+  category: civil/enforcement
+  pdf_filename: ej100.pdf
+  fillable: true
+  instructions: ''
+sections:
+  p1_caption:
+    title: P1 Caption
+    fields:
+    - name: add1_ft
+      pdf_field_name: EJ-100[0].Page1[0].p1Caption[0].AttyPartyInfo[0].Add1_ft[0]
+      type: text
+      label: Add1 Ft
+      required: false
+      width: full
+    - name: add2_ft
+      pdf_field_name: EJ-100[0].Page1[0].p1Caption[0].AttyPartyInfo[0].Add2_ft[0]
+      type: text
+      label: Add2 Ft
+      required: false
+      width: full
+    - name: add3_ft
+      pdf_field_name: EJ-100[0].Page1[0].p1Caption[0].AttyPartyInfo[0].Add3_ft[0]
+      type: text
+      label: Add3 Ft
+      required: false
+      width: full
+    - name: add4_ft
+      pdf_field_name: EJ-100[0].Page1[0].p1Caption[0].AttyPartyInfo[0].Add4_ft[0]
+      type: text
+      label: Add4 Ft
+      required: false
+      width: full
+    - name: add5_ft
+      pdf_field_name: EJ-100[0].Page1[0].p1Caption[0].AttyPartyInfo[0].Add5_ft[0]
+      type: text
+      label: Add5 Ft
+      required: false
+      width: full
+    - name: tel_ft
+      pdf_field_name: EJ-100[0].Page1[0].p1Caption[0].AttyPartyInfo[0].Tel_ft[0]
+      type: tel
+      label: Tel Ft
+      required: false
+      width: half
+    - name: fax_ft
+      pdf_field_name: EJ-100[0].Page1[0].p1Caption[0].AttyPartyInfo[0].Fax_ft[0]
+      type: tel
+      label: Fax Ft
+      required: false
+      width: half
+    - name: e_mail_ft
+      pdf_field_name: EJ-100[0].Page1[0].p1Caption[0].AttyPartyInfo[0].EMail_ft[0]
+      type: email
+      label: E Mail Ft
+      required: false
+      width: half
+    - name: atty_for_cb
+      pdf_field_name: EJ-100[0].Page1[0].p1Caption[0].AttyPartyInfo[0].AttyFor_cb[0]
+      type: text
+      label: Atty For Cb
+      required: false
+      width: full
+    - name: judgment_cred_cb
+      pdf_field_name: EJ-100[0].Page1[0].p1Caption[0].AttyPartyInfo[0].JudgmentCred_cb[0]
+      type: text
+      label: Judgment Cred Cb
+      required: false
+      width: full
+    - name: assignee_cb
+      pdf_field_name: EJ-100[0].Page1[0].p1Caption[0].AttyPartyInfo[0].Assignee_cb[0]
+      type: text
+      label: Assignee Cb
+      required: false
+      width: full
+    - name: crtname_ft
+      pdf_field_name: EJ-100[0].Page1[0].p1Caption[0].CrtInfo[0].Crtname_ft[0]
+      type: text
+      label: Crtname Ft
+      required: false
+      width: full
+    - name: crt_street_add_ft
+      pdf_field_name: EJ-100[0].Page1[0].p1Caption[0].CrtInfo[0].CrtStreetAdd_ft[0]
+      type: address
+      label: Crt Street Add Ft
+      required: false
+      width: full
+    - name: crt_mail_ft
+      pdf_field_name: EJ-100[0].Page1[0].p1Caption[0].CrtInfo[0].CrtMail_ft[0]
+      type: text
+      label: Crt Mail Ft
+      required: false
+      width: full
+    - name: crt_city_zip_ft
+      pdf_field_name: EJ-100[0].Page1[0].p1Caption[0].CrtInfo[0].CrtCityZip_ft[0]
+      type: address
+      label: Crt City Zip Ft
+      required: false
+      width: full
+    - name: crt_branch
+      pdf_field_name: EJ-100[0].Page1[0].p1Caption[0].CrtInfo[0].CrtBranch[0]
+      type: text
+      label: Crt Branch
+      required: false
+      width: full
+    - name: plaintiff_ft
+      pdf_field_name: EJ-100[0].Page1[0].p1Caption[0].Party[0].Plaintiff_ft[0]
+      type: text
+      label: Plaintiff Ft
+      required: false
+      width: full
+    - name: defendant_ft
+      pdf_field_name: EJ-100[0].Page1[0].p1Caption[0].Party[0].Defendant_ft[0]
+      type: text
+      label: Defendant Ft
+      required: false
+      width: full
+    - name: case_number_ft
+      pdf_field_name: EJ-100[0].Page1[0].p1Caption[0].CaseNumber[0].CaseNumber_ft[0]
+      type: text
+      label: Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+    - name: check_box49
+      pdf_field_name: EJ-100[0].Page1[0].p1Caption[0].Title[0].CheckBox49[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: sale_cb
+      pdf_field_name: EJ-100[0].Page1[0].p1Caption[0].Title[0].Sale_cb[0]
+      type: text
+      label: Sale Cb
+      required: false
+      width: full
+    - name: sale_cb_2
+      pdf_field_name: EJ-100[0].Page1[0].p1Caption[0].Title[0].Sale_cb[1]
+      type: text
+      label: Sale Cb
+      required: false
+      width: full
+  list:
+    title: List
+    fields:
+    - name: check_box49_2
+      pdf_field_name: EJ-100[0].Page1[0].List1[0].lia[0].LIA[0].li1[0].CheckBox49[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box9
+      pdf_field_name: EJ-100[0].Page1[0].List1[0].lia[0].LIA[0].li2[0].CheckBox9[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box49_2
+      pdf_field_name: EJ-100[0].Page1[0].List1[0].lia[0].CheckBox49[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box49_2
+      pdf_field_name: EJ-100[0].Page1[0].List1[0].lib[0].CheckBox49[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: fill_text92
+      pdf_field_name: EJ-100[0].Page1[0].List1[0].lib[0].FillText92[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: check_box49_2
+      pdf_field_name: EJ-100[0].Page1[0].List1[0].lic[0].CheckBox49[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: fill_text75
+      pdf_field_name: EJ-100[0].Page1[0].List1[0].lic[0].FillText75[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text74
+      pdf_field_name: EJ-100[0].Page1[0].List2[0].li1[0].FillText74[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text73
+      pdf_field_name: EJ-100[0].Page1[0].List3[0].li1[0].FillText73[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text72
+      pdf_field_name: EJ-100[0].Page1[0].List4[0].li1[0].FillText72[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text71
+      pdf_field_name: EJ-100[0].Page1[0].List5[0].lia[0].FillText71[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: check_box5
+      pdf_field_name: EJ-100[0].Page1[0].List5[0].lib[0].CheckBox5[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: fill_text70
+      pdf_field_name: EJ-100[0].Page1[0].List5[0].lib[0].FillText70[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: check_box3
+      pdf_field_name: EJ-100[0].Page1[0].List6[0].CheckBox3[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box2
+      pdf_field_name: EJ-100[0].Page1[0].List6[0].CheckBox2[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box2_2
+      pdf_field_name: EJ-100[0].Page1[0].List6[0].CheckBox2[1]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: cty1
+      pdf_field_name: EJ-100[0].Page1[0].List6[0].li1[0].cty1[0]
+      type: text
+      label: Cty
+      required: false
+      width: full
+    - name: rec_date1
+      pdf_field_name: EJ-100[0].Page1[0].List6[0].li1[0].recDate1[0]
+      type: date
+      label: Rec Date
+      required: false
+      width: half
+    - name: inst1
+      pdf_field_name: EJ-100[0].Page1[0].List6[0].li1[0].inst1[0]
+      type: text
+      label: Inst
+      required: false
+      width: full
+    - name: cty2
+      pdf_field_name: EJ-100[0].Page1[0].List6[0].li2[0].cty2[0]
+      type: text
+      label: Cty
+      required: false
+      width: full
+    - name: rec_date2
+      pdf_field_name: EJ-100[0].Page1[0].List6[0].li2[0].recDate2[0]
+      type: date
+      label: Rec Date
+      required: false
+      width: half
+    - name: inst2
+      pdf_field_name: EJ-100[0].Page1[0].List6[0].li2[0].inst2[0]
+      type: text
+      label: Inst
+      required: false
+      width: full
+    - name: cty3
+      pdf_field_name: EJ-100[0].Page1[0].List6[0].li3[0].cty3[0]
+      type: text
+      label: Cty
+      required: false
+      width: full
+    - name: rec_date3
+      pdf_field_name: EJ-100[0].Page1[0].List6[0].li3[0].recDate3[0]
+      type: date
+      label: Rec Date
+      required: false
+      width: half
+    - name: inst3
+      pdf_field_name: EJ-100[0].Page1[0].List6[0].li3[0].inst3[0]
+      type: text
+      label: Inst
+      required: false
+      width: full
+    - name: cty4
+      pdf_field_name: EJ-100[0].Page1[0].List6[0].li4[0].cty4[0]
+      type: text
+      label: Cty
+      required: false
+      width: full
+    - name: rec_date4
+      pdf_field_name: EJ-100[0].Page1[0].List6[0].li4[0].recDate4[0]
+      type: date
+      label: Rec Date
+      required: false
+      width: half
+    - name: inst4
+      pdf_field_name: EJ-100[0].Page1[0].List6[0].li4[0].inst4[0]
+      type: text
+      label: Inst
+      required: false
+      width: full
+    - name: check_box1
+      pdf_field_name: EJ-100[0].Page1[0].List7[0].li1[0].CheckBox1[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: fill_text56
+      pdf_field_name: EJ-100[0].Page1[0].List7[0].li1[0].FillText56[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+  sig_date:
+    title: Sig Date
+    fields:
+    - name: sig_date
+      pdf_field_name: EJ-100[0].Page1[0].sigDate[0]
+      type: date
+      label: Sig Date
+      required: false
+      width: half

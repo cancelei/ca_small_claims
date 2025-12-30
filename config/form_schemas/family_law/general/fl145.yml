@@ -1,0 +1,236 @@
+---
+form:
+  code: FL-145
+  title: FL 145 Form
+  description: ''
+  category: family_law/general
+  pdf_filename: fl145.pdf
+  fillable: true
+  instructions: ''
+sections:
+  p1_footer:
+    title: P1 Footer
+    fields:
+    - name: button1
+      pdf_field_name: FL-145[0].#pageSet[0].Page1[0].P1Footer[0].Button1[0]
+      type: checkbox
+      label: Button
+      required: false
+      width: full
+  last_page:
+    title: Last Page
+    fields:
+    - name: print
+      pdf_field_name: FL-145[0].#pageSet[0].LastPage[0].#area[0].Print[0]
+      type: checkbox
+      label: Print
+      required: false
+      width: full
+    - name: save
+      pdf_field_name: FL-145[0].#pageSet[0].LastPage[0].#area[0].Save[0]
+      type: checkbox
+      label: Save
+      required: false
+      width: full
+    - name: reset
+      pdf_field_name: FL-145[0].#pageSet[0].LastPage[0].#area[0].Reset[0]
+      type: checkbox
+      label: Reset
+      required: false
+      width: full
+  p1_caption:
+    title: P1 Caption
+    fields:
+    - name: add1
+      pdf_field_name: FL-145[0].Page1[0].P1Caption[0].AttyPartyInfo[0].Add1[0]
+      type: text
+      label: Add
+      required: false
+      width: full
+    - name: phone
+      pdf_field_name: FL-145[0].Page1[0].P1Caption[0].AttyPartyInfo[0].Phone[0]
+      type: tel
+      label: Phone
+      required: false
+      width: half
+    - name: atty_for
+      pdf_field_name: FL-145[0].Page1[0].P1Caption[0].AttyPartyInfo[0].AttyFor[0]
+      type: text
+      label: Atty For
+      required: false
+      width: full
+    - name: crt_county
+      pdf_field_name: FL-145[0].Page1[0].P1Caption[0].CourtInfo[0].CrtCounty[0]
+      type: number
+      label: Crt County
+      required: false
+      width: third
+    - name: shorttitle
+      pdf_field_name: FL-145[0].Page1[0].P1Caption[0].TitlePartyName[0].Shorttitle[0]
+      type: text
+      label: Shorttitle
+      required: false
+      width: full
+    - name: asking
+      pdf_field_name: FL-145[0].Page1[0].P1Caption[0].FormTitle[0].Asking[0]
+      type: text
+      label: Asking
+      required: false
+      width: full
+    - name: answering
+      pdf_field_name: FL-145[0].Page1[0].P1Caption[0].FormTitle[0].Answering[0]
+      type: text
+      label: Answering
+      required: false
+      width: full
+    - name: set_no
+      pdf_field_name: FL-145[0].Page1[0].P1Caption[0].FormTitle[0].SetNo[0]
+      type: text
+      label: Set No
+      required: false
+      width: full
+    - name: case_number
+      pdf_field_name: FL-145[0].Page1[0].P1Caption[0].CaseNumber[0].CaseNumber[0]
+      type: text
+      label: Case Number
+      required: false
+      width: full
+      shared_key: case:number
+  sign_sub:
+    title: Sign Sub
+    fields:
+    - name: hearing_date
+      pdf_field_name: FL-145[0].Page1[0].SignSub[0].HearingDate[0]
+      type: date
+      label: Hearing Date
+      required: false
+      width: half
+  sub:
+    title: Sub
+    fields:
+    - name: cb1
+      pdf_field_name: FL-145[0].Page2[0].Sub1[0].CB1[0]
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: cb2
+      pdf_field_name: FL-145[0].Page2[0].Sub2[0].CB2[0]
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: cb3
+      pdf_field_name: FL-145[0].Page2[0].Sub3[0].CB3[0]
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: cb4
+      pdf_field_name: FL-145[0].Page2[0].Sub4[0].CB4[0]
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: cb5
+      pdf_field_name: FL-145[0].Page2[0].Sub5[0].CB5[0]
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: cb6
+      pdf_field_name: FL-145[0].Page2[0].Sub6[0].CB6[0]
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: cb7
+      pdf_field_name: FL-145[0].Page2[0].Sub7[0].CB7[0]
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: cb8
+      pdf_field_name: FL-145[0].Page2[0].Sub8[0].CB8[0]
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: cb9
+      pdf_field_name: FL-145[0].Page2[0].Sub9[0].CB9[0]
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: cb10
+      pdf_field_name: FL-145[0].Page2[0].Sub10[0].CB10[0]
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: cb11
+      pdf_field_name: FL-145[0].Page2[0].Sub11[0].CB11[0]
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: cb12
+      pdf_field_name: FL-145[0].Page2[0].Sub12[0].CB12[0]
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: cb13
+      pdf_field_name: FL-145[0].Page2[0].Sub13[0].CB13[0]
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: cb14
+      pdf_field_name: FL-145[0].Page2[0].Sub14[0].CB14[0]
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: cb15
+      pdf_field_name: FL-145[0].Page2[0].Sub15[0].CB15[0]
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: cb16
+      pdf_field_name: FL-145[0].Page2[0].Sub16[0].CB16[0]
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: cb17
+      pdf_field_name: FL-145[0].Page2[0].Sub17[0].CB17[0]
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: cb18
+      pdf_field_name: FL-145[0].Page2[0].Sub18[0].CB18[0]
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: cb19
+      pdf_field_name: FL-145[0].Page2[0].Sub19[0].CB19[0]
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: cb20
+      pdf_field_name: FL-145[0].Page2[0].Sub20[0].CB20[0]
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: cb21
+      pdf_field_name: FL-145[0].Page2[0].Sub21[0].CB21[0]
+      type: text
+      label: Cb
+      required: false
+      width: full

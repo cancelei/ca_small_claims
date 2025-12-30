@@ -1,0 +1,257 @@
+---
+form:
+  code: MIL-010
+  title: MIL 010 Form
+  description: ''
+  category: civil/military
+  pdf_filename: mil010.pdf
+  fillable: true
+  instructions: ''
+sections:
+  general:
+    title: General
+    fields:
+    - name: info0
+      pdf_field_name: Atty.Info0
+      type: text
+      label: Info
+      required: false
+      width: full
+    - name: info1
+      pdf_field_name: Atty.Info1
+      type: text
+      label: Info
+      required: false
+      width: full
+    - name: info2
+      pdf_field_name: Atty.Info2
+      type: text
+      label: Info
+      required: false
+      width: full
+    - name: info3
+      pdf_field_name: Atty.Info3
+      type: text
+      label: Info
+      required: false
+      width: full
+    - name: info4
+      pdf_field_name: Atty.Info4
+      type: text
+      label: Info
+      required: false
+      width: full
+    - name: tel
+      pdf_field_name: Tel
+      type: tel
+      label: Tel
+      required: false
+      width: half
+    - name: fax
+      pdf_field_name: Fax
+      type: tel
+      label: Fax
+      required: false
+      width: half
+    - name: email
+      pdf_field_name: email
+      type: email
+      label: Email
+      required: false
+      width: half
+    - name: for
+      pdf_field_name: Attorney.for
+      type: text
+      label: For
+      required: false
+      width: full
+    - name: county
+      pdf_field_name: Court.County
+      type: number
+      label: County
+      required: false
+      width: third
+    - name: street
+      pdf_field_name: Court.street
+      type: address
+      label: Street
+      required: false
+      width: full
+    - name: mailing
+      pdf_field_name: Court.mailing
+      type: address
+      label: Mailing
+      required: false
+      width: full
+    - name: branch
+      pdf_field_name: Court.branch
+      type: text
+      label: Branch
+      required: false
+      width: full
+    - name: text
+      pdf_field_name: Text.01
+      type: text
+      label: Text
+      required: false
+      width: full
+    - name: b_2
+      pdf_field_name: CheckBox02.b
+      type: checkbox
+      label: B
+      required: false
+      width: full
+    - name: choice_2
+      pdf_field_name: CheckBox03.choice
+      type: checkbox
+      label: Choice
+      required: false
+      width: full
+    - name: check_box03
+      pdf_field_name: CheckBox03
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: b_2
+      pdf_field_name: CheckBox04.b
+      type: checkbox
+      label: B
+      required: false
+      width: full
+    - name: c
+      pdf_field_name: CheckBox04.c
+      type: checkbox
+      label: C
+      required: false
+      width: full
+    - name: a
+      pdf_field_name: CheckBox04.a
+      type: checkbox
+      label: A
+      required: false
+      width: full
+    - name: defendant
+      pdf_field_name: defendant
+      type: text
+      label: Defendant
+      required: false
+      width: full
+    - name: plaintiff
+      pdf_field_name: Plaintiff
+      type: text
+      label: Plaintiff
+      required: false
+      width: full
+    - name: case_number
+      pdf_field_name: CaseNumber
+      type: text
+      label: Case Number
+      required: false
+      width: full
+      shared_key: case:number
+    - name: date_2
+      pdf_field_name: Date
+      type: date
+      label: Date
+      required: false
+      width: half
+    - name: name
+      pdf_field_name: Name
+      type: text
+      label: Name
+      required: false
+      width: full
+  city:
+    title: City
+    fields:
+    - name: zip
+      pdf_field_name: Court.City.zip
+      type: address
+      label: Zip
+      required: false
+      width: full
+  a:
+    title: A
+    fields:
+    - name: date
+      pdf_field_name: Text.02.a.hearing.date
+      type: date
+      label: Date
+      required: false
+      width: half
+    - name: time
+      pdf_field_name: Text.02.a.hearing.time
+      type: text
+      label: Time
+      required: false
+      width: full
+    - name: department
+      pdf_field_name: Text.02.a.hearing.department
+      type: text
+      label: Department
+      required: false
+      width: full
+    - name: room
+      pdf_field_name: Text.02.a.hearing.room
+      type: text
+      label: Room
+      required: false
+      width: full
+    - name: room_2
+      pdf_field_name: CheckBox02.a.room
+      type: checkbox
+      label: Room
+      required: false
+      width: full
+    - name: dept
+      pdf_field_name: CheckBox02.a.dept
+      type: checkbox
+      label: Dept
+      required: false
+      width: full
+  b:
+    title: B
+    fields:
+    - name: other
+      pdf_field_name: Text.02.b.other
+      type: text
+      label: Other
+      required: false
+      width: full
+    - name: b
+      pdf_field_name: Text.08.b.3
+      type: text
+      label: B
+      required: false
+      width: full
+    - name: choice
+      pdf_field_name: CheckBox02.b.choice
+      type: checkbox
+      label: Choice
+      required: false
+      width: full
+    - name: b_2
+      pdf_field_name: CheckBox08.b.1
+      type: checkbox
+      label: B
+      required: false
+      width: full
+    - name: b_2
+      pdf_field_name: CheckBox08.b.2
+      type: checkbox
+      label: B
+      required: false
+      width: full
+    - name: b_2
+      pdf_field_name: CheckBox08.b.0
+      type: checkbox
+      label: B
+      required: false
+      width: full
+    - name: b_2
+      pdf_field_name: CheckBox08.b.3
+      type: checkbox
+      label: B
+      required: false
+      width: full

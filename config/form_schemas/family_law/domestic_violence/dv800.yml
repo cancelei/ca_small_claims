@@ -1,0 +1,763 @@
+---
+form:
+  code: DV-800
+  title: DV 800 Form
+  description: ''
+  category: family_law/domestic_violence
+  pdf_filename: dv800.pdf
+  fillable: true
+  instructions: ''
+sections:
+  stamp_court_case:
+    title: Stamp Court Case
+    fields:
+    - name: court_info_ft
+      pdf_field_name: DV-800JV-270[0].Page1[0].Stamp_court_case[0].CourtInfo_ft[0]
+      type: text
+      label: Court Info Ft
+      required: false
+      width: full
+    - name: case_number_ft
+      pdf_field_name: DV-800JV-270[0].Page1[0].Stamp_court_case[0].CaseNumber_ft[0]
+      type: text
+      label: Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+  list:
+    title: List
+    fields:
+    - name: text_field
+      pdf_field_name: DV-800JV-270[0].Page1[0].List4[0].TextField[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field1
+      pdf_field_name: DV-800JV-270[0].Page1[0].List4[0].TextField1[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field2
+      pdf_field_name: DV-800JV-270[0].Page1[0].List4[0].TextField2[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field3
+      pdf_field_name: DV-800JV-270[0].Page1[0].List4[0].TextField3[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field4
+      pdf_field_name: DV-800JV-270[0].Page1[0].List4[0].TextField4[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: sold_date_dt
+      pdf_field_name: DV-800JV-270[0].Page1[0].List4[0].Li1[0].SoldDate_dt[0]
+      type: date
+      label: Sold Date Dt
+      required: false
+      width: half
+    - name: sold_time
+      pdf_field_name: DV-800JV-270[0].Page1[0].List4[0].Li1[0].SoldTime[0]
+      type: text
+      label: Sold Time
+      required: false
+      width: full
+    - name: ampm_cb
+      pdf_field_name: DV-800JV-270[0].Page1[0].List4[0].Li1[0].AMPM_cb[0]
+      type: text
+      label: Ampm Cb
+      required: false
+      width: full
+    - name: ampm_cb_2
+      pdf_field_name: DV-800JV-270[0].Page1[0].List4[0].Li1[0].AMPM_cb[1]
+      type: text
+      label: Ampm Cb
+      required: false
+      width: full
+    - name: check_box_right_caption
+      pdf_field_name: DV-800JV-270[0].Page1[0].List4[0].Li2[0].CheckBoxRightCaption[0]
+      type: checkbox
+      label: Check Box Right Caption
+      required: false
+      width: full
+    - name: restrained_full_name_ft
+      pdf_field_name: DV-800JV-270[0].Page1[0].List1[0].Li1[0].RestrainedFullName_ft[0]
+      type: text
+      label: Restrained Full Name Ft
+      required: false
+      width: full
+    - name: restrained_full_name_ft_2
+      pdf_field_name: DV-800JV-270[0].Page1[0].List2[0].Li1[0].RestrainedFullName_ft[0]
+      type: text
+      label: Restrained Full Name Ft
+      required: false
+      width: full
+    - name: restrained_street_ft
+      pdf_field_name: DV-800JV-270[0].Page1[0].List2[0].Li2[0].RestrainedStreet_ft[0]
+      type: address
+      label: Restrained Street Ft
+      required: false
+      width: full
+    - name: restrained_city_ft
+      pdf_field_name: DV-800JV-270[0].Page1[0].List2[0].Li2[0].RestrainedCity_ft[0]
+      type: address
+      label: Restrained City Ft
+      required: false
+      width: full
+    - name: restrained_state_ft
+      pdf_field_name: DV-800JV-270[0].Page1[0].List2[0].Li2[0].RestrainedState_ft[0]
+      type: address
+      label: Restrained State Ft
+      required: false
+      width: full
+    - name: restrained_zip_ft
+      pdf_field_name: DV-800JV-270[0].Page1[0].List2[0].Li2[0].RestrainedZip_ft[0]
+      type: address
+      label: Restrained Zip Ft
+      required: false
+      width: full
+    - name: restrained_phone_ft
+      pdf_field_name: DV-800JV-270[0].Page1[0].List2[0].Li2[0].RestrainedPhone_ft[0]
+      type: tel
+      label: Restrained Phone Ft
+      required: false
+      width: half
+    - name: restrained_fax_ft
+      pdf_field_name: DV-800JV-270[0].Page1[0].List2[0].Li2[0].RestrainedFax_ft[0]
+      type: tel
+      label: Restrained Fax Ft
+      required: false
+      width: half
+    - name: restrained_e_mail_ft
+      pdf_field_name: DV-800JV-270[0].Page1[0].List2[0].Li2[0].RestrainedE-Mail_ft[0]
+      type: email
+      label: Restrained E Mail Ft
+      required: false
+      width: half
+    - name: restrained_lawyer_name_ft
+      pdf_field_name: DV-800JV-270[0].Page1[0].List2[0].Li3[0].RestrainedLawyerName_ft[0]
+      type: text
+      label: Restrained Lawyer Name Ft
+      required: false
+      width: full
+    - name: restrained_lawyer_bar_no
+      pdf_field_name: DV-800JV-270[0].Page1[0].List2[0].Li3[0].RestrainedLawyerBar_no[0]
+      type: text
+      label: Restrained Lawyer Bar No
+      required: false
+      width: full
+    - name: restrained_lawyer_firm_ft
+      pdf_field_name: DV-800JV-270[0].Page1[0].List2[0].Li3[0].RestrainedLawyerFirm_ft[0]
+      type: text
+      label: Restrained Lawyer Firm Ft
+      required: false
+      width: full
+    - name: text_field_2
+      pdf_field_name: DV-800JV-270[0].Page2[0].List5[0].TextField[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field1_2
+      pdf_field_name: DV-800JV-270[0].Page2[0].List5[0].TextField1[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field2_2
+      pdf_field_name: DV-800JV-270[0].Page2[0].List5[0].TextField2[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field3_2
+      pdf_field_name: DV-800JV-270[0].Page2[0].List5[0].TextField3[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field4_2
+      pdf_field_name: DV-800JV-270[0].Page2[0].List5[0].TextField4[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: sold_date_dt_2
+      pdf_field_name: DV-800JV-270[0].Page2[0].List5[0].Li1[0].SoldDate_dt[0]
+      type: date
+      label: Sold Date Dt
+      required: false
+      width: half
+    - name: sold_time_dt
+      pdf_field_name: DV-800JV-270[0].Page2[0].List5[0].Li1[0].SoldTime_dt[0]
+      type: text
+      label: Sold Time Dt
+      required: false
+      width: full
+    - name: sold_ampm_cb
+      pdf_field_name: DV-800JV-270[0].Page2[0].List5[0].Li1[0].SoldAMPM_cb[0]
+      type: text
+      label: Sold Ampm Cb
+      required: false
+      width: full
+    - name: sold_ampm_cb_2
+      pdf_field_name: DV-800JV-270[0].Page2[0].List5[0].Li1[0].SoldAMPM_cb[1]
+      type: text
+      label: Sold Ampm Cb
+      required: false
+      width: full
+    - name: check_box_right_caption_2
+      pdf_field_name: DV-800JV-270[0].Page2[0].List5[0].Li2[0].CheckBoxRightCaption[0]
+      type: checkbox
+      label: Check Box Right Caption
+      required: false
+      width: full
+    - name: check_box_right_caption_2
+      pdf_field_name: DV-800JV-270[0].Page2[0].List6[0].CheckBoxRightCaption[0]
+      type: checkbox
+      label: Check Box Right Caption
+      required: false
+      width: full
+    - name: text_field_2
+      pdf_field_name: DV-800JV-270[0].Page2[0].List6[0].Li1[0].List[0].Li1[0].TextField[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field1_2
+      pdf_field_name: DV-800JV-270[0].Page2[0].List6[0].Li1[0].List[0].Li1[0].TextField1[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field2_2
+      pdf_field_name: DV-800JV-270[0].Page2[0].List6[0].Li1[0].List[0].Li1[0].TextField2[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: choiceitem6a
+      pdf_field_name: DV-800JV-270[0].Page2[0].List6[0].Li1[0].List[0].Li1[0].Choiceitem6a[0]
+      type: text
+      label: Choiceitem6a
+      required: false
+      width: full
+    - name: choiceitem6a_2
+      pdf_field_name: DV-800JV-270[0].Page2[0].List6[0].Li1[0].List[0].Li1[0].Choiceitem6a[1]
+      type: text
+      label: Choiceitem6a
+      required: false
+      width: full
+    - name: choiceitem6a_2
+      pdf_field_name: DV-800JV-270[0].Page2[0].List6[0].Li1[0].List[0].Li1[0].Choiceitem6a[2]
+      type: text
+      label: Choiceitem6a
+      required: false
+      width: full
+    - name: text_field_2
+      pdf_field_name: DV-800JV-270[0].Page2[0].List6[0].Li1[0].List[0].Li2[0].TextField[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field1_2
+      pdf_field_name: DV-800JV-270[0].Page2[0].List6[0].Li1[0].List[0].Li2[0].TextField1[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field2_2
+      pdf_field_name: DV-800JV-270[0].Page2[0].List6[0].Li1[0].List[0].Li2[0].TextField2[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: choiceitem6a2
+      pdf_field_name: DV-800JV-270[0].Page2[0].List6[0].Li1[0].List[0].Li2[0].Choiceitem6a2[0]
+      type: text
+      label: Choiceitem6a
+      required: false
+      width: full
+    - name: choiceitem6a2_2
+      pdf_field_name: DV-800JV-270[0].Page2[0].List6[0].Li1[0].List[0].Li2[0].Choiceitem6a2[1]
+      type: text
+      label: Choiceitem6a
+      required: false
+      width: full
+    - name: choiceitem6a2_2
+      pdf_field_name: DV-800JV-270[0].Page2[0].List6[0].Li1[0].List[0].Li2[0].Choiceitem6a2[2]
+      type: text
+      label: Choiceitem6a
+      required: false
+      width: full
+    - name: text_field_2
+      pdf_field_name: DV-800JV-270[0].Page2[0].List6[0].Li1[0].List[0].Li3[0].TextField[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field1_2
+      pdf_field_name: DV-800JV-270[0].Page2[0].List6[0].Li1[0].List[0].Li3[0].TextField1[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field2_2
+      pdf_field_name: DV-800JV-270[0].Page2[0].List6[0].Li1[0].List[0].Li3[0].TextField2[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: choiceitem6a3
+      pdf_field_name: DV-800JV-270[0].Page2[0].List6[0].Li1[0].List[0].Li3[0].Choiceitem6a3[0]
+      type: text
+      label: Choiceitem6a
+      required: false
+      width: full
+    - name: choiceitem6a3_2
+      pdf_field_name: DV-800JV-270[0].Page2[0].List6[0].Li1[0].List[0].Li3[0].Choiceitem6a3[1]
+      type: text
+      label: Choiceitem6a
+      required: false
+      width: full
+    - name: choiceitem6a3_2
+      pdf_field_name: DV-800JV-270[0].Page2[0].List6[0].Li1[0].List[0].Li3[0].Choiceitem6a3[2]
+      type: text
+      label: Choiceitem6a
+      required: false
+      width: full
+    - name: text_field_2
+      pdf_field_name: DV-800JV-270[0].Page2[0].List6[0].Li1[0].List[0].Li4[0].TextField[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field1_2
+      pdf_field_name: DV-800JV-270[0].Page2[0].List6[0].Li1[0].List[0].Li4[0].TextField1[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field2_2
+      pdf_field_name: DV-800JV-270[0].Page2[0].List6[0].Li1[0].List[0].Li4[0].TextField2[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: choiceitem6a4
+      pdf_field_name: DV-800JV-270[0].Page2[0].List6[0].Li1[0].List[0].Li4[0].Choiceitem6a4[0]
+      type: text
+      label: Choiceitem6a
+      required: false
+      width: full
+    - name: choiceitem6a4_2
+      pdf_field_name: DV-800JV-270[0].Page2[0].List6[0].Li1[0].List[0].Li4[0].Choiceitem6a4[1]
+      type: text
+      label: Choiceitem6a
+      required: false
+      width: full
+    - name: choiceitem6a4_2
+      pdf_field_name: DV-800JV-270[0].Page2[0].List6[0].Li1[0].List[0].Li4[0].Choiceitem6a4[2]
+      type: text
+      label: Choiceitem6a
+      required: false
+      width: full
+    - name: text_field_2
+      pdf_field_name: DV-800JV-270[0].Page2[0].List6[0].Li1[0].List[0].Li5[0].TextField[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field1_2
+      pdf_field_name: DV-800JV-270[0].Page2[0].List6[0].Li1[0].List[0].Li5[0].TextField1[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field2_2
+      pdf_field_name: DV-800JV-270[0].Page2[0].List6[0].Li1[0].List[0].Li5[0].TextField2[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: choiceitem6a5
+      pdf_field_name: DV-800JV-270[0].Page2[0].List6[0].Li1[0].List[0].Li5[0].Choiceitem6a5[0]
+      type: text
+      label: Choiceitem6a
+      required: false
+      width: full
+    - name: choiceitem6a5_2
+      pdf_field_name: DV-800JV-270[0].Page2[0].List6[0].Li1[0].List[0].Li5[0].Choiceitem6a5[1]
+      type: text
+      label: Choiceitem6a
+      required: false
+      width: full
+    - name: choiceitem6a5_2
+      pdf_field_name: DV-800JV-270[0].Page2[0].List6[0].Li1[0].List[0].Li5[0].Choiceitem6a5[2]
+      type: text
+      label: Choiceitem6a
+      required: false
+      width: full
+    - name: text_field_2
+      pdf_field_name: DV-800JV-270[0].Page2[0].List6[0].Li1[0].List[0].Li6[0].TextField[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field1_2
+      pdf_field_name: DV-800JV-270[0].Page2[0].List6[0].Li1[0].List[0].Li6[0].TextField1[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field2_2
+      pdf_field_name: DV-800JV-270[0].Page2[0].List6[0].Li1[0].List[0].Li6[0].TextField2[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: choiceitem6a6
+      pdf_field_name: DV-800JV-270[0].Page2[0].List6[0].Li1[0].List[0].Li6[0].Choiceitem6a6[0]
+      type: text
+      label: Choiceitem6a
+      required: false
+      width: full
+    - name: choiceitem6a6_2
+      pdf_field_name: DV-800JV-270[0].Page2[0].List6[0].Li1[0].List[0].Li6[0].Choiceitem6a6[1]
+      type: text
+      label: Choiceitem6a
+      required: false
+      width: full
+    - name: choiceitem6a6_2
+      pdf_field_name: DV-800JV-270[0].Page2[0].List6[0].Li1[0].List[0].Li6[0].Choiceitem6a6[2]
+      type: text
+      label: Choiceitem6a
+      required: false
+      width: full
+    - name: text_field_2
+      pdf_field_name: DV-800JV-270[0].Page2[0].List6[0].Li2[0].List[0].Li1[0].TextField[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field1_2
+      pdf_field_name: DV-800JV-270[0].Page2[0].List6[0].Li2[0].List[0].Li1[0].TextField1[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field2_2
+      pdf_field_name: DV-800JV-270[0].Page2[0].List6[0].Li2[0].List[0].Li1[0].TextField2[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: choiceitem6b1
+      pdf_field_name: DV-800JV-270[0].Page2[0].List6[0].Li2[0].List[0].Li1[0].Choiceitem6b1[0]
+      type: text
+      label: Choiceitem6b
+      required: false
+      width: full
+    - name: choiceitem6b1_2
+      pdf_field_name: DV-800JV-270[0].Page2[0].List6[0].Li2[0].List[0].Li1[0].Choiceitem6b1[1]
+      type: text
+      label: Choiceitem6b
+      required: false
+      width: full
+    - name: choiceitem6b1_2
+      pdf_field_name: DV-800JV-270[0].Page2[0].List6[0].Li2[0].List[0].Li1[0].Choiceitem6b1[2]
+      type: text
+      label: Choiceitem6b
+      required: false
+      width: full
+    - name: text_field_2
+      pdf_field_name: DV-800JV-270[0].Page2[0].List6[0].Li2[0].List[0].Li2[0].TextField[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field1_2
+      pdf_field_name: DV-800JV-270[0].Page2[0].List6[0].Li2[0].List[0].Li2[0].TextField1[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field2_2
+      pdf_field_name: DV-800JV-270[0].Page2[0].List6[0].Li2[0].List[0].Li2[0].TextField2[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: choiceitem6b2
+      pdf_field_name: DV-800JV-270[0].Page2[0].List6[0].Li2[0].List[0].Li2[0].Choiceitem6b2[0]
+      type: text
+      label: Choiceitem6b
+      required: false
+      width: full
+    - name: choiceitem6b2_2
+      pdf_field_name: DV-800JV-270[0].Page2[0].List6[0].Li2[0].List[0].Li2[0].Choiceitem6b2[1]
+      type: text
+      label: Choiceitem6b
+      required: false
+      width: full
+    - name: choiceitem6b2_2
+      pdf_field_name: DV-800JV-270[0].Page2[0].List6[0].Li2[0].List[0].Li2[0].Choiceitem6b2[2]
+      type: text
+      label: Choiceitem6b
+      required: false
+      width: full
+    - name: text_field_2
+      pdf_field_name: DV-800JV-270[0].Page2[0].List6[0].Li2[0].List[0].Li3[0].TextField[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field1_2
+      pdf_field_name: DV-800JV-270[0].Page2[0].List6[0].Li2[0].List[0].Li3[0].TextField1[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field2_2
+      pdf_field_name: DV-800JV-270[0].Page2[0].List6[0].Li2[0].List[0].Li3[0].TextField2[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: choiceitem6b3
+      pdf_field_name: DV-800JV-270[0].Page2[0].List6[0].Li2[0].List[0].Li3[0].Choiceitem6b3[0]
+      type: text
+      label: Choiceitem6b
+      required: false
+      width: full
+    - name: choiceitem6b3_2
+      pdf_field_name: DV-800JV-270[0].Page2[0].List6[0].Li2[0].List[0].Li3[0].Choiceitem6b3[1]
+      type: text
+      label: Choiceitem6b
+      required: false
+      width: full
+    - name: choiceitem6b3_2
+      pdf_field_name: DV-800JV-270[0].Page2[0].List6[0].Li2[0].List[0].Li3[0].Choiceitem6b3[2]
+      type: text
+      label: Choiceitem6b
+      required: false
+      width: full
+    - name: text_field_2
+      pdf_field_name: DV-800JV-270[0].Page2[0].List6[0].Li2[0].List[0].Li4[0].TextField[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field1_2
+      pdf_field_name: DV-800JV-270[0].Page2[0].List6[0].Li2[0].List[0].Li4[0].TextField1[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field2_2
+      pdf_field_name: DV-800JV-270[0].Page2[0].List6[0].Li2[0].List[0].Li4[0].TextField2[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: choiceitem6b4
+      pdf_field_name: DV-800JV-270[0].Page2[0].List6[0].Li2[0].List[0].Li4[0].Choiceitem6b4[0]
+      type: text
+      label: Choiceitem6b
+      required: false
+      width: full
+    - name: choiceitem6b4_2
+      pdf_field_name: DV-800JV-270[0].Page2[0].List6[0].Li2[0].List[0].Li4[0].Choiceitem6b4[1]
+      type: text
+      label: Choiceitem6b
+      required: false
+      width: full
+    - name: choiceitem6b4_2
+      pdf_field_name: DV-800JV-270[0].Page2[0].List6[0].Li2[0].List[0].Li4[0].Choiceitem6b4[2]
+      type: text
+      label: Choiceitem6b
+      required: false
+      width: full
+    - name: text_field_2
+      pdf_field_name: DV-800JV-270[0].Page2[0].List6[0].Li2[0].List[0].Li5[0].TextField[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field1_2
+      pdf_field_name: DV-800JV-270[0].Page2[0].List6[0].Li2[0].List[0].Li5[0].TextField1[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field2_2
+      pdf_field_name: DV-800JV-270[0].Page2[0].List6[0].Li2[0].List[0].Li5[0].TextField2[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: choiceitem6b5
+      pdf_field_name: DV-800JV-270[0].Page2[0].List6[0].Li2[0].List[0].Li5[0].Choiceitem6b5[0]
+      type: text
+      label: Choiceitem6b
+      required: false
+      width: full
+    - name: choiceitem6b5_2
+      pdf_field_name: DV-800JV-270[0].Page2[0].List6[0].Li2[0].List[0].Li5[0].Choiceitem6b5[1]
+      type: text
+      label: Choiceitem6b
+      required: false
+      width: full
+    - name: choiceitem6b5_2
+      pdf_field_name: DV-800JV-270[0].Page2[0].List6[0].Li2[0].List[0].Li5[0].Choiceitem6b5[2]
+      type: text
+      label: Choiceitem6b
+      required: false
+      width: full
+    - name: text_field_2
+      pdf_field_name: DV-800JV-270[0].Page2[0].List6[0].Li2[0].List[0].Li6[0].TextField[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field1_2
+      pdf_field_name: DV-800JV-270[0].Page2[0].List6[0].Li2[0].List[0].Li6[0].TextField1[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field2_2
+      pdf_field_name: DV-800JV-270[0].Page2[0].List6[0].Li2[0].List[0].Li6[0].TextField2[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: choiceitem6b6
+      pdf_field_name: DV-800JV-270[0].Page2[0].List6[0].Li2[0].List[0].Li6[0].Choiceitem6b6[0]
+      type: text
+      label: Choiceitem6b
+      required: false
+      width: full
+    - name: choiceitem6b6_2
+      pdf_field_name: DV-800JV-270[0].Page2[0].List6[0].Li2[0].List[0].Li6[0].Choiceitem6b6[1]
+      type: text
+      label: Choiceitem6b
+      required: false
+      width: full
+    - name: choiceitem6b6_2
+      pdf_field_name: DV-800JV-270[0].Page2[0].List6[0].Li2[0].List[0].Li6[0].Choiceitem6b6[2]
+      type: text
+      label: Choiceitem6b
+      required: false
+      width: full
+    - name: proof_why_not_of_cb
+      pdf_field_name: DV-800JV-270[0].Page2[0].List6[0].Li2[0].ProofWhyNotOF_cb[0]
+      type: text
+      label: Proof Why Not Of Cb
+      required: false
+      width: full
+    - name: no_yes7
+      pdf_field_name: DV-800JV-270[0].Page3[0].List7[0].noYes7[0]
+      type: text
+      label: No Yes
+      required: false
+      width: full
+    - name: no_yes7_2
+      pdf_field_name: DV-800JV-270[0].Page3[0].List7[0].noYes7[1]
+      type: text
+      label: No Yes
+      required: false
+      width: full
+    - name: check_box_right_captionitem7abc
+      pdf_field_name: DV-800JV-270[0].Page3[0].List7[0].Li1[0].CheckBoxRightCaptionitem7abc[0]
+      type: checkbox
+      label: Check Box Right Captionitem7abc
+      required: false
+      width: full
+    - name: turned_in_date_dt
+      pdf_field_name: DV-800JV-270[0].Page3[0].List7[0].Li1[0].TurnedInDate_dt[0]
+      type: date
+      label: Turned In Date Dt
+      required: false
+      width: half
+    - name: check_box_right_captionitem7abc_2
+      pdf_field_name: DV-800JV-270[0].Page3[0].List7[0].Li2[0].CheckBoxRightCaptionitem7abc[0]
+      type: checkbox
+      label: Check Box Right Captionitem7abc
+      required: false
+      width: full
+    - name: check_box_right_captionitem7abc_2
+      pdf_field_name: DV-800JV-270[0].Page3[0].List7[0].Li3[0].CheckBoxRightCaptionitem7abc[0]
+      type: checkbox
+      label: Check Box Right Captionitem7abc
+      required: false
+      width: full
+    - name: excuse_ft
+      pdf_field_name: DV-800JV-270[0].Page3[0].List7[0].Li3[0].#area[0].Excuse_ft[0]
+      type: text
+      label: Excuse Ft
+      required: false
+      width: full
+    - name: sig_date
+      pdf_field_name: DV-800JV-270[0].Page3[0].List7[0].SigDate[0]
+      type: date
+      label: Sig Date
+      required: false
+      width: half
+    - name: your_name_tf
+      pdf_field_name: DV-800JV-270[0].Page3[0].List7[0].YourName_tf[0]
+      type: text
+      label: Your Name Tf
+      required: false
+      width: full
+  caption_sub:
+    title: Caption Sub
+    fields:
+    - name: case_number_ft_2
+      pdf_field_name: DV-800JV-270[0].Page2[0].CaptionSub[0].CaseNumber_ft[0]
+      type: text
+      label: Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+    - name: case_number_ft_2
+      pdf_field_name: DV-800JV-270[0].Page3[0].CaptionSub[0].CaseNumber_ft[0]
+      type: text
+      label: Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+  footer_sub:
+    title: Footer Sub
+    fields:
+    - name: print
+      pdf_field_name: DV-800JV-270[0].#pageSet[0].Page3[0].FooterSub[0].FooterButtons[0].Print[0]
+      type: checkbox
+      label: Print
+      required: false
+      width: full
+    - name: save
+      pdf_field_name: DV-800JV-270[0].#pageSet[0].Page3[0].FooterSub[0].FooterButtons[0].Save[0]
+      type: checkbox
+      label: Save
+      required: false
+      width: full
+    - name: reset
+      pdf_field_name: DV-800JV-270[0].#pageSet[0].Page3[0].FooterSub[0].FooterButtons[0].Reset[0]
+      type: checkbox
+      label: Reset
+      required: false
+      width: full
+    - name: warning
+      pdf_field_name: DV-800JV-270[0].#pageSet[0].Page3[0].FooterSub[0].FooterButtons[0].Warning[0]
+      type: checkbox
+      label: Warning
+      required: false
+      width: full

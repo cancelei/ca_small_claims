@@ -1,0 +1,332 @@
+---
+form:
+  code: GV-200
+  title: GV 200 Form
+  description: ''
+  category: restraining_orders/gun_violence
+  pdf_filename: gv200.pdf
+  fillable: true
+  instructions: ''
+sections:
+  stamp_court_case:
+    title: Stamp Court Case
+    fields:
+    - name: court_info_ft
+      pdf_field_name: GV-200[0].Page1[0].Stamp_court_case[0].CourtInfo_ft[0]
+      type: text
+      label: Court Info Ft
+      required: false
+      width: full
+    - name: case_number_ft
+      pdf_field_name: GV-200[0].Page1[0].Stamp_court_case[0].CaseNumber_ft[0]
+      type: text
+      label: Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+  service_zip_ft:
+    title: Service Zip Ft
+    fields:
+    - name: service_zip_ft
+      pdf_field_name: GV-200[0].Page1[0].ServiceZip_ft[0]
+      type: address
+      label: Service Zip Ft
+      required: false
+      width: full
+  service_state_ft:
+    title: Service State Ft
+    fields:
+    - name: service_state_ft
+      pdf_field_name: GV-200[0].Page1[0].ServiceState_ft[0]
+      type: address
+      label: Service State Ft
+      required: false
+      width: full
+  server_name_ft:
+    title: Server Name Ft
+    fields:
+    - name: server_name_ft
+      pdf_field_name: GV-200[0].Page1[0].ServerName_ft[0]
+      type: text
+      label: Server Name Ft
+      required: false
+      width: full
+    - name: server_name_ft_2
+      pdf_field_name: GV-200[0].Page1[0].#area[8].ServerName_ft[1]
+      type: text
+      label: Server Name Ft
+      required: false
+      width: full
+  server_street_ft:
+    title: Server Street Ft
+    fields:
+    - name: server_street_ft
+      pdf_field_name: GV-200[0].Page1[0].ServerStreet_ft[0]
+      type: address
+      label: Server Street Ft
+      required: false
+      width: full
+  server_zip_ft:
+    title: Server Zip Ft
+    fields:
+    - name: server_zip_ft
+      pdf_field_name: GV-200[0].Page1[0].ServerZip_ft[0]
+      type: address
+      label: Server Zip Ft
+      required: false
+      width: full
+  server_city_ft:
+    title: Server City Ft
+    fields:
+    - name: server_city_ft
+      pdf_field_name: GV-200[0].Page1[0].ServerCity_ft[0]
+      type: address
+      label: Server City Ft
+      required: false
+      width: full
+  server_telephone_ft:
+    title: Server Telephone Ft
+    fields:
+    - name: server_telephone_ft
+      pdf_field_name: GV-200[0].Page1[0].ServerTelephone_ft[0]
+      type: tel
+      label: Server Telephone Ft
+      required: false
+      width: half
+  server_reg_number_ft:
+    title: Server Reg Number Ft
+    fields:
+    - name: server_reg_number_ft
+      pdf_field_name: GV-200[0].Page1[0].ServerRegNumber_ft[0]
+      type: text
+      label: Server Reg Number Ft
+      required: false
+      width: full
+  server_reg_cty_ft:
+    title: Server Reg Cty Ft
+    fields:
+    - name: server_reg_cty_ft
+      pdf_field_name: GV-200[0].Page1[0].ServerRegCty_ft[0]
+      type: text
+      label: Server Reg Cty Ft
+      required: false
+      width: full
+  server_state_ft:
+    title: Server State Ft
+    fields:
+    - name: server_state_ft
+      pdf_field_name: GV-200[0].Page1[0].ServerState_ft[0]
+      type: address
+      label: Server State Ft
+      required: false
+      width: full
+  protected_full_name_ft:
+    title: Protected Full Name Ft
+    fields:
+    - name: protected_full_name_ft
+      pdf_field_name: GV-200[0].Page1[0].ProtectedFullName_ft[0]
+      type: text
+      label: Protected Full Name Ft
+      required: false
+      width: full
+  restrained_full_name_ft:
+    title: Restrained Full Name Ft
+    fields:
+    - name: restrained_full_name_ft
+      pdf_field_name: GV-200[0].Page1[0].RestrainedFullName_ft[0]
+      type: text
+      label: Restrained Full Name Ft
+      required: false
+      width: full
+  form_served109_cb:
+    title: Form Served109 Cb
+    fields:
+    - name: form_served109_cb
+      pdf_field_name: GV-200[0].Page1[0].FormServed109_cb[0]
+      type: date
+      label: Form Served109 Cb
+      required: false
+      width: half
+  form_served110_cb:
+    title: Form Served110 Cb
+    fields:
+    - name: form_served110_cb
+      pdf_field_name: GV-200[0].Page1[0].FormServed110_cb[0]
+      type: date
+      label: Form Served110 Cb
+      required: false
+      width: half
+  form_served120_cb:
+    title: Form Served120 Cb
+    fields:
+    - name: form_served120_cb
+      pdf_field_name: GV-200[0].Page1[0].FormServed120_cb[0]
+      type: date
+      label: Form Served120 Cb
+      required: false
+      width: half
+  form_served100_cb:
+    title: Form Served100 Cb
+    fields:
+    - name: form_served100_cb
+      pdf_field_name: GV-200[0].Page1[0].FormServed100_cb[0]
+      type: date
+      label: Form Served100 Cb
+      required: false
+      width: half
+  form_served120_info_cb:
+    title: Form Served120 Info Cb
+    fields:
+    - name: form_served120info_cb
+      pdf_field_name: GV-200[0].Page1[0].FormServed120INFO_cb[0]
+      type: date
+      label: Form Served120 Info Cb
+      required: false
+      width: half
+  form_served800_cb:
+    title: Form Served800 Cb
+    fields:
+    - name: form_served800_cb
+      pdf_field_name: GV-200[0].Page1[0].FormServed800_cb[0]
+      type: date
+      label: Form Served800 Cb
+      required: false
+      width: half
+    - name: form_served800_cb_2
+      pdf_field_name: GV-200[0].Page1[0].FormServed800_cb[1]
+      type: date
+      label: Form Served800 Cb
+      required: false
+      width: half
+  form_served130_cb:
+    title: Form Served130 Cb
+    fields:
+    - name: form_served130_cb
+      pdf_field_name: GV-200[0].Page1[0].FormServed130_cb[0]
+      type: date
+      label: Form Served130 Cb
+      required: false
+      width: half
+    - name: form_served130_cb_2
+      pdf_field_name: GV-200[0].Page1[0].FormServed130_cb[1]
+      type: date
+      label: Form Served130 Cb
+      required: false
+      width: half
+  form_served_other_cb:
+    title: Form Served Other Cb
+    fields:
+    - name: form_served_other_cb
+      pdf_field_name: GV-200[0].Page1[0].FormServedOther_cb[0]
+      type: date
+      label: Form Served Other Cb
+      required: false
+      width: half
+  form_served_other_ft:
+    title: Form Served Other Ft
+    fields:
+    - name: form_served_other_ft
+      pdf_field_name: GV-200[0].Page1[0].FormServedOther_ft[0]
+      type: date
+      label: Form Served Other Ft
+      required: false
+      width: half
+  ch200_signature_date_dt:
+    title: Ch200 Signature Date Dt
+    fields:
+    - name: ch200signature_date_dt
+      pdf_field_name: GV-200[0].Page1[0].#area[8].CH200SignatureDate_dt[0]
+      type: signature
+      label: Ch200 Signature Date Dt
+      required: false
+      width: full
+  service_date_dt:
+    title: Service Date Dt
+    fields:
+    - name: service_date_dt
+      pdf_field_name: GV-200[0].Page1[0].ServiceDate_dt[0]
+      type: date
+      label: Service Date Dt
+      required: false
+      width: half
+  personal_time_ft:
+    title: Personal Time Ft
+    fields:
+    - name: personal_time_ft
+      pdf_field_name: GV-200[0].Page1[0].PersonalTime_ft[0]
+      type: text
+      label: Personal Time Ft
+      required: false
+      width: full
+  service_street_ft:
+    title: Service Street Ft
+    fields:
+    - name: service_street_ft
+      pdf_field_name: GV-200[0].Page1[0].ServiceStreet_ft[0]
+      type: address
+      label: Service Street Ft
+      required: false
+      width: full
+  service_city_ft:
+    title: Service City Ft
+    fields:
+    - name: service_city_ft
+      pdf_field_name: GV-200[0].Page1[0].ServiceCity_ft[0]
+      type: address
+      label: Service City Ft
+      required: false
+      width: full
+  ampm_rb:
+    title: Ampm Rb
+    fields:
+    - name: ampm_rb
+      pdf_field_name: GV-200[0].Page1[0].AMPM_rb[0]
+      type: text
+      label: Ampm Rb
+      required: false
+      width: full
+  form_served116_cb:
+    title: Form Served116 Cb
+    fields:
+    - name: form_served116_cb
+      pdf_field_name: GV-200[0].Page1[0].FormServed116_cb[0]
+      type: date
+      label: Form Served116 Cb
+      required: false
+      width: half
+  print:
+    title: Print
+    fields:
+    - name: print
+      pdf_field_name: GV-200[0].Page1[0].#area[10].Print[0]
+      type: checkbox
+      label: Print
+      required: false
+      width: full
+  save:
+    title: Save
+    fields:
+    - name: save
+      pdf_field_name: GV-200[0].Page1[0].#area[10].Save[0]
+      type: checkbox
+      label: Save
+      required: false
+      width: full
+  reset:
+    title: Reset
+    fields:
+    - name: reset
+      pdf_field_name: GV-200[0].Page1[0].#area[10].Reset[0]
+      type: checkbox
+      label: Reset
+      required: false
+      width: full
+  warning:
+    title: Warning
+    fields:
+    - name: warning
+      pdf_field_name: GV-200[0].Page1[0].#area[10].Warning[0]
+      type: checkbox
+      label: Warning
+      required: false
+      width: full

@@ -1,0 +1,110 @@
+---
+form:
+  code: JV-227
+  title: JV 227 Form
+  description: ''
+  category: juvenile/general
+  pdf_filename: jv227.pdf
+  fillable: true
+  instructions: ''
+sections:
+  t:
+    title: T
+    fields:
+    - name: t16
+      pdf_field_name: topmostSubform[0].Page1[0].T16[0]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t45
+      pdf_field_name: topmostSubform[0].Page1[0].T45[0]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t52
+      pdf_field_name: topmostSubform[0].Page1[0].T52[0]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t56
+      pdf_field_name: topmostSubform[0].Page1[0].T56[0]
+      type: text
+      label: T
+      required: false
+      width: full
+  child_name_ft:
+    title: Child Name Ft
+    fields:
+    - name: child_name_ft
+      pdf_field_name: topmostSubform[0].Page1[0].ChildName_ft[0]
+      type: text
+      label: Child Name Ft
+      required: false
+      width: full
+  case_number_ft:
+    title: Case Number Ft
+    fields:
+    - name: case_number_ft
+      pdf_field_name: topmostSubform[0].Page1[0].CaseNumber_ft[0]
+      type: text
+      label: Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+  radio_button_list:
+    title: Radio Button List
+    fields:
+    - name: radio_button_list
+      pdf_field_name: topmostSubform[0].Page1[0].RadioButtonList[0]
+      type: text
+      label: Radio Button List
+      required: false
+      width: full
+  text_field:
+    title: Text Field
+    fields:
+    - name: text_field2
+      pdf_field_name: topmostSubform[0].Page1[0].TextField2[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field2_2
+      pdf_field_name: topmostSubform[0].Page1[0].TextField2[1]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+  field_name_cb:
+    title: Field Name Cb
+    fields:
+    - name: field_name_cb
+      pdf_field_name: topmostSubform[0].Page1[0].FieldName_cb[0]
+      type: text
+      label: Field Name Cb
+      required: false
+      width: full
+  btn_footer_gp:
+    title: Btn Footer Gp
+    fields:
+    - name: print_bt
+      pdf_field_name: topmostSubform[0].Page1[0].BtnFooter_gp[0].Print_bt[0]
+      type: checkbox
+      label: Print Bt
+      required: false
+      width: full
+    - name: save_bt
+      pdf_field_name: topmostSubform[0].Page1[0].BtnFooter_gp[0].Save_bt[0]
+      type: checkbox
+      label: Save Bt
+      required: false
+      width: full
+    - name: reset_bt
+      pdf_field_name: topmostSubform[0].Page1[0].BtnFooter_gp[0].Reset_bt[0]
+      type: checkbox
+      label: Reset Bt
+      required: false
+      width: full

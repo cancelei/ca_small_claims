@@ -1,0 +1,170 @@
+---
+form:
+  code: CR-136
+  title: CR 136 Form
+  description: ''
+  category: criminal/general
+  pdf_filename: cr136.pdf
+  fillable: true
+  instructions: ''
+sections:
+  check_box:
+    title: Check Box
+    fields:
+    - name: check_box12
+      pdf_field_name: topmostSubform[0].Page1[0].CheckBox12[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box15
+      pdf_field_name: topmostSubform[0].Page1[0].CheckBox15[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box16
+      pdf_field_name: topmostSubform[0].Page1[0].CheckBox16[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box5
+      pdf_field_name: topmostSubform[0].Page1[0].CheckBox5[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box5_2
+      pdf_field_name: topmostSubform[0].Page1[0].CheckBox5[1]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box1
+      pdf_field_name: topmostSubform[0].Page2[0].CheckBox1[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box13
+      pdf_field_name: topmostSubform[0].Page2[0].CheckBox13[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box2
+      pdf_field_name: topmostSubform[0].Page2[0].CheckBox2[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+  fill_text:
+    title: Fill Text
+    fields:
+    - name: fill_text59
+      pdf_field_name: topmostSubform[0].Page1[0].#area[3].FillText59[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text1
+      pdf_field_name: topmostSubform[0].Page1[0].FillText1[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text59_2
+      pdf_field_name: topmostSubform[0].Page1[0].#area[14].#area[15].FillText59[1]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text59_2
+      pdf_field_name: topmostSubform[0].Page1[0].#area[16].#area[17].FillText59[2]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text8
+      pdf_field_name: topmostSubform[0].Page2[0].#area[0].FillText8[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text6
+      pdf_field_name: topmostSubform[0].Page2[0].FillText6[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+  stamp_court_case:
+    title: Stamp Court Case
+    fields:
+    - name: court_info_ft
+      pdf_field_name: topmostSubform[0].Page1[0].Stamp_court_case[0].CourtInfo_ft[0]
+      type: text
+      label: Court Info Ft
+      required: false
+      width: full
+    - name: tc_case_number_ft
+      pdf_field_name: topmostSubform[0].Page1[0].Stamp_court_case[0].TCCaseNumber_ft[0]
+      type: text
+      label: Tc Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+    - name: case_number_ft
+      pdf_field_name: topmostSubform[0].Page1[0].Stamp_court_case[0].CaseNumber_ft[0]
+      type: text
+      label: Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+    - name: tc_case_name_ft
+      pdf_field_name: topmostSubform[0].Page1[0].Stamp_court_case[0].TCCaseName_ft[0]
+      type: text
+      label: Tc Case Name Ft
+      required: false
+      width: full
+      shared_key: court:name
+  tc_case_name_ft:
+    title: Tc Case Name Ft
+    fields:
+    - name: tc_case_name_ft_2
+      pdf_field_name: topmostSubform[0].Page2[0].TCCaseName_ft[0]
+      type: text
+      label: Tc Case Name Ft
+      required: false
+      width: full
+  tc_case_number_ft:
+    title: Tc Case Number Ft
+    fields:
+    - name: tc_case_number_ft_2
+      pdf_field_name: topmostSubform[0].Page2[0].#area[1].TCCaseNumber_ft[0]
+      type: text
+      label: Tc Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+  btn_footer_gp:
+    title: Btn Footer Gp
+    fields:
+    - name: print_bt
+      pdf_field_name: topmostSubform[0].Page2[0].BtnFooter_gp[0].Print_bt[0]
+      type: checkbox
+      label: Print Bt
+      required: false
+      width: full
+    - name: save_bt
+      pdf_field_name: topmostSubform[0].Page2[0].BtnFooter_gp[0].Save_bt[0]
+      type: checkbox
+      label: Save Bt
+      required: false
+      width: full
+    - name: reset_bt
+      pdf_field_name: topmostSubform[0].Page2[0].BtnFooter_gp[0].Reset_bt[0]
+      type: checkbox
+      label: Reset Bt
+      required: false
+      width: full

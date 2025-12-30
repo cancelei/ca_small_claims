@@ -1,0 +1,92 @@
+---
+form:
+  code: EJ-180
+  title: EJ 180 Form
+  description: ''
+  category: civil/enforcement
+  pdf_filename: ej180.pdf
+  fillable: true
+  instructions: ''
+sections:
+  mp:
+    title: Mp
+    fields:
+    - name: print
+      pdf_field_name: EJ-180[0].#pageSet[0].MP1[0].Print[0]
+      type: checkbox
+      label: Print
+      required: false
+      width: full
+    - name: save
+      pdf_field_name: EJ-180[0].#pageSet[0].MP1[0].Save[0]
+      type: checkbox
+      label: Save
+      required: false
+      width: full
+    - name: reset
+      pdf_field_name: EJ-180[0].#pageSet[0].MP1[0].Reset[0]
+      type: checkbox
+      label: Reset
+      required: false
+      width: full
+  p_x_caption:
+    title: P X Caption
+    fields:
+    - name: short_title
+      pdf_field_name: EJ-180[0].Page1[0].pXCaption[0].Title[0].ShortTitle[0]
+      type: text
+      label: Short Title
+      required: false
+      width: full
+    - name: levy_ofcr_file_no
+      pdf_field_name: EJ-180[0].Page1[0].pXCaption[0].File[0].LevyOfcrFileNo[0]
+      type: text
+      label: Levy Ofcr File No
+      required: false
+      width: full
+    - name: case_number
+      pdf_field_name: EJ-180[0].Page1[0].pXCaption[0].Court[0].CaseNumber[0]
+      type: text
+      label: Case Number
+      required: false
+      width: full
+      shared_key: case:number
+  list:
+    title: List
+    fields:
+    - name: h_date_eng
+      pdf_field_name: EJ-180[0].Page1[0].List1[0].Li2[0].Date[0].HDateEng[0]
+      type: date
+      label: H Date Eng
+      required: false
+      width: half
+    - name: h_time_eng
+      pdf_field_name: EJ-180[0].Page1[0].List1[0].Li2[0].Date[0].HTimeEng[0]
+      type: date
+      label: H Time Eng
+      required: false
+      width: half
+    - name: h_place_eng
+      pdf_field_name: EJ-180[0].Page1[0].List1[0].Li2[0].Date[0].HPlaceEng[0]
+      type: date
+      label: H Place Eng
+      required: false
+      width: half
+    - name: h_date_sp
+      pdf_field_name: EJ-180[0].Page1[0].List2[0].Li2[0].Fecha[0].HDateSp[0]
+      type: date
+      label: H Date Sp
+      required: false
+      width: half
+    - name: h_time_sp
+      pdf_field_name: EJ-180[0].Page1[0].List2[0].Li2[0].Fecha[0].HTimeSp[0]
+      type: text
+      label: H Time Sp
+      required: false
+      width: full
+    - name: h_place_sp
+      pdf_field_name: EJ-180[0].Page1[0].List2[0].Li2[0].Fecha[0].HPlaceSp[0]
+      type: text
+      label: H Place Sp
+      required: false
+      width: full

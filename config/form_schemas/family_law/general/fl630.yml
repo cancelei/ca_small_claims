@@ -1,0 +1,838 @@
+---
+form:
+  code: FL-630
+  title: FL 630 Form
+  description: ''
+  category: family_law/general
+  pdf_filename: fl630.pdf
+  fillable: true
+  instructions: ''
+sections:
+  fill_text:
+    title: Fill Text\
+    fields:
+    - name: other
+      pdf_field_name: FL-630[0].Page1[0].FillText\.06\.d\.1\.Other[0]
+      type: text
+      label: Other
+      required: false
+      width: full
+    - name: name
+      pdf_field_name: FL-630[0].Page1[0].FillText\.02\.b\.5\.name[0]
+      type: text
+      label: Name
+      required: false
+      width: full
+    - name: fill_text64
+      pdf_field_name: FL-630[0].Page1[0].FillText64[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text64_2
+      pdf_field_name: FL-630[0].Page2[0].FillText64[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text64_2
+      pdf_field_name: FL-630[0].Page2[0].FillText64[1]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text64_2
+      pdf_field_name: FL-630[0].Page2[0].FillText64[2]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text66
+      pdf_field_name: FL-630[0].#subform[2].FillText66[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text67
+      pdf_field_name: FL-630[0].#subform[2].FillText67[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text1081
+      pdf_field_name: FL-630[0].#subform[2].FillText1081[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: signing
+      pdf_field_name: FL-630[0].#subform[2].FillText\.date\.signing[0]
+      type: date
+      label: Signing
+      required: false
+      width: half
+    - name: fill_text65
+      pdf_field_name: FL-630[0].#subform[2].FillText65[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+  cb_choice_2b:
+    title: Cb Choice 2b
+    fields:
+    - name: cb_choice_2b
+      pdf_field_name: FL-630[0].Page1[0].CBChoice_2b[0]
+      type: text
+      label: Cb Choice 2b
+      required: false
+      width: full
+  cb_choice_cb:
+    title: Cb Choice Cb
+    fields:
+    - name: cb_choice_cb
+      pdf_field_name: FL-630[0].Page1[0].CBChoice_cb[0]
+      type: text
+      label: Cb Choice Cb
+      required: false
+      width: full
+  radio_button_list:
+    title: Radio Button List
+    fields:
+    - name: radio_button_list
+      pdf_field_name: FL-630[0].Page1[0].#area[0].RadioButtonList[0]
+      type: text
+      label: Radio Button List
+      required: false
+      width: full
+    - name: radio_button_list_2
+      pdf_field_name: FL-630[0].Page1[0].#area[9].RadioButtonList[1]
+      type: text
+      label: Radio Button List
+      required: false
+      width: full
+    - name: radio_button_list_2
+      pdf_field_name: FL-630[0].Page2[0].#area[1].RadioButtonList[0]
+      type: text
+      label: Radio Button List
+      required: false
+      width: full
+    - name: radio_button_list_2
+      pdf_field_name: FL-630[0].Page2[0].#area[7].RadioButtonList[1]
+      type: text
+      label: Radio Button List
+      required: false
+      width: full
+  general:
+    title: General
+    fields:
+    - name: area
+      pdf_field_name: FL-630[0].Page1[0].#area[0]
+      type: text
+      label: "#Area"
+      required: false
+      width: full
+    - name: area_2
+      pdf_field_name: FL-630[0].Page1[0].#area[9]
+      type: text
+      label: "#Area"
+      required: false
+      width: full
+    - name: area_2
+      pdf_field_name: FL-630[0].Page2[0].#area[1]
+      type: text
+      label: "#Area"
+      required: false
+      width: full
+    - name: area_2
+      pdf_field_name: FL-630[0].Page2[0].#area[7]
+      type: text
+      label: "#Area"
+      required: false
+      width: full
+  petitioner_cb:
+    title: Petitioner Cb
+    fields:
+    - name: petitioner_cb
+      pdf_field_name: FL-630[0].Page1[0].#area[2].petitioner_cb[0]
+      type: text
+      label: Petitioner Cb
+      required: false
+      width: full
+    - name: petitioner_cb_2
+      pdf_field_name: FL-630[0].Page1[0].#area[3].petitioner_cb[1]
+      type: text
+      label: Petitioner Cb
+      required: false
+      width: full
+    - name: petitioner_cb_2
+      pdf_field_name: FL-630[0].Page1[0].#area[5].petitioner_cb[2]
+      type: text
+      label: Petitioner Cb
+      required: false
+      width: full
+    - name: petitioner_cb_2
+      pdf_field_name: FL-630[0].Page1[0].#area[7].petitioner_cb[3]
+      type: text
+      label: Petitioner Cb
+      required: false
+      width: full
+    - name: petitioner_cb_2
+      pdf_field_name: FL-630[0].Page1[0].#area[12].petitioner_cb[4]
+      type: text
+      label: Petitioner Cb
+      required: false
+      width: full
+    - name: petitioner_cb_2
+      pdf_field_name: FL-630[0].Page1[0].#area[14].petitioner_cb[5]
+      type: text
+      label: Petitioner Cb
+      required: false
+      width: full
+    - name: petitioner_cb_2
+      pdf_field_name: FL-630[0].Page1[0].#area[14].petitioner_cb[6]
+      type: text
+      label: Petitioner Cb
+      required: false
+      width: full
+    - name: petitioner_cb_2
+      pdf_field_name: FL-630[0].Page1[0].#area[14].petitioner_cb[7]
+      type: text
+      label: Petitioner Cb
+      required: false
+      width: full
+    - name: petitioner_cb_2
+      pdf_field_name: FL-630[0].Page2[0].#area[0].petitioner_cb[0]
+      type: text
+      label: Petitioner Cb
+      required: false
+      width: full
+    - name: petitioner_cb_2
+      pdf_field_name: FL-630[0].Page2[0].#area[4].petitioner_cb[1]
+      type: text
+      label: Petitioner Cb
+      required: false
+      width: full
+    - name: petitioner_cb_2
+      pdf_field_name: FL-630[0].Page2[0].#area[5].petitioner_cb[2]
+      type: text
+      label: Petitioner Cb
+      required: false
+      width: full
+    - name: petitioner_cb_2
+      pdf_field_name: FL-630[0].Page2[0].#area[6].petitioner_cb[3]
+      type: text
+      label: Petitioner Cb
+      required: false
+      width: full
+    - name: petitioner_cb_2
+      pdf_field_name: FL-630[0].Page2[0].#area[10].petitioner_cb[4]
+      type: text
+      label: Petitioner Cb
+      required: false
+      width: full
+    - name: petitioner_cb_2
+      pdf_field_name: FL-630[0].Page2[0].#area[11].petitioner_cb[5]
+      type: text
+      label: Petitioner Cb
+      required: false
+      width: full
+    - name: petitioner_cb_2
+      pdf_field_name: FL-630[0].Page2[0].#area[12].petitioner_cb[6]
+      type: text
+      label: Petitioner Cb
+      required: false
+      width: full
+    - name: petitioner_cb_2
+      pdf_field_name: FL-630[0].Page2[0].#area[14].petitioner_cb[7]
+      type: text
+      label: Petitioner Cb
+      required: false
+      width: full
+    - name: petitioner_cb_2
+      pdf_field_name: FL-630[0].Page2[0].#area[14].petitioner_cb[8]
+      type: text
+      label: Petitioner Cb
+      required: false
+      width: full
+    - name: petitioner_cb_2
+      pdf_field_name: FL-630[0].Page2[0].#area[16].petitioner_cb[9]
+      type: text
+      label: Petitioner Cb
+      required: false
+      width: full
+    - name: petitioner_cb_2
+      pdf_field_name: FL-630[0].Page2[0].#area[17].petitioner_cb[10]
+      type: text
+      label: Petitioner Cb
+      required: false
+      width: full
+    - name: petitioner_cb_2
+      pdf_field_name: FL-630[0].#subform[2].#area[0].petitioner_cb[0]
+      type: text
+      label: Petitioner Cb
+      required: false
+      width: full
+    - name: petitioner_cb_2
+      pdf_field_name: FL-630[0].#subform[2].#area[1].petitioner_cb[1]
+      type: text
+      label: Petitioner Cb
+      required: false
+      width: full
+  hearing_date:
+    title: Hearing Date
+    fields:
+    - name: hearing_date
+      pdf_field_name: FL-630[0].Page1[0].HearingDate[0]
+      type: date
+      label: Hearing Date
+      required: false
+      width: half
+    - name: hearing_date_2
+      pdf_field_name: FL-630[0].#subform[2].HearingDate[0]
+      type: date
+      label: Hearing Date
+      required: false
+      width: half
+  hearing_dept:
+    title: Hearing Dept
+    fields:
+    - name: hearing_dept
+      pdf_field_name: FL-630[0].Page1[0].HearingDept[0]
+      type: text
+      label: Hearing Dept
+      required: false
+      width: full
+    - name: hearing_dept_2
+      pdf_field_name: FL-630[0].Page1[0].HearingDept[1]
+      type: text
+      label: Hearing Dept
+      required: false
+      width: full
+  text_field:
+    title: Text Field
+    fields:
+    - name: text_field2
+      pdf_field_name: FL-630[0].Page1[0].#area[4].TextField2[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field2_2
+      pdf_field_name: FL-630[0].Page1[0].#area[6].TextField2[1]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field2_2
+      pdf_field_name: FL-630[0].Page1[0].#area[8].TextField2[2]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6
+      pdf_field_name: FL-630[0].Page1[0].TextField6[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: FL-630[0].Page1[0].TextField6[1]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: FL-630[0].Page1[0].TextField6[2]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field7
+      pdf_field_name: FL-630[0].Page1[0].TextField7[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field8
+      pdf_field_name: FL-630[0].Page1[0].TextField8[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field9
+      pdf_field_name: FL-630[0].Page1[0].TextField9[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field2_2
+      pdf_field_name: FL-630[0].Page2[0].#area[2].TextField2[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field2_2
+      pdf_field_name: FL-630[0].Page2[0].#area[3].TextField2[1]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field2_2
+      pdf_field_name: FL-630[0].Page2[0].#area[8].TextField2[2]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field2_2
+      pdf_field_name: FL-630[0].Page2[0].#area[9].TextField2[3]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field2_2
+      pdf_field_name: FL-630[0].Page2[0].#area[13].TextField2[4]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: FL-630[0].Page2[0].TextField6[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: FL-630[0].Page2[0].TextField6[1]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: FL-630[0].Page2[0].TextField6[2]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field7_2
+      pdf_field_name: FL-630[0].Page2[0].TextField7[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field8_2
+      pdf_field_name: FL-630[0].Page2[0].TextField8[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field9_2
+      pdf_field_name: FL-630[0].Page2[0].TextField9[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field7_2
+      pdf_field_name: FL-630[0].Page2[0].TextField7[1]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field8_2
+      pdf_field_name: FL-630[0].Page2[0].TextField8[1]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field9_2
+      pdf_field_name: FL-630[0].Page2[0].TextField9[1]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field11
+      pdf_field_name: FL-630[0].Page2[0].TextField11[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field10
+      pdf_field_name: FL-630[0].#subform[2].TextField10[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+  check_box:
+    title: Check Box
+    fields:
+    - name: check_box61
+      pdf_field_name: FL-630[0].Page1[0].#area[4].CheckBox61[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box61_2
+      pdf_field_name: FL-630[0].Page1[0].#area[6].CheckBox61[1]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box61_2
+      pdf_field_name: FL-630[0].Page1[0].#area[8].CheckBox61[2]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box19
+      pdf_field_name: FL-630[0].Page1[0].#area[13].CheckBox19[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box61_2
+      pdf_field_name: FL-630[0].Page1[0].#area[17].CheckBox61[3]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box61_2
+      pdf_field_name: FL-630[0].Page1[0].CheckBox61[4]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box61_2
+      pdf_field_name: FL-630[0].Page2[0].#area[18].CheckBox61[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box61_2
+      pdf_field_name: FL-630[0].Page2[0].#area[19].CheckBox61[1]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box80
+      pdf_field_name: FL-630[0].#subform[2].CheckBox80[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box
+      pdf_field_name: FL-630[0].#subform[2].CheckBox[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+  p1_caption:
+    title: P1 Caption
+    fields:
+    - name: phone
+      pdf_field_name: FL-630[0].Page1[0].p1Caption[0].AttyPartyInfo[0].Phone[0]
+      type: tel
+      label: Phone
+      required: false
+      width: half
+    - name: fax
+      pdf_field_name: FL-630[0].Page1[0].p1Caption[0].AttyPartyInfo[0].Fax[0]
+      type: tel
+      label: Fax
+      required: false
+      width: half
+    - name: email
+      pdf_field_name: FL-630[0].Page1[0].p1Caption[0].AttyPartyInfo[0].Email[0]
+      type: email
+      label: Email
+      required: false
+      width: half
+    - name: atty_for
+      pdf_field_name: FL-630[0].Page1[0].p1Caption[0].AttyPartyInfo[0].AttyFor[0]
+      type: text
+      label: Atty For
+      required: false
+      width: full
+    - name: text_field2_2
+      pdf_field_name: FL-630[0].Page1[0].p1Caption[0].AttyPartyInfo[0].#area[0].TextField2[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field2_2
+      pdf_field_name: FL-630[0].Page1[0].p1Caption[0].AttyPartyInfo[0].#area[1].TextField2[1]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field2_2
+      pdf_field_name: FL-630[0].Page1[0].p1Caption[0].AttyPartyInfo[0].TextField2[2]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field2_2
+      pdf_field_name: FL-630[0].Page1[0].p1Caption[0].AttyPartyInfo[0].TextField2[3]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field2_2
+      pdf_field_name: FL-630[0].Page1[0].p1Caption[0].AttyPartyInfo[0].TextField2[4]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: crt_county
+      pdf_field_name: FL-630[0].Page1[0].p1Caption[0].CourtInfo[0].CrtCounty[0]
+      type: number
+      label: Crt County
+      required: false
+      width: third
+    - name: crt_street
+      pdf_field_name: FL-630[0].Page1[0].p1Caption[0].CourtInfo[0].CrtStreet[0]
+      type: address
+      label: Crt Street
+      required: false
+      width: full
+    - name: crt_mailing_add
+      pdf_field_name: FL-630[0].Page1[0].p1Caption[0].CourtInfo[0].CrtMailingAdd[0]
+      type: address
+      label: Crt Mailing Add
+      required: false
+      width: full
+    - name: crt_city_zip
+      pdf_field_name: FL-630[0].Page1[0].p1Caption[0].CourtInfo[0].CrtCityZip[0]
+      type: address
+      label: Crt City Zip
+      required: false
+      width: full
+    - name: crt_branch
+      pdf_field_name: FL-630[0].Page1[0].p1Caption[0].CourtInfo[0].CrtBranch[0]
+      type: text
+      label: Crt Branch
+      required: false
+      width: full
+    - name: party1
+      pdf_field_name: FL-630[0].Page1[0].p1Caption[0].TitlePartyName[0].TitlePartyName[0].Party1[0]
+      type: text
+      label: Party
+      required: false
+      width: full
+    - name: party2
+      pdf_field_name: FL-630[0].Page1[0].p1Caption[0].TitlePartyName[0].TitlePartyName[0].Party2[0]
+      type: text
+      label: Party
+      required: false
+      width: full
+    - name: party3
+      pdf_field_name: FL-630[0].Page1[0].p1Caption[0].TitlePartyName[0].TitlePartyName[0].Party3[0]
+      type: text
+      label: Party
+      required: false
+      width: full
+    - name: field
+      pdf_field_name: FL-630[0].Page1[0].p1Caption[0].FormTitle[0].#field[0]
+      type: text
+      label: "#Field"
+      required: false
+      width: full
+    - name: field_2
+      pdf_field_name: FL-630[0].Page1[0].p1Caption[0].FormTitle[0].#field[1]
+      type: text
+      label: "#Field"
+      required: false
+      width: full
+    - name: amended_no
+      pdf_field_name: FL-630[0].Page1[0].p1Caption[0].FormTitle[0].AmendedNo[0]
+      type: text
+      label: Amended No
+      required: false
+      width: full
+    - name: supplemental_no
+      pdf_field_name: FL-630[0].Page1[0].p1Caption[0].FormTitle[0].SupplementalNo[0]
+      type: text
+      label: Supplemental No
+      required: false
+      width: full
+    - name: case_number
+      pdf_field_name: FL-630[0].Page1[0].p1Caption[0].CaseNumber[0].CaseNumber[0]
+      type: text
+      label: Case Number
+      required: false
+      width: full
+      shared_key: case:number
+  date_field:
+    title: Date Field
+    fields:
+    - name: date_field1
+      pdf_field_name: FL-630[0].Page1[0].DateField1[0]
+      type: date
+      label: Date Field
+      required: false
+      width: half
+    - name: date_field2
+      pdf_field_name: FL-630[0].Page1[0].DateField2[0]
+      type: date
+      label: Date Field
+      required: false
+      width: half
+    - name: date_field3
+      pdf_field_name: FL-630[0].Page1[0].DateField3[0]
+      type: date
+      label: Date Field
+      required: false
+      width: half
+    - name: date_field1_2
+      pdf_field_name: FL-630[0].Page2[0].DateField1[0]
+      type: date
+      label: Date Field
+      required: false
+      width: half
+    - name: date_field2_2
+      pdf_field_name: FL-630[0].Page2[0].DateField2[0]
+      type: date
+      label: Date Field
+      required: false
+      width: half
+    - name: date_field3_2
+      pdf_field_name: FL-630[0].Page2[0].DateField3[0]
+      type: date
+      label: Date Field
+      required: false
+      width: half
+  case_number:
+    title: Case Number
+    fields:
+    - name: case_number_2
+      pdf_field_name: FL-630[0].Page2[0].#subform[1].CaseNumber[0].CaseNumber[0]
+      type: text
+      label: Case Number
+      required: false
+      width: full
+      shared_key: case:number
+    - name: case_number_2
+      pdf_field_name: FL-630[0].#subform[2].#subform[3].CaseNumber[0].CaseNumber[0]
+      type: text
+      label: Case Number
+      required: false
+      width: full
+      shared_key: case:number
+  title_party_name:
+    title: Title Party Name
+    fields:
+    - name: party1_2
+      pdf_field_name: FL-630[0].Page2[0].#subform[1].TitlePartyName[0].Party1[0]
+      type: text
+      label: Party
+      required: false
+      width: full
+    - name: party2_2
+      pdf_field_name: FL-630[0].Page2[0].#subform[1].TitlePartyName[0].Party2[0]
+      type: text
+      label: Party
+      required: false
+      width: full
+    - name: party3_2
+      pdf_field_name: FL-630[0].Page2[0].#subform[1].TitlePartyName[0].Party3[0]
+      type: text
+      label: Party
+      required: false
+      width: full
+    - name: party1_2
+      pdf_field_name: FL-630[0].#subform[2].#subform[3].TitlePartyName[0].Party1[0]
+      type: text
+      label: Party
+      required: false
+      width: full
+    - name: party2_2
+      pdf_field_name: FL-630[0].#subform[2].#subform[3].TitlePartyName[0].Party2[0]
+      type: text
+      label: Party
+      required: false
+      width: full
+    - name: party3_2
+      pdf_field_name: FL-630[0].#subform[2].#subform[3].TitlePartyName[0].Party3[0]
+      type: text
+      label: Party
+      required: false
+      width: full
+  on_date_ft:
+    title: On Date Ft
+    fields:
+    - name: on_date_ft
+      pdf_field_name: FL-630[0].Page2[0].on_date_ft[0]
+      type: date
+      label: On Date Ft
+      required: false
+      width: half
+    - name: on_date_ft_2
+      pdf_field_name: FL-630[0].#subform[2].on_date_ft[0]
+      type: date
+      label: On Date Ft
+      required: false
+      width: half
+    - name: on_date_ft_2
+      pdf_field_name: FL-630[0].#subform[2].on_date_ft[1]
+      type: date
+      label: On Date Ft
+      required: false
+      width: half
+    - name: on_date_ft_2
+      pdf_field_name: FL-630[0].#subform[2].on_date_ft[2]
+      type: date
+      label: On Date Ft
+      required: false
+      width: half
+  choice_list:
+    title: Choice List
+    fields:
+    - name: choice_list
+      pdf_field_name: FL-630[0].Page2[0].ChoiceList[0]
+      type: text
+      label: Choice List
+      required: false
+      width: full
+  rb2_choice:
+    title: Rb2 Choice
+    fields:
+    - name: rb2choice2
+      pdf_field_name: FL-630[0].#subform[2].#area[2].RB2Choice2[0]
+      type: text
+      label: Rb2 Choice
+      required: false
+      width: full
+  print:
+    title: Print
+    fields:
+    - name: print
+      pdf_field_name: FL-630[0].#subform[2].#area[3].Print[0]
+      type: checkbox
+      label: Print
+      required: false
+      width: full
+  save:
+    title: Save
+    fields:
+    - name: save
+      pdf_field_name: FL-630[0].#subform[2].#area[3].Save[0]
+      type: checkbox
+      label: Save
+      required: false
+      width: full
+  reset:
+    title: Reset
+    fields:
+    - name: reset
+      pdf_field_name: FL-630[0].#subform[2].#area[3].Reset[0]
+      type: checkbox
+      label: Reset
+      required: false
+      width: full
+  warning:
+    title: Warning
+    fields:
+    - name: warning
+      pdf_field_name: FL-630[0].#subform[2].#area[3].Warning[0]
+      type: checkbox
+      label: Warning
+      required: false
+      width: full

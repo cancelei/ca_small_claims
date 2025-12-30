@@ -1,0 +1,139 @@
+---
+form:
+  code: FL-337
+  title: FL 337 Form
+  description: ''
+  category: family_law/general
+  pdf_filename: fl337.pdf
+  fillable: true
+  instructions: ''
+sections:
+  petitioner_cb:
+    title: Petitioner Cb
+    fields:
+    - name: petitioner_cb
+      pdf_field_name: topmostSubform[0].Page1[0].petitioner_cb[0]
+      type: text
+      label: Petitioner Cb
+      required: false
+      width: full
+  respondent_cb:
+    title: Respondent Cb
+    fields:
+    - name: respondent_cb
+      pdf_field_name: topmostSubform[0].Page1[0].Respondent_cb[0]
+      type: text
+      label: Respondent Cb
+      required: false
+      width: full
+  other_parent_party_cb:
+    title: Other Parent Party Cb
+    fields:
+    - name: other_parent_party_cb
+      pdf_field_name: topmostSubform[0].Page1[0].OtherParentParty_cb[0]
+      type: currency
+      label: Other Parent Party Cb
+      required: false
+      width: third
+  supporting_declaration_cb:
+    title: Supporting Declaration Cb
+    fields:
+    - name: supporting_declaration_cb
+      pdf_field_name: topmostSubform[0].Page1[0].SupportingDeclaration_cb[0]
+      type: text
+      label: Supporting Declaration Cb
+      required: false
+      width: full
+  specify_resasons_in_support_of_request_ft:
+    title: Specify Resasons In Support Of Request Ft
+    fields:
+    - name: specify_resasons_in_support_of_request_ft
+      pdf_field_name: topmostSubform[0].Page1[0].SpecifyResasonsInSupportOfRequest_ft[0]
+      type: text
+      label: Specify Resasons In Support Of Request Ft
+      required: false
+      width: full
+  your_name_ft:
+    title: Your Name Ft
+    fields:
+    - name: your_name_ft
+      pdf_field_name: topmostSubform[0].Page1[0].YourName_ft[0]
+      type: text
+      label: Your Name Ft
+      required: false
+      width: full
+  date_time_field:
+    title: Date Time Field
+    fields:
+    - name: date_time_field1
+      pdf_field_name: topmostSubform[0].Page1[0].DateTimeField1[0]
+      type: date
+      label: Date Time Field
+      required: false
+      width: half
+  px_caption_sf:
+    title: Px Caption Sf
+    fields:
+    - name: case_number_ft
+      pdf_field_name: topmostSubform[0].Page1[0].PxCaption_sf[0].CaseNumber[0].CaseNumber_ft[0]
+      type: text
+      label: Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+    - name: petitioner_ft
+      pdf_field_name: topmostSubform[0].Page1[0].PxCaption_sf[0].TitlePartyName[0].Petitioner_ft[0]
+      type: text
+      label: Petitioner Ft
+      required: false
+      width: full
+      shared_key: petitioner:name
+    - name: respondent_ft
+      pdf_field_name: topmostSubform[0].Page1[0].PxCaption_sf[0].TitlePartyName[0].Respondent_ft[0]
+      type: text
+      label: Respondent Ft
+      required: false
+      width: full
+      shared_key: respondent:name
+    - name: other_parent_party_ft
+      pdf_field_name: topmostSubform[0].Page1[0].PxCaption_sf[0].TitlePartyName[0].OtherParentParty_ft[0]
+      type: currency
+      label: Other Parent Party Ft
+      required: false
+      width: third
+  print_bt:
+    title: Print Bt
+    fields:
+    - name: print_bt
+      pdf_field_name: topmostSubform[0].Page1[0].Print_bt[0]
+      type: checkbox
+      label: Print Bt
+      required: false
+      width: full
+  save_bt:
+    title: Save Bt
+    fields:
+    - name: save_bt
+      pdf_field_name: topmostSubform[0].Page1[0].Save_bt[0]
+      type: checkbox
+      label: Save Bt
+      required: false
+      width: full
+  reset_bt:
+    title: Reset Bt
+    fields:
+    - name: reset_bt
+      pdf_field_name: topmostSubform[0].Page1[0].Reset_bt[0]
+      type: checkbox
+      label: Reset Bt
+      required: false
+      width: full
+  t:
+    title: T
+    fields:
+    - name: t23
+      pdf_field_name: topmostSubform[0].Page1[0].T23[0]
+      type: checkbox
+      label: T
+      required: false
+      width: full

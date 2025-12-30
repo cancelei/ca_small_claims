@@ -1,0 +1,64 @@
+---
+form:
+  code: FL-313INFO
+  title: FL 313INFO Form
+  description: ''
+  category: family_law/general
+  pdf_filename: fl313info.pdf
+  fillable: true
+  instructions: ''
+sections:
+  mp:
+    title: Mp
+    fields:
+    - name: court_link
+      pdf_field_name: FL-313-INFO[0].#pageSet[0].MP1[0].Footer[0].CourtLink[0]
+      type: checkbox
+      label: Court Link
+      required: false
+      width: full
+  m_px:
+    title: M Px
+    fields:
+    - name: save
+      pdf_field_name: FL-313-INFO[0].#pageSet[0].MPx[0].Save[0]
+      type: checkbox
+      label: Save
+      required: false
+      width: full
+    - name: print
+      pdf_field_name: FL-313-INFO[0].#pageSet[0].MPx[0].Print[0]
+      type: checkbox
+      label: Print
+      required: false
+      width: full
+  help_list:
+    title: Help List
+    fields:
+    - name: button1
+      pdf_field_name: FL-313-INFO[0].Page2[0].HelpList5[0].Li1[0].Button1[0]
+      type: checkbox
+      label: Button
+      required: false
+      width: full
+    - name: button2
+      pdf_field_name: FL-313-INFO[0].Page2[0].HelpList6[0].Li1[0].Button2[0]
+      type: checkbox
+      label: Button
+      required: false
+      width: full
+  req_accomm:
+    title: Req Accomm
+    fields:
+    - name: button3
+      pdf_field_name: FL-313-INFO[0].Page2[0].ReqAccomm[0].Button3[0]
+      type: checkbox
+      label: Button
+      required: false
+      width: full
+    - name: button1_2
+      pdf_field_name: FL-313-INFO[0].Page2[0].ReqAccomm[0].Button1[0]
+      type: checkbox
+      label: Button
+      required: false
+      width: full

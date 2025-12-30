@@ -1,0 +1,61 @@
+---
+form:
+  code: FL-955INFO
+  title: FL 955INFO Form
+  description: ''
+  category: family_law/general
+  pdf_filename: fl955info.pdf
+  fillable: true
+  instructions: ''
+sections:
+  button:
+    title: Button
+    fields:
+    - name: button1
+      pdf_field_name: topmostSubform[0].Page2[0].Button1[0]
+      type: checkbox
+      label: Button
+      required: false
+      width: full
+    - name: button1_2
+      pdf_field_name: topmostSubform[0].Page2[0].Button1[1]
+      type: checkbox
+      label: Button
+      required: false
+      width: full
+  print_bt:
+    title: Print Bt
+    fields:
+    - name: print_bt
+      pdf_field_name: topmostSubform[0].Page3[0].Print_bt[0]
+      type: checkbox
+      label: Print Bt
+      required: false
+      width: full
+  save_bt:
+    title: Save Bt
+    fields:
+    - name: save_bt
+      pdf_field_name: topmostSubform[0].Page3[0].Save_bt[0]
+      type: checkbox
+      label: Save Bt
+      required: false
+      width: full
+  reset_bt:
+    title: Reset Bt
+    fields:
+    - name: reset_bt
+      pdf_field_name: topmostSubform[0].Page3[0].Reset_bt[0]
+      type: checkbox
+      label: Reset Bt
+      required: false
+      width: full
+  t:
+    title: T
+    fields:
+    - name: t23
+      pdf_field_name: topmostSubform[0].Page3[0].T23[0]
+      type: checkbox
+      label: T
+      required: false
+      width: full

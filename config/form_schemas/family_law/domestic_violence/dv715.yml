@@ -1,0 +1,231 @@
+---
+form:
+  code: DV-715
+  title: DV 715 Form
+  description: ''
+  category: family_law/domestic_violence
+  pdf_filename: dv715.pdf
+  fillable: true
+  instructions: ''
+sections:
+  court_link:
+    title: Court Link
+    fields:
+    - name: court_link
+      pdf_field_name: DV-715[0].#pageSet[0].Page1[0].CourtLink[0]
+      type: checkbox
+      label: Court Link
+      required: false
+      width: full
+  print:
+    title: Print
+    fields:
+    - name: print
+      pdf_field_name: DV-715[0].#pageSet[0].Page2[0].Print[0]
+      type: checkbox
+      label: Print
+      required: false
+      width: full
+  save:
+    title: Save
+    fields:
+    - name: save
+      pdf_field_name: DV-715[0].#pageSet[0].Page2[0].Save[0]
+      type: checkbox
+      label: Save
+      required: false
+      width: full
+  reset:
+    title: Reset
+    fields:
+    - name: reset
+      pdf_field_name: DV-715[0].#pageSet[0].Page2[0].Reset[0]
+      type: checkbox
+      label: Reset
+      required: false
+      width: full
+  warning:
+    title: Warning
+    fields:
+    - name: warning
+      pdf_field_name: DV-715[0].#pageSet[0].Page2[0].Warning[0]
+      type: checkbox
+      label: Warning
+      required: false
+      width: full
+  court_info_ft:
+    title: Court Info Ft
+    fields:
+    - name: court_info_ft
+      pdf_field_name: DV-715[0].Page1[0].CourtInfo_ft[0]
+      type: text
+      label: Court Info Ft
+      required: false
+      width: full
+  case_number_ft:
+    title: Case Number Ft
+    fields:
+    - name: case_number_ft
+      pdf_field_name: DV-715[0].Page1[0].CaseNumber_ft[0]
+      type: text
+      label: Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+    - name: case_number_ft_2
+      pdf_field_name: DV-715[0].Page2[0].CaseNumber_ft[0]
+      type: text
+      label: Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+  list:
+    title: List
+    fields:
+    - name: nameitem1
+      pdf_field_name: DV-715[0].Page1[0].List1[0].Li1[0].Nameitem1[0]
+      type: text
+      label: Nameitem
+      required: false
+      width: full
+    - name: party_def_cb_pp
+      pdf_field_name: DV-715[0].Page1[0].List1[0].Li2[0].PartyDef_cbPP[0]
+      type: text
+      label: Party Def Cb Pp
+      required: false
+      width: full
+    - name: party_def_cb_rp
+      pdf_field_name: DV-715[0].Page1[0].List1[0].Li2[0].Restrainpartysub[0].PartyDef_cbRP[0]
+      type: text
+      label: Party Def Cb Rp
+      required: false
+      width: full
+    - name: address
+      pdf_field_name: DV-715[0].Page1[0].List1[0].Li2[0].Restrainpartysub[0].Address[0]
+      type: address
+      label: Address
+      required: false
+      width: full
+    - name: city
+      pdf_field_name: DV-715[0].Page1[0].List1[0].Li2[0].Restrainpartysub[0].City[0]
+      type: address
+      label: City
+      required: false
+      width: full
+    - name: state
+      pdf_field_name: DV-715[0].Page1[0].List1[0].Li2[0].Restrainpartysub[0].State[0]
+      type: address
+      label: State
+      required: false
+      width: full
+    - name: zip
+      pdf_field_name: DV-715[0].Page1[0].List1[0].Li2[0].Restrainpartysub[0].Zip[0]
+      type: address
+      label: Zip
+      required: false
+      width: full
+    - name: telephone
+      pdf_field_name: DV-715[0].Page1[0].List1[0].Li2[0].Restrainpartysub[0].Telephone[0]
+      type: tel
+      label: Telephone
+      required: false
+      width: half
+    - name: fax
+      pdf_field_name: DV-715[0].Page1[0].List1[0].Li2[0].Restrainpartysub[0].Fax[0]
+      type: tel
+      label: Fax
+      required: false
+      width: half
+    - name: email
+      pdf_field_name: DV-715[0].Page1[0].List1[0].Li2[0].Restrainpartysub[0].Email[0]
+      type: email
+      label: Email
+      required: false
+      width: half
+    - name: lawyername
+      pdf_field_name: DV-715[0].Page1[0].List1[0].Li2[0].Restrainpartysub[0].lawyername[0]
+      type: text
+      label: Lawyername
+      required: false
+      width: full
+    - name: statebarno
+      pdf_field_name: DV-715[0].Page1[0].List1[0].Li2[0].Restrainpartysub[0].statebarno[0]
+      type: address
+      label: Statebarno
+      required: false
+      width: full
+    - name: firmname
+      pdf_field_name: DV-715[0].Page1[0].List1[0].Li2[0].Restrainpartysub[0].firmname[0]
+      type: text
+      label: Firmname
+      required: false
+      width: full
+    - name: otherpartyname
+      pdf_field_name: DV-715[0].Page1[0].List2[0].Li1[0].otherpartyname[0]
+      type: text
+      label: Otherpartyname
+      required: false
+      width: full
+    - name: current_hearing_dt
+      pdf_field_name: DV-715[0].Page1[0].List2[0].Li2[0].CurrentHearing_dt[0]
+      type: currency
+      label: Current Hearing Dt
+      required: false
+      width: third
+    - name: reason_reschedule_cb
+      pdf_field_name: DV-715[0].Page2[0].List3[0].Li1[0].ReasonReschedule_cb[0]
+      type: text
+      label: Reason Reschedule Cb
+      required: false
+      width: full
+    - name: below_ft
+      pdf_field_name: DV-715[0].Page2[0].List3[0].Li2[0].Below_ft[0]
+      type: text
+      label: Below Ft
+      required: false
+      width: full
+    - name: reason_reschedule_cb_2
+      pdf_field_name: DV-715[0].Page2[0].List3[0].Li2[0].ReasonReschedule_cb[0]
+      type: text
+      label: Reason Reschedule Cb
+      required: false
+      width: full
+    - name: sig_date
+      pdf_field_name: DV-715[0].Page2[0].List4[0].Li1[0].SigDate[0]
+      type: date
+      label: Sig Date
+      required: false
+      width: half
+    - name: your_name_tf
+      pdf_field_name: DV-715[0].Page2[0].List4[0].Li1[0].YourName_tf[0]
+      type: text
+      label: Your Name Tf
+      required: false
+      width: full
+    - name: sig_date_2
+      pdf_field_name: DV-715[0].Page2[0].List5[0].Li1[0].SigDate[0]
+      type: date
+      label: Sig Date
+      required: false
+      width: half
+    - name: tf1
+      pdf_field_name: DV-715[0].Page2[0].List5[0].Li1[0].tf1[0]
+      type: text
+      label: Tf
+      required: false
+      width: full
+  nextstepsub:
+    title: Nextstepsub
+    fields:
+    - name: button1
+      pdf_field_name: DV-715[0].Page2[0].Nextstepsub[0].Li3[0].Button1[0]
+      type: checkbox
+      label: Button
+      required: false
+      width: full
+    - name: button1_2
+      pdf_field_name: DV-715[0].Page2[0].Nextstepsub[0].Li4[0].Button1[0]
+      type: checkbox
+      label: Button
+      required: false
+      width: full

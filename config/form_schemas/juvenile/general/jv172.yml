@@ -1,0 +1,351 @@
+---
+form:
+  code: JV-172
+  title: JV 172 Form
+  description: ''
+  category: juvenile/general
+  pdf_filename: jv172.pdf
+  fillable: true
+  instructions: ''
+sections:
+  right_caption:
+    title: Right Caption
+    fields:
+    - name: court_info
+      pdf_field_name: JV-172[0].Page1[0].RightCaption[0].CourtInfo[0]
+      type: text
+      label: Court Info
+      required: false
+      width: full
+    - name: name
+      pdf_field_name: JV-172[0].Page1[0].RightCaption[0].name[0]
+      type: text
+      label: Name
+      required: false
+      width: full
+    - name: namedob
+      pdf_field_name: JV-172[0].Page1[0].RightCaption[0].namedob[0]
+      type: text
+      label: Namedob
+      required: false
+      width: full
+    - name: case_number
+      pdf_field_name: JV-172[0].Page1[0].RightCaption[0].CaseNumber[0]
+      type: text
+      label: Case Number
+      required: false
+      width: full
+      shared_key: case:number
+  item:
+    title: Item
+    fields:
+    - name: protected_phone
+      pdf_field_name: JV-172[0].Page1[0].item1[0].ProtectedPhone[0]
+      type: tel
+      label: Protected Phone
+      required: false
+      width: half
+    - name: protected_lawyer_name1
+      pdf_field_name: JV-172[0].Page1[0].item1[0].ProtectedLawyerName1[0]
+      type: text
+      label: Protected Lawyer Name
+      required: false
+      width: full
+    - name: protected_street
+      pdf_field_name: JV-172[0].Page1[0].item1[0].ProtectedStreet[0]
+      type: address
+      label: Protected Street
+      required: false
+      width: full
+    - name: protected_lawyer_name
+      pdf_field_name: JV-172[0].Page1[0].item1[0].ProtectedLawyerName[0]
+      type: text
+      label: Protected Lawyer Name
+      required: false
+      width: full
+    - name: thechildresides
+      pdf_field_name: JV-172[0].Page1[0].item2[0].thechildresides[0]
+      type: text
+      label: Thechildresides
+      required: false
+      width: full
+    - name: parent
+      pdf_field_name: JV-172[0].Page1[0].item2[0].parent[0]
+      type: currency
+      label: Parent
+      required: false
+      width: third
+    - name: guardian
+      pdf_field_name: JV-172[0].Page1[0].item2[0].guardian[0]
+      type: text
+      label: Guardian
+      required: false
+      width: full
+    - name: indiancusto
+      pdf_field_name: JV-172[0].Page1[0].item2[0].indiancusto[0]
+      type: text
+      label: Indiancusto
+      required: false
+      width: full
+    - name: thechild
+      pdf_field_name: JV-172[0].Page1[0].item2[0].thechild[0]
+      type: text
+      label: Thechild
+      required: false
+      width: full
+    - name: nonminordep
+      pdf_field_name: JV-172[0].Page1[0].item2[0].nonminordep[0]
+      type: text
+      label: Nonminordep
+      required: false
+      width: full
+    - name: text_field
+      pdf_field_name: JV-172[0].Page1[0].item2[0].TextField[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: other1
+      pdf_field_name: JV-172[0].Page1[0].item2[0].other1[0]
+      type: text
+      label: Other
+      required: false
+      width: full
+    - name: check_box_right_caption
+      pdf_field_name: JV-172[0].Page1[0].item2[0].CheckBoxRightCaption[0]
+      type: checkbox
+      label: Check Box Right Caption
+      required: false
+      width: full
+    - name: text_field_2
+      pdf_field_name: JV-172[0].Page1[0].item4[0].TextField[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field_2
+      pdf_field_name: JV-172[0].Page1[0].item5[0].TextField[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field_2
+      pdf_field_name: JV-172[0].Page1[0].item6[0].TextField[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: check_box_right_caption_2
+      pdf_field_name: JV-172[0].Page1[0].item7[0].CheckBoxRightCaption[0]
+      type: checkbox
+      label: Check Box Right Caption
+      required: false
+      width: full
+    - name: filltext7
+      pdf_field_name: JV-172[0].Page1[0].item7[0].filltext7[0]
+      type: text
+      label: Filltext
+      required: false
+      width: full
+    - name: nonminoror
+      pdf_field_name: JV-172[0].Page1[0].item7[0].nonminoror[0]
+      type: text
+      label: Nonminoror
+      required: false
+      width: full
+    - name: text_field_2
+      pdf_field_name: JV-172[0].Page1[0].item7[0].TextField[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: thechild9
+      pdf_field_name: JV-172[0].Page2[0].item9[0].thechild9[0]
+      type: text
+      label: Thechild
+      required: false
+      width: full
+    - name: parentguardian9
+      pdf_field_name: JV-172[0].Page2[0].item9[0].parentguardian9[0]
+      type: currency
+      label: Parentguardian
+      required: false
+      width: third
+    - name: doesdoesnot9
+      pdf_field_name: JV-172[0].Page2[0].item9[0].doesdoesnot9[0]
+      type: text
+      label: Doesdoesnot
+      required: false
+      width: full
+    - name: doesdoesnot9_2
+      pdf_field_name: JV-172[0].Page2[0].item9[0].doesdoesnot9[1]
+      type: text
+      label: Doesdoesnot
+      required: false
+      width: full
+    - name: childisseeking9
+      pdf_field_name: JV-172[0].Page2[0].item9[0].childisseeking9[0]
+      type: text
+      label: Childisseeking
+      required: false
+      width: full
+    - name: c
+      pdf_field_name: JV-172[0].Page2[0].item9[0].doesdoesnot9\.c[0]
+      type: text
+      label: C
+      required: false
+      width: full
+    - name: c_2
+      pdf_field_name: JV-172[0].Page2[0].item9[0].doesdoesnot9\.c[1]
+      type: text
+      label: C
+      required: false
+      width: full
+    - name: text_field_2
+      pdf_field_name: JV-172[0].Page2[0].item9[0].TextField[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: services10b
+      pdf_field_name: JV-172[0].Page2[0].item10[0].services10b[0]
+      type: text
+      label: Services10b
+      required: false
+      width: full
+    - name: communitybased
+      pdf_field_name: JV-172[0].Page2[0].item10[0].communitybased[0]
+      type: text
+      label: Communitybased
+      required: false
+      width: full
+    - name: mentalhealth10
+      pdf_field_name: JV-172[0].Page2[0].item10[0].mentalhealth10[0]
+      type: text
+      label: Mentalhealth
+      required: false
+      width: full
+    - name: b
+      pdf_field_name: JV-172[0].Page2[0].item10[0].serivices10\.b[0]
+      type: text
+      label: B
+      required: false
+      width: full
+    - name: check_box_right_caption_2
+      pdf_field_name: JV-172[0].Page2[0].item10[0].CheckBoxRightCaption[0]
+      type: checkbox
+      label: Check Box Right Caption
+      required: false
+      width: full
+    - name: text_field_2
+      pdf_field_name: JV-172[0].Page2[0].item10[0].TextField[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field_2
+      pdf_field_name: JV-172[0].Page2[0].item11[0].TextField[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: check_box_right_caption_2
+      pdf_field_name: JV-172[0].Page2[0].item11[0].CheckBoxRightCaption[0]
+      type: checkbox
+      label: Check Box Right Caption
+      required: false
+      width: full
+    - name: following12
+      pdf_field_name: JV-172[0].Page2[0].item12[0].following12[0]
+      type: text
+      label: Following
+      required: false
+      width: full
+    - name: allmembers12
+      pdf_field_name: JV-172[0].Page2[0].item12[0].allmembers12[0]
+      type: text
+      label: Allmembers
+      required: false
+      width: full
+    - name: familyteam12
+      pdf_field_name: JV-172[0].Page2[0].item12[0].familyteam12[0]
+      type: text
+      label: Familyteam
+      required: false
+      width: full
+    - name: text_field_2
+      pdf_field_name: JV-172[0].Page2[0].item12[0].TextField[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: of_multiline
+      pdf_field_name: JV-172[0].Page2[0].item12[0].OFMultiline[0]
+      type: text
+      label: Of Multiline
+      required: false
+      width: full
+    - name: doesdoesnot12
+      pdf_field_name: JV-172[0].Page2[0].item12[0].doesdoesnot12[0]
+      type: text
+      label: Doesdoesnot
+      required: false
+      width: full
+    - name: doesdoesnot12_2
+      pdf_field_name: JV-172[0].Page2[0].item12[0].doesdoesnot12[1]
+      type: text
+      label: Doesdoesnot
+      required: false
+      width: full
+  header:
+    title: Header
+    fields:
+    - name: case_number_2
+      pdf_field_name: JV-172[0].Page2[0].header2[0].CaseNumber[0]
+      type: text
+      label: Case Number
+      required: false
+      width: full
+      shared_key: case:number
+  signaturesub:
+    title: Signaturesub
+    fields:
+    - name: sig_date
+      pdf_field_name: JV-172[0].Page2[0].signaturesub[0].SigDate[0]
+      type: signature
+      label: Sig Date
+      required: false
+      width: full
+    - name: sig_name
+      pdf_field_name: JV-172[0].Page2[0].signaturesub[0].SigName[0]
+      type: signature
+      label: Sig Name
+      required: false
+      width: full
+  footer_buttons:
+    title: Footer Buttons
+    fields:
+    - name: print
+      pdf_field_name: JV-172[0].Page2[0].FooterButtons[0].Print[0]
+      type: checkbox
+      label: Print
+      required: false
+      width: full
+    - name: save
+      pdf_field_name: JV-172[0].Page2[0].FooterButtons[0].Save[0]
+      type: checkbox
+      label: Save
+      required: false
+      width: full
+    - name: reset
+      pdf_field_name: JV-172[0].Page2[0].FooterButtons[0].Reset[0]
+      type: checkbox
+      label: Reset
+      required: false
+      width: full
+    - name: warning
+      pdf_field_name: JV-172[0].Page2[0].FooterButtons[0].Warning[0]
+      type: checkbox
+      label: Warning
+      required: false
+      width: full

@@ -1,0 +1,188 @@
+---
+form:
+  code: DV-117
+  title: DV 117 Form
+  description: ''
+  category: family_law/domestic_violence
+  pdf_filename: dv117.pdf
+  fillable: true
+  instructions: ''
+sections:
+  text_field:
+    title: Text Field
+    fields:
+    - name: text_field6
+      pdf_field_name: DV-117[0].#subform[0].TextField6[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: DV-117[0].#subform[0].TextField6[1]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field2
+      pdf_field_name: DV-117[0].#subform[0].TextField2[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field2_2
+      pdf_field_name: DV-117[0].#subform[0].TextField2[1]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+  stamp_court_case:
+    title: Stamp Court Case
+    fields:
+    - name: case_number_ft
+      pdf_field_name: DV-117[0].#subform[0].Stamp_court_case[0].CaseNumber_ft[0]
+      type: text
+      label: Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+  tro_issued_dt:
+    title: Tro Issued Dt
+    fields:
+    - name: tro_issued_dt
+      pdf_field_name: DV-117[0].#subform[0].TROIssued_dt[0]
+      type: date
+      label: Tro Issued Dt
+      required: false
+      width: half
+  check_box:
+    title: Check Box
+    fields:
+    - name: check_box1
+      pdf_field_name: DV-117[0].#subform[0].CheckBox1[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box1_2
+      pdf_field_name: DV-117[0].#subform[0].CheckBox1[1]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box1_2
+      pdf_field_name: DV-117[0].#subform[0].CheckBox1[2]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box1_2
+      pdf_field_name: DV-117[0].#subform[0].CheckBox1[3]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box1_2
+      pdf_field_name: DV-117[0].#subform[0].CheckBox1[4]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box1_2
+      pdf_field_name: DV-117[0].#subform[0].CheckBox1[5]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box1_2
+      pdf_field_name: DV-117[0].#subform[0].CheckBox1[6]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box1_2
+      pdf_field_name: DV-117[0].#subform[0].CheckBox1[7]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box1_2
+      pdf_field_name: DV-117[0].#subform[0].CheckBox1[8]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box1_2
+      pdf_field_name: DV-117[0].#subform[0].CheckBox1[9]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+  other_service_cb:
+    title: Other Service Cb
+    fields:
+    - name: other_service_cb
+      pdf_field_name: DV-117[0].#subform[0].OtherService_cb[0]
+      type: text
+      label: Other Service Cb
+      required: false
+      width: full
+    - name: other_service_cb_2
+      pdf_field_name: DV-117[0].#subform[0].OtherService_cb[1]
+      type: text
+      label: Other Service Cb
+      required: false
+      width: full
+  other:
+    title: Other
+    fields:
+    - name: other
+      pdf_field_name: DV-117[0].#subform[0].Other[0]
+      type: text
+      label: Other
+      required: false
+      width: full
+  general:
+    title: General
+    fields:
+    - name: field
+      pdf_field_name: DV-117[0].#subform[0].#field[19]
+      type: text
+      label: "#Field"
+      required: false
+      width: full
+  print:
+    title: Print
+    fields:
+    - name: print
+      pdf_field_name: DV-117[0].#subform[0].#area[10].Print[0]
+      type: checkbox
+      label: Print
+      required: false
+      width: full
+  save:
+    title: Save
+    fields:
+    - name: save
+      pdf_field_name: DV-117[0].#subform[0].#area[10].Save[0]
+      type: checkbox
+      label: Save
+      required: false
+      width: full
+  reset:
+    title: Reset
+    fields:
+    - name: reset
+      pdf_field_name: DV-117[0].#subform[0].#area[10].Reset[0]
+      type: checkbox
+      label: Reset
+      required: false
+      width: full
+  warning:
+    title: Warning
+    fields:
+    - name: warning
+      pdf_field_name: DV-117[0].#subform[0].#area[10].Warning[0]
+      type: checkbox
+      label: Warning
+      required: false
+      width: full

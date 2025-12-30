@@ -1,0 +1,822 @@
+---
+form:
+  code: CARE-102
+  title: CARE 102 Form
+  description: ''
+  category: civil/care
+  pdf_filename: care102.pdf
+  fillable: true
+  instructions: ''
+sections:
+  p1_footer:
+    title: P1 Footer
+    fields:
+    - name: court_link
+      pdf_field_name: CARE-102[0].#pageSet[0].Page1[0].P1Footer[0].CourtLink[0]
+      type: checkbox
+      label: Court Link
+      required: false
+      width: full
+  print:
+    title: Print
+    fields:
+    - name: print
+      pdf_field_name: CARE-102[0].#pageSet[0].Page3[0].Print[0]
+      type: checkbox
+      label: Print
+      required: false
+      width: full
+  save:
+    title: Save
+    fields:
+    - name: save
+      pdf_field_name: CARE-102[0].#pageSet[0].Page3[0].Save[0]
+      type: checkbox
+      label: Save
+      required: false
+      width: full
+  reset:
+    title: Reset
+    fields:
+    - name: reset
+      pdf_field_name: CARE-102[0].#pageSet[0].Page3[0].Reset[0]
+      type: checkbox
+      label: Reset
+      required: false
+      width: full
+  p1_caption:
+    title: P1 Caption
+    fields:
+    - name: atty_bar_no
+      pdf_field_name: CARE-102[0].Page1[0].P1Caption[0].AttyPartyInfo[0].AttyBarNo[0]
+      type: text
+      label: Atty Bar No
+      required: false
+      width: full
+    - name: name
+      pdf_field_name: CARE-102[0].Page1[0].P1Caption[0].AttyPartyInfo[0].Name[0]
+      type: text
+      label: Name
+      required: false
+      width: full
+    - name: atty_firm
+      pdf_field_name: CARE-102[0].Page1[0].P1Caption[0].AttyPartyInfo[0].AttyFirm[0]
+      type: text
+      label: Atty Firm
+      required: false
+      width: full
+    - name: street
+      pdf_field_name: CARE-102[0].Page1[0].P1Caption[0].AttyPartyInfo[0].Street[0]
+      type: address
+      label: Street
+      required: false
+      width: full
+    - name: city
+      pdf_field_name: CARE-102[0].Page1[0].P1Caption[0].AttyPartyInfo[0].City[0]
+      type: address
+      label: City
+      required: false
+      width: full
+    - name: state
+      pdf_field_name: CARE-102[0].Page1[0].P1Caption[0].AttyPartyInfo[0].State[0]
+      type: address
+      label: State
+      required: false
+      width: full
+    - name: zip
+      pdf_field_name: CARE-102[0].Page1[0].P1Caption[0].AttyPartyInfo[0].Zip[0]
+      type: address
+      label: Zip
+      required: false
+      width: full
+    - name: phone
+      pdf_field_name: CARE-102[0].Page1[0].P1Caption[0].AttyPartyInfo[0].Phone[0]
+      type: tel
+      label: Phone
+      required: false
+      width: half
+    - name: fax
+      pdf_field_name: CARE-102[0].Page1[0].P1Caption[0].AttyPartyInfo[0].Fax[0]
+      type: tel
+      label: Fax
+      required: false
+      width: half
+    - name: email
+      pdf_field_name: CARE-102[0].Page1[0].P1Caption[0].AttyPartyInfo[0].Email[0]
+      type: email
+      label: Email
+      required: false
+      width: half
+    - name: atty_for
+      pdf_field_name: CARE-102[0].Page1[0].P1Caption[0].AttyPartyInfo[0].AttyFor[0]
+      type: text
+      label: Atty For
+      required: false
+      width: full
+    - name: crt_county
+      pdf_field_name: CARE-102[0].Page1[0].P1Caption[0].CourtInfo[0].CrtCounty[0]
+      type: number
+      label: Crt County
+      required: false
+      width: third
+    - name: crt_street
+      pdf_field_name: CARE-102[0].Page1[0].P1Caption[0].CourtInfo[0].CrtStreet[0]
+      type: address
+      label: Crt Street
+      required: false
+      width: full
+    - name: crt_mailing_add
+      pdf_field_name: CARE-102[0].Page1[0].P1Caption[0].CourtInfo[0].CrtMailingAdd[0]
+      type: address
+      label: Crt Mailing Add
+      required: false
+      width: full
+    - name: crt_city_zip
+      pdf_field_name: CARE-102[0].Page1[0].P1Caption[0].CourtInfo[0].CrtCityZip[0]
+      type: address
+      label: Crt City Zip
+      required: false
+      width: full
+    - name: crt_branch
+      pdf_field_name: CARE-102[0].Page1[0].P1Caption[0].CourtInfo[0].CrtBranch[0]
+      type: text
+      label: Crt Branch
+      required: false
+      width: full
+    - name: party1
+      pdf_field_name: CARE-102[0].Page1[0].P1Caption[0].TitlePartyName[0].Party1[0]
+      type: text
+      label: Party
+      required: false
+      width: full
+    - name: case_number
+      pdf_field_name: CARE-102[0].Page1[0].P1Caption[0].CaseNumber[0].CaseNumber[0]
+      type: text
+      label: Case Number
+      required: false
+      width: full
+      shared_key: case:number
+  list:
+    title: List
+    fields:
+    - name: ptnr_name
+      pdf_field_name: CARE-102[0].Page1[0].List1[0].LI1[0].PtnrName[0]
+      type: text
+      label: Ptnr Name
+      required: false
+      width: full
+    - name: item2a
+      pdf_field_name: CARE-102[0].Page1[0].List2[0].LI1[0].Item2a[0]
+      type: text
+      label: Item2a
+      required: false
+      width: full
+    - name: valid_c_alicense3a
+      pdf_field_name: CARE-102[0].Page1[0].List2[0].LI1[0].LI1List1[0].LI1[0].validCAlicense3a[0]
+      type: text
+      label: Valid C Alicense3a
+      required: false
+      width: full
+    - name: valid_c_alicense3a_2
+      pdf_field_name: CARE-102[0].Page1[0].List2[0].LI1[0].LI1List1[0].LI2[0].validCAlicense3a[0]
+      type: text
+      label: Valid C Alicense3a
+      required: false
+      width: full
+    - name: valid_c_alicense3a_2
+      pdf_field_name: CARE-102[0].Page1[0].List2[0].LI1[0].LI1List1[0].LI3[0].validCAlicense3a[0]
+      type: text
+      label: Valid C Alicense3a
+      required: false
+      width: full
+    - name: valid_c_alicense3a_2
+      pdf_field_name: CARE-102[0].Page1[0].List2[0].LI1[0].LI1List1[0].LI4[0].validCAlicense3a[0]
+      type: text
+      label: Valid C Alicense3a
+      required: false
+      width: full
+    - name: valid_c_alicense3a_2
+      pdf_field_name: CARE-102[0].Page1[0].List2[0].LI1[0].LI1List1[0].LI5[0].validCAlicense3a[0]
+      type: text
+      label: Valid C Alicense3a
+      required: false
+      width: full
+    - name: license_num
+      pdf_field_name: CARE-102[0].Page1[0].List2[0].LI2[0].LicenseNum[0]
+      type: text
+      label: License Num
+      required: false
+      width: full
+    - name: ptnr_cont_resp_cb
+      pdf_field_name: CARE-102[0].Page1[0].List3[0].LI1[0].PtnrContResp_cb[0]
+      type: text
+      label: Ptnr Cont Resp Cb
+      required: false
+      width: full
+    - name: field3
+      pdf_field_name: CARE-102[0].Page1[0].List3[0].LI1[0].Field3[0]
+      type: text
+      label: Field
+      required: false
+      width: full
+    - name: resp_addr
+      pdf_field_name: CARE-102[0].Page1[0].List4[0].LI1[0].RespAddr[0]
+      type: text
+      label: Resp Addr
+      required: false
+      width: full
+    - name: resp_phone
+      pdf_field_name: CARE-102[0].Page1[0].List4[0].LI2[0].RespPhone[0]
+      type: tel
+      label: Resp Phone
+      required: false
+      width: half
+    - name: text_yn
+      pdf_field_name: CARE-102[0].Page1[0].List4[0].LI2[0].Texts[0].TextYN[0]
+      type: text
+      label: Text Yn
+      required: false
+      width: full
+    - name: text_yn_2
+      pdf_field_name: CARE-102[0].Page1[0].List4[0].LI2[0].NoTexts[0].TextYN[0]
+      type: text
+      label: Text Yn
+      required: false
+      width: full
+    - name: resp_email
+      pdf_field_name: CARE-102[0].Page1[0].List4[0].LI2[0].RespEmail[0]
+      type: email
+      label: Resp Email
+      required: false
+      width: half
+    - name: in_person
+      pdf_field_name: CARE-102[0].Page1[0].List4[0].LI3[0].LI3List1[0].LI1[0].InPerson[0]
+      type: text
+      label: In Person
+      required: false
+      width: full
+    - name: phone_2
+      pdf_field_name: CARE-102[0].Page1[0].List4[0].LI3[0].LI3List1[0].LI2[0].Phone[0]
+      type: tel
+      label: Phone
+      required: false
+      width: half
+    - name: text
+      pdf_field_name: CARE-102[0].Page1[0].List4[0].LI3[0].LI3List1[0].LI3[0].Text[0]
+      type: text
+      label: Text
+      required: false
+      width: full
+    - name: email_2
+      pdf_field_name: CARE-102[0].Page1[0].List4[0].LI3[0].LI3List1[0].LI4[0].Email[0]
+      type: email
+      label: Email
+      required: false
+      width: half
+    - name: mail
+      pdf_field_name: CARE-102[0].Page1[0].List4[0].LI3[0].LI3List1[0].LI5[0].Mail[0]
+      type: text
+      label: Mail
+      required: false
+      width: full
+    - name: other
+      pdf_field_name: CARE-102[0].Page1[0].List4[0].LI3[0].LI3List1[0].LI6[0].Other[0].Other[0]
+      type: text
+      label: Other
+      required: false
+      width: full
+    - name: field4c6
+      pdf_field_name: CARE-102[0].Page1[0].List4[0].LI3[0].LI3List1[0].LI6[0].Other[0].Field4c6[0]
+      type: text
+      label: Field4c
+      required: false
+      width: full
+    - name: language_access
+      pdf_field_name: CARE-102[0].Page1[0].List4[0].LI4[0].LanguageAccess[0]
+      type: text
+      label: Language Access
+      required: false
+      width: full
+    - name: reading
+      pdf_field_name: CARE-102[0].Page1[0].List4[0].LI4[0].Reading[0].Reading[0]
+      type: text
+      label: Reading
+      required: false
+      width: full
+    - name: speaking
+      pdf_field_name: CARE-102[0].Page1[0].List4[0].LI4[0].Speaking[0].Speaking[0]
+      type: text
+      label: Speaking
+      required: false
+      width: full
+    - name: field4d
+      pdf_field_name: CARE-102[0].Page1[0].List4[0].LI4[0].Field4d[0]
+      type: text
+      label: Field4d
+      required: false
+      width: full
+    - name: speaking_2
+      pdf_field_name: CARE-102[0].Page1[0].List4[0].LI4[0].Speaking[1].Speaking[0]
+      type: text
+      label: Speaking
+      required: false
+      width: full
+    - name: resident_yn
+      pdf_field_name: CARE-102[0].Page2[0].List5[0].LI1[0].ResidentYN[0]
+      type: text
+      label: Resident Yn
+      required: false
+      width: full
+    - name: resident_yn_2
+      pdf_field_name: CARE-102[0].Page2[0].List5[0].LI2[0].ResidentYN[0]
+      type: text
+      label: Resident Yn
+      required: false
+      width: full
+    - name: field5c
+      pdf_field_name: CARE-102[0].Page2[0].List5[0].LI2[0].Field5c[0]
+      type: text
+      label: Field5c
+      required: false
+      width: full
+    - name: cb5b1
+      pdf_field_name: CARE-102[0].Page2[0].List5[0].LI2[0].LI2List1[0].LI1[0].CB5b1[0]
+      type: text
+      label: Cb5b
+      required: false
+      width: full
+    - name: cb5b2
+      pdf_field_name: CARE-102[0].Page2[0].List5[0].LI2[0].LI2List1[0].LI2[0].CB5b2[0]
+      type: text
+      label: Cb5b
+      required: false
+      width: full
+    - name: cb6ab
+      pdf_field_name: CARE-102[0].Page2[0].List6[0].LI1[0].cb6ab[0]
+      type: text
+      label: Cb6ab
+      required: false
+      width: full
+    - name: dateofexam
+      pdf_field_name: CARE-102[0].Page2[0].List6[0].LI1[0].dateofexam[0]
+      type: date
+      label: Dateofexam
+      required: false
+      width: half
+    - name: cb6ab_2
+      pdf_field_name: CARE-102[0].Page2[0].List6[0].LI2[0].cb6ab[0]
+      type: text
+      label: Cb6ab
+      required: false
+      width: full
+    - name: attempt_dates
+      pdf_field_name: CARE-102[0].Page2[0].List6[0].LI2[0].AttemptDates[0]
+      type: date
+      label: Attempt Dates
+      required: false
+      width: half
+    - name: explain
+      pdf_field_name: CARE-102[0].Page2[0].List6[0].LI2[0].Explain[0]
+      type: text
+      label: Explain
+      required: false
+      width: full
+    - name: exam_results
+      pdf_field_name: CARE-102[0].Page2[0].List7[0].LI1[0].ExamResults[0]
+      type: text
+      label: Exam Results
+      required: false
+      width: full
+    - name: other_exam_results
+      pdf_field_name: CARE-102[0].Page2[0].List7[0].LI2[0].OtherExamResults[0]
+      type: text
+      label: Other Exam Results
+      required: false
+      width: full
+    - name: other_name
+      pdf_field_name: CARE-102[0].Page2[0].List7[0].LI2[0].OtherName[0]
+      type: text
+      label: Other Name
+      required: false
+      width: full
+    - name: other_addy
+      pdf_field_name: CARE-102[0].Page2[0].List7[0].LI2[0].OtherAddy[0]
+      type: text
+      label: Other Addy
+      required: false
+      width: full
+    - name: other_phone
+      pdf_field_name: CARE-102[0].Page2[0].List7[0].LI2[0].OtherPhone[0]
+      type: tel
+      label: Other Phone
+      required: false
+      width: half
+    - name: other_email
+      pdf_field_name: CARE-102[0].Page2[0].List7[0].LI2[0].OtherEmail[0]
+      type: email
+      label: Other Email
+      required: false
+      width: half
+    - name: other_license
+      pdf_field_name: CARE-102[0].Page2[0].List7[0].LI2[0].OtherLicense[0]
+      type: text
+      label: Other License
+      required: false
+      width: full
+    - name: other_profession
+      pdf_field_name: CARE-102[0].Page2[0].List7[0].LI2[0].OtherProfession[0]
+      type: text
+      label: Other Profession
+      required: false
+      width: full
+    - name: other_sources
+      pdf_field_name: CARE-102[0].Page2[0].List7[0].LI3[0].OtherSources[0]
+      type: text
+      label: Other Sources
+      required: false
+      width: full
+    - name: bel_att7
+      pdf_field_name: CARE-102[0].Page2[0].List7[0].LI3[0].Below[0].BelAtt7[0]
+      type: text
+      label: Bel Att
+      required: false
+      width: full
+    - name: bel_att7_2
+      pdf_field_name: CARE-102[0].Page2[0].List7[0].LI3[0].Attach[0].BelAtt7[0]
+      type: text
+      label: Bel Att
+      required: false
+      width: full
+    - name: field7c
+      pdf_field_name: CARE-102[0].Page2[0].List7[0].LI3[0].Field7c[0]
+      type: text
+      label: Field7c
+      required: false
+      width: full
+    - name: check8ab
+      pdf_field_name: CARE-102[0].Page2[0].List8[0].LI1[0].Check8ab[0]
+      type: text
+      label: Check8ab
+      required: false
+      width: full
+    - name: check8ab_2
+      pdf_field_name: CARE-102[0].Page2[0].List8[0].LI2[0].Check8ab[0]
+      type: text
+      label: Check8ab
+      required: false
+      width: full
+    - name: field9a
+      pdf_field_name: CARE-102[0].Page2[0].List9[0].LI1[0].Field9a[0]
+      type: text
+      label: Field9a
+      required: false
+      width: full
+    - name: text_field9b
+      pdf_field_name: CARE-102[0].Page2[0].List9[0].LI2[0].TextField9b[0]
+      type: text
+      label: Text Field9b
+      required: false
+      width: full
+    - name: item10a
+      pdf_field_name: CARE-102[0].Page3[0].List10[0].LI1[0].Item10a[0]
+      type: text
+      label: Item10a
+      required: false
+      width: full
+    - name: field10a
+      pdf_field_name: CARE-102[0].Page3[0].List10[0].LI1[0].Field10a[0]
+      type: text
+      label: Field10a
+      required: false
+      width: full
+    - name: item10b
+      pdf_field_name: CARE-102[0].Page3[0].List10[0].LI2[0].Item10b[0]
+      type: text
+      label: Item10b
+      required: false
+      width: full
+    - name: field10b
+      pdf_field_name: CARE-102[0].Page3[0].List10[0].LI2[0].Field10b[0]
+      type: text
+      label: Field10b
+      required: false
+      width: full
+    - name: item10c
+      pdf_field_name: CARE-102[0].Page3[0].List10[0].LI3[0].Item10c[0]
+      type: text
+      label: Item10c
+      required: false
+      width: full
+    - name: field10c
+      pdf_field_name: CARE-102[0].Page3[0].List10[0].LI3[0].Field10c[0]
+      type: text
+      label: Field10c
+      required: false
+      width: full
+    - name: referral_cb
+      pdf_field_name: CARE-102[0].Page4[0].List11[0].Referral_cb[0]
+      type: text
+      label: Referral Cb
+      required: false
+      width: full
+    - name: field11a
+      pdf_field_name: CARE-102[0].Page4[0].List11[0].LI1[0].Field11a[0]
+      type: text
+      label: Field11a
+      required: false
+      width: full
+    - name: field11b
+      pdf_field_name: CARE-102[0].Page4[0].List11[0].LI2[0].Field11b[0]
+      type: text
+      label: Field11b
+      required: false
+      width: full
+    - name: cb11c
+      pdf_field_name: CARE-102[0].Page4[0].List11[0].LI3[0].LI3List1[0].LI1[0].CB11c[0]
+      type: text
+      label: Cb11c
+      required: false
+      width: full
+    - name: cb11c_2
+      pdf_field_name: CARE-102[0].Page4[0].List11[0].LI3[0].LI3List1[0].LI2[0].CB11c[0]
+      type: text
+      label: Cb11c
+      required: false
+      width: full
+    - name: cb11c_2
+      pdf_field_name: CARE-102[0].Page4[0].List11[0].LI3[0].LI3List1[0].LI3[0].CB11c[0]
+      type: text
+      label: Cb11c
+      required: false
+      width: full
+    - name: attach11d
+      pdf_field_name: CARE-102[0].Page4[0].List11[0].LI4[0].Attach11d[0]
+      type: text
+      label: Attach11d
+      required: false
+      width: full
+    - name: atty_name_2
+      pdf_field_name: CARE-102[0].Page4[0].List11[0].LI5[0].AttyName[0]
+      type: text
+      label: Atty Name
+      required: false
+      width: full
+    - name: atty_addy
+      pdf_field_name: CARE-102[0].Page4[0].List11[0].LI5[0].AttyAddy[0]
+      type: text
+      label: Atty Addy
+      required: false
+      width: full
+    - name: atty_phone_2
+      pdf_field_name: CARE-102[0].Page4[0].List11[0].LI5[0].AttyPhone[0]
+      type: tel
+      label: Atty Phone
+      required: false
+      width: half
+    - name: atty_email_2
+      pdf_field_name: CARE-102[0].Page4[0].List11[0].LI5[0].AttyEmail[0]
+      type: email
+      label: Atty Email
+      required: false
+      width: half
+    - name: pp_attach_cb
+      pdf_field_name: CARE-102[0].Page4[0].List12[0].LI1[0].PPAttach_cb[0]
+      type: text
+      label: Pp Attach Cb
+      required: false
+      width: full
+  p2_caption:
+    title: P2 Caption
+    fields:
+    - name: party1_2
+      pdf_field_name: CARE-102[0].Page2[0].P2Caption[0].TitlePartyName[0].Party1[0]
+      type: text
+      label: Party
+      required: false
+      width: full
+    - name: case_number_2
+      pdf_field_name: CARE-102[0].Page2[0].P2Caption[0].CaseSub[0].CaseNumber[0]
+      type: text
+      label: Case Number
+      required: false
+      width: full
+      shared_key: case:number
+  p3_caption:
+    title: P3 Caption
+    fields:
+    - name: party1_2
+      pdf_field_name: CARE-102[0].Page3[0].P3Caption[0].TitlePartyName[0].Party1[0]
+      type: text
+      label: Party
+      required: false
+      width: full
+    - name: case_number_2
+      pdf_field_name: CARE-102[0].Page3[0].P3Caption[0].CaseNumber[0].CaseNumber[0]
+      type: text
+      label: Case Number
+      required: false
+      width: full
+      shared_key: case:number
+  list9_continued:
+    title: List9 Continued
+    fields:
+    - name: field9c
+      pdf_field_name: CARE-102[0].Page3[0].List9Continued[0].LI3[0].Field9c[0]
+      type: text
+      label: Field9c
+      required: false
+      width: full
+    - name: check_box9d1
+      pdf_field_name: CARE-102[0].Page3[0].List9Continued[0].LI4[0].LI4List1[0].LI1[0].CB9d1[0].CheckBox9d1[0]
+      type: checkbox
+      label: Check Box9d
+      required: false
+      width: full
+    - name: field9d1
+      pdf_field_name: CARE-102[0].Page3[0].List9Continued[0].LI4[0].LI4List1[0].LI1[0].Field9d1[0]
+      type: text
+      label: Field9d
+      required: false
+      width: full
+    - name: check_box9d2
+      pdf_field_name: CARE-102[0].Page3[0].List9Continued[0].LI4[0].LI4List1[0].LI2[0].Item9d2[0].CheckBox9d2[0]
+      type: checkbox
+      label: Check Box9d
+      required: false
+      width: full
+    - name: field9d2
+      pdf_field_name: CARE-102[0].Page3[0].List9Continued[0].LI4[0].LI4List1[0].LI2[0].Field9d2[0]
+      type: text
+      label: Field9d
+      required: false
+      width: full
+    - name: field9e
+      pdf_field_name: CARE-102[0].Page3[0].List9Continued[0].LI5[0].Field9e[0]
+      type: text
+      label: Field9e
+      required: false
+      width: full
+    - name: field9f
+      pdf_field_name: CARE-102[0].Page3[0].List9Continued[0].LI6[0].Field9f[0]
+      type: text
+      label: Field9f
+      required: false
+      width: full
+  p4_caption:
+    title: P4 Caption
+    fields:
+    - name: party1_2
+      pdf_field_name: CARE-102[0].Page4[0].P4Caption[0].TitlePartyName[0].Party1[0]
+      type: text
+      label: Party
+      required: false
+      width: full
+    - name: case_number_2
+      pdf_field_name: CARE-102[0].Page4[0].P4Caption[0].CaseNumber[0].CaseNumber[0]
+      type: text
+      label: Case Number
+      required: false
+      width: full
+      shared_key: case:number
+  list10_continued:
+    title: List10 Continued
+    fields:
+    - name: tribe_member_cb
+      pdf_field_name: CARE-102[0].Page4[0].List10Continued[0].LI4[0].TribeMember_cb[0]
+      type: text
+      label: Tribe Member Cb
+      required: false
+      width: full
+    - name: field10d
+      pdf_field_name: CARE-102[0].Page4[0].List10Continued[0].LI4[0].Field10d[0]
+      type: text
+      label: Field10d
+      required: false
+      width: full
+    - name: ind_hsp_cb
+      pdf_field_name: CARE-102[0].Page4[0].List10Continued[0].LI5[0].IndHSP_cb[0]
+      type: text
+      label: Ind Hsp Cb
+      required: false
+      width: full
+    - name: field10e
+      pdf_field_name: CARE-102[0].Page4[0].List10Continued[0].LI5[0].Field10e[0]
+      type: text
+      label: Field10e
+      required: false
+      width: full
+    - name: cb10f
+      pdf_field_name: CARE-102[0].Page4[0].List10Continued[0].LI6[0].CB10f[0]
+      type: text
+      label: Cb10f
+      required: false
+      width: full
+    - name: ct_name
+      pdf_field_name: CARE-102[0].Page4[0].List10Continued[0].LI6[0].LI6List1[0].LI1[0].CtName[0]
+      type: text
+      label: Ct Name
+      required: false
+      width: full
+    - name: case_num
+      pdf_field_name: CARE-102[0].Page4[0].List10Continued[0].LI6[0].LI6List1[0].LI2[0].CaseNum[0]
+      type: text
+      label: Case Num
+      required: false
+      width: full
+    - name: atty_name
+      pdf_field_name: CARE-102[0].Page4[0].List10Continued[0].LI6[0].LI6List1[0].LI3[0].AttyName[0]
+      type: text
+      label: Atty Name
+      required: false
+      width: full
+    - name: atty_add
+      pdf_field_name: CARE-102[0].Page4[0].List10Continued[0].LI6[0].LI6List1[0].LI3[0].AttyAdd[0]
+      type: text
+      label: Atty Add
+      required: false
+      width: full
+    - name: atty_phone
+      pdf_field_name: CARE-102[0].Page4[0].List10Continued[0].LI6[0].LI6List1[0].LI3[0].AttyPhone[0]
+      type: tel
+      label: Atty Phone
+      required: false
+      width: half
+    - name: atty_email
+      pdf_field_name: CARE-102[0].Page4[0].List10Continued[0].LI6[0].LI6List1[0].LI3[0].AttyEmail[0]
+      type: email
+      label: Atty Email
+      required: false
+      width: half
+    - name: conservator_cb
+      pdf_field_name: CARE-102[0].Page4[0].List10Continued[0].LI7[0].ConservatorCB[0]
+      type: text
+      label: Conservator Cb
+      required: false
+      width: full
+    - name: ct_name_2
+      pdf_field_name: CARE-102[0].Page4[0].List10Continued[0].LI7[0].LI7List1[0].LI1[0].CtName[0]
+      type: text
+      label: Ct Name
+      required: false
+      width: full
+    - name: case_num_2
+      pdf_field_name: CARE-102[0].Page4[0].List10Continued[0].LI7[0].LI7List1[0].LI2[0].CaseNum[0]
+      type: text
+      label: Case Num
+      required: false
+      width: full
+    - name: atty_name_2
+      pdf_field_name: CARE-102[0].Page4[0].List10Continued[0].LI7[0].LI7List1[0].LI3[0].AttyName[0]
+      type: text
+      label: Atty Name
+      required: false
+      width: full
+    - name: atty_add_2
+      pdf_field_name: CARE-102[0].Page4[0].List10Continued[0].LI7[0].LI7List1[0].LI3[0].AttyAdd[0]
+      type: text
+      label: Atty Add
+      required: false
+      width: full
+    - name: atty_phone_2
+      pdf_field_name: CARE-102[0].Page4[0].List10Continued[0].LI7[0].LI7List1[0].LI3[0].AttyPhone[0]
+      type: tel
+      label: Atty Phone
+      required: false
+      width: half
+    - name: atty_email_2
+      pdf_field_name: CARE-102[0].Page4[0].List10Continued[0].LI7[0].LI7List1[0].LI3[0].AttyEmail[0]
+      type: email
+      label: Atty Email
+      required: false
+      width: half
+  atty_sig:
+    title: Atty Sig
+    fields:
+    - name: date
+      pdf_field_name: CARE-102[0].Page4[0].AttySig[0].Date[0]
+      type: signature
+      label: Date
+      required: false
+      width: full
+    - name: print_name
+      pdf_field_name: CARE-102[0].Page4[0].AttySig[0].PrintName[0]
+      type: signature
+      label: Print Name
+      required: false
+      width: full
+  ptnr_sig:
+    title: Ptnr Sig
+    fields:
+    - name: date_2
+      pdf_field_name: CARE-102[0].Page4[0].PtnrSig[0].Date[0]
+      type: signature
+      label: Date
+      required: false
+      width: full
+    - name: item1petitioner_name
+      pdf_field_name: CARE-102[0].Page4[0].PtnrSig[0].Item1PetitionerName[0]
+      type: signature
+      label: Item1 Petitioner Name
+      required: false
+      width: full
+      shared_key: petitioner:name

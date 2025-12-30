@@ -1,0 +1,92 @@
+---
+form:
+  code: JV-216
+  title: JV 216 Form
+  description: ''
+  category: juvenile/general
+  pdf_filename: jv216.pdf
+  fillable: true
+  instructions: ''
+sections:
+  item1name_tf:
+    title: Item1name Tf
+    fields:
+    - name: item1name_tf
+      pdf_field_name: topmostSubform[0].Page1[0].item1name_tf[0]
+      type: text
+      label: Item1name Tf
+      required: false
+      width: full
+  sig_date:
+    title: Sig Date
+    fields:
+    - name: sig_date
+      pdf_field_name: topmostSubform[0].Page1[0].SigDate[0]
+      type: date
+      label: Sig Date
+      required: false
+      width: half
+  right_caption:
+    title: Right Caption
+    fields:
+    - name: court_info_ft
+      pdf_field_name: topmostSubform[0].Page1[0].RightCaption[0].CourtInfo_ft[0]
+      type: text
+      label: Court Info Ft
+      required: false
+      width: full
+    - name: case_number_ft
+      pdf_field_name: topmostSubform[0].Page1[0].RightCaption[0].CaseNumber_ft[0]
+      type: text
+      label: Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+    - name: child_name_ft
+      pdf_field_name: topmostSubform[0].Page1[0].RightCaption[0].ChildName_ft[0]
+      type: text
+      label: Child Name Ft
+      required: false
+      width: full
+    - name: child_dob_dt
+      pdf_field_name: topmostSubform[0].Page1[0].RightCaption[0].ChildDOB_dt[0]
+      type: text
+      label: Child Dob Dt
+      required: false
+      width: full
+  print_bt:
+    title: Print Bt
+    fields:
+    - name: print_bt
+      pdf_field_name: topmostSubform[0].Page1[0].Print_bt[0]
+      type: checkbox
+      label: Print Bt
+      required: false
+      width: full
+  save_bt:
+    title: Save Bt
+    fields:
+    - name: save_bt
+      pdf_field_name: topmostSubform[0].Page1[0].Save_bt[0]
+      type: checkbox
+      label: Save Bt
+      required: false
+      width: full
+  reset_bt:
+    title: Reset Bt
+    fields:
+    - name: reset_bt
+      pdf_field_name: topmostSubform[0].Page1[0].Reset_bt[0]
+      type: checkbox
+      label: Reset Bt
+      required: false
+      width: full
+  t:
+    title: T
+    fields:
+    - name: t23
+      pdf_field_name: topmostSubform[0].Page1[0].T23[0]
+      type: checkbox
+      label: T
+      required: false
+      width: full

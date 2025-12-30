@@ -1,0 +1,560 @@
+---
+form:
+  code: GC-212
+  title: GC 212 Form
+  description: ''
+  category: guardianship/general
+  pdf_filename: gc212.pdf
+  fillable: true
+  instructions: ''
+sections:
+  p1_caption:
+    title: P1 Caption
+    fields:
+    - name: crt_county
+      pdf_field_name: GC-212[0].Page1[0].P1Caption[0].CourtInfo[0].CrtCounty[0]
+      type: number
+      label: Crt County
+      required: false
+      width: third
+    - name: crt_street
+      pdf_field_name: GC-212[0].Page1[0].P1Caption[0].CourtInfo[0].CrtStreet[0]
+      type: address
+      label: Crt Street
+      required: false
+      width: full
+    - name: crt_mailing_add
+      pdf_field_name: GC-212[0].Page1[0].P1Caption[0].CourtInfo[0].CrtMailingAdd[0]
+      type: address
+      label: Crt Mailing Add
+      required: false
+      width: full
+    - name: crt_branch
+      pdf_field_name: GC-212[0].Page1[0].P1Caption[0].CourtInfo[0].CrtBranch[0]
+      type: text
+      label: Crt Branch
+      required: false
+      width: full
+    - name: crt_city_zip
+      pdf_field_name: GC-212[0].Page1[0].P1Caption[0].CourtInfo[0].CrtCityZip[0]
+      type: address
+      label: Crt City Zip
+      required: false
+      width: full
+    - name: guadianship
+      pdf_field_name: GC-212[0].Page1[0].P1Caption[0].FormTitle[0].Guadianship[0]
+      type: text
+      label: Guadianship
+      required: false
+      width: full
+    - name: case_number
+      pdf_field_name: GC-212[0].Page1[0].P1Caption[0].CaseNumber[0].CaseNumber[0]
+      type: text
+      label: Case Number
+      required: false
+      width: full
+      shared_key: case:number
+    - name: text_field1
+      pdf_field_name: GC-212[0].Page1[0].P1Caption[0].AttyPartyInfo[0].TextField1[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: phone
+      pdf_field_name: GC-212[0].Page1[0].P1Caption[0].AttyPartyInfo[0].Phone[0]
+      type: tel
+      label: Phone
+      required: false
+      width: half
+    - name: fax
+      pdf_field_name: GC-212[0].Page1[0].P1Caption[0].AttyPartyInfo[0].Fax[0]
+      type: tel
+      label: Fax
+      required: false
+      width: half
+    - name: email
+      pdf_field_name: GC-212[0].Page1[0].P1Caption[0].AttyPartyInfo[0].Email[0]
+      type: email
+      label: Email
+      required: false
+      width: half
+    - name: attorneyname
+      pdf_field_name: GC-212[0].Page1[0].P1Caption[0].AttyPartyInfo[0].Attorneyname[0]
+      type: text
+      label: Attorneyname
+      required: false
+      width: full
+    - name: hearingdateand_time
+      pdf_field_name: GC-212[0].Page1[0].P1Caption[0].CaseNumber2[0].HearingdateandTime[0]
+      type: date
+      label: Hearingdateand Time
+      required: false
+      width: half
+      shared_key: case:number
+    - name: text_field
+      pdf_field_name: GC-212[0].Page1[0].P1Caption[0].CaseNumber2[0].TextField[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+      shared_key: case:number
+    - name: check_box_caption
+      pdf_field_name: GC-212[0].Page1[0].P1Caption[0].FormTitle2[0].#area[0].CheckBoxCaption[0]
+      type: checkbox
+      label: Check Box Caption
+      required: false
+      width: full
+    - name: check_box_caption_2
+      pdf_field_name: GC-212[0].Page1[0].P1Caption[0].FormTitle2[0].#area[1].CheckBoxCaption[1]
+      type: checkbox
+      label: Check Box Caption
+      required: false
+      width: full
+  text_field:
+    title: Text Field
+    fields:
+    - name: text_field_2
+      pdf_field_name: GC-212[0].Page1[0].TextField[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field_2
+      pdf_field_name: GC-212[0].Page1[0].TextField[1]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field_2
+      pdf_field_name: GC-212[0].Page1[0].TextField[2]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field_2
+      pdf_field_name: GC-212[0].Page1[0].TextField[3]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field_2
+      pdf_field_name: GC-212[0].Page1[0].TextField[4]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field_2
+      pdf_field_name: GC-212[0].Page1[0].TextField[5]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field_2
+      pdf_field_name: GC-212[0].Page1[0].TextField[6]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field_2
+      pdf_field_name: GC-212[0].Page2[0].TextField[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field_2
+      pdf_field_name: GC-212[0].Page2[0].TextField[1]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field_2
+      pdf_field_name: GC-212[0].Page2[0].TextField[2]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field_2
+      pdf_field_name: GC-212[0].Page2[0].TextField[3]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field_2
+      pdf_field_name: GC-212[0].Page2[0].TextField[4]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field_2
+      pdf_field_name: GC-212[0].Page2[0].TextField[5]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field_2
+      pdf_field_name: GC-212[0].Page2[0].TextField[6]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field_2
+      pdf_field_name: GC-212[0].Page2[0].TextField[7]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field_2
+      pdf_field_name: GC-212[0].Page2[0].TextField[8]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field_2
+      pdf_field_name: GC-212[0].Page2[0].TextField[9]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field_2
+      pdf_field_name: GC-212[0].Page2[0].TextField[10]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field_2
+      pdf_field_name: GC-212[0].Page2[0].TextField[11]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field_2
+      pdf_field_name: GC-212[0].Page2[0].TextField[12]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field_2
+      pdf_field_name: GC-212[0].Page2[0].TextField[13]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field_2
+      pdf_field_name: GC-212[0].Page2[0].TextField[14]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field_2
+      pdf_field_name: GC-212[0].Page2[0].TextField[15]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+  hearing_date:
+    title: Hearing Date
+    fields:
+    - name: hearing_date
+      pdf_field_name: GC-212[0].Page1[0].HearingDate[0]
+      type: date
+      label: Hearing Date
+      required: false
+      width: half
+  check_box_caption:
+    title: Check Box Caption
+    fields:
+    - name: check_box_caption1
+      pdf_field_name: GC-212[0].Page1[0].#area[0].CheckBoxCaption1[0]
+      type: checkbox
+      label: Check Box Caption
+      required: false
+      width: full
+    - name: check_box_caption1_2
+      pdf_field_name: GC-212[0].Page1[0].#area[0].CheckBoxCaption1[1]
+      type: checkbox
+      label: Check Box Caption
+      required: false
+      width: full
+    - name: check_box_caption2
+      pdf_field_name: GC-212[0].Page1[0].#area[1].CheckBoxCaption2[0]
+      type: checkbox
+      label: Check Box Caption
+      required: false
+      width: full
+    - name: check_box_caption2_2
+      pdf_field_name: GC-212[0].Page1[0].#area[1].CheckBoxCaption2[1]
+      type: checkbox
+      label: Check Box Caption
+      required: false
+      width: full
+    - name: check_box_caption3
+      pdf_field_name: GC-212[0].Page1[0].#area[3].CheckBoxCaption3[0]
+      type: checkbox
+      label: Check Box Caption
+      required: false
+      width: full
+    - name: check_box_caption3_2
+      pdf_field_name: GC-212[0].Page1[0].#area[3].CheckBoxCaption3[1]
+      type: checkbox
+      label: Check Box Caption
+      required: false
+      width: full
+    - name: check_box_caption4
+      pdf_field_name: GC-212[0].Page1[0].#area[4].CheckBoxCaption4[0]
+      type: checkbox
+      label: Check Box Caption
+      required: false
+      width: full
+    - name: check_box_caption4_2
+      pdf_field_name: GC-212[0].Page1[0].#area[4].CheckBoxCaption4[1]
+      type: checkbox
+      label: Check Box Caption
+      required: false
+      width: full
+    - name: check_box_caption5
+      pdf_field_name: GC-212[0].Page1[0].#area[5].CheckBoxCaption5[0]
+      type: checkbox
+      label: Check Box Caption
+      required: false
+      width: full
+    - name: check_box_caption5_2
+      pdf_field_name: GC-212[0].Page1[0].#area[5].CheckBoxCaption5[1]
+      type: checkbox
+      label: Check Box Caption
+      required: false
+      width: full
+    - name: check_box_caption6
+      pdf_field_name: GC-212[0].Page1[0].#area[6].CheckBoxCaption6[0]
+      type: checkbox
+      label: Check Box Caption
+      required: false
+      width: full
+    - name: check_box_caption6_2
+      pdf_field_name: GC-212[0].Page1[0].#area[6].CheckBoxCaption6[1]
+      type: checkbox
+      label: Check Box Caption
+      required: false
+      width: full
+    - name: check_box_caption7
+      pdf_field_name: GC-212[0].Page1[0].#area[7].CheckBoxCaption7[0]
+      type: checkbox
+      label: Check Box Caption
+      required: false
+      width: full
+    - name: check_box_caption7_2
+      pdf_field_name: GC-212[0].Page1[0].#area[7].CheckBoxCaption7[1]
+      type: checkbox
+      label: Check Box Caption
+      required: false
+      width: full
+    - name: check_box_caption8
+      pdf_field_name: GC-212[0].Page1[0].#area[8].CheckBoxCaption8[0]
+      type: checkbox
+      label: Check Box Caption
+      required: false
+      width: full
+    - name: check_box_caption8_2
+      pdf_field_name: GC-212[0].Page1[0].#area[8].CheckBoxCaption8[1]
+      type: checkbox
+      label: Check Box Caption
+      required: false
+      width: full
+    - name: check_box_caption9
+      pdf_field_name: GC-212[0].Page2[0].#area[0].CheckBoxCaption9[0]
+      type: checkbox
+      label: Check Box Caption
+      required: false
+      width: full
+    - name: check_box_caption9_2
+      pdf_field_name: GC-212[0].Page2[0].#area[0].CheckBoxCaption9[1]
+      type: checkbox
+      label: Check Box Caption
+      required: false
+      width: full
+    - name: check_box_caption10
+      pdf_field_name: GC-212[0].Page2[0].#area[1].CheckBoxCaption10[0]
+      type: checkbox
+      label: Check Box Caption
+      required: false
+      width: full
+    - name: check_box_caption10_2
+      pdf_field_name: GC-212[0].Page2[0].#area[1].CheckBoxCaption10[1]
+      type: checkbox
+      label: Check Box Caption
+      required: false
+      width: full
+    - name: check_box_caption11
+      pdf_field_name: GC-212[0].Page2[0].#area[2].CheckBoxCaption11[0]
+      type: checkbox
+      label: Check Box Caption
+      required: false
+      width: full
+    - name: check_box_caption11_2
+      pdf_field_name: GC-212[0].Page2[0].#area[2].CheckBoxCaption11[1]
+      type: checkbox
+      label: Check Box Caption
+      required: false
+      width: full
+    - name: check_box_caption12
+      pdf_field_name: GC-212[0].Page2[0].#area[3].CheckBoxCaption12[0]
+      type: checkbox
+      label: Check Box Caption
+      required: false
+      width: full
+    - name: check_box_caption12_2
+      pdf_field_name: GC-212[0].Page2[0].#area[3].CheckBoxCaption12[1]
+      type: checkbox
+      label: Check Box Caption
+      required: false
+      width: full
+    - name: check_box_caption13
+      pdf_field_name: GC-212[0].Page2[0].#area[4].CheckBoxCaption13[0]
+      type: checkbox
+      label: Check Box Caption
+      required: false
+      width: full
+    - name: check_box_caption13_2
+      pdf_field_name: GC-212[0].Page2[0].#area[4].CheckBoxCaption13[1]
+      type: checkbox
+      label: Check Box Caption
+      required: false
+      width: full
+    - name: check_box_caption14
+      pdf_field_name: GC-212[0].Page2[0].#area[5].CheckBoxCaption14[0]
+      type: checkbox
+      label: Check Box Caption
+      required: false
+      width: full
+    - name: check_box_caption14_2
+      pdf_field_name: GC-212[0].Page2[0].#area[5].CheckBoxCaption14[1]
+      type: checkbox
+      label: Check Box Caption
+      required: false
+      width: full
+    - name: check_box_caption15
+      pdf_field_name: GC-212[0].Page2[0].#area[6].CheckBoxCaption15[0]
+      type: checkbox
+      label: Check Box Caption
+      required: false
+      width: full
+    - name: check_box_caption15_2
+      pdf_field_name: GC-212[0].Page2[0].#area[6].CheckBoxCaption15[1]
+      type: checkbox
+      label: Check Box Caption
+      required: false
+      width: full
+    - name: check_box_caption16
+      pdf_field_name: GC-212[0].Page2[0].#area[7].CheckBoxCaption16[0]
+      type: checkbox
+      label: Check Box Caption
+      required: false
+      width: full
+    - name: check_box_caption16_2
+      pdf_field_name: GC-212[0].Page2[0].#area[7].CheckBoxCaption16[1]
+      type: checkbox
+      label: Check Box Caption
+      required: false
+      width: full
+    - name: check_box_caption17
+      pdf_field_name: GC-212[0].Page2[0].#area[8].CheckBoxCaption17[0]
+      type: checkbox
+      label: Check Box Caption
+      required: false
+      width: full
+    - name: check_box_caption17_2
+      pdf_field_name: GC-212[0].Page2[0].#area[8].CheckBoxCaption17[1]
+      type: checkbox
+      label: Check Box Caption
+      required: false
+      width: full
+    - name: check_box_caption18
+      pdf_field_name: GC-212[0].Page2[0].#area[9].CheckBoxCaption18[0]
+      type: checkbox
+      label: Check Box Caption
+      required: false
+      width: full
+    - name: check_box_caption18_2
+      pdf_field_name: GC-212[0].Page2[0].#area[9].CheckBoxCaption18[1]
+      type: checkbox
+      label: Check Box Caption
+      required: false
+      width: full
+  check_b:
+    title: Check B
+    fields:
+    - name: check_b12
+      pdf_field_name: GC-212[0].Page1[0].#area[2].CheckB12[0]
+      type: text
+      label: Check B
+      required: false
+      width: full
+  px_footer:
+    title: Px Footer
+    fields:
+    - name: print
+      pdf_field_name: GC-212[0].Page2[0].PXFooter[0].#area[0].Print[0]
+      type: checkbox
+      label: Print
+      required: false
+      width: full
+    - name: save
+      pdf_field_name: GC-212[0].Page2[0].PXFooter[0].#area[0].Save[0]
+      type: checkbox
+      label: Save
+      required: false
+      width: full
+    - name: reset
+      pdf_field_name: GC-212[0].Page2[0].PXFooter[0].#area[0].Reset[0]
+      type: checkbox
+      label: Reset
+      required: false
+      width: full
+    - name: warning
+      pdf_field_name: GC-212[0].Page2[0].PXFooter[0].#area[0].Warning[0]
+      type: checkbox
+      label: Warning
+      required: false
+      width: full
+  px_caption:
+    title: Px Caption
+    fields:
+    - name: guadianship_2
+      pdf_field_name: GC-212[0].Page2[0].PxCaption[0].TitlePartyName[0].Guadianship[0]
+      type: text
+      label: Guadianship
+      required: false
+      width: full
+    - name: case_number_2
+      pdf_field_name: GC-212[0].Page2[0].PxCaption[0].CaseNumber[0].CaseNumber[0]
+      type: text
+      label: Case Number
+      required: false
+      width: full
+      shared_key: case:number
+  date:
+    title: Date
+    fields:
+    - name: date
+      pdf_field_name: GC-212[0].Page2[0].#area[10].Date[0]
+      type: date
+      label: Date
+      required: false
+      width: half
+  print_name:
+    title: Print Name
+    fields:
+    - name: print_name
+      pdf_field_name: GC-212[0].Page2[0].#area[10].PrintName[0]
+      type: text
+      label: Print Name
+      required: false
+      width: full
+  check_bo:
+    title: Check Bo
+    fields:
+    - name: check_bo
+      pdf_field_name: GC-212[0].Page2[0].CheckBo[0]
+      type: text
+      label: Check Bo
+      required: false
+      width: full

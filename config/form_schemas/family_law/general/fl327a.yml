@@ -1,0 +1,147 @@
+---
+form:
+  code: FL-327A
+  title: FL 327A Form
+  description: ''
+  category: family_law/general
+  pdf_filename: fl327a.pdf
+  fillable: true
+  instructions: ''
+sections:
+  p1_footer_sf:
+    title: P1 Footer Sf
+    fields:
+    - name: button1
+      pdf_field_name: FL-327A[0].#pageSet[0].Page1[0].p1Footer_sf[0].Button1[0]
+      type: checkbox
+      label: Button
+      required: false
+      width: full
+  last_page:
+    title: Last Page
+    fields:
+    - name: warning
+      pdf_field_name: FL-327A[0].#pageSet[0].LastPage[0].p1Footer_sf[0].#area[0].Warning[0]
+      type: checkbox
+      label: Warning
+      required: false
+      width: full
+    - name: print
+      pdf_field_name: FL-327A[0].#pageSet[0].LastPage[0].p1Footer_sf[0].#area[0].Print[0]
+      type: checkbox
+      label: Print
+      required: false
+      width: full
+    - name: save
+      pdf_field_name: FL-327A[0].#pageSet[0].LastPage[0].p1Footer_sf[0].#area[0].Save[0]
+      type: checkbox
+      label: Save
+      required: false
+      width: full
+    - name: reset
+      pdf_field_name: FL-327A[0].#pageSet[0].LastPage[0].p1Footer_sf[0].#area[0].Reset[0]
+      type: checkbox
+      label: Reset
+      required: false
+      width: full
+  party:
+    title: Party
+    fields:
+    - name: party1
+      pdf_field_name: FL-327A[0].Page1[0].Party[0].PartySub[0].Party1[0]
+      type: text
+      label: Party
+      required: false
+      width: full
+    - name: party2
+      pdf_field_name: FL-327A[0].Page1[0].Party[0].PartySub[0].Party2[0]
+      type: text
+      label: Party
+      required: false
+      width: full
+    - name: party3
+      pdf_field_name: FL-327A[0].Page1[0].Party[0].PartySub[0].Party3[0]
+      type: text
+      label: Party
+      required: false
+      width: full
+    - name: party1_2
+      pdf_field_name: FL-327A[0].Page2[0].Party[0].PartySub[0].Party1[0]
+      type: text
+      label: Party
+      required: false
+      width: full
+    - name: party2_2
+      pdf_field_name: FL-327A[0].Page2[0].Party[0].PartySub[0].Party2[0]
+      type: text
+      label: Party
+      required: false
+      width: full
+    - name: party3_2
+      pdf_field_name: FL-327A[0].Page2[0].Party[0].PartySub[0].Party3[0]
+      type: text
+      label: Party
+      required: false
+      width: full
+  case_sub:
+    title: Case Sub
+    fields:
+    - name: case_number
+      pdf_field_name: FL-327A[0].Page1[0].CaseSub[0].CaseNumber[0].CaseNumber[0]
+      type: text
+      label: Case Number
+      required: false
+      width: full
+      shared_key: case:number
+    - name: case_number_2
+      pdf_field_name: FL-327A[0].Page2[0].CaseSub[0].CaseNumber[0].CaseNumber[0]
+      type: text
+      label: Case Number
+      required: false
+      width: full
+      shared_key: case:number
+  list:
+    title: List
+    fields:
+    - name: check_box19
+      pdf_field_name: FL-327A[0].Page1[0].List1[0].LI1[0].CheckBox19[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box_caption
+      pdf_field_name: FL-327A[0].Page1[0].List1[0].LI2[0].CheckBoxCaption[0]
+      type: checkbox
+      label: Check Box Caption
+      required: false
+      width: full
+    - name: check_box_caption1
+      pdf_field_name: FL-327A[0].Page1[0].List1[0].LI2[0].List1[0].LI1[0].CheckBoxCaption1[0]
+      type: checkbox
+      label: Check Box Caption
+      required: false
+      width: full
+    - name: check_box_caption1_2
+      pdf_field_name: FL-327A[0].Page1[0].List1[0].LI2[0].List1[0].LI2[0].CheckBoxCaption1[0]
+      type: checkbox
+      label: Check Box Caption
+      required: false
+      width: full
+    - name: check_box_caption1_2
+      pdf_field_name: FL-327A[0].Page1[0].List1[0].LI2[0].List1[0].LI3[0].CheckBoxCaption1[0]
+      type: checkbox
+      label: Check Box Caption
+      required: false
+      width: full
+    - name: check_box1
+      pdf_field_name: FL-327A[0].Page2[0].List5[0].LI1[0].CheckBox1[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: text_field6
+      pdf_field_name: FL-327A[0].Page2[0].List5[0].LI1[0].TextField6[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full

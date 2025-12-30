@@ -1,0 +1,201 @@
+---
+form:
+  code: DV-710
+  title: DV 710 Form
+  description: ''
+  category: family_law/domestic_violence
+  pdf_filename: dv710.pdf
+  fillable: true
+  instructions: ''
+sections:
+  court_link:
+    title: Court Link
+    fields:
+    - name: court_link
+      pdf_field_name: DV-710[0].#pageSet[0].Page1[0].CourtLink[0]
+      type: checkbox
+      label: Court Link
+      required: false
+      width: full
+  print:
+    title: Print
+    fields:
+    - name: print
+      pdf_field_name: DV-710[0].#pageSet[0].Page2[0].Print[0]
+      type: checkbox
+      label: Print
+      required: false
+      width: full
+  save:
+    title: Save
+    fields:
+    - name: save
+      pdf_field_name: DV-710[0].#pageSet[0].Page2[0].Save[0]
+      type: checkbox
+      label: Save
+      required: false
+      width: full
+  reset:
+    title: Reset
+    fields:
+    - name: reset
+      pdf_field_name: DV-710[0].#pageSet[0].Page2[0].Reset[0]
+      type: checkbox
+      label: Reset
+      required: false
+      width: full
+  warning:
+    title: Warning
+    fields:
+    - name: warning
+      pdf_field_name: DV-710[0].#pageSet[0].Page2[0].Warning[0]
+      type: checkbox
+      label: Warning
+      required: false
+      width: full
+  courtbox:
+    title: Courtbox
+    fields:
+    - name: court_info_ft
+      pdf_field_name: DV-710[0].Page1[0].courtbox[0].CourtInfo_ft[0]
+      type: text
+      label: Court Info Ft
+      required: false
+      width: full
+    - name: case_number_ft
+      pdf_field_name: DV-710[0].Page1[0].courtbox[0].CaseNumber_ft[0]
+      type: text
+      label: Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+  list:
+    title: List
+    fields:
+    - name: tf1
+      pdf_field_name: DV-710[0].Page1[0].List1[0].Li1[0].tf1[0]
+      type: text
+      label: Tf
+      required: false
+      width: full
+    - name: tf2
+      pdf_field_name: DV-710[0].Page1[0].List2[0].Li1[0].tf2[0]
+      type: text
+      label: Tf
+      required: false
+      width: full
+    - name: tf3
+      pdf_field_name: DV-710[0].Page1[0].List2[0].Li1[0].tf3[0]
+      type: text
+      label: Tf
+      required: false
+      width: full
+    - name: tf4
+      pdf_field_name: DV-710[0].Page1[0].List2[0].Li1[0].tf4[0]
+      type: text
+      label: Tf
+      required: false
+      width: full
+    - name: tf5
+      pdf_field_name: DV-710[0].Page1[0].List2[0].Li1[0].TF5[0]
+      type: text
+      label: Tf
+      required: false
+      width: full
+    - name: tf6
+      pdf_field_name: DV-710[0].Page1[0].List2[0].Li1[0].TF6[0]
+      type: text
+      label: Tf
+      required: false
+      width: full
+    - name: hearingdt
+      pdf_field_name: DV-710[0].Page1[0].List3[0].Li1[0].hearingdt[0]
+      type: text
+      label: Hearingdt
+      required: false
+      width: full
+    - name: hearingtime
+      pdf_field_name: DV-710[0].Page1[0].List3[0].Li1[0].hearingtime[0]
+      type: text
+      label: Hearingtime
+      required: false
+      width: full
+    - name: dept
+      pdf_field_name: DV-710[0].Page1[0].List3[0].Li1[0].dept[0]
+      type: text
+      label: Dept
+      required: false
+      width: full
+    - name: tf7
+      pdf_field_name: DV-710[0].Page1[0].List3[0].Li1[0].tf7[0]
+      type: text
+      label: Tf
+      required: false
+      width: full
+    - name: tf8
+      pdf_field_name: DV-710[0].Page1[0].List3[0].Li1[0].tf8[0]
+      type: text
+      label: Tf
+      required: false
+      width: full
+    - name: date_field1
+      pdf_field_name: DV-710[0].Page2[0].List5[0].Li1[0].DateField1[0]
+      type: date
+      label: Date Field
+      required: false
+      width: half
+    - name: button1
+      pdf_field_name: DV-710[0].Page2[0].List5[0].Button1[0]
+      type: checkbox
+      label: Button
+      required: false
+      width: full
+    - name: button1_2
+      pdf_field_name: DV-710[0].Page2[0].List6[0].Li1[0].Button1[0]
+      type: checkbox
+      label: Button
+      required: false
+      width: full
+  case_number_ft:
+    title: Case Number Ft
+    fields:
+    - name: case_number_ft_2
+      pdf_field_name: DV-710[0].Page2[0].CaseNumber_ft[0]
+      type: text
+      label: Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+  signaturesub:
+    title: Signaturesub
+    fields:
+    - name: sig_date
+      pdf_field_name: DV-710[0].Page2[0].signaturesub[0].SigDate[0]
+      type: signature
+      label: Sig Date
+      required: false
+      width: full
+  accommodation:
+    title: Accommodation
+    fields:
+    - name: button1_2
+      pdf_field_name: DV-710[0].Page2[0].accommodation[0].Button1[0]
+      type: checkbox
+      label: Button
+      required: false
+      width: full
+  clerk:
+    title: Clerk
+    fields:
+    - name: dt1
+      pdf_field_name: DV-710[0].Page2[0].clerk[0].dt1[0]
+      type: text
+      label: Dt
+      required: false
+      width: full
+    - name: clerk_tf
+      pdf_field_name: DV-710[0].Page2[0].clerk[0].clerkTF[0]
+      type: text
+      label: Clerk Tf
+      required: false
+      width: full

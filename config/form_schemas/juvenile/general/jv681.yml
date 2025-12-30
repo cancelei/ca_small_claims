@@ -1,0 +1,227 @@
+---
+form:
+  code: JV-681
+  title: JV 681 Form
+  description: ''
+  category: juvenile/general
+  pdf_filename: jv681.pdf
+  fillable: true
+  instructions: ''
+sections:
+  general:
+    title: General
+    fields:
+    - name: a
+      pdf_field_name: 01.a
+      type: text
+      label: A
+      required: false
+      width: full
+    - name: b
+      pdf_field_name: 01.b
+      type: text
+      label: B
+      required: false
+      width: full
+    - name: a_2
+      pdf_field_name: 02.a
+      type: text
+      label: A
+      required: false
+      width: full
+    - name: b_2
+      pdf_field_name: 02.b
+      type: text
+      label: B
+      required: false
+      width: full
+    - name: '02_0'
+      pdf_field_name: '02.0'
+      type: text
+      label: '02'
+      required: false
+      width: full
+    - name: a_2
+      pdf_field_name: 03.a
+      type: text
+      label: A
+      required: false
+      width: full
+    - name: b_2
+      pdf_field_name: 03.b
+      type: text
+      label: B
+      required: false
+      width: full
+    - name: '03_0'
+      pdf_field_name: '03.0'
+      type: text
+      label: '03'
+      required: false
+      width: full
+    - name: '04_0_0'
+      pdf_field_name: 04.0.0
+      type: text
+      label: 04 0
+      required: false
+      width: full
+    - name: choice
+      pdf_field_name: 05.choice
+      type: text
+      label: Choice
+      required: false
+      width: full
+    - name: '05_0'
+      pdf_field_name: '05.0'
+      type: text
+      label: '05'
+      required: false
+      width: full
+    - name: minor_apos_s_name
+      pdf_field_name: minor&apos;s Name
+      type: text
+      label: Minor&Apos;S Name
+      required: false
+      width: full
+    - name: case_number
+      pdf_field_name: CaseNumber
+      type: text
+      label: Case Number
+      required: false
+      width: full
+      shared_key: case:number
+    - name: '07_0'
+      pdf_field_name: '07.0'
+      type: text
+      label: '07'
+      required: false
+      width: full
+    - name: a_2
+      pdf_field_name: '08.a'
+      type: text
+      label: A
+      required: false
+      width: full
+    - name: '08_0'
+      pdf_field_name: '08.0'
+      type: text
+      label: '08'
+      required: false
+      width: full
+    - name: c
+      pdf_field_name: '09.c'
+      type: text
+      label: C
+      required: false
+      width: full
+    - name: '09_0'
+      pdf_field_name: '09.0'
+      type: text
+      label: '09'
+      required: false
+      width: full
+    - name: a_2
+      pdf_field_name: 10.a
+      type: text
+      label: A
+      required: false
+      width: full
+    - name: b_2
+      pdf_field_name: 10.b
+      type: text
+      label: B
+      required: false
+      width: full
+    - name: c_2
+      pdf_field_name: 10.c
+      type: text
+      label: C
+      required: false
+      width: full
+    - name: '10_0'
+      pdf_field_name: '10.0'
+      type: text
+      label: '10'
+      required: false
+      width: full
+    - name: d
+      pdf_field_name: 10.d
+      type: text
+      label: D
+      required: false
+      width: full
+    - name: '06_0'
+      pdf_field_name: '06.0'
+      type: text
+      label: '06'
+      required: false
+      width: full
+  a:
+    title: A
+    fields:
+    - name: a_2
+      pdf_field_name: 04.a.0
+      type: text
+      label: A
+      required: false
+      width: full
+    - name: choice1
+      pdf_field_name: 04.a.Choice1
+      type: text
+      label: Choice
+      required: false
+      width: full
+    - name: choice2
+      pdf_field_name: 04.a.Choice2
+      type: text
+      label: Choice
+      required: false
+      width: full
+    - name: choice_2
+      pdf_field_name: '08.a.choice'
+      type: text
+      label: Choice
+      required: false
+      width: full
+    - name: date
+      pdf_field_name: text.09.a.date
+      type: date
+      label: Date
+      required: false
+      width: half
+  b:
+    title: B
+    fields:
+    - name: b_2
+      pdf_field_name: 04.b.0
+      type: text
+      label: B
+      required: false
+      width: full
+    - name: choice1_2
+      pdf_field_name: 04.b.choice1
+      type: text
+      label: Choice
+      required: false
+      width: full
+    - name: choice2_2
+      pdf_field_name: 04.b.Choice2
+      type: text
+      label: Choice
+      required: false
+      width: full
+    - name: choice2_2
+      pdf_field_name: 04.B.Choice2
+      type: text
+      label: Choice
+      required: false
+      width: full
+  c:
+    title: C
+    fields:
+    - name: choice_2
+      pdf_field_name: '09.c.choice'
+      type: text
+      label: Choice
+      required: false
+      width: full

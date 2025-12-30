@@ -1,0 +1,606 @@
+---
+form:
+  code: CR-115
+  title: CR 115 Form
+  description: ''
+  category: criminal/general
+  pdf_filename: cr115.pdf
+  fillable: true
+  instructions: ''
+sections:
+  t:
+    title: T
+    fields:
+    - name: t18
+      pdf_field_name: CR-115[0].Page1[0].T18[0]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t27
+      pdf_field_name: CR-115[0].Page1[0].T27[0]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t27_2
+      pdf_field_name: CR-115[0].Page1[0].T27[1]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t27_2
+      pdf_field_name: CR-115[0].Page1[0].T27[2]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t27_2
+      pdf_field_name: CR-115[0].Page1[0].T27[3]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t27_2
+      pdf_field_name: CR-115[0].Page1[0].T27[4]
+      type: text
+      label: T
+      required: false
+      width: full
+  text:
+    title: Text\
+    fields:
+    - name: '1'
+      pdf_field_name: CR-115[0].Page1[0].TEXT\.1\.6[0]
+      type: text
+      label: 1\
+      required: false
+      width: full
+    - name: '1_2'
+      pdf_field_name: CR-115[0].Page1[0].TEXT\.1\.9[0]
+      type: text
+      label: 1\
+      required: false
+      width: full
+    - name: '1_2'
+      pdf_field_name: CR-115[0].Page1[0].TEXT\.1\.18\.1\.0[0]
+      type: text
+      label: 1\
+      required: false
+      width: full
+    - name: '1_2'
+      pdf_field_name: CR-115[0].Page1[0].TEXT\.1\.18\.1\.0[1]
+      type: text
+      label: 1\
+      required: false
+      width: full
+    - name: '18'
+      pdf_field_name: CR-115[0].Page1[0].TEXT\.1\.18\.0[0]
+      type: text
+      label: 18\
+      required: false
+      width: full
+    - name: '1_2'
+      pdf_field_name: CR-115[0].Page1[0].TEXT\.1\.21[0]
+      type: text
+      label: 1\
+      required: false
+      width: full
+    - name: '7'
+      pdf_field_name: CR-115[0].Page1[0].TEXT\.1\.23\.7\.0[0]
+      type: text
+      label: 7\
+      required: false
+      width: full
+    - name: '0'
+      pdf_field_name: CR-115[0].Page1[0].TEXT\.1\.23\.7\.3\.0\.0[0]
+      type: text
+      label: 0\
+      required: false
+      width: full
+    - name: '0_2'
+      pdf_field_name: CR-115[0].Page1[0].TEXT\.1\.23\.7\.3\.0\.0[1]
+      type: text
+      label: 0\
+      required: false
+      width: full
+    - name: '0_2'
+      pdf_field_name: CR-115[0].Page1[0].TEXT\.1\.23\.7\.3\.0\.0[2]
+      type: text
+      label: 0\
+      required: false
+      width: full
+    - name: '4'
+      pdf_field_name: CR-115[0].Page1[0].TEXT\.1\.23\.7\.4\.0[0]
+      type: text
+      label: 4\
+      required: false
+      width: full
+    - name: '4_2'
+      pdf_field_name: CR-115[0].Page1[0].TEXT\.1\.23\.7\.4\.1[0]
+      type: text
+      label: 4\
+      required: false
+      width: full
+    - name: '4_2'
+      pdf_field_name: CR-115[0].Page1[0].TEXT\.1\.23\.7\.4\.2[0]
+      type: text
+      label: 4\
+      required: false
+      width: full
+    - name: '5'
+      pdf_field_name: CR-115[0].Page1[0].TEXT\.1\.23\.7\.5\.0[0]
+      type: text
+      label: 5\
+      required: false
+      width: full
+    - name: '5_2'
+      pdf_field_name: CR-115[0].Page1[0].TEXT\.1\.23\.7\.5\.1[0]
+      type: text
+      label: 5\
+      required: false
+      width: full
+    - name: '5_2'
+      pdf_field_name: CR-115[0].Page1[0].TEXT\.1\.23\.7\.5\.2[0]
+      type: text
+      label: 5\
+      required: false
+      width: full
+    - name: '0_2'
+      pdf_field_name: CR-115[0].Page1[0].TEXT\.1\.23\.7\.6\.0\.0[0]
+      type: text
+      label: 0\
+      required: false
+      width: full
+    - name: '0_2'
+      pdf_field_name: CR-115[0].Page1[0].TEXT\.1\.23\.7\.6\.0\.1[0]
+      type: text
+      label: 0\
+      required: false
+      width: full
+    - name: '0_2'
+      pdf_field_name: CR-115[0].Page1[0].TEXT\.1\.23\.7\.6\.0\.2[0]
+      type: text
+      label: 0\
+      required: false
+      width: full
+    - name: '1_2'
+      pdf_field_name: CR-115[0].Page1[0].TEXT\.1\.23\.7\.6\.1\.0[0]
+      type: text
+      label: 1\
+      required: false
+      width: full
+    - name: '1_2'
+      pdf_field_name: CR-115[0].Page1[0].TEXT\.1\.23\.7\.6\.1\.0[1]
+      type: text
+      label: 1\
+      required: false
+      width: full
+    - name: '1_2'
+      pdf_field_name: CR-115[0].Page1[0].TEXT\.1\.23\.7\.6\.1\.0[2]
+      type: text
+      label: 1\
+      required: false
+      width: full
+    - name: '2'
+      pdf_field_name: CR-115[0].Page1[0].TEXT\.1\.23\.7\.6\.2\.0[0]
+      type: text
+      label: 2\
+      required: false
+      width: full
+    - name: '2_2'
+      pdf_field_name: CR-115[0].Page1[0].TEXT\.1\.23\.7\.6\.2\.0[1]
+      type: text
+      label: 2\
+      required: false
+      width: full
+    - name: '2_2'
+      pdf_field_name: CR-115[0].Page1[0].TEXT\.1\.23\.7\.6\.2\.0[2]
+      type: text
+      label: 2\
+      required: false
+      width: full
+    - name: '3'
+      pdf_field_name: CR-115[0].Page1[0].TEXT\.1\.23\.7\.6\.3\.0[0]
+      type: text
+      label: 3\
+      required: false
+      width: full
+    - name: '3_2'
+      pdf_field_name: CR-115[0].Page1[0].TEXT\.1\.23\.7\.6\.3\.0[1]
+      type: text
+      label: 3\
+      required: false
+      width: full
+    - name: '3_2'
+      pdf_field_name: CR-115[0].Page1[0].TEXT\.1\.23\.7\.6\.3\.0[2]
+      type: text
+      label: 3\
+      required: false
+      width: full
+    - name: '4_2'
+      pdf_field_name: CR-115[0].Page1[0].TEXT\.1\.23\.7\.6\.4\.0[0]
+      type: text
+      label: 4\
+      required: false
+      width: full
+    - name: '4_2'
+      pdf_field_name: CR-115[0].Page1[0].TEXT\.1\.23\.7\.6\.4\.1[0]
+      type: text
+      label: 4\
+      required: false
+      width: full
+    - name: '4_2'
+      pdf_field_name: CR-115[0].Page1[0].TEXT\.1\.23\.7\.6\.4\.2[0]
+      type: text
+      label: 4\
+      required: false
+      width: full
+    - name: '1_2'
+      pdf_field_name: CR-115[0].Page1[0].TEXT\.1\.9[1]
+      type: text
+      label: 1\
+      required: false
+      width: full
+    - name: '1_2'
+      pdf_field_name: CR-115[0].Page1[0].TEXT\.1\.9[2]
+      type: text
+      label: 1\
+      required: false
+      width: full
+    - name: '1_2'
+      pdf_field_name: CR-115[0].Page1[0].TEXT\.1\.9[3]
+      type: text
+      label: 1\
+      required: false
+      width: full
+    - name: '1_2'
+      pdf_field_name: CR-115[0].Page1[0].TEXT\.1\.9[4]
+      type: text
+      label: 1\
+      required: false
+      width: full
+    - name: '1_2'
+      pdf_field_name: CR-115[0].Page1[0].TEXT\.1\.9[5]
+      type: text
+      label: 1\
+      required: false
+      width: full
+    - name: '1_2'
+      pdf_field_name: CR-115[0].Page1[0].TEXT\.1\.9[6]
+      type: text
+      label: 1\
+      required: false
+      width: full
+    - name: '1_2'
+      pdf_field_name: CR-115[0].Page1[0].TEXT\.1\.9[7]
+      type: text
+      label: 1\
+      required: false
+      width: full
+    - name: '1_2'
+      pdf_field_name: CR-115[0].Page1[0].TEXT\.1\.9[8]
+      type: text
+      label: 1\
+      required: false
+      width: full
+    - name: '1_2'
+      pdf_field_name: CR-115[0].Page1[0].TEXT\.1\.9[9]
+      type: text
+      label: 1\
+      required: false
+      width: full
+    - name: '1_2'
+      pdf_field_name: CR-115[0].Page1[0].TEXT\.1\.9[10]
+      type: text
+      label: 1\
+      required: false
+      width: full
+    - name: '1_2'
+      pdf_field_name: CR-115[0].Page1[0].TEXT\.1\.9[11]
+      type: text
+      label: 1\
+      required: false
+      width: full
+    - name: '1_2'
+      pdf_field_name: CR-115[0].Page1[0].TEXT\.1\.9[12]
+      type: text
+      label: 1\
+      required: false
+      width: full
+    - name: '1_2'
+      pdf_field_name: CR-115[0].Page1[0].TEXT\.1\.9[13]
+      type: text
+      label: 1\
+      required: false
+      width: full
+    - name: '0_2'
+      pdf_field_name: CR-115[0].Page2[0].TEXT\.2\.0\.0[0]
+      type: text
+      label: 0\
+      required: false
+      width: full
+    - name: '0_2'
+      pdf_field_name: CR-115[0].Page2[0].TEXT\.2\.0\.1[0]
+      type: text
+      label: 0\
+      required: false
+      width: full
+    - name: '2_2'
+      pdf_field_name: CR-115[0].Page2[0].TEXT\.2\.2\.0[0]
+      type: text
+      label: 2\
+      required: false
+      width: full
+    - name: '2_2'
+      pdf_field_name: CR-115[0].Page2[0].TEXT\.2\.2\.1[0]
+      type: text
+      label: 2\
+      required: false
+      width: full
+    - name: '3_2'
+      pdf_field_name: CR-115[0].Page2[0].TEXT\.2\.3\.0[0]
+      type: text
+      label: 3\
+      required: false
+      width: full
+    - name: '3_2'
+      pdf_field_name: CR-115[0].Page2[0].TEXT\.2\.3\.1[0]
+      type: text
+      label: 3\
+      required: false
+      width: full
+    - name: '4_2'
+      pdf_field_name: CR-115[0].Page2[0].TEXT\.2\.4\.0[0]
+      type: text
+      label: 4\
+      required: false
+      width: full
+    - name: '4_2'
+      pdf_field_name: CR-115[0].Page2[0].TEXT\.2\.4\.1[0]
+      type: text
+      label: 4\
+      required: false
+      width: full
+    - name: '4_2'
+      pdf_field_name: CR-115[0].Page2[0].TEXT\.2\.4\.2[0]
+      type: text
+      label: 4\
+      required: false
+      width: full
+    - name: '5_2'
+      pdf_field_name: CR-115[0].Page2[0].TEXT\.2\.5\.0[0]
+      type: text
+      label: 5\
+      required: false
+      width: full
+    - name: '5_2'
+      pdf_field_name: CR-115[0].Page2[0].TEXT\.2\.5\.0[1]
+      type: text
+      label: 5\
+      required: false
+      width: full
+    - name: '5_2'
+      pdf_field_name: CR-115[0].Page2[0].TEXT\.2\.5\.0[2]
+      type: text
+      label: 5\
+      required: false
+      width: full
+    - name: '6'
+      pdf_field_name: CR-115[0].Page2[0].TEXT\.2\.6\.0[0]
+      type: text
+      label: 6\
+      required: false
+      width: full
+    - name: '6_2'
+      pdf_field_name: CR-115[0].Page2[0].TEXT\.2\.6\.1[0]
+      type: text
+      label: 6\
+      required: false
+      width: full
+    - name: '6_2'
+      pdf_field_name: CR-115[0].Page2[0].TEXT\.2\.6\.0[1]
+      type: text
+      label: 6\
+      required: false
+      width: full
+    - name: '2_2'
+      pdf_field_name: CR-115[0].Page2[0].TEXT\.2\.7[0]
+      type: text
+      label: 2\
+      required: false
+      width: full
+    - name: '2_2'
+      pdf_field_name: CR-115[0].Page2[0].TEXT\.2\.17[0]
+      type: text
+      label: 2\
+      required: false
+      width: full
+    - name: '22'
+      pdf_field_name: CR-115[0].Page2[0].TEXT\.2\.22\.2[0]
+      type: text
+      label: 22\
+      required: false
+      width: full
+    - name: '2_2'
+      pdf_field_name: CR-115[0].Page2[0].TEXT\.2\.7[1]
+      type: text
+      label: 2\
+      required: false
+      width: full
+    - name: '2_2'
+      pdf_field_name: CR-115[0].Page2[0].TEXT\.2\.7[2]
+      type: text
+      label: 2\
+      required: false
+      width: full
+    - name: '2_2'
+      pdf_field_name: CR-115[0].Page2[0].TEXT\.2\.7[3]
+      type: text
+      label: 2\
+      required: false
+      width: full
+    - name: '2_2'
+      pdf_field_name: CR-115[0].Page2[0].TEXT\.2\.7[4]
+      type: text
+      label: 2\
+      required: false
+      width: full
+    - name: '2_2'
+      pdf_field_name: CR-115[0].Page2[0].TEXT\.2\.7[5]
+      type: text
+      label: 2\
+      required: false
+      width: full
+    - name: '2_2'
+      pdf_field_name: CR-115[0].Page2[0].TEXT\.2\.7[6]
+      type: text
+      label: 2\
+      required: false
+      width: full
+  case_number_ft:
+    title: Case Number Ft
+    fields:
+    - name: case_number_ft
+      pdf_field_name: CR-115[0].Page1[0].CaseNumber_ft[0]
+      type: text
+      label: Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+    - name: case_number_ft_2
+      pdf_field_name: CR-115[0].Page2[0].CaseNumber_ft[0]
+      type: text
+      label: Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+  txt:
+    title: Txt\
+    fields:
+    - name: date
+      pdf_field_name: CR-115[0].Page2[0].txt\.atty\.statement\.date[0]
+      type: date
+      label: Date
+      required: false
+      width: half
+    - name: date_2
+      pdf_field_name: CR-115[0].Page2[0].txt\.atty\.statement\.date[1]
+      type: date
+      label: Date
+      required: false
+      width: half
+    - name: sig
+      pdf_field_name: CR-115[0].Page2[0].txt\.statement\.def\.sig[1]
+      type: signature
+      label: Sig
+      required: false
+      width: full
+  text_field:
+    title: Text Field
+    fields:
+    - name: text_field
+      pdf_field_name: CR-115[0].Page2[0].TextField[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6
+      pdf_field_name: CR-115[0].Page2[0].TextField6[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+  date_field:
+    title: Date Field
+    fields:
+    - name: date_field1
+      pdf_field_name: CR-115[0].Page2[0].DateField1[0]
+      type: date
+      label: Date Field
+      required: false
+      width: half
+  check_box_caption:
+    title: Check Box Caption
+    fields:
+    - name: check_box_caption
+      pdf_field_name: CR-115[0].Page2[0].CheckBoxCaption[0]
+      type: checkbox
+      label: Check Box Caption
+      required: false
+      width: full
+    - name: check_box_caption_2
+      pdf_field_name: CR-115[0].Page2[0].CheckBoxCaption[1]
+      type: checkbox
+      label: Check Box Caption
+      required: false
+      width: full
+  check_box_captions:
+    title: Check Box Captions
+    fields:
+    - name: check_box_captions
+      pdf_field_name: CR-115[0].Page2[0].CheckBoxCaptions[0]
+      type: checkbox
+      label: Check Box Captions
+      required: false
+      width: full
+    - name: check_box_captions_2
+      pdf_field_name: CR-115[0].Page2[0].CheckBoxCaptions[1]
+      type: checkbox
+      label: Check Box Captions
+      required: false
+      width: full
+  we:
+    title: We
+    fields:
+    - name: we
+      pdf_field_name: CR-115[0].Page2[0].we[0]
+      type: text
+      label: We
+      required: false
+      width: full
+  sc:
+    title: Sc
+    fields:
+    - name: sc
+      pdf_field_name: CR-115[0].Page2[0].sc[0]
+      type: text
+      label: Sc
+      required: false
+      width: full
+  print:
+    title: Print
+    fields:
+    - name: print
+      pdf_field_name: CR-115[0].Page2[0].#area[0].Print[0]
+      type: checkbox
+      label: Print
+      required: false
+      width: full
+  save:
+    title: Save
+    fields:
+    - name: save
+      pdf_field_name: CR-115[0].Page2[0].#area[0].Save[0]
+      type: checkbox
+      label: Save
+      required: false
+      width: full
+  reset:
+    title: Reset
+    fields:
+    - name: reset
+      pdf_field_name: CR-115[0].Page2[0].#area[0].Reset[0]
+      type: checkbox
+      label: Reset
+      required: false
+      width: full
+  warning:
+    title: Warning
+    fields:
+    - name: warning
+      pdf_field_name: CR-115[0].Page2[0].#area[0].Warning[0]
+      type: checkbox
+      label: Warning
+      required: false
+      width: full

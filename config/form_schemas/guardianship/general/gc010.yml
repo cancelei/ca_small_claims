@@ -1,0 +1,326 @@
+---
+form:
+  code: GC-010
+  title: GC 010 Form
+  description: ''
+  category: guardianship/general
+  pdf_filename: gc010.pdf
+  fillable: true
+  instructions: ''
+sections:
+  std_p1_header_sf:
+    title: Std P1 Header Sf
+    fields:
+    - name: crt_county
+      pdf_field_name: GC-010[0].Page1[0].StdP1Header_sf[0].CourtInfo[0].CrtCounty[0]
+      type: number
+      label: Crt County
+      required: false
+      width: third
+    - name: branch
+      pdf_field_name: GC-010[0].Page1[0].StdP1Header_sf[0].CourtInfo[0].Branch[0]
+      type: text
+      label: Branch
+      required: false
+      width: full
+    - name: city_zip
+      pdf_field_name: GC-010[0].Page1[0].StdP1Header_sf[0].CourtInfo[0].CityZip[0]
+      type: address
+      label: City Zip
+      required: false
+      width: full
+    - name: street
+      pdf_field_name: GC-010[0].Page1[0].StdP1Header_sf[0].CourtInfo[0].Street[0]
+      type: address
+      label: Street
+      required: false
+      width: full
+    - name: mailing_add
+      pdf_field_name: GC-010[0].Page1[0].StdP1Header_sf[0].CourtInfo[0].MailingAdd[0]
+      type: address
+      label: Mailing Add
+      required: false
+      width: full
+    - name: atty_state
+      pdf_field_name: GC-010[0].Page1[0].StdP1Header_sf[0].AttyInfo[0].AttyState[0]
+      type: address
+      label: Atty State
+      required: false
+      width: full
+    - name: atty_zip
+      pdf_field_name: GC-010[0].Page1[0].StdP1Header_sf[0].AttyInfo[0].AttyZip[0]
+      type: address
+      label: Atty Zip
+      required: false
+      width: full
+    - name: atty_city
+      pdf_field_name: GC-010[0].Page1[0].StdP1Header_sf[0].AttyInfo[0].AttyCity[0]
+      type: address
+      label: Atty City
+      required: false
+      width: full
+    - name: atty_street
+      pdf_field_name: GC-010[0].Page1[0].StdP1Header_sf[0].AttyInfo[0].AttyStreet[0]
+      type: address
+      label: Atty Street
+      required: false
+      width: full
+    - name: atty_firm
+      pdf_field_name: GC-010[0].Page1[0].StdP1Header_sf[0].AttyInfo[0].AttyFirm[0]
+      type: text
+      label: Atty Firm
+      required: false
+      width: full
+    - name: atty_name_tf
+      pdf_field_name: GC-010[0].Page1[0].StdP1Header_sf[0].AttyInfo[0].AttyName_tf[0]
+      type: text
+      label: Atty Name Tf
+      required: false
+      width: full
+    - name: phone
+      pdf_field_name: GC-010[0].Page1[0].StdP1Header_sf[0].AttyInfo[0].Phone[0]
+      type: tel
+      label: Phone
+      required: false
+      width: half
+    - name: fax
+      pdf_field_name: GC-010[0].Page1[0].StdP1Header_sf[0].AttyInfo[0].Fax[0]
+      type: tel
+      label: Fax
+      required: false
+      width: half
+    - name: email
+      pdf_field_name: GC-010[0].Page1[0].StdP1Header_sf[0].AttyInfo[0].Email[0]
+      type: email
+      label: Email
+      required: false
+      width: half
+    - name: bar_no_tf
+      pdf_field_name: GC-010[0].Page1[0].StdP1Header_sf[0].AttyInfo[0].BarNo_tf[0]
+      type: text
+      label: Bar No Tf
+      required: false
+      width: full
+    - name: title_cb
+      pdf_field_name: GC-010[0].Page1[0].StdP1Header_sf[0].#area[0].#area[1].title_cb[0]
+      type: text
+      label: Title Cb
+      required: false
+      width: full
+    - name: title_cb_2
+      pdf_field_name: GC-010[0].Page1[0].StdP1Header_sf[0].#area[0].#area[2].title_cb[1]
+      type: text
+      label: Title Cb
+      required: false
+      width: full
+  member_cb:
+    title: Member Cb
+    fields:
+    - name: member_cb
+      pdf_field_name: GC-010[0].Page1[0].member_cb[0]
+      type: text
+      label: Member Cb
+      required: false
+      width: full
+  member_date:
+    title: Member Date
+    fields:
+    - name: member_date
+      pdf_field_name: GC-010[0].Page1[0].member_date[0]
+      type: date
+      label: Member Date
+      required: false
+      width: half
+  check_box3b:
+    title: Check Box3b
+    fields:
+    - name: check_box3b
+      pdf_field_name: GC-010[0].Page1[0].CheckBox3b[0]
+      type: checkbox
+      label: Check Box3b
+      required: false
+      width: full
+    - name: check_box3b_2
+      pdf_field_name: GC-010[0].Page1[0].CheckBox3b[1]
+      type: checkbox
+      label: Check Box3b
+      required: false
+      width: full
+    - name: check_box3b_2
+      pdf_field_name: GC-010[0].Page1[0].#area[0].CheckBox3b[2]
+      type: checkbox
+      label: Check Box3b
+      required: false
+      width: full
+    - name: check_box3b_2
+      pdf_field_name: GC-010[0].Page1[0].CheckBox3b[3]
+      type: checkbox
+      label: Check Box3b
+      required: false
+      width: full
+  insurer_tf:
+    title: Insurer Tf
+    fields:
+    - name: insurer_tf
+      pdf_field_name: GC-010[0].Page1[0].insurer_tf[0]
+      type: text
+      label: Insurer Tf
+      required: false
+      width: full
+  checkbox:
+    title: Checkbox
+    fields:
+    - name: checkbox
+      pdf_field_name: GC-010[0].Page1[0].Checkbox[0]
+      type: checkbox
+      label: Checkbox
+      required: false
+      width: full
+    - name: checkbox_2
+      pdf_field_name: GC-010[0].Page1[0].Checkbox[1]
+      type: checkbox
+      label: Checkbox
+      required: false
+      width: full
+    - name: checkbox_2
+      pdf_field_name: GC-010[0].Page1[0].Checkbox[2]
+      type: checkbox
+      label: Checkbox
+      required: false
+      width: full
+  regist_cb:
+    title: Regist Cb
+    fields:
+    - name: regist_cb
+      pdf_field_name: GC-010[0].Page1[0].regist_cb[0]
+      type: text
+      label: Regist Cb
+      required: false
+      width: full
+  regist_date:
+    title: Regist Date
+    fields:
+    - name: regist_date
+      pdf_field_name: GC-010[0].Page1[0].regist_date[0]
+      type: date
+      label: Regist Date
+      required: false
+      width: half
+  cover_by_cb:
+    title: Cover By Cb
+    fields:
+    - name: cover_by_cb
+      pdf_field_name: GC-010[0].Page1[0].#area[1].CoverBy_cb[0]
+      type: text
+      label: Cover By Cb
+      required: false
+      width: full
+  cover_against_cb:
+    title: Cover Against Cb
+    fields:
+    - name: cover_against_cb
+      pdf_field_name: GC-010[0].Page1[0].#area[2].CoverAgainst_cb[0]
+      type: text
+      label: Cover Against Cb
+      required: false
+      width: full
+  title_party_name:
+    title: Title Party Name
+    fields:
+    - name: atty_name_tf_2
+      pdf_field_name: GC-010[0].#subform[1].#subform[2].TitlePartyName[0].AttyName_tf[0]
+      type: text
+      label: Atty Name Tf
+      required: false
+      width: full
+  case_number:
+    title: Case Number
+    fields:
+    - name: bar_no_tf_2
+      pdf_field_name: GC-010[0].#subform[1].#subform[2].CaseNumber[0].BarNo_tf[0]
+      type: text
+      label: Bar No Tf
+      required: false
+      width: full
+      shared_key: case:number
+  fill_text:
+    title: Fill Text
+    fields:
+    - name: fill_text1140
+      pdf_field_name: GC-010[0].#subform[1].FillText1140[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+  atty_name_tf:
+    title: Atty Name Tf
+    fields:
+    - name: atty_name_tf_2
+      pdf_field_name: GC-010[0].#subform[1].AttyName_tf[0]
+      type: text
+      label: Atty Name Tf
+      required: false
+      width: full
+  text_field:
+    title: Text Field
+    fields:
+    - name: text_field2
+      pdf_field_name: GC-010[0].#subform[1].#area[0].TextField2[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+  check_box:
+    title: Check Box
+    fields:
+    - name: check_box61
+      pdf_field_name: GC-010[0].#subform[1].#area[0].CheckBox61[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+  attach_cb:
+    title: Attach Cb
+    fields:
+    - name: attach_cb
+      pdf_field_name: GC-010[0].#subform[1].#area[1].attach_cb[0]
+      type: text
+      label: Attach Cb
+      required: false
+      width: full
+  print:
+    title: Print
+    fields:
+    - name: print
+      pdf_field_name: GC-010[0].#subform[1].#area[2].Print[0]
+      type: checkbox
+      label: Print
+      required: false
+      width: full
+  save:
+    title: Save
+    fields:
+    - name: save
+      pdf_field_name: GC-010[0].#subform[1].#area[2].Save[0]
+      type: checkbox
+      label: Save
+      required: false
+      width: full
+  reset:
+    title: Reset
+    fields:
+    - name: reset
+      pdf_field_name: GC-010[0].#subform[1].#area[2].Reset[0]
+      type: checkbox
+      label: Reset
+      required: false
+      width: full
+  warning:
+    title: Warning
+    fields:
+    - name: warning
+      pdf_field_name: GC-010[0].#subform[1].#area[2].Warning[0]
+      type: checkbox
+      label: Warning
+      required: false
+      width: full

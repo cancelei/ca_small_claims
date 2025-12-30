@@ -1,0 +1,552 @@
+---
+form:
+  code: GC-410
+  title: GC 410 Form
+  description: ''
+  category: guardianship/general
+  pdf_filename: gc410.pdf
+  fillable: true
+  instructions: ''
+sections:
+  name:
+    title: Name
+    fields:
+    - name: name1
+      pdf_field_name: GC-410[0].Page1[0].Name1[0]
+      type: text
+      label: Name
+      required: false
+      width: full
+  p1_caption:
+    title: P1 Caption
+    fields:
+    - name: atty_bar_no
+      pdf_field_name: GC-410[0].Page1[0].p1Caption[0].AttyPartyInfo[0].AttyBarNo[0]
+      type: text
+      label: Atty Bar No
+      required: false
+      width: full
+    - name: name
+      pdf_field_name: GC-410[0].Page1[0].p1Caption[0].AttyPartyInfo[0].Name[0]
+      type: text
+      label: Name
+      required: false
+      width: full
+    - name: atty_firm
+      pdf_field_name: GC-410[0].Page1[0].p1Caption[0].AttyPartyInfo[0].AttyFirm[0]
+      type: text
+      label: Atty Firm
+      required: false
+      width: full
+    - name: street
+      pdf_field_name: GC-410[0].Page1[0].p1Caption[0].AttyPartyInfo[0].Street[0]
+      type: address
+      label: Street
+      required: false
+      width: full
+    - name: city
+      pdf_field_name: GC-410[0].Page1[0].p1Caption[0].AttyPartyInfo[0].City[0]
+      type: address
+      label: City
+      required: false
+      width: full
+    - name: state
+      pdf_field_name: GC-410[0].Page1[0].p1Caption[0].AttyPartyInfo[0].State[0]
+      type: address
+      label: State
+      required: false
+      width: full
+    - name: zip
+      pdf_field_name: GC-410[0].Page1[0].p1Caption[0].AttyPartyInfo[0].Zip[0]
+      type: address
+      label: Zip
+      required: false
+      width: full
+    - name: phone
+      pdf_field_name: GC-410[0].Page1[0].p1Caption[0].AttyPartyInfo[0].Phone[0]
+      type: tel
+      label: Phone
+      required: false
+      width: half
+    - name: fax
+      pdf_field_name: GC-410[0].Page1[0].p1Caption[0].AttyPartyInfo[0].Fax[0]
+      type: tel
+      label: Fax
+      required: false
+      width: half
+    - name: email
+      pdf_field_name: GC-410[0].Page1[0].p1Caption[0].AttyPartyInfo[0].Email[0]
+      type: email
+      label: Email
+      required: false
+      width: half
+    - name: atty_for
+      pdf_field_name: GC-410[0].Page1[0].p1Caption[0].AttyPartyInfo[0].AttyFor[0]
+      type: text
+      label: Atty For
+      required: false
+      width: full
+    - name: crt_county
+      pdf_field_name: GC-410[0].Page1[0].p1Caption[0].CourtInfo[0].CrtCounty[0]
+      type: number
+      label: Crt County
+      required: false
+      width: third
+    - name: crt_street
+      pdf_field_name: GC-410[0].Page1[0].p1Caption[0].CourtInfo[0].CrtStreet[0]
+      type: address
+      label: Crt Street
+      required: false
+      width: full
+    - name: crt_mailing_add
+      pdf_field_name: GC-410[0].Page1[0].p1Caption[0].CourtInfo[0].CrtMailingAdd[0]
+      type: address
+      label: Crt Mailing Add
+      required: false
+      width: full
+    - name: crt_city_zip
+      pdf_field_name: GC-410[0].Page1[0].p1Caption[0].CourtInfo[0].CrtCityZip[0]
+      type: address
+      label: Crt City Zip
+      required: false
+      width: full
+    - name: crt_branch
+      pdf_field_name: GC-410[0].Page1[0].p1Caption[0].CourtInfo[0].CrtBranch[0]
+      type: text
+      label: Crt Branch
+      required: false
+      width: full
+    - name: case_number
+      pdf_field_name: GC-410[0].Page1[0].p1Caption[0].CaseNumber[0].CaseNumber[0]
+      type: text
+      label: Case Number
+      required: false
+      width: full
+      shared_key: case:number
+    - name: name_cap_title
+      pdf_field_name: GC-410[0].Page1[0].p1Caption[0].TitlePartyName[0].Name_CapTitle[0]
+      type: text
+      label: Name Cap Title
+      required: false
+      width: full
+  cap_title:
+    title: Cap Title
+    fields:
+    - name: cap_title
+      pdf_field_name: GC-410[0].Page1[0].#area[0].CapTitle[0]
+      type: text
+      label: Cap Title
+      required: false
+      width: full
+    - name: cap_title_2
+      pdf_field_name: GC-410[0].Page1[0].CapTitle[1]
+      type: text
+      label: Cap Title
+      required: false
+      width: full
+  capacity:
+    title: Capacity
+    fields:
+    - name: capacity1
+      pdf_field_name: GC-410[0].Page1[0].Capacity1[0]
+      type: address
+      label: Capacity
+      required: false
+      width: full
+  duedate:
+    title: Duedate
+    fields:
+    - name: duedate1
+      pdf_field_name: GC-410[0].Page1[0].Duedate1[0]
+      type: date
+      label: Duedate
+      required: false
+      width: half
+    - name: duedate1_2
+      pdf_field_name: GC-410[0].Page1[0].Duedate1[1]
+      type: date
+      label: Duedate
+      required: false
+      width: half
+  checkbox:
+    title: Checkbox
+    fields:
+    - name: checkbox
+      pdf_field_name: GC-410[0].Page1[0].Checkbox[0]
+      type: checkbox
+      label: Checkbox
+      required: false
+      width: full
+    - name: checkbox_2
+      pdf_field_name: GC-410[0].Page1[0].#area[8].Checkbox[1]
+      type: checkbox
+      label: Checkbox
+      required: false
+      width: full
+    - name: checkbox_2
+      pdf_field_name: GC-410[0].#subform[1].#area[3].Checkbox[0]
+      type: checkbox
+      label: Checkbox
+      required: false
+      width: full
+  cee_address:
+    title: Cee Address
+    fields:
+    - name: cee_address1
+      pdf_field_name: GC-410[0].Page1[0].CeeAddress1[0]
+      type: address
+      label: Cee Address
+      required: false
+      width: full
+  persresid_cb:
+    title: Persresid Cb
+    fields:
+    - name: persresid_cb
+      pdf_field_name: GC-410[0].Page1[0].persresid_cb[0]
+      type: text
+      label: Persresid Cb
+      required: false
+      width: full
+  iand_adate:
+    title: Iand Adate
+    fields:
+    - name: iand_adate1
+      pdf_field_name: GC-410[0].Page1[0].IandAdate1[0]
+      type: date
+      label: Iand Adate
+      required: false
+      width: half
+  iand_a_cb:
+    title: Iand A Cb
+    fields:
+    - name: iand_a_cb
+      pdf_field_name: GC-410[0].Page1[0].IandA_cb[0]
+      type: text
+      label: Iand A Cb
+      required: false
+      width: full
+  numeric_field:
+    title: Numeric Field
+    fields:
+    - name: numeric_field1
+      pdf_field_name: GC-410[0].Page1[0].#area[1].NumericField1[0]
+      type: text
+      label: Numeric Field
+      required: false
+      width: full
+    - name: numeric_field2
+      pdf_field_name: GC-410[0].Page1[0].#area[7].NumericField2[0]
+      type: text
+      label: Numeric Field
+      required: false
+      width: full
+    - name: numeric_field3
+      pdf_field_name: GC-410[0].#subform[1].NumericField3[0]
+      type: text
+      label: Numeric Field
+      required: false
+      width: full
+    - name: numeric_field3_2
+      pdf_field_name: GC-410[0].#subform[1].NumericField3[1]
+      type: text
+      label: Numeric Field
+      required: false
+      width: full
+    - name: numeric_field3_2
+      pdf_field_name: GC-410[0].#subform[1].NumericField3[2]
+      type: text
+      label: Numeric Field
+      required: false
+      width: full
+    - name: numeric_field3_2
+      pdf_field_name: GC-410[0].#subform[1].NumericField3[3]
+      type: text
+      label: Numeric Field
+      required: false
+      width: full
+    - name: numeric_field3_2
+      pdf_field_name: GC-410[0].#subform[1].NumericField3[4]
+      type: text
+      label: Numeric Field
+      required: false
+      width: full
+    - name: numeric_field3_2
+      pdf_field_name: GC-410[0].#subform[1].NumericField3[5]
+      type: text
+      label: Numeric Field
+      required: false
+      width: full
+  check_box:
+    title: Check Box
+    fields:
+    - name: check_box61
+      pdf_field_name: GC-410[0].Page1[0].#area[1].CheckBox61[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box19
+      pdf_field_name: GC-410[0].Page1[0].#area[2].CheckBox19[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box61_2
+      pdf_field_name: GC-410[0].Page1[0].#area[7].CheckBox61[1]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+  begin_date:
+    title: Begin Date
+    fields:
+    - name: begin_date1
+      pdf_field_name: GC-410[0].Page1[0].BeginDate1[0]
+      type: date
+      label: Begin Date
+      required: false
+      width: half
+  petitioner_cb:
+    title: Petitioner Cb
+    fields:
+    - name: petitioner_cb
+      pdf_field_name: GC-410[0].Page1[0].#area[3].petitioner_cb[0]
+      type: text
+      label: Petitioner Cb
+      required: false
+      width: full
+    - name: petitioner_cb_2
+      pdf_field_name: GC-410[0].Page1[0].#area[4].petitioner_cb[1]
+      type: text
+      label: Petitioner Cb
+      required: false
+      width: full
+    - name: petitioner_cb_2
+      pdf_field_name: GC-410[0].Page1[0].#area[5].petitioner_cb[2]
+      type: text
+      label: Petitioner Cb
+      required: false
+      width: full
+    - name: petitioner_cb_2
+      pdf_field_name: GC-410[0].Page1[0].#area[6].petitioner_cb[3]
+      type: text
+      label: Petitioner Cb
+      required: false
+      width: full
+  text_field:
+    title: Text Field
+    fields:
+    - name: text_field6
+      pdf_field_name: GC-410[0].Page1[0].TextField6[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: GC-410[0].Page1[0].TextField6[1]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: GC-410[0].Page1[0].TextField6[2]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field7
+      pdf_field_name: GC-410[0].Page1[0].TextField7[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: GC-410[0].#subform[1].TextField6[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+  hrg_date_time:
+    title: Hrg Date Time
+    fields:
+    - name: hrg_date_time
+      pdf_field_name: GC-410[0].Page1[0].HrgDateTime[0]
+      type: date
+      label: Hrg Date Time
+      required: false
+      width: half
+  hrg_dept:
+    title: Hrg Dept
+    fields:
+    - name: hrg_dept
+      pdf_field_name: GC-410[0].Page1[0].HrgDept[0]
+      type: text
+      label: Hrg Dept
+      required: false
+      width: full
+  title_party_name:
+    title: Title Party Name
+    fields:
+    - name: name_cap_title_2
+      pdf_field_name: GC-410[0].#subform[1].TitlePartyName[0].Name_CapTitle[0]
+      type: text
+      label: Name Cap Title
+      required: false
+      width: full
+    - name: cap_title_2
+      pdf_field_name: GC-410[0].#subform[1].TitlePartyName[0].#area[0].CapTitle[0]
+      type: text
+      label: Cap Title
+      required: false
+      width: full
+    - name: cap_title_2
+      pdf_field_name: GC-410[0].#subform[1].TitlePartyName[0].CapTitle[1]
+      type: text
+      label: Cap Title
+      required: false
+      width: full
+  case_number:
+    title: Case Number
+    fields:
+    - name: case_number_2
+      pdf_field_name: GC-410[0].#subform[1].CaseNumber[0].CaseNumber[0]
+      type: text
+      label: Case Number
+      required: false
+      width: full
+      shared_key: case:number
+  date:
+    title: Date
+    fields:
+    - name: date
+      pdf_field_name: GC-410[0].#subform[1].#area[0].Date[0]
+      type: date
+      label: Date
+      required: false
+      width: half
+    - name: date_2
+      pdf_field_name: GC-410[0].#subform[1].#area[1].Date[1]
+      type: date
+      label: Date
+      required: false
+      width: half
+    - name: date_2
+      pdf_field_name: GC-410[0].#subform[1].#area[2].Date[2]
+      type: date
+      label: Date
+      required: false
+      width: half
+  print_name:
+    title: Print Name
+    fields:
+    - name: print_name
+      pdf_field_name: GC-410[0].#subform[1].#area[0].PrintName[0]
+      type: text
+      label: Print Name
+      required: false
+      width: full
+    - name: print_name_2
+      pdf_field_name: GC-410[0].#subform[1].#area[1].PrintName[1]
+      type: text
+      label: Print Name
+      required: false
+      width: full
+    - name: print_name_2
+      pdf_field_name: GC-410[0].#subform[1].#area[2].PrintName[2]
+      type: text
+      label: Print Name
+      required: false
+      width: full
+  sourceofincome:
+    title: Sourceofincome
+    fields:
+    - name: sourceofincome1
+      pdf_field_name: GC-410[0].#subform[1].Sourceofincome1[0]
+      type: currency
+      label: Sourceofincome
+      required: false
+      width: third
+    - name: sourceofincome3
+      pdf_field_name: GC-410[0].#subform[1].Sourceofincome3[0]
+      type: currency
+      label: Sourceofincome
+      required: false
+      width: third
+    - name: sourceofincome4
+      pdf_field_name: GC-410[0].#subform[1].Sourceofincome4[0]
+      type: currency
+      label: Sourceofincome
+      required: false
+      width: third
+    - name: sourceofincome5
+      pdf_field_name: GC-410[0].#subform[1].Sourceofincome5[0]
+      type: currency
+      label: Sourceofincome
+      required: false
+      width: third
+    - name: sourceofincome5_2
+      pdf_field_name: GC-410[0].#subform[1].Sourceofincome5[1]
+      type: currency
+      label: Sourceofincome
+      required: false
+      width: third
+  hearing_date:
+    title: Hearing Date
+    fields:
+    - name: hearing_date
+      pdf_field_name: GC-410[0].#subform[1].HearingDate[0]
+      type: date
+      label: Hearing Date
+      required: false
+      width: half
+  gran_den_cb:
+    title: Gran Den Cb
+    fields:
+    - name: gran_den_cb
+      pdf_field_name: GC-410[0].#subform[1].#area[5].GranDen_cb[0]
+      type: text
+      label: Gran Den Cb
+      required: false
+      width: full
+    - name: gran_den_cb_2
+      pdf_field_name: GC-410[0].#subform[1].#area[6].GranDen_cb[1]
+      type: text
+      label: Gran Den Cb
+      required: false
+      width: full
+  print:
+    title: Print
+    fields:
+    - name: print
+      pdf_field_name: GC-410[0].#subform[1].#area[7].Print[0]
+      type: checkbox
+      label: Print
+      required: false
+      width: full
+  save:
+    title: Save
+    fields:
+    - name: save
+      pdf_field_name: GC-410[0].#subform[1].#area[7].Save[0]
+      type: checkbox
+      label: Save
+      required: false
+      width: full
+  reset:
+    title: Reset
+    fields:
+    - name: reset
+      pdf_field_name: GC-410[0].#subform[1].#area[7].Reset[0]
+      type: checkbox
+      label: Reset
+      required: false
+      width: full
+  warning:
+    title: Warning
+    fields:
+    - name: warning
+      pdf_field_name: GC-410[0].#subform[1].#area[7].Warning[0]
+      type: checkbox
+      label: Warning
+      required: false
+      width: full

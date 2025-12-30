@@ -1,0 +1,215 @@
+---
+form:
+  code: JV-135
+  title: JV 135 Form
+  description: ''
+  category: juvenile/general
+  pdf_filename: jv135.pdf
+  fillable: true
+  instructions: ''
+sections:
+  general:
+    title: General
+    fields:
+    - name: atty1
+      pdf_field_name: Atty1
+      type: text
+      label: Atty
+      required: false
+      width: full
+    - name: atty2
+      pdf_field_name: Atty2
+      type: text
+      label: Atty
+      required: false
+      width: full
+    - name: atty3
+      pdf_field_name: Atty3
+      type: text
+      label: Atty
+      required: false
+      width: full
+    - name: atty4
+      pdf_field_name: Atty4
+      type: text
+      label: Atty
+      required: false
+      width: full
+    - name: tel
+      pdf_field_name: Tel
+      type: tel
+      label: Tel
+      required: false
+      width: half
+    - name: fax
+      pdf_field_name: Fax
+      type: tel
+      label: Fax
+      required: false
+      width: half
+    - name: email
+      pdf_field_name: email
+      type: email
+      label: Email
+      required: false
+      width: half
+    - name: for
+      pdf_field_name: Attorney.for
+      type: text
+      label: For
+      required: false
+      width: full
+    - name: county
+      pdf_field_name: Court.County
+      type: number
+      label: County
+      required: false
+      width: third
+    - name: street
+      pdf_field_name: Court.street
+      type: address
+      label: Street
+      required: false
+      width: full
+    - name: mailing
+      pdf_field_name: Court.mailing
+      type: address
+      label: Mailing
+      required: false
+      width: full
+    - name: branch
+      pdf_field_name: Court.branch
+      type: text
+      label: Branch
+      required: false
+      width: full
+    - name: childrens_names
+      pdf_field_name: ChildrensNames
+      type: text
+      label: Childrens Names
+      required: false
+      width: full
+    - name: case_number
+      pdf_field_name: CaseNumber
+      type: text
+      label: Case Number
+      required: false
+      width: full
+      shared_key: case:number
+    - name: tf0name
+      pdf_field_name: TF0Name
+      type: text
+      label: Tf0 Name
+      required: false
+      width: full
+    - name: cb1
+      pdf_field_name: CB1
+      type: checkbox
+      label: Cb
+      required: false
+      width: full
+    - name: tf1amount
+      pdf_field_name: TF1Amount
+      type: currency
+      label: Tf1 Amount
+      required: false
+      width: third
+    - name: cb2
+      pdf_field_name: CB2
+      type: checkbox
+      label: Cb
+      required: false
+      width: full
+    - name: tf2amount
+      pdf_field_name: TF2Amount
+      type: currency
+      label: Tf2 Amount
+      required: false
+      width: third
+    - name: cb3
+      pdf_field_name: CB3
+      type: checkbox
+      label: Cb
+      required: false
+      width: full
+    - name: tf3amount
+      pdf_field_name: TF3Amount
+      type: currency
+      label: Tf3 Amount
+      required: false
+      width: third
+    - name: tf3day
+      pdf_field_name: TF3Day
+      type: text
+      label: Tf3 Day
+      required: false
+      width: full
+    - name: cb4
+      pdf_field_name: CB4
+      type: checkbox
+      label: Cb
+      required: false
+      width: full
+    - name: cb5a
+      pdf_field_name: CB5a
+      type: checkbox
+      label: Cb5a
+      required: false
+      width: full
+    - name: cb5b
+      pdf_field_name: CB5b
+      type: checkbox
+      label: Cb5b
+      required: false
+      width: full
+    - name: cb6
+      pdf_field_name: CB6
+      type: checkbox
+      label: Cb
+      required: false
+      width: full
+    - name: cb7
+      pdf_field_name: CB7
+      type: checkbox
+      label: Cb
+      required: false
+      width: full
+    - name: cb5
+      pdf_field_name: CB5
+      type: checkbox
+      label: Cb
+      required: false
+      width: full
+    - name: cb8
+      pdf_field_name: CB8
+      type: checkbox
+      label: Cb
+      required: false
+      width: full
+    - name: tf3start_date
+      pdf_field_name: TF3StartDate
+      type: date
+      label: Tf3 Start Date
+      required: false
+      width: half
+    - name: tf8date
+      pdf_field_name: TF8Date
+      type: date
+      label: Tf8 Date
+      required: false
+      width: half
+    - name: date
+      pdf_field_name: Date
+      type: date
+      label: Date
+      required: false
+      width: half
+  city:
+    title: City
+    fields:
+    - name: zip
+      pdf_field_name: Court.City.zip
+      type: address
+      label: Zip
+      required: false
+      width: full

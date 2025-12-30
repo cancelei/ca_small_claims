@@ -1,0 +1,239 @@
+---
+form:
+  code: FL-985
+  title: FL 985 Form
+  description: ''
+  category: family_law/general
+  pdf_filename: fl985.pdf
+  fillable: true
+  instructions: ''
+sections:
+  general:
+    title: General
+    fields:
+    - name: atty1
+      pdf_field_name: Atty1
+      type: text
+      label: Atty
+      required: false
+      width: full
+    - name: atty2
+      pdf_field_name: Atty2
+      type: text
+      label: Atty
+      required: false
+      width: full
+    - name: atty3
+      pdf_field_name: Atty3
+      type: text
+      label: Atty
+      required: false
+      width: full
+    - name: atty4
+      pdf_field_name: Atty4
+      type: text
+      label: Atty
+      required: false
+      width: full
+    - name: tel
+      pdf_field_name: Tel
+      type: tel
+      label: Tel
+      required: false
+      width: half
+    - name: fax
+      pdf_field_name: Fax
+      type: tel
+      label: Fax
+      required: false
+      width: half
+    - name: email
+      pdf_field_name: email
+      type: email
+      label: Email
+      required: false
+      width: half
+    - name: for
+      pdf_field_name: Attorney.for
+      type: text
+      label: For
+      required: false
+      width: full
+    - name: county
+      pdf_field_name: Court.County
+      type: number
+      label: County
+      required: false
+      width: third
+    - name: street
+      pdf_field_name: Court.street
+      type: address
+      label: Street
+      required: false
+      width: full
+    - name: mailing
+      pdf_field_name: Court.mailing
+      type: address
+      label: Mailing
+      required: false
+      width: full
+    - name: branch
+      pdf_field_name: Court.branch
+      type: text
+      label: Branch
+      required: false
+      width: full
+    - name: petitioner
+      pdf_field_name: Petitioner
+      type: text
+      label: Petitioner
+      required: false
+      width: full
+    - name: respondent
+      pdf_field_name: Respondent
+      type: text
+      label: Respondent
+      required: false
+      width: full
+    - name: other
+      pdf_field_name: Other
+      type: text
+      label: Other
+      required: false
+      width: full
+    - name: cb1b
+      pdf_field_name: CB1b
+      type: checkbox
+      label: Cb1b
+      required: false
+      width: full
+    - name: cb1a
+      pdf_field_name: CB1a
+      type: checkbox
+      label: Cb1a
+      required: false
+      width: full
+    - name: case_number
+      pdf_field_name: CaseNumber
+      type: text
+      label: Case Number
+      required: false
+      width: full
+      shared_key: case:number
+    - name: tf01c
+      pdf_field_name: TF01c
+      type: text
+      label: Tf01c
+      required: false
+      width: full
+    - name: tf02location
+      pdf_field_name: TF02Location
+      type: address
+      label: Tf02 Location
+      required: false
+      width: full
+    - name: tf03date_up
+      pdf_field_name: TF03DateUp
+      type: date
+      label: Tf03 Date Up
+      required: false
+      width: half
+    - name: tf03date_down
+      pdf_field_name: TF03DateDown
+      type: date
+      label: Tf03 Date Down
+      required: false
+      width: half
+    - name: tf04address
+      pdf_field_name: TF04Address
+      type: address
+      label: Tf04 Address
+      required: false
+      width: full
+    - name: tf04name
+      pdf_field_name: TF04Name
+      type: text
+      label: Tf04 Name
+      required: false
+      width: full
+    - name: cb1c
+      pdf_field_name: CB1c
+      type: checkbox
+      label: Cb1c
+      required: false
+      width: full
+    - name: cb4b
+      pdf_field_name: CB4b
+      type: checkbox
+      label: Cb4b
+      required: false
+      width: full
+    - name: cb4c
+      pdf_field_name: CB4c
+      type: checkbox
+      label: Cb4c
+      required: false
+      width: full
+    - name: cb4c_choice
+      pdf_field_name: CB4cChoice
+      type: checkbox
+      label: Cb4c Choice
+      required: false
+      width: full
+    - name: tf04c1registration
+      pdf_field_name: TF04c1Registration
+      type: text
+      label: Tf04c1 Registration
+      required: false
+      width: full
+    - name: cb4a
+      pdf_field_name: CB4a
+      type: checkbox
+      label: Cb4a
+      required: false
+      width: full
+    - name: cb5
+      pdf_field_name: CB5
+      type: checkbox
+      label: Cb
+      required: false
+      width: full
+    - name: cb6
+      pdf_field_name: CB6
+      type: checkbox
+      label: Cb
+      required: false
+      width: full
+    - name: tf04tel
+      pdf_field_name: TF04Tel
+      type: tel
+      label: Tf04 Tel
+      required: false
+      width: half
+    - name: date
+      pdf_field_name: Date
+      type: date
+      label: Date
+      required: false
+      width: half
+    - name: tf04c2county
+      pdf_field_name: TF04c2County
+      type: number
+      label: Tf04c2 County
+      required: false
+      width: third
+    - name: name
+      pdf_field_name: Name
+      type: text
+      label: Name
+      required: false
+      width: full
+  city:
+    title: City
+    fields:
+    - name: zip
+      pdf_field_name: Court.City.zip
+      type: address
+      label: Zip
+      required: false
+      width: full

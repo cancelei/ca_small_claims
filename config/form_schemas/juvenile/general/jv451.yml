@@ -1,0 +1,428 @@
+---
+form:
+  code: JV-451
+  title: JV 451 Form
+  description: ''
+  category: juvenile/general
+  pdf_filename: jv451.pdf
+  fillable: true
+  instructions: ''
+sections:
+  general:
+    title: General
+    fields:
+    - name: privacy_notice_header
+      pdf_field_name: Privacy Notice header
+      type: text
+      label: Privacy Notice Header
+      required: false
+      width: full
+    - name: attorney01
+      pdf_field_name: Attorney01
+      type: text
+      label: Attorney
+      required: false
+      width: full
+    - name: attorney02
+      pdf_field_name: Attorney02
+      type: text
+      label: Attorney
+      required: false
+      width: full
+    - name: attorney03
+      pdf_field_name: Attorney03
+      type: text
+      label: Attorney
+      required: false
+      width: full
+    - name: attorney04
+      pdf_field_name: Attorney04
+      type: text
+      label: Attorney
+      required: false
+      width: full
+    - name: telephone
+      pdf_field_name: Telephone
+      type: tel
+      label: Telephone
+      required: false
+      width: half
+    - name: fax
+      pdf_field_name: Fax
+      type: tel
+      label: Fax
+      required: false
+      width: half
+    - name: email
+      pdf_field_name: Email
+      type: email
+      label: Email
+      required: false
+      width: half
+    - name: client_name
+      pdf_field_name: ClientName
+      type: text
+      label: Client Name
+      required: false
+      width: full
+    - name: court_county
+      pdf_field_name: CourtCounty
+      type: number
+      label: Court County
+      required: false
+      width: third
+    - name: court_street
+      pdf_field_name: CourtStreet
+      type: address
+      label: Court Street
+      required: false
+      width: full
+    - name: name
+      pdf_field_name: Case.Name
+      type: text
+      label: Name
+      required: false
+      width: full
+    - name: case
+      pdf_field_name: Case
+      type: text
+      label: Case
+      required: false
+      width: full
+    - name: check_box01
+      pdf_field_name: CheckBox01
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: names
+      pdf_field_name: 02.names
+      type: text
+      label: Names
+      required: false
+      width: full
+    - name: address
+      pdf_field_name: 02.address
+      type: address
+      label: Address
+      required: false
+      width: full
+    - name: choice
+      pdf_field_name: CheckBox02.choice
+      type: checkbox
+      label: Choice
+      required: false
+      width: full
+    - name: check_box02
+      pdf_field_name: CheckBox02.0
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box03
+      pdf_field_name: CheckBox03.0
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: a
+      pdf_field_name: CheckBox03.a
+      type: checkbox
+      label: A
+      required: false
+      width: full
+    - name: b
+      pdf_field_name: CheckBox03.b
+      type: checkbox
+      label: B
+      required: false
+      width: full
+    - name: c
+      pdf_field_name: CheckBox03.c
+      type: checkbox
+      label: C
+      required: false
+      width: full
+    - name: check_box04
+      pdf_field_name: CheckBox04.0
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: a_2
+      pdf_field_name: CheckBox04.a
+      type: checkbox
+      label: A
+      required: false
+      width: full
+    - name: b_2
+      pdf_field_name: CheckBox04.b
+      type: checkbox
+      label: B
+      required: false
+      width: full
+    - name: c_2
+      pdf_field_name: CheckBox04.c
+      type: checkbox
+      label: C
+      required: false
+      width: full
+    - name: case_number
+      pdf_field_name: CaseNumber
+      type: text
+      label: Case Number
+      required: false
+      width: full
+      shared_key: case:number
+    - name: check_box05
+      pdf_field_name: CheckBox05.0
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: b_2
+      pdf_field_name: CheckBox05.b
+      type: checkbox
+      label: B
+      required: false
+      width: full
+    - name: language
+      pdf_field_name: 05.language
+      type: text
+      label: Language
+      required: false
+      width: full
+    - name: b_2
+      pdf_field_name: CheckBox06.b
+      type: checkbox
+      label: B
+      required: false
+      width: full
+    - name: d
+      pdf_field_name: CheckBox06.d
+      type: checkbox
+      label: D
+      required: false
+      width: full
+    - name: a_2
+      pdf_field_name: CheckBox06.a
+      type: checkbox
+      label: A
+      required: false
+      width: full
+    - name: language_2
+      pdf_field_name: 06.language
+      type: text
+      label: Language
+      required: false
+      width: full
+    - name: date_2
+      pdf_field_name: Prisoner.date
+      type: date
+      label: Date
+      required: false
+      width: half
+    - name: name_2
+      pdf_field_name: Prisoner.name
+      type: text
+      label: Name
+      required: false
+      width: full
+    - name: declaration
+      pdf_field_name: Translator.declaration
+      type: text
+      label: Declaration
+      required: false
+      width: full
+    - name: date_2
+      pdf_field_name: Translator.date
+      type: date
+      label: Date
+      required: false
+      width: half
+    - name: name_2
+      pdf_field_name: Translator.name
+      type: text
+      label: Name
+      required: false
+      width: full
+    - name: declaration_2
+      pdf_field_name: Official.declaration
+      type: text
+      label: Declaration
+      required: false
+      width: full
+    - name: date_2
+      pdf_field_name: Official.date
+      type: date
+      label: Date
+      required: false
+      width: half
+    - name: name_2
+      pdf_field_name: Official.name
+      type: text
+      label: Name
+      required: false
+      width: full
+    - name: title
+      pdf_field_name: Official.title
+      type: text
+      label: Title
+      required: false
+      width: full
+    - name: c_2
+      pdf_field_name: CheckBox08.c
+      type: checkbox
+      label: C
+      required: false
+      width: full
+    - name: b_2
+      pdf_field_name: CheckBox08.b
+      type: checkbox
+      label: B
+      required: false
+      width: full
+    - name: a_2
+      pdf_field_name: CheckBox08.a
+      type: checkbox
+      label: A
+      required: false
+      width: full
+    - name: conduct
+      pdf_field_name: '09.conduct'
+      type: text
+      label: Conduct
+      required: false
+      width: full
+    - name: choice_2
+      pdf_field_name: CheckBox09.choice
+      type: checkbox
+      label: Choice
+      required: false
+      width: full
+    - name: b_2
+      pdf_field_name: CheckBox09.b
+      type: checkbox
+      label: B
+      required: false
+      width: full
+    - name: a_2
+      pdf_field_name: CheckBox09.a
+      type: checkbox
+      label: A
+      required: false
+      width: full
+    - name: c_2
+      pdf_field_name: CheckBox09.c
+      type: checkbox
+      label: C
+      required: false
+      width: full
+    - name: court_mail
+      pdf_field_name: CourtMail
+      type: text
+      label: Court Mail
+      required: false
+      width: full
+    - name: court_branch
+      pdf_field_name: CourtBranch
+      type: text
+      label: Court Branch
+      required: false
+      width: full
+    - name: court_city_zip
+      pdf_field_name: CourtCityZip
+      type: address
+      label: Court City Zip
+      required: false
+      width: full
+  hearing:
+    title: Hearing
+    fields:
+    - name: time
+      pdf_field_name: 02.hearing.time
+      type: text
+      label: Time
+      required: false
+      width: full
+    - name: department
+      pdf_field_name: 02.hearing.department
+      type: text
+      label: Department
+      required: false
+      width: full
+    - name: room
+      pdf_field_name: 02.hearing.room
+      type: text
+      label: Room
+      required: false
+      width: full
+    - name: tel
+      pdf_field_name: 02.hearing.tel
+      type: tel
+      label: Tel
+      required: false
+      width: half
+    - name: date
+      pdf_field_name: 02.hearing.date
+      type: date
+      label: Date
+      required: false
+      width: half
+  c:
+    title: C
+    fields:
+    - name: other
+      pdf_field_name: 03.c.other
+      type: text
+      label: Other
+      required: false
+      width: full
+    - name: interpreter_2
+      pdf_field_name: CheckBox06.c.interpreter
+      type: checkbox
+      label: Interpreter
+      required: false
+      width: full
+    - name: c_2
+      pdf_field_name: CheckBox06.c.0
+      type: checkbox
+      label: C
+      required: false
+      width: full
+  a:
+    title: A
+    fields:
+    - name: a_2
+      pdf_field_name: CheckBox05.a.0
+      type: checkbox
+      label: A
+      required: false
+      width: full
+    - name: interpreter
+      pdf_field_name: CheckBox05.a.interpreter
+      type: checkbox
+      label: Interpreter
+      required: false
+      width: full
+    - name: choice_2
+      pdf_field_name: 07.a.choice
+      type: text
+      label: Choice
+      required: false
+      width: full
+    - name: language_2
+      pdf_field_name: 07.a.language
+      type: text
+      label: Language
+      required: false
+      width: full
+  prisoner:
+    title: Prisoner
+    fields:
+    - name: name_2
+      pdf_field_name: '09.prisoner.name'
+      type: text
+      label: Name
+      required: false
+      width: full

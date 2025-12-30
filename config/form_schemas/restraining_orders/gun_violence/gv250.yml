@@ -1,0 +1,266 @@
+---
+form:
+  code: GV-250
+  title: GV 250 Form
+  description: ''
+  category: restraining_orders/gun_violence
+  pdf_filename: gv250.pdf
+  fillable: true
+  instructions: ''
+sections:
+  mailed_to_state_ft:
+    title: Mailed To State Ft
+    fields:
+    - name: mailed_to_state_ft
+      pdf_field_name: GV-250[0].Page1[0].MailedToState_ft[0]
+      type: address
+      label: Mailed To State Ft
+      required: false
+      width: full
+  mailed_to_city_ft:
+    title: Mailed To City Ft
+    fields:
+    - name: mailed_to_city_ft
+      pdf_field_name: GV-250[0].Page1[0].MailedToCity_ft[0]
+      type: address
+      label: Mailed To City Ft
+      required: false
+      width: full
+  mailed_from_city_ft:
+    title: Mailed From City Ft
+    fields:
+    - name: mailed_from_city_ft
+      pdf_field_name: GV-250[0].Page1[0].MailedFromCity_ft[0]
+      type: address
+      label: Mailed From City Ft
+      required: false
+      width: full
+  mailed_from_state_ft:
+    title: Mailed From State Ft
+    fields:
+    - name: mailed_from_state_ft
+      pdf_field_name: GV-250[0].Page1[0].MailedFromState_ft[0]
+      type: address
+      label: Mailed From State Ft
+      required: false
+      width: full
+  mailed_to_street_ft:
+    title: Mailed To Street Ft
+    fields:
+    - name: mailed_to_street_ft
+      pdf_field_name: GV-250[0].Page1[0].MailedToStreet_ft[0]
+      type: address
+      label: Mailed To Street Ft
+      required: false
+      width: full
+  mailed_to_name_ft:
+    title: Mailed To Name Ft
+    fields:
+    - name: mailed_to_name_ft
+      pdf_field_name: GV-250[0].Page1[0].MailedToName_ft[0]
+      type: text
+      label: Mailed To Name Ft
+      required: false
+      width: full
+  mailed_date_dt:
+    title: Mailed Date Dt
+    fields:
+    - name: mailed_date_dt
+      pdf_field_name: GV-250[0].Page1[0].MailedDate_dt[0]
+      type: date
+      label: Mailed Date Dt
+      required: false
+      width: half
+  server_name_ft:
+    title: Server Name Ft
+    fields:
+    - name: server_name_ft
+      pdf_field_name: GV-250[0].Page1[0].ServerName_ft[0]
+      type: text
+      label: Server Name Ft
+      required: false
+      width: full
+    - name: server_name_ft_2
+      pdf_field_name: GV-250[0].Page1[0].ServerName_ft[1]
+      type: text
+      label: Server Name Ft
+      required: false
+      width: full
+  server_street_ft:
+    title: Server Street Ft
+    fields:
+    - name: server_street_ft
+      pdf_field_name: GV-250[0].Page1[0].ServerStreet_ft[0]
+      type: address
+      label: Server Street Ft
+      required: false
+      width: full
+  server_zip_ft:
+    title: Server Zip Ft
+    fields:
+    - name: server_zip_ft
+      pdf_field_name: GV-250[0].Page1[0].ServerZip_ft[0]
+      type: address
+      label: Server Zip Ft
+      required: false
+      width: full
+  server_state_ft:
+    title: Server State Ft
+    fields:
+    - name: server_state_ft
+      pdf_field_name: GV-250[0].Page1[0].ServerState_ft[0]
+      type: address
+      label: Server State Ft
+      required: false
+      width: full
+  server_city_ft:
+    title: Server City Ft
+    fields:
+    - name: server_city_ft
+      pdf_field_name: GV-250[0].Page1[0].ServerCity_ft[0]
+      type: address
+      label: Server City Ft
+      required: false
+      width: full
+  server_phone_ft:
+    title: Server Phone Ft
+    fields:
+    - name: server_phone_ft
+      pdf_field_name: GV-250[0].Page1[0].ServerPhone_ft[0]
+      type: tel
+      label: Server Phone Ft
+      required: false
+      width: half
+  server_reg_number_ft:
+    title: Server Reg Number Ft
+    fields:
+    - name: server_reg_number_ft
+      pdf_field_name: GV-250[0].Page1[0].ServerRegNumber_ft[0]
+      type: text
+      label: Server Reg Number Ft
+      required: false
+      width: full
+  server_county_ft:
+    title: Server County Ft
+    fields:
+    - name: server_county_ft
+      pdf_field_name: GV-250[0].Page1[0].ServerCounty_ft[0]
+      type: number
+      label: Server County Ft
+      required: false
+      width: third
+  mailed_to_zip_ft:
+    title: Mailed To Zip Ft
+    fields:
+    - name: mailed_to_zip_ft
+      pdf_field_name: GV-250[0].Page1[0].MailedToZip_ft[0]
+      type: address
+      label: Mailed To Zip Ft
+      required: false
+      width: full
+  protected_full_name_ft:
+    title: Protected Full Name Ft
+    fields:
+    - name: protected_full_name_ft
+      pdf_field_name: GV-250[0].Page1[0].ProtectedFullName_ft[0]
+      type: text
+      label: Protected Full Name Ft
+      required: false
+      width: full
+  restrained_full_name_ft:
+    title: Restrained Full Name Ft
+    fields:
+    - name: restrained_full_name_ft
+      pdf_field_name: GV-250[0].Page1[0].RestrainedFullName_ft[0]
+      type: text
+      label: Restrained Full Name Ft
+      required: false
+      width: full
+  other_form_ft:
+    title: Other Form Ft
+    fields:
+    - name: other_form_ft
+      pdf_field_name: GV-250[0].Page1[0].OtherForm_ft[0]
+      type: text
+      label: Other Form Ft
+      required: false
+      width: full
+  stamp_court_case:
+    title: Stamp Court Case
+    fields:
+    - name: court_info_ft
+      pdf_field_name: GV-250[0].Page1[0].Stamp_court_case[0].CourtInfo_ft[0]
+      type: text
+      label: Court Info Ft
+      required: false
+      width: full
+    - name: case_number
+      pdf_field_name: GV-250[0].Page1[0].Stamp_court_case[0].CaseNumber[0]
+      type: text
+      label: Case Number
+      required: false
+      width: full
+      shared_key: case:number
+  other_form_cb:
+    title: Other Form Cb
+    fields:
+    - name: other_form_cb
+      pdf_field_name: GV-250[0].Page1[0].OtherForm_cb[0]
+      type: text
+      label: Other Form Cb
+      required: false
+      width: full
+  ch200_signature_date_dt:
+    title: Ch200 Signature Date Dt
+    fields:
+    - name: ch200signature_date_dt
+      pdf_field_name: GV-250[0].Page1[0].CH200SignatureDate_dt[0]
+      type: signature
+      label: Ch200 Signature Date Dt
+      required: false
+      width: full
+  case_other_rb:
+    title: Case Other Rb
+    fields:
+    - name: case_other_rb
+      pdf_field_name: GV-250[0].Page1[0].CaseOther_rb[0]
+      type: text
+      label: Case Other Rb
+      required: false
+      width: full
+  print_bt:
+    title: Print Bt
+    fields:
+    - name: print_bt
+      pdf_field_name: GV-250[0].Page1[0].Print_bt[0]
+      type: checkbox
+      label: Print Bt
+      required: false
+      width: full
+  save_bt:
+    title: Save Bt
+    fields:
+    - name: save_bt
+      pdf_field_name: GV-250[0].Page1[0].Save_bt[0]
+      type: checkbox
+      label: Save Bt
+      required: false
+      width: full
+  reset_bt:
+    title: Reset Bt
+    fields:
+    - name: reset_bt
+      pdf_field_name: GV-250[0].Page1[0].Reset_bt[0]
+      type: checkbox
+      label: Reset Bt
+      required: false
+      width: full
+  t:
+    title: T
+    fields:
+    - name: t23
+      pdf_field_name: GV-250[0].Page1[0].T23[1]
+      type: checkbox
+      label: T
+      required: false
+      width: full

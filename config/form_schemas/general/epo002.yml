@@ -1,0 +1,335 @@
+---
+form:
+  code: EPO-002
+  title: EPO 002 Form
+  description: ''
+  category: general
+  pdf_filename: epo002.pdf
+  fillable: true
+  instructions: ''
+sections:
+  mp:
+    title: Mp
+    fields:
+    - name: court_link
+      pdf_field_name: EPO-002[0].#pageSet[0].MP1[0].Footer1[0].CourtLink[0]
+      type: checkbox
+      label: Court Link
+      required: false
+      width: full
+  mp_last:
+    title: Mp Last
+    fields:
+    - name: warning
+      pdf_field_name: EPO-002[0].#pageSet[0].MPLast[0].Warning[0]
+      type: checkbox
+      label: Warning
+      required: false
+      width: full
+    - name: print
+      pdf_field_name: EPO-002[0].#pageSet[0].MPLast[0].Print[0]
+      type: checkbox
+      label: Print
+      required: false
+      width: full
+    - name: save
+      pdf_field_name: EPO-002[0].#pageSet[0].MPLast[0].Save[0]
+      type: checkbox
+      label: Save
+      required: false
+      width: full
+    - name: reset
+      pdf_field_name: EPO-002[0].#pageSet[0].MPLast[0].Reset[0]
+      type: checkbox
+      label: Reset
+      required: false
+      width: full
+  p1_caption:
+    title: P1 Caption
+    fields:
+    - name: law_efc_case_no
+      pdf_field_name: EPO-002[0].Page1[0].P1Caption[0].LawEfcCaseNo[0]
+      type: text
+      label: Law Efc Case No
+      required: false
+      width: full
+    - name: court_info
+      pdf_field_name: EPO-002[0].Page1[0].P1Caption[0].County[0].CourtInfo[0]
+      type: number
+      label: Court Info
+      required: false
+      width: third
+    - name: case_number
+      pdf_field_name: EPO-002[0].Page1[0].P1Caption[0].CaseNumber[0].CaseNumber[0]
+      type: text
+      label: Case Number
+      required: false
+      width: full
+      shared_key: case:number
+  list:
+    title: List
+    fields:
+    - name: field1
+      pdf_field_name: EPO-002[0].Page1[0].List1[0].Item1[0].Field1[0]
+      type: text
+      label: Field
+      required: false
+      width: full
+    - name: field2
+      pdf_field_name: EPO-002[0].Page1[0].List1[0].Item1[0].Field2[0]
+      type: text
+      label: Field
+      required: false
+      width: full
+    - name: restrained_gender_cb
+      pdf_field_name: EPO-002[0].Page1[0].List1[0].Item1[0].RestrainedGender_cb[0]
+      type: text
+      label: Restrained Gender Cb
+      required: false
+      width: full
+    - name: restrained_gender_cb_2
+      pdf_field_name: EPO-002[0].Page1[0].List1[0].Item1[0].RestrainedGender_cb[1]
+      type: text
+      label: Restrained Gender Cb
+      required: false
+      width: full
+    - name: restrained_person_height_ft
+      pdf_field_name: EPO-002[0].Page1[0].List1[0].Item1[0].RestrainedPersonHeight_ft[0]
+      type: text
+      label: Restrained Person Height Ft
+      required: false
+      width: full
+    - name: restrained_person_weight_ft
+      pdf_field_name: EPO-002[0].Page1[0].List1[0].Item1[0].RestrainedPersonWeight_ft[0]
+      type: text
+      label: Restrained Person Weight Ft
+      required: false
+      width: full
+    - name: restrained_person_hair_ft
+      pdf_field_name: EPO-002[0].Page1[0].List1[0].Item1[0].RestrainedPersonHair_ft[0]
+      type: text
+      label: Restrained Person Hair Ft
+      required: false
+      width: full
+    - name: restrained_person_eyes_ft
+      pdf_field_name: EPO-002[0].Page1[0].List1[0].Item1[0].RestrainedPersonEyes_ft[0]
+      type: text
+      label: Restrained Person Eyes Ft
+      required: false
+      width: full
+    - name: restrained_person_race_ft
+      pdf_field_name: EPO-002[0].Page1[0].List1[0].Item1[0].RestrainedPersonRace_ft[0]
+      type: text
+      label: Restrained Person Race Ft
+      required: false
+      width: full
+    - name: restrained_person_age_ft
+      pdf_field_name: EPO-002[0].Page1[0].List1[0].Item1[0].RestrainedPersonAge_ft[0]
+      type: text
+      label: Restrained Person Age Ft
+      required: false
+      width: full
+    - name: restrained_person_dob_ft
+      pdf_field_name: EPO-002[0].Page1[0].List1[0].Item1[0].RestrainedPersonDOB_ft[0]
+      type: text
+      label: Restrained Person Dob Ft
+      required: false
+      width: full
+    - name: restrained_gender_cb_2
+      pdf_field_name: EPO-002[0].Page1[0].List1[0].Item1[0].RestrainedGender_cb[2]
+      type: text
+      label: Restrained Gender Cb
+      required: false
+      width: full
+    - name: field3
+      pdf_field_name: EPO-002[0].Page1[0].List3[0].Item3[0].Field3[0]
+      type: text
+      label: Field
+      required: false
+      width: full
+    - name: field4
+      pdf_field_name: EPO-002[0].Page1[0].List3[0].Item3[0].Field4[0]
+      type: text
+      label: Field
+      required: false
+      width: full
+    - name: extend_tro_cb
+      pdf_field_name: EPO-002[0].Page1[0].List4[0].Item4[0].ExtendTRO_cb[0]
+      type: text
+      label: Extend Tro Cb
+      required: false
+      width: full
+    - name: extend_tro_cb_2
+      pdf_field_name: EPO-002[0].Page1[0].List4[0].Item4[0].ExtendTRO_cb[1]
+      type: text
+      label: Extend Tro Cb
+      required: false
+      width: full
+    - name: t137
+      pdf_field_name: EPO-002[0].Page1[0].List4[0].Item4[0].T137[0]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t138
+      pdf_field_name: EPO-002[0].Page1[0].List4[0].Item4[0].T138[0]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: field6
+      pdf_field_name: EPO-002[0].Page1[0].List6[0].Item6[0].Field6[0]
+      type: text
+      label: Field
+      required: false
+      width: full
+    - name: field7
+      pdf_field_name: EPO-002[0].Page1[0].List6[0].Item6[0].Field7[0]
+      type: text
+      label: Field
+      required: false
+      width: full
+    - name: field8
+      pdf_field_name: EPO-002[0].Page1[0].List6[0].Item6[0].Field8[0]
+      type: text
+      label: Field
+      required: false
+      width: full
+  application:
+    title: Application
+    fields:
+    - name: field10
+      pdf_field_name: EPO-002[0].Page1[0].Application[0].Item7[0].Field10[0]
+      type: text
+      label: Field
+      required: false
+      width: full
+    - name: ch1
+      pdf_field_name: EPO-002[0].Page1[0].Application[0].Item8[0].Ch1[0]
+      type: text
+      label: Ch
+      required: false
+      width: full
+    - name: ch2
+      pdf_field_name: EPO-002[0].Page1[0].Application[0].Item8[0].Ch2[0]
+      type: text
+      label: Ch
+      required: false
+      width: full
+    - name: ch3
+      pdf_field_name: EPO-002[0].Page1[0].Application[0].Item8[0].Ch3[0]
+      type: text
+      label: Ch
+      required: false
+      width: full
+    - name: ch4
+      pdf_field_name: EPO-002[0].Page1[0].Application[0].Item8[0].Ch4[0]
+      type: text
+      label: Ch
+      required: false
+      width: full
+    - name: ch5
+      pdf_field_name: EPO-002[0].Page1[0].Application[0].Item8[0].Ch5[0]
+      type: text
+      label: Ch
+      required: false
+      width: full
+    - name: ch6
+      pdf_field_name: EPO-002[0].Page1[0].Application[0].Item8[0].Ch6[0]
+      type: text
+      label: Ch
+      required: false
+      width: full
+    - name: ch7
+      pdf_field_name: EPO-002[0].Page1[0].Application[0].Item8[0].Ch7[0]
+      type: text
+      label: Ch
+      required: false
+      width: full
+    - name: ch8
+      pdf_field_name: EPO-002[0].Page1[0].Application[0].Item8[0].Ch8[0]
+      type: text
+      label: Ch
+      required: false
+      width: full
+    - name: ch9
+      pdf_field_name: EPO-002[0].Page1[0].Application[0].Item8[0].Ch9[0]
+      type: text
+      label: Ch
+      required: false
+      width: full
+    - name: ch10
+      pdf_field_name: EPO-002[0].Page1[0].Application[0].Item8[0].Ch10[0]
+      type: text
+      label: Ch
+      required: false
+      width: full
+    - name: t150
+      pdf_field_name: EPO-002[0].Page1[0].Application[0].AppDeclaration[0].T150[0]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: text_field1
+      pdf_field_name: EPO-002[0].Page1[0].Application[0].AppDeclaration[0].TextField1[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field2
+      pdf_field_name: EPO-002[0].Page1[0].Application[0].AppDeclaration[0].TextField2[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field3
+      pdf_field_name: EPO-002[0].Page1[0].Application[0].AppDeclaration[0].TextField3[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field4
+      pdf_field_name: EPO-002[0].Page1[0].Application[0].AppDeclaration[0].TextField4[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+  proof_of_service:
+    title: Proof Of Service
+    fields:
+    - name: field13
+      pdf_field_name: EPO-002[0].Page1[0].ProofOfService[0].Item9[0].Field13[0]
+      type: text
+      label: Field
+      required: false
+      width: full
+    - name: field14
+      pdf_field_name: EPO-002[0].Page1[0].ProofOfService[0].Item9[0].Field14[0]
+      type: text
+      label: Field
+      required: false
+      width: full
+    - name: text_field50
+      pdf_field_name: EPO-002[0].Page1[0].ProofOfService[0].Item9[0].TextField50[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field60
+      pdf_field_name: EPO-002[0].Page1[0].ProofOfService[0].Item9[0].TextField60[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: date4
+      pdf_field_name: EPO-002[0].Page1[0].ProofOfService[0].DeclarationPOS[0].Date4[0]
+      type: date
+      label: Date
+      required: false
+      width: half
+    - name: t165
+      pdf_field_name: EPO-002[0].Page1[0].ProofOfService[0].DeclarationPOS[0].T165[0]
+      type: text
+      label: T
+      required: false
+      width: full

@@ -1,0 +1,152 @@
+---
+form:
+  code: TR-225
+  title: TR 225 Form
+  description: ''
+  category: civil/traffic
+  pdf_filename: tr225.pdf
+  fillable: true
+  instructions: ''
+sections:
+  general:
+    title: General
+    fields:
+    - name: text
+      pdf_field_name: TEXT.0.0
+      type: text
+      label: Text
+      required: false
+      width: full
+    - name: text_2
+      pdf_field_name: TEXT.0.1
+      type: text
+      label: Text
+      required: false
+      width: full
+    - name: text_2
+      pdf_field_name: TEXT.0.2
+      type: text
+      label: Text
+      required: false
+      width: full
+    - name: text_2
+      pdf_field_name: TEXT.0.3
+      type: text
+      label: Text
+      required: false
+      width: full
+    - name: text_2
+      pdf_field_name: TEXT.0.4
+      type: text
+      label: Text
+      required: false
+      width: full
+    - name: text_2
+      pdf_field_name: TEXT.0.6
+      type: text
+      label: Text
+      required: false
+      width: full
+    - name: text_2
+      pdf_field_name: TEXT.0.5.2
+      type: text
+      label: Text
+      required: false
+      width: full
+    - name: text_2
+      pdf_field_name: TEXT.0.5.14.1.0
+      type: text
+      label: Text
+      required: false
+      width: full
+    - name: text_2
+      pdf_field_name: TEXT.0.5.14.1.1.0
+      type: text
+      label: Text
+      required: false
+      width: full
+    - name: text_2
+      pdf_field_name: TEXT.0.5.0
+      type: text
+      label: Text
+      required: false
+      width: full
+    - name: cb
+      pdf_field_name: CB.0.1.0
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: cb_2
+      pdf_field_name: CB.0.2.0
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: cb_2
+      pdf_field_name: CB.0.2.1.0
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: cb_2
+      pdf_field_name: CB.0.2.1.
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: cb_2
+      pdf_field_name: CB.0.0
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: text1
+      pdf_field_name: Text1
+      type: text
+      label: Text
+      required: false
+      width: full
+    - name: text2
+      pdf_field_name: Text2
+      type: text
+      label: Text
+      required: false
+      width: full
+    - name: text3
+      pdf_field_name: Text3
+      type: text
+      label: Text
+      required: false
+      width: full
+    - name: text4
+      pdf_field_name: Text4
+      type: text
+      label: Text
+      required: false
+      width: full
+    - name: text5
+      pdf_field_name: Text5
+      type: text
+      label: Text
+      required: false
+      width: full
+    - name: case_number
+      pdf_field_name: CaseNumber
+      type: text
+      label: Case Number
+      required: false
+      width: full
+      shared_key: case:number
+    - name: text6
+      pdf_field_name: Text6
+      type: text
+      label: Text
+      required: false
+      width: full
+    - name: text7
+      pdf_field_name: Text7
+      type: text
+      label: Text
+      required: false
+      width: full

@@ -1,0 +1,299 @@
+---
+form:
+  code: HC-003
+  title: HC 003 Form
+  description: ''
+  category: civil/habeas_corpus
+  pdf_filename: hc003.pdf
+  fillable: true
+  instructions: ''
+sections:
+  mp:
+    title: Mp
+    fields:
+    - name: print
+      pdf_field_name: HC-003[0].#pageSet[0].MP1[0].Print[0]
+      type: checkbox
+      label: Print
+      required: false
+      width: full
+    - name: save
+      pdf_field_name: HC-003[0].#pageSet[0].MP1[0].Save[0]
+      type: checkbox
+      label: Save
+      required: false
+      width: full
+    - name: reset
+      pdf_field_name: HC-003[0].#pageSet[0].MP1[0].Reset[0]
+      type: checkbox
+      label: Reset
+      required: false
+      width: full
+  p1caption:
+    title: P1caption
+    fields:
+    - name: case_number_ft
+      pdf_field_name: HC-003[0].Page1[0].p1caption[0].captionSub[0].CaseNumber[0].CaseNumber_ft[0]
+      type: text
+      label: Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+    - name: bar_no_ft
+      pdf_field_name: HC-003[0].Page1[0].p1caption[0].AttyInfo[0].BarNo_ft[0]
+      type: text
+      label: Bar No Ft
+      required: false
+      width: full
+    - name: atty_name_ft
+      pdf_field_name: HC-003[0].Page1[0].p1caption[0].AttyInfo[0].AttyName_ft[0]
+      type: text
+      label: Atty Name Ft
+      required: false
+      width: full
+    - name: atty_firm_ft
+      pdf_field_name: HC-003[0].Page1[0].p1caption[0].AttyInfo[0].AttyFirm_ft[0]
+      type: text
+      label: Atty Firm Ft
+      required: false
+      width: full
+    - name: atty_street_ft
+      pdf_field_name: HC-003[0].Page1[0].p1caption[0].AttyInfo[0].AttyStreet_ft[0]
+      type: address
+      label: Atty Street Ft
+      required: false
+      width: full
+    - name: atty_city_ft
+      pdf_field_name: HC-003[0].Page1[0].p1caption[0].AttyInfo[0].AttyCity_ft[0]
+      type: address
+      label: Atty City Ft
+      required: false
+      width: full
+    - name: atty_state_ft
+      pdf_field_name: HC-003[0].Page1[0].p1caption[0].AttyInfo[0].AttyState_ft[0]
+      type: address
+      label: Atty State Ft
+      required: false
+      width: full
+    - name: atty_zip_ft
+      pdf_field_name: HC-003[0].Page1[0].p1caption[0].AttyInfo[0].AttyZip_ft[0]
+      type: address
+      label: Atty Zip Ft
+      required: false
+      width: full
+    - name: phone_ft
+      pdf_field_name: HC-003[0].Page1[0].p1caption[0].AttyInfo[0].Phone_ft[0]
+      type: tel
+      label: Phone Ft
+      required: false
+      width: half
+    - name: fax_ft
+      pdf_field_name: HC-003[0].Page1[0].p1caption[0].AttyInfo[0].Fax_ft[0]
+      type: tel
+      label: Fax Ft
+      required: false
+      width: half
+    - name: email_ft
+      pdf_field_name: HC-003[0].Page1[0].p1caption[0].AttyInfo[0].Email_ft[0]
+      type: email
+      label: Email Ft
+      required: false
+      width: half
+    - name: atty_for_ft
+      pdf_field_name: HC-003[0].Page1[0].p1caption[0].AttyInfo[0].AttyFor_ft[0]
+      type: text
+      label: Atty For Ft
+      required: false
+      width: full
+    - name: pet_dob
+      pdf_field_name: HC-003[0].Page1[0].p1caption[0].AttyInfo[0].petDOB[0]
+      type: text
+      label: Pet Dob
+      required: false
+      width: full
+    - name: crt_county_ft
+      pdf_field_name: HC-003[0].Page1[0].p1caption[0].CourtInfo[0].CrtCounty_ft[0]
+      type: number
+      label: Crt County Ft
+      required: false
+      width: third
+    - name: street_ft
+      pdf_field_name: HC-003[0].Page1[0].p1caption[0].CourtInfo[0].Street_ft[0]
+      type: address
+      label: Street Ft
+      required: false
+      width: full
+    - name: mailing_add_ft
+      pdf_field_name: HC-003[0].Page1[0].p1caption[0].CourtInfo[0].MailingAdd_ft[0]
+      type: address
+      label: Mailing Add Ft
+      required: false
+      width: full
+    - name: city_zip_ft
+      pdf_field_name: HC-003[0].Page1[0].p1caption[0].CourtInfo[0].CityZip_ft[0]
+      type: address
+      label: City Zip Ft
+      required: false
+      width: full
+    - name: branch_ft
+      pdf_field_name: HC-003[0].Page1[0].p1caption[0].CourtInfo[0].Branch_ft[0]
+      type: text
+      label: Branch Ft
+      required: false
+      width: full
+    - name: fill_text1
+      pdf_field_name: HC-003[0].Page1[0].p1caption[0].TitlePartyName[0].FillText1[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+  list:
+    title: List
+    fields:
+    - name: treatment_fac
+      pdf_field_name: HC-003[0].Page1[0].List1[0].li1[0].treatmentFac[0]
+      type: text
+      label: Treatment Fac
+      required: false
+      width: full
+    - name: fill_text1_2
+      pdf_field_name: HC-003[0].Page1[0].List1[0].li1[0].FillText1[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: date_field1
+      pdf_field_name: HC-003[0].Page1[0].List2[0].li1[0].DateField1[0]
+      type: date
+      label: Date Field
+      required: false
+      width: half
+    - name: two
+      pdf_field_name: HC-003[0].Page1[0].List2[0].li1[0].Two[0]
+      type: text
+      label: Two
+      required: false
+      width: full
+    - name: two_2
+      pdf_field_name: HC-003[0].Page1[0].List2[0].li1[0].Two[1]
+      type: text
+      label: Two
+      required: false
+      width: full
+    - name: two_2
+      pdf_field_name: HC-003[0].Page1[0].List2[0].li1[0].Two[2]
+      type: text
+      label: Two
+      required: false
+      width: full
+    - name: two_2
+      pdf_field_name: HC-003[0].Page1[0].List2[0].li1[0].Two[3]
+      type: text
+      label: Two
+      required: false
+      width: full
+    - name: two_2
+      pdf_field_name: HC-003[0].Page1[0].List2[0].li1[0].Two[4]
+      type: text
+      label: Two
+      required: false
+      width: full
+    - name: two_2
+      pdf_field_name: HC-003[0].Page1[0].List2[0].li1[0].Two[5]
+      type: text
+      label: Two
+      required: false
+      width: full
+    - name: two_2
+      pdf_field_name: HC-003[0].Page1[0].List2[0].li1[0].Two[6]
+      type: text
+      label: Two
+      required: false
+      width: full
+    - name: fill_text37
+      pdf_field_name: HC-003[0].Page1[0].List2[0].li1[0].FillText37[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: three_a
+      pdf_field_name: HC-003[0].Page1[0].List3[0].lia[0].ThreeA[0]
+      type: text
+      label: Three A
+      required: false
+      width: full
+    - name: fill_text37_2
+      pdf_field_name: HC-003[0].Page1[0].List3[0].lia[0].FillText37[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: three_b
+      pdf_field_name: HC-003[0].Page1[0].List3[0].lib[0].ThreeB[0]
+      type: text
+      label: Three B
+      required: false
+      width: full
+    - name: fill_text38
+      pdf_field_name: HC-003[0].Page1[0].List3[0].lib[0].FillText38[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: text_field1
+      pdf_field_name: HC-003[0].Page1[0].List4[0].li1[0].TextField1[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field2
+      pdf_field_name: HC-003[0].Page1[0].List5[0].li1[0].TextField2[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: fill_text1_2
+      pdf_field_name: HC-003[0].Page1[0].List5[0].li1[0].FillText1[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: six_a
+      pdf_field_name: HC-003[0].Page1[0].List6[0].lia[0].SixA[0]
+      type: text
+      label: Six A
+      required: false
+      width: full
+    - name: six_b
+      pdf_field_name: HC-003[0].Page1[0].List6[0].lib[0].SixB[0]
+      type: text
+      label: Six B
+      required: false
+      width: full
+    - name: six_c
+      pdf_field_name: HC-003[0].Page1[0].List6[0].lic[0].SixC[0]
+      type: text
+      label: Six C
+      required: false
+      width: full
+    - name: six_d
+      pdf_field_name: HC-003[0].Page1[0].List6[0].lid[0].SixD[0]
+      type: text
+      label: Six D
+      required: false
+      width: full
+  po_p_dec:
+    title: Po P Dec
+    fields:
+    - name: sig_date
+      pdf_field_name: HC-003[0].Page1[0].PoPDec[0].sigDate[0]
+      type: date
+      label: Sig Date
+      required: false
+      width: half
+    - name: sig_name
+      pdf_field_name: HC-003[0].Page1[0].PoPDec[0].sigName[0]
+      type: text
+      label: Sig Name
+      required: false
+      width: full

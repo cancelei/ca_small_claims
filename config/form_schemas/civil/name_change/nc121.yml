@@ -1,0 +1,299 @@
+---
+form:
+  code: NC-121
+  title: NC 121 Form
+  description: ''
+  category: civil/name_change
+  pdf_filename: nc121.pdf
+  fillable: true
+  instructions: ''
+sections:
+  server_add_ft:
+    title: Server Add Ft
+    fields:
+    - name: server_add_ft
+      pdf_field_name: NC-121[0].Page1[0].ServerAdd_ft[0]
+      type: text
+      label: Server Add Ft
+      required: false
+      width: full
+  radio_button_list:
+    title: Radio Button List
+    fields:
+    - name: radio_button_list
+      pdf_field_name: NC-121[0].Page1[0].RadioButtonList[0]
+      type: text
+      label: Radio Button List
+      required: false
+      width: full
+  personal_name_person_served_ft:
+    title: Personal Name Person Served Ft
+    fields:
+    - name: personal_name_person_served_ft
+      pdf_field_name: NC-121[0].Page1[0].PersonalNamePersonServed_ft[0]
+      type: date
+      label: Personal Name Person Served Ft
+      required: false
+      width: half
+  personal_delivery_add_ft:
+    title: Personal Delivery Add Ft
+    fields:
+    - name: personal_delivery_add_ft
+      pdf_field_name: NC-121[0].Page1[0].PersonalDeliveryAdd_ft[0]
+      type: text
+      label: Personal Delivery Add Ft
+      required: false
+      width: full
+  personal_delivery_date_dt:
+    title: Personal Delivery Date Dt
+    fields:
+    - name: personal_delivery_date_dt
+      pdf_field_name: NC-121[0].Page1[0].PersonalDeliveryDate_dt[0]
+      type: date
+      label: Personal Delivery Date Dt
+      required: false
+      width: half
+  personal_delivery_time_dt:
+    title: Personal Delivery Time Dt
+    fields:
+    - name: personal_delivery_time_dt
+      pdf_field_name: NC-121[0].Page1[0].PersonalDeliveryTime_dt[0]
+      type: text
+      label: Personal Delivery Time Dt
+      required: false
+      width: full
+  mail_name_person_served_ft:
+    title: Mail Name Person Served Ft
+    fields:
+    - name: mail_name_person_served_ft
+      pdf_field_name: NC-121[0].Page1[0].MailNamePersonServed_ft[0]
+      type: date
+      label: Mail Name Person Served Ft
+      required: false
+      width: half
+  mail_address_servedft:
+    title: Mail Address Servedft
+    fields:
+    - name: mail_address_servedft
+      pdf_field_name: NC-121[0].Page1[0].MailAddressServedft[0]
+      type: date
+      label: Mail Address Servedft
+      required: false
+      width: half
+  mail_date_dt:
+    title: Mail Date Dt
+    fields:
+    - name: mail_date_dt
+      pdf_field_name: NC-121[0].Page1[0].MailDate_dt[0]
+      type: date
+      label: Mail Date Dt
+      required: false
+      width: half
+  mail_place_ft:
+    title: Mail Place Ft
+    fields:
+    - name: mail_place_ft
+      pdf_field_name: NC-121[0].Page1[0].MailPlace_ft[0]
+      type: text
+      label: Mail Place Ft
+      required: false
+      width: full
+  date_dt:
+    title: Date Dt
+    fields:
+    - name: date_dt
+      pdf_field_name: NC-121[0].Page1[0].Date_dt[0]
+      type: date
+      label: Date Dt
+      required: false
+      width: half
+  print_name_ft:
+    title: Print Name Ft
+    fields:
+    - name: print_name_ft
+      pdf_field_name: NC-121[0].Page1[0].PrintName_ft[0]
+      type: text
+      label: Print Name Ft
+      required: false
+      width: full
+  std_p1_header_sf:
+    title: Std P1 Header Sf
+    fields:
+    - name: crt_county_ft
+      pdf_field_name: NC-121[0].Page1[0].StdP1Header_sf[0].CourtInfo[0].CrtCounty_ft[0]
+      type: number
+      label: Crt County Ft
+      required: false
+      width: third
+    - name: branch_ft
+      pdf_field_name: NC-121[0].Page1[0].StdP1Header_sf[0].CourtInfo[0].Branch_ft[0]
+      type: text
+      label: Branch Ft
+      required: false
+      width: full
+    - name: city_zip_ft
+      pdf_field_name: NC-121[0].Page1[0].StdP1Header_sf[0].CourtInfo[0].CityZip_ft[0]
+      type: address
+      label: City Zip Ft
+      required: false
+      width: full
+    - name: street_ft
+      pdf_field_name: NC-121[0].Page1[0].StdP1Header_sf[0].CourtInfo[0].Street_ft[0]
+      type: address
+      label: Street Ft
+      required: false
+      width: full
+    - name: mailing_add_ft
+      pdf_field_name: NC-121[0].Page1[0].StdP1Header_sf[0].CourtInfo[0].MailingAdd_ft[0]
+      type: address
+      label: Mailing Add Ft
+      required: false
+      width: full
+    - name: text_field1
+      pdf_field_name: NC-121[0].Page1[0].StdP1Header_sf[0].TitlePartyName[0].TextField1[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: case_number_ft
+      pdf_field_name: NC-121[0].Page1[0].StdP1Header_sf[0].CaseNumber[0].CaseNumber_ft[0]
+      type: text
+      label: Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+    - name: radio_button_list_2
+      pdf_field_name: NC-121[0].Page1[0].StdP1Header_sf[0].FormTitle[0].RadioButtonList[0]
+      type: text
+      label: Radio Button List
+      required: false
+      width: full
+    - name: form_title
+      pdf_field_name: NC-121[0].Page1[0].StdP1Header_sf[0].FormTitle[0]
+      type: text
+      label: Form Title
+      required: false
+      width: full
+    - name: atty_state_ft
+      pdf_field_name: NC-121[0].Page1[0].StdP1Header_sf[0].AttyInfo[0].AttyState_ft[0]
+      type: address
+      label: Atty State Ft
+      required: false
+      width: full
+    - name: atty_zip_ft
+      pdf_field_name: NC-121[0].Page1[0].StdP1Header_sf[0].AttyInfo[0].AttyZip_ft[0]
+      type: address
+      label: Atty Zip Ft
+      required: false
+      width: full
+    - name: atty_city_ft
+      pdf_field_name: NC-121[0].Page1[0].StdP1Header_sf[0].AttyInfo[0].AttyCity_ft[0]
+      type: address
+      label: Atty City Ft
+      required: false
+      width: full
+    - name: atty_street_ft
+      pdf_field_name: NC-121[0].Page1[0].StdP1Header_sf[0].AttyInfo[0].AttyStreet_ft[0]
+      type: address
+      label: Atty Street Ft
+      required: false
+      width: full
+    - name: atty_firm_ft
+      pdf_field_name: NC-121[0].Page1[0].StdP1Header_sf[0].AttyInfo[0].AttyFirm_ft[0]
+      type: text
+      label: Atty Firm Ft
+      required: false
+      width: full
+    - name: atty_name_ft
+      pdf_field_name: NC-121[0].Page1[0].StdP1Header_sf[0].AttyInfo[0].AttyName_ft[0]
+      type: text
+      label: Atty Name Ft
+      required: false
+      width: full
+    - name: atty_bar_no_dc
+      pdf_field_name: NC-121[0].Page1[0].StdP1Header_sf[0].AttyInfo[0].AttyBarNo_dc[0]
+      type: text
+      label: Atty Bar No Dc
+      required: false
+      width: full
+    - name: phone_ft
+      pdf_field_name: NC-121[0].Page1[0].StdP1Header_sf[0].AttyInfo[0].Phone_ft[0]
+      type: tel
+      label: Phone Ft
+      required: false
+      width: half
+    - name: fax_ft
+      pdf_field_name: NC-121[0].Page1[0].StdP1Header_sf[0].AttyInfo[0].Fax_ft[0]
+      type: tel
+      label: Fax Ft
+      required: false
+      width: half
+    - name: email_ft
+      pdf_field_name: NC-121[0].Page1[0].StdP1Header_sf[0].AttyInfo[0].Email_ft[0]
+      type: email
+      label: Email Ft
+      required: false
+      width: half
+    - name: atty_for_ft
+      pdf_field_name: NC-121[0].Page1[0].StdP1Header_sf[0].AttyInfo[0].AttyFor_ft[0]
+      type: text
+      label: Atty For Ft
+      required: false
+      width: full
+  text_field:
+    title: Text Field
+    fields:
+    - name: text_field6
+      pdf_field_name: NC-121[0].Page1[0].TextField6[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: NC-121[0].Page1[0].TextField6[1]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: text_field6_2
+      pdf_field_name: NC-121[0].Page1[0].TextField6[2]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+  print_bt:
+    title: Print Bt
+    fields:
+    - name: print_bt
+      pdf_field_name: NC-121[0].Page1[0].Print_bt[0]
+      type: checkbox
+      label: Print Bt
+      required: false
+      width: full
+  save_bt:
+    title: Save Bt
+    fields:
+    - name: save_bt
+      pdf_field_name: NC-121[0].Page1[0].Save_bt[0]
+      type: checkbox
+      label: Save Bt
+      required: false
+      width: full
+  reset_bt:
+    title: Reset Bt
+    fields:
+    - name: reset_bt
+      pdf_field_name: NC-121[0].Page1[0].Reset_bt[0]
+      type: checkbox
+      label: Reset Bt
+      required: false
+      width: full
+  t:
+    title: T
+    fields:
+    - name: t23
+      pdf_field_name: NC-121[0].Page1[0].T23[0]
+      type: checkbox
+      label: T
+      required: false
+      width: full

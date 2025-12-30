@@ -1,0 +1,581 @@
+---
+form:
+  code: JV-417
+  title: JV 417 Form
+  description: ''
+  category: juvenile/general
+  pdf_filename: jv417.pdf
+  fillable: true
+  instructions: ''
+sections:
+  general:
+    title: General
+    fields:
+    - name: check_box154
+      pdf_field_name: CheckBox154
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box152
+      pdf_field_name: CheckBox152
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box151
+      pdf_field_name: CheckBox151
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box153
+      pdf_field_name: CheckBox153
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box150
+      pdf_field_name: CheckBox150
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box149
+      pdf_field_name: CheckBox149
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box148
+      pdf_field_name: CheckBox148
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box147
+      pdf_field_name: CheckBox147
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box146
+      pdf_field_name: CheckBox146
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box145
+      pdf_field_name: CheckBox145
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box144
+      pdf_field_name: CheckBox144
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box142
+      pdf_field_name: CheckBox142
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box141
+      pdf_field_name: CheckBox141
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_b141
+      pdf_field_name: CheckB141
+      type: text
+      label: Check B
+      required: false
+      width: full
+    - name: chck_bx141
+      pdf_field_name: ChckBx141
+      type: text
+      label: Chck Bx
+      required: false
+      width: full
+    - name: chck_box141
+      pdf_field_name: ChckBox141
+      type: text
+      label: Chck Box
+      required: false
+      width: full
+    - name: cck_box141
+      pdf_field_name: CckBox141
+      type: text
+      label: Cck Box
+      required: false
+      width: full
+    - name: check_bx141
+      pdf_field_name: CheckBx141
+      type: text
+      label: Check Bx
+      required: false
+      width: full
+    - name: other
+      pdf_field_name: FillText.02.other
+      type: text
+      label: Other
+      required: false
+      width: full
+    - name: fill_text
+      pdf_field_name: FillText.05.0
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text_2
+      pdf_field_name: FillText.06.0
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text_2
+      pdf_field_name: FillText.07.0
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: b
+      pdf_field_name: FillText.11.b
+      type: text
+      label: B
+      required: false
+      width: full
+    - name: c
+      pdf_field_name: FillText.11.c
+      type: text
+      label: C
+      required: false
+      width: full
+    - name: d
+      pdf_field_name: FillText.11.d
+      type: text
+      label: D
+      required: false
+      width: full
+    - name: e
+      pdf_field_name: FillText.11.e
+      type: text
+      label: E
+      required: false
+      width: full
+    - name: fill_text_2
+      pdf_field_name: FillText.12.0
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: check_box
+      pdf_field_name: CheckBox.03
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: other_2
+      pdf_field_name: CheckBox.05.other
+      type: checkbox
+      label: Other
+      required: false
+      width: full
+    - name: other_2
+      pdf_field_name: CheckBox.06.other
+      type: checkbox
+      label: Other
+      required: false
+      width: full
+    - name: other_2
+      pdf_field_name: CheckBox.07.other
+      type: checkbox
+      label: Other
+      required: false
+      width: full
+    - name: b_2
+      pdf_field_name: CheckBox.08.b
+      type: checkbox
+      label: B
+      required: false
+      width: full
+    - name: a
+      pdf_field_name: CheckBox.08.a
+      type: checkbox
+      label: A
+      required: false
+      width: full
+    - name: a_2
+      pdf_field_name: CheckBox.09.a
+      type: checkbox
+      label: A
+      required: false
+      width: full
+    - name: b_2
+      pdf_field_name: CheckBox.09.b
+      type: checkbox
+      label: B
+      required: false
+      width: full
+    - name: c_2
+      pdf_field_name: CheckBox.09.c
+      type: checkbox
+      label: C
+      required: false
+      width: full
+    - name: d_2
+      pdf_field_name: CheckBox.09.d
+      type: checkbox
+      label: D
+      required: false
+      width: full
+    - name: check_box_2
+      pdf_field_name: CheckBox.09
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: a_2
+      pdf_field_name: CheckBox.10.a
+      type: checkbox
+      label: A
+      required: false
+      width: full
+    - name: check_box_2
+      pdf_field_name: CheckBox.10.0
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: b_2
+      pdf_field_name: CheckBox.10.b
+      type: checkbox
+      label: B
+      required: false
+      width: full
+    - name: other_2
+      pdf_field_name: CheckBox.12.other
+      type: checkbox
+      label: Other
+      required: false
+      width: full
+    - name: mother_2
+      pdf_field_name: CheckBox.12.mother
+      type: checkbox
+      label: Mother
+      required: false
+      width: full
+    - name: check_box04
+      pdf_field_name: CheckBox04
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: mother_2
+      pdf_field_name: CheckBox05.mother
+      type: checkbox
+      label: Mother
+      required: false
+      width: full
+    - name: mother_2
+      pdf_field_name: CheckBox06.mother
+      type: checkbox
+      label: Mother
+      required: false
+      width: full
+    - name: mother_2
+      pdf_field_name: CheckBox07.mother
+      type: checkbox
+      label: Mother
+      required: false
+      width: full
+    - name: child_name
+      pdf_field_name: ChildName
+      type: text
+      label: Child Name
+      required: false
+      width: full
+    - name: case_number
+      pdf_field_name: CaseNumber
+      type: text
+      label: Case Number
+      required: false
+      width: full
+      shared_key: case:number
+    - name: b_2
+      pdf_field_name: CheckBox11.b
+      type: checkbox
+      label: B
+      required: false
+      width: full
+    - name: c_2
+      pdf_field_name: CheckBox11.c
+      type: checkbox
+      label: C
+      required: false
+      width: full
+    - name: d_2
+      pdf_field_name: CheckBox11.d
+      type: checkbox
+      label: D
+      required: false
+      width: full
+    - name: e_2
+      pdf_field_name: CheckBox11.e
+      type: checkbox
+      label: E
+      required: false
+      width: full
+    - name: a_2
+      pdf_field_name: CheckBox11.a
+      type: checkbox
+      label: A
+      required: false
+      width: full
+    - name: check_box11
+      pdf_field_name: CheckBox11.0
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box12
+      pdf_field_name: CheckBox12.0
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+  b:
+    title: B
+    fields:
+    - name: other_2
+      pdf_field_name: FillText.04.b.other
+      type: text
+      label: Other
+      required: false
+      width: full
+    - name: specify
+      pdf_field_name: FillText.10.b.specify
+      type: text
+      label: Specify
+      required: false
+      width: full
+    - name: child_2
+      pdf_field_name: CheckBox.04.b.child
+      type: checkbox
+      label: Child
+      required: false
+      width: full
+    - name: mother_2
+      pdf_field_name: CheckBox.04.b.mother
+      type: checkbox
+      label: Mother
+      required: false
+      width: full
+    - name: father_2
+      pdf_field_name: CheckBox.04.b.father
+      type: checkbox
+      label: Father
+      required: false
+      width: full
+    - name: representative_2
+      pdf_field_name: CheckBox.04.b.representative
+      type: checkbox
+      label: Representative
+      required: false
+      width: full
+    - name: other_2
+      pdf_field_name: CheckBox.04.b.other
+      type: checkbox
+      label: Other
+      required: false
+      width: full
+  c:
+    title: C
+    fields:
+    - name: other_2
+      pdf_field_name: FillText.04.c.other
+      type: text
+      label: Other
+      required: false
+      width: full
+    - name: child_2
+      pdf_field_name: CheckBox.04.c.child
+      type: checkbox
+      label: Child
+      required: false
+      width: full
+    - name: mother_2
+      pdf_field_name: CheckBox.04.c.mother
+      type: checkbox
+      label: Mother
+      required: false
+      width: full
+    - name: father_2
+      pdf_field_name: CheckBox.04.c.father
+      type: checkbox
+      label: Father
+      required: false
+      width: full
+    - name: representative_2
+      pdf_field_name: CheckBox.04.c.representative
+      type: checkbox
+      label: Representative
+      required: false
+      width: full
+    - name: other_2
+      pdf_field_name: CheckBox.04.c.other
+      type: checkbox
+      label: Other
+      required: false
+      width: full
+  a:
+    title: A
+    fields:
+    - name: other_2
+      pdf_field_name: FillText.04.a.other
+      type: text
+      label: Other
+      required: false
+      width: full
+    - name: child
+      pdf_field_name: CheckBox.04.a.child
+      type: checkbox
+      label: Child
+      required: false
+      width: full
+    - name: mother
+      pdf_field_name: CheckBox.04.a.mother
+      type: checkbox
+      label: Mother
+      required: false
+      width: full
+    - name: father
+      pdf_field_name: CheckBox.04.a.father
+      type: checkbox
+      label: Father
+      required: false
+      width: full
+    - name: representative
+      pdf_field_name: CheckBox.04.a.representative
+      type: checkbox
+      label: Representative
+      required: false
+      width: full
+    - name: other_2
+      pdf_field_name: CheckBox.04.a.other
+      type: checkbox
+      label: Other
+      required: false
+      width: full
+  biological:
+    title: Biological
+    fields:
+    - name: father_2
+      pdf_field_name: CheckBox.05.biological.father
+      type: checkbox
+      label: Father
+      required: false
+      width: full
+    - name: father_2
+      pdf_field_name: CheckBox.06.biological.father
+      type: checkbox
+      label: Father
+      required: false
+      width: full
+    - name: father_2
+      pdf_field_name: CheckBox.07.biological.father
+      type: checkbox
+      label: Father
+      required: false
+      width: full
+    - name: father_2
+      pdf_field_name: CheckBox.12.biological.father
+      type: checkbox
+      label: Father
+      required: false
+      width: full
+  legal:
+    title: Legal
+    fields:
+    - name: guardian
+      pdf_field_name: CheckBox.05.legal.guardian
+      type: checkbox
+      label: Guardian
+      required: false
+      width: full
+    - name: guardian_2
+      pdf_field_name: CheckBox.06.legal.guardian
+      type: checkbox
+      label: Guardian
+      required: false
+      width: full
+    - name: guardian_2
+      pdf_field_name: CheckBox.07.legal.guardian
+      type: checkbox
+      label: Guardian
+      required: false
+      width: full
+    - name: guardian_2
+      pdf_field_name: CheckBox.12.legal.guardian
+      type: checkbox
+      label: Guardian
+      required: false
+      width: full
+  presumed:
+    title: Presumed
+    fields:
+    - name: father_2
+      pdf_field_name: CheckBox.05.presumed.father
+      type: checkbox
+      label: Father
+      required: false
+      width: full
+    - name: father_2
+      pdf_field_name: CheckBox.06.presumed.father
+      type: checkbox
+      label: Father
+      required: false
+      width: full
+    - name: father_2
+      pdf_field_name: CheckBox.07.presumed.father
+      type: checkbox
+      label: Father
+      required: false
+      width: full
+    - name: father_2
+      pdf_field_name: CheckBox.12.presumed.father
+      type: checkbox
+      label: Father
+      required: false
+      width: full
+  alleged:
+    title: Alleged
+    fields:
+    - name: father_2
+      pdf_field_name: CheckBox.05.alleged.father
+      type: checkbox
+      label: Father
+      required: false
+      width: full
+    - name: father_2
+      pdf_field_name: CheckBox.06.alleged.father
+      type: checkbox
+      label: Father
+      required: false
+      width: full
+    - name: father_2
+      pdf_field_name: CheckBox.07.alleged.father
+      type: checkbox
+      label: Father
+      required: false
+      width: full
+    - name: father_2
+      pdf_field_name: CheckBox.12.alleged.father
+      type: checkbox
+      label: Father
+      required: false
+      width: full

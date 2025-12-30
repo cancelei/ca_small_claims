@@ -1,0 +1,288 @@
+---
+form:
+  code: MC-1000
+  title: MC 1000 Form
+  description: ''
+  category: civil/miscellaneous
+  pdf_filename: mc1000.pdf
+  fillable: true
+  instructions: ''
+sections:
+  t:
+    title: T
+    fields:
+    - name: t40
+      pdf_field_name: MC-1000[0].Page1[0].T40[0]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t72
+      pdf_field_name: MC-1000[0].Page1[0].T72[0]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t42
+      pdf_field_name: MC-1000[0].Page1[0].T42[0]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t59
+      pdf_field_name: MC-1000[0].Page1[0].T59[0]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t67
+      pdf_field_name: MC-1000[0].Page1[0].T67[0]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t73
+      pdf_field_name: MC-1000[0].Page1[0].T73[0]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t77
+      pdf_field_name: MC-1000[0].Page1[0].T77[0]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t78
+      pdf_field_name: MC-1000[0].Page1[0].T78[0]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t79
+      pdf_field_name: MC-1000[0].Page1[0].T79[0]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t59_2
+      pdf_field_name: MC-1000[0].Page1[0].T59[1]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t77_2
+      pdf_field_name: MC-1000[0].Page1[0].T77[1]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t78_2
+      pdf_field_name: MC-1000[0].Page1[0].T78[1]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t79_2
+      pdf_field_name: MC-1000[0].Page1[0].T79[1]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t0
+      pdf_field_name: MC-1000[0].Page1[0].T0[2]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t23
+      pdf_field_name: MC-1000[0].Page2[0].T23[5]
+      type: checkbox
+      label: T
+      required: false
+      width: full
+  right_caption_sf:
+    title: Right Caption Sf
+    fields:
+    - name: court_info_ft
+      pdf_field_name: MC-1000[0].Page1[0].RightCaption_sf[0].CourtInfo_ft[0]
+      type: text
+      label: Court Info Ft
+      required: false
+      width: full
+    - name: case_number
+      pdf_field_name: MC-1000[0].Page1[0].RightCaption_sf[0].CaseNumber[0]
+      type: text
+      label: Case Number
+      required: false
+      width: full
+      shared_key: case:number
+  parent_rel:
+    title: Parent Rel
+    fields:
+    - name: parent_rel
+      pdf_field_name: MC-1000[0].Page1[0].ParentRel[0]
+      type: currency
+      label: Parent Rel
+      required: false
+      width: third
+    - name: parent_rel_2
+      pdf_field_name: MC-1000[0].Page1[0].ParentRel[1]
+      type: currency
+      label: Parent Rel
+      required: false
+      width: third
+    - name: parent_rel_2
+      pdf_field_name: MC-1000[0].Page1[0].ParentRel[2]
+      type: currency
+      label: Parent Rel
+      required: false
+      width: third
+  deliver1_cb:
+    title: Deliver1 Cb
+    fields:
+    - name: deliver1_cb
+      pdf_field_name: MC-1000[0].Page1[0].Deliver1_cb[0]
+      type: text
+      label: Deliver1 Cb
+      required: false
+      width: full
+    - name: deliver1_cb_2
+      pdf_field_name: MC-1000[0].Page1[0].Deliver1_cb[1]
+      type: text
+      label: Deliver1 Cb
+      required: false
+      width: full
+  deliver2_cb:
+    title: Deliver2 Cb
+    fields:
+    - name: deliver2_cb
+      pdf_field_name: MC-1000[0].Page1[0].Deliver2_cb[0]
+      type: text
+      label: Deliver2 Cb
+      required: false
+      width: full
+    - name: deliver2_cb_2
+      pdf_field_name: MC-1000[0].Page1[0].Deliver2_cb[1]
+      type: text
+      label: Deliver2 Cb
+      required: false
+      width: full
+  date2_cb:
+    title: Date2 Cb
+    fields:
+    - name: date2_cb
+      pdf_field_name: MC-1000[0].Page1[0].Date2_cb[0]
+      type: date
+      label: Date2 Cb
+      required: false
+      width: half
+  decision_cb:
+    title: Decision Cb
+    fields:
+    - name: decision_cb
+      pdf_field_name: MC-1000[0].Page1[0].Decision_cb[0]
+      type: text
+      label: Decision Cb
+      required: false
+      width: full
+    - name: decision_cb_2
+      pdf_field_name: MC-1000[0].Page1[0].Decision_cb[1]
+      type: text
+      label: Decision Cb
+      required: false
+      width: full
+  date1_cb:
+    title: Date1 Cb
+    fields:
+    - name: date1_cb
+      pdf_field_name: MC-1000[0].Page1[0].Date1_cb[0]
+      type: date
+      label: Date1 Cb
+      required: false
+      width: half
+  iam_cb:
+    title: Iam Cb
+    fields:
+    - name: iam_cb
+      pdf_field_name: MC-1000[0].Page1[0].Iam_cb[0]
+      type: text
+      label: Iam Cb
+      required: false
+      width: full
+    - name: iam_cb_2
+      pdf_field_name: MC-1000[0].Page1[0].Iam_cb[1]
+      type: text
+      label: Iam Cb
+      required: false
+      width: full
+  requesting_cb:
+    title: Requesting Cb
+    fields:
+    - name: requesting_cb
+      pdf_field_name: MC-1000[0].Page2[0].Requesting_cb[0]
+      type: text
+      label: Requesting Cb
+      required: false
+      width: full
+    - name: requesting_cb_2
+      pdf_field_name: MC-1000[0].Page2[0].Requesting_cb[1]
+      type: text
+      label: Requesting Cb
+      required: false
+      width: full
+  party_signature_dt:
+    title: Party Signature Dt
+    fields:
+    - name: party_signature_dt
+      pdf_field_name: MC-1000[0].Page2[0].PartySignature_dt[0]
+      type: signature
+      label: Party Signature Dt
+      required: false
+      width: full
+  protected_full_name_ft:
+    title: Protected Full Name Ft
+    fields:
+    - name: protected_full_name_ft
+      pdf_field_name: MC-1000[0].Page2[0].ProtectedFullName_ft[0]
+      type: text
+      label: Protected Full Name Ft
+      required: false
+      width: full
+  case_number:
+    title: Case Number
+    fields:
+    - name: case_number_2
+      pdf_field_name: MC-1000[0].Page2[0].CaseNumber[0]
+      type: text
+      label: Case Number
+      required: false
+      width: full
+      shared_key: case:number
+  print_bt:
+    title: Print Bt
+    fields:
+    - name: print_bt
+      pdf_field_name: MC-1000[0].Page2[0].Print_bt[0]
+      type: checkbox
+      label: Print Bt
+      required: false
+      width: full
+  save_bt:
+    title: Save Bt
+    fields:
+    - name: save_bt
+      pdf_field_name: MC-1000[0].Page2[0].Save_bt[0]
+      type: checkbox
+      label: Save Bt
+      required: false
+      width: full
+  reset_bt:
+    title: Reset Bt
+    fields:
+    - name: reset_bt
+      pdf_field_name: MC-1000[0].Page2[0].Reset_bt[0]
+      type: checkbox
+      label: Reset Bt
+      required: false
+      width: full

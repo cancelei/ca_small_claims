@@ -1,0 +1,408 @@
+---
+form:
+  code: DE-154
+  title: DE 154 Form
+  description: ''
+  category: probate/decedent
+  pdf_filename: de154.pdf
+  fillable: true
+  instructions: ''
+sections:
+  p1_caption:
+    title: P1 Caption
+    fields:
+    - name: case_number
+      pdf_field_name: DE-154GC-035[0].Page1[0].P1Caption[0].CaseNumber[0].caseNumber[0]
+      type: text
+      label: Case Number
+      required: false
+      width: full
+      shared_key: case:number
+    - name: atty_bar_no
+      pdf_field_name: DE-154GC-035[0].Page1[0].P1Caption[0].AttyPartyInfo[0].AttyBarNo[0]
+      type: text
+      label: Atty Bar No
+      required: false
+      width: full
+    - name: name
+      pdf_field_name: DE-154GC-035[0].Page1[0].P1Caption[0].AttyPartyInfo[0].Name[0]
+      type: text
+      label: Name
+      required: false
+      width: full
+    - name: atty_firm
+      pdf_field_name: DE-154GC-035[0].Page1[0].P1Caption[0].AttyPartyInfo[0].AttyFirm[0]
+      type: text
+      label: Atty Firm
+      required: false
+      width: full
+    - name: street
+      pdf_field_name: DE-154GC-035[0].Page1[0].P1Caption[0].AttyPartyInfo[0].Street[0]
+      type: address
+      label: Street
+      required: false
+      width: full
+    - name: city
+      pdf_field_name: DE-154GC-035[0].Page1[0].P1Caption[0].AttyPartyInfo[0].City[0]
+      type: address
+      label: City
+      required: false
+      width: full
+    - name: state
+      pdf_field_name: DE-154GC-035[0].Page1[0].P1Caption[0].AttyPartyInfo[0].State[0]
+      type: address
+      label: State
+      required: false
+      width: full
+    - name: zip
+      pdf_field_name: DE-154GC-035[0].Page1[0].P1Caption[0].AttyPartyInfo[0].Zip[0]
+      type: address
+      label: Zip
+      required: false
+      width: full
+    - name: phone
+      pdf_field_name: DE-154GC-035[0].Page1[0].P1Caption[0].AttyPartyInfo[0].Phone[0]
+      type: tel
+      label: Phone
+      required: false
+      width: half
+    - name: fax
+      pdf_field_name: DE-154GC-035[0].Page1[0].P1Caption[0].AttyPartyInfo[0].Fax[0]
+      type: tel
+      label: Fax
+      required: false
+      width: half
+    - name: email
+      pdf_field_name: DE-154GC-035[0].Page1[0].P1Caption[0].AttyPartyInfo[0].Email[0]
+      type: email
+      label: Email
+      required: false
+      width: half
+    - name: atty_for
+      pdf_field_name: DE-154GC-035[0].Page1[0].P1Caption[0].AttyPartyInfo[0].AttyFor[0]
+      type: text
+      label: Atty For
+      required: false
+      width: full
+    - name: crt_county_ft
+      pdf_field_name: DE-154GC-035[0].Page1[0].P1Caption[0].CourtInfo[0].CrtCounty_ft[0]
+      type: number
+      label: Crt County Ft
+      required: false
+      width: third
+    - name: street_ft
+      pdf_field_name: DE-154GC-035[0].Page1[0].P1Caption[0].CourtInfo[0].Street_ft[0]
+      type: address
+      label: Street Ft
+      required: false
+      width: full
+    - name: mailing_add_ft
+      pdf_field_name: DE-154GC-035[0].Page1[0].P1Caption[0].CourtInfo[0].MailingAdd_ft[0]
+      type: address
+      label: Mailing Add Ft
+      required: false
+      width: full
+    - name: city_zip_ft
+      pdf_field_name: DE-154GC-035[0].Page1[0].P1Caption[0].CourtInfo[0].CityZip_ft[0]
+      type: address
+      label: City Zip Ft
+      required: false
+      width: full
+    - name: branch_ft
+      pdf_field_name: DE-154GC-035[0].Page1[0].P1Caption[0].CourtInfo[0].Branch_ft[0]
+      type: text
+      label: Branch Ft
+      required: false
+      width: full
+    - name: party1
+      pdf_field_name: DE-154GC-035[0].Page1[0].P1Caption[0].TitlePartyName[0].Party1[0]
+      type: text
+      label: Party
+      required: false
+      width: full
+    - name: dcwt
+      pdf_field_name: DE-154GC-035[0].Page1[0].P1Caption[0].TitlePartyName[0].Decedent[0].DCWT[0]
+      type: text
+      label: Dcwt
+      required: false
+      width: full
+    - name: dcwt_2
+      pdf_field_name: DE-154GC-035[0].Page1[0].P1Caption[0].TitlePartyName[0].Conservatee[0].DCWT[0]
+      type: text
+      label: Dcwt
+      required: false
+      width: full
+    - name: dcwt_2
+      pdf_field_name: DE-154GC-035[0].Page1[0].P1Caption[0].TitlePartyName[0].Ward[0].DCWT[0]
+      type: text
+      label: Dcwt
+      required: false
+      width: full
+    - name: dcwt_2
+      pdf_field_name: DE-154GC-035[0].Page1[0].P1Caption[0].TitlePartyName[0].Trust[0].DCWT[0]
+      type: text
+      label: Dcwt
+      required: false
+      width: full
+  item:
+    title: Item
+    fields:
+    - name: ip_atty
+      pdf_field_name: DE-154GC-035[0].Page1[0].Item1[0].Item1a[0].IPAtty[0]
+      type: text
+      label: Ip Atty
+      required: false
+      width: full
+    - name: ip_atty_2
+      pdf_field_name: DE-154GC-035[0].Page1[0].Item1[0].Item1b[0].IPAtty[0]
+      type: text
+      label: Ip Atty
+      required: false
+      width: full
+    - name: field1b
+      pdf_field_name: DE-154GC-035[0].Page1[0].Item1[0].Item1b[0].Field1b[0]
+      type: text
+      label: Field1b
+      required: false
+      width: full
+    - name: all_matters
+      pdf_field_name: DE-154GC-035[0].Page1[0].Item2[0].Item2a[0].AllMatters[0]
+      type: text
+      label: All Matters
+      required: false
+      width: full
+    - name: inventories
+      pdf_field_name: DE-154GC-035[0].Page1[0].Item2[0].Item2b[0].Inventories[0]
+      type: text
+      label: Inventories
+      required: false
+      width: full
+    - name: accounts
+      pdf_field_name: DE-154GC-035[0].Page1[0].Item2[0].Item2c[0].Accounts[0]
+      type: number
+      label: Accounts
+      required: false
+      width: third
+    - name: reports
+      pdf_field_name: DE-154GC-035[0].Page1[0].Item2[0].Item2d[0].Reports[0]
+      type: text
+      label: Reports
+      required: false
+      width: full
+    - name: objections
+      pdf_field_name: DE-154GC-035[0].Page1[0].Item2[0].Item2e[0].Objections[0]
+      type: text
+      label: Objections
+      required: false
+      width: full
+    - name: sales
+      pdf_field_name: DE-154GC-035[0].Page1[0].Item2[0].Item2f[0].Sales[0]
+      type: text
+      label: Sales
+      required: false
+      width: full
+    - name: spp
+      pdf_field_name: DE-154GC-035[0].Page1[0].Item2[0].Item2g[0].SPP[0]
+      type: text
+      label: Spp
+      required: false
+      width: full
+    - name: ch9
+      pdf_field_name: DE-154GC-035[0].Page1[0].Item2[0].Item2h[0].Ch9[0]
+      type: text
+      label: Ch
+      required: false
+      width: full
+    - name: other_pet
+      pdf_field_name: DE-154GC-035[0].Page1[0].Item2[0].Item2h[0].List[0].Item2h1[0].OtherPet[0]
+      type: text
+      label: Other Pet
+      required: false
+      width: full
+    - name: other_pet_2
+      pdf_field_name: DE-154GC-035[0].Page1[0].Item2[0].Item2h[0].List[0].Item2h2[0].OtherPet[0]
+      type: text
+      label: Other Pet
+      required: false
+      width: full
+    - name: field2h2
+      pdf_field_name: DE-154GC-035[0].Page1[0].Item2[0].Item2h[0].List[0].Item2h2[0].Field2h2[0]
+      type: text
+      label: Field2h
+      required: false
+      width: full
+    - name: other_matters
+      pdf_field_name: DE-154GC-035[0].Page1[0].Item2[0].Item2i[0].OtherMatters[0]
+      type: text
+      label: Other Matters
+      required: false
+      width: full
+    - name: field2i
+      pdf_field_name: DE-154GC-035[0].Page1[0].Item2[0].Item2i[0].Field2i[0]
+      type: text
+      label: Field2i
+      required: false
+      width: full
+    - name: eor_mail
+      pdf_field_name: DE-154GC-035[0].Page1[0].Item3[0].EorMail[0]
+      type: text
+      label: Eor Mail
+      required: false
+      width: full
+    - name: eor_mail_2
+      pdf_field_name: DE-154GC-035[0].Page1[0].Item3[0].EorMail[1]
+      type: text
+      label: Eor Mail
+      required: false
+      width: full
+    - name: address1
+      pdf_field_name: DE-154GC-035[0].Page1[0].Item3[0].Item3a[0].Address1[0]
+      type: address
+      label: Address
+      required: false
+      width: full
+    - name: field3a
+      pdf_field_name: DE-154GC-035[0].Page1[0].Item3[0].Item3a[0].Field3a[0]
+      type: text
+      label: Field3a
+      required: false
+      width: full
+    - name: address2
+      pdf_field_name: DE-154GC-035[0].Page1[0].Item3[0].Item3b[0].Address2[0]
+      type: address
+      label: Address
+      required: false
+      width: full
+    - name: field3b
+      pdf_field_name: DE-154GC-035[0].Page1[0].Item3[0].Item3b[0].Field3b[0]
+      type: text
+      label: Field3b
+      required: false
+      width: full
+    - name: dep_place
+      pdf_field_name: DE-154GC-035[0].Page2[0].Item3[0].Deposit[0].DepPlace[0]
+      type: text
+      label: Dep Place
+      required: false
+      width: full
+    - name: dep_place_2
+      pdf_field_name: DE-154GC-035[0].Page2[0].Item3[0].Place[0].DepPlace[0]
+      type: text
+      label: Dep Place
+      required: false
+      width: full
+    - name: dep_date
+      pdf_field_name: DE-154GC-035[0].Page2[0].Item4[0].Date[0].DepDate[0]
+      type: date
+      label: Dep Date
+      required: false
+      width: half
+    - name: dep_place_2
+      pdf_field_name: DE-154GC-035[0].Page2[0].Item4[0].Place[0].DepPlace[0]
+      type: text
+      label: Dep Place
+      required: false
+      width: full
+  signature_block:
+    title: Signature Block
+    fields:
+    - name: sig_date1
+      pdf_field_name: DE-154GC-035[0].Page1[0].SignatureBlock[0].SigDate1[0]
+      type: signature
+      label: Sig Date
+      required: false
+      width: full
+    - name: sig_name
+      pdf_field_name: DE-154GC-035[0].Page1[0].SignatureBlock[0].SigName[0]
+      type: signature
+      label: Sig Name
+      required: false
+      width: full
+    - name: attorney
+      pdf_field_name: DE-154GC-035[0].Page1[0].SignatureBlock[0].Attorney[0]
+      type: signature
+      label: Attorney
+      required: false
+      width: full
+    - name: name2
+      pdf_field_name: DE-154GC-035[0].Page1[0].SignatureBlock[0].name2[0]
+      type: signature
+      label: Name
+      required: false
+      width: full
+  mp_last:
+    title: Mp Last
+    fields:
+    - name: print
+      pdf_field_name: DE-154GC-035[0].#pageSet[0].MPLast[0].#area[0].Print[0]
+      type: checkbox
+      label: Print
+      required: false
+      width: full
+    - name: save
+      pdf_field_name: DE-154GC-035[0].#pageSet[0].MPLast[0].#area[0].Save[0]
+      type: checkbox
+      label: Save
+      required: false
+      width: full
+    - name: reset
+      pdf_field_name: DE-154GC-035[0].#pageSet[0].MPLast[0].#area[0].Reset[0]
+      type: checkbox
+      label: Reset
+      required: false
+      width: full
+  px_caption:
+    title: Px Caption
+    fields:
+    - name: party1_2
+      pdf_field_name: DE-154GC-035[0].Page2[0].PxCaption[0].TitlePartyName[0].Party1[0]
+      type: text
+      label: Party
+      required: false
+      width: full
+    - name: case_number_2
+      pdf_field_name: DE-154GC-035[0].Page2[0].PxCaption[0].CaseNumber[0].caseNumber[0]
+      type: text
+      label: Case Number
+      required: false
+      width: full
+      shared_key: case:number
+  list:
+    title: List
+    fields:
+    - name: field2
+      pdf_field_name: DE-154GC-035[0].Page2[0].List2[0].Item2[0].Field2[0]
+      type: text
+      label: Field
+      required: false
+      width: full
+  po_p_dec:
+    title: Po P Dec
+    fields:
+    - name: dec_date
+      pdf_field_name: DE-154GC-035[0].Page2[0].PoPDec[0].DecDate[0]
+      type: date
+      label: Dec Date
+      required: false
+      width: half
+    - name: dec_name
+      pdf_field_name: DE-154GC-035[0].Page2[0].PoPDec[0].DecName[0]
+      type: text
+      label: Dec Name
+      required: false
+      width: full
+  names_addresses:
+    title: Names Addresses
+    fields:
+    - name: name_add_field
+      pdf_field_name: DE-154GC-035[0].Page2[0].NamesAddresses[0].NameAddField[0]
+      type: address
+      label: Name Add Field
+      required: false
+      width: full
+    - name: cont_att
+      pdf_field_name: DE-154GC-035[0].Page2[0].NamesAddresses[0].ContAtt[0]
+      type: address
+      label: Cont Att
+      required: false
+      width: full

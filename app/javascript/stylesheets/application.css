@@ -1,0 +1,326 @@
+/* ============================================
+   Tailwind CSS Imports
+   ============================================ */
+@import "tailwindcss";
+@plugin "daisyui";
+
+/* Import theme variables */
+@import "./theme.css";
+
+/* ============================================
+   Wizard Card 3D Flip Animations
+   ============================================ */
+
+/* Perspective container for 3D effects */
+.perspective-1000 {
+  perspective: 1000px;
+}
+
+/* 3D transform styles */
+.transform-style-3d {
+  transform-style: preserve-3d;
+}
+
+/* Base wizard card styles */
+.wizard-card {
+  transform-style: preserve-3d;
+  backface-visibility: hidden;
+}
+
+.wizard-card-active {
+  animation: wizardCardEnter 0.4s ease-out forwards;
+}
+
+/* Wizard cards container */
+.wizard-cards-container {
+  min-height: 350px;
+  position: relative;
+}
+
+/* Card flip exit animation - going to next (flip left) */
+.wizard-flip-exit.wizard-flip-next {
+  animation: flipExitNext 0.5s ease-in-out forwards;
+}
+
+/* Card flip enter animation - coming from previous (flip from right) */
+.wizard-flip-enter.wizard-flip-next {
+  animation: flipEnterNext 0.5s ease-in-out forwards;
+}
+
+/* Card flip exit animation - going to previous (flip right) */
+.wizard-flip-exit.wizard-flip-prev {
+  animation: flipExitPrev 0.5s ease-in-out forwards;
+}
+
+/* Card flip enter animation - coming from next (flip from left) */
+.wizard-flip-enter.wizard-flip-prev {
+  animation: flipEnterPrev 0.5s ease-in-out forwards;
+}
+
+/* Keyframe animations */
+@keyframes wizardCardEnter {
+  from {
+    opacity: 0;
+    transform: translateY(20px) scale(0.98);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+@keyframes flipExitNext {
+  0% {
+    transform: rotateY(0deg) scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: rotateY(-90deg) scale(0.95);
+    opacity: 0.5;
+  }
+  100% {
+    transform: rotateY(-180deg) scale(0.9);
+    opacity: 0;
+  }
+}
+
+@keyframes flipEnterNext {
+  0% {
+    transform: rotateY(180deg) scale(0.9);
+    opacity: 0;
+  }
+  50% {
+    transform: rotateY(90deg) scale(0.95);
+    opacity: 0.5;
+  }
+  100% {
+    transform: rotateY(0deg) scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes flipExitPrev {
+  0% {
+    transform: rotateY(0deg) scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: rotateY(90deg) scale(0.95);
+    opacity: 0.5;
+  }
+  100% {
+    transform: rotateY(180deg) scale(0.9);
+    opacity: 0;
+  }
+}
+
+@keyframes flipEnterPrev {
+  0% {
+    transform: rotateY(-180deg) scale(0.9);
+    opacity: 0;
+  }
+  50% {
+    transform: rotateY(-90deg) scale(0.95);
+    opacity: 0.5;
+  }
+  100% {
+    transform: rotateY(0deg) scale(1);
+    opacity: 1;
+  }
+}
+
+/* Wizard card styling enhancements */
+.wizard-card .card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.wizard-card .card:hover {
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+}
+
+/* Enhanced focus states in wizard mode */
+.wizard-card input:focus,
+.wizard-card select:focus,
+.wizard-card textarea:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.3);
+}
+
+/* Progress bar animation */
+.wizard-progress-bar {
+  transition: width 0.3s ease-out;
+}
+
+/* Navigation dot active state */
+.wizard-nav-dot-active {
+  background-color: rgb(var(--primary, 37 99 235));
+  transform: scale(1.2);
+}
+
+/* ============================================
+   PDF Preview Panel Styles
+   ============================================ */
+
+/* Preview loading pulse */
+.preview-loading-pulse {
+  animation: previewPulse 1.5s ease-in-out infinite;
+}
+
+@keyframes previewPulse {
+  0%, 100% {
+    opacity: 0.5;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+/* Preview iframe container */
+.preview-iframe-container {
+  background: repeating-linear-gradient(
+    45deg,
+    transparent,
+    transparent 10px,
+    rgba(0, 0, 0, 0.02) 10px,
+    rgba(0, 0, 0, 0.02) 20px
+  );
+}
+
+/* ============================================
+   Mobile Optimizations
+   ============================================ */
+
+@media (max-width: 1023px) {
+  .wizard-cards-container {
+    min-height: 280px;
+  }
+
+  /* Faster animations for mobile performance */
+  .wizard-flip-exit,
+  .wizard-flip-enter {
+    animation-duration: 0.35s;
+  }
+
+  /* Simpler animations for mobile */
+  .wizard-flip-exit.wizard-flip-next,
+  .wizard-flip-exit.wizard-flip-prev {
+    animation: mobileFlipExit 0.35s ease-out forwards;
+  }
+
+  .wizard-flip-enter.wizard-flip-next,
+  .wizard-flip-enter.wizard-flip-prev {
+    animation: mobileFlipEnter 0.35s ease-out forwards;
+  }
+
+  @keyframes mobileFlipExit {
+    from {
+      opacity: 1;
+      transform: translateX(0) scale(1);
+    }
+    to {
+      opacity: 0;
+      transform: translateX(-50px) scale(0.95);
+    }
+  }
+
+  @keyframes mobileFlipEnter {
+    from {
+      opacity: 0;
+      transform: translateX(50px) scale(0.95);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0) scale(1);
+    }
+  }
+}
+
+/* ============================================
+   Reduced Motion Preferences
+   ============================================ */
+
+@media (prefers-reduced-motion: reduce) {
+  .wizard-card,
+  .wizard-flip-exit,
+  .wizard-flip-enter,
+  .wizard-card-active {
+    animation: none !important;
+    transition: opacity 0.15s ease !important;
+  }
+
+  .wizard-flip-exit {
+    opacity: 0;
+  }
+
+  .wizard-flip-enter {
+    opacity: 1;
+  }
+
+  /* Keep progress bar transition */
+  .wizard-progress-bar {
+    transition: width 0.15s ease;
+  }
+}
+
+/* ============================================
+   View Toggle Transitions
+   ============================================ */
+
+#wizard-container,
+#traditional-container {
+  transition: opacity 0.2s ease-out;
+}
+
+#wizard-container.hidden,
+#traditional-container.hidden {
+  opacity: 0;
+  pointer-events: none;
+  height: 0;
+  overflow: hidden;
+}
+
+/* ============================================
+   Form Field Enhancements for Wizard
+   ============================================ */
+
+/* Larger inputs in wizard mode for better UX */
+.wizard-card .input,
+.wizard-card .select,
+.wizard-card .textarea {
+  font-size: 1.125rem;
+  padding: 0.875rem 1rem;
+}
+
+/* Error state for required fields */
+.wizard-card .input-error {
+  border-color: rgb(var(--error, 239 68 68));
+  animation: shake 0.4s ease-in-out;
+}
+
+@keyframes shake {
+  0%, 100% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-5px);
+  }
+  50% {
+    transform: translateX(5px);
+  }
+  75% {
+    transform: translateX(-5px);
+  }
+}
+
+/* ============================================
+   Keyboard Navigation Indicators
+   ============================================ */
+
+.kbd {
+  background-color: rgb(var(--base-200, 249 250 251));
+  border: 1px solid rgb(var(--base-300, 229 231 235));
+  border-radius: 0.25rem;
+  padding: 0.125rem 0.375rem;
+  font-size: 0.75rem;
+  font-family: var(--font-mono);
+}

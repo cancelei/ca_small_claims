@@ -1,0 +1,233 @@
+---
+form:
+  code: JV-134
+  title: JV 134 Form
+  description: ''
+  category: juvenile/general
+  pdf_filename: jv134.pdf
+  fillable: true
+  instructions: ''
+sections:
+  general:
+    title: General
+    fields:
+    - name: atty1
+      pdf_field_name: Atty1
+      type: text
+      label: Atty
+      required: false
+      width: full
+    - name: atty2
+      pdf_field_name: Atty2
+      type: text
+      label: Atty
+      required: false
+      width: full
+    - name: atty3
+      pdf_field_name: Atty3
+      type: text
+      label: Atty
+      required: false
+      width: full
+    - name: atty4
+      pdf_field_name: Atty4
+      type: text
+      label: Atty
+      required: false
+      width: full
+    - name: tel
+      pdf_field_name: Tel
+      type: tel
+      label: Tel
+      required: false
+      width: half
+    - name: fax
+      pdf_field_name: Fax
+      type: tel
+      label: Fax
+      required: false
+      width: half
+    - name: email
+      pdf_field_name: email
+      type: email
+      label: Email
+      required: false
+      width: half
+    - name: for
+      pdf_field_name: Attorney.for
+      type: text
+      label: For
+      required: false
+      width: full
+    - name: county
+      pdf_field_name: Court.County
+      type: number
+      label: County
+      required: false
+      width: third
+    - name: street
+      pdf_field_name: Court.street
+      type: address
+      label: Street
+      required: false
+      width: full
+    - name: mailing
+      pdf_field_name: Court.mailing
+      type: address
+      label: Mailing
+      required: false
+      width: full
+    - name: branch
+      pdf_field_name: Court.branch
+      type: text
+      label: Branch
+      required: false
+      width: full
+    - name: childrens_names
+      pdf_field_name: ChildrensNames
+      type: text
+      label: Childrens Names
+      required: false
+      width: full
+    - name: case_number
+      pdf_field_name: CaseNumber
+      type: text
+      label: Case Number
+      required: false
+      width: full
+      shared_key: case:number
+    - name: tf0name
+      pdf_field_name: TF0Name
+      type: text
+      label: Tf0 Name
+      required: false
+      width: full
+    - name: tf2ount
+      pdf_field_name: TF2ount
+      type: text
+      label: Tf2ount
+      required: false
+      width: full
+    - name: cb2
+      pdf_field_name: CB2
+      type: checkbox
+      label: Cb
+      required: false
+      width: full
+    - name: cb1
+      pdf_field_name: CB1
+      type: checkbox
+      label: Cb
+      required: false
+      width: full
+    - name: tf1mount
+      pdf_field_name: TF1mount
+      type: text
+      label: Tf1mount
+      required: false
+      width: full
+    - name: tf3amount
+      pdf_field_name: TF3Amount
+      type: currency
+      label: Tf3 Amount
+      required: false
+      width: third
+    - name: tf3day
+      pdf_field_name: TF3Day
+      type: text
+      label: Tf3 Day
+      required: false
+      width: full
+    - name: tf3start_date
+      pdf_field_name: TF3StartDate
+      type: date
+      label: Tf3 Start Date
+      required: false
+      width: half
+    - name: cb3a
+      pdf_field_name: CB3a
+      type: checkbox
+      label: Cb3a
+      required: false
+      width: full
+    - name: cb3b
+      pdf_field_name: CB3b
+      type: checkbox
+      label: Cb3b
+      required: false
+      width: full
+    - name: cb4
+      pdf_field_name: CB4
+      type: checkbox
+      label: Cb
+      required: false
+      width: full
+    - name: cb3
+      pdf_field_name: CB3
+      type: checkbox
+      label: Cb
+      required: false
+      width: full
+    - name: tf4a_time
+      pdf_field_name: TF4aTime
+      type: text
+      label: Tf4a Time
+      required: false
+      width: full
+    - name: tf4a_dept
+      pdf_field_name: TF4aDept
+      type: text
+      label: Tf4a Dept
+      required: false
+      width: full
+    - name: cb4b
+      pdf_field_name: CB4B
+      type: checkbox
+      label: Cb4 B
+      required: false
+      width: full
+    - name: cb4a
+      pdf_field_name: CB4a
+      type: checkbox
+      label: Cb4a
+      required: false
+      width: full
+    - name: cb4c
+      pdf_field_name: CB4C
+      type: checkbox
+      label: Cb4 C
+      required: false
+      width: full
+    - name: tf4a_date
+      pdf_field_name: TF4aDate
+      type: date
+      label: Tf4a Date
+      required: false
+      width: half
+    - name: cb4a_address
+      pdf_field_name: CB4aAddress
+      type: address
+      label: Cb4a Address
+      required: false
+      width: full
+    - name: tf4a_address
+      pdf_field_name: TF4aAddress
+      type: address
+      label: Tf4a Address
+      required: false
+      width: full
+    - name: date
+      pdf_field_name: Date
+      type: date
+      label: Date
+      required: false
+      width: half
+  city:
+    title: City
+    fields:
+    - name: zip
+      pdf_field_name: Court.City.zip
+      type: address
+      label: Zip
+      required: false
+      width: full

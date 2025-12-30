@@ -1,0 +1,1927 @@
+---
+form:
+  code: JV-674
+  title: JV 674 Form
+  description: ''
+  category: juvenile/general
+  pdf_filename: jv674.pdf
+  fillable: true
+  instructions: ''
+sections:
+  p1_footer_sf:
+    title: P1 Footer Sf
+    fields:
+    - name: court_link
+      pdf_field_name: JV-674[0].Page1[0].P1Footer_sf[0].CourtLink[0]
+      type: checkbox
+      label: Court Link
+      required: false
+      width: full
+  headingpg:
+    title: Headingpg
+    fields:
+    - name: party_ft
+      pdf_field_name: JV-674[0].Page1[0].Headingpg1[0].Party_ft[0]
+      type: text
+      label: Party Ft
+      required: false
+      width: full
+    - name: case_number_ft
+      pdf_field_name: JV-674[0].Page1[0].Headingpg1[0].CaseNumber_ft[0]
+      type: text
+      label: Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+  month12or:
+    title: Month12or
+    fields:
+    - name: fao1218mnth
+      pdf_field_name: JV-674[0].Page1[0].month12or18[0].FAO1218mnth[0]
+      type: text
+      label: Fao1218mnth
+      required: false
+      width: full
+    - name: fao1218mnth_2
+      pdf_field_name: JV-674[0].Page1[0].month12or18[0].FAO1218mnth[1]
+      type: text
+      label: Fao1218mnth
+      required: false
+      width: full
+  item:
+    title: Item
+    fields:
+    - name: reportofproboff
+      pdf_field_name: JV-674[0].Page1[0].Item1[0].reportofproboff[0]
+      type: text
+      label: Reportofproboff
+      required: false
+      width: full
+    - name: date_field1
+      pdf_field_name: JV-674[0].Page1[0].Item1[0].DateField1[0]
+      type: date
+      label: Date Field
+      required: false
+      width: half
+    - name: cbother1b
+      pdf_field_name: JV-674[0].Page1[0].Item1[0].cbother1b[0]
+      type: text
+      label: Cbother1b
+      required: false
+      width: full
+    - name: specify1b
+      pdf_field_name: JV-674[0].Page1[0].Item1[0].specify1b[0]
+      type: text
+      label: Specify1b
+      required: false
+      width: full
+    - name: check_box1
+      pdf_field_name: JV-674[0].Page1[0].Item2[0].CheckBox1[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box19
+      pdf_field_name: JV-674[0].Page1[0].Item2[0].CheckBox19[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box3a
+      pdf_field_name: JV-674[0].Page1[0].Item3[0].CheckBox3a[0]
+      type: checkbox
+      label: Check Box3a
+      required: false
+      width: full
+    - name: rb_choice3a
+      pdf_field_name: JV-674[0].Page1[0].Item3[0].RBChoice3a[0]
+      type: text
+      label: Rb Choice3a
+      required: false
+      width: full
+    - name: rb_choice3a_2
+      pdf_field_name: JV-674[0].Page1[0].Item3[0].RBChoice3a[1]
+      type: text
+      label: Rb Choice3a
+      required: false
+      width: full
+    - name: check_box19_2
+      pdf_field_name: JV-674[0].Page1[0].Item3[0].CheckBox19[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box19_2
+      pdf_field_name: JV-674[0].Page1[0].Item4[0].CheckBox19[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box19_2
+      pdf_field_name: JV-674[0].Page1[0].Item5[0].CheckBox19[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box1_2
+      pdf_field_name: JV-674[0].Page1[0].Item6[0].CheckBox1[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: placement7
+      pdf_field_name: JV-674[0].Page1[0].Item7[0].placement7[0]
+      type: text
+      label: Placement
+      required: false
+      width: full
+    - name: placement7_2
+      pdf_field_name: JV-674[0].Page1[0].Item7[0].placement7[1]
+      type: text
+      label: Placement
+      required: false
+      width: full
+    - name: item8
+      pdf_field_name: JV-674[0].Page1[0].Item8[0].item8[0]
+      type: text
+      label: Item
+      required: false
+      width: full
+    - name: item19_cb
+      pdf_field_name: JV-674[0].Page1[0].Item9[0].item19_cb[0]
+      type: text
+      label: Item19 Cb
+      required: false
+      width: full
+    - name: waswasnot
+      pdf_field_name: JV-674[0].Page1[0].Item9[0].waswasnot[0]
+      type: text
+      label: Waswasnot
+      required: false
+      width: full
+    - name: waswasnot_2
+      pdf_field_name: JV-674[0].Page1[0].Item9[0].waswasnot[1]
+      type: text
+      label: Waswasnot
+      required: false
+      width: full
+    - name: hashasnot
+      pdf_field_name: JV-674[0].Page1[0].Item9[0].hashasnot[0]
+      type: text
+      label: Hashasnot
+      required: false
+      width: full
+    - name: hashasnot_2
+      pdf_field_name: JV-674[0].Page1[0].Item9[0].hashasnot[1]
+      type: text
+      label: Hashasnot
+      required: false
+      width: full
+    - name: item19_cb_2
+      pdf_field_name: JV-674[0].Page1[0].Item10[0].item19_cb[0]
+      type: text
+      label: Item19 Cb
+      required: false
+      width: full
+    - name: waswasnot2
+      pdf_field_name: JV-674[0].Page1[0].Item10[0].waswasnot2[0]
+      type: text
+      label: Waswasnot
+      required: false
+      width: full
+    - name: waswasnot2_2
+      pdf_field_name: JV-674[0].Page1[0].Item10[0].waswasnot2[1]
+      type: text
+      label: Waswasnot
+      required: false
+      width: full
+    - name: check_box1_2
+      pdf_field_name: JV-674[0].Page1[0].Item11[0].CheckBox1[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: placedoutside11
+      pdf_field_name: JV-674[0].Page1[0].Item11[0].placedoutside11[0]
+      type: text
+      label: Placedoutside
+      required: false
+      width: full
+    - name: placedoutside11_2
+      pdf_field_name: JV-674[0].Page1[0].Item11[0].placedoutside11[1]
+      type: text
+      label: Placedoutside
+      required: false
+      width: full
+    - name: probationoff12cb
+      pdf_field_name: JV-674[0].Page1[0].Item12[0].probationoff12cb[0]
+      type: text
+      label: Probationoff12cb
+      required: false
+      width: full
+    - name: rb_choice10
+      pdf_field_name: JV-674[0].Page1[0].Item12[0].RBChoice10[0]
+      type: text
+      label: Rb Choice
+      required: false
+      width: full
+    - name: rb_choice10_2
+      pdf_field_name: JV-674[0].Page1[0].Item12[0].RBChoice10[1]
+      type: text
+      label: Rb Choice
+      required: false
+      width: full
+    - name: check_box12b
+      pdf_field_name: JV-674[0].Page1[0].Item12[0].CheckBox12b[0]
+      type: checkbox
+      label: Check Box12b
+      required: false
+      width: full
+    - name: rb_choice10a
+      pdf_field_name: JV-674[0].Page1[0].Item12[0].RBChoice10a[0]
+      type: text
+      label: Rb Choice10a
+      required: false
+      width: full
+    - name: rb_choice10a_2
+      pdf_field_name: JV-674[0].Page1[0].Item12[0].RBChoice10a[1]
+      type: text
+      label: Rb Choice10a
+      required: false
+      width: full
+    - name: other_specify_tf12
+      pdf_field_name: JV-674[0].Page1[0].Item12[0].OtherSpecify_tf12[0]
+      type: text
+      label: Other Specify Tf
+      required: false
+      width: full
+    - name: activeefforts1314
+      pdf_field_name: JV-674[0].Page2[0].item13[0].activeefforts1314[0]
+      type: text
+      label: Activeefforts
+      required: false
+      width: full
+    - name: rb_choice11
+      pdf_field_name: JV-674[0].Page2[0].item13[0].RBChoice11[0]
+      type: text
+      label: Rb Choice
+      required: false
+      width: full
+    - name: rb_choice11_2
+      pdf_field_name: JV-674[0].Page2[0].item13[0].RBChoice11[1]
+      type: text
+      label: Rb Choice
+      required: false
+      width: full
+    - name: activeefforts1314_2
+      pdf_field_name: JV-674[0].Page2[0].Item14[0].activeefforts1314[0]
+      type: text
+      label: Activeefforts
+      required: false
+      width: full
+    - name: check_box19_2
+      pdf_field_name: JV-674[0].Page2[0].Item15[0].CheckBox19[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: child15a
+      pdf_field_name: JV-674[0].Page2[0].Item15[0].child15a[0]
+      type: text
+      label: Child15a
+      required: false
+      width: full
+    - name: checkbox13a
+      pdf_field_name: JV-674[0].Page2[0].Item15[0].Checkbox13a[0]
+      type: checkbox
+      label: Checkbox13a
+      required: false
+      width: full
+    - name: checkbox13a_2
+      pdf_field_name: JV-674[0].Page2[0].Item15[0].Checkbox13a[1]
+      type: checkbox
+      label: Checkbox13a
+      required: false
+      width: full
+    - name: checkbox13a_2
+      pdf_field_name: JV-674[0].Page2[0].Item15[0].Checkbox13a[2]
+      type: checkbox
+      label: Checkbox13a
+      required: false
+      width: full
+    - name: checkbox13a_2
+      pdf_field_name: JV-674[0].Page2[0].Item15[0].Checkbox13a[3]
+      type: checkbox
+      label: Checkbox13a
+      required: false
+      width: full
+    - name: checkbox13a_2
+      pdf_field_name: JV-674[0].Page2[0].Item15[0].Checkbox13a[4]
+      type: checkbox
+      label: Checkbox13a
+      required: false
+      width: full
+    - name: mother15b
+      pdf_field_name: JV-674[0].Page2[0].Item15[0].mother15b[0]
+      type: text
+      label: Mother15b
+      required: false
+      width: full
+    - name: checkbox13b
+      pdf_field_name: JV-674[0].Page2[0].Item15[0].Checkbox13b[0]
+      type: checkbox
+      label: Checkbox13b
+      required: false
+      width: full
+    - name: checkbox13b_2
+      pdf_field_name: JV-674[0].Page2[0].Item15[0].Checkbox13b[1]
+      type: checkbox
+      label: Checkbox13b
+      required: false
+      width: full
+    - name: checkbox13b_2
+      pdf_field_name: JV-674[0].Page2[0].Item15[0].Checkbox13b[2]
+      type: checkbox
+      label: Checkbox13b
+      required: false
+      width: full
+    - name: checkbox13b_2
+      pdf_field_name: JV-674[0].Page2[0].Item15[0].Checkbox13b[3]
+      type: checkbox
+      label: Checkbox13b
+      required: false
+      width: full
+    - name: checkbox13b_2
+      pdf_field_name: JV-674[0].Page2[0].Item15[0].Checkbox13b[4]
+      type: checkbox
+      label: Checkbox13b
+      required: false
+      width: full
+    - name: father15c
+      pdf_field_name: JV-674[0].Page2[0].Item15[0].father15c[0]
+      type: text
+      label: Father15c
+      required: false
+      width: full
+    - name: checkbox13c
+      pdf_field_name: JV-674[0].Page2[0].Item15[0].Checkbox13c[0]
+      type: checkbox
+      label: Checkbox13c
+      required: false
+      width: full
+    - name: checkbox13c_2
+      pdf_field_name: JV-674[0].Page2[0].Item15[0].Checkbox13c[1]
+      type: checkbox
+      label: Checkbox13c
+      required: false
+      width: full
+    - name: checkbox13c_2
+      pdf_field_name: JV-674[0].Page2[0].Item15[0].Checkbox13c[2]
+      type: checkbox
+      label: Checkbox13c
+      required: false
+      width: full
+    - name: checkbox13c_2
+      pdf_field_name: JV-674[0].Page2[0].Item15[0].Checkbox13c[3]
+      type: checkbox
+      label: Checkbox13c
+      required: false
+      width: full
+    - name: checkbox13c_2
+      pdf_field_name: JV-674[0].Page2[0].Item15[0].Checkbox13c[4]
+      type: checkbox
+      label: Checkbox13c
+      required: false
+      width: full
+    - name: legalguardian15d
+      pdf_field_name: JV-674[0].Page2[0].Item15[0].legalguardian15d[0]
+      type: text
+      label: Legalguardian15d
+      required: false
+      width: full
+    - name: checkbox13d
+      pdf_field_name: JV-674[0].Page2[0].Item15[0].Checkbox13d[0]
+      type: checkbox
+      label: Checkbox13d
+      required: false
+      width: full
+    - name: checkbox13d_2
+      pdf_field_name: JV-674[0].Page2[0].Item15[0].Checkbox13d[1]
+      type: checkbox
+      label: Checkbox13d
+      required: false
+      width: full
+    - name: checkbox13d_2
+      pdf_field_name: JV-674[0].Page2[0].Item15[0].Checkbox13d[2]
+      type: checkbox
+      label: Checkbox13d
+      required: false
+      width: full
+    - name: checkbox13d_2
+      pdf_field_name: JV-674[0].Page2[0].Item15[0].Checkbox13d[3]
+      type: checkbox
+      label: Checkbox13d
+      required: false
+      width: full
+    - name: checkbox13d_2
+      pdf_field_name: JV-674[0].Page2[0].Item15[0].Checkbox13d[4]
+      type: checkbox
+      label: Checkbox13d
+      required: false
+      width: full
+    - name: other15e
+      pdf_field_name: JV-674[0].Page2[0].Item15[0].Other15e[0]
+      type: text
+      label: Other15e
+      required: false
+      width: full
+    - name: specify15e
+      pdf_field_name: JV-674[0].Page2[0].Item15[0].specify15e[0]
+      type: text
+      label: Specify15e
+      required: false
+      width: full
+    - name: checkbox13e
+      pdf_field_name: JV-674[0].Page2[0].Item15[0].Checkbox13e[0]
+      type: checkbox
+      label: Checkbox13e
+      required: false
+      width: full
+    - name: checkbox13e_2
+      pdf_field_name: JV-674[0].Page2[0].Item15[0].Checkbox13e[1]
+      type: checkbox
+      label: Checkbox13e
+      required: false
+      width: full
+    - name: checkbox13e_2
+      pdf_field_name: JV-674[0].Page2[0].Item15[0].Checkbox13e[2]
+      type: checkbox
+      label: Checkbox13e
+      required: false
+      width: full
+    - name: checkbox13e_2
+      pdf_field_name: JV-674[0].Page2[0].Item15[0].Checkbox13e[3]
+      type: checkbox
+      label: Checkbox13e
+      required: false
+      width: full
+    - name: checkbox13e_2
+      pdf_field_name: JV-674[0].Page2[0].Item15[0].Checkbox13e[4]
+      type: checkbox
+      label: Checkbox13e
+      required: false
+      width: full
+    - name: other15f
+      pdf_field_name: JV-674[0].Page2[0].Item15[0].Other15f[0]
+      type: text
+      label: Other15f
+      required: false
+      width: full
+    - name: specify15f
+      pdf_field_name: JV-674[0].Page2[0].Item15[0].specify15f[0]
+      type: text
+      label: Specify15f
+      required: false
+      width: full
+    - name: checkbox13f
+      pdf_field_name: JV-674[0].Page2[0].Item15[0].Checkbox13f[0]
+      type: checkbox
+      label: Checkbox13f
+      required: false
+      width: full
+    - name: checkbox13f_2
+      pdf_field_name: JV-674[0].Page2[0].Item15[0].Checkbox13f[1]
+      type: checkbox
+      label: Checkbox13f
+      required: false
+      width: full
+    - name: checkbox13f_2
+      pdf_field_name: JV-674[0].Page2[0].Item15[0].Checkbox13f[2]
+      type: checkbox
+      label: Checkbox13f
+      required: false
+      width: full
+    - name: checkbox13f_2
+      pdf_field_name: JV-674[0].Page2[0].Item15[0].Checkbox13f[3]
+      type: checkbox
+      label: Checkbox13f
+      required: false
+      width: full
+    - name: checkbox13f_2
+      pdf_field_name: JV-674[0].Page2[0].Item15[0].Checkbox13f[4]
+      type: checkbox
+      label: Checkbox13f
+      required: false
+      width: full
+    - name: permplan17abc
+      pdf_field_name: JV-674[0].Page2[0].Item17[0].permplan17abc[0]
+      type: text
+      label: Permplan17abc
+      required: false
+      width: full
+    - name: appropriateorder17a
+      pdf_field_name: JV-674[0].Page2[0].Item17[0].appropriateorder17a[0]
+      type: text
+      label: Appropriateorder17a
+      required: false
+      width: full
+    - name: appropriateorder17a_2
+      pdf_field_name: JV-674[0].Page2[0].Item17[0].appropriateorder17a[1]
+      type: text
+      label: Appropriateorder17a
+      required: false
+      width: full
+    - name: appropriateorder17a_2
+      pdf_field_name: JV-674[0].Page3[0].Item17[0].appropriateorder17a[0]
+      type: text
+      label: Appropriateorder17a
+      required: false
+      width: full
+    - name: date_field2
+      pdf_field_name: JV-674[0].Page3[0].Item17[0].DateField2[0]
+      type: date
+      label: Date Field
+      required: false
+      width: half
+    - name: appropriateorder17a_2
+      pdf_field_name: JV-674[0].Page3[0].Item17[0].appropriateorder17a[1]
+      type: text
+      label: Appropriateorder17a
+      required: false
+      width: full
+    - name: permplan17abc_2
+      pdf_field_name: JV-674[0].Page3[0].Item17[0].permplan17abc[0]
+      type: text
+      label: Permplan17abc
+      required: false
+      width: full
+    - name: nameofchild17b
+      pdf_field_name: JV-674[0].Page3[0].Item17[0].nameofchild17b[0]
+      type: text
+      label: Nameofchild17b
+      required: false
+      width: full
+    - name: planwith1712
+      pdf_field_name: JV-674[0].Page3[0].Item17[0].planwith1712[0]
+      type: text
+      label: Planwith
+      required: false
+      width: full
+    - name: name17b1
+      pdf_field_name: JV-674[0].Page3[0].Item17[0].name17b1[0]
+      type: text
+      label: Name17b
+      required: false
+      width: full
+    - name: planwith1712_2
+      pdf_field_name: JV-674[0].Page3[0].Item17[0].planwith1712[1]
+      type: text
+      label: Planwith
+      required: false
+      width: full
+    - name: placementplan17b2
+      pdf_field_name: JV-674[0].Page3[0].Item17[0].placementplan17b2[0]
+      type: text
+      label: Placementplan17b
+      required: false
+      width: full
+    - name: placementplan17b2_2
+      pdf_field_name: JV-674[0].Page3[0].Item17[0].placementplan17b2[1]
+      type: text
+      label: Placementplan17b
+      required: false
+      width: full
+    - name: placementplan17b2_2
+      pdf_field_name: JV-674[0].Page3[0].Item17[0].placementplan17b2[2]
+      type: text
+      label: Placementplan17b
+      required: false
+      width: full
+    - name: placementplan17b2_2
+      pdf_field_name: JV-674[0].Page3[0].Item17[0].placementplan17b2[3]
+      type: text
+      label: Placementplan17b
+      required: false
+      width: full
+    - name: permplan17abc_2
+      pdf_field_name: JV-674[0].Page3[0].Item17[0].permplan17abc[1]
+      type: text
+      label: Permplan17abc
+      required: false
+      width: full
+    - name: livingarrangement17c
+      pdf_field_name: JV-674[0].Page3[0].Item17[0].livingarrangement17c[0]
+      type: text
+      label: Livingarrangement17c
+      required: false
+      width: full
+    - name: livingarrangement17c_2
+      pdf_field_name: JV-674[0].Page3[0].Item17[0].livingarrangement17c[1]
+      type: text
+      label: Livingarrangement17c
+      required: false
+      width: full
+    - name: livingarrangement17c_2
+      pdf_field_name: JV-674[0].Page3[0].Item17[0].livingarrangement17c[2]
+      type: text
+      label: Livingarrangement17c
+      required: false
+      width: full
+    - name: livingarrangement17c_2
+      pdf_field_name: JV-674[0].Page3[0].Item17[0].livingarrangement17c[3]
+      type: text
+      label: Livingarrangement17c
+      required: false
+      width: full
+    - name: livingarrangement17c_2
+      pdf_field_name: JV-674[0].Page3[0].Item17[0].livingarrangement17c[4]
+      type: text
+      label: Livingarrangement17c
+      required: false
+      width: full
+    - name: livingarrangement17c_2
+      pdf_field_name: JV-674[0].Page3[0].Item17[0].livingarrangement17c[5]
+      type: text
+      label: Livingarrangement17c
+      required: false
+      width: full
+    - name: text_field2_2
+      pdf_field_name: JV-674[0].Page3[0].Item17[0].TextField2[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: likelydate18ab
+      pdf_field_name: JV-674[0].Page3[0].Item18[0].likelydate18ab[0]
+      type: date
+      label: Likelydate18ab
+      required: false
+      width: half
+    - name: date_field3
+      pdf_field_name: JV-674[0].Page3[0].Item18[0].DateField3[0]
+      type: date
+      label: Date Field
+      required: false
+      width: half
+    - name: likelydate18ab_2
+      pdf_field_name: JV-674[0].Page3[0].Item18[0].likelydate18ab[1]
+      type: date
+      label: Likelydate18ab
+      required: false
+      width: half
+    - name: date_field4
+      pdf_field_name: JV-674[0].Page3[0].Item18[0].DateField4[0]
+      type: date
+      label: Date Field
+      required: false
+      width: half
+    - name: check_box1_2
+      pdf_field_name: JV-674[0].Page3[0].Item18[0].CheckBox1[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: other_specify_tf
+      pdf_field_name: JV-674[0].Page3[0].Item18[0].OtherSpecify_tf[0]
+      type: text
+      label: Other Specify Tf
+      required: false
+      width: full
+    - name: check_box19athecourtasked
+      pdf_field_name: JV-674[0].Page3[0].Item19[0].CheckBox19athecourtasked[0]
+      type: checkbox
+      label: Check Box19athecourtasked
+      required: false
+      width: full
+    - name: describe19a
+      pdf_field_name: JV-674[0].Page3[0].Item19[0].describe19a[0]
+      type: text
+      label: Describe19a
+      required: false
+      width: full
+    - name: check_box19_2
+      pdf_field_name: JV-674[0].Page3[0].Item19[0].CheckBox19[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: descrive19b
+      pdf_field_name: JV-674[0].Page3[0].Item19[0].descrive19b[0]
+      type: text
+      label: Descrive19b
+      required: false
+      width: full
+    - name: cb19thecompelling
+      pdf_field_name: JV-674[0].Page3[0].Item19[0].cb19thecompelling[0]
+      type: text
+      label: Cb19thecompelling
+      required: false
+      width: full
+    - name: describe19c
+      pdf_field_name: JV-674[0].Page3[0].Item19[0].describe19c[0]
+      type: text
+      label: Describe19c
+      required: false
+      width: full
+    - name: check_box20
+      pdf_field_name: JV-674[0].Page4[0].Item20[0].CheckBox20[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: casevisitation20ab
+      pdf_field_name: JV-674[0].Page4[0].Item20[0].casevisitation20ab[0]
+      type: text
+      label: Casevisitation20ab
+      required: false
+      width: full
+    - name: casevisitation20ab_2
+      pdf_field_name: JV-674[0].Page4[0].Item20[0].casevisitation20ab[1]
+      type: text
+      label: Casevisitation20ab
+      required: false
+      width: full
+    - name: check_box19_2
+      pdf_field_name: JV-674[0].Page4[0].Item20[0].CheckBox19[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box19_2
+      pdf_field_name: JV-674[0].Page4[0].Item20[0].CheckBox19[1]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box19_2
+      pdf_field_name: JV-674[0].Page4[0].Item20[0].CheckBox19[2]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: asfollows
+      pdf_field_name: JV-674[0].Page4[0].Item20[0].asfollows[0]
+      type: text
+      label: Asfollows
+      required: false
+      width: full
+    - name: cb21a
+      pdf_field_name: JV-674[0].Page4[0].Item21[0].cb21a[0]
+      type: text
+      label: Cb21a
+      required: false
+      width: full
+    - name: check_box1_2
+      pdf_field_name: JV-674[0].Page4[0].Item21[0].CheckBox1[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box1_2
+      pdf_field_name: JV-674[0].Page4[0].Item21[0].CheckBox1[1]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box1_2
+      pdf_field_name: JV-674[0].Page4[0].Item21[0].CheckBox1[2]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box1_2
+      pdf_field_name: JV-674[0].Page4[0].Item21[0].CheckBox1[3]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box1_2
+      pdf_field_name: JV-674[0].Page4[0].Item21[0].CheckBox1[4]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box61
+      pdf_field_name: JV-674[0].Page4[0].Item21[0].CheckBox61[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: text_field2_2
+      pdf_field_name: JV-674[0].Page4[0].Item21[0].TextField2[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: check_box61_2
+      pdf_field_name: JV-674[0].Page4[0].Item21[0].CheckBox61[1]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: text_field2_2
+      pdf_field_name: JV-674[0].Page4[0].Item21[0].TextField2[1]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: cb21b
+      pdf_field_name: JV-674[0].Page4[0].Item21[0].cb21b[0]
+      type: text
+      label: Cb21b
+      required: false
+      width: full
+    - name: check_box1_2
+      pdf_field_name: JV-674[0].Page4[0].Item21[0].CheckBox1[5]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box1_2
+      pdf_field_name: JV-674[0].Page4[0].Item21[0].CheckBox1[6]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box1_2
+      pdf_field_name: JV-674[0].Page4[0].Item21[0].CheckBox1[7]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box1_2
+      pdf_field_name: JV-674[0].Page4[0].Item21[0].CheckBox1[8]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box1_2
+      pdf_field_name: JV-674[0].Page4[0].Item21[0].CheckBox1[9]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box61_2
+      pdf_field_name: JV-674[0].Page4[0].Item21[0].CheckBox61[2]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: text_field2_2
+      pdf_field_name: JV-674[0].Page4[0].Item21[0].TextField2[2]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: check_box61_2
+      pdf_field_name: JV-674[0].Page4[0].Item21[0].CheckBox61[3]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: other21b
+      pdf_field_name: JV-674[0].Page4[0].Item21[0].Other21b[0]
+      type: text
+      label: Other21b
+      required: false
+      width: full
+    - name: cb21c
+      pdf_field_name: JV-674[0].Page4[0].Item21[0].cb21c[0]
+      type: text
+      label: Cb21c
+      required: false
+      width: full
+    - name: check_box1_2
+      pdf_field_name: JV-674[0].Page4[0].Item21[0].CheckBox1[10]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box1_2
+      pdf_field_name: JV-674[0].Page4[0].Item21[0].CheckBox1[11]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box1_2
+      pdf_field_name: JV-674[0].Page4[0].Item21[0].CheckBox1[12]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box1_2
+      pdf_field_name: JV-674[0].Page4[0].Item21[0].CheckBox1[13]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box1_2
+      pdf_field_name: JV-674[0].Page4[0].Item21[0].CheckBox1[14]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box61_2
+      pdf_field_name: JV-674[0].Page4[0].Item21[0].CheckBox61[4]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: text_field2_2
+      pdf_field_name: JV-674[0].Page4[0].Item21[0].TextField2[3]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: check_box61_2
+      pdf_field_name: JV-674[0].Page4[0].Item21[0].CheckBox61[5]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: text_field2_2
+      pdf_field_name: JV-674[0].Page4[0].Item21[0].TextField2[4]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: check_box1_2
+      pdf_field_name: JV-674[0].Page4[0].Item22[0].CheckBox1[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box22a
+      pdf_field_name: JV-674[0].Page4[0].Item22[0].CheckBox22a[0]
+      type: checkbox
+      label: Check Box22a
+      required: false
+      width: full
+    - name: check_box22a_2
+      pdf_field_name: JV-674[0].Page4[0].Item22[0].CheckBox22a[1]
+      type: checkbox
+      label: Check Box22a
+      required: false
+      width: full
+    - name: check_box22b
+      pdf_field_name: JV-674[0].Page4[0].Item22[0].CheckBox22b[0]
+      type: checkbox
+      label: Check Box22b
+      required: false
+      width: full
+    - name: check_box22b_2
+      pdf_field_name: JV-674[0].Page4[0].Item22[0].CheckBox22b[1]
+      type: checkbox
+      label: Check Box22b
+      required: false
+      width: full
+    - name: check_box22c
+      pdf_field_name: JV-674[0].Page4[0].Item22[0].CheckBox22c[0]
+      type: checkbox
+      label: Check Box22c
+      required: false
+      width: full
+    - name: check_box22c_2
+      pdf_field_name: JV-674[0].Page4[0].Item22[0].CheckBox22c[1]
+      type: checkbox
+      label: Check Box22c
+      required: false
+      width: full
+    - name: check_box22d
+      pdf_field_name: JV-674[0].Page4[0].Item22[0].CheckBox22d[0]
+      type: checkbox
+      label: Check Box22d
+      required: false
+      width: full
+    - name: check_box22d_2
+      pdf_field_name: JV-674[0].Page4[0].Item22[0].CheckBox22d[1]
+      type: checkbox
+      label: Check Box22d
+      required: false
+      width: full
+    - name: check_box23
+      pdf_field_name: JV-674[0].Page4[0].Item23[0].CheckBox23[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box1_2
+      pdf_field_name: JV-674[0].Page4[0].Item23[0].CheckBox1[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box19_2
+      pdf_field_name: JV-674[0].Page4[0].Item23[0].CheckBox19[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: asfollows23b
+      pdf_field_name: JV-674[0].Page4[0].Item23[0].asfollows23b[0]
+      type: text
+      label: Asfollows23b
+      required: false
+      width: full
+    - name: check_box24a
+      pdf_field_name: JV-674[0].Page4[0].Item24[0].CheckBox24a[0]
+      type: checkbox
+      label: Check Box24a
+      required: false
+      width: full
+    - name: mother24
+      pdf_field_name: JV-674[0].Page4[0].Item24[0].mother24[0]
+      type: text
+      label: Mother
+      required: false
+      width: full
+    - name: father24
+      pdf_field_name: JV-674[0].Page4[0].Item24[0].father24[0]
+      type: text
+      label: Father
+      required: false
+      width: full
+    - name: guardian24
+      pdf_field_name: JV-674[0].Page4[0].Item24[0].guardian24[0]
+      type: text
+      label: Guardian
+      required: false
+      width: full
+    - name: other24
+      pdf_field_name: JV-674[0].Page4[0].Item24[0].other24[0]
+      type: text
+      label: Other
+      required: false
+      width: full
+    - name: specify24a
+      pdf_field_name: JV-674[0].Page4[0].Item24[0].specify24a[0]
+      type: text
+      label: Specify24a
+      required: false
+      width: full
+    - name: check_box24b
+      pdf_field_name: JV-674[0].Page4[0].Item24[0].CheckBox24b[0]
+      type: checkbox
+      label: Check Box24b
+      required: false
+      width: full
+    - name: checkbox24b
+      pdf_field_name: JV-674[0].Page4[0].Item24[0].checkbox24b[0]
+      type: checkbox
+      label: Checkbox24b
+      required: false
+      width: full
+    - name: checkbox24b_2
+      pdf_field_name: JV-674[0].Page4[0].Item24[0].checkbox24b[1]
+      type: checkbox
+      label: Checkbox24b
+      required: false
+      width: full
+    - name: checkbox24b_2
+      pdf_field_name: JV-674[0].Page4[0].Item24[0].checkbox24b[2]
+      type: checkbox
+      label: Checkbox24b
+      required: false
+      width: full
+    - name: checkbox24b_2
+      pdf_field_name: JV-674[0].Page4[0].Item24[0].checkbox24b[3]
+      type: checkbox
+      label: Checkbox24b
+      required: false
+      width: full
+    - name: specify24b
+      pdf_field_name: JV-674[0].Page4[0].Item24[0].specify24b[0]
+      type: text
+      label: Specify24b
+      required: false
+      width: full
+    - name: check_box25
+      pdf_field_name: JV-674[0].Page4[0].Item25[0].CheckBox25[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: visitationorder25
+      pdf_field_name: JV-674[0].Page4[0].Item25[0].visitationorder25[0]
+      type: text
+      label: Visitationorder
+      required: false
+      width: full
+    - name: visitationorder25_2
+      pdf_field_name: JV-674[0].Page4[0].Item25[0].visitationorder25[1]
+      type: text
+      label: Visitationorder
+      required: false
+      width: full
+    - name: other_specify_tf_2
+      pdf_field_name: JV-674[0].Page4[0].Item25[0].OtherSpecify_tf[0]
+      type: text
+      label: Other Specify Tf
+      required: false
+      width: full
+    - name: check_box26
+      pdf_field_name: JV-674[0].Page5[0].Item26[0].CheckBox26[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box26ab
+      pdf_field_name: JV-674[0].Page5[0].Item26[0].CheckBox26ab[0]
+      type: checkbox
+      label: Check Box26ab
+      required: false
+      width: full
+    - name: check_box26ab_2
+      pdf_field_name: JV-674[0].Page5[0].Item26[0].CheckBox26ab[1]
+      type: checkbox
+      label: Check Box26ab
+      required: false
+      width: full
+    - name: other_specify_tf26b
+      pdf_field_name: JV-674[0].Page5[0].Item26[0].OtherSpecify_tf26b[0]
+      type: text
+      label: Other Specify Tf26b
+      required: false
+      width: full
+    - name: doesdoesnot27
+      pdf_field_name: JV-674[0].Page5[0].Item27[0].doesdoesnot27[0]
+      type: text
+      label: Doesdoesnot
+      required: false
+      width: full
+    - name: doesdoesnot27_2
+      pdf_field_name: JV-674[0].Page5[0].Item27[0].doesdoesnot27[1]
+      type: text
+      label: Doesdoesnot
+      required: false
+      width: full
+    - name: psycmedorderondate
+      pdf_field_name: JV-674[0].Page5[0].Item27[0].psycmedorderondate[0]
+      type: date
+      label: Psycmedorderondate
+      required: false
+      width: half
+    - name: petitioner_cb
+      pdf_field_name: JV-674[0].Page5[0].Item28[0].petitioner_cb[0]
+      type: text
+      label: Petitioner Cb
+      required: false
+      width: full
+    - name: check_box19_2
+      pdf_field_name: JV-674[0].Page5[0].Item29[0].CheckBox19[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: parents29
+      pdf_field_name: JV-674[0].Page5[0].Item29[0].parents29[0]
+      type: currency
+      label: Parents
+      required: false
+      width: third
+    - name: parents29_2
+      pdf_field_name: JV-674[0].Page5[0].Item29[0].parents29[1]
+      type: currency
+      label: Parents
+      required: false
+      width: third
+    - name: parents29_2
+      pdf_field_name: JV-674[0].Page5[0].Item29[0].parents29[2]
+      type: currency
+      label: Parents
+      required: false
+      width: third
+    - name: specify29
+      pdf_field_name: JV-674[0].Page5[0].Item29[0].specify29[0]
+      type: text
+      label: Specify
+      required: false
+      width: full
+    - name: unable29
+      pdf_field_name: JV-674[0].Page5[0].Item29[0].unable29[0]
+      type: text
+      label: Unable
+      required: false
+      width: full
+    - name: unwilling29
+      pdf_field_name: JV-674[0].Page5[0].Item29[0].unwilling29[0]
+      type: text
+      label: Unwilling
+      required: false
+      width: full
+    - name: unavailable29
+      pdf_field_name: JV-674[0].Page5[0].Item29[0].unavailable29[0]
+      type: text
+      label: Unavailable
+      required: false
+      width: full
+    - name: cblimitation30
+      pdf_field_name: JV-674[0].Page5[0].Item30[0].cblimitation30[0]
+      type: text
+      label: Cblimitation
+      required: false
+      width: full
+    - name: parents30
+      pdf_field_name: JV-674[0].Page5[0].Item30[0].parents30[0]
+      type: currency
+      label: Parents
+      required: false
+      width: third
+    - name: parents30_2
+      pdf_field_name: JV-674[0].Page5[0].Item30[0].parents30[1]
+      type: currency
+      label: Parents
+      required: false
+      width: third
+    - name: parents30_2
+      pdf_field_name: JV-674[0].Page5[0].Item30[0].parents30[2]
+      type: currency
+      label: Parents
+      required: false
+      width: third
+    - name: specify30
+      pdf_field_name: JV-674[0].Page5[0].Item30[0].specify30[0]
+      type: text
+      label: Specify
+      required: false
+      width: full
+    - name: necessarynot30
+      pdf_field_name: JV-674[0].Page5[0].Item30[0].necessarynot30[0]
+      type: text
+      label: Necessarynot
+      required: false
+      width: full
+    - name: necessarynot30_2
+      pdf_field_name: JV-674[0].Page5[0].Item30[0].necessarynot30[1]
+      type: text
+      label: Necessarynot
+      required: false
+      width: full
+    - name: check_box31
+      pdf_field_name: JV-674[0].Page5[0].Item31[0].CheckBox31[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box31a
+      pdf_field_name: JV-674[0].Page5[0].Item31[0].CheckBox31a[0]
+      type: checkbox
+      label: Check Box31a
+      required: false
+      width: full
+    - name: check_box32b
+      pdf_field_name: JV-674[0].Page5[0].Item31[0].CheckBox32b[0]
+      type: checkbox
+      label: Check Box32b
+      required: false
+      width: full
+    - name: enrolled31
+      pdf_field_name: JV-674[0].Page5[0].Item31[0].enrolled31[0]
+      type: text
+      label: Enrolled
+      required: false
+      width: full
+    - name: attending31
+      pdf_field_name: JV-674[0].Page5[0].Item31[0].attending31[0]
+      type: text
+      label: Attending
+      required: false
+      width: full
+    - name: specifyschool31b
+      pdf_field_name: JV-674[0].Page5[0].Item31[0].specifyschool31b[0]
+      type: text
+      label: Specifyschool31b
+      required: false
+      width: full
+    - name: childisyears32ab
+      pdf_field_name: JV-674[0].Page5[0].Item32[0].childisyears32ab[0]
+      type: text
+      label: Childisyears32ab
+      required: false
+      width: full
+    - name: cb32a123
+      pdf_field_name: JV-674[0].Page5[0].Item32[0].item32a1[0].cb32a123[0]
+      type: text
+      label: Cb32a
+      required: false
+      width: full
+    - name: cb32a123_2
+      pdf_field_name: JV-674[0].Page5[0].Item32[0].item32a2[0].cb32a123[1]
+      type: text
+      label: Cb32a
+      required: false
+      width: full
+    - name: spptpp32a2
+      pdf_field_name: JV-674[0].Page5[0].Item32[0].spptpp32a2[0]
+      type: text
+      label: Spptpp32a
+      required: false
+      width: full
+    - name: spptpprltn32a2
+      pdf_field_name: JV-674[0].Page5[0].Item32[0].spptpprltn32a2[0]
+      type: text
+      label: Spptpprltn32a
+      required: false
+      width: full
+    - name: cb32a123_2
+      pdf_field_name: JV-674[0].Page5[0].Item32[0].item32a3[0].cb32a123[2]
+      type: text
+      label: Cb32a
+      required: false
+      width: full
+    - name: check_box1_2
+      pdf_field_name: JV-674[0].Page5[0].Item32[0].item32a4[0].CheckBox1[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box32a4a
+      pdf_field_name: JV-674[0].Page5[0].Item32[0].CheckBox32a4a[0]
+      type: checkbox
+      label: Check Box32a4a
+      required: false
+      width: full
+    - name: asfollows32a4b
+      pdf_field_name: JV-674[0].Page5[0].Item32[0].asfollows32a4b[0]
+      type: text
+      label: Asfollows32a4b
+      required: false
+      width: full
+    - name: asfollows_2
+      pdf_field_name: JV-674[0].Page5[0].Item32[0].asfollows[0]
+      type: text
+      label: Asfollows
+      required: false
+      width: full
+    - name: childisyears32ab_2
+      pdf_field_name: JV-674[0].Page5[0].Item32[0].childisyears32ab[1]
+      type: text
+      label: Childisyears32ab
+      required: false
+      width: full
+    - name: check_box1_2
+      pdf_field_name: JV-674[0].Page6[0].item39[0].CheckBox1[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box19_2
+      pdf_field_name: JV-674[0].Page6[0].Item40[0].CheckBox19[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: nopp41
+      pdf_field_name: JV-674[0].Page6[0].Item41[0].nopp41[0]
+      type: text
+      label: Nopp
+      required: false
+      width: full
+  px_caption_sf:
+    title: Px Caption Sf
+    fields:
+    - name: party_ft_2
+      pdf_field_name: JV-674[0].Page2[0].PxCaption_sf[0].Party_ft[0]
+      type: text
+      label: Party Ft
+      required: false
+      width: full
+    - name: case_number_ft_2
+      pdf_field_name: JV-674[0].Page2[0].PxCaption_sf[0].CaseNumber_ft[0]
+      type: text
+      label: Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+    - name: case_number_ft_2
+      pdf_field_name: JV-674[0].Page3[0].PxCaption_sf[0].CaseNumber_ft[0]
+      type: text
+      label: Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+    - name: party_ft_2
+      pdf_field_name: JV-674[0].Page3[0].PxCaption_sf[0].Party_ft[0]
+      type: text
+      label: Party Ft
+      required: false
+      width: full
+    - name: case_number_ft_2
+      pdf_field_name: JV-674[0].Page4[0].PxCaption_sf[0].CaseNumber_ft[0]
+      type: text
+      label: Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+    - name: party_ft_2
+      pdf_field_name: JV-674[0].Page4[0].PxCaption_sf[0].Party_ft[0]
+      type: text
+      label: Party Ft
+      required: false
+      width: full
+    - name: case_number_ft_2
+      pdf_field_name: JV-674[0].Page5[0].PxCaption_sf[0].CaseNumber_ft[0]
+      type: text
+      label: Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+    - name: party_ft_2
+      pdf_field_name: JV-674[0].Page5[0].PxCaption_sf[0].Party_ft[0]
+      type: text
+      label: Party Ft
+      required: false
+      width: full
+    - name: case_number_ft_2
+      pdf_field_name: JV-674[0].Page6[0].PxCaption_sf[0].CaseNumber_ft[0]
+      type: text
+      label: Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+    - name: party_ft_2
+      pdf_field_name: JV-674[0].Page6[0].PxCaption_sf[0].Party_ft[0]
+      type: text
+      label: Party Ft
+      required: false
+      width: full
+  item16a:
+    title: Item16a
+    fields:
+    - name: check_box19_2
+      pdf_field_name: JV-674[0].Page2[0].item16a[0].CheckBox19[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box19_2
+      pdf_field_name: JV-674[0].Page2[0].Item16a1[0].CheckBox19[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: childreturnto16a1
+      pdf_field_name: JV-674[0].Page2[0].Item16a1[0].childreturnto16a1[0]
+      type: text
+      label: Childreturnto16a
+      required: false
+      width: full
+    - name: childreturnto16a1_2
+      pdf_field_name: JV-674[0].Page2[0].Item16a1[0].childreturnto16a1[1]
+      type: text
+      label: Childreturnto16a
+      required: false
+      width: full
+    - name: childreturnto16a1_2
+      pdf_field_name: JV-674[0].Page2[0].Item16a1[0].childreturnto16a1[2]
+      type: text
+      label: Childreturnto16a
+      required: false
+      width: full
+    - name: childreturnto16a1_2
+      pdf_field_name: JV-674[0].Page2[0].Item16a1[0].childreturnto16a1[3]
+      type: text
+      label: Childreturnto16a
+      required: false
+      width: full
+    - name: specify16a1
+      pdf_field_name: JV-674[0].Page2[0].Item16a1[0].specify16a1[0]
+      type: text
+      label: Specify16a
+      required: false
+      width: full
+    - name: demonstratethecapacity
+      pdf_field_name: JV-674[0].Page2[0].Item16a1[0].demonstratethecapacity[0]
+      type: address
+      label: Demonstratethecapacity
+      required: false
+      width: full
+    - name: demonstratethecapacity_2
+      pdf_field_name: JV-674[0].Page2[0].Item16a1[0].demonstratethecapacity[1]
+      type: address
+      label: Demonstratethecapacity
+      required: false
+      width: full
+    - name: demonstratethecapacity_2
+      pdf_field_name: JV-674[0].Page2[0].Item16a1[0].demonstratethecapacity[2]
+      type: address
+      label: Demonstratethecapacity
+      required: false
+      width: full
+    - name: demonstratethecapacity_2
+      pdf_field_name: JV-674[0].Page2[0].Item16a1[0].#area[0].demonstratethecapacity[3]
+      type: address
+      label: Demonstratethecapacity
+      required: false
+      width: full
+    - name: specify16a1andthechild
+      pdf_field_name: JV-674[0].Page2[0].Item16a1[0].#area[0].specify16a1andthechild[0]
+      type: text
+      label: Specify16a1andthechild
+      required: false
+      width: full
+    - name: reunificationservicecontinued
+      pdf_field_name: JV-674[0].Page2[0].Item16a1[0].reunificationservicecontinued[0]
+      type: text
+      label: Reunificationservicecontinued
+      required: false
+      width: full
+    - name: reunificationservicecontinued_2
+      pdf_field_name: JV-674[0].Page2[0].Item16a1[0].reunificationservicecontinued[1]
+      type: text
+      label: Reunificationservicecontinued
+      required: false
+      width: full
+    - name: reunificationservicecontinued_2
+      pdf_field_name: JV-674[0].Page2[0].Item16a1[0].reunificationservicecontinued[2]
+      type: text
+      label: Reunificationservicecontinued
+      required: false
+      width: full
+    - name: reunificationservicecontinued_2
+      pdf_field_name: JV-674[0].Page2[0].Item16a1[0].#area[1].reunificationservicecontinued[3]
+      type: text
+      label: Reunificationservicecontinued
+      required: false
+      width: full
+    - name: text_field2
+      pdf_field_name: JV-674[0].Page2[0].Item16a1[0].#area[1].TextField2[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: check_box19_2
+      pdf_field_name: JV-674[0].Page2[0].Item16a2[0].CheckBox19[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: probation_depnotprovided
+      pdf_field_name: JV-674[0].Page2[0].Item16a2[0].ProbationDepnotprovided[0]
+      type: text
+      label: Probation Depnotprovided
+      required: false
+      width: full
+    - name: probation_depnotprovided_2
+      pdf_field_name: JV-674[0].Page2[0].Item16a2[0].ProbationDepnotprovided[1]
+      type: text
+      label: Probation Depnotprovided
+      required: false
+      width: full
+    - name: probation_depnotprovided_2
+      pdf_field_name: JV-674[0].Page2[0].Item16a2[0].ProbationDepnotprovided[2]
+      type: text
+      label: Probation Depnotprovided
+      required: false
+      width: full
+    - name: probation_depnotprovided_2
+      pdf_field_name: JV-674[0].Page2[0].Item16a2[0].#area[0].ProbationDepnotprovided[3]
+      type: text
+      label: Probation Depnotprovided
+      required: false
+      width: full
+    - name: text_field2_2
+      pdf_field_name: JV-674[0].Page2[0].Item16a2[0].#area[0].TextField2[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: explaim16a2
+      pdf_field_name: JV-674[0].Page2[0].Item16a2[0].explaim16a2[0]
+      type: text
+      label: Explaim16a
+      required: false
+      width: full
+    - name: orderedprovidereasonreuni
+      pdf_field_name: JV-674[0].Page2[0].Item16a3[0].orderedprovidereasonreuni[0]
+      type: text
+      label: Orderedprovidereasonreuni
+      required: false
+      width: full
+    - name: orderedprovidereasonreuni_2
+      pdf_field_name: JV-674[0].Page2[0].Item16a3[0].orderedprovidereasonreuni[1]
+      type: text
+      label: Orderedprovidereasonreuni
+      required: false
+      width: full
+    - name: orderedprovidereasonreuni_2
+      pdf_field_name: JV-674[0].Page2[0].Item16a3[0].orderedprovidereasonreuni[2]
+      type: text
+      label: Orderedprovidereasonreuni
+      required: false
+      width: full
+    - name: text_field2_2
+      pdf_field_name: JV-674[0].Page2[0].Item16a3[0].#area[0].TextField2[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: orderedprovidereasonreuni_2
+      pdf_field_name: JV-674[0].Page2[0].Item16a3[0].#area[0].orderedprovidereasonreuni[3]
+      type: text
+      label: Orderedprovidereasonreuni
+      required: false
+      width: full
+  item16b:
+    title: Item16b
+    fields:
+    - name: check_box16b
+      pdf_field_name: JV-674[0].Page2[0].Item16b[0].CheckBox16b[0]
+      type: checkbox
+      label: Check Box16b
+      required: false
+      width: full
+    - name: check_box16b1
+      pdf_field_name: JV-674[0].Page2[0].Item16b[0].CheckBox16b1[0]
+      type: checkbox
+      label: Check Box16b
+      required: false
+      width: full
+    - name: checkbox16b1
+      pdf_field_name: JV-674[0].Page2[0].Item16b[0].checkbox16b1[0]
+      type: checkbox
+      label: Checkbox16b
+      required: false
+      width: full
+    - name: checkbox16b1_2
+      pdf_field_name: JV-674[0].Page2[0].Item16b[0].checkbox16b1[1]
+      type: checkbox
+      label: Checkbox16b
+      required: false
+      width: full
+    - name: checkbox16b1_2
+      pdf_field_name: JV-674[0].Page2[0].Item16b[0].checkbox16b1[2]
+      type: checkbox
+      label: Checkbox16b
+      required: false
+      width: full
+    - name: checkbox16b1_2
+      pdf_field_name: JV-674[0].Page2[0].Item16b[0].#area[0].checkbox16b1[3]
+      type: checkbox
+      label: Checkbox16b
+      required: false
+      width: full
+    - name: text_field2_2
+      pdf_field_name: JV-674[0].Page2[0].Item16b[0].#area[0].TextField2[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: check_box16b2
+      pdf_field_name: JV-674[0].Page2[0].Item16b[0].CheckBox16b2[0]
+      type: checkbox
+      label: Check Box16b
+      required: false
+      width: full
+    - name: checkbox16b2
+      pdf_field_name: JV-674[0].Page2[0].Item16b[0].checkbox16b2[0]
+      type: checkbox
+      label: Checkbox16b
+      required: false
+      width: full
+    - name: checkbox16b2_2
+      pdf_field_name: JV-674[0].Page2[0].Item16b[0].checkbox16b2[1]
+      type: checkbox
+      label: Checkbox16b
+      required: false
+      width: full
+    - name: checkbox16b2_2
+      pdf_field_name: JV-674[0].Page2[0].Item16b[0].checkbox16b2[2]
+      type: checkbox
+      label: Checkbox16b
+      required: false
+      width: full
+    - name: checkbox16b2_2
+      pdf_field_name: JV-674[0].Page2[0].Item16b[0].#area[1].checkbox16b2[3]
+      type: checkbox
+      label: Checkbox16b
+      required: false
+      width: full
+    - name: specify16b2
+      pdf_field_name: JV-674[0].Page2[0].Item16b[0].#area[1].specify16b2[0]
+      type: text
+      label: Specify16b
+      required: false
+      width: full
+    - name: check_box19_2
+      pdf_field_name: JV-674[0].Page2[0].Item16b[0].CheckBox19[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box16b3
+      pdf_field_name: JV-674[0].Page2[0].Item16b[0].CheckBox16b3[0]
+      type: checkbox
+      label: Check Box16b
+      required: false
+      width: full
+    - name: check_box16b4a
+      pdf_field_name: JV-674[0].Page2[0].Item16b[0].CheckBox16b4a[0]
+      type: checkbox
+      label: Check Box16b4a
+      required: false
+      width: full
+    - name: check_box16b4a_2
+      pdf_field_name: JV-674[0].Page2[0].Item16b[0].CheckBox16b4a[1]
+      type: checkbox
+      label: Check Box16b4a
+      required: false
+      width: full
+    - name: check_box16b4
+      pdf_field_name: JV-674[0].Page2[0].Item16b[0].CheckBox16b4[0]
+      type: checkbox
+      label: Check Box16b
+      required: false
+      width: full
+    - name: check_box16b4_2
+      pdf_field_name: JV-674[0].Page2[0].Item16b[0].CheckBox16b4[1]
+      type: checkbox
+      label: Check Box16b
+      required: false
+      width: full
+  footerpage:
+    title: Footerpage
+    fields:
+    - name: print
+      pdf_field_name: JV-674[0].Page6[0].Footerpage6[0].FooterButtons[0].Print[0]
+      type: checkbox
+      label: Print
+      required: false
+      width: full
+    - name: save
+      pdf_field_name: JV-674[0].Page6[0].Footerpage6[0].FooterButtons[0].Save[0]
+      type: checkbox
+      label: Save
+      required: false
+      width: full
+    - name: reset
+      pdf_field_name: JV-674[0].Page6[0].Footerpage6[0].FooterButtons[0].Reset[0]
+      type: checkbox
+      label: Reset
+      required: false
+      width: full
+    - name: warning
+      pdf_field_name: JV-674[0].Page6[0].Footerpage6[0].FooterButtons[0].Warning[0]
+      type: checkbox
+      label: Warning
+      required: false
+      width: full
+  item33ab:
+    title: Item33ab
+    fields:
+    - name: theocurt33a
+      pdf_field_name: JV-674[0].Page6[0].Item33ab[0].theocurt33a[0]
+      type: text
+      label: Theocurt33a
+      required: false
+      width: full
+    - name: check_box1_2
+      pdf_field_name: JV-674[0].Page6[0].Item33ab[0].CheckBox1[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box61_2
+      pdf_field_name: JV-674[0].Page6[0].Item33ab[0].CheckBox61[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: other_specify_tf_2
+      pdf_field_name: JV-674[0].Page6[0].Item33ab[0].OtherSpecify_tf[0]
+      type: text
+      label: Other Specify Tf
+      required: false
+      width: full
+    - name: check_box19_2
+      pdf_field_name: JV-674[0].Page6[0].Item33ab[0].CheckBox19[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: clerk33
+      pdf_field_name: JV-674[0].Page6[0].Item33ab[0].clerk33[0]
+      type: text
+      label: Clerk
+      required: false
+      width: full
+    - name: probdept33
+      pdf_field_name: JV-674[0].Page6[0].Item33ab[0].probdept33[0]
+      type: text
+      label: Probdept
+      required: false
+      width: full
+    - name: allegedfather33b1
+      pdf_field_name: JV-674[0].Page6[0].Item33ab[0].allegedfather33b1[0]
+      type: text
+      label: Allegedfather33b
+      required: false
+      width: full
+    - name: allegedfather33b2
+      pdf_field_name: JV-674[0].Page6[0].Item33ab[0].allegedfather33b2[0]
+      type: text
+      label: Allegedfather33b
+      required: false
+      width: full
+  'no':
+    title: 'No'
+    fields:
+    - name: check_box36
+      pdf_field_name: JV-674[0].Page6[0].no36[0].CheckBox36[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box1_2
+      pdf_field_name: JV-674[0].Page6[0].no36[0].CheckBox1[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box1_2
+      pdf_field_name: JV-674[0].Page6[0].no36[0].CheckBox1[1]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: text_field6
+      pdf_field_name: JV-674[0].Page6[0].no36[0].TextField6[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: check_box61_2
+      pdf_field_name: JV-674[0].Page6[0].no37[0].CheckBox61[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: date_field6
+      pdf_field_name: JV-674[0].Page6[0].no37[0].DateField6[0]
+      type: date
+      label: Date Field
+      required: false
+      width: half
+    - name: check_box1_2
+      pdf_field_name: JV-674[0].Page6[0].no38[0].CheckBox1[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: d381
+      pdf_field_name: JV-674[0].Page6[0].no38[0].D381[0]
+      type: text
+      label: D
+      required: false
+      width: full
+    - name: t381
+      pdf_field_name: JV-674[0].Page6[0].no38[0].T381[0]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: dept381
+      pdf_field_name: JV-674[0].Page6[0].no38[0].Dept381[0]
+      type: text
+      label: Dept
+      required: false
+      width: full
+    - name: toh381
+      pdf_field_name: JV-674[0].Page6[0].no38[0].toh381[0]
+      type: text
+      label: Toh
+      required: false
+      width: full
+    - name: d382
+      pdf_field_name: JV-674[0].Page6[0].no38[0].D382[0]
+      type: text
+      label: D
+      required: false
+      width: full
+    - name: t382
+      pdf_field_name: JV-674[0].Page6[0].no38[0].T382[0]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: dept382
+      pdf_field_name: JV-674[0].Page6[0].no38[0].Dept382[0]
+      type: text
+      label: Dept
+      required: false
+      width: full
+    - name: toh382
+      pdf_field_name: JV-674[0].Page6[0].no38[0].toh382[0]
+      type: text
+      label: Toh
+      required: false
+      width: full
+  signaturedate:
+    title: Signaturedate
+    fields:
+    - name: signaturedate
+      pdf_field_name: JV-674[0].Page6[0].Signaturedate[0]
+      type: signature
+      label: Signaturedate
+      required: false
+      width: full

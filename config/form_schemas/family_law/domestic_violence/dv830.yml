@@ -1,0 +1,270 @@
+---
+form:
+  code: DV-830
+  title: DV 830 Form
+  description: ''
+  category: family_law/domestic_violence
+  pdf_filename: dv830.pdf
+  fillable: true
+  instructions: ''
+sections:
+  court:
+    title: Court
+    fields:
+    - name: court_info_ft
+      pdf_field_name: DV-830[0].Page1[0].Court[0].CourtSub[0].CourtInfo[0].CourtInfo_ft[0]
+      type: text
+      label: Court Info Ft
+      required: false
+      width: full
+    - name: case_number_ft
+      pdf_field_name: DV-830[0].Page1[0].Court[0].CaseSub[0].CaseNumber[0].CaseNumber_ft[0]
+      type: text
+      label: Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+  list:
+    title: List
+    fields:
+    - name: protected_lawyer_name_ft1
+      pdf_field_name: DV-830[0].Page1[0].List1[0].Li1[0].ProtectedLawyerName_ft1[0]
+      type: text
+      label: Protected Lawyer Name Ft
+      required: false
+      width: full
+    - name: protected_lawyer_name_ft1_2
+      pdf_field_name: DV-830[0].Page1[0].List2[0].Li1[0].ProtectedLawyerName_ft1[0]
+      type: text
+      label: Protected Lawyer Name Ft
+      required: false
+      width: full
+    - name: multiline_check_box
+      pdf_field_name: DV-830[0].Page1[0].List3[0].MultilineCheckBox[0]
+      type: checkbox
+      label: Multiline Check Box
+      required: false
+      width: full
+    - name: check_box3
+      pdf_field_name: DV-830[0].Page1[0].List3[0].Li1[0].CheckBox3[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: text_field
+      pdf_field_name: DV-830[0].Page1[0].List3[0].Li1[0].TextField[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: check_box3_2
+      pdf_field_name: DV-830[0].Page1[0].List3[0].Li2[0].CheckBox3[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: text_field_2
+      pdf_field_name: DV-830[0].Page1[0].List3[0].Li2[0].TextField[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: check_box3_2
+      pdf_field_name: DV-830[0].Page1[0].List4[0].Li1[0].CheckBox3[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: protected_lawyer_name_ft1_2
+      pdf_field_name: DV-830[0].Page1[0].List4[0].Li1[0].ProtectedLawyerName_ft1[0]
+      type: text
+      label: Protected Lawyer Name Ft
+      required: false
+      width: full
+    - name: check_box3_2
+      pdf_field_name: DV-830[0].Page1[0].List5[0].Li1[0].CheckBox3[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: protected_lawyer_name_ft1_2
+      pdf_field_name: DV-830[0].Page1[0].List5[0].Li1[0].ProtectedLawyerName_ft1[0]
+      type: text
+      label: Protected Lawyer Name Ft
+      required: false
+      width: full
+    - name: protected_lawyer_name_ft1_2
+      pdf_field_name: DV-830[0].Page1[0].List6[0].Li1[0].ProtectedLawyerName_ft1[0]
+      type: text
+      label: Protected Lawyer Name Ft
+      required: false
+      width: full
+  signature_sub:
+    title: Signature Sub
+    fields:
+    - name: sig_date
+      pdf_field_name: DV-830[0].Page1[0].SignatureSub[0].#area[0].SigDate[0]
+      type: signature
+      label: Sig Date
+      required: false
+      width: full
+  last_page:
+    title: Last Page
+    fields:
+    - name: print
+      pdf_field_name: DV-830[0].#pageSet[0].LastPage[0].FooterButtons[0].Print[0]
+      type: checkbox
+      label: Print
+      required: false
+      width: full
+    - name: save
+      pdf_field_name: DV-830[0].#pageSet[0].LastPage[0].FooterButtons[0].Save[0]
+      type: checkbox
+      label: Save
+      required: false
+      width: full
+    - name: reset
+      pdf_field_name: DV-830[0].#pageSet[0].LastPage[0].FooterButtons[0].Reset[0]
+      type: checkbox
+      label: Reset
+      required: false
+      width: full
+    - name: warning
+      pdf_field_name: DV-830[0].#pageSet[0].LastPage[0].FooterButtons[0].Warning[0]
+      type: checkbox
+      label: Warning
+      required: false
+      width: full
+  header_sub:
+    title: Header Sub
+    fields:
+    - name: case_number_ft_2
+      pdf_field_name: DV-830[0].Page2[0].HeaderSub[0].Header2[0].CaseSub[0].CaseNumber[0].CaseNumber_ft[0]
+      type: text
+      label: Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+  clerk_sub:
+    title: Clerk Sub
+    fields:
+    - name: check_box_mail_del
+      pdf_field_name: DV-830[0].Page2[0].ClerkSub[0].Li1[0].Lista[0].Li1[0].CheckBoxMailDel[0]
+      type: checkbox
+      label: Check Box Mail Del
+      required: false
+      width: full
+    - name: check_box_mail_del_2
+      pdf_field_name: DV-830[0].Page2[0].ClerkSub[0].Li1[0].Lista[0].Li1[0].CheckBoxMailDel[1]
+      type: checkbox
+      label: Check Box Mail Del
+      required: false
+      width: full
+    - name: cert_a
+      pdf_field_name: DV-830[0].Page2[0].ClerkSub[0].Li1[0].Lista[0].Li2[0].CertA[0]
+      type: text
+      label: Cert A
+      required: false
+      width: full
+    - name: text_field_cert_a_cont
+      pdf_field_name: DV-830[0].Page2[0].ClerkSub[0].Li1[0].Lista[0].Li2[0].TextFieldCertACont[0]
+      type: text
+      label: Text Field Cert A Cont
+      required: false
+      width: full
+    - name: date_of_mailing
+      pdf_field_name: DV-830[0].Page2[0].ClerkSub[0].Li1[0].Lista[0].Li3[0].DateOfMailing[0]
+      type: date
+      label: Date Of Mailing
+      required: false
+      width: half
+    - name: check_box3_2
+      pdf_field_name: DV-830[0].Page2[0].ClerkSub[0].Li1[0].CheckBox3[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box3_2
+      pdf_field_name: DV-830[0].Page2[0].ClerkSub[0].Li2[0].CheckBox3[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box_del
+      pdf_field_name: DV-830[0].Page2[0].ClerkSub[0].Li2[0].List[0].Li1[0].CheckBoxDel[0]
+      type: checkbox
+      label: Check Box Del
+      required: false
+      width: full
+    - name: check_box_del_2
+      pdf_field_name: DV-830[0].Page2[0].ClerkSub[0].Li2[0].List[0].Li1[0].CheckBoxDel[1]
+      type: checkbox
+      label: Check Box Del
+      required: false
+      width: full
+    - name: cert_b
+      pdf_field_name: DV-830[0].Page2[0].ClerkSub[0].Li2[0].List[0].Li2[0].CertB[0]
+      type: text
+      label: Cert B
+      required: false
+      width: full
+    - name: text_field_cert_b_cont
+      pdf_field_name: DV-830[0].Page2[0].ClerkSub[0].Li2[0].List[0].Li2[0].TextFieldCertBCont[0]
+      type: text
+      label: Text Field Cert B Cont
+      required: false
+      width: full
+    - name: date_of_mailing_2
+      pdf_field_name: DV-830[0].Page2[0].ClerkSub[0].Li2[0].List[0].Li3[0].DateOfMailing[0]
+      type: date
+      label: Date Of Mailing
+      required: false
+      width: half
+    - name: check_box3_2
+      pdf_field_name: DV-830[0].Page2[0].ClerkSub[0].Li3[0].CheckBox3[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box_mail
+      pdf_field_name: DV-830[0].Page2[0].ClerkSub[0].Li3[0].List[0].Li1[0].CheckBoxMail[0]
+      type: checkbox
+      label: Check Box Mail
+      required: false
+      width: full
+    - name: check_box_mail_2
+      pdf_field_name: DV-830[0].Page2[0].ClerkSub[0].Li3[0].List[0].Li1[0].CheckBoxMail[1]
+      type: checkbox
+      label: Check Box Mail
+      required: false
+      width: full
+    - name: cert_c
+      pdf_field_name: DV-830[0].Page2[0].ClerkSub[0].Li3[0].List[0].Li2[0].CertC[0]
+      type: text
+      label: Cert C
+      required: false
+      width: full
+    - name: text_field_cert_c_cont
+      pdf_field_name: DV-830[0].Page2[0].ClerkSub[0].Li3[0].List[0].Li2[0].TextFieldCertCCont[0]
+      type: text
+      label: Text Field Cert C Cont
+      required: false
+      width: full
+    - name: date_of_mailing_2
+      pdf_field_name: DV-830[0].Page2[0].ClerkSub[0].Li3[0].List[0].Li3[0].DateOfMailing[0]
+      type: date
+      label: Date Of Mailing
+      required: false
+      width: half
+    - name: date2
+      pdf_field_name: DV-830[0].Page2[0].ClerkSub[0].Date2[0]
+      type: date
+      label: Date
+      required: false
+      width: half
+    - name: clerk
+      pdf_field_name: DV-830[0].Page2[0].ClerkSub[0].clerk[0]
+      type: text
+      label: Clerk
+      required: false
+      width: full

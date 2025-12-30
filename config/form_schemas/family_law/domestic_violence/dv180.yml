@@ -1,0 +1,586 @@
+---
+form:
+  code: DV-180
+  title: DV 180 Form
+  description: ''
+  category: family_law/domestic_violence
+  pdf_filename: dv180.pdf
+  fillable: true
+  instructions: ''
+sections:
+  t:
+    title: T
+    fields:
+    - name: t79
+      pdf_field_name: topmostSubform[0].Page1[0].T79[0]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t199
+      pdf_field_name: topmostSubform[0].Page1[0].T199[0]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t201
+      pdf_field_name: topmostSubform[0].Page1[0].T201[0]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t206
+      pdf_field_name: topmostSubform[0].Page1[0].T206[0]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t209
+      pdf_field_name: topmostSubform[0].Page1[0].T209[0]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t72
+      pdf_field_name: topmostSubform[0].Page1[0].T72[0]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t42
+      pdf_field_name: topmostSubform[0].Page1[0].T42[0]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t59
+      pdf_field_name: topmostSubform[0].Page1[0].T59[0]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t67
+      pdf_field_name: topmostSubform[0].Page1[0].T67[0]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t73
+      pdf_field_name: topmostSubform[0].Page1[0].T73[0]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t77
+      pdf_field_name: topmostSubform[0].Page1[0].T77[0]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t78
+      pdf_field_name: topmostSubform[0].Page1[0].T78[0]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t79_2
+      pdf_field_name: topmostSubform[0].Page1[0].T79[1]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t13
+      pdf_field_name: topmostSubform[0].Page2[0].T13[0]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t94
+      pdf_field_name: topmostSubform[0].Page2[0].T94[0]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t94_2
+      pdf_field_name: topmostSubform[0].Page2[0].T94[1]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t94_2
+      pdf_field_name: topmostSubform[0].Page2[0].T94[2]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t94_2
+      pdf_field_name: topmostSubform[0].Page2[0].T94[3]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t97
+      pdf_field_name: topmostSubform[0].Page2[0].T97[0]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t106
+      pdf_field_name: topmostSubform[0].Page2[0].T106[0]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t120
+      pdf_field_name: topmostSubform[0].Page2[0].T120[0]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t120_2
+      pdf_field_name: topmostSubform[0].Page2[0].T120[1]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t26
+      pdf_field_name: topmostSubform[0].Page3[0].T26[0]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t29
+      pdf_field_name: topmostSubform[0].Page3[0].T29[0]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t111
+      pdf_field_name: topmostSubform[0].Page3[0].T111[0]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t157
+      pdf_field_name: topmostSubform[0].Page3[0].T157[0]
+      type: text
+      label: T
+      required: false
+      width: full
+  fill_text17:
+    title: Fill Text17\
+    fields:
+    - name: fill_text17
+      pdf_field_name: topmostSubform[0].Page1[0].FillText17\.0[0]
+      type: text
+      label: Fill Text17\
+      required: false
+      width: full
+    - name: fill_text17_2
+      pdf_field_name: topmostSubform[0].Page1[0].FillText17\.1[0]
+      type: text
+      label: Fill Text17\
+      required: false
+      width: full
+    - name: fill_text17_2
+      pdf_field_name: topmostSubform[0].Page1[0].FillText17\.2[0]
+      type: text
+      label: Fill Text17\
+      required: false
+      width: full
+    - name: fill_text17_2
+      pdf_field_name: topmostSubform[0].Page1[0].FillText17\.3[0]
+      type: text
+      label: Fill Text17\
+      required: false
+      width: full
+    - name: fill_text17_2
+      pdf_field_name: topmostSubform[0].Page3[0].FillText17\.0[0]
+      type: text
+      label: Fill Text17\
+      required: false
+      width: full
+    - name: fill_text17_2
+      pdf_field_name: topmostSubform[0].Page3[0].FillText17\.1[0]
+      type: text
+      label: Fill Text17\
+      required: false
+      width: full
+    - name: fill_text17_2
+      pdf_field_name: topmostSubform[0].Page3[0].FillText17\.2[0]
+      type: text
+      label: Fill Text17\
+      required: false
+      width: full
+  fill_text18:
+    title: Fill Text18\
+    fields:
+    - name: fill_text18
+      pdf_field_name: topmostSubform[0].Page1[0].FillText18\.0[0]
+      type: text
+      label: Fill Text18\
+      required: false
+      width: full
+    - name: fill_text18_2
+      pdf_field_name: topmostSubform[0].Page1[0].FillText18\.1[0]
+      type: text
+      label: Fill Text18\
+      required: false
+      width: full
+    - name: fill_text18_2
+      pdf_field_name: topmostSubform[0].Page1[0].FillText18\.2[0]
+      type: text
+      label: Fill Text18\
+      required: false
+      width: full
+    - name: fill_text18_2
+      pdf_field_name: topmostSubform[0].Page1[0].FillText18\.3[0]
+      type: text
+      label: Fill Text18\
+      required: false
+      width: full
+    - name: fill_text18_2
+      pdf_field_name: topmostSubform[0].Page3[0].FillText18\.0[0]
+      type: text
+      label: Fill Text18\
+      required: false
+      width: full
+    - name: fill_text18_2
+      pdf_field_name: topmostSubform[0].Page3[0].FillText18\.1[0]
+      type: text
+      label: Fill Text18\
+      required: false
+      width: full
+    - name: fill_text18_2
+      pdf_field_name: topmostSubform[0].Page3[0].FillText18\.2[0]
+      type: text
+      label: Fill Text18\
+      required: false
+      width: full
+  fill_text19:
+    title: Fill Text19\
+    fields:
+    - name: fill_text19
+      pdf_field_name: topmostSubform[0].Page1[0].FillText19\.0[0]
+      type: text
+      label: Fill Text19\
+      required: false
+      width: full
+    - name: fill_text19_2
+      pdf_field_name: topmostSubform[0].Page1[0].FillText19\.1[0]
+      type: text
+      label: Fill Text19\
+      required: false
+      width: full
+    - name: fill_text19_2
+      pdf_field_name: topmostSubform[0].Page1[0].FillText19\.2[0]
+      type: text
+      label: Fill Text19\
+      required: false
+      width: full
+    - name: fill_text19_2
+      pdf_field_name: topmostSubform[0].Page1[0].FillText19\.3[0]
+      type: text
+      label: Fill Text19\
+      required: false
+      width: full
+    - name: fill_text19_2
+      pdf_field_name: topmostSubform[0].Page3[0].FillText19\.0[0]
+      type: text
+      label: Fill Text19\
+      required: false
+      width: full
+    - name: fill_text19_2
+      pdf_field_name: topmostSubform[0].Page3[0].FillText19\.1[0]
+      type: text
+      label: Fill Text19\
+      required: false
+      width: full
+    - name: fill_text19_2
+      pdf_field_name: topmostSubform[0].Page3[0].FillText19\.2[0]
+      type: text
+      label: Fill Text19\
+      required: false
+      width: full
+  court_info_ft:
+    title: Court Info Ft
+    fields:
+    - name: court_info_ft
+      pdf_field_name: topmostSubform[0].Page1[0].CourtInfo_ft[0]
+      type: text
+      label: Court Info Ft
+      required: false
+      width: full
+  case_number_ft:
+    title: Case Number Ft
+    fields:
+    - name: case_number_ft
+      pdf_field_name: topmostSubform[0].Page1[0].CaseNumber_ft[0]
+      type: text
+      label: Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+  parent_rel:
+    title: Parent Rel
+    fields:
+    - name: parent_rel
+      pdf_field_name: topmostSubform[0].Page1[0].ParentRel[0]
+      type: currency
+      label: Parent Rel
+      required: false
+      width: third
+    - name: parent_rel_2
+      pdf_field_name: topmostSubform[0].Page1[0].ParentRel[1]
+      type: currency
+      label: Parent Rel
+      required: false
+      width: third
+    - name: parent_rel_2
+      pdf_field_name: topmostSubform[0].Page1[0].ParentRel[2]
+      type: currency
+      label: Parent Rel
+      required: false
+      width: third
+  radio_button_list:
+    title: Radio Button List
+    fields:
+    - name: radio_button_list
+      pdf_field_name: topmostSubform[0].Page1[0].RadioButtonList[0]
+      type: text
+      label: Radio Button List
+      required: false
+      width: full
+    - name: radio_button_list_2
+      pdf_field_name: topmostSubform[0].Page1[0].RadioButtonList[1]
+      type: text
+      label: Radio Button List
+      required: false
+      width: full
+    - name: radio_button_list_2
+      pdf_field_name: topmostSubform[0].Page3[0].RadioButtonList[0]
+      type: text
+      label: Radio Button List
+      required: false
+      width: full
+    - name: radio_button_list_2
+      pdf_field_name: topmostSubform[0].Page3[0].RadioButtonList[1]
+      type: text
+      label: Radio Button List
+      required: false
+      width: full
+    - name: radio_button_list_2
+      pdf_field_name: topmostSubform[0].Page3[0].RadioButtonList[2]
+      type: text
+      label: Radio Button List
+      required: false
+      width: full
+  ag_hague_cert_cb:
+    title: Ag Hague Cert Cb
+    fields:
+    - name: ag_hague_cert_cb
+      pdf_field_name: topmostSubform[0].Page1[0].AGHagueCert_cb[0]
+      type: text
+      label: Ag Hague Cert Cb
+      required: false
+      width: full
+    - name: ag_hague_cert_cb_2
+      pdf_field_name: topmostSubform[0].Page1[0].AGHagueCert_cb[1]
+      type: text
+      label: Ag Hague Cert Cb
+      required: false
+      width: full
+    - name: ag_hague_cert_cb_2
+      pdf_field_name: topmostSubform[0].Page1[0].AGHagueCert_cb[2]
+      type: text
+      label: Ag Hague Cert Cb
+      required: false
+      width: full
+    - name: ag_hague_cert_cb_2
+      pdf_field_name: topmostSubform[0].Page1[0].AGHagueCert_cb[3]
+      type: text
+      label: Ag Hague Cert Cb
+      required: false
+      width: full
+    - name: ag_hague_cert_cb_2
+      pdf_field_name: topmostSubform[0].Page1[0].AGHagueCert_cb[4]
+      type: text
+      label: Ag Hague Cert Cb
+      required: false
+      width: full
+    - name: ag_hague_cert_cb_2
+      pdf_field_name: topmostSubform[0].Page2[0].AGHagueCert_cb[0]
+      type: text
+      label: Ag Hague Cert Cb
+      required: false
+      width: full
+    - name: ag_hague_cert_cb_2
+      pdf_field_name: topmostSubform[0].Page3[0].AGHagueCert_cb[0]
+      type: text
+      label: Ag Hague Cert Cb
+      required: false
+      width: full
+    - name: ag_hague_cert_cb_2
+      pdf_field_name: topmostSubform[0].Page3[0].AGHagueCert_cb[1]
+      type: text
+      label: Ag Hague Cert Cb
+      required: false
+      width: full
+    - name: ag_hague_cert_cb_2
+      pdf_field_name: topmostSubform[0].Page3[0].AGHagueCert_cb[2]
+      type: text
+      label: Ag Hague Cert Cb
+      required: false
+      width: full
+  item4_attach_cb:
+    title: Item4 Attach Cb
+    fields:
+    - name: item4attach_cb
+      pdf_field_name: topmostSubform[0].Page1[0].item4Attach_cb[0]
+      type: text
+      label: Item4 Attach Cb
+      required: false
+      width: full
+  field_name_cb:
+    title: Field Name Cb
+    fields:
+    - name: field_name_cb
+      pdf_field_name: topmostSubform[0].Page2[0].FieldName_cb[0]
+      type: text
+      label: Field Name Cb
+      required: false
+      width: full
+    - name: field_name_cb_2
+      pdf_field_name: topmostSubform[0].Page3[0].FieldName_cb[0]
+      type: text
+      label: Field Name Cb
+      required: false
+      width: full
+    - name: field_name_cb_2
+      pdf_field_name: topmostSubform[0].Page3[0].FieldName_cb[1]
+      type: text
+      label: Field Name Cb
+      required: false
+      width: full
+  pe_p2_header:
+    title: Pe P2 Header\
+    fields:
+    - name: your_name_ft
+      pdf_field_name: topmostSubform[0].Page2[0].PE_P2Header\.grp[0].YourName_ft[0]
+      type: text
+      label: Your Name Ft
+      required: false
+      width: full
+    - name: case_number_ft_2
+      pdf_field_name: topmostSubform[0].Page2[0].PE_P2Header\.grp[0].CaseNumber_ft[0]
+      type: text
+      label: Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+    - name: your_name_ft_2
+      pdf_field_name: topmostSubform[0].Page3[0].PE_P2Header\.grp[0].YourName_ft[0]
+      type: text
+      label: Your Name Ft
+      required: false
+      width: full
+    - name: case_number_ft_2
+      pdf_field_name: topmostSubform[0].Page3[0].PE_P2Header\.grp[0].CaseNumber_ft[0]
+      type: text
+      label: Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+  fill_text:
+    title: Fill Text
+    fields:
+    - name: fill_text27
+      pdf_field_name: topmostSubform[0].Page3[0].FillText27[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text27_2
+      pdf_field_name: topmostSubform[0].Page3[0].FillText27[1]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+  item10_attachment_cb:
+    title: Item10 Attachment Cb
+    fields:
+    - name: item10attachment_cb
+      pdf_field_name: topmostSubform[0].Page3[0].item10Attachment_cb[0]
+      type: text
+      label: Item10 Attachment Cb
+      required: false
+      width: full
+  sig_date:
+    title: Sig Date
+    fields:
+    - name: sig_date
+      pdf_field_name: topmostSubform[0].Page3[0].#area[3].SigDate[0]
+      type: date
+      label: Sig Date
+      required: false
+      width: half
+    - name: sig_date_2
+      pdf_field_name: topmostSubform[0].Page3[0].SigDate[1]
+      type: date
+      label: Sig Date
+      required: false
+      width: half
+    - name: sig_date_2
+      pdf_field_name: topmostSubform[0].Page3[0].SigDate[2]
+      type: date
+      label: Sig Date
+      required: false
+      width: half
+  int_n_ame1_ft:
+    title: Int N Ame1 Ft
+    fields:
+    - name: int_n_ame1_ft
+      pdf_field_name: topmostSubform[0].Page3[0].IntNAme1_ft[0]
+      type: text
+      label: Int N Ame1 Ft
+      required: false
+      width: full
+  int_name2_ft:
+    title: Int Name2 Ft
+    fields:
+    - name: int_name2_ft
+      pdf_field_name: topmostSubform[0].Page3[0].IntName2_ft[0]
+      type: text
+      label: Int Name2 Ft
+      required: false
+      width: full
+  on_date_ff:
+    title: On Date Ff
+    fields:
+    - name: on_date_ff
+      pdf_field_name: topmostSubform[0].Page3[0].on_date_ff[0]
+      type: date
+      label: On Date Ff
+      required: false
+      width: half
+  btn_footer_gp:
+    title: Btn Footer Gp
+    fields:
+    - name: print_bt
+      pdf_field_name: topmostSubform[0].Page3[0].BtnFooter_gp[0].Print_bt[0]
+      type: checkbox
+      label: Print Bt
+      required: false
+      width: full
+    - name: save_bt
+      pdf_field_name: topmostSubform[0].Page3[0].BtnFooter_gp[0].Save_bt[0]
+      type: checkbox
+      label: Save Bt
+      required: false
+      width: full
+    - name: reset_bt
+      pdf_field_name: topmostSubform[0].Page3[0].BtnFooter_gp[0].Reset_bt[0]
+      type: checkbox
+      label: Reset Bt
+      required: false
+      width: full

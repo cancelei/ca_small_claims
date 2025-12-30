@@ -1,0 +1,136 @@
+---
+form:
+  code: MC-600
+  title: MC 600 Form
+  description: ''
+  category: civil/miscellaneous
+  pdf_filename: mc600.pdf
+  fillable: true
+  instructions: ''
+sections:
+  footer_buttons:
+    title: Footer Buttons
+    fields:
+    - name: print
+      pdf_field_name: MC-600[0].#pageSet[0].Page1[0].FooterButtons[0].Print[0]
+      type: checkbox
+      label: Print
+      required: false
+      width: full
+    - name: save
+      pdf_field_name: MC-600[0].#pageSet[0].Page1[0].FooterButtons[0].Save[0]
+      type: checkbox
+      label: Save
+      required: false
+      width: full
+    - name: reset
+      pdf_field_name: MC-600[0].#pageSet[0].Page1[0].FooterButtons[0].Reset[0]
+      type: checkbox
+      label: Reset
+      required: false
+      width: full
+  p1_caption:
+    title: P1 Caption
+    fields:
+    - name: crt_county
+      pdf_field_name: MC-600[0].Page1[0].P1Caption[0].CourtInfo[0].CrtCounty[0]
+      type: number
+      label: Crt County
+      required: false
+      width: third
+    - name: crt_street
+      pdf_field_name: MC-600[0].Page1[0].P1Caption[0].CourtInfo[0].CrtStreet[0]
+      type: address
+      label: Crt Street
+      required: false
+      width: full
+    - name: crt_mailing_add
+      pdf_field_name: MC-600[0].Page1[0].P1Caption[0].CourtInfo[0].CrtMailingAdd[0]
+      type: address
+      label: Crt Mailing Add
+      required: false
+      width: full
+    - name: crt_city_zip
+      pdf_field_name: MC-600[0].Page1[0].P1Caption[0].CourtInfo[0].CrtCityZip[0]
+      type: address
+      label: Crt City Zip
+      required: false
+      width: full
+    - name: crt_branch
+      pdf_field_name: MC-600[0].Page1[0].P1Caption[0].CourtInfo[0].CrtBranch[0]
+      type: text
+      label: Crt Branch
+      required: false
+      width: full
+  item:
+    title: Item
+    fields:
+    - name: start_date_tf
+      pdf_field_name: MC-600[0].Page1[0].Item1[0].StartDate_tf[0]
+      type: date
+      label: Start Date Tf
+      required: false
+      width: half
+    - name: end_date_tf
+      pdf_field_name: MC-600[0].Page1[0].Item1[0].EndDate_tf[0]
+      type: date
+      label: End Date Tf
+      required: false
+      width: half
+    - name: attachment_comp_ab
+      pdf_field_name: MC-600[0].Page1[0].Item1[0].AttachmentCompAB[0]
+      type: text
+      label: Attachment Comp Ab
+      required: false
+      width: full
+    - name: attachment_comp_ab_2
+      pdf_field_name: MC-600[0].Page1[0].Item1[0].AttachmentCompAB[1]
+      type: text
+      label: Attachment Comp Ab
+      required: false
+      width: full
+    - name: pp_attached
+      pdf_field_name: MC-600[0].Page1[0].Item1[0].PPAttached[0]
+      type: text
+      label: Pp Attached
+      required: false
+      width: full
+    - name: prob_cons_tf
+      pdf_field_name: MC-600[0].Page1[0].Item2[0].ProbCons_tf[0]
+      type: text
+      label: Prob Cons Tf
+      required: false
+      width: full
+    - name: lps_cons_tf
+      pdf_field_name: MC-600[0].Page1[0].Item2[0].LPSCons_tf[0]
+      type: text
+      label: Lps Cons Tf
+      required: false
+      width: full
+    - name: ist_cons_tf
+      pdf_field_name: MC-600[0].Page1[0].Item2[0].ISTCons_tf[0]
+      type: text
+      label: Ist Cons Tf
+      required: false
+      width: full
+    - name: ngigd_tf
+      pdf_field_name: MC-600[0].Page1[0].Item2[0].NGIGD_tf[0]
+      type: text
+      label: Ngigd Tf
+      required: false
+      width: full
+  clerk_cert_sf:
+    title: Clerk Cert Sf
+    fields:
+    - name: clerk_sig_date
+      pdf_field_name: MC-600[0].Page1[0].ClerkCert_sf[0].ClerkSigDate[0]
+      type: date
+      label: Clerk Sig Date
+      required: false
+      width: half
+    - name: clerk_nm_tf
+      pdf_field_name: MC-600[0].Page1[0].ClerkCert_sf[0].ClerkNm_tf[0]
+      type: text
+      label: Clerk Nm Tf
+      required: false
+      width: full

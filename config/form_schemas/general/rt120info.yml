@@ -1,0 +1,49 @@
+---
+form:
+  code: RT-120INFO
+  title: RT 120INFO Form
+  description: ''
+  category: general
+  pdf_filename: rt120info.pdf
+  fillable: true
+  instructions: ''
+sections:
+  left_sub:
+    title: Left Sub
+    fields:
+    - name: crt_forms
+      pdf_field_name: RT-120-INFO[0].Page1[0].leftSub[0].Disagree[0].crtForms[0]
+      type: checkbox
+      label: Crt Forms
+      required: false
+      width: full
+  mp_last:
+    title: Mp Last
+    fields:
+    - name: print
+      pdf_field_name: RT-120-INFO[0].#pageSet[0].MPLast[0].Print[0]
+      type: checkbox
+      label: Print
+      required: false
+      width: full
+    - name: save
+      pdf_field_name: RT-120-INFO[0].#pageSet[0].MPLast[0].Save[0]
+      type: checkbox
+      label: Save
+      required: false
+      width: full
+    - name: reset
+      pdf_field_name: RT-120-INFO[0].#pageSet[0].MPLast[0].Reset[0]
+      type: checkbox
+      label: Reset
+      required: false
+      width: full
+  interpreter:
+    title: Interpreter
+    fields:
+    - name: selfhelp_int
+      pdf_field_name: RT-120-INFO[0].Page2[0].Interpreter[0].selfhelpInt[0]
+      type: checkbox
+      label: Selfhelp Int
+      required: false
+      width: full

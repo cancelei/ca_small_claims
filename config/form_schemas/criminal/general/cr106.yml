@@ -1,0 +1,363 @@
+---
+form:
+  code: CR-106
+  title: CR 106 Form
+  description: ''
+  category: criminal/general
+  pdf_filename: cr106.pdf
+  fillable: true
+  instructions: ''
+sections:
+  right_caption:
+    title: Right Caption
+    fields:
+    - name: court_info
+      pdf_field_name: CR-106[0].Page1[0].RightCaption[0].CourtInfo[0]
+      type: text
+      label: Court Info
+      required: false
+      width: full
+    - name: case_number
+      pdf_field_name: CR-106[0].Page1[0].RightCaption[0].CaseNumber[0]
+      type: text
+      label: Case Number
+      required: false
+      width: full
+      shared_key: case:number
+    - name: tc_case_name_ft
+      pdf_field_name: CR-106[0].Page1[0].RightCaption[0].TCCaseName_ft[0]
+      type: text
+      label: Tc Case Name Ft
+      required: false
+      width: full
+  appellant_lawyer_mailing_address:
+    title: Appellant Lawyer Mailing Address
+    fields:
+    - name: appellant_lawyer_mailing_address
+      pdf_field_name: CR-106[0].Page1[0].#area[2].AppellantLawyerMailingAddress[0]
+      type: address
+      label: Appellant Lawyer Mailing Address
+      required: false
+      width: full
+  appellant_lawyer_mailing_city:
+    title: Appellant Lawyer Mailing City
+    fields:
+    - name: appellant_lawyer_mailing_city
+      pdf_field_name: CR-106[0].Page1[0].#area[2].AppellantLawyerMailingCity[0]
+      type: address
+      label: Appellant Lawyer Mailing City
+      required: false
+      width: full
+  appellant_lawyer_mailing_state:
+    title: Appellant Lawyer Mailing State
+    fields:
+    - name: appellant_lawyer_mailing_state
+      pdf_field_name: CR-106[0].Page1[0].#area[2].AppellantLawyerMailingState[0]
+      type: address
+      label: Appellant Lawyer Mailing State
+      required: false
+      width: full
+  appellant_lawyer_mailing_zip:
+    title: Appellant Lawyer Mailing Zip
+    fields:
+    - name: appellant_lawyer_mailing_zip
+      pdf_field_name: CR-106[0].Page1[0].#area[2].AppellantLawyerMailingZip[0]
+      type: address
+      label: Appellant Lawyer Mailing Zip
+      required: false
+      width: full
+  text_field:
+    title: Text Field
+    fields:
+    - name: text_field6
+      pdf_field_name: CR-106[0].Page1[0].TextField6[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+  fill_text:
+    title: Fill Text
+    fields:
+    - name: fill_text59
+      pdf_field_name: CR-106[0].Page1[0].FillText59[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text181
+      pdf_field_name: CR-106[0].Page1[0].FillText181[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text72
+      pdf_field_name: CR-106[0].Page1[0].FillText72[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text72_2
+      pdf_field_name: CR-106[0].Page1[0].FillText72[1]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text72_2
+      pdf_field_name: CR-106[0].Page1[0].FillText72[2]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text39
+      pdf_field_name: CR-106[0].Page2[0].FillText39[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text72_2
+      pdf_field_name: CR-106[0].Page2[0].FillText72[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text76
+      pdf_field_name: CR-106[0].Page2[0].FillText76[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text39_2
+      pdf_field_name: CR-106[0].Page2[0].FillText39[1]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text72_2
+      pdf_field_name: CR-106[0].Page2[0].FillText72[1]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text76_2
+      pdf_field_name: CR-106[0].Page2[0].FillText76[1]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+  srv_mailing_address:
+    title: Srv Mailing Address
+    fields:
+    - name: srv_mailing_address1
+      pdf_field_name: CR-106[0].Page1[0].SrvMailingAddress1[0]
+      type: address
+      label: Srv Mailing Address
+      required: false
+      width: full
+    - name: srv_mailing_address2
+      pdf_field_name: CR-106[0].Page1[0].#area[8].SrvMailingAddress2[0]
+      type: address
+      label: Srv Mailing Address
+      required: false
+      width: full
+    - name: srv_mailing_address3
+      pdf_field_name: CR-106[0].Page2[0].#area[1].SrvMailingAddress3[0]
+      type: address
+      label: Srv Mailing Address
+      required: false
+      width: full
+    - name: srv_mailing_address4
+      pdf_field_name: CR-106[0].Page2[0].#area[2].SrvMailingAddress4[0]
+      type: address
+      label: Srv Mailing Address
+      required: false
+      width: full
+  srv_mailing_city:
+    title: Srv Mailing City
+    fields:
+    - name: srv_mailing_city1
+      pdf_field_name: CR-106[0].Page1[0].#area[7].SrvMailingCity1[0]
+      type: address
+      label: Srv Mailing City
+      required: false
+      width: full
+    - name: srv_mailing_city2
+      pdf_field_name: CR-106[0].Page1[0].#area[8].SrvMailingCity2[0]
+      type: address
+      label: Srv Mailing City
+      required: false
+      width: full
+    - name: srv_mailing_city3
+      pdf_field_name: CR-106[0].Page2[0].#area[1].SrvMailingCity3[0]
+      type: address
+      label: Srv Mailing City
+      required: false
+      width: full
+    - name: srv_mailing_city4
+      pdf_field_name: CR-106[0].Page2[0].#area[2].SrvMailingCity4[0]
+      type: address
+      label: Srv Mailing City
+      required: false
+      width: full
+  srv_mailing_state:
+    title: Srv Mailing State
+    fields:
+    - name: srv_mailing_state1
+      pdf_field_name: CR-106[0].Page1[0].#area[7].SrvMailingState1[0]
+      type: address
+      label: Srv Mailing State
+      required: false
+      width: full
+    - name: srv_mailing_state2
+      pdf_field_name: CR-106[0].Page1[0].#area[8].SrvMailingState2[0]
+      type: address
+      label: Srv Mailing State
+      required: false
+      width: full
+    - name: srv_mailing_state3
+      pdf_field_name: CR-106[0].Page2[0].#area[1].SrvMailingState3[0]
+      type: address
+      label: Srv Mailing State
+      required: false
+      width: full
+    - name: srv_mailing_state4
+      pdf_field_name: CR-106[0].Page2[0].#area[2].SrvMailingState4[0]
+      type: address
+      label: Srv Mailing State
+      required: false
+      width: full
+  srv_mailing_zip:
+    title: Srv Mailing Zip
+    fields:
+    - name: srv_mailing_zip1
+      pdf_field_name: CR-106[0].Page1[0].#area[7].SrvMailingZip1[0]
+      type: address
+      label: Srv Mailing Zip
+      required: false
+      width: full
+    - name: srv_mailing_zip2
+      pdf_field_name: CR-106[0].Page1[0].#area[8].SrvMailingZip2[0]
+      type: address
+      label: Srv Mailing Zip
+      required: false
+      width: full
+    - name: srv_mailing_zip3
+      pdf_field_name: CR-106[0].Page2[0].#area[1].SrvMailingZip3[0]
+      type: address
+      label: Srv Mailing Zip
+      required: false
+      width: full
+    - name: srv_mailing_zip4
+      pdf_field_name: CR-106[0].Page2[0].#area[2].SrvMailingZip4[0]
+      type: address
+      label: Srv Mailing Zip
+      required: false
+      width: full
+  check_box:
+    title: Check Box
+    fields:
+    - name: check_box33
+      pdf_field_name: CR-106[0].Page1[0].CheckBox33[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box33_2
+      pdf_field_name: CR-106[0].Page2[0].CheckBox33[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+  check_boxhome:
+    title: Check Boxhome
+    fields:
+    - name: check_boxhome1
+      pdf_field_name: CR-106[0].Page1[0].CheckBoxhome1[0]
+      type: checkbox
+      label: Check Boxhome
+      required: false
+      width: full
+    - name: check_boxhome1_2
+      pdf_field_name: CR-106[0].Page1[0].CheckBoxhome1[1]
+      type: checkbox
+      label: Check Boxhome
+      required: false
+      width: full
+  check_box28b:
+    title: Check Box28b
+    fields:
+    - name: check_box28b
+      pdf_field_name: CR-106[0].Page1[0].CheckBox28b[0]
+      type: checkbox
+      label: Check Box28b
+      required: false
+      width: full
+    - name: check_box28b_2
+      pdf_field_name: CR-106[0].Page1[0].CheckBox28b[1]
+      type: checkbox
+      label: Check Box28b
+      required: false
+      width: full
+  px_caption:
+    title: Px Caption
+    fields:
+    - name: case_number_2
+      pdf_field_name: CR-106[0].Page2[0].PxCaption[0].CaseNumber[0]
+      type: text
+      label: Case Number
+      required: false
+      width: full
+      shared_key: case:number
+  sig_date:
+    title: Sig Date
+    fields:
+    - name: sig_date
+      pdf_field_name: CR-106[0].Page2[0].SigDate[0]
+      type: date
+      label: Sig Date
+      required: false
+      width: half
+  sig_name:
+    title: Sig Name
+    fields:
+    - name: sig_name
+      pdf_field_name: CR-106[0].Page2[0].SigName[0]
+      type: text
+      label: Sig Name
+      required: false
+      width: full
+  print:
+    title: Print
+    fields:
+    - name: print
+      pdf_field_name: CR-106[0].#area[0].Print[0]
+      type: checkbox
+      label: Print
+      required: false
+      width: full
+  save:
+    title: Save
+    fields:
+    - name: save
+      pdf_field_name: CR-106[0].#area[0].Save[0]
+      type: checkbox
+      label: Save
+      required: false
+      width: full
+  reset:
+    title: Reset
+    fields:
+    - name: reset
+      pdf_field_name: CR-106[0].#area[0].Reset[0]
+      type: checkbox
+      label: Reset
+      required: false
+      width: full
+  warning:
+    title: Warning
+    fields:
+    - name: warning
+      pdf_field_name: CR-106[0].#area[0].Warning[0]
+      type: checkbox
+      label: Warning
+      required: false
+      width: full

@@ -1,0 +1,285 @@
+---
+form:
+  code: SC-101
+  title: SC 101 Form
+  description: ''
+  category: small_claims/general
+  pdf_filename: sc101.pdf
+  fillable: true
+  instructions: ''
+sections:
+  page_area:
+    title: Page Area
+    fields:
+    - name: court_link
+      pdf_field_name: SC-101[0].#pageSet[0].PageArea1[0].Footer1[0].CourtLink[0]
+      type: text
+      label: Court Link
+      required: false
+      width: full
+  footer:
+    title: Footer
+    fields:
+    - name: print
+      pdf_field_name: SC-101[0].#pageSet[0].Page2[0].Footer2[0].FooterButtons[0].Print[0]
+      type: text
+      label: Print
+      required: false
+      width: full
+    - name: save
+      pdf_field_name: SC-101[0].#pageSet[0].Page2[0].Footer2[0].FooterButtons[0].Save[0]
+      type: text
+      label: Save
+      required: false
+      width: full
+    - name: reset
+      pdf_field_name: SC-101[0].#pageSet[0].Page2[0].Footer2[0].FooterButtons[0].Reset[0]
+      type: text
+      label: Reset
+      required: false
+      width: full
+    - name: warning
+      pdf_field_name: SC-101[0].#pageSet[0].Page2[0].Footer2[0].FooterButtons[0].Warning[0]
+      type: text
+      label: Warning
+      required: false
+      width: full
+  header:
+    title: Header
+    fields:
+    - name: case_number_ft
+      pdf_field_name: SC-101[0].Page1[0].Header[0].CaseNumber_ft[0]
+      type: text
+      label: Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+    - name: fill_text48
+      pdf_field_name: SC-101[0].Page2[0].Header[0].FillText48[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: case_number_ft_2
+      pdf_field_name: SC-101[0].Page2[0].Header[0].CaseNumber_ft[0]
+      type: text
+      label: Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+  list:
+    title: List
+    fields:
+    - name: amount1
+      pdf_field_name: SC-101[0].Page1[0].List1[0].item1[0].Amount1[0]
+      type: currency
+      label: Amount
+      required: false
+      width: third
+    - name: ch1
+      pdf_field_name: SC-101[0].Page1[0].List2[0].item2[0].Ch1[0]
+      type: checkbox
+      label: Ch
+      required: false
+      width: full
+    - name: ch1_2
+      pdf_field_name: SC-101[0].Page1[0].List2[0].item2[0].Ch1[1]
+      type: checkbox
+      label: Ch
+      required: false
+      width: full
+    - name: ch3
+      pdf_field_name: SC-101[0].Page1[0].List3[0].Lia[0].Ch3[0]
+      type: checkbox
+      label: Ch
+      required: false
+      width: full
+    - name: ch2
+      pdf_field_name: SC-101[0].Page1[0].List3[0].Lia[0].ch2[0]
+      type: checkbox
+      label: Ch
+      required: false
+      width: full
+    - name: ch2_2
+      pdf_field_name: SC-101[0].Page1[0].List3[0].Lia[0].ch2[1]
+      type: checkbox
+      label: Ch
+      required: false
+      width: full
+    - name: fill_text3
+      pdf_field_name: SC-101[0].Page1[0].List3[0].Lia[0].FillText3[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: ch3_2
+      pdf_field_name: SC-101[0].Page1[0].List3[0].Lib[0].Ch3[0]
+      type: checkbox
+      label: Ch
+      required: false
+      width: full
+    - name: fill_text4
+      pdf_field_name: SC-101[0].Page1[0].List4[0].item4[0].FillText4[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: check_box1
+      pdf_field_name: SC-101[0].Page1[0].List5[0].Lia[0].CheckBox1[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box2
+      pdf_field_name: SC-101[0].Page1[0].List5[0].Lib[0].CheckBox2[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: ch5
+      pdf_field_name: SC-101[0].Page1[0].List5[0].Lib[0].SubLib[0].Lii1[0].ch5[0]
+      type: checkbox
+      label: Ch
+      required: false
+      width: full
+    - name: ch5_2
+      pdf_field_name: SC-101[0].Page1[0].List5[0].Lib[0].SubLib[0].Lii2[0].ch5[0]
+      type: checkbox
+      label: Ch
+      required: false
+      width: full
+    - name: ch5_2
+      pdf_field_name: SC-101[0].Page1[0].List5[0].Lib[0].SubLib[0].Lii3[0].ch5[0]
+      type: checkbox
+      label: Ch
+      required: false
+      width: full
+    - name: fill_text4_2
+      pdf_field_name: SC-101[0].Page1[0].List5[0].Lib[0].SubLib[0].FillText4[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text5
+      pdf_field_name: SC-101[0].Page1[0].List5[0].Lib[0].SubLib[0].FillText5[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: check_box3
+      pdf_field_name: SC-101[0].Page1[0].List5[0].Lic[0].CheckBox3[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: ch4
+      pdf_field_name: SC-101[0].Page1[0].List5[0].Lic[0].SubLic[0].Lii1[0].ch4[0]
+      type: checkbox
+      label: Ch
+      required: false
+      width: full
+    - name: ch4_2
+      pdf_field_name: SC-101[0].Page1[0].List5[0].Lic[0].SubLic[0].Lii2[0].ch4[0]
+      type: checkbox
+      label: Ch
+      required: false
+      width: full
+    - name: ch4_2
+      pdf_field_name: SC-101[0].Page1[0].List5[0].Lic[0].SubLic[0].Lii3[0].ch4[0]
+      type: checkbox
+      label: Ch
+      required: false
+      width: full
+    - name: ch4_2
+      pdf_field_name: SC-101[0].Page1[0].List5[0].Lic[0].SubLic[0].Lii4[0].ch4[0]
+      type: checkbox
+      label: Ch
+      required: false
+      width: full
+    - name: ch4_2
+      pdf_field_name: SC-101[0].Page1[0].List5[0].Lic[0].SubLic[0].Lii5[0].ch4[0]
+      type: checkbox
+      label: Ch
+      required: false
+      width: full
+    - name: ch4_2
+      pdf_field_name: SC-101[0].Page1[0].List5[0].Lic[0].SubLic[0].Lii6[0].ch4[0]
+      type: checkbox
+      label: Ch
+      required: false
+      width: full
+    - name: fill_text7
+      pdf_field_name: SC-101[0].Page1[0].List5[0].Lic[0].FillText7[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text8
+      pdf_field_name: SC-101[0].Page1[0].List5[0].Lic[0].FillText8[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: check_box8
+      pdf_field_name: SC-101[0].Page1[0].List5[0].Lic[0].CheckBox8[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box9
+      pdf_field_name: SC-101[0].Page1[0].List5[0].Lid[0].CheckBox9[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: fill_text12
+      pdf_field_name: SC-101[0].Page1[0].List6[0].item6[0].FillText12[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: ch15
+      pdf_field_name: SC-101[0].Page1[0].List6[0].item6[0].ch15[0]
+      type: checkbox
+      label: Ch
+      required: false
+      width: full
+    - name: ch15_2
+      pdf_field_name: SC-101[0].Page1[0].List6[0].item6[0].ch15[1]
+      type: checkbox
+      label: Ch
+      required: false
+      width: full
+    - name: fill_text15
+      pdf_field_name: SC-101[0].Page1[0].List7[0].item7[0].FillText15[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text16
+      pdf_field_name: SC-101[0].Page1[0].List7[0].item7[0].FillText16[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: calbar
+      pdf_field_name: SC-101[0].Page2[0].List11[0].Li1[0].calbar[0]
+      type: text
+      label: Calbar
+      required: false
+      width: full
+  sign:
+    title: Sign
+    fields:
+    - name: fill_text32
+      pdf_field_name: SC-101[0].Page1[0].Sign[0].FillText32[0]
+      type: signature
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text31
+      pdf_field_name: SC-101[0].Page1[0].Sign[0].FillText31[0]
+      type: signature
+      label: Fill Text
+      required: false
+      width: full

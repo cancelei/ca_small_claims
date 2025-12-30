@@ -1,0 +1,749 @@
+---
+form:
+  code: FL-485
+  title: FL 485 Form
+  description: ''
+  category: family_law/general
+  pdf_filename: fl485.pdf
+  fillable: true
+  instructions: ''
+sections:
+  general:
+    title: General
+    fields:
+    - name: text
+      pdf_field_name: TEXT.0.3.1.5.3.0.1.0
+      type: text
+      label: Text
+      required: false
+      width: full
+    - name: text_2
+      pdf_field_name: TEXT.0.3.1.5.3.0.1.1.0
+      type: text
+      label: Text
+      required: false
+      width: full
+    - name: text_2
+      pdf_field_name: TEXT.0.3.1.5.3.0.1.1.1.1.0.0
+      type: text
+      label: Text
+      required: false
+      width: full
+    - name: text_2
+      pdf_field_name: TEXT.0.3.1.5.3.0.1.1.1.1.0.1
+      type: text
+      label: Text
+      required: false
+      width: full
+    - name: text_2
+      pdf_field_name: TEXT.0.3.1.5.3.0.1.1.1.1.0.2
+      type: text
+      label: Text
+      required: false
+      width: full
+    - name: text_2
+      pdf_field_name: TEXT.0.3.1.5.3.0.1.1.1.1.0.3
+      type: text
+      label: Text
+      required: false
+      width: full
+    - name: text_2
+      pdf_field_name: TEXT.0.3.1.5.3.0.1.1.1.1.0.4
+      type: text
+      label: Text
+      required: false
+      width: full
+    - name: text_2
+      pdf_field_name: TEXT.0.3.1.5.3.0.1.1.1.1.0.5
+      type: text
+      label: Text
+      required: false
+      width: full
+    - name: text_2
+      pdf_field_name: TEXT.0.3.1.5.3.0.1.1.1.1.0.6
+      type: text
+      label: Text
+      required: false
+      width: full
+    - name: text_2
+      pdf_field_name: TEXT.0.3.1.5.3.0.1.1.1.1.0.7
+      type: text
+      label: Text
+      required: false
+      width: full
+    - name: text_2
+      pdf_field_name: TEXT.0.3.1.5.3.0.1.1.1.1.0.8.0
+      type: text
+      label: Text
+      required: false
+      width: full
+    - name: text_2
+      pdf_field_name: TEXT.0.3.1.5.3.0.1.1.1.1.0.8.1.0
+      type: text
+      label: Text
+      required: false
+      width: full
+    - name: text_2
+      pdf_field_name: TEXT.0.3.1.5.3.0.1.1.1.1.0.8.1.1.2.0.1.0.0
+      type: text
+      label: Text
+      required: false
+      width: full
+    - name: text_2
+      pdf_field_name: TEXT.0.3.1.5.3.0.1.1.1.1.0.8.1.1.2.0.1.0.1
+      type: text
+      label: Text
+      required: false
+      width: full
+    - name: text_2
+      pdf_field_name: TEXT.0.3.1.5.3.0.1.1.1.1.0.8.1.1.2.0.1.0.2
+      type: text
+      label: Text
+      required: false
+      width: full
+    - name: text_2
+      pdf_field_name: TEXT.0.3.1.5.3.0.1.1.1.1.0.8.1.1.2.0.1.0.3.1.1.0
+      type: text
+      label: Text
+      required: false
+      width: full
+    - name: text_2
+      pdf_field_name: TEXT.0.3.1.5.3.0.1.1.1.1.0.8.1.1.2.0.1.0.3.1.1.1
+      type: text
+      label: Text
+      required: false
+      width: full
+    - name: text_2
+      pdf_field_name: TEXT.0.3.1.5.3.0.1.1.1.1.0.8.1.1.2.0.1.0.3.1.0.0
+      type: text
+      label: Text
+      required: false
+      width: full
+    - name: text_2
+      pdf_field_name: TEXT.0.3.1.5.3.0.1.1.1.1.0.8.1.1.2.0.1.0.3.1.0.1.0
+      type: text
+      label: Text
+      required: false
+      width: full
+    - name: text_2
+      pdf_field_name: TEXT.0.3.1.5.3.0.1.1.1.1.0.8.1.1.2.0.1.0.3.1.0.1.1.0
+      type: text
+      label: Text
+      required: false
+      width: full
+    - name: text_2
+      pdf_field_name: TEXT.0.3.1.5.3.0.1.1.1.1.0.8.1.1.2.0.1.0.3.1.0.1.1.1.0.0
+      type: text
+      label: Text
+      required: false
+      width: full
+    - name: text_2
+      pdf_field_name: TEXT.0.3.1.5.3.0.1.1.1.1.0.8.1.1.2.0.1.0.3.1.0.1.1.1.0.1.1.0
+      type: text
+      label: Text
+      required: false
+      width: full
+    - name: text_2
+      pdf_field_name: TEXT.0.3.1.5.3.0.1.1.1.1.0.8.1.1.2.0.1.0.3.1.0.1.1.1.0.1.0.0
+      type: text
+      label: Text
+      required: false
+      width: full
+    - name: text_2
+      pdf_field_name: TEXT.0.3.1.5.3.0.1.1.1.1.0.8.1.1.2.0.1.0.3.1.0.1.1.1.0.1.0.1.0
+      type: text
+      label: Text
+      required: false
+      width: full
+    - name: text_2
+      pdf_field_name: TEXT.0.3.1.5.3.0.1.1.1.1.0.8.1.1.2.0.1.0.3.1.0.1.1.1.0.1.0.1.1.0
+      type: text
+      label: Text
+      required: false
+      width: full
+    - name: text_2
+      pdf_field_name: TEXT.0.3.1.5.3.0.1.1.1.1.0.8.1.1.2.0.1.0.3.1.0.1.1.1.0.1.0.1.1.1.0
+      type: text
+      label: Text
+      required: false
+      width: full
+    - name: text_2
+      pdf_field_name: TEXT.0.3.1.5.3.0.1.1.1.1.0.8.1.1.2.0.1.0.3.1.0.1.1.1.1.0.0
+      type: text
+      label: Text
+      required: false
+      width: full
+    - name: text_2
+      pdf_field_name: TEXT.0.3.1.5.3.0.1.1.1.1.0.8.1.1.2.0.1.1.0.0
+      type: text
+      label: Text
+      required: false
+      width: full
+    - name: text_2
+      pdf_field_name: TEXT.0.3.1.5.3.0.1.1.1.1.0.8.1.1.2.0.1.1.0.1
+      type: text
+      label: Text
+      required: false
+      width: full
+    - name: text_2
+      pdf_field_name: TEXT.0.3.1.5.3.0.1.1.1.1.0.8.1.1.2.0.1.1.0.2
+      type: text
+      label: Text
+      required: false
+      width: full
+    - name: text_2
+      pdf_field_name: TEXT.0.3.1.5.3.0.1.1.1.1.1.0
+      type: text
+      label: Text
+      required: false
+      width: full
+    - name: text_2
+      pdf_field_name: TEXT.0.3.1.5.3.0.1.1.1.1.1.1
+      type: text
+      label: Text
+      required: false
+      width: full
+    - name: text_2
+      pdf_field_name: TEXT.0.3.1.5.3.0.1.1.1.1.1.2
+      type: text
+      label: Text
+      required: false
+      width: full
+    - name: text_2
+      pdf_field_name: TEXT.0.3.1.5.3.0.1.1.1.1.1.3
+      type: text
+      label: Text
+      required: false
+      width: full
+    - name: text_2
+      pdf_field_name: TEXT.0.3.1.5.3.0.1.1.1.1.1.4
+      type: text
+      label: Text
+      required: false
+      width: full
+    - name: text_2
+      pdf_field_name: TEXT.0.3.1.5.3.0.1.1.1.1.1.5
+      type: text
+      label: Text
+      required: false
+      width: full
+    - name: text_2
+      pdf_field_name: TEXT.0.3.1.5.3.0.1.1.1.1.1.6
+      type: text
+      label: Text
+      required: false
+      width: full
+    - name: text_2
+      pdf_field_name: TEXT.0.3.1.5.3.0.1.1.1.1.1.7
+      type: text
+      label: Text
+      required: false
+      width: full
+    - name: text_2
+      pdf_field_name: TEXT.0.3.1.5.3.0.1.1.1.1.1.8.0
+      type: text
+      label: Text
+      required: false
+      width: full
+    - name: text_2
+      pdf_field_name: TEXT.0.3.1.5.3.0.1.1.1.1.1.8.1
+      type: text
+      label: Text
+      required: false
+      width: full
+    - name: text_2
+      pdf_field_name: TEXT.0.3.1.5.3.0.1.1.1.0.1.0.0
+      type: text
+      label: Text
+      required: false
+      width: full
+    - name: text_2
+      pdf_field_name: TEXT.0.3.1.5.3.0.1.1.1.0.1.0.1
+      type: text
+      label: Text
+      required: false
+      width: full
+    - name: text_2
+      pdf_field_name: TEXT.0.3.1.5.3.0.1.1.1.0.1.0.2
+      type: text
+      label: Text
+      required: false
+      width: full
+    - name: text_2
+      pdf_field_name: TEXT.0.3.1.5.3.0.1.1.1.0.1.0.3
+      type: text
+      label: Text
+      required: false
+      width: full
+    - name: text_2
+      pdf_field_name: TEXT.0.3.1.5.3.0.1.1.1.0.1.0.4
+      type: text
+      label: Text
+      required: false
+      width: full
+    - name: text_2
+      pdf_field_name: TEXT.0.3.1.5.3.0.1.1.1.0.1.0.5
+      type: text
+      label: Text
+      required: false
+      width: full
+    - name: text_2
+      pdf_field_name: TEXT.0.3.1.5.3.0.1.1.1.0.1.0.6
+      type: text
+      label: Text
+      required: false
+      width: full
+    - name: text_2
+      pdf_field_name: TEXT.0.3.1.5.3.0.1.1.1.0.1.0.7
+      type: text
+      label: Text
+      required: false
+      width: full
+    - name: text_2
+      pdf_field_name: TEXT.0.3.1.5.3.0.1.1.1.0.1.0.8
+      type: text
+      label: Text
+      required: false
+      width: full
+    - name: text_2
+      pdf_field_name: TEXT.0.3.1.5.3.0.1.1.1.0.1.1.0
+      type: text
+      label: Text
+      required: false
+      width: full
+    - name: text_2
+      pdf_field_name: TEXT.0.3.1.5.3.0.1.1.1.0.1.1.1
+      type: text
+      label: Text
+      required: false
+      width: full
+    - name: text_2
+      pdf_field_name: TEXT.0.3.1.5.3.0.1.1.1.0.1.1.2
+      type: text
+      label: Text
+      required: false
+      width: full
+    - name: text_2
+      pdf_field_name: TEXT.0.3.1.5.3.0.1.1.1.0.1.1.3
+      type: text
+      label: Text
+      required: false
+      width: full
+    - name: text_2
+      pdf_field_name: TEXT.0.3.1.5.3.0.1.1.1.0.1.1.4
+      type: text
+      label: Text
+      required: false
+      width: full
+    - name: text_2
+      pdf_field_name: TEXT.0.3.1.5.3.0.1.1.1.0.1.1.5
+      type: text
+      label: Text
+      required: false
+      width: full
+    - name: text_2
+      pdf_field_name: TEXT.0.3.1.5.3.0.1.1.1.0.1.1.6
+      type: text
+      label: Text
+      required: false
+      width: full
+    - name: text_2
+      pdf_field_name: TEXT.0.3.1.5.3.0.1.1.1.0.1.1.7
+      type: text
+      label: Text
+      required: false
+      width: full
+    - name: text_2
+      pdf_field_name: TEXT.0.3.1.5.3.0.1.1.1.0.1.1.8
+      type: text
+      label: Text
+      required: false
+      width: full
+    - name: text_2
+      pdf_field_name: TEXT.0.3.1.5.3.0.1.1.1.0.0.0
+      type: text
+      label: Text
+      required: false
+      width: full
+    - name: text_2
+      pdf_field_name: TEXT.0.3.1.5.3.0.1.1.1.0.0.1
+      type: text
+      label: Text
+      required: false
+      width: full
+    - name: text_2
+      pdf_field_name: TEXT.0.3.1.5.3.0.1.1.1.0.0.2
+      type: text
+      label: Text
+      required: false
+      width: full
+    - name: text_2
+      pdf_field_name: TEXT.0.3.1.5.3.0.1.1.1.0.0.3
+      type: text
+      label: Text
+      required: false
+      width: full
+    - name: text_2
+      pdf_field_name: TEXT.0.3.1.5.3.0.1.1.1.0.0.4
+      type: text
+      label: Text
+      required: false
+      width: full
+    - name: text_2
+      pdf_field_name: TEXT.0.3.1.5.3.0.1.1.1.0.0.5
+      type: text
+      label: Text
+      required: false
+      width: full
+    - name: text_2
+      pdf_field_name: TEXT.0.3.1.5.3.0.1.1.1.0.0.6
+      type: text
+      label: Text
+      required: false
+      width: full
+    - name: text_2
+      pdf_field_name: TEXT.0.3.1.5.3.0.1.1.1.0.0.7
+      type: text
+      label: Text
+      required: false
+      width: full
+    - name: text_2
+      pdf_field_name: TEXT.0.3.1.5.3.0.1.1.1.0.0.8
+      type: text
+      label: Text
+      required: false
+      width: full
+    - name: telephone
+      pdf_field_name: Telephone.0.1.0
+      type: tel
+      label: Telephone
+      required: false
+      width: half
+    - name: telephone_2
+      pdf_field_name: Telephone.0.1.1
+      type: tel
+      label: Telephone
+      required: false
+      width: half
+    - name: telephone_2
+      pdf_field_name: Telephone.0.1.2
+      type: tel
+      label: Telephone
+      required: false
+      width: half
+    - name: date
+      pdf_field_name: DATE.0.0
+      type: date
+      label: Date
+      required: false
+      width: half
+    - name: date_2
+      pdf_field_name: DATE.0.1
+      type: date
+      label: Date
+      required: false
+      width: half
+    - name: date_2
+      pdf_field_name: DATE.0.2
+      type: date
+      label: Date
+      required: false
+      width: half
+    - name: date_2
+      pdf_field_name: DATE.0.3
+      type: date
+      label: Date
+      required: false
+      width: half
+    - name: date_2
+      pdf_field_name: DATE.0.4
+      type: date
+      label: Date
+      required: false
+      width: half
+    - name: date_2
+      pdf_field_name: DATE.0.5
+      type: date
+      label: Date
+      required: false
+      width: half
+    - name: date_2
+      pdf_field_name: DATE.0.6
+      type: date
+      label: Date
+      required: false
+      width: half
+    - name: date_2
+      pdf_field_name: DATE.0.7
+      type: date
+      label: Date
+      required: false
+      width: half
+    - name: date_2
+      pdf_field_name: DATE.0.8
+      type: date
+      label: Date
+      required: false
+      width: half
+    - name: date_2
+      pdf_field_name: DATE.1.0
+      type: date
+      label: Date
+      required: false
+      width: half
+    - name: date_2
+      pdf_field_name: DATE.1.1
+      type: date
+      label: Date
+      required: false
+      width: half
+    - name: date_2
+      pdf_field_name: DATE.1.2
+      type: date
+      label: Date
+      required: false
+      width: half
+    - name: date_2
+      pdf_field_name: DATE.1.3
+      type: date
+      label: Date
+      required: false
+      width: half
+    - name: date_2
+      pdf_field_name: DATE.1.4
+      type: date
+      label: Date
+      required: false
+      width: half
+    - name: date_2
+      pdf_field_name: DATE.1.5
+      type: date
+      label: Date
+      required: false
+      width: half
+    - name: date_2
+      pdf_field_name: DATE.1.6
+      type: date
+      label: Date
+      required: false
+      width: half
+    - name: date_2
+      pdf_field_name: DATE.1.7
+      type: date
+      label: Date
+      required: false
+      width: half
+    - name: date_2
+      pdf_field_name: DATE.1.8
+      type: date
+      label: Date
+      required: false
+      width: half
+    - name: cb
+      pdf_field_name: CB.0.0
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: cb_2
+      pdf_field_name: CB.0.1
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: cb_2
+      pdf_field_name: CB.0.2
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: cb_2
+      pdf_field_name: CB.0.3
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: cb_2
+      pdf_field_name: CB.0.4
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: cb_2
+      pdf_field_name: CB.0.5
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: cb_2
+      pdf_field_name: CB.0.6
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: cb_2
+      pdf_field_name: CB.0.7
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: cb_2
+      pdf_field_name: CB.0.8.0
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: cb_2
+      pdf_field_name: CB.0.8.1.0
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: cb_2
+      pdf_field_name: CB.0.8.1.1.1.2.1.0
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: cb_2
+      pdf_field_name: CB.0.8.1.1.1.2.1.1.0
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: cb_2
+      pdf_field_name: CB.0.8.1.1.1.2.1.1.1.0
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: cb_2
+      pdf_field_name: CB.0.8.1.1.1.2.1.1.1.1.0
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: cb_2
+      pdf_field_name: CB.0.8.1.1.1.2.1.1.1.1.1
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: cb_2
+      pdf_field_name: CB.0.8.1.1.1.1
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: cb_2
+      pdf_field_name: CB.0.8.1.1.0
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: atty2
+      pdf_field_name: Atty2
+      type: text
+      label: Atty
+      required: false
+      width: full
+    - name: atty3
+      pdf_field_name: Atty3
+      type: text
+      label: Atty
+      required: false
+      width: full
+    - name: atty4
+      pdf_field_name: Atty4
+      type: text
+      label: Atty
+      required: false
+      width: full
+    - name: for
+      pdf_field_name: Attorney.for
+      type: text
+      label: For
+      required: false
+      width: full
+    - name: branch
+      pdf_field_name: Court.branch
+      type: text
+      label: Branch
+      required: false
+      width: full
+    - name: mailing
+      pdf_field_name: Court.mailing
+      type: address
+      label: Mailing
+      required: false
+      width: full
+    - name: street
+      pdf_field_name: Court.street
+      type: address
+      label: Street
+      required: false
+      width: full
+    - name: county
+      pdf_field_name: Court.County
+      type: number
+      label: County
+      required: false
+      width: third
+    - name: atty1
+      pdf_field_name: Atty1
+      type: text
+      label: Atty
+      required: false
+      width: full
+    - name: case_number
+      pdf_field_name: CaseNumber
+      type: text
+      label: Case Number
+      required: false
+      width: full
+      shared_key: case:number
+    - name: other_party
+      pdf_field_name: OtherParty
+      type: text
+      label: Other Party
+      required: false
+      width: full
+    - name: defendant
+      pdf_field_name: Defendant
+      type: text
+      label: Defendant
+      required: false
+      width: full
+    - name: plaintiff
+      pdf_field_name: Plaintiff
+      type: text
+      label: Plaintiff
+      required: false
+      width: full
+    - name: fax
+      pdf_field_name: Fax
+      type: tel
+      label: Fax
+      required: false
+      width: half
+    - name: email
+      pdf_field_name: email
+      type: email
+      label: Email
+      required: false
+      width: half
+    - name: tel
+      pdf_field_name: Tel
+      type: tel
+      label: Tel
+      required: false
+      width: half
+  city:
+    title: City
+    fields:
+    - name: zip
+      pdf_field_name: Court.City.zip
+      type: address
+      label: Zip
+      required: false
+      width: full

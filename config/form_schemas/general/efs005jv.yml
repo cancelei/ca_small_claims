@@ -1,0 +1,449 @@
+---
+form:
+  code: EFS-005JV
+  title: EFS 005JV Form
+  description: ''
+  category: general
+  pdf_filename: efs005jv.pdf
+  fillable: true
+  instructions: ''
+sections:
+  rightcaption:
+    title: Rightcaption
+    fields:
+    - name: court_info_ft
+      pdf_field_name: EFS-005-JV_JV-141[0].Page1[0].rightcaption[0].CourtInfo_ft[0]
+      type: text
+      label: Court Info Ft
+      required: false
+      width: full
+    - name: child_name
+      pdf_field_name: EFS-005-JV_JV-141[0].Page1[0].rightcaption[0].ChildName[0]
+      type: text
+      label: Child Name
+      required: false
+      width: full
+    - name: child_dob
+      pdf_field_name: EFS-005-JV_JV-141[0].Page1[0].rightcaption[0].childDOB[0]
+      type: text
+      label: Child Dob
+      required: false
+      width: full
+    - name: case_number
+      pdf_field_name: EFS-005-JV_JV-141[0].Page1[0].rightcaption[0].caseNumber[0]
+      type: text
+      label: Case Number
+      required: false
+      width: full
+      shared_key: case:number
+  list:
+    title: List
+    fields:
+    - name: field_name_cb
+      pdf_field_name: EFS-005-JV_JV-141[0].Page1[0].List1[0].li1[0].FieldName_cb[0]
+      type: text
+      label: Field Name Cb
+      required: false
+      width: full
+    - name: field_name_cb_2
+      pdf_field_name: EFS-005-JV_JV-141[0].Page1[0].List1[0].li1[0].FieldName_cb[1]
+      type: text
+      label: Field Name Cb
+      required: false
+      width: full
+    - name: new_add_start
+      pdf_field_name: EFS-005-JV_JV-141[0].Page1[0].List1[0].li1[0].newAddStart[0]
+      type: text
+      label: New Add Start
+      required: false
+      width: full
+    - name: field_name_cb_2
+      pdf_field_name: EFS-005-JV_JV-141[0].Page1[0].List1[0].li1[0].FieldName_cb[2]
+      type: text
+      label: Field Name Cb
+      required: false
+      width: full
+    - name: notice_stop_date
+      pdf_field_name: EFS-005-JV_JV-141[0].Page1[0].List1[0].li1[0].noticeStopDate[0]
+      type: date
+      label: Notice Stop Date
+      required: false
+      width: half
+    - name: jv_role
+      pdf_field_name: EFS-005-JV_JV-141[0].Page1[0].List2[0].li1[0].JVRole[0]
+      type: text
+      label: Jv Role
+      required: false
+      width: full
+    - name: age_cb
+      pdf_field_name: EFS-005-JV_JV-141[0].Page1[0].List2[0].li1[0].age_cb[0]
+      type: text
+      label: Age Cb
+      required: false
+      width: full
+    - name: age_cb_2
+      pdf_field_name: EFS-005-JV_JV-141[0].Page1[0].List2[0].li1[0].age_cb[1]
+      type: text
+      label: Age Cb
+      required: false
+      width: full
+    - name: age_cb_2
+      pdf_field_name: EFS-005-JV_JV-141[0].Page1[0].List2[0].li1[0].age_cb[2]
+      type: text
+      label: Age Cb
+      required: false
+      width: full
+    - name: jv_role_2
+      pdf_field_name: EFS-005-JV_JV-141[0].Page1[0].List2[0].li1[0].JVRole[1]
+      type: text
+      label: Jv Role
+      required: false
+      width: full
+    - name: jv_role_2
+      pdf_field_name: EFS-005-JV_JV-141[0].Page1[0].List2[0].li1[0].JVRole[2]
+      type: text
+      label: Jv Role
+      required: false
+      width: full
+    - name: jv_role_2
+      pdf_field_name: EFS-005-JV_JV-141[0].Page1[0].List2[0].li1[0].JVRole[3]
+      type: text
+      label: Jv Role
+      required: false
+      width: full
+    - name: t123
+      pdf_field_name: EFS-005-JV_JV-141[0].Page1[0].List2[0].li1[0].T123[0]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: jv_role_2
+      pdf_field_name: EFS-005-JV_JV-141[0].Page1[0].List2[0].li1[0].JVRole[4]
+      type: text
+      label: Jv Role
+      required: false
+      width: full
+    - name: t123_2
+      pdf_field_name: EFS-005-JV_JV-141[0].Page1[0].List2[0].li1[0].T123[1]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: jv_role_2
+      pdf_field_name: EFS-005-JV_JV-141[0].Page1[0].List2[0].li1[0].JVRole[5]
+      type: text
+      label: Jv Role
+      required: false
+      width: full
+    - name: jv_caregiver
+      pdf_field_name: EFS-005-JV_JV-141[0].Page1[0].List2[0].li1[0].JVCaregiver[0]
+      type: text
+      label: Jv Caregiver
+      required: false
+      width: full
+    - name: jv_caregiver_2
+      pdf_field_name: EFS-005-JV_JV-141[0].Page1[0].List2[0].li1[0].JVCaregiver[1]
+      type: text
+      label: Jv Caregiver
+      required: false
+      width: full
+    - name: jv_role_2
+      pdf_field_name: EFS-005-JV_JV-141[0].Page1[0].List2[0].li1[0].JVRole[6]
+      type: text
+      label: Jv Role
+      required: false
+      width: full
+    - name: t132
+      pdf_field_name: EFS-005-JV_JV-141[0].Page1[0].List2[0].li1[0].T132[0]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: jv_role_2
+      pdf_field_name: EFS-005-JV_JV-141[0].Page1[0].List2[0].li1[0].JVRole[7]
+      type: text
+      label: Jv Role
+      required: false
+      width: full
+    - name: t141
+      pdf_field_name: EFS-005-JV_JV-141[0].Page1[0].List2[0].li1[0].T141[0]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: notice_yn
+      pdf_field_name: EFS-005-JV_JV-141[0].Page1[0].List3[0].li1[0].noticeYN[0]
+      type: text
+      label: Notice Yn
+      required: false
+      width: full
+    - name: agree_add
+      pdf_field_name: EFS-005-JV_JV-141[0].Page1[0].List3[0].li1[0].agreeAdd[0]
+      type: text
+      label: Agree Add
+      required: false
+      width: full
+    - name: notice_yn_2
+      pdf_field_name: EFS-005-JV_JV-141[0].Page1[0].List3[0].li1[0].noticeYN[1]
+      type: text
+      label: Notice Yn
+      required: false
+      width: full
+    - name: check_box2
+      pdf_field_name: EFS-005-JV_JV-141[0].Page2[0].List1[0].li1[0].CheckBox2[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: t132_2
+      pdf_field_name: EFS-005-JV_JV-141[0].Page2[0].List2[0].li1[0].T132[0]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t132_2
+      pdf_field_name: EFS-005-JV_JV-141[0].Page2[0].List2[0].li1[0].T132[1]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t154
+      pdf_field_name: EFS-005-JV_JV-141[0].Page2[0].List3[0].name1[0].T154[0]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t132_2
+      pdf_field_name: EFS-005-JV_JV-141[0].Page2[0].List3[0].name1[0].T132[0]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t154_2
+      pdf_field_name: EFS-005-JV_JV-141[0].Page2[0].List3[0].name1[0].T154[1]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: date_time_field1
+      pdf_field_name: EFS-005-JV_JV-141[0].Page2[0].List3[0].name1[0].DateTimeField1[0]
+      type: date
+      label: Date Time Field
+      required: false
+      width: half
+    - name: drop_down_list1
+      pdf_field_name: EFS-005-JV_JV-141[0].Page2[0].List3[0].name1[0].DropDownList1[0]
+      type: select
+      label: Drop Down List
+      required: false
+      width: full
+      options:
+      - value: Electronic
+        label: Electronic
+      - value: Mail
+        label: Mail
+    - name: t154_2
+      pdf_field_name: EFS-005-JV_JV-141[0].Page2[0].List3[0].name2[0].T154[0]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t132_2
+      pdf_field_name: EFS-005-JV_JV-141[0].Page2[0].List3[0].name2[0].T132[0]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t154_2
+      pdf_field_name: EFS-005-JV_JV-141[0].Page2[0].List3[0].name2[0].T154[1]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: date_time_field1_2
+      pdf_field_name: EFS-005-JV_JV-141[0].Page2[0].List3[0].name2[0].DateTimeField1[0]
+      type: date
+      label: Date Time Field
+      required: false
+      width: half
+    - name: drop_down_list1_2
+      pdf_field_name: EFS-005-JV_JV-141[0].Page2[0].List3[0].name2[0].DropDownList1[0]
+      type: select
+      label: Drop Down List
+      required: false
+      width: full
+      options:
+      - value: Electronic
+        label: Electronic
+      - value: Mail
+        label: Mail
+    - name: t154_2
+      pdf_field_name: EFS-005-JV_JV-141[0].Page2[0].List3[0].name3[0].T154[0]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t132_2
+      pdf_field_name: EFS-005-JV_JV-141[0].Page2[0].List3[0].name3[0].T132[0]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t154_2
+      pdf_field_name: EFS-005-JV_JV-141[0].Page2[0].List3[0].name3[0].T154[1]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: date_time_field1_2
+      pdf_field_name: EFS-005-JV_JV-141[0].Page2[0].List3[0].name3[0].DateTimeField1[0]
+      type: date
+      label: Date Time Field
+      required: false
+      width: half
+    - name: drop_down_list1_2
+      pdf_field_name: EFS-005-JV_JV-141[0].Page2[0].List3[0].name3[0].DropDownList1[0]
+      type: select
+      label: Drop Down List
+      required: false
+      width: full
+      options:
+      - value: Electronic
+        label: Electronic
+      - value: Mail
+        label: Mail
+    - name: t154_2
+      pdf_field_name: EFS-005-JV_JV-141[0].Page2[0].List3[0].name4[0].T154[0]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t132_2
+      pdf_field_name: EFS-005-JV_JV-141[0].Page2[0].List3[0].name4[0].T132[0]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t154_2
+      pdf_field_name: EFS-005-JV_JV-141[0].Page2[0].List3[0].name4[0].T154[1]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: date_time_field1_2
+      pdf_field_name: EFS-005-JV_JV-141[0].Page2[0].List3[0].name4[0].DateTimeField1[0]
+      type: date
+      label: Date Time Field
+      required: false
+      width: half
+    - name: drop_down_list1_2
+      pdf_field_name: EFS-005-JV_JV-141[0].Page2[0].List3[0].name4[0].DropDownList1[0]
+      type: select
+      label: Drop Down List
+      required: false
+      width: full
+      options:
+      - value: Electronic
+        label: Electronic
+      - value: Mail
+        label: Mail
+  sig_date:
+    title: Sig Date
+    fields:
+    - name: sig_date
+      pdf_field_name: EFS-005-JV_JV-141[0].Page1[0].sigDate[0]
+      type: date
+      label: Sig Date
+      required: false
+      width: half
+  sig_name:
+    title: Sig Name
+    fields:
+    - name: sig_name
+      pdf_field_name: EFS-005-JV_JV-141[0].Page1[0].sigName[0]
+      type: text
+      label: Sig Name
+      required: false
+      width: full
+  consult:
+    title: Consult
+    fields:
+    - name: consult
+      pdf_field_name: EFS-005-JV_JV-141[0].Page1[0].consult[0]
+      type: text
+      label: Consult
+      required: false
+      width: full
+  atty_sig_date:
+    title: Atty Sig Date
+    fields:
+    - name: atty_sig_date
+      pdf_field_name: EFS-005-JV_JV-141[0].Page1[0].attySigDate[0]
+      type: date
+      label: Atty Sig Date
+      required: false
+      width: half
+  atty_sig_name:
+    title: Atty Sig Name
+    fields:
+    - name: atty_sig_name
+      pdf_field_name: EFS-005-JV_JV-141[0].Page1[0].attySigName[0]
+      type: text
+      label: Atty Sig Name
+      required: false
+      width: full
+  mp_last:
+    title: Mp Last
+    fields:
+    - name: print
+      pdf_field_name: EFS-005-JV_JV-141[0].#pageSet[0].MPLast[0].Print[0]
+      type: checkbox
+      label: Print
+      required: false
+      width: full
+    - name: save
+      pdf_field_name: EFS-005-JV_JV-141[0].#pageSet[0].MPLast[0].Save[0]
+      type: checkbox
+      label: Save
+      required: false
+      width: full
+    - name: reset
+      pdf_field_name: EFS-005-JV_JV-141[0].#pageSet[0].MPLast[0].Reset[0]
+      type: checkbox
+      label: Reset
+      required: false
+      width: full
+  p_x_caption:
+    title: P X Caption
+    fields:
+    - name: child_name_2
+      pdf_field_name: EFS-005-JV_JV-141[0].Page2[0].pXCaption[0].ChildName[0]
+      type: text
+      label: Child Name
+      required: false
+      width: full
+    - name: case_number_2
+      pdf_field_name: EFS-005-JV_JV-141[0].Page2[0].pXCaption[0].caseNumber[0]
+      type: text
+      label: Case Number
+      required: false
+      width: full
+      shared_key: case:number
+  po_p_sig_date:
+    title: Po P Sig Date
+    fields:
+    - name: po_p_sig_date
+      pdf_field_name: EFS-005-JV_JV-141[0].Page2[0].PoPSigDate[0]
+      type: date
+      label: Po P Sig Date
+      required: false
+      width: half
+  po_p_sig_name:
+    title: Po P Sig Name
+    fields:
+    - name: po_p_sig_name
+      pdf_field_name: EFS-005-JV_JV-141[0].Page2[0].PoPSigName[0]
+      type: text
+      label: Po P Sig Name
+      required: false
+      width: full

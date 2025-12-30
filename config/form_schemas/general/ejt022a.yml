@@ -1,0 +1,270 @@
+---
+form:
+  code: EJT-022A
+  title: EJT 022A Form
+  description: ''
+  category: general
+  pdf_filename: ejt022a.pdf
+  fillable: true
+  instructions: ''
+sections:
+  p_x_caption:
+    title: P X Caption
+    fields:
+    - name: party1_ft
+      pdf_field_name: EJT-022A[0].Page1[0].pXCaption[0].TitlePartyName[0].Party1_ft[0]
+      type: text
+      label: Party1 Ft
+      required: false
+      width: full
+    - name: party2_ft
+      pdf_field_name: EJT-022A[0].Page1[0].pXCaption[0].TitlePartyName[0].Party2_ft[0]
+      type: text
+      label: Party2 Ft
+      required: false
+      width: full
+    - name: case_number_ft
+      pdf_field_name: EJT-022A[0].Page1[0].pXCaption[0].CaseNumber[0].CaseNumber_ft[0]
+      type: text
+      label: Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+    - name: party1_ft_2
+      pdf_field_name: EJT-022A[0].Page2[0].pXCaption[0].TitlePartyName[0].Party1_ft[0]
+      type: text
+      label: Party1 Ft
+      required: false
+      width: full
+    - name: party2_ft_2
+      pdf_field_name: EJT-022A[0].Page2[0].pXCaption[0].TitlePartyName[0].Party2_ft[0]
+      type: text
+      label: Party2 Ft
+      required: false
+      width: full
+    - name: case_number_ft_2
+      pdf_field_name: EJT-022A[0].Page2[0].pXCaption[0].CaseNumber[0].CaseNumber_ft[0]
+      type: text
+      label: Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+  form_intro:
+    title: Form Intro
+    fields:
+    - name: cb15
+      pdf_field_name: EJT-022A[0].Page1[0].formIntro[0].CB15[0]
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: cb15_2
+      pdf_field_name: EJT-022A[0].Page1[0].formIntro[0].CB15[1]
+      type: text
+      label: Cb
+      required: false
+      width: full
+  list:
+    title: List
+    fields:
+    - name: cb03
+      pdf_field_name: EJT-022A[0].Page1[0].List1[0].li1[0].CB03[0]
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: timeline_mod
+      pdf_field_name: EJT-022A[0].Page1[0].List1[0].li1[0].TimelineMod[0]
+      type: text
+      label: Timeline Mod
+      required: false
+      width: full
+    - name: cb02
+      pdf_field_name: EJT-022A[0].Page1[0].List2[0].li2[0].CB02[0]
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: witness_limitations
+      pdf_field_name: EJT-022A[0].Page1[0].List2[0].li2[0].witnessLimitations[0]
+      type: text
+      label: Witness Limitations
+      required: false
+      width: full
+    - name: cb04
+      pdf_field_name: EJT-022A[0].Page1[0].List3[0].li3[0].CB04[0]
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: x_witness_mods
+      pdf_field_name: EJT-022A[0].Page1[0].List3[0].li3[0].xWitnessMods[0]
+      type: text
+      label: X Witness Mods
+      required: false
+      width: full
+    - name: cb05
+      pdf_field_name: EJT-022A[0].Page1[0].List4[0].li4[0].CB05[0]
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: time_all
+      pdf_field_name: EJT-022A[0].Page1[0].List4[0].li4[0].timeAll[0]
+      type: text
+      label: Time All
+      required: false
+      width: full
+    - name: cb06
+      pdf_field_name: EJT-022A[0].Page1[0].List5[0].li5[0].CB06[0]
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: matter_agree
+      pdf_field_name: EJT-022A[0].Page1[0].List5[0].li5[0].matterAgree[0]
+      type: text
+      label: Matter Agree
+      required: false
+      width: full
+    - name: cb6
+      pdf_field_name: EJT-022A[0].Page1[0].List6[0].li6[0].CB6[0]
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: evidence_agree
+      pdf_field_name: EJT-022A[0].Page1[0].List6[0].li6[0].evidenceAgree[0]
+      type: text
+      label: Evidence Agree
+      required: false
+      width: full
+    - name: cb07
+      pdf_field_name: EJT-022A[0].Page2[0].List7[0].li7[0].CB07[0]
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: exhibits
+      pdf_field_name: EJT-022A[0].Page2[0].List7[0].li7[0].exhibits[0]
+      type: text
+      label: Exhibits
+      required: false
+      width: full
+    - name: cb08
+      pdf_field_name: EJT-022A[0].Page2[0].List8[0].li8[0].CB08[0]
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: depositions
+      pdf_field_name: EJT-022A[0].Page2[0].List8[0].li8[0].depositions[0]
+      type: text
+      label: Depositions
+      required: false
+      width: full
+    - name: cb09
+      pdf_field_name: EJT-022A[0].Page2[0].List9[0].li9[0].CB09[0]
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: oth_evidence
+      pdf_field_name: EJT-022A[0].Page2[0].List9[0].li9[0].othEvidence[0]
+      type: text
+      label: Oth Evidence
+      required: false
+      width: full
+    - name: cb10
+      pdf_field_name: EJT-022A[0].Page2[0].List10[0].li10[0].CB10[0]
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: presentation_agr
+      pdf_field_name: EJT-022A[0].Page2[0].List10[0].li10[0].presentationAgr[0]
+      type: text
+      label: Presentation Agr
+      required: false
+      width: full
+    - name: cb11
+      pdf_field_name: EJT-022A[0].Page2[0].List11[0].li11[0].CB11[0]
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: filing_time
+      pdf_field_name: EJT-022A[0].Page2[0].List11[0].li11[0].filingTime[0]
+      type: text
+      label: Filing Time
+      required: false
+      width: full
+    - name: cb12
+      pdf_field_name: EJT-022A[0].Page2[0].List12[0].li12[0].CB12[0]
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: few_jurors
+      pdf_field_name: EJT-022A[0].Page2[0].List12[0].li12[0].fewJurors[0]
+      type: text
+      label: Few Jurors
+      required: false
+      width: full
+    - name: cb13
+      pdf_field_name: EJT-022A[0].Page2[0].List13[0].li13[0].CB13[0]
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: no_jurors
+      pdf_field_name: EJT-022A[0].Page2[0].List13[0].li13[0].noJurors[0]
+      type: text
+      label: No Jurors
+      required: false
+      width: full
+    - name: cb14
+      pdf_field_name: EJT-022A[0].Page2[0].List14[0].li14[0].CB14[0]
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: oth_agree
+      pdf_field_name: EJT-022A[0].Page2[0].List14[0].li14[0].othAgree[0]
+      type: text
+      label: Oth Agree
+      required: false
+      width: full
+    - name: cb15_2
+      pdf_field_name: EJT-022A[0].Page2[0].List15[0].li15[0].CB15[0]
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: mc025att
+      pdf_field_name: EJT-022A[0].Page2[0].List15[0].li15[0].mc025Att[0]
+      type: text
+      label: Mc025 Att
+      required: false
+      width: full
+  mp_last:
+    title: Mp Last
+    fields:
+    - name: print
+      pdf_field_name: EJT-022A[0].#pageSet[0].MPLast[0].Print[0]
+      type: checkbox
+      label: Print
+      required: false
+      width: full
+    - name: save
+      pdf_field_name: EJT-022A[0].#pageSet[0].MPLast[0].Save[0]
+      type: checkbox
+      label: Save
+      required: false
+      width: full
+    - name: reset
+      pdf_field_name: EJT-022A[0].#pageSet[0].MPLast[0].Reset[0]
+      type: checkbox
+      label: Reset
+      required: false
+      width: full

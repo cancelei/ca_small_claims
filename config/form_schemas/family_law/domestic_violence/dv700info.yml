@@ -1,0 +1,25 @@
+---
+form:
+  code: DV-700INFO
+  title: DV 700INFO Form
+  description: ''
+  category: family_law/domestic_violence
+  pdf_filename: dv700info.pdf
+  fillable: true
+  instructions: ''
+sections:
+  last_page:
+    title: Last Page
+    fields:
+    - name: print
+      pdf_field_name: DV-700-INFO[0].#pageSet[0].LastPage[0].FooterSub[0].Print[0]
+      type: checkbox
+      label: Print
+      required: false
+      width: full
+    - name: save
+      pdf_field_name: DV-700-INFO[0].#pageSet[0].LastPage[0].FooterSub[0].Save[0]
+      type: checkbox
+      label: Save
+      required: false
+      width: full

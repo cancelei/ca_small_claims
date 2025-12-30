@@ -1,0 +1,152 @@
+---
+form:
+  code: JV-235
+  title: JV 235 Form
+  description: ''
+  category: juvenile/general
+  pdf_filename: jv235.pdf
+  fillable: true
+  instructions: ''
+sections:
+  page_area:
+    title: Page Area
+    fields:
+    - name: court_link
+      pdf_field_name: JV-235[0].#pageSet[0].PageArea1[0].Footer[0].CourtLink[0]
+      type: checkbox
+      label: Court Link
+      required: false
+      width: full
+  courtinfo:
+    title: Courtinfo
+    fields:
+    - name: court_info
+      pdf_field_name: JV-235[0].Page1[0].Courtinfo[0].CourtGrp[0].CourtInfo[0]
+      type: text
+      label: Court Info
+      required: false
+      width: full
+  childs_info:
+    title: Childs Info
+    fields:
+    - name: childs_name
+      pdf_field_name: JV-235[0].Page1[0].ChildsInfo[0].ChildGrp[0].ChildsName[0]
+      type: text
+      label: Childs Name
+      required: false
+      width: full
+    - name: child_dt
+      pdf_field_name: JV-235[0].Page1[0].ChildsInfo[0].ChildGrp[0].child_dt[0]
+      type: text
+      label: Child Dt
+      required: false
+      width: full
+  case_info:
+    title: Case Info
+    fields:
+    - name: case_number
+      pdf_field_name: JV-235[0].Page1[0].CaseInfo[0].CaseGrp[0].CaseNumber[0]
+      type: text
+      label: Case Number
+      required: false
+      width: full
+      shared_key: case:number
+  item:
+    title: Item
+    fields:
+    - name: agencyfill
+      pdf_field_name: JV-235[0].Page1[0].Item1[0].Agencyfill[0]
+      type: text
+      label: Agencyfill
+      required: false
+      width: full
+    - name: address
+      pdf_field_name: JV-235[0].Page1[0].Item1[0].Address[0]
+      type: address
+      label: Address
+      required: false
+      width: full
+    - name: phone
+      pdf_field_name: JV-235[0].Page1[0].Item1[0].Phone[0]
+      type: tel
+      label: Phone
+      required: false
+      width: half
+    - name: namefiling2
+      pdf_field_name: JV-235[0].Page1[0].Item1[0].Namefiling2[0]
+      type: text
+      label: Namefiling
+      required: false
+      width: full
+    - name: checkbox1
+      pdf_field_name: JV-235[0].Page1[0].Item2[0].checkbox1[0]
+      type: checkbox
+      label: Checkbox
+      required: false
+      width: full
+    - name: full_name3
+      pdf_field_name: JV-235[0].Page1[0].Item2[0].FullName3[0]
+      type: text
+      label: Full Name
+      required: false
+      width: full
+    - name: address3
+      pdf_field_name: JV-235[0].Page1[0].Item2[0].address3[0]
+      type: address
+      label: Address
+      required: false
+      width: full
+    - name: date3
+      pdf_field_name: JV-235[0].Page1[0].Item2[0].Date3[0]
+      type: date
+      label: Date
+      required: false
+      width: half
+    - name: checkbox3
+      pdf_field_name: JV-235[0].Page1[0].Item3[0].checkbox3[0]
+      type: checkbox
+      label: Checkbox
+      required: false
+      width: full
+  signatures:
+    title: Signatures
+    fields:
+    - name: sig_date
+      pdf_field_name: JV-235[0].Page1[0].Signatures[0].SigDate[0]
+      type: signature
+      label: Sig Date
+      required: false
+      width: full
+    - name: sig_name
+      pdf_field_name: JV-235[0].Page1[0].Signatures[0].SigName[0]
+      type: signature
+      label: Sig Name
+      required: false
+      width: full
+  footer_buttons:
+    title: Footer Buttons
+    fields:
+    - name: print
+      pdf_field_name: JV-235[0].Page1[0].FooterButtons[0].Print[0]
+      type: checkbox
+      label: Print
+      required: false
+      width: full
+    - name: save
+      pdf_field_name: JV-235[0].Page1[0].FooterButtons[0].Save[0]
+      type: checkbox
+      label: Save
+      required: false
+      width: full
+    - name: reset
+      pdf_field_name: JV-235[0].Page1[0].FooterButtons[0].Reset[0]
+      type: checkbox
+      label: Reset
+      required: false
+      width: full
+    - name: warning
+      pdf_field_name: JV-235[0].Page1[0].FooterButtons[0].Warning[0]
+      type: checkbox
+      label: Warning
+      required: false
+      width: full

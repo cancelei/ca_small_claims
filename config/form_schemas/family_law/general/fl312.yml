@@ -1,0 +1,582 @@
+---
+form:
+  code: FL-312
+  title: FL 312 Form
+  description: ''
+  category: family_law/general
+  pdf_filename: fl312.pdf
+  fillable: true
+  instructions: ''
+sections:
+  px_caption_sf:
+    title: Px Caption Sf
+    fields:
+    - name: case_number_ft
+      pdf_field_name: FL-312[0].Page1[0].PxCaption_sf[0].CaseNumber[0].CaseNumber_ft[0]
+      type: text
+      label: Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+    - name: petitioner_ft
+      pdf_field_name: FL-312[0].Page1[0].PxCaption_sf[0].Parties[0].Petitioner_ft[0]
+      type: text
+      label: Petitioner Ft
+      required: false
+      width: full
+    - name: respondent_ft
+      pdf_field_name: FL-312[0].Page1[0].PxCaption_sf[0].Parties[0].Respondent_ft[0]
+      type: text
+      label: Respondent Ft
+      required: false
+      width: full
+    - name: other_parent_party_ft
+      pdf_field_name: FL-312[0].Page1[0].PxCaption_sf[0].Parties[0].OtherParentParty_ft[0]
+      type: currency
+      label: Other Parent Party Ft
+      required: false
+      width: third
+    - name: case_number_ft_2
+      pdf_field_name: FL-312[0].Page2[0].PxCaption_sf[0].CaseNumber[0].CaseNumber_ft[0]
+      type: text
+      label: Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+    - name: petitioner_ft_2
+      pdf_field_name: FL-312[0].Page2[0].PxCaption_sf[0].Parties[0].Petitioner_ft[0]
+      type: text
+      label: Petitioner Ft
+      required: false
+      width: full
+    - name: respondent_ft_2
+      pdf_field_name: FL-312[0].Page2[0].PxCaption_sf[0].Parties[0].Respondent_ft[0]
+      type: text
+      label: Respondent Ft
+      required: false
+      width: full
+    - name: other_parent_party_ft_2
+      pdf_field_name: FL-312[0].Page2[0].PxCaption_sf[0].Parties[0].OtherParentParty_ft[0]
+      type: currency
+      label: Other Parent Party Ft
+      required: false
+      width: third
+  form_sub:
+    title: Form Sub
+    fields:
+    - name: petition_cb
+      pdf_field_name: FL-312[0].Page1[0].Form_Sub[0].Petition_cb[0]
+      type: text
+      label: Petition Cb
+      required: false
+      width: full
+    - name: response_cb
+      pdf_field_name: FL-312[0].Page1[0].Form_Sub[0].Response_cb[0]
+      type: text
+      label: Response Cb
+      required: false
+      width: full
+    - name: rfo_cb
+      pdf_field_name: FL-312[0].Page1[0].Form_Sub[0].RFO_cb[0]
+      type: text
+      label: Rfo Cb
+      required: false
+      width: full
+    - name: responsive_dec_to_rfo_cb
+      pdf_field_name: FL-312[0].Page1[0].Form_Sub[0].ResponsiveDecToRFO_cb[0]
+      type: text
+      label: Responsive Dec To Rfo Cb
+      required: false
+      width: full
+    - name: other_form_cb
+      pdf_field_name: FL-312[0].Page1[0].Form_Sub[0].OtherForm_cb[0]
+      type: text
+      label: Other Form Cb
+      required: false
+      width: full
+    - name: specify_other_form_ft
+      pdf_field_name: FL-312[0].Page1[0].Form_Sub[0].SpecifyOtherForm_ft[0]
+      type: text
+      label: Specify Other Form Ft
+      required: false
+      width: full
+  list:
+    title: List
+    fields:
+    - name: your_name_ft
+      pdf_field_name: FL-312[0].Page1[0].List1[0].LI1[0].YourName_ft[0]
+      type: text
+      label: Your Name Ft
+      required: false
+      width: full
+    - name: no_abduction_by_petitioner_cb
+      pdf_field_name: FL-312[0].Page1[0].List2[0].LI1[0].NoAbductionByPetitioner_cb[0]
+      type: text
+      label: No Abduction By Petitioner Cb
+      required: false
+      width: full
+    - name: no_abduction_by_respondent_cb
+      pdf_field_name: FL-312[0].Page1[0].List2[0].LI1[0].NoAbductionByRespondent_cb[0]
+      type: text
+      label: No Abduction By Respondent Cb
+      required: false
+      width: full
+    - name: no_abduction_by_other_parent_party_cb
+      pdf_field_name: FL-312[0].Page1[0].List2[0].LI1[0].NoAbductionByOtherParentParty_cb[0]
+      type: currency
+      label: No Abduction By Other Parent Party Cb
+      required: false
+      width: third
+    - name: another_county_in_california_cb
+      pdf_field_name: FL-312[0].Page1[0].List3[0].LI1[0].AnotherCountyInCalifornia_cb[0]
+      type: number
+      label: Another County In California Cb
+      required: false
+      width: third
+    - name: another_county_ft
+      pdf_field_name: FL-312[0].Page1[0].List3[0].LI1[0].AnotherCounty_ft[0]
+      type: number
+      label: Another County Ft
+      required: false
+      width: third
+    - name: another_state_cb
+      pdf_field_name: FL-312[0].Page1[0].List3[0].LI2[0].AnotherState_cb[0]
+      type: address
+      label: Another State Cb
+      required: false
+      width: full
+    - name: specify_other_state_ft
+      pdf_field_name: FL-312[0].Page1[0].List3[0].LI2[0].SpecifyOtherState_ft[0]
+      type: address
+      label: Specify Other State Ft
+      required: false
+      width: full
+    - name: foreign_country_cb
+      pdf_field_name: FL-312[0].Page1[0].List3[0].LI3[0].ForeignCountry_cb[0]
+      type: number
+      label: Foreign Country Cb
+      required: false
+      width: third
+    - name: specify_foreign_country_ft
+      pdf_field_name: FL-312[0].Page1[0].List3[0].LI3[0].SpecifyForeignCountry_ft[0]
+      type: number
+      label: Specify Foreign Country Ft
+      required: false
+      width: third
+    - name: citizen_of_that_country_cb
+      pdf_field_name: FL-312[0].Page1[0].List3[0].LI3[0].List1[0].LI1[0].CitizenOfThatCountry_cb[0]
+      type: number
+      label: Citizen Of That Country Cb
+      required: false
+      width: third
+    - name: ties_to_that_country_cb
+      pdf_field_name: FL-312[0].Page1[0].List3[0].LI3[0].List1[0].LI2[0].TiesToThatCountry_cb[0]
+      type: number
+      label: Ties To That Country Cb
+      required: false
+      width: third
+    - name: explain
+      pdf_field_name: FL-312[0].Page1[0].List3[0].LI3[0].List1[0].LI2[0].explain[0]
+      type: text
+      label: Explain
+      required: false
+      width: full
+    - name: specify_ties_to_that_country_ft
+      pdf_field_name: FL-312[0].Page1[0].List3[0].LI3[0].List1[0].LI2[0].SpecifyTiesToThatCountry_ft[0]
+      type: number
+      label: Specify Ties To That Country Ft
+      required: false
+      width: third
+    - name: quit_job_cb
+      pdf_field_name: FL-312[0].Page1[0].List4[0].LI1[0].QuitJob_cb[0]
+      type: text
+      label: Quit Job Cb
+      required: false
+      width: full
+    - name: text_field1
+      pdf_field_name: FL-312[0].Page1[0].List4[0].LI1[0].TextField1[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: specify_explain
+      pdf_field_name: FL-312[0].Page1[0].List4[0].LI1[0].SpecifyExplain[0]
+      type: text
+      label: Specify Explain
+      required: false
+      width: full
+    - name: quit_job_cb_2
+      pdf_field_name: FL-312[0].Page1[0].List4[0].LI2[0].QuitJob_cb[0]
+      type: text
+      label: Quit Job Cb
+      required: false
+      width: full
+    - name: specify_why_easy_for_party_to_leave_california_ft
+      pdf_field_name: FL-312[0].Page1[0].List4[0].LI2[0].SpecifyWhyEasyForPartyToLeaveCalifornia_ft[0]
+      type: text
+      label: Specify Why Easy For Party To Leave California Ft
+      required: false
+      width: full
+    - name: quit_job_cb_2
+      pdf_field_name: FL-312[0].Page1[0].List4[0].LI3[0].QuitJob_cb[0]
+      type: text
+      label: Quit Job Cb
+      required: false
+      width: full
+    - name: quit_job_cb1
+      pdf_field_name: FL-312[0].Page1[0].List4[0].LI3[0].#area[0].QuitJob_cb1[0]
+      type: text
+      label: Quit Job Cb
+      required: false
+      width: full
+    - name: sold_home_cb
+      pdf_field_name: FL-312[0].Page1[0].List4[0].LI3[0].#area[1].SoldHome_cb[0]
+      type: text
+      label: Sold Home Cb
+      required: false
+      width: full
+    - name: closed_bank_account_cb
+      pdf_field_name: FL-312[0].Page1[0].List4[0].LI3[0].#area[2].ClosedBankAccount_cb[0]
+      type: number
+      label: Closed Bank Account Cb
+      required: false
+      width: third
+    - name: ended_lease_cb
+      pdf_field_name: FL-312[0].Page1[0].List4[0].LI3[0].#area[3].EndedLease_cb[0]
+      type: text
+      label: Ended Lease Cb
+      required: false
+      width: full
+    - name: sold_assets_cb
+      pdf_field_name: FL-312[0].Page1[0].List4[0].LI3[0].#area[4].SoldAssets_cb[0]
+      type: text
+      label: Sold Assets Cb
+      required: false
+      width: full
+    - name: hid_or_destroyed_documents_cb
+      pdf_field_name: FL-312[0].Page1[0].List4[0].LI3[0].#area[5].HidOrDestroyedDocuments_cb[0]
+      type: text
+      label: Hid Or Destroyed Documents Cb
+      required: false
+      width: full
+    - name: check_box1
+      pdf_field_name: FL-312[0].Page1[0].List4[0].LI3[0].#area[6].CheckBox1[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box61
+      pdf_field_name: FL-312[0].Page1[0].List4[0].LI3[0].#area[7].CheckBox61[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: other_specify_ft
+      pdf_field_name: FL-312[0].Page1[0].List4[0].LI3[0].OtherSpecify_ft[0]
+      type: text
+      label: Other Specify Ft
+      required: false
+      width: full
+    - name: check_box1_2
+      pdf_field_name: FL-312[0].Page1[0].List4[0].LI4[0].#area[0].CheckBox1[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box2
+      pdf_field_name: FL-312[0].Page1[0].List4[0].LI4[0].#area[1].CheckBox2[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box3
+      pdf_field_name: FL-312[0].Page1[0].List4[0].LI4[0].#area[2].CheckBox3[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box4
+      pdf_field_name: FL-312[0].Page1[0].List4[0].LI4[0].#area[3].CheckBox4[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box5
+      pdf_field_name: FL-312[0].Page1[0].List4[0].LI4[0].#area[4].CheckBox5[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: text_field2
+      pdf_field_name: FL-312[0].Page1[0].List4[0].LI4[0].TextField2[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: check_box1_2
+      pdf_field_name: FL-312[0].Page1[0].List4[0].LI5[0].CheckBox1[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: explain_2
+      pdf_field_name: FL-312[0].Page1[0].List4[0].LI5[0].explain[0]
+      type: text
+      label: Explain
+      required: false
+      width: full
+    - name: explain_criminal_record_ft
+      pdf_field_name: FL-312[0].Page1[0].List4[0].LI5[0].ExplainCriminalRecord_ft[0]
+      type: text
+      label: Explain Criminal Record Ft
+      required: false
+      width: full
+    - name: check_box1_2
+      pdf_field_name: FL-312[0].Page2[0].List5[0].LI1[0].#area[0].CheckBox1[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: text_field3
+      pdf_field_name: FL-312[0].Page2[0].List5[0].LI1[0].TextField3[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: check_box2_2
+      pdf_field_name: FL-312[0].Page2[0].List5[0].LI1[0].#area[1].CheckBox2[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box3_2
+      pdf_field_name: FL-312[0].Page2[0].List5[0].LI1[0].#area[2].CheckBox3[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box1_2
+      pdf_field_name: FL-312[0].Page2[0].List6[0].LI1[0].CheckBox1[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: total_order_amount_dc
+      pdf_field_name: FL-312[0].Page2[0].List6[0].LI1[0].TotalOrderAmount_dc[0]
+      type: currency
+      label: Total Order Amount Dc
+      required: false
+      width: third
+    - name: check_box1_2
+      pdf_field_name: FL-312[0].Page2[0].List7[0].LI1[0].#area[0].CheckBox1[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box1_2
+      pdf_field_name: FL-312[0].Page2[0].List8[0].LI1[0].#area[0].CheckBox1[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box2_2
+      pdf_field_name: FL-312[0].Page2[0].List8[0].LI1[0].CheckBox2[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box3_2
+      pdf_field_name: FL-312[0].Page2[0].List8[0].LI1[0].CheckBox3[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box4_2
+      pdf_field_name: FL-312[0].Page2[0].List8[0].LI1[0].CheckBox4[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box5_2
+      pdf_field_name: FL-312[0].Page2[0].List8[0].LI1[0].CheckBox5[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: speicify_other_travel_restrictions_ft
+      pdf_field_name: FL-312[0].Page2[0].List8[0].LI1[0].SpeicifyOtherTravelRestrictions_ft[0]
+      type: text
+      label: Speicify Other Travel Restrictions Ft
+      required: false
+      width: full
+    - name: check_box1_2
+      pdf_field_name: FL-312[0].Page2[0].List9[0].LI1[0].#area[0].CheckBox1[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: specify_state_to_register_order_ft
+      pdf_field_name: FL-312[0].Page2[0].List9[0].LI1[0].SpecifyStateToRegisterOrder_ft[0]
+      type: address
+      label: Specify State To Register Order Ft
+      required: false
+      width: full
+    - name: check_box1_2
+      pdf_field_name: FL-312[0].Page2[0].List10[0].LI1[0].#area[0].CheckBox1[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box2_2
+      pdf_field_name: FL-312[0].Page2[0].List10[0].LI1[0].CheckBox2[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box3_2
+      pdf_field_name: FL-312[0].Page2[0].List10[0].LI1[0].CheckBox3[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box1_2
+      pdf_field_name: FL-312[0].Page2[0].List11[0].LI1[0].#area[0].CheckBox1[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box2_2
+      pdf_field_name: FL-312[0].Page2[0].List11[0].LI1[0].#area[1].CheckBox2[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box3_2
+      pdf_field_name: FL-312[0].Page2[0].List11[0].LI1[0].#area[2].CheckBox3[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box4_2
+      pdf_field_name: FL-312[0].Page2[0].List11[0].LI1[0].#area[3].CheckBox4[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box5_2
+      pdf_field_name: FL-312[0].Page2[0].List11[0].LI1[0].#area[4].CheckBox5[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box6
+      pdf_field_name: FL-312[0].Page2[0].List11[0].LI1[0].#area[5].CheckBox6[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: other_specify_tf
+      pdf_field_name: FL-312[0].Page2[0].List11[0].LI1[0].OtherSpecify_tf[0]
+      type: text
+      label: Other Specify Tf
+      required: false
+      width: full
+    - name: other_specify_tf_cont
+      pdf_field_name: FL-312[0].Page2[0].List11[0].LI1[0].OtherSpecify_tfCont[0]
+      type: text
+      label: Other Specify Tf Cont
+      required: false
+      width: full
+    - name: check_box1_2
+      pdf_field_name: FL-312[0].Page2[0].List12[0].LI1[0].#area[0].CheckBox1[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: identify_embassy_or_consulate_ft
+      pdf_field_name: FL-312[0].Page2[0].List12[0].LI1[0].IdentifyEmbassyOrConsulate_ft[0]
+      type: text
+      label: Identify Embassy Or Consulate Ft
+      required: false
+      width: full
+    - name: fill_text1
+      pdf_field_name: FL-312[0].Page2[0].List12[0].LI1[0].FillText1[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: check_box1_2
+      pdf_field_name: FL-312[0].Page2[0].List13[0].LI1[0].#area[0].CheckBox1[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box1_2
+      pdf_field_name: FL-312[0].Page2[0].List14[0].LI1[0].CheckBox1[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: other_specify_ft_2
+      pdf_field_name: FL-312[0].Page2[0].List14[0].LI1[0].OtherSpecify_ft[0]
+      type: text
+      label: Other Specify Ft
+      required: false
+      width: full
+  print:
+    title: Print
+    fields:
+    - name: print
+      pdf_field_name: FL-312[0].#pageSet[0].Page3[0].#area[0].Print[0]
+      type: checkbox
+      label: Print
+      required: false
+      width: full
+  save:
+    title: Save
+    fields:
+    - name: save
+      pdf_field_name: FL-312[0].#pageSet[0].Page3[0].#area[0].Save[0]
+      type: checkbox
+      label: Save
+      required: false
+      width: full
+  reset:
+    title: Reset
+    fields:
+    - name: reset
+      pdf_field_name: FL-312[0].#pageSet[0].Page3[0].#area[0].Reset[0]
+      type: checkbox
+      label: Reset
+      required: false
+      width: full
+  request_sub:
+    title: Request Sub
+    fields:
+    - name: check_box1_2
+      pdf_field_name: FL-312[0].Page2[0].Request_Sub[0].CheckBox1[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box2_2
+      pdf_field_name: FL-312[0].Page2[0].Request_Sub[0].CheckBox2[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: check_box3_2
+      pdf_field_name: FL-312[0].Page2[0].Request_Sub[0].CheckBox3[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+  sig_sub:
+    title: Sig Sub
+    fields:
+    - name: sig_date
+      pdf_field_name: FL-312[0].Page2[0].Sig_Sub[0].SigDate[0]
+      type: signature
+      label: Sig Date
+      required: false
+      width: full

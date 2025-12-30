@@ -1,0 +1,132 @@
+---
+form:
+  code: DV-210
+  title: DV 210 Form
+  description: ''
+  category: family_law/domestic_violence
+  pdf_filename: dv210.pdf
+  fillable: true
+  instructions: ''
+sections:
+  t:
+    title: T
+    fields:
+    - name: t233
+      pdf_field_name: DV-210[0].Page1[0].T233[0]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t238
+      pdf_field_name: DV-210[0].Page1[0].T238[0]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t137
+      pdf_field_name: DV-210[0].Page1[0].T137[0]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t138
+      pdf_field_name: DV-210[0].Page1[0].T138[0]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t145
+      pdf_field_name: DV-210[0].Page1[0].T145[0]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t146
+      pdf_field_name: DV-210[0].Page1[0].T146[0]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t56
+      pdf_field_name: DV-210[0].#subform[1].T56[0]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t58
+      pdf_field_name: DV-210[0].#subform[1].T58[0]
+      type: text
+      label: T
+      required: false
+      width: full
+  stamp_court_case:
+    title: Stamp Court Case
+    fields:
+    - name: case_number_ft
+      pdf_field_name: DV-210[0].Page1[0].Stamp_court_case[0].CaseNumber_ft[0]
+      type: text
+      label: Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+    - name: court_info_ft
+      pdf_field_name: DV-210[0].Page1[0].Stamp_court_case[0].CourtInfo_ft[0]
+      type: text
+      label: Court Info Ft
+      required: false
+      width: full
+  text_field:
+    title: Text Field
+    fields:
+    - name: text_field2
+      pdf_field_name: DV-210[0].Page1[0].TextField2[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+  case_number_ft:
+    title: Case Number Ft
+    fields:
+    - name: case_number_ft_2
+      pdf_field_name: DV-210[0].#subform[1].CaseNumber_ft[0]
+      type: text
+      label: Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+  print:
+    title: Print
+    fields:
+    - name: print
+      pdf_field_name: DV-210[0].#subform[1].#area[4].Print[0]
+      type: checkbox
+      label: Print
+      required: false
+      width: full
+  save:
+    title: Save
+    fields:
+    - name: save
+      pdf_field_name: DV-210[0].#subform[1].#area[4].Save[0]
+      type: checkbox
+      label: Save
+      required: false
+      width: full
+  reset:
+    title: Reset
+    fields:
+    - name: reset
+      pdf_field_name: DV-210[0].#subform[1].#area[4].Reset[0]
+      type: checkbox
+      label: Reset
+      required: false
+      width: full
+  warning:
+    title: Warning
+    fields:
+    - name: warning
+      pdf_field_name: DV-210[0].#subform[1].#area[4].Warning[0]
+      type: checkbox
+      label: Warning
+      required: false
+      width: full

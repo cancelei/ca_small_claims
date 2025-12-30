@@ -1,0 +1,355 @@
+---
+form:
+  code: JV-249
+  title: JV 249 Form
+  description: ''
+  category: juvenile/general
+  pdf_filename: jv249.pdf
+  fillable: true
+  instructions: ''
+sections:
+  footer_p1_grp:
+    title: Footer P1 Grp
+    fields:
+    - name: court_link
+      pdf_field_name: JV-249[0].#pageSet[0].Page1[0].FooterP1_grp[0].CourtLink[0]
+      type: checkbox
+      label: Court Link
+      required: false
+      width: full
+  footer_buttons:
+    title: Footer Buttons
+    fields:
+    - name: warning
+      pdf_field_name: JV-249[0].#pageSet[0].Page3[0].FooterButtons[0].Warning[0]
+      type: checkbox
+      label: Warning
+      required: false
+      width: full
+    - name: print
+      pdf_field_name: JV-249[0].#pageSet[0].Page3[0].FooterButtons[0].Print[0]
+      type: checkbox
+      label: Print
+      required: false
+      width: full
+    - name: save
+      pdf_field_name: JV-249[0].#pageSet[0].Page3[0].FooterButtons[0].Save[0]
+      type: checkbox
+      label: Save
+      required: false
+      width: full
+    - name: reset
+      pdf_field_name: JV-249[0].#pageSet[0].Page3[0].FooterButtons[0].Reset[0]
+      type: checkbox
+      label: Reset
+      required: false
+      width: full
+  clerkstampbox:
+    title: Clerkstampbox
+    fields:
+    - name: court_info_ft
+      pdf_field_name: JV-249[0].Page1[0].clerkstampbox[0].Stamp_court_case[0].CourtInfo_ft[0]
+      type: text
+      label: Court Info Ft
+      required: false
+      width: full
+    - name: case_number_ft
+      pdf_field_name: JV-249[0].Page1[0].clerkstampbox[0].Stamp_court_case[0].CaseNumber_ft[0]
+      type: text
+      label: Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+  list:
+    title: List
+    fields:
+    - name: your_name_tf
+      pdf_field_name: JV-249[0].Page1[0].List1[0].LI1[0].YourName_tf[0]
+      type: text
+      label: Your Name Tf
+      required: false
+      width: full
+    - name: protected_lawyer_name
+      pdf_field_name: JV-249[0].Page1[0].List1[0].LI1[0].ProtectedLawyerName[0]
+      type: text
+      label: Protected Lawyer Name
+      required: false
+      width: full
+    - name: protected_lawyer_bar
+      pdf_field_name: JV-249[0].Page1[0].List1[0].LI1[0].ProtectedLawyerBar[0]
+      type: text
+      label: Protected Lawyer Bar
+      required: false
+      width: full
+    - name: protected_lawyer_firm
+      pdf_field_name: JV-249[0].Page1[0].List1[0].LI1[0].ProtectedLawyerFirm[0]
+      type: text
+      label: Protected Lawyer Firm
+      required: false
+      width: full
+    - name: your_name_tf_2
+      pdf_field_name: JV-249[0].Page1[0].List2[0].LI1[0].YourName_tf[0]
+      type: text
+      label: Your Name Tf
+      required: false
+      width: full
+    - name: hearing_date_dt
+      pdf_field_name: JV-249[0].Page1[0].List3[0].LI1[0].item3box[0].HearingDateInfo_gp[0].HearingDate_dt[0]
+      type: date
+      label: Hearing Date Dt
+      required: false
+      width: half
+    - name: hearing_time_dt
+      pdf_field_name: JV-249[0].Page1[0].List3[0].LI1[0].item3box[0].HearingDateInfo_gp[0].HearingTime_dt[0]
+      type: date
+      label: Hearing Time Dt
+      required: false
+      width: half
+    - name: hearing_dept_ft
+      pdf_field_name: JV-249[0].Page1[0].List3[0].LI1[0].item3box[0].HearingDateInfo_gp[0].HearingDept_ft[0]
+      type: date
+      label: Hearing Dept Ft
+      required: false
+      width: half
+    - name: hearing_rm_ft
+      pdf_field_name: JV-249[0].Page1[0].List3[0].LI1[0].item3box[0].HearingDateInfo_gp[0].HearingRm_ft[0]
+      type: date
+      label: Hearing Rm Ft
+      required: false
+      width: half
+    - name: hearing_court_ft
+      pdf_field_name: JV-249[0].Page1[0].List3[0].LI1[0].item3box[0].HearingDateInfo_gp[0].HearingAdd_gp[0].HearingCourt_ft[0]
+      type: date
+      label: Hearing Court Ft
+      required: false
+      width: half
+    - name: button1
+      pdf_field_name: JV-249[0].Page1[0].List3[0].LI1[0].item3box[0].Button1[0]
+      type: checkbox
+      label: Button
+      required: false
+      width: full
+    - name: field_name_cb_no_caption
+      pdf_field_name: JV-249[0].Page1[0].List4[0].FieldName_cb_NoCaption[0]
+      type: text
+      label: Field Name Cb No Caption
+      required: false
+      width: full
+    - name: field_name_cb_no_caption_2
+      pdf_field_name: JV-249[0].Page1[0].List4[0].FieldName_cb_NoCaption[1]
+      type: text
+      label: Field Name Cb No Caption
+      required: false
+      width: full
+    - name: item4a
+      pdf_field_name: JV-249[0].Page1[0].List4[0].LI1[0].LI1List1[0].LI1[0].item4a[0]
+      type: text
+      label: Item4a
+      required: false
+      width: full
+    - name: item4a_2
+      pdf_field_name: JV-249[0].Page1[0].List4[0].LI1[0].LI1List1[0].LI2[0].item4a[0]
+      type: text
+      label: Item4a
+      required: false
+      width: full
+    - name: item4a_2
+      pdf_field_name: JV-249[0].Page1[0].List4[0].LI1[0].LI1List1[0].LI3[0].item4a[0]
+      type: text
+      label: Item4a
+      required: false
+      width: full
+  titlepg:
+    title: Titlepg
+    fields:
+    - name: case_number_ft_2
+      pdf_field_name: JV-249[0].Page2[0].titlepg2[0].PE_P2Header_gp[0].CaseNumber_ft[0]
+      type: text
+      label: Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+    - name: case_number_ft_2
+      pdf_field_name: JV-249[0].Page3[0].titlepg3[0].PE_P2Header_gp[0].CaseNumber_ft[0]
+      type: text
+      label: Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+  list4_continued:
+    title: List4 Continued
+    fields:
+    - name: therequest
+      pdf_field_name: JV-249[0].Page2[0].List4Continued[0].LI2[0].LI2List1[0].LI1[0].therequest[0]
+      type: text
+      label: Therequest
+      required: false
+      width: full
+    - name: item4b1_cb
+      pdf_field_name: JV-249[0].Page2[0].List4Continued[0].LI2[0].LI2List1[0].LI1[0].LI1List1[0].LI1[0].Item4b1_cb[0]
+      type: text
+      label: Item4b1 Cb
+      required: false
+      width: full
+    - name: item4b1_cb_2
+      pdf_field_name: JV-249[0].Page2[0].List4Continued[0].LI2[0].LI2List1[0].LI1[0].LI1List1[0].LI2[0].Item4b1_cb[0]
+      type: text
+      label: Item4b1 Cb
+      required: false
+      width: full
+    - name: item4b1_cb_2
+      pdf_field_name: JV-249[0].Page2[0].List4Continued[0].LI2[0].LI2List1[0].LI1[0].LI1List1[0].LI3[0].Item4b1_cb[0]
+      type: text
+      label: Item4b1 Cb
+      required: false
+      width: full
+    - name: tro_denied_facts_ft
+      pdf_field_name: JV-249[0].Page2[0].List4Continued[0].LI2[0].LI2List1[0].LI1[0].LI1List1[0].LI3[0].TRODeniedFacts_ft[0]
+      type: text
+      label: Tro Denied Facts Ft
+      required: false
+      width: full
+    - name: therequest_2
+      pdf_field_name: JV-249[0].Page2[0].List4Continued[0].LI2[0].LI2List1[0].LI2[0].therequest[0]
+      type: text
+      label: Therequest
+      required: false
+      width: full
+    - name: item4b2ab
+      pdf_field_name: JV-249[0].Page2[0].List4Continued[0].LI2[0].LI2List1[0].LI2[0].LI2List1[0].LI1[0].item4b2ab[0]
+      type: text
+      label: Item4b2ab
+      required: false
+      width: full
+    - name: item4b2ab_2
+      pdf_field_name: JV-249[0].Page2[0].List4Continued[0].LI2[0].LI2List1[0].LI2[0].LI2List1[0].LI2[0].item4b2ab[0]
+      type: text
+      label: Item4b2ab
+      required: false
+      width: full
+    - name: asstated
+      pdf_field_name: JV-249[0].Page2[0].List4Continued[0].LI2[0].LI2List1[0].LI2[0].LI2List1[0].LI2[0].asstated[0]
+      type: address
+      label: Asstated
+      required: false
+      width: full
+    - name: tro_denied_facts_ft_2
+      pdf_field_name: JV-249[0].Page2[0].List4Continued[0].LI2[0].LI2List1[0].LI2[0].LI2List1[0].LI2[0].TRODeniedFacts_ft[0]
+      type: text
+      label: Tro Denied Facts Ft
+      required: false
+      width: full
+  subformset:
+    title: Subformset
+    fields:
+    - name: five_cb
+      pdf_field_name: JV-249[0].Page2[0].subformset[0].List5[0].Five_cb[0]
+      type: text
+      label: Five Cb
+      required: false
+      width: full
+    - name: five_cb_2
+      pdf_field_name: JV-249[0].Page2[0].subformset[0].List5[0].Five_cb[1]
+      type: text
+      label: Five Cb
+      required: false
+      width: full
+    - name: service_other_days_nu
+      pdf_field_name: JV-249[0].Page2[0].subformset[0].List5[0].ServiceOtherDays_nu[0]
+      type: text
+      label: Service Other Days Nu
+      required: false
+      width: full
+    - name: service_a
+      pdf_field_name: JV-249[0].Page2[0].subformset[0].List5[0].LI1[0].Service_A[0]
+      type: text
+      label: Service A
+      required: false
+      width: full
+    - name: service110_b
+      pdf_field_name: JV-249[0].Page2[0].subformset[0].List5[0].LI2[0].Service110_B[0]
+      type: text
+      label: Service110 B
+      required: false
+      width: full
+    - name: service110_c
+      pdf_field_name: JV-249[0].Page2[0].subformset[0].List5[0].LI3[0].Service110_C[0]
+      type: text
+      label: Service110 C
+      required: false
+      width: full
+    - name: service110_d
+      pdf_field_name: JV-249[0].Page2[0].subformset[0].List5[0].LI4[0].Service110_D[0]
+      type: text
+      label: Service110 D
+      required: false
+      width: full
+    - name: service110_e
+      pdf_field_name: JV-249[0].Page2[0].subformset[0].List5[0].LI5[0].Service110_E[0]
+      type: text
+      label: Service110 E
+      required: false
+      width: full
+    - name: service110_f
+      pdf_field_name: JV-249[0].Page2[0].subformset[0].List5[0].LI6[0].Service110_F[0]
+      type: text
+      label: Service110 F
+      required: false
+      width: full
+    - name: service_other_form_g
+      pdf_field_name: JV-249[0].Page2[0].subformset[0].List5[0].LI7[0].ServiceOtherForm_G[0]
+      type: text
+      label: Service Other Form G
+      required: false
+      width: full
+    - name: specify_g
+      pdf_field_name: JV-249[0].Page2[0].subformset[0].List5[0].LI7[0].Specify_G[0]
+      type: text
+      label: Specify G
+      required: false
+      width: full
+    - name: service_other_form_cb
+      pdf_field_name: JV-249[0].Page2[0].subformset[0].List5[0].LI8[0].ServiceOtherForm_cb[0]
+      type: text
+      label: Service Other Form Cb
+      required: false
+      width: full
+    - name: service_other_form_ft
+      pdf_field_name: JV-249[0].Page2[0].subformset[0].List5[0].LI8[0].ServiceOtherForm_ft[0]
+      type: text
+      label: Service Other Form Ft
+      required: false
+      width: full
+  datesignature:
+    title: Datesignature
+    fields:
+    - name: sig_date
+      pdf_field_name: JV-249[0].Page2[0].datesignature[0].SigDate[0]
+      type: signature
+      label: Sig Date
+      required: false
+      width: full
+  request:
+    title: Request
+    fields:
+    - name: button1_2
+      pdf_field_name: JV-249[0].Page3[0].request[0].Button1[0]
+      type: checkbox
+      label: Button
+      required: false
+      width: full
+  clerkwillfill:
+    title: Clerkwillfill
+    fields:
+    - name: clerk_signature_da
+      pdf_field_name: JV-249[0].Page3[0].clerkwillfill[0].ClerkSignature_da[0]
+      type: signature
+      label: Clerk Signature Da
+      required: false
+      width: full
+    - name: clerk_ft
+      pdf_field_name: JV-249[0].Page3[0].clerkwillfill[0].Clerk_ft[0]
+      type: text
+      label: Clerk Ft
+      required: false
+      width: full

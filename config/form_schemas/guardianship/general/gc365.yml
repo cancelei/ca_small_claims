@@ -1,0 +1,215 @@
+---
+form:
+  code: GC-365
+  title: GC 365 Form
+  description: ''
+  category: guardianship/general
+  pdf_filename: gc365.pdf
+  fillable: true
+  instructions: ''
+sections:
+  std_p1_header:
+    title: Std P1 Header
+    fields:
+    - name: crt_county
+      pdf_field_name: GC-365[0].Page1[0].StdP1Header[0].CourtInfo[0].CrtCounty[0]
+      type: number
+      label: Crt County
+      required: false
+      width: third
+    - name: crt_branch
+      pdf_field_name: GC-365[0].Page1[0].StdP1Header[0].CourtInfo[0].CrtBranch[0]
+      type: text
+      label: Crt Branch
+      required: false
+      width: full
+    - name: crt_city_zip
+      pdf_field_name: GC-365[0].Page1[0].StdP1Header[0].CourtInfo[0].CrtCityZip[0]
+      type: address
+      label: Crt City Zip
+      required: false
+      width: full
+    - name: crt_street
+      pdf_field_name: GC-365[0].Page1[0].StdP1Header[0].CourtInfo[0].CrtStreet[0]
+      type: address
+      label: Crt Street
+      required: false
+      width: full
+    - name: crt_mailing_add
+      pdf_field_name: GC-365[0].Page1[0].StdP1Header[0].CourtInfo[0].CrtMailingAdd[0]
+      type: address
+      label: Crt Mailing Add
+      required: false
+      width: full
+    - name: party1
+      pdf_field_name: GC-365[0].Page1[0].StdP1Header[0].TitlePartyName[0].Party1[0]
+      type: text
+      label: Party
+      required: false
+      width: full
+    - name: person_checkbox
+      pdf_field_name: GC-365[0].Page1[0].StdP1Header[0].TitlePartyName[0].PersonCheckbox[0]
+      type: checkbox
+      label: Person Checkbox
+      required: false
+      width: full
+    - name: estate_checkbox
+      pdf_field_name: GC-365[0].Page1[0].StdP1Header[0].TitlePartyName[0].EstateCheckbox[0]
+      type: address
+      label: Estate Checkbox
+      required: false
+      width: full
+    - name: case_number
+      pdf_field_name: GC-365[0].Page1[0].StdP1Header[0].CaseNumber[0].CaseNumber[0]
+      type: text
+      label: Case Number
+      required: false
+      width: full
+      shared_key: case:number
+    - name: state
+      pdf_field_name: GC-365[0].Page1[0].StdP1Header[0].AttyPartyInfo[0].State[0]
+      type: address
+      label: State
+      required: false
+      width: full
+    - name: zip
+      pdf_field_name: GC-365[0].Page1[0].StdP1Header[0].AttyPartyInfo[0].Zip[0]
+      type: address
+      label: Zip
+      required: false
+      width: full
+    - name: city
+      pdf_field_name: GC-365[0].Page1[0].StdP1Header[0].AttyPartyInfo[0].City[0]
+      type: address
+      label: City
+      required: false
+      width: full
+    - name: street
+      pdf_field_name: GC-365[0].Page1[0].StdP1Header[0].AttyPartyInfo[0].Street[0]
+      type: address
+      label: Street
+      required: false
+      width: full
+    - name: firm
+      pdf_field_name: GC-365[0].Page1[0].StdP1Header[0].AttyPartyInfo[0].Firm[0]
+      type: text
+      label: Firm
+      required: false
+      width: full
+    - name: name
+      pdf_field_name: GC-365[0].Page1[0].StdP1Header[0].AttyPartyInfo[0].Name[0]
+      type: text
+      label: Name
+      required: false
+      width: full
+    - name: phone
+      pdf_field_name: GC-365[0].Page1[0].StdP1Header[0].AttyPartyInfo[0].Phone[0]
+      type: tel
+      label: Phone
+      required: false
+      width: half
+    - name: fax
+      pdf_field_name: GC-365[0].Page1[0].StdP1Header[0].AttyPartyInfo[0].Fax[0]
+      type: tel
+      label: Fax
+      required: false
+      width: half
+    - name: email
+      pdf_field_name: GC-365[0].Page1[0].StdP1Header[0].AttyPartyInfo[0].Email[0]
+      type: email
+      label: Email
+      required: false
+      width: half
+    - name: atty_for
+      pdf_field_name: GC-365[0].Page1[0].StdP1Header[0].AttyPartyInfo[0].AttyFor[0]
+      type: text
+      label: Atty For
+      required: false
+      width: full
+    - name: bar_no
+      pdf_field_name: GC-365[0].Page1[0].StdP1Header[0].AttyPartyInfo[0].BarNo[0]
+      type: text
+      label: Bar No
+      required: false
+      width: full
+  fill_text:
+    title: Fill Text
+    fields:
+    - name: fill_text1140
+      pdf_field_name: GC-365[0].Page1[0].FillText1140[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text1140_2
+      pdf_field_name: GC-365[0].Page1[0].FillText1140[1]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text1140_2
+      pdf_field_name: GC-365[0].Page1[0].FillText1140[2]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text1140_2
+      pdf_field_name: GC-365[0].Page1[0].FillText1140[3]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+  person_checkbox:
+    title: Person Checkbox
+    fields:
+    - name: person_checkbox_2
+      pdf_field_name: GC-365[0].Page1[0].PersonCheckbox[0]
+      type: checkbox
+      label: Person Checkbox
+      required: false
+      width: full
+  estate_checkbox:
+    title: Estate Checkbox
+    fields:
+    - name: estate_checkbox_2
+      pdf_field_name: GC-365[0].Page1[0].EstateCheckbox[0]
+      type: address
+      label: Estate Checkbox
+      required: false
+      width: full
+  print:
+    title: Print
+    fields:
+    - name: print
+      pdf_field_name: GC-365[0].#area[0].Print[0]
+      type: checkbox
+      label: Print
+      required: false
+      width: full
+  save:
+    title: Save
+    fields:
+    - name: save
+      pdf_field_name: GC-365[0].#area[0].Save[0]
+      type: checkbox
+      label: Save
+      required: false
+      width: full
+  reset:
+    title: Reset
+    fields:
+    - name: reset
+      pdf_field_name: GC-365[0].#area[0].Reset[0]
+      type: checkbox
+      label: Reset
+      required: false
+      width: full
+  warning:
+    title: Warning
+    fields:
+    - name: warning
+      pdf_field_name: GC-365[0].#area[0].Warning[0]
+      type: checkbox
+      label: Warning
+      required: false
+      width: full

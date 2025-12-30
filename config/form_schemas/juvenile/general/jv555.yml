@@ -1,0 +1,240 @@
+---
+form:
+  code: JV-555
+  title: JV 555 Form
+  description: ''
+  category: juvenile/general
+  pdf_filename: jv555.pdf
+  fillable: true
+  instructions: ''
+sections:
+  item2agency_tf:
+    title: Item2agency Tf
+    fields:
+    - name: item2agency_tf
+      pdf_field_name: JV-555[0].Page1[0].item2agency_tf[0]
+      type: text
+      label: Item2agency Tf
+      required: false
+      width: full
+  item2reason_tf:
+    title: Item2reason Tf
+    fields:
+    - name: item2reason_tf
+      pdf_field_name: JV-555[0].Page1[0].item2reason_tf[0]
+      type: text
+      label: Item2reason Tf
+      required: false
+      width: full
+  court_info_ft:
+    title: Court Info Ft
+    fields:
+    - name: court_info_ft
+      pdf_field_name: JV-555[0].Page1[0].CourtInfo_ft[0]
+      type: text
+      label: Court Info Ft
+      required: false
+      width: full
+  case_number_ft:
+    title: Case Number Ft
+    fields:
+    - name: case_number_ft
+      pdf_field_name: JV-555[0].Page1[0].CaseNumber_ft[0]
+      type: text
+      label: Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+    - name: case_number_ft_2
+      pdf_field_name: JV-555[0].#subform[1].CaseNumber_ft[0]
+      type: text
+      label: Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+  item1a_tf:
+    title: Item1a Tf
+    fields:
+    - name: item1a_tf
+      pdf_field_name: JV-555[0].Page1[0].item1a_tf[0]
+      type: text
+      label: Item1a Tf
+      required: false
+      width: full
+  childsname_ft:
+    title: Childsname Ft
+    fields:
+    - name: childsname_ft
+      pdf_field_name: JV-555[0].Page1[0].childsname_ft[0]
+      type: text
+      label: Childsname Ft
+      required: false
+      width: full
+    - name: childsname_ft_2
+      pdf_field_name: JV-555[0].#subform[1].childsname_ft[0]
+      type: text
+      label: Childsname Ft
+      required: false
+      width: full
+  date_field:
+    title: Date Field
+    fields:
+    - name: date_field1
+      pdf_field_name: JV-555[0].Page1[0].DateField1[0]
+      type: date
+      label: Date Field
+      required: false
+      width: half
+  item1b_tf:
+    title: Item1b Tf
+    fields:
+    - name: item1b_tf
+      pdf_field_name: JV-555[0].Page1[0].item1b_tf[0]
+      type: text
+      label: Item1b Tf
+      required: false
+      width: full
+  item1e_tf:
+    title: Item1e Tf
+    fields:
+    - name: item1e_tf
+      pdf_field_name: JV-555[0].Page1[0].item1e_tf[0]
+      type: text
+      label: Item1e Tf
+      required: false
+      width: full
+  item1f_tf:
+    title: Item1f Tf
+    fields:
+    - name: item1f_tf
+      pdf_field_name: JV-555[0].Page1[0].item1f_tf[0]
+      type: text
+      label: Item1f Tf
+      required: false
+      width: full
+  item1g_tf:
+    title: Item1g Tf
+    fields:
+    - name: item1g_tf
+      pdf_field_name: JV-555[0].Page1[0].item1g_tf[0]
+      type: text
+      label: Item1g Tf
+      required: false
+      width: full
+  item1h_tf:
+    title: Item1h Tf
+    fields:
+    - name: item1h_tf
+      pdf_field_name: JV-555[0].Page1[0].item1h_tf[0]
+      type: text
+      label: Item1h Tf
+      required: false
+      width: full
+  item1i_tf:
+    title: Item1i Tf
+    fields:
+    - name: item1i_tf
+      pdf_field_name: JV-555[0].Page1[0].item1i_tf[0]
+      type: text
+      label: Item1i Tf
+      required: false
+      width: full
+  item2address_tf:
+    title: Item2address Tf
+    fields:
+    - name: item2address_tf
+      pdf_field_name: JV-555[0].Page1[0].item2address_tf[0]
+      type: address
+      label: Item2address Tf
+      required: false
+      width: full
+  item2phoneno_tf:
+    title: Item2phoneno Tf
+    fields:
+    - name: item2phoneno_tf
+      pdf_field_name: JV-555[0].Page1[0].item2phoneno_tf[0]
+      type: tel
+      label: Item2phoneno Tf
+      required: false
+      width: half
+  nopages_tf:
+    title: Nopages Tf
+    fields:
+    - name: nopages_tf
+      pdf_field_name: JV-555[0].Page1[0].nopages_tf[0]
+      type: text
+      label: Nopages Tf
+      required: false
+      width: full
+  item1c_tf:
+    title: Item1c Tf
+    fields:
+    - name: item1c_tf
+      pdf_field_name: JV-555[0].Page1[0].item1c_tf[0]
+      type: text
+      label: Item1c Tf
+      required: false
+      width: full
+  item1d_tf:
+    title: Item1d Tf
+    fields:
+    - name: item1d_tf
+      pdf_field_name: JV-555[0].Page1[0].item1d_tf[0]
+      type: text
+      label: Item1d Tf
+      required: false
+      width: full
+  sig_date:
+    title: Sig Date
+    fields:
+    - name: sig_date
+      pdf_field_name: JV-555[0].#subform[1].#area[1].SigDate[0]
+      type: date
+      label: Sig Date
+      required: false
+      width: half
+  name_tf:
+    title: Name Tf
+    fields:
+    - name: name_tf
+      pdf_field_name: JV-555[0].#subform[1].#area[1].name_tf[0]
+      type: text
+      label: Name Tf
+      required: false
+      width: full
+  print:
+    title: Print
+    fields:
+    - name: print
+      pdf_field_name: JV-555[0].#subform[1].#area[3].Print[0]
+      type: checkbox
+      label: Print
+      required: false
+      width: full
+  save:
+    title: Save
+    fields:
+    - name: save
+      pdf_field_name: JV-555[0].#subform[1].#area[3].Save[0]
+      type: checkbox
+      label: Save
+      required: false
+      width: full
+  reset:
+    title: Reset
+    fields:
+    - name: reset
+      pdf_field_name: JV-555[0].#subform[1].#area[3].Reset[0]
+      type: checkbox
+      label: Reset
+      required: false
+      width: full
+  warning:
+    title: Warning
+    fields:
+    - name: warning
+      pdf_field_name: JV-555[0].#subform[1].#area[3].Warning[0]
+      type: checkbox
+      label: Warning
+      required: false
+      width: full

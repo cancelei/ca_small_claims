@@ -1,0 +1,94 @@
+---
+form:
+  code: FL-632INFO
+  title: FL 632INFO Form
+  description: ''
+  category: family_law/general
+  pdf_filename: fl632info.pdf
+  fillable: true
+  instructions: ''
+sections:
+  page1_footer:
+    title: Page1 Footer
+    fields:
+    - name: courts_link
+      pdf_field_name: FL-632-INFO[0].#pageSet[0].Page1[0].Page1Footer[0].CourtsLink[0]
+      type: checkbox
+      label: Courts Link
+      required: false
+      width: full
+  last_page:
+    title: Last Page
+    fields:
+    - name: print
+      pdf_field_name: FL-632-INFO[0].#pageSet[0].LastPage[0].LastPageFooter[0].FooterButtons[0].Print[0]
+      type: checkbox
+      label: Print
+      required: false
+      width: full
+    - name: save
+      pdf_field_name: FL-632-INFO[0].#pageSet[0].LastPage[0].LastPageFooter[0].FooterButtons[0].Save[0]
+      type: checkbox
+      label: Save
+      required: false
+      width: full
+  how_support_paid:
+    title: How Support Paid
+    fields:
+    - name: form_fl_195link
+      pdf_field_name: FL-632-INFO[0].Page1[0].HowSupportPaid[0].HowSupportPaidList[0].LI1[0].HowSupportPaidItem1[0].FormFL-195Link[0]
+      type: checkbox
+      label: Form Fl 195 Link
+      required: false
+      width: full
+    - name: form_fl_191link
+      pdf_field_name: FL-632-INFO[0].Page1[0].HowSupportPaid[0].HowSupportPaidList[0].LI2[0].HowSupportPaidItem2[0].FormFL-191Link[0]
+      type: checkbox
+      label: Form Fl 191 Link
+      required: false
+      width: full
+    - name: form_fl_632link
+      pdf_field_name: FL-632-INFO[0].Page1[0].HowSupportPaid[0].HowSupportPaidList[0].LI2[0].HowSupportPaidItem2[0].FormFL-632Link[0]
+      type: checkbox
+      label: Form Fl 632 Link
+      required: false
+      width: full
+  how_order_changed:
+    title: How Order Changed
+    fields:
+    - name: form_fl_350link
+      pdf_field_name: FL-632-INFO[0].Page1[0].HowOrderChanged[0].HowOrderChangedList[0].LI1[0].HowOrderChangedItem1[0].FormFL-350Link[0]
+      type: checkbox
+      label: Form Fl 350 Link
+      required: false
+      width: full
+    - name: form_fl_300link
+      pdf_field_name: FL-632-INFO[0].Page1[0].HowOrderChanged[0].HowOrderChangedList[0].LI2[0].HowOrderChangedItem2[0].FormFL-300Link[0]
+      type: checkbox
+      label: Form Fl 300 Link
+      required: false
+      width: full
+    - name: form_fl_150link
+      pdf_field_name: FL-632-INFO[0].Page1[0].HowOrderChanged[0].HowOrderChangedList[0].LI2[0].HowOrderChangedItem2[0].FormFL-150Link[0]
+      type: checkbox
+      label: Form Fl 150 Link
+      required: false
+      width: full
+  is_case_assigned:
+    title: Is Case Assigned
+    fields:
+    - name: lcsa_hearing_link
+      pdf_field_name: FL-632-INFO[0].Page1[0].IsCaseAssigned[0].LCSAHearingLink[0]
+      type: checkbox
+      label: Lcsa Hearing Link
+      required: false
+      width: full
+  get_free_help:
+    title: Get Free Help
+    fields:
+    - name: self_help_facilitators_link
+      pdf_field_name: FL-632-INFO[0].Page2[0].GetFreeHelp[0].SelfHelpFacilitatorsLink[0]
+      type: checkbox
+      label: Self Help Facilitators Link
+      required: false
+      width: full

@@ -1,0 +1,65 @@
+---
+form:
+  code: JV-468
+  title: JV 468 Form
+  description: ''
+  category: juvenile/general
+  pdf_filename: jv468.pdf
+  fillable: true
+  instructions: ''
+sections:
+  general:
+    title: General
+    fields:
+    - name: court
+      pdf_field_name: Court
+      type: text
+      label: Court
+      required: false
+      width: full
+    - name: case_number
+      pdf_field_name: CaseNumber
+      type: text
+      label: Case Number
+      required: false
+      width: full
+      shared_key: case:number
+    - name: name
+      pdf_field_name: Your.name
+      type: text
+      label: Name
+      required: false
+      width: full
+  a:
+    title: A
+    fields:
+    - name: address1
+      pdf_field_name: FillText01.a.address1
+      type: address
+      label: Address
+      required: false
+      width: full
+    - name: address2
+      pdf_field_name: FillText01.a.address2
+      type: address
+      label: Address
+      required: false
+      width: full
+  b:
+    title: B
+    fields:
+    - name: zip
+      pdf_field_name: FillText01.b.city.state.zip
+      type: address
+      label: Zip
+      required: false
+      width: full
+  c:
+    title: C
+    fields:
+    - name: tel
+      pdf_field_name: FillText01.c.tel
+      type: tel
+      label: Tel
+      required: false
+      width: half

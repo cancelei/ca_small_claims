@@ -1,0 +1,85 @@
+---
+form:
+  code: TR-220
+  title: TR 220 Form
+  description: ''
+  category: civil/traffic
+  pdf_filename: tr220.pdf
+  fillable: true
+  instructions: ''
+sections:
+  general:
+    title: General
+    fields:
+    - name: text
+      pdf_field_name: TEXT.1.0
+      type: text
+      label: Text
+      required: false
+      width: full
+    - name: text_2
+      pdf_field_name: TEXT.1.1
+      type: text
+      label: Text
+      required: false
+      width: full
+    - name: text_2
+      pdf_field_name: TEXT.1.2
+      type: text
+      label: Text
+      required: false
+      width: full
+    - name: text_2
+      pdf_field_name: TEXT.1.3
+      type: text
+      label: Text
+      required: false
+      width: full
+    - name: text_2
+      pdf_field_name: TEXT.1.4
+      type: text
+      label: Text
+      required: false
+      width: full
+    - name: text_2
+      pdf_field_name: TEXT.1.5
+      type: text
+      label: Text
+      required: false
+      width: full
+    - name: text_2
+      pdf_field_name: TEXT.1.6
+      type: text
+      label: Text
+      required: false
+      width: full
+    - name: text_2
+      pdf_field_name: TEXT.1.7
+      type: text
+      label: Text
+      required: false
+      width: full
+    - name: text_2
+      pdf_field_name: TEXT.1.8
+      type: text
+      label: Text
+      required: false
+      width: full
+    - name: text_2
+      pdf_field_name: TEXT.1.9
+      type: text
+      label: Text
+      required: false
+      width: full
+    - name: text_2
+      pdf_field_name: TEXT.1.10
+      type: text
+      label: Text
+      required: false
+      width: full
+    - name: text_2
+      pdf_field_name: TEXT.1.11
+      type: text
+      label: Text
+      required: false
+      width: full

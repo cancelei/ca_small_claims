@@ -1,0 +1,555 @@
+---
+form:
+  code: FL-610
+  title: FL 610 Form
+  description: ''
+  category: family_law/general
+  pdf_filename: fl610.pdf
+  fillable: true
+  instructions: ''
+sections:
+  p1_caption:
+    title: P1 Caption
+    fields:
+    - name: address1
+      pdf_field_name: FL-610[0].Page1[0].P1Caption[0].Address1[0]
+      type: address
+      label: Address
+      required: false
+      width: full
+    - name: atty_bar_no
+      pdf_field_name: FL-610[0].Page1[0].P1Caption[0].AttyPartyInfo[0].AttyBarNo[0]
+      type: text
+      label: Atty Bar No
+      required: false
+      width: full
+    - name: address1_2
+      pdf_field_name: FL-610[0].Page1[0].P1Caption[0].AttyPartyInfo[0].Address1[0]
+      type: address
+      label: Address
+      required: false
+      width: full
+    - name: address2
+      pdf_field_name: FL-610[0].Page1[0].P1Caption[0].AttyPartyInfo[0].Address2[0]
+      type: address
+      label: Address
+      required: false
+      width: full
+    - name: address3
+      pdf_field_name: FL-610[0].Page1[0].P1Caption[0].AttyPartyInfo[0].Address3[0]
+      type: address
+      label: Address
+      required: false
+      width: full
+    - name: address4
+      pdf_field_name: FL-610[0].Page1[0].P1Caption[0].AttyPartyInfo[0].Address4[0]
+      type: address
+      label: Address
+      required: false
+      width: full
+    - name: phone
+      pdf_field_name: FL-610[0].Page1[0].P1Caption[0].AttyPartyInfo[0].Phone[0]
+      type: tel
+      label: Phone
+      required: false
+      width: half
+    - name: fax
+      pdf_field_name: FL-610[0].Page1[0].P1Caption[0].AttyPartyInfo[0].Fax[0]
+      type: tel
+      label: Fax
+      required: false
+      width: half
+    - name: email
+      pdf_field_name: FL-610[0].Page1[0].P1Caption[0].AttyPartyInfo[0].Email[0]
+      type: email
+      label: Email
+      required: false
+      width: half
+    - name: atty_for
+      pdf_field_name: FL-610[0].Page1[0].P1Caption[0].AttyPartyInfo[0].AttyFor[0]
+      type: text
+      label: Atty For
+      required: false
+      width: full
+    - name: crt_county
+      pdf_field_name: FL-610[0].Page1[0].P1Caption[0].CourtInfo[0].CrtCounty[0]
+      type: number
+      label: Crt County
+      required: false
+      width: third
+    - name: crt_street
+      pdf_field_name: FL-610[0].Page1[0].P1Caption[0].CourtInfo[0].CrtStreet[0]
+      type: address
+      label: Crt Street
+      required: false
+      width: full
+    - name: crt_mailing_add
+      pdf_field_name: FL-610[0].Page1[0].P1Caption[0].CourtInfo[0].CrtMailingAdd[0]
+      type: address
+      label: Crt Mailing Add
+      required: false
+      width: full
+    - name: crt_city_zip
+      pdf_field_name: FL-610[0].Page1[0].P1Caption[0].CourtInfo[0].CrtCityZip[0]
+      type: address
+      label: Crt City Zip
+      required: false
+      width: full
+    - name: crt_branch
+      pdf_field_name: FL-610[0].Page1[0].P1Caption[0].CourtInfo[0].CrtBranch[0]
+      type: text
+      label: Crt Branch
+      required: false
+      width: full
+    - name: party1
+      pdf_field_name: FL-610[0].Page1[0].P1Caption[0].TitlePartyName[0].Party1[0]
+      type: text
+      label: Party
+      required: false
+      width: full
+    - name: party2
+      pdf_field_name: FL-610[0].Page1[0].P1Caption[0].TitlePartyName[0].Party2[0]
+      type: text
+      label: Party
+      required: false
+      width: full
+    - name: party3
+      pdf_field_name: FL-610[0].Page1[0].P1Caption[0].TitlePartyName[0].Party3[0]
+      type: text
+      label: Party
+      required: false
+      width: full
+    - name: case_number
+      pdf_field_name: FL-610[0].Page1[0].P1Caption[0].CaseNumber[0].CaseNumber[0]
+      type: text
+      label: Case Number
+      required: false
+      width: full
+      shared_key: case:number
+    - name: yesno1
+      pdf_field_name: FL-610[0].Page1[0].P1Caption[0].yesno1[0]
+      type: text
+      label: Yesno
+      required: false
+      width: full
+    - name: address1_2
+      pdf_field_name: FL-610[0].Page1[0].P1Caption[0].Address1[1]
+      type: address
+      label: Address
+      required: false
+      width: full
+    - name: yesno3
+      pdf_field_name: FL-610[0].Page1[0].P1Caption[0].yesno3[0]
+      type: text
+      label: Yesno
+      required: false
+      width: full
+    - name: address1_2
+      pdf_field_name: FL-610[0].Page1[0].P1Caption[0].Address1[2]
+      type: address
+      label: Address
+      required: false
+      width: full
+    - name: yesno5
+      pdf_field_name: FL-610[0].Page1[0].P1Caption[0].yesno5[0]
+      type: text
+      label: Yesno
+      required: false
+      width: full
+    - name: check_box1
+      pdf_field_name: FL-610[0].Page1[0].P1Caption[0].CheckBox1[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: address1_2
+      pdf_field_name: FL-610[0].Page1[0].P1Caption[0].Address1[3]
+      type: address
+      label: Address
+      required: false
+      width: full
+    - name: address1_2
+      pdf_field_name: FL-610[0].Page1[0].P1Caption[0].Address1[4]
+      type: address
+      label: Address
+      required: false
+      width: full
+    - name: yesno6
+      pdf_field_name: FL-610[0].Page1[0].P1Caption[0].yesno6[0]
+      type: text
+      label: Yesno
+      required: false
+      width: full
+    - name: yesno6_2
+      pdf_field_name: FL-610[0].Page1[0].P1Caption[0].yesno6[1]
+      type: text
+      label: Yesno
+      required: false
+      width: full
+    - name: yesno5_2
+      pdf_field_name: FL-610[0].Page1[0].P1Caption[0].yesno5[1]
+      type: text
+      label: Yesno
+      required: false
+      width: full
+    - name: address1_2
+      pdf_field_name: FL-610[0].Page1[0].P1Caption[0].Address1[5]
+      type: address
+      label: Address
+      required: false
+      width: full
+    - name: address1_2
+      pdf_field_name: FL-610[0].Page1[0].P1Caption[0].Address1[6]
+      type: address
+      label: Address
+      required: false
+      width: full
+    - name: address1_2
+      pdf_field_name: FL-610[0].Page1[0].P1Caption[0].Address1[7]
+      type: address
+      label: Address
+      required: false
+      width: full
+    - name: yesno4
+      pdf_field_name: FL-610[0].Page1[0].P1Caption[0].yesno4[0]
+      type: text
+      label: Yesno
+      required: false
+      width: full
+    - name: yesno4_2
+      pdf_field_name: FL-610[0].Page1[0].P1Caption[0].yesno4[1]
+      type: text
+      label: Yesno
+      required: false
+      width: full
+    - name: yesno3_2
+      pdf_field_name: FL-610[0].Page1[0].P1Caption[0].yesno3[1]
+      type: text
+      label: Yesno
+      required: false
+      width: full
+    - name: address1_2
+      pdf_field_name: FL-610[0].Page1[0].P1Caption[0].Address1[8]
+      type: address
+      label: Address
+      required: false
+      width: full
+    - name: address1_2
+      pdf_field_name: FL-610[0].Page1[0].P1Caption[0].Address1[9]
+      type: address
+      label: Address
+      required: false
+      width: full
+    - name: address1_2
+      pdf_field_name: FL-610[0].Page1[0].P1Caption[0].Address1[10]
+      type: address
+      label: Address
+      required: false
+      width: full
+    - name: yesno2
+      pdf_field_name: FL-610[0].Page1[0].P1Caption[0].yesno2[0]
+      type: text
+      label: Yesno
+      required: false
+      width: full
+    - name: yesno2_2
+      pdf_field_name: FL-610[0].Page1[0].P1Caption[0].yesno2[1]
+      type: text
+      label: Yesno
+      required: false
+      width: full
+    - name: yesno1_2
+      pdf_field_name: FL-610[0].Page1[0].P1Caption[0].yesno1[1]
+      type: text
+      label: Yesno
+      required: false
+      width: full
+    - name: address1_2
+      pdf_field_name: FL-610[0].Page1[0].P1Caption[0].Address1[11]
+      type: address
+      label: Address
+      required: false
+      width: full
+    - name: address1_2
+      pdf_field_name: FL-610[0].Page1[0].P1Caption[0].Address1[12]
+      type: address
+      label: Address
+      required: false
+      width: full
+    - name: agreedis
+      pdf_field_name: FL-610[0].Page1[0].P1Caption[0].agreedis[0]
+      type: text
+      label: Agreedis
+      required: false
+      width: full
+    - name: agreedis_2
+      pdf_field_name: FL-610[0].Page1[0].P1Caption[0].agreedis[1]
+      type: text
+      label: Agreedis
+      required: false
+      width: full
+    - name: check_box1_2
+      pdf_field_name: FL-610[0].Page1[0].P1Caption[0].#subform[8].CheckBox1[1]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+    - name: button1
+      pdf_field_name: FL-610[0].Page1[0].P1Caption[0].Button1[0]
+      type: checkbox
+      label: Button
+      required: false
+      width: full
+    - name: button1_2
+      pdf_field_name: FL-610[0].Page1[0].P1Caption[0].Button1[1]
+      type: checkbox
+      label: Button
+      required: false
+      width: full
+  px_caption:
+    title: Px Caption
+    fields:
+    - name: case_number_2
+      pdf_field_name: FL-610[0].Page2[0].PxCaption[0].CaseNumber[0].CaseNumber[0]
+      type: text
+      label: Case Number
+      required: false
+      width: full
+      shared_key: case:number
+    - name: party1_2
+      pdf_field_name: FL-610[0].Page2[0].PxCaption[0].Party1[0]
+      type: text
+      label: Party
+      required: false
+      width: full
+    - name: party2_2
+      pdf_field_name: FL-610[0].Page2[0].PxCaption[0].Party2[0]
+      type: text
+      label: Party
+      required: false
+      width: full
+    - name: party3_2
+      pdf_field_name: FL-610[0].Page2[0].PxCaption[0].Party3[0]
+      type: text
+      label: Party
+      required: false
+      width: full
+    - name: sig_date
+      pdf_field_name: FL-610[0].Page2[0].PxCaption[0].PoPDec[0].SigDate[0]
+      type: date
+      label: Sig Date
+      required: false
+      width: half
+    - name: print_name
+      pdf_field_name: FL-610[0].Page2[0].PxCaption[0].PoPDec[0].PrintName[0]
+      type: text
+      label: Print Name
+      required: false
+      width: full
+    - name: crt_street_2
+      pdf_field_name: FL-610[0].Page2[0].PxCaption[0].PoPDec[0].CrtStreet[0]
+      type: address
+      label: Crt Street
+      required: false
+      width: full
+    - name: check_box1_2
+      pdf_field_name: FL-610[0].Page2[0].PxCaption[0].CheckBox1[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+  crt_street:
+    title: Crt Street
+    fields:
+    - name: crt_street_2
+      pdf_field_name: FL-610[0].Page2[0].CrtStreet[0]
+      type: address
+      label: Crt Street
+      required: false
+      width: full
+    - name: crt_street_2
+      pdf_field_name: FL-610[0].Page2[0].CrtStreet[1]
+      type: address
+      label: Crt Street
+      required: false
+      width: full
+    - name: crt_street_2
+      pdf_field_name: FL-610[0].Page2[0].CrtStreet[2]
+      type: address
+      label: Crt Street
+      required: false
+      width: full
+    - name: crt_street_2
+      pdf_field_name: FL-610[0].Page2[0].CrtStreet[3]
+      type: address
+      label: Crt Street
+      required: false
+      width: full
+    - name: crt_street_2
+      pdf_field_name: FL-610[0].Page2[0].CrtStreet[4]
+      type: address
+      label: Crt Street
+      required: false
+      width: full
+    - name: crt_street_2
+      pdf_field_name: FL-610[0].Page2[0].CrtStreet[5]
+      type: address
+      label: Crt Street
+      required: false
+      width: full
+    - name: crt_street_2
+      pdf_field_name: FL-610[0].Page2[0].CrtStreet[6]
+      type: address
+      label: Crt Street
+      required: false
+      width: full
+    - name: crt_street_2
+      pdf_field_name: FL-610[0].Page2[0].CrtStreet[7]
+      type: address
+      label: Crt Street
+      required: false
+      width: full
+    - name: crt_street_2
+      pdf_field_name: FL-610[0].Page2[0].CrtStreet[8]
+      type: address
+      label: Crt Street
+      required: false
+      width: full
+    - name: crt_street_2
+      pdf_field_name: FL-610[0].Page2[0].CrtStreet[9]
+      type: address
+      label: Crt Street
+      required: false
+      width: full
+  crt_mailing_add:
+    title: Crt Mailing Add
+    fields:
+    - name: crt_mailing_add_2
+      pdf_field_name: FL-610[0].Page2[0].CrtMailingAdd[0]
+      type: address
+      label: Crt Mailing Add
+      required: false
+      width: full
+  crt_city_zip:
+    title: Crt City Zip
+    fields:
+    - name: crt_city_zip_2
+      pdf_field_name: FL-610[0].Page2[0].CrtCityZip[0]
+      type: address
+      label: Crt City Zip
+      required: false
+      width: full
+  crt_branch:
+    title: Crt Branch
+    fields:
+    - name: crt_branch_2
+      pdf_field_name: FL-610[0].Page2[0].CrtBranch[0]
+      type: text
+      label: Crt Branch
+      required: false
+      width: full
+  address:
+    title: Address
+    fields:
+    - name: address3_2
+      pdf_field_name: FL-610[0].Page2[0].Address3[0]
+      type: address
+      label: Address
+      required: false
+      width: full
+    - name: address3_2
+      pdf_field_name: FL-610[0].Page2[0].Address3[1]
+      type: address
+      label: Address
+      required: false
+      width: full
+  check_box:
+    title: Check Box
+    fields:
+    - name: check_box19
+      pdf_field_name: FL-610[0].Page2[0].CheckBox19[0]
+      type: checkbox
+      label: Check Box
+      required: false
+      width: full
+  sig_date:
+    title: Sig Date
+    fields:
+    - name: sig_date_2
+      pdf_field_name: FL-610[0].Page2[0].SigDate[0]
+      type: date
+      label: Sig Date
+      required: false
+      width: half
+  print_name:
+    title: Print Name
+    fields:
+    - name: print_name_2
+      pdf_field_name: FL-610[0].Page2[0].PrintName[0]
+      type: text
+      label: Print Name
+      required: false
+      width: full
+  button:
+    title: Button
+    fields:
+    - name: button1_2
+      pdf_field_name: FL-610[0].Page2[0].Button1[0]
+      type: checkbox
+      label: Button
+      required: false
+      width: full
+    - name: button1_2
+      pdf_field_name: FL-610[0].#subform[2].Button1[0]
+      type: checkbox
+      label: Button
+      required: false
+      width: full
+    - name: button1_2
+      pdf_field_name: FL-610[0].#subform[2].Button1[1]
+      type: checkbox
+      label: Button
+      required: false
+      width: full
+    - name: button1_2
+      pdf_field_name: FL-610[0].#subform[2].Button1[2]
+      type: checkbox
+      label: Button
+      required: false
+      width: full
+  print:
+    title: Print
+    fields:
+    - name: print
+      pdf_field_name: FL-610[0].#subform[2].#area[0].Print[0]
+      type: checkbox
+      label: Print
+      required: false
+      width: full
+  save:
+    title: Save
+    fields:
+    - name: save
+      pdf_field_name: FL-610[0].#subform[2].#area[0].Save[0]
+      type: checkbox
+      label: Save
+      required: false
+      width: full
+  reset:
+    title: Reset
+    fields:
+    - name: reset
+      pdf_field_name: FL-610[0].#subform[2].#area[0].Reset[0]
+      type: checkbox
+      label: Reset
+      required: false
+      width: full
+  warning:
+    title: Warning
+    fields:
+    - name: warning
+      pdf_field_name: FL-610[0].#subform[2].#area[0].Warning[0]
+      type: checkbox
+      label: Warning
+      required: false
+      width: full

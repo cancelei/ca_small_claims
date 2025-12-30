@@ -1,0 +1,275 @@
+---
+form:
+  code: FL-820
+  title: FL 820 Form
+  description: ''
+  category: family_law/general
+  pdf_filename: fl820.pdf
+  fillable: true
+  instructions: ''
+sections:
+  general:
+    title: General
+    fields:
+    - name: atty1
+      pdf_field_name: Atty1
+      type: text
+      label: Atty
+      required: false
+      width: full
+    - name: atty2
+      pdf_field_name: Atty2
+      type: text
+      label: Atty
+      required: false
+      width: full
+    - name: atty3
+      pdf_field_name: Atty3
+      type: text
+      label: Atty
+      required: false
+      width: full
+    - name: atty4
+      pdf_field_name: Atty4
+      type: text
+      label: Atty
+      required: false
+      width: full
+    - name: tel
+      pdf_field_name: Tel
+      type: tel
+      label: Tel
+      required: false
+      width: half
+    - name: fax
+      pdf_field_name: Fax
+      type: tel
+      label: Fax
+      required: false
+      width: half
+    - name: fill_text92
+      pdf_field_name: FillText92
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: fill_text91
+      pdf_field_name: FillText91
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: county
+      pdf_field_name: Court.County
+      type: number
+      label: County
+      required: false
+      width: third
+    - name: street
+      pdf_field_name: Court.street
+      type: address
+      label: Street
+      required: false
+      width: full
+    - name: mailing
+      pdf_field_name: Court.mailing
+      type: address
+      label: Mailing
+      required: false
+      width: full
+    - name: branch
+      pdf_field_name: Court.branch
+      type: text
+      label: Branch
+      required: false
+      width: full
+    - name: cb
+      pdf_field_name: CB.0.0.0
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: cb_2
+      pdf_field_name: CB.0.0.1
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: cb_2
+      pdf_field_name: CB.0.1.0
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: cb_2
+      pdf_field_name: CB.0.1.1.0
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: cb_2
+      pdf_field_name: CB.0.1.1.0435634252
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: cb_2
+      pdf_field_name: CB.0.1.1.043563425222
+      type: text
+      label: Cb
+      required: false
+      width: full
+    - name: 043563425222q
+      pdf_field_name: CB.0.1.1.043563425222q
+      type: text
+      label: 043563425222q
+      required: false
+      width: full
+    - name: husband
+      pdf_field_name: Husband
+      type: text
+      label: Husband
+      required: false
+      width: full
+    - name: wife
+      pdf_field_name: Wife
+      type: text
+      label: Wife
+      required: false
+      width: full
+    - name: case_number
+      pdf_field_name: CaseNumber
+      type: text
+      label: Case Number
+      required: false
+      width: full
+      shared_key: case:number
+    - name: date
+      pdf_field_name: 06.date
+      type: date
+      label: Date
+      required: false
+      width: half
+    - name: date_2
+      pdf_field_name: Clerk.date
+      type: date
+      label: Date
+      required: false
+      width: half
+    - name: place
+      pdf_field_name: mailing.place
+      type: address
+      label: Place
+      required: false
+      width: full
+    - name: date_2
+      pdf_field_name: mailing.date
+      type: date
+      label: Date
+      required: false
+      width: half
+    - name: address
+      pdf_field_name: husband.address
+      type: address
+      label: Address
+      required: false
+      width: full
+    - name: address_2
+      pdf_field_name: wife.address
+      type: address
+      label: Address
+      required: false
+      width: full
+    - name: txt
+      pdf_field_name: txt.1
+      type: text
+      label: Txt
+      required: false
+      width: full
+    - name: declaration
+      pdf_field_name: txt.declaration
+      type: text
+      label: Declaration
+      required: false
+      width: full
+    - name: a
+      pdf_field_name: txt.5.a
+      type: text
+      label: A
+      required: false
+      width: full
+    - name: b_2
+      pdf_field_name: txt.5.b
+      type: text
+      label: B
+      required: false
+      width: full
+    - name: c
+      pdf_field_name: txt.5.c
+      type: text
+      label: C
+      required: false
+      width: full
+    - name: name1
+      pdf_field_name: name1
+      type: text
+      label: Name
+      required: false
+      width: full
+    - name: date_2
+      pdf_field_name: date
+      type: date
+      label: Date
+      required: false
+      width: half
+    - name: name_2
+      pdf_field_name: Sig.name
+      type: signature
+      label: Name
+      required: false
+      width: full
+    - name: date2
+      pdf_field_name: Date2
+      type: date
+      label: Date
+      required: false
+      width: half
+  city:
+    title: City
+    fields:
+    - name: zip
+      pdf_field_name: Court.City.zip
+      type: address
+      label: Zip
+      required: false
+      width: full
+  b:
+    title: B
+    fields:
+    - name: b
+      pdf_field_name: txt.3.b.1
+      type: text
+      label: B
+      required: false
+      width: full
+    - name: b_2
+      pdf_field_name: txt.3.b.2
+      type: text
+      label: B
+      required: false
+      width: full
+    - name: b_2
+      pdf_field_name: txt.3.b.3
+      type: text
+      label: B
+      required: false
+      width: full
+  former:
+    title: Former
+    fields:
+    - name: name
+      pdf_field_name: applicant.former.name
+      type: text
+      label: Name
+      required: false
+      width: full

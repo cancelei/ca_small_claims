@@ -1,0 +1,167 @@
+---
+form:
+  code: DV-175
+  title: DV 175 Form
+  description: ''
+  category: family_law/domestic_violence
+  pdf_filename: dv175.pdf
+  fillable: true
+  instructions: ''
+sections:
+  income_cb:
+    title: Income Cb
+    fields:
+    - name: income_cb3
+      pdf_field_name: DV-175[0].Page1[0].income_cb3[0]
+      type: currency
+      label: Income Cb
+      required: false
+      width: third
+    - name: income_cb1
+      pdf_field_name: DV-175[0].Page1[0].income_cb1[0]
+      type: currency
+      label: Income Cb
+      required: false
+      width: third
+    - name: income_cb
+      pdf_field_name: DV-175[0].Page1[0].income_cb[0]
+      type: currency
+      label: Income Cb
+      required: false
+      width: third
+    - name: income_cb_2
+      pdf_field_name: DV-175[0].Page1[0].income_cb[1]
+      type: currency
+      label: Income Cb
+      required: false
+      width: third
+    - name: income_cb2
+      pdf_field_name: DV-175[0].Page1[0].income_cb2[0]
+      type: currency
+      label: Income Cb
+      required: false
+      width: third
+    - name: income_cb4
+      pdf_field_name: DV-175[0].Page1[0].income_cb4[0]
+      type: currency
+      label: Income Cb
+      required: false
+      width: third
+  t:
+    title: T
+    fields:
+    - name: t186
+      pdf_field_name: DV-175[0].Page1[0].T186[0]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t186_2
+      pdf_field_name: DV-175[0].Page1[0].T186[1]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t13
+      pdf_field_name: DV-175[0].Page1[0].T13[4]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t13_2
+      pdf_field_name: DV-175[0].Page1[0].T13[5]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t186_2
+      pdf_field_name: DV-175[0].Page1[0].T186[2]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t186_2
+      pdf_field_name: DV-175[0].Page1[0].T186[3]
+      type: text
+      label: T
+      required: false
+      width: full
+    - name: t23
+      pdf_field_name: DV-175[0].Page1[0].#area[4].T23[0]
+      type: checkbox
+      label: T
+      required: false
+      width: full
+    - name: t14
+      pdf_field_name: DV-175[0].Page1[0].T14[0]
+      type: text
+      label: T
+      required: false
+      width: full
+  general:
+    title: General
+    fields:
+    - name: field
+      pdf_field_name: DV-175[0].Page1[0].#field[11]
+      type: text
+      label: "#Field"
+      required: false
+      width: full
+    - name: field_2
+      pdf_field_name: DV-175[0].Page1[0].#field[12]
+      type: text
+      label: "#Field"
+      required: false
+      width: full
+  right_caption:
+    title: Right Caption
+    fields:
+    - name: court_info_ft
+      pdf_field_name: DV-175[0].Page1[0].RightCaption[0].CourtInfo_ft[0]
+      type: text
+      label: Court Info Ft
+      required: false
+      width: full
+    - name: case_number_ft
+      pdf_field_name: DV-175[0].Page1[0].RightCaption[0].CaseNumber_ft[0]
+      type: text
+      label: Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+  print_bt:
+    title: Print Bt
+    fields:
+    - name: print_bt
+      pdf_field_name: DV-175[0].Page1[0].#area[4].Print_bt[0]
+      type: checkbox
+      label: Print Bt
+      required: false
+      width: full
+  save_bt:
+    title: Save Bt
+    fields:
+    - name: save_bt
+      pdf_field_name: DV-175[0].Page1[0].#area[4].Save_bt[0]
+      type: checkbox
+      label: Save Bt
+      required: false
+      width: full
+  reset_bt:
+    title: Reset Bt
+    fields:
+    - name: reset_bt
+      pdf_field_name: DV-175[0].Page1[0].#area[4].Reset_bt[0]
+      type: checkbox
+      label: Reset Bt
+      required: false
+      width: full
+  sig_date:
+    title: Sig Date
+    fields:
+    - name: sig_date
+      pdf_field_name: DV-175[0].Page1[0].SigDate[0]
+      type: date
+      label: Sig Date
+      required: false
+      width: half

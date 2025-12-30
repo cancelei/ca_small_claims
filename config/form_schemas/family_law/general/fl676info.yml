@@ -1,0 +1,25 @@
+---
+form:
+  code: FL-676INFO
+  title: FL 676INFO Form
+  description: ''
+  category: family_law/general
+  pdf_filename: fl676info.pdf
+  fillable: true
+  instructions: ''
+sections:
+  footer_sf:
+    title: Footer Sf
+    fields:
+    - name: print
+      pdf_field_name: FL-676-INFO[0].#pageSet[0].Page2[0].Footer_sf[0].FooterButtons[0].Print[0]
+      type: checkbox
+      label: Print
+      required: false
+      width: full
+    - name: save
+      pdf_field_name: FL-676-INFO[0].#pageSet[0].Page2[0].Footer_sf[0].FooterButtons[0].Save[0]
+      type: checkbox
+      label: Save
+      required: false
+      width: full

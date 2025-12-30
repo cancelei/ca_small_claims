@@ -1,0 +1,470 @@
+---
+form:
+  code: JV-418
+  title: JV 418 Form
+  description: ''
+  category: juvenile/general
+  pdf_filename: jv418.pdf
+  fillable: true
+  instructions: ''
+sections:
+  page_area:
+    title: Page Area
+    fields:
+    - name: print
+      pdf_field_name: JV-418[0].#pageSet[0].PageArea1[0].footerSub[0].#area[0].Print[0]
+      type: checkbox
+      label: Print
+      required: false
+      width: full
+    - name: save
+      pdf_field_name: JV-418[0].#pageSet[0].PageArea1[0].footerSub[0].#area[0].Save[0]
+      type: checkbox
+      label: Save
+      required: false
+      width: full
+    - name: reset
+      pdf_field_name: JV-418[0].#pageSet[0].PageArea1[0].footerSub[0].#area[0].Reset[0]
+      type: checkbox
+      label: Reset
+      required: false
+      width: full
+    - name: warning
+      pdf_field_name: JV-418[0].#pageSet[0].PageArea1[0].footerSub[0].#area[0].Warning[0]
+      type: checkbox
+      label: Warning
+      required: false
+      width: full
+    - name: court_link
+      pdf_field_name: JV-418[0].#pageSet[0].PageArea1[0].footerSub[0].CourtLink[0]
+      type: checkbox
+      label: Court Link
+      required: false
+      width: full
+  px_caption_sf:
+    title: Px Caption Sf
+    fields:
+    - name: childs_name_ft
+      pdf_field_name: JV-418[0].Page1[0].PxCaption_sf[0].TitlePartyName[0].ChildsName_ft[0]
+      type: text
+      label: Childs Name Ft
+      required: false
+      width: full
+    - name: case_number_ft
+      pdf_field_name: JV-418[0].Page1[0].PxCaption_sf[0].CaseNumber[0].CaseNumber_ft[0]
+      type: text
+      label: Case Number Ft
+      required: false
+      width: full
+      shared_key: case:number
+  list:
+    title: List
+    fields:
+    - name: item3a_cb
+      pdf_field_name: JV-418[0].Page1[0].List3[0].Li1[0].item3a_cb[0]
+      type: text
+      label: Item3a Cb
+      required: false
+      width: full
+    - name: item3were_cb
+      pdf_field_name: JV-418[0].Page1[0].List3[0].Li1[0].#area[0].item3were_cb[0]
+      type: text
+      label: Item3were Cb
+      required: false
+      width: full
+    - name: item3were_cb_2
+      pdf_field_name: JV-418[0].Page1[0].List3[0].Li1[0].#area[1].item3were_cb[1]
+      type: text
+      label: Item3were Cb
+      required: false
+      width: full
+    - name: item3b_cb
+      pdf_field_name: JV-418[0].Page1[0].List3[0].Li2[0].item3b_cb[0]
+      type: text
+      label: Item3b Cb
+      required: false
+      width: full
+    - name: item3bwere_cb
+      pdf_field_name: JV-418[0].Page1[0].List3[0].Li2[0].#area[0].item3bwere_cb[0]
+      type: text
+      label: Item3bwere Cb
+      required: false
+      width: full
+    - name: item3bwere_cb_2
+      pdf_field_name: JV-418[0].Page1[0].List3[0].Li2[0].#area[1].item3bwere_cb[1]
+      type: text
+      label: Item3bwere Cb
+      required: false
+      width: full
+    - name: item3bsuc_cb
+      pdf_field_name: JV-418[0].Page1[0].List3[0].Li2[0].#area[2].item3bsuc_cb[0]
+      type: text
+      label: Item3bsuc Cb
+      required: false
+      width: full
+    - name: item3bsuc_cb_2
+      pdf_field_name: JV-418[0].Page1[0].List3[0].Li2[0].#area[3].item3bsuc_cb[1]
+      type: text
+      label: Item3bsuc Cb
+      required: false
+      width: full
+    - name: item7a_cb
+      pdf_field_name: JV-418[0].Page1[0].List7[0].Li1[0].item7a_cb[0]
+      type: text
+      label: Item7a Cb
+      required: false
+      width: full
+    - name: item7b_cb
+      pdf_field_name: JV-418[0].Page1[0].List7[0].Li2[0].item7b_cb[0]
+      type: text
+      label: Item7b Cb
+      required: false
+      width: full
+    - name: item7b1_cb
+      pdf_field_name: JV-418[0].Page1[0].List7[0].Li2[0].List1[0].Li1[0].#area[0].item7b1_cb[0]
+      type: text
+      label: Item7b1 Cb
+      required: false
+      width: full
+    - name: item7b2_cb
+      pdf_field_name: JV-418[0].Page1[0].List7[0].Li2[0].List1[0].Li2[0].#area[0].item7b2_cb[0]
+      type: text
+      label: Item7b2 Cb
+      required: false
+      width: full
+    - name: item7b3_cb
+      pdf_field_name: JV-418[0].Page1[0].List7[0].Li2[0].List1[0].Li3[0].#area[0].item7b3_cb[0]
+      type: text
+      label: Item7b3 Cb
+      required: false
+      width: full
+    - name: item7b4_cb
+      pdf_field_name: JV-418[0].Page1[0].List7[0].Li2[0].List1[0].Li4[0].#area[0].item7b4_cb[0]
+      type: text
+      label: Item7b4 Cb
+      required: false
+      width: full
+    - name: item1_cb
+      pdf_field_name: JV-418[0].Page1[0].List1[0].Li1[0].item1_cb[0]
+      type: text
+      label: Item1 Cb
+      required: false
+      width: full
+    - name: item300a_cb
+      pdf_field_name: JV-418[0].Page1[0].List1[0].Li1[0].#area[0].item300a_cb[0]
+      type: text
+      label: Item300a Cb
+      required: false
+      width: full
+    - name: item300b_cb
+      pdf_field_name: JV-418[0].Page1[0].List1[0].Li1[0].#area[1].item300b_cb[0]
+      type: text
+      label: Item300b Cb
+      required: false
+      width: full
+    - name: item300c_cb
+      pdf_field_name: JV-418[0].Page1[0].List1[0].Li1[0].#area[2].item300c_cb[0]
+      type: text
+      label: Item300c Cb
+      required: false
+      width: full
+    - name: item300d_cb
+      pdf_field_name: JV-418[0].Page1[0].List1[0].Li1[0].#area[3].item300d_cb[0]
+      type: text
+      label: Item300d Cb
+      required: false
+      width: full
+    - name: item300e_cb
+      pdf_field_name: JV-418[0].Page1[0].List1[0].Li1[0].#area[4].item300e_cb[0]
+      type: text
+      label: Item300e Cb
+      required: false
+      width: full
+    - name: item300f_cb
+      pdf_field_name: JV-418[0].Page1[0].List1[0].Li1[0].#area[5].item300f_cb[0]
+      type: text
+      label: Item300f Cb
+      required: false
+      width: full
+    - name: item300g_cb
+      pdf_field_name: JV-418[0].Page1[0].List1[0].Li1[0].#area[6].item300g_cb[0]
+      type: text
+      label: Item300g Cb
+      required: false
+      width: full
+    - name: item300h_cb
+      pdf_field_name: JV-418[0].Page1[0].List1[0].Li1[0].#area[7].item300h_cb[0]
+      type: text
+      label: Item300h Cb
+      required: false
+      width: full
+    - name: item300i_cb
+      pdf_field_name: JV-418[0].Page1[0].List1[0].Li1[0].#area[8].item300i_cb[0]
+      type: text
+      label: Item300i Cb
+      required: false
+      width: full
+    - name: item300j_cb
+      pdf_field_name: JV-418[0].Page1[0].List1[0].Li1[0].#area[9].item300j_cb[0]
+      type: text
+      label: Item300j Cb
+      required: false
+      width: full
+    - name: item2_cb
+      pdf_field_name: JV-418[0].Page1[0].List2[0].Li1[0].item2_cb[0]
+      type: text
+      label: Item2 Cb
+      required: false
+      width: full
+    - name: isisnot_cb
+      pdf_field_name: JV-418[0].Page1[0].List2[0].Li1[0].isisnot_cb[0]
+      type: text
+      label: Isisnot Cb
+      required: false
+      width: full
+    - name: isisnot_cb_2
+      pdf_field_name: JV-418[0].Page1[0].List2[0].Li1[0].isisnot_cb[1]
+      type: text
+      label: Isisnot Cb
+      required: false
+      width: full
+    - name: item5mother_cb
+      pdf_field_name: JV-418[0].Page1[0].List5[0].Li1[0].#area[0].item5mother_cb[0]
+      type: text
+      label: Item5mother Cb
+      required: false
+      width: full
+    - name: item5biofather_cb
+      pdf_field_name: JV-418[0].Page1[0].List5[0].Li1[0].#area[1].item5biofather_cb[0]
+      type: text
+      label: Item5biofather Cb
+      required: false
+      width: full
+    - name: item5legguard_cb
+      pdf_field_name: JV-418[0].Page1[0].List5[0].Li1[0].#area[2].item5legguard_cb[0]
+      type: text
+      label: Item5legguard Cb
+      required: false
+      width: full
+    - name: item5prefather_cb
+      pdf_field_name: JV-418[0].Page1[0].List5[0].Li1[0].#area[3].item5prefather_cb[0]
+      type: text
+      label: Item5prefather Cb
+      required: false
+      width: full
+    - name: item5indiancus_cb
+      pdf_field_name: JV-418[0].Page1[0].List5[0].Li1[0].#area[4].item5indiancus_cb[0]
+      type: text
+      label: Item5indiancus Cb
+      required: false
+      width: full
+    - name: item5other_cb
+      pdf_field_name: JV-418[0].Page1[0].List5[0].Li1[0].#area[5].item5other_cb[0]
+      type: text
+      label: Item5other Cb
+      required: false
+      width: full
+    - name: text_field2
+      pdf_field_name: JV-418[0].Page1[0].List5[0].Li1[0].#area[5].TextField2[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: item6mother_cb
+      pdf_field_name: JV-418[0].Page1[0].List6[0].Li1[0].#area[0].item6mother_cb[0]
+      type: text
+      label: Item6mother Cb
+      required: false
+      width: full
+    - name: item6biofather_cb
+      pdf_field_name: JV-418[0].Page1[0].List6[0].Li1[0].#area[1].item6biofather_cb[0]
+      type: text
+      label: Item6biofather Cb
+      required: false
+      width: full
+    - name: item6legguard_cb
+      pdf_field_name: JV-418[0].Page1[0].List6[0].Li1[0].#area[2].item6legguard_cb[0]
+      type: text
+      label: Item6legguard Cb
+      required: false
+      width: full
+    - name: item6prefather_cb
+      pdf_field_name: JV-418[0].Page1[0].List6[0].Li1[0].#area[3].item6prefather_cb[0]
+      type: text
+      label: Item6prefather Cb
+      required: false
+      width: full
+    - name: item6indiancus_cb
+      pdf_field_name: JV-418[0].Page1[0].List6[0].Li1[0].#area[4].item6indiancus_cb[0]
+      type: text
+      label: Item6indiancus Cb
+      required: false
+      width: full
+    - name: item6other_cb
+      pdf_field_name: JV-418[0].Page1[0].List6[0].Li1[0].#area[5].item6other_cb[0]
+      type: text
+      label: Item6other Cb
+      required: false
+      width: full
+    - name: text_field2_2
+      pdf_field_name: JV-418[0].Page1[0].List6[0].Li1[0].#area[5].TextField2[0]
+      type: text
+      label: Text Field
+      required: false
+      width: full
+    - name: item8_cb
+      pdf_field_name: JV-418[0].Page1[0].List8[0].Li1[0].item8_cb[0]
+      type: text
+      label: Item8 Cb
+      required: false
+      width: full
+    - name: item9_cb
+      pdf_field_name: JV-418[0].Page1[0].List9[0].Li1[0].item9_cb[0]
+      type: text
+      label: Item9 Cb
+      required: false
+      width: full
+    - name: item10_cb
+      pdf_field_name: JV-418[0].Page1[0].List11[0].Li1[0].item10_cb[0]
+      type: text
+      label: Item10 Cb
+      required: false
+      width: full
+    - name: item11_ff
+      pdf_field_name: JV-418[0].Page1[0].List10[0].Li1[0].item11_ff[0]
+      type: text
+      label: Item11 Ff
+      required: false
+      width: full
+    - name: checkbx_cb
+      pdf_field_name: JV-418[0].Page1[0].List10[0].Li1[0].#area[0].checkbx_cb[0]
+      type: text
+      label: Checkbx Cb
+      required: false
+      width: full
+    - name: item4a_cb
+      pdf_field_name: JV-418[0].Page1[0].List4[0].Li1[0].item4a_cb[0]
+      type: text
+      label: Item4a Cb
+      required: false
+      width: full
+    - name: check_box_caption1
+      pdf_field_name: JV-418[0].Page1[0].List4[0].Li1[0].#area[0].CheckBoxCaption1[0]
+      type: checkbox
+      label: Check Box Caption
+      required: false
+      width: full
+    - name: check_box_caption2
+      pdf_field_name: JV-418[0].Page1[0].List4[0].Li1[0].#area[1].CheckBoxCaption2[0]
+      type: checkbox
+      label: Check Box Caption
+      required: false
+      width: full
+    - name: check_box_caption3
+      pdf_field_name: JV-418[0].Page1[0].List4[0].Li1[0].#area[2].CheckBoxCaption3[0]
+      type: checkbox
+      label: Check Box Caption
+      required: false
+      width: full
+    - name: check_box_caption4
+      pdf_field_name: JV-418[0].Page1[0].List4[0].Li1[0].CheckBoxCaption4[0]
+      type: checkbox
+      label: Check Box Caption
+      required: false
+      width: full
+    - name: rb2choices
+      pdf_field_name: JV-418[0].Page1[0].List4[0].Li1[0].RB2Choices[0]
+      type: text
+      label: Rb2 Choices
+      required: false
+      width: full
+    - name: fill_text109
+      pdf_field_name: JV-418[0].Page1[0].List4[0].Li1[0].FillText109[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: item4b_cb
+      pdf_field_name: JV-418[0].Page1[0].List4[0].Li2[0].item4b_cb[0]
+      type: text
+      label: Item4b Cb
+      required: false
+      width: full
+    - name: check_box_caption1_2
+      pdf_field_name: JV-418[0].Page1[0].List4[0].Li2[0].#area[0].CheckBoxCaption1[0]
+      type: checkbox
+      label: Check Box Caption
+      required: false
+      width: full
+    - name: check_box_caption2_2
+      pdf_field_name: JV-418[0].Page1[0].List4[0].Li2[0].#area[1].CheckBoxCaption2[0]
+      type: checkbox
+      label: Check Box Caption
+      required: false
+      width: full
+    - name: check_box_caption3_2
+      pdf_field_name: JV-418[0].Page1[0].List4[0].Li2[0].#area[2].CheckBoxCaption3[0]
+      type: checkbox
+      label: Check Box Caption
+      required: false
+      width: full
+    - name: check_box_caption4_2
+      pdf_field_name: JV-418[0].Page1[0].List4[0].Li2[0].CheckBoxCaption4[0]
+      type: checkbox
+      label: Check Box Caption
+      required: false
+      width: full
+    - name: rb2choices_2
+      pdf_field_name: JV-418[0].Page1[0].List4[0].Li2[0].RB2Choices[0]
+      type: text
+      label: Rb2 Choices
+      required: false
+      width: full
+    - name: fill_text109_2
+      pdf_field_name: JV-418[0].Page1[0].List4[0].Li2[0].FillText109[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
+    - name: item4c_cb
+      pdf_field_name: JV-418[0].Page1[0].List4[0].Li3[0].item4c_cb[0]
+      type: text
+      label: Item4c Cb
+      required: false
+      width: full
+    - name: check_box_caption1_2
+      pdf_field_name: JV-418[0].Page1[0].List4[0].Li3[0].#area[0].CheckBoxCaption1[0]
+      type: checkbox
+      label: Check Box Caption
+      required: false
+      width: full
+    - name: check_box_caption2_2
+      pdf_field_name: JV-418[0].Page1[0].List4[0].Li3[0].#area[1].CheckBoxCaption2[0]
+      type: checkbox
+      label: Check Box Caption
+      required: false
+      width: full
+    - name: check_box_caption3_2
+      pdf_field_name: JV-418[0].Page1[0].List4[0].Li3[0].#area[2].CheckBoxCaption3[0]
+      type: checkbox
+      label: Check Box Caption
+      required: false
+      width: full
+    - name: check_box_caption4_2
+      pdf_field_name: JV-418[0].Page1[0].List4[0].Li3[0].CheckBoxCaption4[0]
+      type: checkbox
+      label: Check Box Caption
+      required: false
+      width: full
+    - name: rb2choices_2
+      pdf_field_name: JV-418[0].Page1[0].List4[0].Li3[0].RB2Choices[0]
+      type: text
+      label: Rb2 Choices
+      required: false
+      width: full
+    - name: fill_text109_2
+      pdf_field_name: JV-418[0].Page1[0].List4[0].Li3[0].FillText109[0]
+      type: text
+      label: Fill Text
+      required: false
+      width: full
